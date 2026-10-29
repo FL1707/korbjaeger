@@ -1,7 +1,7 @@
 {
-    "aktualisiert":  "2026-10-29T15:45:00+01:00",
+    "aktualisiert":  "2026-10-29T16:30:00+01:00",
     "ausgabe":  "Nachmittagsausgabe",
-    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad. Im Tab â€žUpcomingâ€œ findest du jetzt alle Spiele der nÃ¤chsten Woche â€“ auch aus der Champions League. Dort ist ALBA mit 3 Siegen noch ungeschlagen!",
+    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad. Im Tab „Upcoming“ findest du jetzt alle Spiele der nächsten Woche – auch aus der Champions League. Dort ist ALBA mit 3 Siegen noch ungeschlagen!",
     "favoritenTeams":  [
                            "OKC",
                            "ALBA"
@@ -185,17 +185,17 @@
                      "tags":  [
 
                               ],
-                     "titel":  "Die WM-Heldinnen sind zurÃ¼ck",
+                     "titel":  "Die WM-Heldinnen sind zurück",
                      "teaser":  "Am 11. November spielen die deutschen Basketballerinnen in Hamburg gegen Ungarn.",
                      "text":  [
                                   "Im Sommer fand die Basketball-WM der Frauen in Berlin statt. Die deutsche Mannschaft spielte richtig stark und wurde am Ende Vierte.",
-                                  "Ein HÃ¶hepunkt war das Viertelfinale: Deutschland schlug Europameister Belgien mit 93:74. Mehr als 10.000 Fans waren in der Halle. Leonie Fiebich wurde danach ins All-Star-Team der WM gewÃ¤hlt. Dort stehen die fÃ¼nf besten Spielerinnen des Turniers.",
-                                  "Jetzt geht es um die Qualifikation fÃ¼r die Europameisterschaft 2027. Die Gegner heiÃŸen Ungarn, Portugal und DÃ¤nemark.",
+                                  "Ein Höhepunkt war das Viertelfinale: Deutschland schlug Europameister Belgien mit 93:74. Mehr als 10.000 Fans waren in der Halle. Leonie Fiebich wurde danach ins All-Star-Team der WM gewählt. Dort stehen die fünf besten Spielerinnen des Turniers.",
+                                  "Jetzt geht es um die Qualifikation für die Europameisterschaft 2027. Die Gegner heißen Ungarn, Portugal und Dänemark.",
                                   "Los geht es am Mittwoch, 11. November, um 19 Uhr in Hamburg gegen Ungarn. Leicht wird das nicht: Auch Ungarn stand bei der WM im Viertelfinale. Bundestrainer der Damen ist Olaf Lange."
                               ],
                      "fakten":  [
                                     "11.11., 19 Uhr: Deutschland gegen Ungarn in Hamburg",
-                                    "Gruppengegner: Ungarn, Portugal, DÃ¤nemark",
+                                    "Gruppengegner: Ungarn, Portugal, Dänemark",
                                     "WM 2026 in Berlin: Platz 4"
                                 ],
                      "quellen":  [
@@ -617,7 +617,18 @@
                            "gast":  "BKN",
                            "heimPkt":  125,
                            "gastPkt":  124,
-                           "info":  "Tatum (BOS) 40 Punkte"
+                           "info":  "Tatum (BOS) 40 Punkte",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Was für ein Krimi! Boston gewann gegen Brooklyn erst in der Verlängerung, und am Ende fehlte den Nets nur ein einziger Punkt.",
+                                                        "Für Brooklyn spielte auch der Deutsche Moritz Wagner und traf richtig gut."
+                                                    ],
+                                           "highlights":  [
+                                                              "Jayson Tatum machte 40 Punkte und 8 Assists für Boston",
+                                                              "Moritz Wagner kam auf 15 Punkte und traf 6 von 9 Würfen",
+                                                              "Michael Porter Jr. machte 27 Punkte und 12 Rebounds für Brooklyn"
+                                                          ]
+                                       }
                        },
                        {
                            "liga":  "NBA",
@@ -657,6 +668,130 @@
                            "heimPkt":  129,
                            "gastPkt":  136,
                            "info":  "Dončić (LAL) 41, Avdija (POR) 23"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "OKC",
+                           "gast":  "PHX",
+                           "heimPkt":  125,
+                           "gastPkt":  114,
+                           "info":  "Mitchell (OKC) 30, Gilgeous-Alexander 26",
+                           "bericht":  {
+                                           "text":  [
+                                                        "OKC gewann sein Heimspiel gegen die Phoenix Suns mit 125:114.",
+                                                        "Ajay Mitchell war wieder bester Werfer der Thunder. Auch Isaiah Hartenstein hatte einen starken Abend: Er verfehlte nur einen einzigen Wurf."
+                                                    ],
+                                           "highlights":  [
+                                                              "Ajay Mitchell machte 30 Punkte",
+                                                              "Shai Gilgeous-Alexander kam auf 26 Punkte",
+                                                              "Isaiah Hartenstein: 15 Punkte und 13 Rebounds, ein Double-Double. Er traf 6 von 7 Würfen",
+                                                              "Jalen Green machte 20 Punkte für Phoenix"
+                                                          ]
+                                       }
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "DEN",
+                           "gast":  "GSW",
+                           "heimPkt":  114,
+                           "gastPkt":  134,
+                           "info":  "Lendeborg (GSW) 31, Curry 24 (8 von 8)",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Nach drei Niederlagen zum Start feierten die Warriors in Denver ihren ersten Saisonsieg, und zwar deutlich mit 134:114.",
+                                                        "Stephen Curry verfehlte an diesem Abend keinen einzigen Wurf aus dem Feld. Rookie Yaxel Lendeborg war sogar noch erfolgreicher."
+                                                    ],
+                                           "highlights":  [
+                                                              "Stephen Curry: 24 Punkte, alle 8 Würfe getroffen, davon 3 Dreier",
+                                                              "Yaxel Lendeborg machte 31 Punkte und 12 Rebounds",
+                                                              "DeMar DeRozan war mit 21 Punkten bester Werfer von Denver"
+                                                          ]
+                                       }
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "CHA",
+                           "gast":  "WAS",
+                           "heimPkt":  110,
+                           "gastPkt":  103,
+                           "info":  "Miller (CHA) 39, Davis (WAS) 29",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Dennis Schröder und die Charlotte Hornets gewannen ihr Heimspiel gegen Washington mit 110:103.",
+                                                        "Der Mann des Abends war Brandon Miller mit 39 Punkten."
+                                                    ],
+                                           "highlights":  [
+                                                              "Brandon Miller machte 39 Punkte",
+                                                              "Dennis Schröder kam auf 8 Punkte und 5 Assists",
+                                                              "Anthony Davis machte 29 Punkte und 10 Rebounds für Washington"
+                                                          ]
+                                       }
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA · Verlängerung",
+                           "heim":  "CLE",
+                           "gast":  "MIN",
+                           "heimPkt":  127,
+                           "gastPkt":  125,
+                           "info":  "Edwards (MIN) 47, Mitchell (CLE) 26"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "BOS",
+                           "gast":  "CHI",
+                           "heimPkt":  134,
+                           "gastPkt":  99,
+                           "info":  "Pritchard (BOS) 28"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "MIA",
+                           "gast":  "DAL",
+                           "heimPkt":  109,
+                           "gastPkt":  113,
+                           "info":  "Flagg (DAL) 29, Antetokounmpo (MIA) Triple-Double 29/14/11"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "MIL",
+                           "gast":  "IND",
+                           "heimPkt":  110,
+                           "gastPkt":  102,
+                           "info":  "Herro (MIL) 23, Haliburton (IND) 22"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "HOU",
+                           "gast":  "ATL",
+                           "heimPkt":  120,
+                           "gastPkt":  110,
+                           "info":  "Şengün (HOU) 29"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-26",
+                           "runde":  "NBA",
+                           "heim":  "UTA",
+                           "gast":  "MEM",
+                           "heimPkt":  105,
+                           "gastPkt":  110,
+                           "info":  "George (UTA) 26"
                        },
                        {
                            "liga":  "BBL",
@@ -810,7 +945,7 @@
                        {
                            "liga":  "BCL",
                            "datum":  "2026-10-28",
-                           "runde":  "Champions League Â· Gruppe F",
+                           "runde":  "Champions League · Gruppe F",
                            "heim":  "VEC",
                            "gast":  "HOL",
                            "heimPkt":  81,
@@ -819,11 +954,56 @@
                        {
                            "liga":  "BCL",
                            "datum":  "2026-10-27",
-                           "runde":  "Champions League Â· Gruppe H",
+                           "runde":  "Champions League · Gruppe H",
                            "heim":  "AJB",
                            "gast":  "BON",
                            "heimPkt":  76,
                            "gastPkt":  74
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-28",
+                           "runde":  "Champions League · Gruppe A",
+                           "heim":  "RYT",
+                           "gast":  "TS",
+                           "heimPkt":  97,
+                           "gastPkt":  81
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-28",
+                           "runde":  "Champions League · Gruppe F",
+                           "heim":  "CHO",
+                           "gast":  "SPA",
+                           "heimPkt":  65,
+                           "gastPkt":  69
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-27",
+                           "runde":  "Champions League · Gruppe C",
+                           "heim":  "AEK",
+                           "gast":  "WGA",
+                           "heimPkt":  76,
+                           "gastPkt":  103
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-27",
+                           "runde":  "Champions League · Gruppe H",
+                           "heim":  "HRZ",
+                           "gast":  "FCP",
+                           "heimPkt":  74,
+                           "gastPkt":  86
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-27",
+                           "runde":  "Champions League · Gruppe E",
+                           "heim":  "REG",
+                           "gast":  "JUV",
+                           "heimPkt":  75,
+                           "gastPkt":  76
                        },
                        {
                            "liga":  "EL",
@@ -2572,12 +2752,12 @@
                     {
                         "begriff":  "Champions League",
                         "en":  "Champions League",
-                        "erklaerung":  "Ein Wettbewerb fÃ¼r Vereine aus ganz Europa. Im Basketball spielt dort zum Beispiel ALBA BERLIN. Die Euroleague ist noch etwas stÃ¤rker."
+                        "erklaerung":  "Ein Wettbewerb für Vereine aus ganz Europa. Im Basketball spielt dort zum Beispiel ALBA BERLIN. Die Euroleague ist noch etwas stärker."
                     },
                     {
                         "begriff":  "Qualifikation",
                         "en":  "qualification",
-                        "erklaerung":  "Spiele, in denen Teams sich die Teilnahme an einem groÃŸen Turnier wie einer WM oder EM erst verdienen mÃ¼ssen."
+                        "erklaerung":  "Spiele, in denen Teams sich die Teilnahme an einem großen Turnier wie einer WM oder EM erst verdienen müssen."
                     }
                 ],
     "teams":  {
@@ -3074,7 +3254,7 @@
                               "c2":  "#FFFFFF"
                           },
                   "UNI":  {
-                              "name":  "Unicaja MÃ¡laga",
+                              "name":  "Unicaja Málaga",
                               "kurz":  "UNI",
                               "c1":  "#00843D",
                               "c2":  "#FFFFFF"
@@ -3125,6 +3305,30 @@
                               "name":  "Ungarn",
                               "kurz":  "HUN",
                               "c1":  "#CE2939",
+                              "c2":  "#FFFFFF"
+                          },
+                  "RYT":  {
+                              "name":  "Rytas Vilnius",
+                              "kurz":  "RYT",
+                              "c1":  "#0B3D91",
+                              "c2":  "#FFFFFF"
+                          },
+                  "TS":  {
+                             "name":  "Trabzonspor",
+                             "kurz":  "TS",
+                             "c1":  "#7A1F3D",
+                             "c2":  "#7DC3E8"
+                         },
+                  "CHO":  {
+                              "name":  "Cholet Basket",
+                              "kurz":  "CHO",
+                              "c1":  "#C8102E",
+                              "c2":  "#FFFFFF"
+                          },
+                  "SPA":  {
+                              "name":  "Spartak Subotica",
+                              "kurz":  "SPA",
+                              "c1":  "#1E3A8A",
                               "c2":  "#FFFFFF"
                           }
               },
