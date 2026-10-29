@@ -1587,6 +1587,97 @@
                                     "ast":  0.0
                                 },
                       "notiz":  "Rookie aus Würzburg. Er wurde im Draft an Nummer 14 ausgewählt."
+                  },
+                  {
+                      "name":  "LeBron James",
+                      "team":  "PHI",
+                      "nummer":  "23",
+                      "position":  "Forward",
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  15.5,
+                                    "reb":  6.5,
+                                    "ast":  6.8
+                                },
+                      "notiz":  "Der beste Punktesammler der NBA-Geschichte. Seit dieser Saison spielt er für die Philadelphia 76ers."
+                  },
+                  {
+                      "name":  "Jalen Brunson",
+                      "team":  "NYK",
+                      "nummer":  "11",
+                      "position":  "Guard",
+                      "stats":  {
+                                    "spiele":  5,
+                                    "pkt":  25.8,
+                                    "reb":  2.4,
+                                    "ast":  5.0
+                                },
+                      "notiz":  "Der Anführer der Knicks. Beim Sieg in Chicago machte er gerade 38 Punkte."
+                  },
+                  {
+                      "name":  "Luka Dončić",
+                      "team":  "LAL",
+                      "nummer":  "77",
+                      "position":  "Guard",
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  36.0,
+                                    "reb":  6.8,
+                                    "ast":  8.3
+                                },
+                      "notiz":  "Macht im Moment die meisten Punkte pro Spiel in der ganzen NBA."
+                  },
+                  {
+                      "name":  "Anthony Edwards",
+                      "team":  "MIN",
+                      "nummer":  "5",
+                      "position":  "Guard",
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  33.3,
+                                    "reb":  4.8,
+                                    "ast":  3.5
+                                },
+                      "notiz":  "Platz 2 der Punkteliste. Nur Luka Dončić trifft im Moment noch öfter."
+                  },
+                  {
+                      "name":  "Nikola Jokić",
+                      "team":  "DEN",
+                      "nummer":  "15",
+                      "position":  "Center",
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  22.0,
+                                    "reb":  10.5,
+                                    "ast":  9.0
+                                },
+                      "notiz":  "Hat schon 200 Triple-Doubles geschafft. Nur Russell Westbrook hat mehr."
+                  },
+                  {
+                      "name":  "Victor Wembanyama",
+                      "team":  "SAS",
+                      "nummer":  "1",
+                      "position":  "Center",
+                      "stats":  {
+                                    "spiele":  5,
+                                    "pkt":  25.0,
+                                    "reb":  11.4,
+                                    "ast":  2.8
+                                },
+                      "notiz":  "Mit 2,24 Metern einer der größten Spieler der Liga. In Utah machte er 36 Punkte und 14 Rebounds."
+                  },
+                  {
+                      "name":  "Damian Lillard",
+                      "team":  "POR",
+                      "nummer":  "0",
+                      "position":  "Guard",
+                      "stats":  {
+                                    "spiele":  3,
+                                    "pkt":  21.7,
+                                    "reb":  4.3,
+                                    "ast":  4.0
+                                },
+                      "notiz":  "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
                   }
               ],
     "rekorde":  [
@@ -2395,5 +2486,65 @@
                               "c1":  "#E2001A",
                               "c2":  "#FFFFFF"
                           }
-              }
+              },
+    "auffaellig":  [
+                       {
+                           "art":  "spieler",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "titel":  "Stephen Curry",
+                           "team":  "GSW",
+                           "wert":  "44 Punkte",
+                           "grund":  "Er traf alle 16 Freiwürfe. Es war sein 46. Spiel mit mindestens 40 Punkten seit seinem 30. Geburtstag – das hat noch kein anderer NBA-Spieler geschafft.",
+                           "newsId":  "curry-44"
+                       },
+                       {
+                           "art":  "spieler",
+                           "liga":  "BCL",
+                           "datum":  "2026-10-28",
+                           "titel":  "Brandon Angel",
+                           "team":  "ALBA",
+                           "wert":  "10 von 10",
+                           "grund":  "Beim 103:100 gegen Bilbao ging jeder seiner Würfe aus dem Feld in den Korb. Am Ende hatte er 24 Punkte.",
+                           "newsId":  "alba-bilbao"
+                       },
+                       {
+                           "art":  "spieler",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "titel":  "Nikola Jokić",
+                           "team":  "DEN",
+                           "wert":  "200. Triple-Double",
+                           "grund":  "Gegen New Orleans schaffte er 21 Punkte, 13 Rebounds und 10 Assists. Nur Russell Westbrook hat in der NBA-Geschichte noch mehr Triple-Doubles.",
+                           "newsId":  "jokic-200"
+                       },
+                       {
+                           "art":  "spieler",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "titel":  "Bam Adebayo",
+                           "team":  "MIA",
+                           "wert":  "5.794 Rebounds",
+                           "grund":  "Neuer Rekord der Miami Heat: Kein Spieler des Teams hat jemals mehr Rebounds geholt. Er überholte Udonis Haslem.",
+                           "newsId":  "giannis-miami"
+                       },
+                       {
+                           "art":  "spiel",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-27",
+                           "heim":  "BOS",
+                           "gast":  "BKN",
+                           "wert":  "Nur 1 Punkt!",
+                           "grund":  "Krimi mit Verlängerung: Am Ende entschied ein einziger Punkt. Jayson Tatum machte für Boston 40 Punkte."
+                       },
+                       {
+                           "art":  "spiel",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "heim":  "UTA",
+                           "gast":  "SAS",
+                           "wert":  "Verlängerung",
+                           "grund":  "Erst in der Verlängerung fiel die Entscheidung für San Antonio. Victor Wembanyama war mit 36 Punkten und 14 Rebounds kaum zu stoppen."
+                       }
+                   ]
 }

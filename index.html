@@ -107,6 +107,16 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 .vs { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-weight: 800; }
 .vs .at { color: var(--ink-soft); font-weight: 700; font-size: 14px; }
 
+/* Aufgefallen: auffällige Spieler und besondere Spiele mit Begründung */
+.hl-card { text-align: left; border: 0; border-top: 6px solid var(--orange); padding: 14px 16px 16px; display: grid; gap: 8px; align-content: start; }
+.hl-card.spiel { border-top-color: var(--teal); }
+.hl-card .hl-who { display: flex; align-items: center; gap: 8px; font-weight: 800; line-height: 1.2; }
+.hl-card .hl-wert { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 40px; line-height: .95; color: var(--orange-ink); }
+.hl-card.spiel .hl-wert { color: var(--teal); }
+.hl-card .hl-why { margin: 0; font-size: 15px; }
+.hl-card .hl-why b { display: block; font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); }
+.hl-card .more { font-size: 13px; font-weight: 800; color: var(--orange-ink); }
+
 .badge { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; flex: none; font-family: var(--font-display); font-weight: 800; font-size: 14px; letter-spacing: .3px; border: 3px solid; }
 .badge.sm { width: 32px; height: 32px; font-size: 12px; border-width: 2px; }
 
@@ -404,6 +414,20 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   function nextCard(g) {
     return '<div class="card next-card"><div class="when">' + ligaPill(g.liga) + " &nbsp;" + fmtDate(g.zeit, !g.ohneZeit) + '</div><div class="vs">' + badge(g.gast, true) + "<span>" + esc(team(g.gast).name) + '</span><span class="at">bei</span>' + badge(g.heim, true) + "<span>" + esc(team(g.heim).name) + "</span></div>" + (g.info ? '<div class="teaser" style="font-size:14px">' + esc(g.info) + "</div>" : "") + "</div>";
   }
+  // Ziel beim Antippen: erst der passende Artikel, sonst das Spiel unter Ergebnisse
+  function hlTarget(h) {
+    if (h.newsId && allNews().some(n => n.id === h.newsId)) return ' data-news="' + esc(h.newsId) + '"';
+    const i = h.art === "spiel" ? (D.ergebnisse || []).findIndex(g => g.heim === h.heim && g.gast === h.gast && (!h.datum || g.datum === h.datum)) : -1;
+    return i >= 0 ? ' data-game="' + i + '"' : "";
+  }
+  function hlCard(h) {
+    const spiel = h.art === "spiel", target = hlTarget(h), tag = target ? "button" : "div";
+    const who = spiel ? badge(h.gast, true) + badge(h.heim, true) + "<span>" + esc(team(h.gast).name) + " – " + esc(team(h.heim).name) + "</span>"
+      : (h.team ? badge(h.team, true) : "") + "<span>" + esc(h.titel) + (h.team ? '<br><small style="color:var(--ink-soft)">' + esc(team(h.team).name) + "</small>" : "") + "</span>";
+    return "<" + tag + ' class="card hl-card' + (spiel ? " spiel" : "") + '"' + target + '><div class="meta">' + ligaPill(h.liga) + '<span class="pill">' + (spiel ? "Spiel" : "Spieler") + "</span>" + (h.datum ? "<span>" + fmtDate(h.datum + "T12:00:00") + "</span>" : "") + "</div>" +
+      '<div class="hl-who">' + who + "</div>" + (h.wert ? '<div class="hl-wert">' + esc(h.wert) + "</div>" : "") +
+      '<p class="hl-why"><b>Warum auffällig?</b>' + esc(h.grund) + "</p>" + (target ? '<span class="more">Mehr dazu ›</span>' : "") + "</" + tag + ">";
+  }
   function vHeute() {
     const now = Date.now();
     const nexts = (D.favoritenTeams || []).map(k => (D.spielplan || []).filter(g => (g.heim === k || g.gast === k) && new Date(g.zeit).getTime() > now - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit))[0]).filter(Boolean);
@@ -415,6 +439,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       '<p class="hello">' + esc(D.gruss || "Hallo Basketball-Fan!") + "</p>" +
       '<div class="hero-row"><div class="zahl"><span class="lbl">Zahl des Tages</span><span class="big">' + esc(z.zahl) + "</span><p>" + esc(z.text) + "</p>" + '<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle r="55" fill="none" stroke="#fff" stroke-width="6"/><path d="M-55 0H55M0-55V55M-36-42c28 25 28 59 0 84M36-42c-28 25-28 59 0 84" stroke="#fff" stroke-width="5" fill="none"/></svg></div>' +
       '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (nexts.length ? nexts.map(nextCard).join("") : '<div class="card next-card">Gerade keine Spiele geplant.</div>') + "</div></div>" +
+      ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
       (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div></section>" +
       (potw ? '<section class="sec"><div class="card potw"><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + "</p></div></div></section>" : "") +
@@ -490,7 +515,8 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   function vStars() {
     const st = D.stars || [];
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Deine Stars</h2><p>Durchschnitt pro Spiel in dieser Saison</p></div><div class="grid">' + st.filter(p => p.favorit).map(starCard).join("") + "</div></section>" +
-      '<section class="sec"><div class="sec-h"><h2>Deutsche in der NBA</h2></div><div class="grid">' + st.filter(p => !p.favorit).map(starCard).join("") + "</div></section>" +
+      '<section class="sec"><div class="sec-h"><h2>Deutsche in der NBA</h2></div><div class="grid">' + st.filter(p => !p.favorit && p.deutsch).map(starCard).join("") + "</div></section>" +
+      (st.some(p => !p.favorit && !p.deutsch) ? '<section class="sec"><div class="sec-h"><h2>Superstars der NBA</h2><p>Die Besten der Liga im Blick</p></div><div class="grid">' + st.filter(p => !p.favorit && !p.deutsch).map(starCard).join("") + "</div></section>" : "") +
       (D.rekorde && D.rekorde.length ? '<section class="sec"><div class="sec-h"><h2>Rekorde & Bestwerte</h2></div><div class="grid">' + D.rekorde.map(r => '<div class="card lex-item"><span class="en">' + esc(r.kategorie) + "</span><b>" + esc(r.wert) + "</b><p>" + esc(r.text) + "</p></div>").join("") + "</div></section>" : "") + "</div>";
   }
   function vQuiz() {
