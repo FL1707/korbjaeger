@@ -1,56 +1,86 @@
 {
-    "hinweis":  "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst, höchstens 500 Einträge.",
-    "news":  [
-                 {
-                     "id":  "hagen",
-                     "liga":  "BBL",
-                     "lang":  "de",
-                     "motiv":  "pokal",
-                     "datum":  "2026-10-25",
-                     "tags":  [
-
-                              ],
-                     "titel":  "Hagen feiert nach über zehn Jahren",
-                     "teaser":  "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
-                     "text":  [
-                                  "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
-                                  "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
-                                  "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
-                              ],
-                     "fakten":  [
-                                    "Hagen 88, Braunschweig 73",
-                                    "Erster BBL-Heimsieg seit über 10 Jahren"
-                                ],
-                     "quellen":  [
-                                     "easycredit-bbl.de"
-                                 ]
-                 },
-                 {
-                     "id":  "alba-form",
-                     "liga":  "BBL",
-                     "lang":  "de",
-                     "motiv":  "korb",
-                     "datum":  "2026-10-25",
-                     "tags":  [
-                                  "fav"
-                              ],
-                     "titel":  "ALBA ist in Form",
-                     "teaser":  "Sieg gegen Ulm in der Bundesliga und vorher den Pokalsieger Bamberg rausgeworfen.",
-                     "text":  [
-                                  "Nach einem holprigen Start kommt ALBA Berlin immer besser in Fahrt. Am Sonntag gewannen die Berliner in der Bundesliga mit 98:82 gegen ratiopharm ulm. Es war der dritte Sieg in Folge.",
-                                  "Bester Werfer war Griesel mit 19 Punkten. Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte.",
-                                  "Schon eine Woche vorher gab es einen großen Erfolg im Pokal. ALBA schlug den Titelverteidiger Bamberg mit 83:71, obwohl es zur Halbzeit noch 33:41 stand. 8.615 Fans waren in der Halle.",
-                                  "Im Pokal-Viertelfinale spielt ALBA im Dezember in Hagen. In der Bundesliga steht ALBA mit 3 Siegen und 3 Niederlagen auf Platz 12. Nächster Gegner sind am Sonntag die Telekom Baskets Bonn."
-                              ],
-                     "fakten":  [
-                                    "BBL: ALBA 98, Ulm 82",
-                                    "Pokal: ALBA 83, Bamberg 71",
-                                    "Trainer: Pedro Calles"
-                                ],
-                     "quellen":  [
-                                     "albaberlin.de",
-                                     "dpa"
-                                 ]
-                 }
-             ]
+  "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst, höchstens 500 Einträge.",
+  "news": [
+    {
+      "id": "bayern",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-27",
+      "tags": [],
+      "titel": "Bayern: Daheim top, in Europa schwer",
+      "teaser": "In der Bundesliga hat der FC Bayern noch kein Spiel verloren. In der Euroleague hakt es.",
+      "text": [
+        "Der FC Bayern München ist Tabellenführer der Bundesliga. Fünf Spiele, fünf Siege! Zuletzt gab es ein 96:77 gegen die Veolia Towers Hamburg.",
+        "In der Euroleague, der stärksten Liga Europas, läuft es dagegen nicht gut. Gegen den FC Barcelona verloren die Bayern knapp mit 84:88. Die Entscheidung fiel erst bei den Freiwürfen am Ende.",
+        "Bester Münchner war Miles Norris mit 17 Punkten. In der Euroleague-Tabelle steht Bayern mit 2 Siegen und 6 Niederlagen weit hinten.",
+        "Heute Abend um 20 Uhr spielen die Bayern in Belgrad gegen Crvena zvezda."
+      ],
+      "fakten": [
+        "BBL: 5 Siege, 0 Niederlagen",
+        "Euroleague: 2 Siege, 6 Niederlagen",
+        "Trainer: Anton Gavel"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "FCB",
+        "HAM",
+        "BAR",
+        "CZV"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "hagen",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-10-25",
+      "tags": [],
+      "titel": "Hagen feiert nach über zehn Jahren",
+      "teaser": "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
+      "text": [
+        "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
+        "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
+        "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
+      ],
+      "fakten": [
+        "Hagen 88, Braunschweig 73",
+        "Erster BBL-Heimsieg seit über 10 Jahren"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ]
+    },
+    {
+      "id": "alba-form",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-25",
+      "tags": [
+        "fav"
+      ],
+      "titel": "ALBA ist in Form",
+      "teaser": "Sieg gegen Ulm in der Bundesliga und vorher den Pokalsieger Bamberg rausgeworfen.",
+      "text": [
+        "Nach einem holprigen Start kommt ALBA Berlin immer besser in Fahrt. Am Sonntag gewannen die Berliner in der Bundesliga mit 98:82 gegen ratiopharm ulm. Es war der dritte Sieg in Folge.",
+        "Bester Werfer war Griesel mit 19 Punkten. Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte.",
+        "Schon eine Woche vorher gab es einen großen Erfolg im Pokal. ALBA schlug den Titelverteidiger Bamberg mit 83:71, obwohl es zur Halbzeit noch 33:41 stand. 8.615 Fans waren in der Halle.",
+        "Im Pokal-Viertelfinale spielt ALBA im Dezember in Hagen. In der Bundesliga steht ALBA mit 3 Siegen und 3 Niederlagen auf Platz 12. Nächster Gegner sind am Sonntag die Telekom Baskets Bonn."
+      ],
+      "fakten": [
+        "BBL: ALBA 98, Ulm 82",
+        "Pokal: ALBA 83, Bamberg 71",
+        "Trainer: Pedro Calles"
+      ],
+      "quellen": [
+        "albaberlin.de",
+        "dpa"
+      ]
+    }
+  ]
 }
