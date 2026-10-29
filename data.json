@@ -3598,5 +3598,142 @@
                            "Dirk Nowitzki Meister und Finals-MVP (2011)",
                            "Kobe Bryant 81 Punkte (2006)",
                            "LeBron James überholt Kareem (2023)"
+                       ],
+    "training":  [
+                     {
+                         "id":  "2026-10-29-korbleger",
+                         "titel":  "Der Korbleger im Rechts-Links-Rhythmus",
+                         "ziel":  "Du lernst den wichtigsten Wurf im Basketball: den Korbleger. Wer den Rhythmus kann, trifft auch im vollen Lauf sicher.",
+                         "ort":  "Freiplatz oder Halle",
+                         "dauer":  "15 Minuten",
+                         "material":  "Ball und Korb",
+                         "schritte":  [
+                                          "Stell dich rechts vom Korb auf, etwa vier große Schritte entfernt. Dribble mit der rechten Hand auf den Korb zu.",
+                                          "Nimm den Ball mit beiden Händen auf und mach dabei einen Schritt mit dem rechten Fuß.",
+                                          "Jetzt kommt ein zweiter, kürzerer Schritt mit dem linken Fuß. Von diesem Fuß springst du ab.",
+                                          "Zieh beim Absprung das rechte Knie nach oben und streck den rechten Arm zum Korb.",
+                                          "Leg den Ball mit der rechten Hand sanft ans Brett, oben in die Ecke des kleinen Vierecks. Von dort fällt er in den Korb."
+                                      ],
+                         "stufen":  {
+                                        "leicht":  "Ohne Dribbling: Starte mit dem Ball in den Händen, mach nur die zwei Schritte und wirf. 10 Versuche.",
+                                        "mittel":  "Mit Dribbling, erst langsam, dann im lockeren Lauf. Schaffe 10 Treffer.",
+                                        "schwer":  "Das Gleiche von links: Dribbling mit links, Schritte links–rechts, Wurf mit der linken Hand. 10 Treffer pro Seite."
+                                    },
+                         "fehler":  [
+                                        "Absprung vom falschen Fuß: Beim Korbleger von rechts springst du vom linken Fuß ab.",
+                                        "Zu weit weg abspringen: Der zweite Schritt soll kurz sein, damit du hoch statt weit springst.",
+                                        "Ball zu fest ans Brett: Leg ihn weich hin, als würdest du ein rohes Ei ablegen."
+                                    ],
+                         "profi":  {
+                                       "text":  "Auch NBA-Stars wie Shai Gilgeous-Alexander nutzen genau diesen Zwei-Schritt-Rhythmus – nur viel schneller. Schau beim nächsten Spiel mal auf ihre Füße!"
+                                   },
+                         "skizze":  {
+                                        "spieler":  [
+                                                        {
+                                                            "x":  82,
+                                                            "y":  64,
+                                                            "team":  "a",
+                                                            "label":  "Du"
+                                                        }
+                                                    ],
+                                        "ball":  {
+                                                     "x":  77,
+                                                     "y":  60
+                                                 },
+                                        "pfeile":  [
+                                                       {
+                                                           "von":  [
+                                                                       80,
+                                                                       59
+                                                                   ],
+                                                           "nach":  [
+                                                                        64,
+                                                                        31
+                                                                    ],
+                                                           "art":  "dribbel"
+                                                       },
+                                                       {
+                                                           "von":  [
+                                                                       63,
+                                                                       29
+                                                                   ],
+                                                           "nach":  [
+                                                                        56,
+                                                                        17
+                                                                    ],
+                                                           "art":  "lauf"
+                                                       }
+                                                   ]
+                                    }
+                     }
+                 ],
+    "schiri":  {
+                   "id":  "2026-10-29",
+                   "titel":  "Zwei Schritte nach dem Fangen",
+                   "regel":  "beide",
+                   "situation":  "Lukas läuft zum Korb. Sein Mitspieler passt ihm den Ball, und Lukas fängt ihn im Laufen. Danach macht er noch zwei Schritte, springt ab und legt den Ball in den Korb – ohne vorher zu dribbeln.",
+                   "frage":  "Was pfeifst du?",
+                   "antworten":  [
+                                     "Schrittfehler, weil er nicht gedribbelt hat",
+                                     "Nichts – zwei Schritte nach dem Fangen sind erlaubt",
+                                     "Foul von Lukas",
+                                     "Doppeldribbling"
+                                 ],
+                   "richtig":  1,
+                   "erklaerung":  "Wer den Ball im Laufen fängt oder sein Dribbling beendet, darf noch zwei Schritte machen und dann werfen oder passen. Erst ein dritter Schritt wäre ein Schrittfehler.",
+                   "unterschied":  "Hier sind sich NBA und FIBA einig: Bei beiden sind nach dem Fangen im Laufen zwei Schritte erlaubt.",
+                   "skizze":  {
+                                  "spieler":  [
+                                                  {
+                                                      "x":  28,
+                                                      "y":  62,
+                                                      "team":  "a",
+                                                      "label":  "M"
+                                                  },
+                                                  {
+                                                      "x":  72,
+                                                      "y":  48,
+                                                      "team":  "a",
+                                                      "label":  "L"
+                                                  },
+                                                  {
+                                                      "x":  46,
+                                                      "y":  30,
+                                                      "team":  "b",
+                                                      "label":  "V"
+                                                  }
+                                              ],
+                                  "ball":  {
+                                               "x":  31,
+                                               "y":  58
+                                           },
+                                  "pfeile":  [
+                                                 {
+                                                     "von":  [
+                                                                 32,
+                                                                 59
+                                                             ],
+                                                     "nach":  [
+                                                                  66,
+                                                                  44
+                                                              ],
+                                                     "art":  "pass"
+                                                 },
+                                                 {
+                                                     "von":  [
+                                                                 70,
+                                                                 44
+                                                             ],
+                                                     "nach":  [
+                                                                  57,
+                                                                  18
+                                                              ],
+                                                     "art":  "lauf"
+                                                 }
+                                             ]
+                              }
+               },
+    "schiriGestellt":  [
+                           "Zwei Schritte nach dem Fangen (Schrittfehler)"
                        ]
 }

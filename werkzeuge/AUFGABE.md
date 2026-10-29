@@ -29,6 +29,8 @@ Du aktualisierst die Basketball-News-App „Korbjäger“ für einen 10–12-jä
    - KOMPLETTER Spielplan der nächsten 7 Tage (für den Tab „Upcoming“): ALLE Spiele der NBA, der BBL, der Euroleague, der Basketball Champions League aus allen Gruppen und alle Spiele der deutschen Herren- und Damen-Nationalmannschaft; Länderspiele der deutschen Teams auch dann, wenn sie bis zu 35 Tage in der Zukunft liegen. Anwurfzeiten in deutscher Zeit mit korrektem Offset; bei unbekannter Uhrzeit `"ohneZeit": true`.
    - neueste Nachrichten
 
+   **Nie auf laufende Spiele warten** (keine `sleep`-Schleifen, keine Hintergrund-Wartezeiten): Ein Lauf wird in einem Zug bis zum Push erledigt. Spiele, die gerade laufen oder noch nicht fertig sind, kommen in der nächsten Ausgabe dazu; bis dahin bleiben sie im `spielplan`, wenn sie heute angefangen haben.
+
    Erfinde NIEMALS Ergebnisse, Zahlen, Termine oder Zitate. Was du nicht verifizieren kannst, lässt du weg oder behältst den letzten bekannten Stand.
 3. NBA-Statistik (`nba-stats.json` = laufende Saison, Tab „Statistik“ in der App). Quelle ist die öffentliche ESPN-Schnittstelle über das Skript `werkzeuge/nba-stats-espn.py`:
    a) `python3 werkzeuge/nba-stats-espn.py --nur-saison` gibt die laufende Saison aus (z. B. `2026-27`).
