@@ -210,6 +210,11 @@ tr.z-good td:first-child { border-left-color: var(--good); }
 tr.z-warn td:first-child { border-left-color: var(--warn); }
 tr.z-bad td:first-child { border-left-color: var(--bad); }
 tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
+/* Kompakte Zeilen im Tab „Tabellen“ */
+.stand td { padding-top: 4px; padding-bottom: 4px; line-height: 1.2; }
+.stand td:first-child { font-size: 17px; }
+.stand td.team div { gap: 8px; }
+.stand .badge.sm { width: 24px; height: 24px; font-size: 9px; border-width: 2px; }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; color: var(--ink-soft); font-weight: 700; }
 .legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
 
@@ -530,7 +535,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     if (!t) return '<div class="view"><div class="card empty">Keine Tabellen vorhanden.</div></div>';
     const zone = i => { for (const z of t.zonen || []) if (i + 1 >= z.von && i + 1 <= z.bis) return z.typ; return ""; };
     const segs = keys.map(k => '<button data-tbl="' + esc(k) + '" aria-pressed="' + (k === tblFilter) + '">' + esc(T[k].name) + "</button>").join("");
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + '</div><div class="card tbl-wrap"><table><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + '</div><div class="card tbl-wrap"><table class="stand"><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
       t.zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span></div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
       '</tbody></table></div><div class="legend">' + (t.zonen || []).map(z => '<span style="--c:var(--' + z.typ + ')">' + esc(z.label) + "</span>").join("") + "</div>" +
       (t.erklaerung ? '<p class="teaser">' + esc(t.erklaerung) + "</p>" : "") + "</section></div>";
