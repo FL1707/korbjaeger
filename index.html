@@ -397,7 +397,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   function gameCard(g) {
     const fav = isFav(g.heim) || isFav(g.gast);
     return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + esc(g.runde || "") + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
-      scoreRows(g) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + '<span class="more">' + (g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></button>";
+      scoreRows(g) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + '<span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></button>";
   }
   /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
   function autoBericht(g) {
@@ -412,12 +412,14 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   function openGame(i) {
     const g = (D.ergebnisse || [])[i]; if (!g) return;
     const b = g.bericht || autoBericht(g), w = g.heimPkt > g.gastPkt ? g.heim : g.gast;
-    $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="Spielbericht"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+    const n = g.newsId ? allNews().find(x => x.id === g.newsId) : null;
+    const hl = b.highlights && b.highlights.length ? '<div class="facts"><h4>' + (n ? "Highlights dieses Spiels" : "Highlights") + "</h4><ul>" + b.highlights.map(h => "<li>" + esc(h) + "</li>").join("") + "</ul></div>" : "";
+    // Gibt es einen Artikel zum Spiel, steht er direkt unter dem Endstand; sonst der Spielbericht bzw. die Kurzfassung.
+    $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="' + esc(n ? n.titel : "Spielbericht") + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
       '<div class="card box-score"><div class="game-h"><span>' + ligaPill(g.liga) + " &nbsp;" + esc(g.runde || "") + "</span><span>" + fmtDate(g.datum + "T12:00:00") + "</span></div>" + scoreRows(g) + "</div>" +
-      "<h1>" + esc(team(w).name) + " gewinnt " + esc(Math.max(g.heimPkt, g.gastPkt) + ":" + Math.min(g.heimPkt, g.gastPkt)) + '</h1><div class="body">' + (b.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" +
-      (b.highlights && b.highlights.length ? '<div class="facts"><h4>Highlights</h4><ul>' + b.highlights.map(h => "<li>" + esc(h) + "</li>").join("") + "</ul></div>" : "") +
-      (g.newsId && allNews().some(n => n.id === g.newsId) ? '<button class="btn" data-news="' + esc(g.newsId) + '">Den ganzen Artikel lesen</button>' : "") +
-      (g.bericht ? "" : '<p class="src">Kurzfassung aus dem Endergebnis. Einen ausführlichen Bericht gibt es bei den Spielen deiner Teams und der deutschen Spieler.</p>') + "</article></div>";
+      (n ? articleBody(n) + hl :
+        "<h1>" + esc(team(w).name) + " gewinnt " + esc(Math.max(g.heimPkt, g.gastPkt) + ":" + Math.min(g.heimPkt, g.gastPkt)) + '</h1><div class="body">' + (b.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" + hl +
+        (g.bericht ? "" : '<p class="src">Kurzfassung aus dem Endergebnis. Einen ausführlichen Bericht gibt es bei den Spielen deiner Teams und der deutschen Spieler.</p>')) + "</article></div>";
     document.body.style.overflow = "hidden";
     $("[data-close]").focus();
   }
@@ -529,13 +531,16 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     // Einen alten Sprung wie #liga-NBA entfernen, damit Neuladen nicht dorthin zurückführt
     if (location.hash && location.hash.slice(1) !== id) history.replaceState(null, "", location.pathname + location.search); store.set("tab", id); store.set("liga", ligaSel); setSide(false); render(); window.scrollTo(0, 0); }
 
+  function articleBody(n) {
+    return '<div class="meta">' + ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + "<span>" + fmtDate(n.datum) + "</span></div><h1>" + esc(n.titel) + '</h1><div class="body">' + (n.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" +
+      (n.fakten && n.fakten.length ? '<div class="facts"><h4>' + (n.lang === "en" ? "Quick facts" : "Das Wichtigste") + "</h4><ul>" + n.fakten.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul></div>" : "") +
+      (n.vokabeln && n.vokabeln.length ? '<div class="vocab"><h4>Vokabeln</h4><dl>' + n.vokabeln.map(v => "<dt>" + esc(v.en) + "</dt><dd>" + esc(v.de) + "</dd>").join("") + "</dl></div>" : "") +
+      '<p class="src">Zusammengefasst nach: ' + esc((n.quellen || []).join(", ")) + "</p>";
+  }
   function openNews(id) {
     const n = allNews().find(x => x.id === id); if (!n) return;
     $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="' + esc(n.titel) + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
-      '<div class="art">' + art(n.motiv, n.liga) + '</div><div class="meta">' + ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + "<span>" + fmtDate(n.datum) + "</span></div><h1>" + esc(n.titel) + '</h1><div class="body">' + (n.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" +
-      (n.fakten && n.fakten.length ? '<div class="facts"><h4>' + (n.lang === "en" ? "Quick facts" : "Das Wichtigste") + "</h4><ul>" + n.fakten.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul></div>" : "") +
-      (n.vokabeln && n.vokabeln.length ? '<div class="vocab"><h4>Vokabeln</h4><dl>' + n.vokabeln.map(v => "<dt>" + esc(v.en) + "</dt><dd>" + esc(v.de) + "</dd>").join("") + "</dl></div>" : "") +
-      '<p class="src">Zusammengefasst nach: ' + esc((n.quellen || []).join(", ")) + "</p></article></div>";
+      '<div class="art">' + art(n.motiv, n.liga) + "</div>" + articleBody(n) + "</article></div>";
     document.body.style.overflow = "hidden";
     $("[data-close]").focus();
   }
