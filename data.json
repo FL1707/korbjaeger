@@ -43,6 +43,18 @@
                      "quellen":  [
                                      "CBS Sports",
                                      "ESPN"
+                                 ],
+                     "teams":  [
+                                   "OKC",
+                                   "DAL"
+                               ],
+                     "spieler":  [
+                                     "Shai Gilgeous-Alexander",
+                                     "Isaiah Hartenstein",
+                                     "Ajay Mitchell",
+                                     "Cooper Flagg",
+                                     "Jalen Williams",
+                                     "Chet Holmgren"
                                  ]
                  },
                  {
@@ -71,6 +83,17 @@
                      "quellen":  [
                                      "ESPN",
                                      "CBS Sports"
+                                 ],
+                     "teams":  [
+                                   "OKC",
+                                   "HOU",
+                                   "CLE"
+                               ],
+                     "spieler":  [
+                                     "Shai Gilgeous-Alexander",
+                                     "Isaiah Hartenstein",
+                                     "Jalen Williams",
+                                     "Chet Holmgren"
                                  ]
                  },
                  {
@@ -97,6 +120,14 @@
                                 ],
                      "quellen":  [
                                      "albaberlin.de"
+                                 ],
+                     "teams":  [
+                                   "ALBA",
+                                   "BIL"
+                               ],
+                     "spieler":  [
+                                     "Brandon Angel",
+                                     "Jordan Ford"
                                  ]
                  },
                  {
@@ -124,6 +155,14 @@
                      "quellen":  [
                                      "easycredit-bbl.de",
                                      "albaberlin.de"
+                                 ],
+                     "teams":  [
+                                   "ALBA",
+                                   "BON",
+                                   "HAG"
+                               ],
+                     "spieler":  [
+
                                  ]
                  },
                  {
@@ -173,6 +212,14 @@
                      "quellen":  [
                                      "ESPN",
                                      "CBS Sports"
+                                 ],
+                     "teams":  [
+                                   "GSW",
+                                   "MIN"
+                               ],
+                     "spieler":  [
+                                     "Stephen Curry",
+                                     "Yaxel Lendeborg"
                                  ]
                  },
                  {
@@ -201,6 +248,20 @@
                      "quellen":  [
                                      "sport1.de",
                                      "ESPN"
+                                 ],
+                     "teams":  [
+                                   "ORL",
+                                   "TOR",
+                                   "CHA",
+                                   "DET",
+                                   "OKC",
+                                   "NYK"
+                               ],
+                     "spieler":  [
+                                     "Franz Wagner",
+                                     "Tristan da Silva",
+                                     "Dennis Schröder",
+                                     "Isaiah Hartenstein"
                                  ]
                  },
                  {
@@ -227,6 +288,13 @@
                                 ],
                      "quellen":  [
                                      "basketball-bund.de"
+                                 ],
+                     "teams":  [
+                                   "GER",
+                                   "HUN"
+                               ],
+                     "spieler":  [
+                                     "Leonie Fiebich"
                                  ]
                  },
                  {
@@ -266,6 +334,13 @@
                                   ],
                      "quellen":  [
                                      "ESPN"
+                                 ],
+                     "teams":  [
+                                   "DEN",
+                                   "NOP"
+                               ],
+                     "spieler":  [
+                                     "Nikola Jokić"
                                  ]
                  },
                  {
@@ -290,6 +365,14 @@
                                 ],
                      "quellen":  [
                                      "ESPN"
+                                 ],
+                     "teams":  [
+                                   "MIA",
+                                   "ATL"
+                               ],
+                     "spieler":  [
+                                     "Giannis Antetokounmpo",
+                                     "Bam Adebayo"
                                  ]
                  },
                  {
@@ -317,6 +400,15 @@
                      "quellen":  [
                                      "easycredit-bbl.de",
                                      "euroleaguebasketball.net"
+                                 ],
+                     "teams":  [
+                                   "FCB",
+                                   "HAM",
+                                   "BAR",
+                                   "CZV"
+                               ],
+                     "spieler":  [
+
                                  ]
                  },
                  {
@@ -341,6 +433,14 @@
                                 ],
                      "quellen":  [
                                      "ESPN"
+                                 ],
+                     "teams":  [
+                                   "SAS",
+                                   "SAC",
+                                   "UTA"
+                               ],
+                     "spieler":  [
+                                     "Victor Wembanyama"
                                  ]
                  },
                  {
@@ -365,6 +465,13 @@
                                 ],
                      "quellen":  [
                                      "ESPN"
+                                 ],
+                     "teams":  [
+                                   "WAS",
+                                   "CLE"
+                               ],
+                     "spieler":  [
+                                     "AJ Dybantsa"
                                  ]
                  },
                  {
@@ -393,6 +500,16 @@
                                      "sport1.de",
                                      "sportschau.de",
                                      "basketball-bund.de"
+                                 ],
+                     "teams":  [
+                                   "GER",
+                                   "LAT",
+                                   "POL",
+                                   "CRO"
+                               ],
+                     "spieler":  [
+                                     "Franz Wagner",
+                                     "Dennis Schröder"
                                  ]
                  }
              ],
@@ -2407,7 +2524,7 @@
                                     "reb":  9.6,
                                     "ast":  2.4
                                 },
-                      "notiz":  "Spielt bei deinem Lieblingsteam OKC und holt fast 10 Rebounds pro Spiel."
+                      "notiz":  "Der deutsche Center der Oklahoma City Thunder holt fast 10 Rebounds pro Spiel."
                   },
                   {
                       "name":  "Tristan da Silva",

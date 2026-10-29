@@ -227,6 +227,12 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .star-top h3 { font-size: 30px; font-weight: 800; }
 .star-top small { font-weight: 700; opacity: .9; font-size: 14px; }
 .star-top .flag { position: absolute; right: 12px; top: 12px; }
+/* Stern zum Markieren von Lieblingsteams und -spielern */
+.fav-star { border: 0; background: none; padding: 2px 6px; margin-left: auto; font-size: 22px; line-height: 1; color: var(--ink-soft); cursor: pointer; flex: none; }
+.fav-star.on { color: #F5B400; }
+.star-top .fav-star { position: absolute; right: 8px; bottom: 6px; font-size: 26px; color: inherit; opacity: .85; }
+.star-top .fav-star.on { color: #FFD43B; opacity: 1; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
+.link { border: 0; background: none; padding: 0; font: inherit; font-weight: 800; color: var(--orange-ink); text-decoration: underline; cursor: pointer; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 16px 6px; gap: 10px; }
 .stat { display: grid; gap: 4px; }
 .stat .v { font-family: var(--font-display); font-weight: 800; font-size: 36px; line-height: 1; font-variant-numeric: tabular-nums; }
@@ -365,7 +371,21 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   }
   function team(k) { return (D.teams && D.teams[k]) || { name: k, kurz: k, c1: "#4E5E78", c2: "#FFFFFF" }; }
   function badge(k, sm) { const t = team(k); return '<span class="badge' + (sm ? " sm" : "") + '" style="background:' + t.c1 + ';color:' + t.c2 + ';border-color:' + t.c2 + '" aria-hidden="true">' + esc(t.kurz || k) + '</span>'; }
-  const isFav = k => (D.favoritenTeams || []).includes(k);
+  // Lieblingsteams und -spieler: per Stern gewählt, nur auf diesem Gerät gespeichert
+  let favT = store.get("favTeams", []), favP = store.get("favSpieler", []);
+  const isFav = k => favT.includes(k), isFavP = n => favP.includes(n);
+  function toggleFav(teamKey, spieler) {
+    const flip = (l, v) => l.includes(v) ? l.filter(x => x !== v) : l.concat(v);
+    if (teamKey) { favT = flip(favT, teamKey); store.set("favTeams", favT); }
+    if (spieler) { favP = flip(favP, spieler); store.set("favSpieler", favP); }
+  }
+  const starBtn = (attr, val, on, name) => '<button class="fav-star' + (on ? " on" : "") + '" ' + attr + '="' + esc(val) + '" aria-pressed="' + on + '" aria-label="' + esc(name) + (on ? " ist dein Favorit" : " als Favorit markieren") + '">' + (on ? "★" : "☆") + "</button>";
+  // Artikel gehört zu einem Favoriten: über die Felder teams/spieler, sonst über den Namen im Text
+  function newsFav(n) {
+    if ((n.teams || []).some(isFav) || (n.spieler || []).some(isFavP)) return true;
+    const txt = [n.titel, n.teaser].concat(n.text || []).join(" ");
+    return favP.some(p => txt.includes(p)) || favT.some(k => txt.includes(team(k).name));
+  }
   function ligaPill(l) { const x = LIGA[l] || ["", l]; return '<span class="pill ' + x[0] + '">' + esc(x[1]) + '</span>'; }
 
   /* Selbst gezeichnete Bildmotive – keine fremden Fotos */
@@ -403,7 +423,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 
   /* ---------- Ansichten ---------- */
   function newsCard(n, top) {
-    const pills = ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + ((n.tags || []).includes("fav") ? '<span class="pill fav">Dein Team</span>' : "");
+    const pills = ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + (newsFav(n) ? '<span class="pill fav">★ Dein Favorit</span>' : "");
     if (top) return '<button class="card news-top" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
     return '<button class="card news-card" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
   }
@@ -426,8 +446,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   }
   function vHeute() {
     const now = Date.now();
-    const nexts = (D.favoritenTeams || []).map(k => (D.spielplan || []).filter(g => (g.heim === k || g.gast === k) && new Date(g.zeit).getTime() > now - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit))[0]).filter(Boolean);
-    const news = D.news || [];
+    const nexts = favT.map(k => (D.spielplan || []).filter(g => (g.heim === k || g.gast === k) && new Date(g.zeit).getTime() > now - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit))[0]).filter((g, i, l) => g && l.indexOf(g) === i);
+    // Artikel zu Lieblingsteams und -spielern stehen oben, sonst bleibt die Reihenfolge der Redaktion
+    const news = (D.news || []).filter(newsFav).concat((D.news || []).filter(n => !newsFav(n)));
     const alt = allNews().length - news.length;
     const z = D.zahlDesTages || {};
     const eng = (D.lexikon || []).filter(x => x.en).slice(0, 8);
@@ -435,7 +456,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     return '<div class="view">' +
       '<p class="hello">' + esc(D.gruss || "Hallo Basketball-Fan!") + "</p>" +
       '<div class="hero-row"><div class="zahl"><span class="lbl">Zahl des Tages</span><span class="big">' + esc(z.zahl) + "</span><p>" + esc(z.text) + "</p>" + '<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle r="55" fill="none" stroke="#fff" stroke-width="6"/><path d="M-55 0H55M0-55V55M-36-42c28 25 28 59 0 84M36-42c-28 25-28 59 0 84" stroke="#fff" stroke-width="5" fill="none"/></svg></div>' +
-      '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (nexts.length ? nexts.map(nextCard).join("") : '<div class="card next-card">Gerade keine Spiele geplant.</div>') + "</div></div>" +
+      '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (nexts.length ? nexts.map(nextCard).join("") : '<div class="card next-card">' + (favT.length ? "Gerade keine Spiele geplant." : 'Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.') + "</div>") + "</div></div>" +
       ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
       (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div>" +
@@ -520,7 +541,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const zone = i => { for (const z of t.zonen || []) if (i + 1 >= z.von && i + 1 <= z.bis) return z.typ; return ""; };
     const segs = keys.map(k => '<button data-tbl="' + esc(k) + '" aria-pressed="' + (k === tblFilter) + '">' + esc(T[k].name) + "</button>").join("");
     const table = zeilen => '<div class="card tbl-wrap"><table class="stand"><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
-      zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span></div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
+      zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span>" + starBtn("data-fav-team", r.team, isFav(r.team), team(r.team).name) + "</div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
       "</tbody></table></div>";
     // Wettbewerbe mit Gruppen (z. B. Champions League): alle Gruppen untereinander auf einer Seite
     const body = t.gruppen ? t.gruppen.map(g => '<h3 class="grp-h">' + esc(g.name) + "</h3>" + table(g.zeilen || [])).join("") : table(t.zeilen || []);
@@ -530,14 +551,19 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   function starCard(p) {
     const t = team(p.team), s = p.stats || {};
     const st = (v, k, max) => '<div class="stat"><span class="v">' + (v == null ? "–" : String(v).replace(".", ",")) + '</span><span class="k">' + k + '</span><div class="bar"><i style="width:' + Math.min(100, (v || 0) / max * 100) + '%"></i></div></div>';
-    return '<div class="card star"><div class="star-top" style="background:' + t.c1 + ";color:" + t.c2 + '"><span class="jersey">' + esc(p.nummer || p.name.split(" ").map(w => w[0]).join("").slice(0, 2)) + '</span><div><h3>' + esc(p.name) + "</h3><small>" + esc(t.name) + " · " + esc(p.position || "") + "</small></div>" + (p.deutsch ? '<svg class="flag" width="30" height="20" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>' : "") + "</div>" +
+    return '<div class="card star"><div class="star-top" style="background:' + t.c1 + ";color:" + t.c2 + '"><span class="jersey">' + esc(p.nummer || p.name.split(" ").map(w => w[0]).join("").slice(0, 2)) + '</span><div><h3>' + esc(p.name) + "</h3><small>" + esc(t.name) + " · " + esc(p.position || "") + "</small></div>" + starBtn("data-fav-spieler", p.name, isFavP(p.name), p.name) + (p.deutsch ? '<svg class="flag" width="30" height="20" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>' : "") + "</div>" +
       '<div class="stats">' + st(s.pkt, "Punkte", 35) + st(s.reb, "Rebounds", 15) + st(s.ast, "Assists", 12) + "</div><p>" + (s.spiele ? s.spiele + " Spiele in dieser Saison. " : "") + esc(p.notiz || "") + "</p></div>";
   }
   function vStars() {
     const st = D.stars || [];
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Deine Stars</h2><p>Durchschnitt pro Spiel in dieser Saison</p></div><div class="grid">' + st.filter(p => p.favorit).map(starCard).join("") + "</div></section>" +
-      '<section class="sec"><div class="sec-h"><h2>Deutsche in der NBA</h2></div><div class="grid">' + st.filter(p => !p.favorit && p.deutsch).map(starCard).join("") + "</div></section>" +
-      (st.some(p => !p.favorit && !p.deutsch) ? '<section class="sec"><div class="sec-h"><h2>Superstars der NBA</h2><p>Die Besten der Liga im Blick</p></div><div class="grid">' + st.filter(p => !p.favorit && !p.deutsch).map(starCard).join("") + "</div></section>" : "") +
+    // Mit Stern markierte Spieler, die keine eigene Karte haben, bekommen eine aus der NBA-Statistik
+    const ix = S ? Object.fromEntries(S.spalten.map((k, i) => [k, i])) : {};
+    const ausStat = name => { const r = S && S.spieler.find(x => x[0] === name); return r ? { name, team: r[ix.team], stats: { pkt: r[ix.pkt], reb: r[ix.reb], ast: r[ix.ast], spiele: r[ix.sp] } } : null; };
+    const meine = favP.map(n => st.find(p => p.name === n) || ausStat(n)).filter(Boolean);
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Deine Stars</h2><p>Durchschnitt pro Spiel in dieser Saison</p></div>' +
+      (meine.length ? '<div class="grid">' + meine.map(starCard).join("") + "</div>" : '<div class="card empty">Tippe auf den Stern ☆ bei einem Spieler, dann erscheint er hier. Unter <button class="link" data-tab="statistik">Statistik</button> findest du alle NBA-Spieler.</div>') + "</section>" +
+      '<section class="sec"><div class="sec-h"><h2>Deutsche in der NBA</h2></div><div class="grid">' + st.filter(p => !isFavP(p.name) && p.deutsch).map(starCard).join("") + "</div></section>" +
+      (st.some(p => !isFavP(p.name) && !p.deutsch) ? '<section class="sec"><div class="sec-h"><h2>Superstars der NBA</h2><p>Die Besten der Liga im Blick</p></div><div class="grid">' + st.filter(p => !isFavP(p.name) && !p.deutsch).map(starCard).join("") + "</div></section>" : "") +
       (D.rekorde && D.rekorde.length ? '<section class="sec"><div class="sec-h"><h2>Rekorde & Bestwerte</h2></div><div class="grid">' + D.rekorde.map(r => '<div class="card lex-item"><span class="en">' + esc(r.kategorie) + "</span><b>" + esc(r.wert) + "</b><p>" + esc(r.text) + "</p></div>").join("") + "</div></section>" : "") + "</div>";
   }
   function vQuiz() {
@@ -572,7 +598,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const saisons = akt && SX.length ? '<label class="st-saison">Saison <select id="st-saison" aria-label="Saison wählen">' + [""].concat(SX).map(x => '<option value="' + x + '"' + (x === stSaison ? " selected" : "") + ">" + (x ? esc(x) : esc(akt.saison) + " (aktuell)") + "</option>").join("") + "</select></label>" : "";
     if (!S) return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2></div>' + saisons + '<div class="card empty">Die NBA-Statistiken werden geladen …</div></section></div>';
     const idx = {}; S.spalten.forEach((k, i) => { idx[k] = i; });
-    const st = D.stars || [], de = new Set(st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(st.filter(p => p.favorit).map(p => p.name));
+    const st = D.stars || [], de = new Set(st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(favP);
     const q = stQuery.trim().toLowerCase(), k = idx[stSort];
     const rows = S.spieler.filter(r => (stFilter === "alle" || (stFilter === "de" ? de.has(r[0]) : fav.has(r[0]))) && (!q || (r[0] + " " + r[1] + " " + team(r[1]).name).toLowerCase().includes(q)))
       .sort((a, b) => stDir * ((a[k] == null ? -1e9 : a[k]) - (b[k] == null ? -1e9 : b[k])));
@@ -587,7 +613,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       '<input class="search" id="stq" type="search" placeholder="Spieler oder Team suchen, z. B. Curry" value="' + esc(stQuery) + '" aria-label="Spieler suchen">' +
       '<div class="card tbl-wrap"><table class="stbl"><thead><tr><th class="nm">Spieler</th>' +
       cols.map(c => '<th><button class="sth" data-st-sort="' + c[0] + '" aria-pressed="' + (c[0] === stSort) + '" title="' + esc(c[2]) + '">' + esc(c[1]) + (c[0] === stSort ? (stDir < 0 ? " ▾" : " ▴") : "") + "</button></th>").join("") + "</tr></thead><tbody>" +
-      (show.length ? show.map((r, i) => '<tr class="' + (fav.has(r[0]) ? "fav" : "") + '"><td class="nm"><div><span class="rk">' + (i + 1) + "</span>" + badge(r[1], true) + "<span><b>" + esc(r[0]) + (de.has(r[0]) ? flag : "") + "</b><small>" + esc(team(r[1]).name) + "</small></span></div></td>" +
+      (show.length ? show.map((r, i) => '<tr class="' + (fav.has(r[0]) ? "fav" : "") + '"><td class="nm"><div><span class="rk">' + (i + 1) + "</span>" + badge(r[1], true) + "<span><b>" + esc(r[0]) + (de.has(r[0]) ? flag : "") + "</b><small>" + esc(team(r[1]).name) + "</small></span>" + starBtn("data-fav-spieler", r[0], fav.has(r[0]), r[0]) + "</div></td>" +
         cols.map(c => "<td" + (c[0] === stSort ? ' class="on"' : "") + ">" + stFmt(r[idx[c[0]]], c[0]) + "</td>").join("") + "</tr>").join("") : '<tr><td class="nm">Keinen Spieler gefunden.</td></tr>') +
       "</tbody></table></div>" +
       (rows.length > show.length ? '<button class="btn" data-st-more>Mehr anzeigen (' + (rows.length - show.length) + " weitere)</button>" : "") +
@@ -649,7 +675,8 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 
   document.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
-    if (b.dataset.tab) go(b.dataset.tab);
+    if (b.dataset.favTeam || b.dataset.favSpieler) { toggleFav(b.dataset.favTeam, b.dataset.favSpieler); render(); }
+    else if (b.dataset.tab) go(b.dataset.tab);
     else if (b.dataset.liga) { ligaSel = b.dataset.liga; go("liga"); }
     else if (b.dataset.gotoRes) { resFilter = b.dataset.gotoRes; go("ergebnisse"); }
     else if (b.dataset.gotoUp) { upFilter = b.dataset.gotoUp; go("upcoming"); }
@@ -697,7 +724,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     render();
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
     fetch("archiv.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(a => { if (a && Array.isArray(a.news)) { A = a.news; render(); } }).catch(() => {});
-    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (current === "statistik") render(); } }).catch(() => {});
+    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (current === "statistik" || current === "stars") render(); } }).catch(() => {});
     fetch("nba-stats-saisons.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(x => { if (x && Array.isArray(x.vergangen)) { SX = x.vergangen; if (current === "statistik") render(); } }).catch(() => {});
   }).catch(() => { $("#main").innerHTML = '<div class="card empty">Die News konnten gerade nicht geladen werden. Prüfe das Internet und lade die Seite neu.</div>'; $("#stamp").innerHTML = "<strong>Offline</strong>"; });
 })();
