@@ -434,7 +434,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 
   /* ---------- Ansichten ---------- */
   function newsCard(n, top) {
-    const pills = ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + (newsFav(n) ? '<span class="pill fav">★ Dein Favorit</span>' : "");
+    const pills = ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "");
     if (top) return '<button class="card news-top" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
     return '<button class="card news-card" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
   }
