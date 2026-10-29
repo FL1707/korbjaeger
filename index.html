@@ -297,6 +297,10 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .liga-head .seg button { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.45); color: #fff; }
 
 .empty { padding: 40px 20px; text-align: center; color: var(--ink-soft); font-weight: 700; }
+.archiv-btn { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; margin-top: 14px; padding: 16px 20px; text-align: left; font: inherit; color: var(--ink); cursor: pointer; }
+.archiv-btn b { display: block; font-size: 19px; font-weight: 800; }
+.archiv-btn small { display: block; font-weight: 700; font-size: 14px; color: var(--ink-soft); }
+.archiv-btn .pfeil { font-size: 32px; font-weight: 800; color: var(--orange-ink); line-height: 1; }
 .foot { font-size: 13px; color: var(--ink-soft); text-align: center; }
 @media (prefers-reduced-motion: no-preference) { .view { animation: in .25s ease-out; } @keyframes in { from { transform: translateY(6px); opacity: .6; } } }
 </style>
@@ -422,6 +426,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const now = Date.now();
     const nexts = (D.favoritenTeams || []).map(k => (D.spielplan || []).filter(g => (g.heim === k || g.gast === k) && new Date(g.zeit).getTime() > now - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit))[0]).filter(Boolean);
     const news = D.news || [];
+    const alt = allNews().length - news.length;
     const z = D.zahlDesTages || {};
     const eng = (D.lexikon || []).filter(x => x.en).slice(0, 8);
     const potw = D.spielerDerWoche;
@@ -431,7 +436,8 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (nexts.length ? nexts.map(nextCard).join("") : '<div class="card next-card">Gerade keine Spiele geplant.</div>') + "</div></div>" +
       ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
-      (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div></section>" +
+      (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div>" +
+      (alt ? '<button class="card archiv-btn" data-liga="ALLE"><span><b>Ältere Artikel</b><small>' + alt + (alt === 1 ? " Geschichte" : " Geschichten") + " im Archiv. Nichts geht verloren!</small></span><span class=\"pfeil\" aria-hidden=\"true\">›</span></button>" : "") + "</section>" +
       (potw ? '<section class="sec"><div class="card potw"><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + "</p></div></div></section>" : "") +
       (eng.length ? '<section class="eng-box"><h3>Englisch-Ecke</h3><div>So sagen die NBA-Reporter in den USA:</div><div class="eng-list">' + eng.map(x => "<span><b>" + esc(x.en) + "</b> = " + esc(x.begriff) + "</span>").join("") + "</div></section>" : "") +
       '<p class="foot">Alle Texte wurden für dich zusammengefasst. Quellen stehen unter jedem Artikel.</p></div>';
