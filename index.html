@@ -208,6 +208,41 @@ button.game { text-align: left; border: 0; width: 100%; }
 .serie .sc { font-family: var(--font-display); font-size: 24px; font-weight: 800; color: var(--ink-soft); min-width: 22px; text-align: right; }
 .serie .row.win .tn { font-weight: 800; } .serie .row.win .sc { color: var(--ink); }
 .serie-f { margin: 2px 0 0; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
+/* Spielfeld-Skizze */
+.feld { margin: 4px 0; max-width: 420px; }
+.feld svg { width: 100%; height: auto; display: block; border-radius: 14px; }
+.f-boden { fill: color-mix(in srgb, var(--court) 30%, var(--surface)); stroke: none; }
+.f-linie * { fill: none; stroke: color-mix(in srgb, var(--ink) 55%, transparent); stroke-width: .7; }
+.feld line { stroke: var(--ink); stroke-width: .9; stroke-linecap: round; }
+.f-spitze { fill: var(--ink); }
+.f-sp circle { stroke: #fff; stroke-width: .6; }
+.f-sp.a circle { fill: #1D6FD8; } .f-sp.b circle { fill: #D9364A; }
+.f-sp text { fill: #fff; font-size: 4.4px; font-weight: 800; text-anchor: middle; font-family: inherit; }
+.f-ball { fill: var(--orange); stroke: #7A3300; stroke-width: .5; }
+.feld figcaption { display: flex; gap: 12px; flex-wrap: wrap; font-size: 13px; font-weight: 700; color: var(--ink-soft); margin-top: 6px; }
+.f-leg::before { content: ""; display: inline-block; vertical-align: middle; margin-right: 5px; }
+.f-leg.a::before, .f-leg.b::before { width: 11px; height: 11px; border-radius: 50%; background: #1D6FD8; }
+.f-leg.b::before { background: #D9364A; }
+.f-leg.l-lauf::before { width: 16px; border-top: 2px solid var(--ink); }
+.f-leg.l-pass::before { width: 16px; border-top: 2px dashed var(--ink); }
+.f-leg.l-dribbel::before { width: 16px; border-top: 2px dotted var(--ink); }
+/* Training */
+.uebung { padding: 18px 20px; display: grid; gap: 12px; max-width: 760px; }
+.uebung h3 { font-size: 30px; font-weight: 800; }
+.uebung h4 { margin: 4px 0 -4px; font-size: 18px; font-weight: 800; }
+.schritte { margin: 0; padding-left: 22px; display: grid; gap: 8px; font-size: 17px; }
+.schritte li::marker { font-weight: 800; color: var(--orange-ink); }
+.stufen { display: grid; gap: 8px; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); }
+.stufe { border-radius: 12px; padding: 10px 12px; background: var(--surface-2); display: grid; gap: 2px; border-left: 5px solid var(--good); }
+.stufe.mittel { border-left-color: var(--warn); } .stufe.schwer { border-left-color: var(--bad); }
+.stufe b, .stufe span { font-size: 15px; }
+.fehler { margin: 0; padding-left: 20px; display: grid; gap: 6px; }
+.fehler li::marker { content: "✗  "; color: var(--bad); font-weight: 800; }
+.frueher { padding: 0; margin-bottom: 10px; }
+.frueher summary { padding: 14px 18px; font-weight: 800; font-size: 17px; cursor: pointer; }
+.frueher .uebung { box-shadow: none; padding-top: 0; }
+/* Schiri-Situation */
+.schiri .situation { margin: 0; font-size: 18px; }
 .grp-h { font-size: 22px; font-weight: 800; font-style: italic; text-transform: uppercase; margin: 6px 0 -4px; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
 th { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); text-align: right; padding: 10px 10px; font-weight: 800; }
@@ -229,28 +264,13 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
 
 /* Stars */
-.star { overflow: hidden; display: grid; }
-.star-top { padding: 16px; color: #fff; display: flex; align-items: center; gap: 14px; position: relative; overflow: hidden; }
-.jersey { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 64px; line-height: .8; opacity: .95; min-width: 70px; text-align: center; }
-.star-top h3 { font-size: 30px; font-weight: 800; }
-.star-top small { font-weight: 700; opacity: .9; font-size: 14px; }
-.star-top .flag { position: absolute; right: 12px; top: 12px; }
 /* Stern zum Markieren von Lieblingsteams und -spielern */
 .fav-star { border: 0; background: none; padding: 2px 6px; margin-left: auto; font-size: 22px; line-height: 1; color: var(--ink-soft); cursor: pointer; flex: none; }
 .fav-star.on { color: #F5B400; }
-.star-top .fav-star { position: absolute; right: 8px; bottom: 6px; font-size: 26px; color: inherit; opacity: .85; }
-.star-top .fav-star.on { color: #FFD43B; opacity: 1; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
 .fav-list { padding: 6px 14px; }
 .fav-team { display: flex; align-items: center; gap: 10px; padding: 8px 0; font-weight: 800; font-size: 17px; }
 .fav-team + .fav-team { border-top: 1px solid var(--line); }
 .link { border: 0; background: none; padding: 0; font: inherit; font-weight: 800; color: var(--orange-ink); text-decoration: underline; cursor: pointer; }
-.stats { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 16px 6px; gap: 10px; }
-.stat { display: grid; gap: 4px; }
-.stat .v { font-family: var(--font-display); font-weight: 800; font-size: 36px; line-height: 1; font-variant-numeric: tabular-nums; }
-.stat .k { font-size: 12px; font-weight: 800; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .5px; }
-.bar { height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
-.bar i { display: block; height: 100%; background: var(--orange); border-radius: 99px; }
-.star p { margin: 0; padding: 4px 16px 16px; color: var(--ink-soft); font-size: 15px; }
 .potw { display: grid; grid-template-columns: auto 1fr; gap: 18px; padding: 18px; align-items: center; background: var(--ink); color: #fff; }
 .potw .lbl { color: var(--yellow); font-weight: 800; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
 .potw h3 { font-size: 36px; font-weight: 800; font-style: italic; }
@@ -346,7 +366,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     { id: "ergebnisse", label: "Ergebnisse", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><rect x="5" y="8" width="22" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 8v16M9 14v4M23 13v6M21 13h2" stroke="currentColor" stroke-width="2.4" fill="none"/>' },
     { id: "upcoming", label: "Upcoming", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><rect x="6" y="8" width="20" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 13h20M11 5v5M21 5v5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="19.5" r="2.2" fill="currentColor"/>' },
     { id: "tabellen", label: "Tabellen", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M7 9h18M7 16h18M7 23h18" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="9" r="1" fill="currentColor"/>' },
-    { id: "stars", label: "Stars", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M16 5l3.3 6.9 7.5 1-5.5 5.2 1.4 7.5L16 22l-6.7 3.6 1.4-7.5L5.2 12.9l7.5-1z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/>' },
+    { id: "training", label: "Training", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M5 23h22M8 23v-8h5v8M19 23V9h5v14" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="10.5" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="2.2"/>' },
     { id: "quiz", label: "Quiz", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12.5 13a3.5 3.5 0 1 1 5 3.2c-1 .5-1.5 1.2-1.5 2.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.5" fill="currentColor"/>' },
     { id: "statistik", label: "Statistik", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M6 25h20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="15" width="4" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="14" y="8" width="4" height="15" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="20" y="12" width="4" height="11" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/>' }
   ];
@@ -578,39 +598,62 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + "</div>" + body + '<div class="legend">' + (t.zonen || []).map(z => '<span style="--c:var(--' + z.typ + ')">' + esc(z.label) + "</span>").join("") + "</div>" +
       (t.erklaerung ? '<p class="teaser">' + esc(t.erklaerung) + "</p>" : "") + "</section></div>";
   }
-  function starCard(p) {
-    const t = team(p.team), s = p.stats || {};
-    const st = (v, k, max) => '<div class="stat"><span class="v">' + (v == null ? "–" : String(v).replace(".", ",")) + '</span><span class="k">' + k + '</span><div class="bar"><i style="width:' + Math.min(100, (v || 0) / max * 100) + '%"></i></div></div>';
-    return '<div class="card star"><div class="star-top" style="background:' + t.c1 + ";color:" + t.c2 + '"><span class="jersey">' + esc(p.nummer || p.name.split(" ").map(w => w[0]).join("").slice(0, 2)) + '</span><div><h3>' + esc(p.name) + "</h3><small>" + esc(t.name) + " · " + esc(p.position || "") + "</small></div>" + starBtn("data-fav-spieler", p.name, isFavP(p.name), p.name) + (p.deutsch ? '<svg class="flag" width="30" height="20" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>' : "") + "</div>" +
-      '<div class="stats">' + st(s.pkt, "Punkte", 35) + st(s.reb, "Rebounds", 15) + st(s.ast, "Assists", 12) + "</div><p>" + (s.spiele ? s.spiele + " Spiele in dieser Saison. " : "") + esc(p.notiz || "") + "</p></div>";
+  /* Spielfeld-Skizze (halbes Feld, Korb oben) für Training und Schiri-Situationen.
+     Koordinaten 0–100 quer und 0–94 von der Grundlinie aus; 1 m entspricht etwa 6,7 Einheiten.
+     sk = { spieler: [{x, y, team: "a"|"b", label}], ball: {x, y}, pfeile: [{von: [x, y], nach: [x, y], art: "lauf"|"pass"|"dribbel"}] } */
+  function feld(sk) {
+    if (!sk) return "";
+    const P = { lauf: "", pass: ' stroke-dasharray="3 2.5"', dribbel: ' stroke-dasharray="1 1.6"' };
+    const pfeile = (sk.pfeile || []).map(p => '<line x1="' + p.von[0] + '" y1="' + p.von[1] + '" x2="' + p.nach[0] + '" y2="' + p.nach[1] + '" class="f-' + (P[p.art] != null ? p.art : "lauf") + '"' + (P[p.art] || "") + ' marker-end="url(#pf)"/>').join("");
+    const spieler = (sk.spieler || []).map(s => '<g class="f-sp ' + (s.team === "b" ? "b" : "a") + '"><circle cx="' + s.x + '" cy="' + s.y + '" r="4.2"/><text x="' + s.x + '" y="' + (s.y + 1.6) + '">' + esc(s.label || "") + "</text></g>").join("");
+    const ball = sk.ball ? '<circle class="f-ball" cx="' + sk.ball.x + '" cy="' + sk.ball.y + '" r="2.2"/>' : "";
+    const leg = [["a", "Angriff"], ["b", "Verteidigung"]].filter(t => (sk.spieler || []).some(s => (s.team === "b" ? "b" : "a") === t[0])).map(t => '<span class="f-leg ' + t[0] + '">' + t[1] + "</span>")
+      .concat(Object.keys(P).filter(a => (sk.pfeile || []).some(p => p.art === a)).map(a => '<span class="f-leg l-' + a + '">' + { lauf: "Laufweg", pass: "Pass", dribbel: "Dribbling" }[a] + "</span>"));
+    return '<figure class="feld"><svg viewBox="0 0 100 94" role="img" aria-label="Skizze vom Spielfeld"><defs><marker id="pf" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="4" markerHeight="4" orient="auto"><path d="M0 0L10 5L0 10z" class="f-spitze"/></marker></defs>' +
+      '<rect x="0.5" y="0.5" width="99" height="93" class="f-boden"/><g class="f-linie"><rect x="33.7" y="0.5" width="32.6" height="38.2"/><circle cx="50" cy="38.7" r="12"/><path d="M6 0.5V20A45 45 0 0 0 94 20V0.5"/><line x1="44" y1="8" x2="56" y2="8"/><circle cx="50" cy="10.5" r="3"/><path d="M38 93.5A12 12 0 0 1 62 93.5"/></g>' +
+      pfeile + spieler + ball + "</svg>" + (leg.length ? "<figcaption>" + leg.join("") + "</figcaption>" : "") + "</figure>";
   }
-  function vStars() {
-    const st = D.stars || [];
-    // Mit Stern markierte Spieler, die keine eigene Karte haben, bekommen eine aus der NBA-Statistik
-    const ix = S ? Object.fromEntries(S.spalten.map((k, i) => [k, i])) : {};
-    const ausStat = name => { const r = S && S.spieler.find(x => x[0] === name); return r ? { name, team: r[ix.team], stats: { pkt: r[ix.pkt], reb: r[ix.reb], ast: r[ix.ast], spiele: r[ix.sp] } } : null; };
-    const meine = favP.map(n => st.find(p => p.name === n) || ausStat(n)).filter(Boolean);
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Deine Stars</h2><p>Durchschnitt pro Spiel in dieser Saison</p></div>' +
-      (meine.length ? '<div class="grid">' + meine.map(starCard).join("") + "</div>" : '<div class="card empty">Tippe auf den Stern ☆ bei einem Spieler, dann erscheint er hier. Unter <button class="link" data-tab="statistik">Statistik</button> findest du alle NBA-Spieler.</div>') + "</section>" +
-      '<section class="sec"><div class="sec-h"><h2>Deutsche in der NBA</h2></div><div class="grid">' + st.filter(p => !isFavP(p.name) && p.deutsch).map(starCard).join("") + "</div></section>" +
-      (st.some(p => !isFavP(p.name) && !p.deutsch) ? '<section class="sec"><div class="sec-h"><h2>Superstars der NBA</h2><p>Die Besten der Liga im Blick</p></div><div class="grid">' + st.filter(p => !isFavP(p.name) && !p.deutsch).map(starCard).join("") + "</div></section>" : "") +
-      (D.rekorde && D.rekorde.length ? '<section class="sec"><div class="sec-h"><h2>Rekorde & Bestwerte</h2></div><div class="grid">' + D.rekorde.map(r => '<div class="card lex-item"><span class="en">' + esc(r.kategorie) + "</span><b>" + esc(r.wert) + "</b><p>" + esc(r.text) + "</p></div>").join("") + "</div></section>" : "") + "</div>";
+  // Training: training[0] ist die Übung der Woche, die übrigen sind frühere Übungen
+  function vTraining() {
+    const T = D.training || [];
+    if (!T.length) return '<div class="view"><div class="card empty">Die erste Übung kommt bald. Schau wieder vorbei!</div></div>';
+    const uebung = (t, voll) => '<div class="card uebung">' +
+      '<div class="meta">' + [t.ort, t.dauer, t.material].filter(Boolean).map(x => '<span class="pill">' + esc(x) + "</span>").join("") + "</div>" +
+      "<h3>" + esc(t.titel) + "</h3>" + (t.ziel ? '<p class="teaser">' + esc(t.ziel) + "</p>" : "") + feld(t.skizze) +
+      ((t.schritte || []).length ? "<h4>So geht's</h4><ol class=\"schritte\">" + t.schritte.map(s => "<li>" + linkTerms(s) + "</li>").join("") + "</ol>" : "") +
+      (t.stufen ? "<h4>Wähle deine Stufe</h4><div class=\"stufen\">" + [["leicht", "Leicht"], ["mittel", "Mittel"], ["schwer", "Schwer"]].filter(s => t.stufen[s[0]]).map(s => '<div class="stufe ' + s[0] + '"><b>' + s[1] + "</b><span>" + esc(t.stufen[s[0]]) + "</span></div>").join("") + "</div>" : "") +
+      ((t.fehler || []).length ? '<h4>Typische Fehler</h4><ul class="fehler">' + t.fehler.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul>" : "") +
+      (t.profi ? '<p class="expl">' + esc(t.profi.text) + (t.profi.newsId && allNews().some(n => n.id === t.profi.newsId) ? ' <button class="link" data-news="' + esc(t.profi.newsId) + '">Zum Artikel</button>' : "") + "</p>" : "") + "</div>";
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Übung der Woche</h2><p>Zum Nachmachen zuhause oder auf dem Freiplatz</p></div>' + uebung(T[0], true) + "</section>" +
+      (T.length > 1 ? '<section class="sec"><div class="sec-h"><h2>Frühere Übungen</h2></div>' + T.slice(1).map(t => '<details class="card frueher"><summary>' + esc(t.titel) + "</summary>" + uebung(t) + "</details>").join("") + "</section>" : "") + "</div>";
   }
-  function vQuiz() {
+  // Schiri-Situation des Tages: eine Spielsituation, die man selbst entscheidet
+  function schiriSec() {
+    const s = D.schiri; if (!s || !(s.antworten || []).length) return "";
+    const key = "schiri_" + (s.id || D.aktualisiert), pick = store.get(key, null), done = pick != null;
+    const REGEL = { beide: "NBA und FIBA", NBA: "NBA", FIBA: "FIBA (Bundesliga, Europa)" };
+    return '<section class="sec"><div class="sec-h"><h2>Was würdest du pfeifen?</h2><p>Jeden Tag eine neue Situation für den Schiri in dir</p></div><div class="card quiz schiri">' +
+      (s.regel ? '<span class="pill">Regel: ' + esc(REGEL[s.regel] || s.regel) + "</span>" : "") + (s.titel ? "<h3>" + esc(s.titel) + "</h3>" : "") +
+      '<p class="situation">' + linkTerms(s.situation || "") + "</p>" + feld(s.skizze) + (s.frage ? "<b>" + esc(s.frage) + "</b>" : "") +
+      '<div class="answers">' + s.antworten.map((a, i) => '<button data-schiri="' + i + '"' + (done ? " disabled" : "") + ' class="' + (done ? (i === s.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
+      (done ? '<p class="expl">' + (pick === s.richtig ? "Richtig gepfiffen! " : "Knapp daneben. ") + esc(s.erklaerung || "") + "</p>" + (s.unterschied ? '<p class="teaser"><b>NBA oder FIBA?</b> ' + esc(s.unterschied) + "</p>" : "") : "") + "</div></section>";
+  }
+  function vQuiz() { return '<div class="view">' + quizSec() + schiriSec() + "</div>"; }
+  function quizSec() {
     const Q = D.quiz || [];
     const key = "quiz_" + (D.quizId || D.aktualisiert);
     const st = store.get(key, { i: 0, picks: [] });
-    if (!Q.length) return '<div class="view"><div class="card empty">Heute gibt es noch kein Quiz. Schau morgen früh wieder vorbei!</div></div>';
+    if (!Q.length) return '<section class="sec"><div class="card empty">Heute gibt es noch kein Quiz. Schau morgen früh wieder vorbei!</div></section>';
     const prog = '<div class="prog">' + Q.map((q, i) => '<i class="' + (i < st.picks.length ? (st.picks[i] === q.richtig ? "ok" : "no") : i === st.i ? "cur" : "") + '"></i>').join("") + "</div>";
     if (st.i >= Q.length) {
       const pts = st.picks.filter((p, i) => p === Q[i].richtig).length;
       const msg = pts === Q.length ? "Perfekt! Du bist ein echter Basketball-Profi." : pts >= Q.length / 2 ? "Stark! Du kennst dich richtig gut aus." : "Gut gemacht! Lies die News und versuch es nochmal.";
-      return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tagesquiz</h2></div><div class="card quiz">' + prog + '<span class="score">' + pts + " von " + Q.length + "</span><p style=\"margin:0;font-weight:800\">" + msg + '</p><button class="btn" data-quiz="reset">Nochmal spielen</button></div></section></div>';
+      return '<section class="sec"><div class="sec-h"><h2>Tagesquiz</h2></div><div class="card quiz">' + prog + '<span class="score">' + pts + " von " + Q.length + "</span><p style=\"margin:0;font-weight:800\">" + msg + '</p><button class="btn" data-quiz="reset">Nochmal spielen</button></div></section>';
     }
     const q = Q[st.i], answered = st.picks.length > st.i, pick = st.picks[st.i];
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tagesquiz</h2><p>Frage ' + (st.i + 1) + " von " + Q.length + '</p></div><div class="card quiz">' + prog + (q.art === "legacy" ? '<span class="pill legacy">NBA-Geschichte' + (q.jahr ? " · " + esc(q.jahr) : "") + "</span>" : "") + "<h3>" + esc(q.frage) + '</h3><div class="answers">' +
+    return '<section class="sec"><div class="sec-h"><h2>Tagesquiz</h2><p>Frage ' + (st.i + 1) + " von " + Q.length + '</p></div><div class="card quiz">' + prog + (q.art === "legacy" ? '<span class="pill legacy">NBA-Geschichte' + (q.jahr ? " · " + esc(q.jahr) : "") + "</span>" : "") + "<h3>" + esc(q.frage) + '</h3><div class="answers">' +
       q.antworten.map((a, i) => '<button data-ans="' + i + '"' + (answered ? " disabled" : "") + ' class="' + (answered ? (i === q.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
-      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section></div>";
+      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section>";
   }
   function stFmt(v, k) {
     if (v == null) return "–";
@@ -670,7 +713,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       (neu.length ? '<section class="sec"><div class="sec-h"><h2>Aktuell</h2></div><div class="grid">' + neu.map(n => newsCard(n)).join("") + "</div></section>" : "") +
       Object.keys(groups).map(k => '<section class="sec"><div class="sec-h"><h2>' + esc(k) + '</h2><p>aus dem Archiv</p></div><div class="grid">' + groups[k].map(n => newsCard(n)).join("") + "</div></section>").join("") + "</div>";
   }
-  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, tabellen: vTabellen, stars: vStars, quiz: vQuiz, statistik: vStatistik, liga: vLiga };
+  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, tabellen: vTabellen, training: vTraining, quiz: vQuiz, statistik: vStatistik, liga: vLiga };
 
   function render() {
     $("#tabs").innerHTML = TABS.map(t => '<button class="tab" role="tab" data-tab="' + t.id + '" aria-selected="' + (t.id === current) + '"><svg viewBox="0 0 32 32" aria-hidden="true">' + t.icon + "</svg>" + t.label + "</button>").join("");
@@ -724,6 +767,10 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.stFilter) { stFilter = b.dataset.stFilter; render(); }
     else if (b.dataset.stAll) { stAll = !stAll; render(); }
     else if (b.hasAttribute("data-st-more")) { stLimit += 50; render(); }
+    else if (b.dataset.schiri != null) {
+      const key = "schiri_" + ((D.schiri || {}).id || D.aktualisiert);
+      if (store.get(key, null) == null) { store.set(key, Number(b.dataset.schiri)); render(); }
+    }
     else if (b.dataset.ans != null || b.dataset.quiz) {
       const key = "quiz_" + (D.quizId || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
       if (b.dataset.ans != null && st.picks.length === st.i) st.picks.push(Number(b.dataset.ans));
@@ -744,6 +791,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   if (/^liga-/i.test(h)) { current = "liga"; ligaSel = h.slice(5).toUpperCase(); }
   else { current = VIEWS[h] ? h : store.get("tab", "heute"); ligaSel = store.get("liga", "ALLE"); }
   if (current === "lexikon") current = "statistik"; // früherer Tab, ersetzt durch die NBA-Statistik
+  if (current === "stars") current = "training"; // früherer Tab, ersetzt durch Training
   if (current === "liga" && !/^liga-/i.test(h)) current = "heute"; // Liga-Seiten gibt es nur noch über einen direkten Link (#liga-NBA)
   if (!VIEWS[current]) current = "heute";
   window.addEventListener("hashchange", () => { const x = location.hash.slice(1); if (/^liga-/i.test(x)) { ligaSel = x.slice(5).toUpperCase(); go("liga"); } else if (VIEWS[x]) go(x); });
@@ -754,7 +802,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     render();
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
     fetch("archiv.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(a => { if (a && Array.isArray(a.news)) { A = a.news; render(); } }).catch(() => {});
-    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (["statistik", "stars", "ergebnisse"].includes(current)) render(); } }).catch(() => {});
+    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (["statistik", "ergebnisse"].includes(current)) render(); } }).catch(() => {});
     fetch("nba-stats-saisons.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(x => { if (x && Array.isArray(x.vergangen)) { SX = x.vergangen; if (current === "statistik") render(); } }).catch(() => {});
   }).catch(() => { $("#main").innerHTML = '<div class="card empty">Die News konnten gerade nicht geladen werden. Prüfe das Internet und lade die Seite neu.</div>'; $("#stamp").innerHTML = "<strong>Offline</strong>"; });
 })();
