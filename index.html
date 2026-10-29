@@ -268,6 +268,8 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .eng-list span b { color: var(--yellow); }
 
 /* NBA-Statistik: breite Tabelle zum Wischen, Spielername bleibt links stehen */
+.st-saison { display: inline-flex; align-items: center; gap: 8px; font-weight: 800; font-size: 15px; margin-bottom: 12px; }
+.st-saison select { font: inherit; font-weight: 800; padding: 8px 14px; border-radius: 999px; border: 2px solid var(--line); background: var(--surface); color: var(--ink); cursor: pointer; }
 .st-tools { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
 .stbl th, .stbl td { padding: 8px 10px; }
 .stbl td:first-child { width: auto; text-align: left; font-family: var(--font-body); font-size: 15px; border-left: 0; }
@@ -582,7 +584,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   }
   function vStatistik() {
     const akt = statsAktuell(), S = stSaison ? SC[stSaison] : akt;
-    const saisons = akt && SX.length ? '<div class="seg">' + [""].concat(SX).map(x => '<button data-st-saison="' + x + '" aria-pressed="' + (x === stSaison) + '">' + (x ? esc(x) : esc(akt.saison) + " (aktuell)") + "</button>").join("") + "</div>" : "";
+    const saisons = akt && SX.length ? '<label class="st-saison">Saison <select id="st-saison" aria-label="Saison wählen">' + [""].concat(SX).map(x => '<option value="' + x + '"' + (x === stSaison ? " selected" : "") + ">" + (x ? esc(x) : esc(akt.saison) + " (aktuell)") + "</option>").join("") + "</select></label>" : "";
     if (!S) return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2></div>' + saisons + '<div class="card empty">Die NBA-Statistiken werden geladen …</div></section></div>';
     const idx = {}; S.spalten.forEach((k, i) => { idx[k] = i; });
     const st = D.stars || [], de = new Set(st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(st.filter(p => p.favorit).map(p => p.name));
@@ -705,6 +707,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       else if (b.dataset.quiz === "reset") { st.i = 0; st.picks = []; }
       store.set(key, st); render();
     }
+  });
+  document.addEventListener("change", e => {
+    if (e.target.id === "st-saison") loadSaison(e.target.value);
   });
   document.addEventListener("input", e => {
     if (e.target.id === "stq") { stQuery = e.target.value; const pos = e.target.selectionStart; render(); const i = $("#stq"); i.focus(); try { i.setSelectionRange(pos, pos); } catch (x) {} }
