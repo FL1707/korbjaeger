@@ -470,11 +470,23 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const row = (k, p, w) => '<div class="row' + (w ? " win" : "") + '">' + badge(k) + '<span class="tn">' + esc(team(k).name) + '</span><span class="sc">' + esc(p) + "</span></div>";
     return g.liga === "NBA" ? row(g.gast, g.gastPkt, !hW) + row(g.heim, g.heimPkt, hW) : row(g.heim, g.heimPkt, hW) + row(g.gast, g.gastPkt, !hW);
   }
-  function gameCard(g) {
-    const fav = isFav(g.heim) || isFav(g.gast);
+  // Teams der Lieblingsspieler (NBA: aus der Statistik, sonst aus den Star-Karten)
+  function favSpielerTeams() {
+    const ix = S ? S.spalten.indexOf("team") : -1, out = new Set();
+    favP.forEach(n => { const r = S && S.spieler.find(x => x[0] === n), p = (D.stars || []).find(x => x.name === n); if (r) out.add(r[ix]); else if (p) out.add(p.team); });
+    return out;
+  }
+  // Spiel eines Favoriten: Lieblingsteam spielt, das Team eines Lieblingsspielers spielt oder der Spieler steht im Spielbericht
+  function favGame(g, spT) {
+    if (isFav(g.heim) || isFav(g.gast)) return "Dein Team";
+    const txt = [g.info].concat(g.bericht ? (g.bericht.text || []).concat(g.bericht.highlights || []) : []).join(" ");
+    return spT.has(g.heim) || spT.has(g.gast) || favP.some(p => txt.includes(p)) ? "Dein Spieler" : "";
+  }
+  function gameCard(g, spT) {
+    const fav = favGame(g, spT || favSpielerTeams());
     // In „Alle“ zeigt eine Liga-Plakette, woher das Spiel kommt; den doppelten Liganamen in der Runde lassen wir dann weg
     const runde = resFilter === "ALLE" ? ligaPill(g.liga) + " " + esc((g.runde || "").replace(new RegExp("^" + ((LIGA[g.liga] || [])[1] || g.liga) + "( · )?"), "")) : esc(g.runde || "");
-    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
+    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span>" + (fav ? '<span class="pill fav">★ ' + fav + "</span>" : "<span>Endstand</span>") + "</div>" +
       scoreRows(g) + '<div class="game-f"><span class="note">' + esc(g.info || "") + '</span><span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></div></button>";
   }
   /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
@@ -509,8 +521,12 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const keys = Object.keys(days).sort().reverse();
     if (all) keys.forEach(k => days[k].sort((a, b) => order.indexOf(a.liga) - order.indexOf(b.liga)));
     const segs = ["ALLE"].concat(order).map(l => '<button data-res="' + l + '" aria-pressed="' + (l === resFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1]) + "</button>").join("");
+    // Oben: alle Spiele der mit Stern markierten Teams und Spieler, neueste zuerst
+    const spT = favSpielerTeams(), favs = keys.flatMap(k => days[k]).filter(g => favGame(g, spT));
+    const card = g => gameCard(g, spT);
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Ergebnisse</h2><p>' + (all ? "In der NBA steht das Gastteam oben, sonst das Heimteam." : resFilter === "NBA" ? "In der NBA steht das Gastteam oben, so wie in den USA." : "Das Heimteam steht oben.") + '</p></div><div class="seg">' + segs + "</div>" +
-      (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(gameCard).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
+      (favs.length ? '<div class="day-h">★ Deine Favoriten</div><div class="games">' + favs.map(card).join("") + "</div>" : "") +
+      (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(card).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
       "</section></div>";
   }
   // Kleines Sender-Logo (Feld tv im Spielplan): nur DYN und Prime Video
@@ -724,7 +740,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     render();
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
     fetch("archiv.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(a => { if (a && Array.isArray(a.news)) { A = a.news; render(); } }).catch(() => {});
-    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (current === "statistik" || current === "stars") render(); } }).catch(() => {});
+    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (["statistik", "stars", "ergebnisse"].includes(current)) render(); } }).catch(() => {});
     fetch("nba-stats-saisons.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(x => { if (x && Array.isArray(x.vergangen)) { SX = x.vergangen; if (current === "statistik") render(); } }).catch(() => {});
   }).catch(() => { $("#main").innerHTML = '<div class="card empty">Die News konnten gerade nicht geladen werden. Prüfe das Internet und lade die Seite neu.</div>'; $("#stamp").innerHTML = "<strong>Offline</strong>"; });
 })();
