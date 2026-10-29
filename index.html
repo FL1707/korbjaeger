@@ -201,6 +201,13 @@ button.game { text-align: left; border: 0; width: 100%; }
 .tv-dyn { background: #0B0B0B; color: #fff; text-transform: lowercase; }
 .tv-prime { background: #00A8E1; color: #fff; font-style: italic; text-transform: lowercase; }
 .tbl-wrap { overflow-x: auto; }
+.serie { padding: 12px 14px; display: grid; gap: 6px; }
+.serie .row { display: flex; align-items: center; gap: 10px; }
+.serie .tn { flex: 1; font-weight: 700; }
+.serie .fav-star { margin-left: 0; font-size: 18px; }
+.serie .sc { font-family: var(--font-display); font-size: 24px; font-weight: 800; color: var(--ink-soft); min-width: 22px; text-align: right; }
+.serie .row.win .tn { font-weight: 800; } .serie .row.win .sc { color: var(--ink); }
+.serie-f { margin: 2px 0 0; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
 .grp-h { font-size: 22px; font-weight: 800; font-style: italic; text-transform: uppercase; margin: 6px 0 -4px; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
 th { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); text-align: right; padding: 10px 10px; font-weight: 800; }
@@ -558,7 +565,16 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span>" + starBtn("data-fav-team", r.team, isFav(r.team), team(r.team).name) + "</div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
       "</tbody></table></div>";
     // Wettbewerbe mit Gruppen (z. B. Champions League): alle Gruppen untereinander auf einer Seite
-    const body = t.gruppen ? t.gruppen.map(g => '<h3 class="grp-h">' + esc(g.name) + "</h3>" + table(g.zeilen || [])).join("") : table(t.zeilen || []);
+    // K.-o.-Phasen (z. B. Play-In, Viertelfinale, Final Four): Duelle mit Siegen je Team, nach Runde gruppiert
+    const serie = s => {
+      const ziel = Math.ceil((s.bestOf || 3) / 2), wH = s.siegeHeim || 0, wG = s.siegeGast || 0;
+      const row = (k, w, sieg) => '<div class="row' + (sieg ? " win" : "") + '">' + badge(k) + '<span class="tn">' + esc(team(k).name) + "</span>" + starBtn("data-fav-team", k, isFav(k), team(k).name) + '<span class="sc">' + w + "</span></div>";
+      return '<div class="card serie">' + row(s.heim, wH, wH >= ziel) + row(s.gast, wG, wG >= ziel) +
+        '<p class="serie-f">' + ((s.spiele || []).length ? "Spiele: " + s.spiele.map(esc).join(" · ") : "Noch nicht gespielt") + ((s.bestOf || 3) > 1 ? " · Best of " + (s.bestOf || 3) : "") + "</p></div>";
+    };
+    const runden = t.serien ? [...new Set(t.serien.map(s => s.runde || ""))] : [];
+    const body = t.serien ? runden.map(r => (r ? '<h3 class="grp-h">' + esc(r) + "</h3>" : "") + '<div class="games">' + t.serien.filter(s => (s.runde || "") === r).map(serie).join("") + "</div>").join("")
+      : t.gruppen ? t.gruppen.map(g => '<h3 class="grp-h">' + esc(g.name) + "</h3>" + table(g.zeilen || [])).join("") : table(t.zeilen || []);
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + "</div>" + body + '<div class="legend">' + (t.zonen || []).map(z => '<span style="--c:var(--' + z.typ + ')">' + esc(z.label) + "</span>").join("") + "</div>" +
       (t.erklaerung ? '<p class="teaser">' + esc(t.erklaerung) + "</p>" : "") + "</section></div>";
   }
