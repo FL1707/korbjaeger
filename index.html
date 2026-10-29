@@ -485,7 +485,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const fav = favGame(g, spT || favSpielerTeams());
     // In „Alle“ zeigt eine Liga-Plakette, woher das Spiel kommt; den doppelten Liganamen in der Runde lassen wir dann weg
     const runde = resFilter === "ALLE" ? ligaPill(g.liga) + " " + esc((g.runde || "").replace(new RegExp("^" + ((LIGA[g.liga] || [])[1] || g.liga) + "( · )?"), "")) : esc(g.runde || "");
-    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span>" + (fav ? '<span class="pill fav">★ ' + fav + "</span>" : "<span>Endstand</span>") + "</div>" +
+    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span><span>Endstand</span></div>" +
       scoreRows(g) + '<div class="game-f"><span class="note">' + esc(g.info || "") + '</span><span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></div></button>";
   }
   /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
