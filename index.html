@@ -366,6 +366,8 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"]];
   let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "NBA", tblFilter = null;
   let stSort = "pkt", stDir = -1, stAll = false, stFilter = "alle", stQuery = "", stLimit = 50;
+  // Vergangene Saisons: Liste aus nba-stats-saisons.json, Daten je Saison erst beim Antippen laden
+  let SX = [], SC = {}, stSaison = "";
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const store = { get(k, d) { try { const v = localStorage.getItem("kj_" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -553,8 +555,16 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const s = ["alter", "sp", "s", "n", "dd2", "td3"].includes(k) ? String(Math.round(v)) : v.toFixed(1).replace(".", ",");
     return k === "pm" && v > 0 ? "+" + s : s;
   }
+  function statsAktuell() { return S; }
+  function loadSaison(x) {
+    stSaison = x; stLimit = 50; render();
+    if (!x || SC[x]) return;
+    fetch("nba-stats-" + x + ".json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Array.isArray(j.spieler)) SC[x] = j; else stSaison = ""; render(); }).catch(() => { stSaison = ""; render(); });
+  }
   function vStatistik() {
-    if (!S) return '<div class="view"><div class="card empty">Die NBA-Statistiken werden geladen …</div></div>';
+    const akt = statsAktuell(), S = stSaison ? SC[stSaison] : akt;
+    const saisons = akt && SX.length ? '<div class="seg">' + [""].concat(SX).map(x => '<button data-st-saison="' + x + '" aria-pressed="' + (x === stSaison) + '">' + (x ? esc(x) : esc(akt.saison) + " (aktuell)") + "</button>").join("") + "</div>" : "";
+    if (!S) return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2></div>' + saisons + '<div class="card empty">Die NBA-Statistiken werden geladen …</div></section></div>';
     const idx = {}; S.spalten.forEach((k, i) => { idx[k] = i; });
     const st = D.stars || [], de = new Set(st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(st.filter(p => p.favorit).map(p => p.name));
     const q = stQuery.trim().toLowerCase(), k = idx[stSort];
@@ -564,7 +574,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const cols = stAll ? ST_COLS : ST_COLS.filter(c => ST_SHORT.includes(c[0]));
     const flag = '<svg width="18" height="12" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>';
     const chip = (attr, val, label, on) => "<button " + attr + '="' + val + '" aria-pressed="' + on + '">' + label + "</button>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2><p>Saison ' + esc(S.saison) + " · " + esc(S.art) + " · Stand: " + fmtDate(S.stand) + "</p></div>" +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2><p>Saison ' + esc(S.saison) + " · " + esc(S.art) + " · " + (stSaison ? "abgeschlossene Saison" : "Stand: " + fmtDate(S.stand)) + "</p></div>" + saisons +
       '<div class="seg">' + ST_SORT.map(x => chip("data-st-sort", x[0], x[1], x[0] === stSort)).join("") + "</div>" +
       '<div class="st-tools"><div class="seg">' + chip("data-st-filter", "alle", "Alle Spieler", stFilter === "alle") + chip("data-st-filter", "de", "Deutsche", stFilter === "de") + chip("data-st-filter", "fav", "Deine Stars", stFilter === "fav") + "</div>" +
       '<div class="seg">' + chip("data-st-all", "1", stAll ? "Weniger Spalten" : "Alle Spalten", stAll) + "</div></div>" +
@@ -663,6 +673,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.res) { resFilter = b.dataset.res; render(); }
     else if (b.dataset.tbl) { tblFilter = b.dataset.tbl; render(); }
     else if (b.dataset.stSort) { if (stSort === b.dataset.stSort) stDir = -stDir; else { stSort = b.dataset.stSort; stDir = -1; } stLimit = 50; render(); }
+    else if (b.hasAttribute("data-st-saison")) loadSaison(b.dataset.stSaison);
     else if (b.dataset.stFilter) { stFilter = b.dataset.stFilter; render(); }
     else if (b.dataset.stAll) { stAll = !stAll; render(); }
     else if (b.hasAttribute("data-st-more")) { stLimit += 50; render(); }
@@ -693,6 +704,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
     fetch("archiv.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(a => { if (a && Array.isArray(a.news)) { A = a.news; render(); } }).catch(() => {});
     fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (current === "statistik") render(); } }).catch(() => {});
+    fetch("nba-stats-saisons.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(x => { if (x && Array.isArray(x.vergangen)) { SX = x.vergangen; if (current === "statistik") render(); } }).catch(() => {});
   }).catch(() => { $("#main").innerHTML = '<div class="card empty">Die News konnten gerade nicht geladen werden. Prüfe das Internet und lade die Seite neu.</div>'; $("#stamp").innerHTML = "<strong>Offline</strong>"; });
 })();
 </script>

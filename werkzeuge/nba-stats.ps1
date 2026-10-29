@@ -30,4 +30,4 @@ $kopf = [ordered]@{ quelle = 'NBA.com'; saison = $Saison; art = 'Regular Season,
 $json = $kopf.TrimEnd('}') + ',"spieler":[' + "`n" + ($rows -join ",`n") + "`n]}"
 $null = $json | ConvertFrom-Json
 [IO.File]::WriteAllText([IO.Path]::GetFullPath($Ziel), $json, (New-Object Text.UTF8Encoding $false))
-"nba-stats.json geschrieben: $($rows.Count) Spieler"
+"$([IO.Path]::GetFileName($Ziel)) geschrieben: $($rows.Count) Spieler"
