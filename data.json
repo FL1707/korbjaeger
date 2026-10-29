@@ -6,7 +6,7 @@
                            "OKC",
                            "ALBA"
                        ],
-    "quizId":  "2026-W44",
+    "quizId":  "2026-10-29",
     "zahlDesTages":  {
                          "zahl":  "5 von 32",
                          "text":  "So viele Dreier hat OKC in Dallas getroffen. Das war viel zu wenig – die Thunder verloren ihr erstes Spiel der Saison."
@@ -2669,224 +2669,124 @@
                 ],
     "quiz":  [
                  {
-                     "frage":  "Wie viele Punkte machte Stephen Curry gegen Minnesota?",
+                     "frage":  "Wie viele Freiwürfe traf Stephen Curry bei seinen 44 Punkten in Minnesota?",
                      "antworten":  [
-                                       "30",
-                                       "38",
-                                       "44",
-                                       "52"
+                                       "12",
+                                       "14",
+                                       "16",
+                                       "18"
                                    ],
                      "richtig":  2,
-                     "erklaerung":  "Es waren 44 Punkte, und dabei traf er alle 16 Freiwürfe."
+                     "erklaerung":  "Curry traf alle 16 Freiwürfe. Er hat keinen einzigen verfehlt!"
                  },
                  {
-                     "frage":  "In welchem Wettbewerb spielt ALBA Berlin in dieser Saison in Europa?",
+                     "frage":  "Wie viele Spiele hat ALBA BERLIN in der Champions League bisher gewonnen?",
                      "antworten":  [
-                                       "Euroleague",
-                                       "Basketball Champions League",
-                                       "EuroCup",
-                                       "gar nicht"
+                                       "3",
+                                       "1",
+                                       "2",
+                                       "0"
+                                   ],
+                     "richtig":  0,
+                     "erklaerung":  "ALBA hat alle drei Spiele gewonnen und ist Erster der Gruppe G."
+                 },
+                 {
+                     "frage":  "Gegen welches Land spielen die deutschen Basketballerinnen am 11. November in Hamburg?",
+                     "antworten":  [
+                                       "Dänemark",
+                                       "Ungarn",
+                                       "Portugal",
+                                       "Belgien"
                                    ],
                      "richtig":  1,
-                     "erklaerung":  "ALBA spielt in der Basketball Champions League und führt dort die Gruppe G an."
+                     "erklaerung":  "Gegner ist Ungarn. Auch Ungarn stand bei der WM im Viertelfinale."
                  },
                  {
-                     "frage":  "Was ist ein Triple-Double?",
+                     "frage":  "Wie viele Triple-Doubles hat Nikola Jokić in seiner Karriere jetzt geschafft?",
                      "antworten":  [
-                                       "Drei Dreier hintereinander",
-                                       "In drei Statistiken mindestens 10",
-                                       "Drei Siege in Folge",
-                                       "Ein Wurf aus drei Metern"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Zum Beispiel 21 Punkte, 13 Rebounds und 10 Assists wie bei Jokić."
-                 },
-                 {
-                     "frage":  "Für welches Team spielt Dennis Schröder jetzt?",
-                     "antworten":  [
-                                       "Orlando Magic",
-                                       "Brooklyn Nets",
-                                       "Charlotte Hornets",
-                                       "OKC Thunder"
-                                   ],
-                     "richtig":  2,
-                     "erklaerung":  "Charlotte ist schon sein zwölftes NBA-Team."
-                 },
-                 {
-                     "frage":  "Welches BBL-Team hat noch kein Spiel verloren?",
-                     "antworten":  [
-                                       "ALBA Berlin",
-                                       "FC Bayern München",
-                                       "Phoenix Hagen",
-                                       "Telekom Baskets Bonn"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Der FC Bayern hat alle fünf Spiele gewonnen und ist Tabellenführer."
-                 },
-                 {
-                     "frage":  "Wer war beim Sieg von ALBA gegen Bilbao der Held des Abends?",
-                     "antworten":  [
-                                       "Jordan Ford",
-                                       "Brandon Angel",
-                                       "Yankuba Sima",
-                                       "Griesel"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Brandon Angel traf alle 10 Würfe aus dem Feld und machte 24 Punkte."
-                 },
-                 {
-                     "frage":  "Wie viele Triple-Doubles hat Nikola Jokić jetzt?",
-                     "antworten":  [
-                                       "100",
                                        "150",
-                                       "200",
-                                       "250"
+                                       "250",
+                                       "100",
+                                       "200"
                                    ],
-                     "richtig":  2,
-                     "erklaerung":  "Gegen New Orleans schaffte er sein 200. Triple-Double."
+                     "richtig":  3,
+                     "erklaerung":  "Gegen New Orleans gelang ihm sein 200. Triple-Double. Nur Russell Westbrook hat mehr."
                  },
                  {
-                     "frage":  "Welcher Spieler hat noch mehr Triple-Doubles als Jokić?",
-                     "antworten":  [
-                                       "LeBron James",
-                                       "Russell Westbrook",
-                                       "Stephen Curry",
-                                       "Luka Dončić"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Russell Westbrook liegt nur noch 10 Triple-Doubles vor Jokić."
-                 },
-                 {
-                     "frage":  "Welches NBA-Team hat als einziges noch kein Spiel verloren?",
-                     "antworten":  [
-                                       "Oklahoma City Thunder",
-                                       "Houston Rockets",
-                                       "San Antonio Spurs",
-                                       "Miami Heat"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Die Houston Rockets haben alle fünf Spiele gewonnen. Am Sonntag spielen sie gegen OKC."
-                 },
-                 {
-                     "frage":  "Wen haben die Washington Wizards im Draft als Nummer 1 ausgewählt?",
+                     "frage":  "Wer wurde im Draft 2026 als Nummer 1 ausgewählt?",
                      "antworten":  [
                                        "Cooper Flagg",
                                        "AJ Dybantsa",
                                        "Victor Wembanyama",
-                                       "Hannes Steinbach"
+                                       "Yaxel Lendeborg"
                                    ],
                      "richtig":  1,
-                     "erklaerung":  "AJ Dybantsa machte in seinem ersten Spiel gleich 19 Punkte."
+                     "erklaerung":  "Die Washington Wizards durften zuerst wählen und nahmen AJ Dybantsa. Bei seinem ersten Spiel machte er 19 Punkte."
                  },
                  {
-                     "frage":  "Wie viele Dreier traf OKC bei der Niederlage in Dallas?",
+                     "art":  "legacy",
+                     "jahr":  "1962",
+                     "frage":  "Wie viele Punkte machte Wilt Chamberlain 1962 in einem einzigen NBA-Spiel?",
                      "antworten":  [
-                                       "5 von 32",
-                                       "12 von 30",
-                                       "16 von 35",
-                                       "20 von 40"
-                                   ],
-                     "richtig":  0,
-                     "erklaerung":  "Nur 5 von 32 Dreiern gingen rein. Dallas traf 16 Dreier."
-                 },
-                 {
-                     "frage":  "Welcher deutsche Spieler holte in Dallas für OKC ein Double-Double?",
-                     "antworten":  [
-                                       "Franz Wagner",
-                                       "Isaiah Hartenstein",
-                                       "Tristan da Silva",
-                                       "Moritz Wagner"
+                                       "81",
+                                       "100",
+                                       "73",
+                                       "92"
                                    ],
                      "richtig":  1,
-                     "erklaerung":  "Isaiah Hartenstein kam auf 10 Punkte und 14 Rebounds."
+                     "erklaerung":  "Wilt Chamberlain machte 100 Punkte für die Philadelphia Warriors. Das ist bis heute NBA-Rekord."
                  },
                  {
-                     "frage":  "Wer ist jetzt Miamis Rebound-Rekordhalter?",
+                     "art":  "legacy",
+                     "jahr":  "1990er",
+                     "frage":  "Wie viele NBA-Titel gewann Michael Jordan mit den Chicago Bulls?",
                      "antworten":  [
-                                       "Giannis Antetokounmpo",
-                                       "Bam Adebayo",
-                                       "Udonis Haslem",
-                                       "Tyler Herro"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Bam Adebayo hat jetzt 5.794 Rebounds und überholte damit Udonis Haslem."
-                 },
-                 {
-                     "frage":  "Wie stand es zur Halbzeit im Pokalspiel ALBA gegen Bamberg?",
-                     "antworten":  [
-                                       "33:41 für Bamberg",
-                                       "41:33 für ALBA",
-                                       "50:50",
-                                       "20:45 für Bamberg"
-                                   ],
-                     "richtig":  0,
-                     "erklaerung":  "ALBA lag zur Pause hinten und gewann am Ende trotzdem 83:71."
-                 },
-                 {
-                     "frage":  "Wer ist Trainer von ALBA BERLIN?",
-                     "antworten":  [
-                                       "Anton Gavel",
-                                       "Pedro Calles",
-                                       "Àlex Mumbrú",
-                                       "Gordon Herbert"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Pedro Calles ist ALBA-Trainer. Anton Gavel trainiert den FC Bayern."
-                 },
-                 {
-                     "frage":  "In welchem Land findet die Basketball-WM 2027 statt?",
-                     "antworten":  [
-                                       "USA",
-                                       "Katar",
-                                       "Deutschland",
-                                       "Japan"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Die WM 2027 wird in Katar gespielt. Deutschland muss sich noch qualifizieren."
-                 },
-                 {
-                     "frage":  "Wer ist Kapitän der deutschen Nationalmannschaft?",
-                     "antworten":  [
-                                       "Franz Wagner",
-                                       "Dennis Schröder",
-                                       "Moritz Wagner",
-                                       "Isaiah Hartenstein"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Dennis Schröder ist Kapitän. Bundestrainer ist Àlex Mumbrú."
-                 },
-                 {
-                     "frage":  "Wie groß ist Victor Wembanyama?",
-                     "antworten":  [
-                                       "1,98 Meter",
-                                       "2,08 Meter",
-                                       "2,24 Meter",
-                                       "2,40 Meter"
+                                       "4",
+                                       "5",
+                                       "6",
+                                       "7"
                                    ],
                      "richtig":  2,
-                     "erklaerung":  "Mit 2,24 Metern ist er einer der größten Spieler der NBA."
+                     "erklaerung":  "Jordan gewann sechs Titel: dreimal hintereinander von 1991 bis 1993 und noch einmal dreimal von 1996 bis 1998."
                  },
                  {
-                     "frage":  "Wie lange dauert eine Verlängerung?",
+                     "art":  "legacy",
+                     "jahr":  "2011",
+                     "frage":  "Welcher Deutsche wurde 2011 mit den Dallas Mavericks NBA-Meister und bester Spieler der Finals?",
                      "antworten":  [
-                                       "1 Minute",
-                                       "5 Minuten",
-                                       "10 Minuten",
-                                       "12 Minuten"
-                                   ],
-                     "richtig":  1,
-                     "erklaerung":  "Steht es nach der normalen Spielzeit unentschieden, gibt es 5 Minuten extra."
-                 },
-                 {
-                     "frage":  "Wie viele Punkte zählt ein Freiwurf?",
-                     "antworten":  [
-                                       "1 Punkt",
-                                       "2 Punkte",
-                                       "3 Punkte",
-                                       "4 Punkte"
+                                       "Dirk Nowitzki",
+                                       "Detlef Schrempf",
+                                       "Dennis Schröder",
+                                       "Daniel Theis"
                                    ],
                      "richtig":  0,
-                     "erklaerung":  "Jeder Freiwurf zählt 1 Punkt. Ein Dreier zählt 3 Punkte."
+                     "erklaerung":  "Dirk Nowitzki führte Dallas 2011 zum Titel und wurde zum besten Spieler der Finals gewählt."
+                 },
+                 {
+                     "art":  "legacy",
+                     "jahr":  "2006",
+                     "frage":  "Wie viele Punkte machte Kobe Bryant 2006 in einem Spiel gegen die Toronto Raptors?",
+                     "antworten":  [
+                                       "62",
+                                       "70",
+                                       "100",
+                                       "81"
+                                   ],
+                     "richtig":  3,
+                     "erklaerung":  "Kobe machte 81 Punkte. Nur Wilt Chamberlain hat in einem NBA-Spiel noch mehr geschafft."
+                 },
+                 {
+                     "art":  "legacy",
+                     "jahr":  "2023",
+                     "frage":  "Wen überholte LeBron James 2023 als besten Punktesammler der NBA-Geschichte?",
+                     "antworten":  [
+                                       "Michael Jordan",
+                                       "Kareem Abdul-Jabbar",
+                                       "Karl Malone",
+                                       "Kobe Bryant"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Kareem Abdul-Jabbar hielt den Rekord fast 39 Jahre lang. Im Februar 2023 zog LeBron an ihm vorbei."
                  }
              ],
     "lexikon":  [
@@ -3691,5 +3591,12 @@
                            "grund":  "Bayern hielt gegen den großen FC Barcelona lange mit. Erst die Freiwürfe ganz am Ende entschieden das Spiel für Barcelona.",
                            "newsId":  "bayern"
                        }
-                   ]
+                   ],
+    "legacyGestellt":  [
+                           "Wilt Chamberlain 100 Punkte (1962)",
+                           "Michael Jordan 6 Titel (1991-98)",
+                           "Dirk Nowitzki Meister und Finals-MVP (2011)",
+                           "Kobe Bryant 81 Punkte (2006)",
+                           "LeBron James überholt Kareem (2023)"
+                       ]
 }
