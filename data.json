@@ -1,5 +1,5 @@
 {
-  "aktualisiert": "2026-10-29T22:00:34+01:00",
+  "aktualisiert": "2026-10-29T22:51:31+01:00",
   "ausgabe": "Nachmittagsausgabe",
   "gruss": "Hallo Basketball-Fan! Der FC Bayern hat in Belgrad klar mit 73:103 verloren. Morgen geht es in der Bundesliga weiter. Am Sonntag muss ALBA in Bonn ran – und in der Nacht auf Sonntag steigt das Spitzenspiel Houston gegen OKC.",
   "favoritenTeams": [
@@ -515,6 +515,47 @@
       "newsId": "2026-10-29-bayern-belgrad"
     },
     {
+      "liga": "EL",
+      "datum": "2026-10-29",
+      "runde": "9. Runde",
+      "heim": "MTA",
+      "gast": "PBB",
+      "heimPkt": 94,
+      "gastPkt": 99,
+      "info": "Hifi (PBB) 26 Punkte",
+      "bericht": {
+        "text": [
+          "Nach drei Vierteln stand es 65:65 – alles war offen. Dann drehte Paris im letzten Viertel richtig auf und erzielte 34 Punkte.",
+          "So gewann Paris in Tel Aviv mit 99:94. Es war schon der zweite Auswärtssieg in dieser Woche."
+        ],
+        "highlights": [
+          "Nadir Hifi traf 26 Punkte für Paris",
+          "34 Punkte im letzten Viertel",
+          "Jimmy Clark III machte 21 Punkte für Maccabi"
+        ]
+      }
+    },
+    {
+      "liga": "EL",
+      "datum": "2026-10-29",
+      "runde": "9. Runde",
+      "heim": "RMA",
+      "gast": "FEN",
+      "heimPkt": 95,
+      "gastPkt": 76,
+      "info": "Maledon (RMA) 26 Punkte",
+      "bericht": {
+        "text": [
+          "Im Spitzenspiel lag Fenerbahçe nach dem ersten Viertel noch vorne. Danach übernahm Real Madrid die Kontrolle und gewann klar mit 95:76."
+        ],
+        "highlights": [
+          "Théo Maledon war mit 26 Punkten der beste Werfer",
+          "Facundo Campazzo verteilte 10 Assists",
+          "Will Clyburn traf 5 Dreier für Fenerbahçe"
+        ]
+      }
+    },
+    {
       "liga": "NBA",
       "datum": "2026-10-28",
       "runde": "NBA",
@@ -991,19 +1032,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "EL",
-      "zeit": "2026-10-29T20:05:00+01:00",
-      "heim": "MTA",
-      "gast": "PBB"
-    },
-    {
-      "liga": "EL",
-      "zeit": "2026-10-29T20:45:00+01:00",
-      "heim": "RMA",
-      "gast": "FEN",
-      "info": "Top-Spiel"
-    },
     {
       "liga": "NBA",
       "zeit": "2026-10-30T01:00:00+01:00",
@@ -1913,7 +1941,7 @@
     },
     "euroleague": {
       "name": "Euroleague",
-      "stand": "Stand: nach der 8. Runde (28.10.)",
+      "stand": "Stand: 9. Runde läuft (nach den Spielen vom 29.10.)",
       "zonen": [
         {
           "von": 1,
@@ -1946,23 +1974,23 @@
           "n": 2
         },
         {
-          "team": "FEN",
-          "s": 6,
-          "n": 2
-        },
-        {
           "team": "OLY",
           "s": 6,
           "n": 2
         },
         {
-          "team": "RMA",
-          "s": 5,
+          "team": "CZV",
+          "s": 6,
           "n": 3
         },
         {
-          "team": "CZV",
-          "s": 5,
+          "team": "RMA",
+          "s": 6,
+          "n": 3
+        },
+        {
+          "team": "FEN",
+          "s": 6,
           "n": 3
         },
         {
@@ -2007,18 +2035,18 @@
         },
         {
           "team": "PBB",
-          "s": 2,
-          "n": 6
-        },
-        {
-          "team": "FCB",
-          "s": 2,
+          "s": 3,
           "n": 6
         },
         {
           "team": "MTA",
           "s": 2,
-          "n": 6
+          "n": 7
+        },
+        {
+          "team": "FCB",
+          "s": 2,
+          "n": 7
         },
         {
           "team": "EA7",
@@ -3402,6 +3430,15 @@
     },
     {
       "art": "spiel",
+      "liga": "EL",
+      "datum": "2026-10-29",
+      "heim": "MTA",
+      "gast": "PBB",
+      "wert": "34 Punkte im 4. Viertel",
+      "grund": "Nach drei Vierteln stand es unentschieden. Dann legte Paris im letzten Viertel 34 Punkte auf und gewann in Tel Aviv."
+    },
+    {
+      "art": "spiel",
       "liga": "BCL",
       "datum": "2026-10-28",
       "heim": "ALBA",
@@ -3438,16 +3475,6 @@
       "gast": "OKC",
       "wert": "5 von 32 Dreiern",
       "grund": "OKC traf fast keinen Dreier und verlor zum ersten Mal in dieser Saison. Vorher hatten die Thunder alle vier Spiele gewonnen.",
-      "newsId": "okc-dallas"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-10-28",
-      "titel": "Isaiah Hartenstein",
-      "team": "OKC",
-      "wert": "2 Double-Doubles",
-      "grund": "Zweimal hintereinander kam der Deutsche auf zweistellige Punkte und Rebounds: erst 15 und 13 gegen Phoenix, dann 10 und 14 in Dallas.",
       "newsId": "okc-dallas"
     }
   ],
