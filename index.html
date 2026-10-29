@@ -165,6 +165,13 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 .row.win .tn { font-weight: 800; } .row.win .sc { color: var(--ink); }
 .row.win .sc::after { content: "◂"; font-size: 18px; color: var(--orange); margin-left: 4px; vertical-align: 6px; }
 .game .note { font-size: 14px; color: var(--ink-soft); border-top: 1px solid var(--line); padding-top: 6px; }
+button.game { text-align: left; border: 0; width: 100%; }
+.game .more { font-size: 13px; font-weight: 800; color: var(--orange-ink); justify-self: end; }
+/* Spielbericht */
+.box-score { padding: 16px 18px; display: grid; gap: 8px; margin-top: 16px; }
+.box-score .row .sc { font-size: 48px; }
+.box-score .row .tn { font-size: 19px; }
+.box-score .badge { width: 52px; height: 52px; font-size: 17px; }
 .day-h { font-family: var(--font-display); font-weight: 800; font-size: 20px; text-transform: uppercase; color: var(--ink-soft); letter-spacing: .4px; margin-top: 6px; }
 .sched { display: grid; gap: 8px; }
 .sched-row { display: grid; grid-template-columns: 112px 1fr auto; gap: 12px; align-items: center; padding: 10px 14px; }
@@ -382,11 +389,37 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       (eng.length ? '<section class="eng-box"><h3>Englisch-Ecke</h3><div>So sagen die NBA-Reporter in den USA:</div><div class="eng-list">' + eng.map(x => "<span><b>" + esc(x.en) + "</b> = " + esc(x.begriff) + "</span>").join("") + "</div></section>" : "") +
       '<p class="foot">Alle Texte wurden für dich zusammengefasst. Quellen stehen unter jedem Artikel.</p></div>';
   }
-  function gameCard(g) {
-    const hW = g.heimPkt > g.gastPkt, fav = isFav(g.heim) || isFav(g.gast);
+  function scoreRows(g) {
+    const hW = g.heimPkt > g.gastPkt;
     const row = (k, p, w) => '<div class="row' + (w ? " win" : "") + '">' + badge(k) + '<span class="tn">' + esc(team(k).name) + '</span><span class="sc">' + esc(p) + "</span></div>";
-    return '<div class="card game' + (fav ? " fav" : "") + '"><div class="game-h"><span>' + esc(g.runde || "") + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
-      (g.liga === "NBA" ? row(g.gast, g.gastPkt, !hW) + row(g.heim, g.heimPkt, hW) : row(g.heim, g.heimPkt, hW) + row(g.gast, g.gastPkt, !hW)) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + "</div>";
+    return g.liga === "NBA" ? row(g.gast, g.gastPkt, !hW) + row(g.heim, g.heimPkt, hW) : row(g.heim, g.heimPkt, hW) + row(g.gast, g.gastPkt, !hW);
+  }
+  function gameCard(g) {
+    const fav = isFav(g.heim) || isFav(g.gast);
+    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + esc(g.runde || "") + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
+      scoreRows(g) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + '<span class="more">' + (g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></button>";
+  }
+  /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
+  function autoBericht(g) {
+    const hW = g.heimPkt > g.gastPkt, w = hW ? g.heim : g.gast, l = hW ? g.gast : g.heim;
+    const wp = Math.max(g.heimPkt, g.gastPkt), lp = Math.min(g.heimPkt, g.gastPkt), diff = wp - lp;
+    const text = [team(w).name + (hW ? " gewinnt zu Hause" : " gewinnt auswärts") + " mit " + wp + ":" + lp + " gegen " + team(l).name + "."];
+    if (/Verlängerung/.test(g.runde || "")) text.push("Nach der normalen Spielzeit stand es unentschieden. Deshalb ging es in die Verlängerung.");
+    if (diff <= 5) text.push("Ein echter Krimi: Am Ende lagen nur " + (diff === 1 ? "ein Punkt" : diff + " Punkte") + " zwischen den beiden Teams.");
+    else if (diff >= 20) text.push("Ein deutlicher Sieg mit " + diff + " Punkten Vorsprung.");
+    return { text, highlights: g.info ? g.info.split(/, | · /) : [] };
+  }
+  function openGame(i) {
+    const g = (D.ergebnisse || [])[i]; if (!g) return;
+    const b = g.bericht || autoBericht(g), w = g.heimPkt > g.gastPkt ? g.heim : g.gast;
+    $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="Spielbericht"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      '<div class="card box-score"><div class="game-h"><span>' + ligaPill(g.liga) + " &nbsp;" + esc(g.runde || "") + "</span><span>" + fmtDate(g.datum + "T12:00:00") + "</span></div>" + scoreRows(g) + "</div>" +
+      "<h1>" + esc(team(w).name) + " gewinnt " + esc(Math.max(g.heimPkt, g.gastPkt) + ":" + Math.min(g.heimPkt, g.gastPkt)) + '</h1><div class="body">' + (b.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" +
+      (b.highlights && b.highlights.length ? '<div class="facts"><h4>Highlights</h4><ul>' + b.highlights.map(h => "<li>" + esc(h) + "</li>").join("") + "</ul></div>" : "") +
+      (g.newsId && allNews().some(n => n.id === g.newsId) ? '<button class="btn" data-news="' + esc(g.newsId) + '">Den ganzen Artikel lesen</button>' : "") +
+      (g.bericht ? "" : '<p class="src">Kurzfassung aus dem Endergebnis. Einen ausführlichen Bericht gibt es bei den Spielen deiner Teams und der deutschen Spieler.</p>') + "</article></div>";
+    document.body.style.overflow = "hidden";
+    $("[data-close]").focus();
   }
   function vErgebnisse() {
     const list = (D.ergebnisse || []).filter(g => g.liga === resFilter);
@@ -524,6 +557,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.gotoRes) { resFilter = b.dataset.gotoRes; go("ergebnisse"); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
+    else if (b.dataset.game != null) openGame(Number(b.dataset.game));
     else if (b.hasAttribute("data-close")) closeNews();
     else if (b.dataset.t) showTerm(b.dataset.t);
     else if (b.hasAttribute("data-sheet-close")) b.closest(".sheet").remove();

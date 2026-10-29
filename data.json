@@ -1,436 +1,2390 @@
 {
-  "aktualisiert": "2026-10-29T11:30:00+01:00",
-  "ausgabe": "Sonderausgabe",
-  "gruss": "Hallo Basketball-Fan! Das ist die allererste Ausgabe von Korbjäger. Ab jetzt gibt es jeden Morgen um 6 Uhr und jeden Nachmittag um 16 Uhr frische News.",
-  "favoritenTeams": ["OKC", "ALBA"],
-  "quizId": "2026-W44",
+    "aktualisiert":  "2026-10-29T11:30:00+01:00",
+    "ausgabe":  "Sonderausgabe",
+    "gruss":  "Hallo Basketball-Fan! Das ist die allererste Ausgabe von Korbjäger. Ab jetzt gibt es jeden Morgen um 6 Uhr und jeden Nachmittag um 16 Uhr frische News.",
+    "favoritenTeams":  [
+                           "OKC",
+                           "ALBA"
+                       ],
+    "quizId":  "2026-W44",
+    "zahlDesTages":  {
+                         "zahl":  "44",
+                         "text":  "Punkte machte Stephen Curry beim Sieg in Minnesota. Alle 16 Freiwürfe gingen rein!"
+                     },
+    "spielerDerWoche":  {
+                            "name":  "Brandon Angel",
+                            "team":  "ALBA",
+                            "text":  "Beim 103:100 von ALBA gegen Bilbao traf er alle 10 Würfe aus dem Feld und machte 24 Punkte. Perfekter geht es kaum!"
+                        },
+    "news":  [
+                 {
+                     "id":  "okc-dallas",
+                     "liga":  "NBA",
+                     "lang":  "de",
+                     "motiv":  "korb",
+                     "datum":  "2026-10-29",
+                     "tags":  [
+                                  "fav"
+                              ],
+                     "titel":  "Erste Niederlage für OKC",
+                     "teaser":  "Nach vier Siegen hat es die Thunder in Dallas erwischt. Vier Stammspieler fehlten.",
+                     "text":  [
+                                  "Oklahoma City hatte die ersten vier Spiele der Saison alle gewonnen. In Dallas klappte es nun nicht: Die Thunder verloren mit 96:120.",
+                                  "OKC fehlten gleich vier wichtige Spieler, unter anderem Jalen Williams und Chet Holmgren. Die beiden waren verletzt und konnten nicht mitspielen.",
+                                  "Bester Werfer der Thunder war Ajay Mitchell mit 29 Punkten. Shai Gilgeous-Alexander kam auf 21 Punkte. Der Deutsche Isaiah Hartenstein schaffte 10 Punkte und 14 Rebounds, also ein Double-Double.",
+                                  "Das Problem war der Dreier: OKC traf nur 5 von 32 Versuchen. Dallas traf 16 Dreier. Bei den Mavericks glänzte Cooper Flagg mit 26 Punkten und 8 Assists.",
+                                  "Mit 4 Siegen und 1 Niederlage steht OKC trotzdem weit oben in der Tabelle. Am Sonntag geht es nach Houston, zum einzigen Team, das noch gar nicht verloren hat."
+                              ],
+                     "fakten":  [
+                                    "Endstand: Dallas 120, OKC 96",
+                                    "Bilanz OKC: 4 Siege, 1 Niederlage",
+                                    "Nächstes Spiel: So 1.11., 01:30 Uhr in Houston"
+                                ],
+                     "quellen":  [
+                                     "CBS Sports",
+                                     "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "alba-bilbao",
+                     "liga":  "BCL",
+                     "lang":  "de",
+                     "motiv":  "pokal",
+                     "datum":  "2026-10-28",
+                     "tags":  [
+                                  "fav"
+                              ],
+                     "titel":  "ALBA bleibt ungeschlagen",
+                     "teaser":  "103:100 gegen Bilbao! In der Champions League führt ALBA jetzt die Gruppe an.",
+                     "text":  [
+                                  "ALBA Berlin spielt in dieser Saison nicht in der Euroleague, sondern in der Basketball Champions League. Dort läuft es richtig gut.",
+                                  "Gegen Surne Bilbao aus Spanien wurde es am Mittwochabend in der Uber Arena spannend bis zum Schluss. Am Ende gewann ALBA mit 103:100.",
+                                  "Der Held des Abends war Brandon Angel: Er traf alle 10 Würfe aus dem Feld und machte 24 Punkte. Jordan Ford kam auf 21 Punkte und 6 Assists.",
+                                  "Mit zwei Siegen aus zwei Spielen ist ALBA jetzt Erster der Gruppe G."
+                              ],
+                     "fakten":  [
+                                    "Endstand: ALBA 103, Bilbao 100",
+                                    "Brandon Angel: 10 von 10 Würfen getroffen",
+                                    "ALBA ist Gruppenerster"
+                                ],
+                     "quellen":  [
+                                     "albaberlin.de"
+                                 ]
+                 },
+                 {
+                     "id":  "curry-44",
+                     "liga":  "NBA",
+                     "lang":  "en",
+                     "motiv":  "zahlen",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-  "zahlDesTages": { "zahl": "44", "text": "Punkte machte Stephen Curry beim Sieg in Minnesota. Alle 16 Freiwürfe gingen rein!" },
+                              ],
+                     "titel":  "Steph Curry scores 44 points",
+                     "teaser":  "Curry led the Golden State Warriors to a win in Minnesota. He did not miss a single free throw.",
+                     "text":  [
+                                  "Stephen Curry had a big night in Minnesota. He scored 44 points, and the Golden State Warriors won 119 to 114.",
+                                  "Curry made 6 three-pointers and all 16 of his free throws. He also had 8 rebounds and 6 assists.",
+                                  "This was his 46th game with 40 or more points since he turned 30 years old. No other player in NBA history has done that so often.",
+                                  "Rookie Yaxel Lendeborg helped with 26 points. The Warriors lost their first three games, but now they have won two in a row."
+                              ],
+                     "fakten":  [
+                                    "Final score: Warriors 119, Timberwolves 114",
+                                    "Curry: 44 points, 16 of 16 free throws",
+                                    "Warriors record: 2 wins, 3 losses"
+                                ],
+                     "vokabeln":  [
+                                      {
+                                          "en":  "to score",
+                                          "de":  "Punkte erzielen"
+                                      },
+                                      {
+                                          "en":  "free throw",
+                                          "de":  "Freiwurf"
+                                      },
+                                      {
+                                          "en":  "three-pointer",
+                                          "de":  "Dreier"
+                                      },
+                                      {
+                                          "en":  "to miss",
+                                          "de":  "verfehlen, danebenwerfen"
+                                      },
+                                      {
+                                          "en":  "in a row",
+                                          "de":  "hintereinander"
+                                      }
+                                  ],
+                     "quellen":  [
+                                     "ESPN",
+                                     "CBS Sports"
+                                 ]
+                 },
+                 {
+                     "id":  "deutsche-nacht",
+                     "liga":  "NBA",
+                     "lang":  "de",
+                     "motiv":  "flagge",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-  "spielerDerWoche": { "name": "Brandon Angel", "team": "ALBA", "text": "Beim 103:100 von ALBA gegen Bilbao traf er alle 10 Würfe aus dem Feld und machte 24 Punkte. Perfekter geht es kaum!" },
+                              ],
+                     "titel":  "Schwere Nacht für die Deutschen",
+                     "teaser":  "Franz Wagner, Dennis Schröder und Isaiah Hartenstein spielten gut, verloren aber alle.",
+                     "text":  [
+                                  "In der Nacht auf Donnerstag waren gleich mehrere deutsche Spieler im Einsatz. Gewinnen konnte leider keiner von ihnen.",
+                                  "Franz Wagner verlor mit Orlando deutlich mit 99:129 in Toronto. Er machte 15 Punkte, 4 Rebounds und 5 Assists. Sein deutscher Teamkollege Tristan da Silva war sogar bester Werfer der Magic mit 20 Punkten.",
+                                  "Dennis Schröder spielt jetzt für die Charlotte Hornets. Es ist schon sein zwölftes NBA-Team! Bei der 89:97-Niederlage in Detroit kam er auf 14 Punkte und 5 Assists.",
+                                  "Isaiah Hartenstein holte für OKC 10 Punkte und 14 Rebounds. Das war sein zweites Double-Double hintereinander.",
+                                  "Ein Highlight gab es aber schon vor ein paar Tagen: Franz Wagner war beim Sieg in New York mit 23 Punkten, 13 Rebounds und 9 Assists ganz knapp an einem Triple-Double dran."
+                              ],
+                     "fakten":  [
+                                    "Orlando verliert 99:129 in Toronto",
+                                    "Charlotte verliert 89:97 in Detroit",
+                                    "OKC verliert 96:120 in Dallas"
+                                ],
+                     "quellen":  [
+                                     "sport1.de",
+                                     "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "alba-form",
+                     "liga":  "BBL",
+                     "lang":  "de",
+                     "motiv":  "korb",
+                     "datum":  "2026-10-25",
+                     "tags":  [
+                                  "fav"
+                              ],
+                     "titel":  "ALBA ist in Form",
+                     "teaser":  "Sieg gegen Ulm in der Bundesliga und vorher den Pokalsieger Bamberg rausgeworfen.",
+                     "text":  [
+                                  "Nach einem holprigen Start kommt ALBA Berlin immer besser in Fahrt. Am Sonntag gewannen die Berliner in der Bundesliga mit 98:82 gegen ratiopharm ulm. Es war der dritte Sieg in Folge.",
+                                  "Bester Werfer war Griesel mit 19 Punkten. Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte.",
+                                  "Schon eine Woche vorher gab es einen großen Erfolg im Pokal. ALBA schlug den Titelverteidiger Bamberg mit 83:71, obwohl es zur Halbzeit noch 33:41 stand. 8.615 Fans waren in der Halle.",
+                                  "Im Pokal-Viertelfinale spielt ALBA im Dezember in Hagen. In der Bundesliga steht ALBA mit 3 Siegen und 3 Niederlagen auf Platz 12. Nächster Gegner sind am Sonntag die Telekom Baskets Bonn."
+                              ],
+                     "fakten":  [
+                                    "BBL: ALBA 98, Ulm 82",
+                                    "Pokal: ALBA 83, Bamberg 71",
+                                    "Trainer: Pedro Calles"
+                                ],
+                     "quellen":  [
+                                     "albaberlin.de",
+                                     "dpa"
+                                 ]
+                 },
+                 {
+                     "id":  "jokic-200",
+                     "liga":  "NBA",
+                     "lang":  "en",
+                     "motiv":  "pokal",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-  "news": [
-    {
-      "id": "okc-dallas", "liga": "NBA", "lang": "de", "motiv": "korb", "datum": "2026-10-29", "tags": ["fav"],
-      "titel": "Erste Niederlage für OKC",
-      "teaser": "Nach vier Siegen hat es die Thunder in Dallas erwischt. Vier Stammspieler fehlten.",
-      "text": [
-        "Oklahoma City hatte die ersten vier Spiele der Saison alle gewonnen. In Dallas klappte es nun nicht: Die Thunder verloren mit 96:120.",
-        "OKC fehlten gleich vier wichtige Spieler, unter anderem Jalen Williams und Chet Holmgren. Die beiden waren verletzt und konnten nicht mitspielen.",
-        "Bester Werfer der Thunder war Ajay Mitchell mit 29 Punkten. Shai Gilgeous-Alexander kam auf 21 Punkte. Der Deutsche Isaiah Hartenstein schaffte 10 Punkte und 14 Rebounds, also ein Double-Double.",
-        "Das Problem war der Dreier: OKC traf nur 5 von 32 Versuchen. Dallas traf 16 Dreier. Bei den Mavericks glänzte Cooper Flagg mit 26 Punkten und 8 Assists.",
-        "Mit 4 Siegen und 1 Niederlage steht OKC trotzdem weit oben in der Tabelle. Am Sonntag geht es nach Houston, zum einzigen Team, das noch gar nicht verloren hat."
-      ],
-      "fakten": ["Endstand: Dallas 120, OKC 96", "Bilanz OKC: 4 Siege, 1 Niederlage", "Nächstes Spiel: So 1.11., 01:30 Uhr in Houston"],
-      "quellen": ["CBS Sports", "ESPN"]
-    },
-    {
-      "id": "alba-bilbao", "liga": "BCL", "lang": "de", "motiv": "pokal", "datum": "2026-10-28", "tags": ["fav"],
-      "titel": "ALBA bleibt ungeschlagen",
-      "teaser": "103:100 gegen Bilbao! In der Champions League führt ALBA jetzt die Gruppe an.",
-      "text": [
-        "ALBA Berlin spielt in dieser Saison nicht in der Euroleague, sondern in der Basketball Champions League. Dort läuft es richtig gut.",
-        "Gegen Surne Bilbao aus Spanien wurde es am Mittwochabend in der Uber Arena spannend bis zum Schluss. Am Ende gewann ALBA mit 103:100.",
-        "Der Held des Abends war Brandon Angel: Er traf alle 10 Würfe aus dem Feld und machte 24 Punkte. Jordan Ford kam auf 21 Punkte und 6 Assists.",
-        "Mit zwei Siegen aus zwei Spielen ist ALBA jetzt Erster der Gruppe G."
-      ],
-      "fakten": ["Endstand: ALBA 103, Bilbao 100", "Brandon Angel: 10 von 10 Würfen getroffen", "ALBA ist Gruppenerster"],
-      "quellen": ["albaberlin.de"]
-    },
-    {
-      "id": "curry-44", "liga": "NBA", "lang": "en", "motiv": "zahlen", "datum": "2026-10-29", "tags": [],
-      "titel": "Steph Curry scores 44 points",
-      "teaser": "Curry led the Golden State Warriors to a win in Minnesota. He did not miss a single free throw.",
-      "text": [
-        "Stephen Curry had a big night in Minnesota. He scored 44 points, and the Golden State Warriors won 119 to 114.",
-        "Curry made 6 three-pointers and all 16 of his free throws. He also had 8 rebounds and 6 assists.",
-        "This was his 46th game with 40 or more points since he turned 30 years old. No other player in NBA history has done that so often.",
-        "Rookie Yaxel Lendeborg helped with 26 points. The Warriors lost their first three games, but now they have won two in a row."
-      ],
-      "fakten": ["Final score: Warriors 119, Timberwolves 114", "Curry: 44 points, 16 of 16 free throws", "Warriors record: 2 wins, 3 losses"],
-      "vokabeln": [
-        { "en": "to score", "de": "Punkte erzielen" },
-        { "en": "free throw", "de": "Freiwurf" },
-        { "en": "three-pointer", "de": "Dreier" },
-        { "en": "to miss", "de": "verfehlen, danebenwerfen" },
-        { "en": "in a row", "de": "hintereinander" }
-      ],
-      "quellen": ["ESPN", "CBS Sports"]
-    },
-    {
-      "id": "deutsche-nacht", "liga": "NBA", "lang": "de", "motiv": "flagge", "datum": "2026-10-29", "tags": [],
-      "titel": "Schwere Nacht für die Deutschen",
-      "teaser": "Franz Wagner, Dennis Schröder und Isaiah Hartenstein spielten gut, verloren aber alle.",
-      "text": [
-        "In der Nacht auf Donnerstag waren gleich mehrere deutsche Spieler im Einsatz. Gewinnen konnte leider keiner von ihnen.",
-        "Franz Wagner verlor mit Orlando deutlich mit 99:129 in Toronto. Er machte 15 Punkte, 4 Rebounds und 5 Assists. Sein deutscher Teamkollege Tristan da Silva war sogar bester Werfer der Magic mit 20 Punkten.",
-        "Dennis Schröder spielt jetzt für die Charlotte Hornets. Es ist schon sein zwölftes NBA-Team! Bei der 89:97-Niederlage in Detroit kam er auf 14 Punkte und 5 Assists.",
-        "Isaiah Hartenstein holte für OKC 10 Punkte und 14 Rebounds. Das war sein zweites Double-Double hintereinander.",
-        "Ein Highlight gab es aber schon vor ein paar Tagen: Franz Wagner war beim Sieg in New York mit 23 Punkten, 13 Rebounds und 9 Assists ganz knapp an einem Triple-Double dran."
-      ],
-      "fakten": ["Orlando verliert 99:129 in Toronto", "Charlotte verliert 89:97 in Detroit", "OKC verliert 96:120 in Dallas"],
-      "quellen": ["sport1.de", "ESPN"]
-    },
-    {
-      "id": "alba-form", "liga": "BBL", "lang": "de", "motiv": "korb", "datum": "2026-10-25", "tags": ["fav"],
-      "titel": "ALBA ist in Form",
-      "teaser": "Sieg gegen Ulm in der Bundesliga und vorher den Pokalsieger Bamberg rausgeworfen.",
-      "text": [
-        "Nach einem holprigen Start kommt ALBA Berlin immer besser in Fahrt. Am Sonntag gewannen die Berliner in der Bundesliga mit 98:82 gegen ratiopharm ulm. Es war der dritte Sieg in Folge.",
-        "Bester Werfer war Griesel mit 19 Punkten. Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte.",
-        "Schon eine Woche vorher gab es einen großen Erfolg im Pokal. ALBA schlug den Titelverteidiger Bamberg mit 83:71, obwohl es zur Halbzeit noch 33:41 stand. 8.615 Fans waren in der Halle.",
-        "Im Pokal-Viertelfinale spielt ALBA im Dezember in Hagen. In der Bundesliga steht ALBA mit 3 Siegen und 3 Niederlagen auf Platz 12. Nächster Gegner sind am Sonntag die Telekom Baskets Bonn."
-      ],
-      "fakten": ["BBL: ALBA 98, Ulm 82", "Pokal: ALBA 83, Bamberg 71", "Trainer: Pedro Calles"],
-      "quellen": ["albaberlin.de", "dpa"]
-    },
-    {
-      "id": "jokic-200", "liga": "NBA", "lang": "en", "motiv": "pokal", "datum": "2026-10-29", "tags": [],
-      "titel": "Jokić gets triple-double number 200",
-      "teaser": "The Denver star reached a number that only one other player in history has reached.",
-      "text": [
-        "Nikola Jokić from Serbia plays for the Denver Nuggets. Against New Orleans he had 21 points, 13 rebounds and 10 assists. That is a triple-double.",
-        "It was the 200th triple-double of his career. Only Russell Westbrook has more. Westbrook is just 10 ahead of Jokić.",
-        "Denver won the game 104 to 91."
-      ],
-      "fakten": ["Jokić: 21 points, 13 rebounds, 10 assists", "200 triple-doubles in 814 games", "Nuggets 104, Pelicans 91"],
-      "vokabeln": [
-        { "en": "career", "de": "Karriere, Laufbahn" },
-        { "en": "ahead of", "de": "vor (jemandem)" },
-        { "en": "to reach", "de": "erreichen" }
-      ],
-      "quellen": ["ESPN"]
-    },
-    {
-      "id": "giannis-miami", "liga": "NBA", "lang": "de", "motiv": "schuh", "datum": "2026-10-29", "tags": [],
-      "titel": "Endlich jubelt Miami",
-      "teaser": "Erster Sieg für Giannis im Heat-Trikot und ein neuer Vereinsrekord für Bam Adebayo.",
-      "text": [
-        "Giannis Antetokounmpo spielt seit dieser Saison für die Miami Heat. Die ersten vier Spiele gingen alle verloren. In Atlanta klappte es nun mit dem ersten Sieg: 129:117.",
-        "Giannis machte 24 Punkte und holte 18 Rebounds.",
-        "Sein Teamkollege Bam Adebayo schrieb dabei Geschichte: Er hat jetzt die meisten Rebounds aller Heat-Spieler aller Zeiten, nämlich 5.794. Damit überholte er Udonis Haslem."
-      ],
-      "fakten": ["Miami 129, Atlanta 117", "Adebayo ist Miamis Rebound-Rekordhalter"],
-      "quellen": ["ESPN"]
-    },
-    {
-      "id": "bayern", "liga": "EL", "lang": "de", "motiv": "korb", "datum": "2026-10-27", "tags": [],
-      "titel": "Bayern: Daheim top, in Europa schwer",
-      "teaser": "In der Bundesliga hat der FC Bayern noch kein Spiel verloren. In der Euroleague hakt es.",
-      "text": [
-        "Der FC Bayern München ist Tabellenführer der Bundesliga. Fünf Spiele, fünf Siege! Zuletzt gab es ein 96:77 gegen die Veolia Towers Hamburg.",
-        "In der Euroleague, der stärksten Liga Europas, läuft es dagegen nicht gut. Gegen den FC Barcelona verloren die Bayern knapp mit 84:88. Die Entscheidung fiel erst bei den Freiwürfen am Ende.",
-        "Bester Münchner war Miles Norris mit 17 Punkten. In der Euroleague-Tabelle steht Bayern mit 2 Siegen und 6 Niederlagen weit hinten.",
-        "Heute Abend um 20 Uhr spielen die Bayern in Belgrad gegen Crvena zvezda."
-      ],
-      "fakten": ["BBL: 5 Siege, 0 Niederlagen", "Euroleague: 2 Siege, 6 Niederlagen", "Trainer: Anton Gavel"],
-      "quellen": ["easycredit-bbl.de", "euroleaguebasketball.net"]
-    },
-    {
-      "id": "wemby", "liga": "NBA", "lang": "de", "motiv": "ball", "datum": "2026-10-29", "tags": [],
-      "titel": "Wembanyama zaubert doppelt",
-      "teaser": "Zwei Spiele in zwei Nächten, zwei Siege. Victor Wembanyama war beide Male der Beste.",
-      "text": [
-        "Victor Wembanyama aus Frankreich ist 2,24 Meter groß und spielt für die San Antonio Spurs. Diese Woche zeigte er wieder, was er kann.",
-        "Am Dienstag machte er 29 Punkte beim 130:103 gegen Sacramento. Am Mittwoch folgten 36 Punkte und 14 Rebounds in Utah. Das Spiel ging in die Verlängerung, und die Spurs gewannen 117:111.",
-        "Die Spurs haben jetzt 3 Siege und 2 Niederlagen."
-      ],
-      "fakten": ["Spurs 130, Kings 103", "Spurs 117, Jazz 111 (nach Verlängerung)"],
-      "quellen": ["ESPN"]
-    },
-    {
-      "id": "dybantsa", "liga": "NBA", "lang": "de", "motiv": "schuh", "datum": "2026-10-29", "tags": [],
-      "titel": "Starkes Debüt der Nummer 1",
-      "teaser": "AJ Dybantsa wurde als Erster im Draft ausgewählt. Bei seinem ersten Spiel machte er 19 Punkte.",
-      "text": [
-        "Im Draft suchen sich die NBA-Teams jeden Sommer die besten jungen Spieler aus. Die Washington Wizards durften zuerst wählen und nahmen AJ Dybantsa.",
-        "Wegen eines verstauchten Knöchels musste er die ersten vier Spiele zuschauen. In Cleveland durfte er nun endlich ran.",
-        "Dybantsa traf 8 von 12 Würfen und war mit 19 Punkten bester Werfer seines Teams. Gewonnen hat Washington trotzdem nicht: Cleveland siegte 121:111."
-      ],
-      "fakten": ["Dybantsa: 19 Punkte, 8 von 12 Würfen", "Cleveland 121, Washington 111"],
-      "quellen": ["ESPN"]
-    },
-    {
-      "id": "hagen", "liga": "BBL", "lang": "de", "motiv": "pokal", "datum": "2026-10-25", "tags": [],
-      "titel": "Hagen feiert nach über zehn Jahren",
-      "teaser": "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
-      "text": [
-        "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
-        "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
-        "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
-      ],
-      "fakten": ["Hagen 88, Braunschweig 73", "Erster BBL-Heimsieg seit über 10 Jahren"],
-      "quellen": ["easycredit-bbl.de"]
-    },
-    {
-      "id": "dbb-november", "liga": "DBB", "lang": "de", "motiv": "flagge", "datum": "2026-10-29", "tags": [],
-      "titel": "Weltmeister auf WM-Kurs",
-      "teaser": "Im November spielt die Nationalmannschaft in Riga und Frankfurt um das Ticket für die WM 2027.",
-      "text": [
-        "Deutschland ist amtierender Basketball-Weltmeister. Damit das Team die nächste WM 2027 in Katar spielen darf, muss es sich aber qualifizieren.",
-        "In der Gruppe K haben Deutschland, Kroatien und Polen alle 7 Siege und 1 Niederlage. Die besten drei Teams der Gruppe fahren zur WM.",
-        "Am 27. November spielt Deutschland in Riga gegen Lettland. Am 30. November kommt Polen nach Frankfurt. NBA-Spieler wie Franz Wagner oder Dennis Schröder sind diesmal nicht dabei, weil die NBA-Saison weiterläuft.",
-        "Bundestrainer ist Àlex Mumbrú aus Spanien. Kapitän der Mannschaft ist Dennis Schröder."
-      ],
-      "fakten": ["27.11.: Lettland gegen Deutschland", "30.11.: Deutschland gegen Polen in Frankfurt", "Bundestrainer: Àlex Mumbrú"],
-      "quellen": ["sport1.de", "sportschau.de", "basketball-bund.de"]
-    }
-  ],
+                              ],
+                     "titel":  "Jokić gets triple-double number 200",
+                     "teaser":  "The Denver star reached a number that only one other player in history has reached.",
+                     "text":  [
+                                  "Nikola Jokić from Serbia plays for the Denver Nuggets. Against New Orleans he had 21 points, 13 rebounds and 10 assists. That is a triple-double.",
+                                  "It was the 200th triple-double of his career. Only Russell Westbrook has more. Westbrook is just 10 ahead of Jokić.",
+                                  "Denver won the game 104 to 91."
+                              ],
+                     "fakten":  [
+                                    "Jokić: 21 points, 13 rebounds, 10 assists",
+                                    "200 triple-doubles in 814 games",
+                                    "Nuggets 104, Pelicans 91"
+                                ],
+                     "vokabeln":  [
+                                      {
+                                          "en":  "career",
+                                          "de":  "Karriere, Laufbahn"
+                                      },
+                                      {
+                                          "en":  "ahead of",
+                                          "de":  "vor (jemandem)"
+                                      },
+                                      {
+                                          "en":  "to reach",
+                                          "de":  "erreichen"
+                                      }
+                                  ],
+                     "quellen":  [
+                                     "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "giannis-miami",
+                     "liga":  "NBA",
+                     "lang":  "de",
+                     "motiv":  "schuh",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-  "ergebnisse": [
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "DAL", "gast": "OKC", "heimPkt": 120, "gastPkt": 96, "info": "Mitchell (OKC) 29 Punkte, Flagg (DAL) 26" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "MIN", "gast": "GSW", "heimPkt": 114, "gastPkt": 119, "info": "Curry (GSW) 44 Punkte" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "DET", "gast": "CHA", "heimPkt": 97, "gastPkt": 89, "info": "Cunningham (DET) 30, Schröder (CHA) 14" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "TOR", "gast": "ORL", "heimPkt": 129, "gastPkt": 99, "info": "Barnes (TOR) 28, da Silva (ORL) 20, F. Wagner 15" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "ATL", "gast": "MIA", "heimPkt": 117, "gastPkt": 129, "info": "Antetokounmpo (MIA) 24 Punkte, 18 Rebounds" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "IND", "gast": "PHI", "heimPkt": 109, "gastPkt": 114, "info": "Maxey (PHI) 27, Siakam (IND) 26" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "CLE", "gast": "WAS", "heimPkt": 121, "gastPkt": 111, "info": "Mobley (CLE) 24, Dybantsa (WAS) 19" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "NOP", "gast": "DEN", "heimPkt": 91, "gastPkt": 104, "info": "Jokić (DEN) Triple-Double: 21/13/10" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "MIL", "gast": "HOU", "heimPkt": 100, "gastPkt": 132, "info": "VanVleet (HOU) 24, Herro (MIL) 23" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "CHI", "gast": "NYK", "heimPkt": 127, "gastPkt": 133, "info": "Brunson (NYK) 38" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA · Verlängerung", "heim": "UTA", "gast": "SAS", "heimPkt": 111, "gastPkt": 117, "info": "Wembanyama (SAS) 36 Punkte, 14 Rebounds" },
-    { "liga": "NBA", "datum": "2026-10-28", "runde": "NBA", "heim": "LAC", "gast": "LAL", "heimPkt": 87, "gastPkt": 103, "info": "Grimes (LAL) 23" },
-    { "liga": "NBA", "datum": "2026-10-27", "runde": "NBA · Verlängerung", "heim": "BOS", "gast": "BKN", "heimPkt": 125, "gastPkt": 124, "info": "Tatum (BOS) 40 Punkte" },
-    { "liga": "NBA", "datum": "2026-10-27", "runde": "NBA", "heim": "NYK", "gast": "DET", "heimPkt": 111, "gastPkt": 97, "info": "Towns (NYK) 27" },
-    { "liga": "NBA", "datum": "2026-10-27", "runde": "NBA", "heim": "SAS", "gast": "SAC", "heimPkt": 130, "gastPkt": 103, "info": "Wembanyama (SAS) 29" },
-    { "liga": "NBA", "datum": "2026-10-27", "runde": "NBA", "heim": "LAL", "gast": "POR", "heimPkt": 129, "gastPkt": 136, "info": "Dončić (LAL) 41, Avdija (POR) 23" },
+                              ],
+                     "titel":  "Endlich jubelt Miami",
+                     "teaser":  "Erster Sieg für Giannis im Heat-Trikot und ein neuer Vereinsrekord für Bam Adebayo.",
+                     "text":  [
+                                  "Giannis Antetokounmpo spielt seit dieser Saison für die Miami Heat. Die ersten vier Spiele gingen alle verloren. In Atlanta klappte es nun mit dem ersten Sieg: 129:117.",
+                                  "Giannis machte 24 Punkte und holte 18 Rebounds.",
+                                  "Sein Teamkollege Bam Adebayo schrieb dabei Geschichte: Er hat jetzt die meisten Rebounds aller Heat-Spieler aller Zeiten, nämlich 5.794. Damit überholte er Udonis Haslem."
+                              ],
+                     "fakten":  [
+                                    "Miami 129, Atlanta 117",
+                                    "Adebayo ist Miamis Rebound-Rekordhalter"
+                                ],
+                     "quellen":  [
+                                     "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "bayern",
+                     "liga":  "EL",
+                     "lang":  "de",
+                     "motiv":  "korb",
+                     "datum":  "2026-10-27",
+                     "tags":  [
 
-    { "liga": "BBL", "datum": "2026-10-26", "runde": "6. Spieltag", "heim": "WUE", "gast": "CHE", "heimPkt": 98, "gastPkt": 88 },
-    { "liga": "BBL", "datum": "2026-10-25", "runde": "6. Spieltag", "heim": "ALBA", "gast": "ULM", "heimPkt": 98, "gastPkt": 82, "info": "Griesel 19 Punkte, Sima 18" },
-    { "liga": "BBL", "datum": "2026-10-25", "runde": "6. Spieltag", "heim": "FCB", "gast": "HAM", "heimPkt": 96, "gastPkt": 77 },
-    { "liga": "BBL", "datum": "2026-10-25", "runde": "6. Spieltag", "heim": "HAG", "gast": "BRA", "heimPkt": 88, "gastPkt": 73 },
-    { "liga": "BBL", "datum": "2026-10-24", "runde": "6. Spieltag · Verlängerung", "heim": "MBC", "gast": "ROS", "heimPkt": 103, "gastPkt": 98 },
-    { "liga": "BBL", "datum": "2026-10-24", "runde": "6. Spieltag", "heim": "LUD", "gast": "BON", "heimPkt": 84, "gastPkt": 68 },
-    { "liga": "BBL", "datum": "2026-10-24", "runde": "6. Spieltag", "heim": "VEC", "gast": "TRI", "heimPkt": 88, "gastPkt": 97 },
-    { "liga": "BBL", "datum": "2026-10-23", "runde": "6. Spieltag", "heim": "OLD", "gast": "BAM", "heimPkt": 70, "gastPkt": 80 },
-    { "liga": "BBL", "datum": "2026-10-19", "runde": "Pokal", "heim": "ALBA", "gast": "BAM", "heimPkt": 83, "gastPkt": 71, "info": "Bean 20 Punkte, Delow 18 · ALBA im Viertelfinale" },
+                              ],
+                     "titel":  "Bayern: Daheim top, in Europa schwer",
+                     "teaser":  "In der Bundesliga hat der FC Bayern noch kein Spiel verloren. In der Euroleague hakt es.",
+                     "text":  [
+                                  "Der FC Bayern München ist Tabellenführer der Bundesliga. Fünf Spiele, fünf Siege! Zuletzt gab es ein 96:77 gegen die Veolia Towers Hamburg.",
+                                  "In der Euroleague, der stärksten Liga Europas, läuft es dagegen nicht gut. Gegen den FC Barcelona verloren die Bayern knapp mit 84:88. Die Entscheidung fiel erst bei den Freiwürfen am Ende.",
+                                  "Bester Münchner war Miles Norris mit 17 Punkten. In der Euroleague-Tabelle steht Bayern mit 2 Siegen und 6 Niederlagen weit hinten.",
+                                  "Heute Abend um 20 Uhr spielen die Bayern in Belgrad gegen Crvena zvezda."
+                              ],
+                     "fakten":  [
+                                    "BBL: 5 Siege, 0 Niederlagen",
+                                    "Euroleague: 2 Siege, 6 Niederlagen",
+                                    "Trainer: Anton Gavel"
+                                ],
+                     "quellen":  [
+                                     "easycredit-bbl.de",
+                                     "euroleaguebasketball.net"
+                                 ]
+                 },
+                 {
+                     "id":  "wemby",
+                     "liga":  "NBA",
+                     "lang":  "de",
+                     "motiv":  "ball",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-    { "liga": "BCL", "datum": "2026-10-28", "runde": "Champions League · Gruppe G", "heim": "ALBA", "gast": "BIL", "heimPkt": 103, "gastPkt": 100, "info": "Angel 24 Punkte (10 von 10), Ford 21" },
+                              ],
+                     "titel":  "Wembanyama zaubert doppelt",
+                     "teaser":  "Zwei Spiele in zwei Nächten, zwei Siege. Victor Wembanyama war beide Male der Beste.",
+                     "text":  [
+                                  "Victor Wembanyama aus Frankreich ist 2,24 Meter groß und spielt für die San Antonio Spurs. Diese Woche zeigte er wieder, was er kann.",
+                                  "Am Dienstag machte er 29 Punkte beim 130:103 gegen Sacramento. Am Mittwoch folgten 36 Punkte und 14 Rebounds in Utah. Das Spiel ging in die Verlängerung, und die Spurs gewannen 117:111.",
+                                  "Die Spurs haben jetzt 3 Siege und 2 Niederlagen."
+                              ],
+                     "fakten":  [
+                                    "Spurs 130, Kings 103",
+                                    "Spurs 117, Jazz 111 (nach Verlängerung)"
+                                ],
+                     "quellen":  [
+                                     "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "dybantsa",
+                     "liga":  "NBA",
+                     "lang":  "de",
+                     "motiv":  "schuh",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-    { "liga": "EL", "datum": "2026-10-28", "runde": "8. Runde", "heim": "BES", "gast": "OLY", "heimPkt": 73, "gastPkt": 81 },
-    { "liga": "EL", "datum": "2026-10-28", "runde": "8. Runde", "heim": "HTA", "gast": "EFS", "heimPkt": 118, "gastPkt": 88 },
-    { "liga": "EL", "datum": "2026-10-28", "runde": "8. Runde", "heim": "ASV", "gast": "PAR", "heimPkt": 82, "gastPkt": 75 },
-    { "liga": "EL", "datum": "2026-10-28", "runde": "8. Runde", "heim": "VIR", "gast": "ZAL", "heimPkt": 74, "gastPkt": 91 },
-    { "liga": "EL", "datum": "2026-10-27", "runde": "8. Runde", "heim": "FCB", "gast": "BAR", "heimPkt": 84, "gastPkt": 88, "info": "Norris (FCB) 17, Punter (BAR) 23" },
-    { "liga": "EL", "datum": "2026-10-27", "runde": "8. Runde", "heim": "DUB", "gast": "PBB", "heimPkt": 93, "gastPkt": 99 },
-    { "liga": "EL", "datum": "2026-10-27", "runde": "8. Runde", "heim": "CZV", "gast": "MTA", "heimPkt": 100, "gastPkt": 78 },
-    { "liga": "EL", "datum": "2026-10-27", "runde": "8. Runde", "heim": "PAO", "gast": "EA7", "heimPkt": 80, "gastPkt": 75 },
-    { "liga": "EL", "datum": "2026-10-27", "runde": "8. Runde", "heim": "VAL", "gast": "FEN", "heimPkt": 86, "gastPkt": 78 },
-    { "liga": "EL", "datum": "2026-10-27", "runde": "8. Runde", "heim": "BAS", "gast": "RMA", "heimPkt": 86, "gastPkt": 104 },
+                              ],
+                     "titel":  "Starkes Debüt der Nummer 1",
+                     "teaser":  "AJ Dybantsa wurde als Erster im Draft ausgewählt. Bei seinem ersten Spiel machte er 19 Punkte.",
+                     "text":  [
+                                  "Im Draft suchen sich die NBA-Teams jeden Sommer die besten jungen Spieler aus. Die Washington Wizards durften zuerst wählen und nahmen AJ Dybantsa.",
+                                  "Wegen eines verstauchten Knöchels musste er die ersten vier Spiele zuschauen. In Cleveland durfte er nun endlich ran.",
+                                  "Dybantsa traf 8 von 12 Würfen und war mit 19 Punkten bester Werfer seines Teams. Gewonnen hat Washington trotzdem nicht: Cleveland siegte 121:111."
+                              ],
+                     "fakten":  [
+                                    "Dybantsa: 19 Punkte, 8 von 12 Würfen",
+                                    "Cleveland 121, Washington 111"
+                                ],
+                     "quellen":  [
+                                     "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "hagen",
+                     "liga":  "BBL",
+                     "lang":  "de",
+                     "motiv":  "pokal",
+                     "datum":  "2026-10-25",
+                     "tags":  [
 
-    { "liga": "DBB", "datum": "2026-08-30", "runde": "WM-Quali · Verlängerung", "heim": "POL", "gast": "GER", "heimPkt": 94, "gastPkt": 96 },
-    { "liga": "DBB", "datum": "2026-08-27", "runde": "WM-Quali", "heim": "GER", "gast": "NED", "heimPkt": 99, "gastPkt": 83 }
-  ],
+                              ],
+                     "titel":  "Hagen feiert nach über zehn Jahren",
+                     "teaser":  "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
+                     "text":  [
+                                  "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
+                                  "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
+                                  "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
+                              ],
+                     "fakten":  [
+                                    "Hagen 88, Braunschweig 73",
+                                    "Erster BBL-Heimsieg seit über 10 Jahren"
+                                ],
+                     "quellen":  [
+                                     "easycredit-bbl.de"
+                                 ]
+                 },
+                 {
+                     "id":  "dbb-november",
+                     "liga":  "DBB",
+                     "lang":  "de",
+                     "motiv":  "flagge",
+                     "datum":  "2026-10-29",
+                     "tags":  [
 
-  "spielplan": [
-    { "liga": "EL", "zeit": "2026-10-29T20:00:00+01:00", "heim": "CZV", "gast": "FCB" },
-    { "liga": "NBA", "zeit": "2026-10-31T00:00:00+01:00", "heim": "WAS", "gast": "CHA", "info": "mit Schröder" },
-    { "liga": "NBA", "zeit": "2026-10-31T00:30:00+01:00", "heim": "TOR", "gast": "ORL", "info": "mit F. Wagner" },
-    { "liga": "NBA", "zeit": "2026-10-31T03:00:00+01:00", "heim": "GSW", "gast": "LAL", "info": "mit Curry" },
-    { "liga": "NBA", "zeit": "2026-10-31T23:00:00+01:00", "heim": "CHA", "gast": "PHI", "info": "mit Schröder" },
-    { "liga": "NBA", "zeit": "2026-11-01T01:30:00+01:00", "heim": "HOU", "gast": "OKC" },
-    { "liga": "BBL", "zeit": "2026-11-01T18:00:00+01:00", "heim": "BON", "gast": "ALBA" },
-    { "liga": "NBA", "zeit": "2026-11-01T21:30:00+01:00", "heim": "ORL", "gast": "BOS", "info": "Gut zum Zuschauen!" },
-    { "liga": "NBA", "zeit": "2026-11-02T02:30:00+01:00", "heim": "GSW", "gast": "LAC", "info": "mit Curry" },
-    { "liga": "NBA", "zeit": "2026-11-03T01:00:00+01:00", "heim": "CLE", "gast": "OKC" },
-    { "liga": "NBA", "zeit": "2026-11-05T02:00:00+01:00", "heim": "OKC", "gast": "CLE" },
-    { "liga": "BBL", "zeit": "2026-11-06T20:00:00+01:00", "heim": "ALBA", "gast": "HAG" },
-    { "liga": "DBB", "zeit": "2026-11-27T12:00:00+01:00", "ohneZeit": true, "heim": "LAT", "gast": "GER", "info": "WM-Quali in Riga" },
-    { "liga": "DBB", "zeit": "2026-11-30T12:00:00+01:00", "ohneZeit": true, "heim": "GER", "gast": "POL", "info": "WM-Quali in Frankfurt" }
-  ],
-
-  "tabellen": {
-    "nbaWest": {
-      "name": "NBA West", "stand": "Stand: nach den Spielen vom 28.10.",
-      "zonen": [ { "von": 1, "bis": 6, "typ": "good", "label": "Playoffs" }, { "von": 7, "bis": 10, "typ": "warn", "label": "Play-In" } ],
-      "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
-      "zeilen": [
-        { "team": "HOU", "s": 5, "n": 0 }, { "team": "MEM", "s": 4, "n": 0 }, { "team": "POR", "s": 3, "n": 0 },
-        { "team": "LAL", "s": 4, "n": 1 }, { "team": "OKC", "s": 4, "n": 1 }, { "team": "SAS", "s": 3, "n": 2 },
-        { "team": "DAL", "s": 3, "n": 2 }, { "team": "MIN", "s": 3, "n": 2 }, { "team": "DEN", "s": 2, "n": 2 },
-        { "team": "GSW", "s": 2, "n": 3 }, { "team": "PHX", "s": 1, "n": 2 }, { "team": "LAC", "s": 1, "n": 3 },
-        { "team": "UTA", "s": 1, "n": 4 }, { "team": "NOP", "s": 0, "n": 4 }, { "team": "SAC", "s": 0, "n": 4 }
-      ]
-    },
-    "nbaOst": {
-      "name": "NBA Ost", "stand": "Stand: nach den Spielen vom 28.10.",
-      "zonen": [ { "von": 1, "bis": 6, "typ": "good", "label": "Playoffs" }, { "von": 7, "bis": 10, "typ": "warn", "label": "Play-In" } ],
-      "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
-      "zeilen": [
-        { "team": "DET", "s": 4, "n": 1 }, { "team": "PHI", "s": 4, "n": 1 }, { "team": "TOR", "s": 3, "n": 1 },
-        { "team": "BOS", "s": 3, "n": 1 }, { "team": "CLE", "s": 3, "n": 1 }, { "team": "CHA", "s": 3, "n": 2 },
-        { "team": "ATL", "s": 2, "n": 3 }, { "team": "NYK", "s": 2, "n": 3 }, { "team": "WAS", "s": 2, "n": 3 },
-        { "team": "IND", "s": 2, "n": 3 }, { "team": "ORL", "s": 1, "n": 3 }, { "team": "CHI", "s": 1, "n": 4 },
-        { "team": "MIA", "s": 1, "n": 4 }, { "team": "MIL", "s": 1, "n": 4 }, { "team": "BKN", "s": 0, "n": 4 }
-      ]
-    },
-    "bbl": {
-      "name": "BBL", "stand": "Stand: nach dem 6. Spieltag (26.10.)",
-      "zonen": [ { "von": 1, "bis": 6, "typ": "good", "label": "Playoffs" }, { "von": 7, "bis": 10, "typ": "warn", "label": "Play-In" }, { "von": 17, "bis": 18, "typ": "bad", "label": "Abstieg" } ],
-      "erklaerung": "Nach der Hauptrunde spielen die besten Teams in den Playoffs um die Meisterschaft. Die letzten zwei steigen ab.",
-      "zeilen": [
-        { "team": "FCB", "s": 5, "n": 0 }, { "team": "TRI", "s": 5, "n": 1 }, { "team": "MBC", "s": 4, "n": 2 },
-        { "team": "LUD", "s": 4, "n": 2 }, { "team": "FRA", "s": 3, "n": 1 }, { "team": "BRA", "s": 3, "n": 2 },
-        { "team": "WUE", "s": 3, "n": 2 }, { "team": "BAM", "s": 3, "n": 3 }, { "team": "ROS", "s": 3, "n": 3 },
-        { "team": "BON", "s": 3, "n": 3 }, { "team": "OLD", "s": 3, "n": 3 }, { "team": "ALBA", "s": 3, "n": 3 },
-        { "team": "JEN", "s": 2, "n": 3 }, { "team": "ULM", "s": 2, "n": 4 }, { "team": "HAG", "s": 2, "n": 4 },
-        { "team": "HAM", "s": 1, "n": 5 }, { "team": "VEC", "s": 1, "n": 5 }, { "team": "CHE", "s": 1, "n": 5 }
-      ]
-    },
-    "euroleague": {
-      "name": "Euroleague", "stand": "Stand: nach der 8. Runde (28.10.)",
-      "zonen": [ { "von": 1, "bis": 6, "typ": "good", "label": "Playoffs" }, { "von": 7, "bis": 10, "typ": "warn", "label": "Play-In" } ],
-      "erklaerung": "In der Euroleague spielen 20 der besten Klubs Europas. Aus Deutschland ist nur der FC Bayern dabei.",
-      "zeilen": [
-        { "team": "PAO", "s": 7, "n": 1 }, { "team": "VAL", "s": 6, "n": 2 }, { "team": "HTA", "s": 6, "n": 2 },
-        { "team": "FEN", "s": 6, "n": 2 }, { "team": "OLY", "s": 6, "n": 2 }, { "team": "RMA", "s": 5, "n": 3 },
-        { "team": "CZV", "s": 5, "n": 3 }, { "team": "BAR", "s": 5, "n": 3 }, { "team": "DUB", "s": 5, "n": 3 },
-        { "team": "ZAL", "s": 4, "n": 4 }, { "team": "PAR", "s": 4, "n": 4 }, { "team": "VIR", "s": 4, "n": 4 },
-        { "team": "BES", "s": 3, "n": 5 }, { "team": "EFS", "s": 3, "n": 5 }, { "team": "ASV", "s": 3, "n": 5 },
-        { "team": "PBB", "s": 2, "n": 6 }, { "team": "FCB", "s": 2, "n": 6 }, { "team": "MTA", "s": 2, "n": 6 },
-        { "team": "EA7", "s": 1, "n": 7 }, { "team": "BAS", "s": 1, "n": 7 }
-      ]
-    },
-    "wmquali": {
-      "name": "WM-Quali", "stand": "Gruppe K · Stand: Ende August",
-      "zonen": [ { "von": 1, "bis": 3, "typ": "good", "label": "WM-Ticket" } ],
-      "erklaerung": "Kroatien, Polen und Deutschland haben gleich viele Siege. Die Reihenfolge entscheidet der direkte Vergleich. Die besten drei fahren zur WM 2027 nach Katar.",
-      "zeilen": [
-        { "team": "CRO", "s": 7, "n": 1 }, { "team": "POL", "s": 7, "n": 1 }, { "team": "GER", "s": 7, "n": 1 },
-        { "team": "LAT", "s": 4, "n": 4 }, { "team": "NED", "s": 2, "n": 6 }, { "team": "ISR", "s": 2, "n": 6 }
-      ]
-    }
-  },
-
-  "stars": [
-    { "name": "Shai Gilgeous-Alexander", "team": "OKC", "nummer": "2", "position": "Guard", "favorit": true, "stats": { "spiele": 5, "pkt": 26.0, "reb": 4.6, "ast": 3.4 }, "notiz": "Der Superstar der Thunder. Gegen die Clippers machte er schon 34 Punkte." },
-    { "name": "Stephen Curry", "team": "GSW", "nummer": "30", "position": "Guard", "favorit": true, "stats": { "spiele": 4, "pkt": 28.8, "reb": 3.8, "ast": 3.5 }, "notiz": "Der beste Dreierschütze der Geschichte. Gerade erst 44 Punkte gegen Minnesota." },
-    { "name": "Franz Wagner", "team": "ORL", "nummer": "22", "position": "Forward", "deutsch": true, "favorit": true, "stats": { "spiele": 4, "pkt": 19.5, "reb": 7.3, "ast": 6.0 }, "notiz": "Kommt aus Berlin und hat früher bei ALBA gespielt." },
-    { "name": "Moritz Wagner", "team": "BKN", "position": "Center", "deutsch": true, "favorit": true, "stats": { "spiele": 4, "pkt": 10.3, "reb": 2.8, "ast": 1.5 }, "notiz": "Der große Bruder von Franz. Seit Juli spielt er für die Brooklyn Nets." },
-    { "name": "Dennis Schröder", "team": "CHA", "position": "Guard", "deutsch": true, "favorit": true, "stats": { "spiele": 5, "pkt": 14.0, "reb": 4.0, "ast": 4.8 }, "notiz": "Kapitän der Nationalmannschaft. Charlotte ist sein zwölftes NBA-Team." },
-    { "name": "Isaiah Hartenstein", "team": "OKC", "nummer": "55", "position": "Center", "deutsch": true, "stats": { "spiele": 5, "pkt": 9.4, "reb": 9.6, "ast": 2.4 }, "notiz": "Spielt bei deinem Lieblingsteam OKC und holt fast 10 Rebounds pro Spiel." },
-    { "name": "Tristan da Silva", "team": "ORL", "nummer": "23", "position": "Forward", "deutsch": true, "stats": { "spiele": 4, "pkt": 14.5, "reb": 2.5, "ast": 1.8 }, "notiz": "Teamkollege von Franz Wagner in Orlando." },
-    { "name": "Hannes Steinbach", "team": "CHA", "position": "Forward", "deutsch": true, "stats": { "spiele": 1, "pkt": 6.0, "reb": 5.0, "ast": 0.0 }, "notiz": "Rookie aus Würzburg. Er wurde im Draft an Nummer 14 ausgewählt." }
-  ],
-
-  "rekorde": [
-    { "kategorie": "NBA-Rekord", "wert": "46-mal 40+", "text": "So oft hat Stephen Curry seit seinem 30. Geburtstag 40 oder mehr Punkte gemacht. Das hat noch keiner geschafft." },
-    { "kategorie": "Triple-Doubles", "wert": "200", "text": "Nikola Jokić hat jetzt 200 Triple-Doubles. Nur Russell Westbrook hat mehr." },
-    { "kategorie": "Ungeschlagen", "wert": "5:0", "text": "Die Houston Rockets sind das einzige NBA-Team, das noch kein Spiel verloren hat." },
-    { "kategorie": "Starker Start", "wert": "104 Punkte", "text": "Ty Jerome von den Memphis Grizzlies machte in seinen ersten drei Spielen zusammen 104 Punkte." }
-  ],
-
-  "quiz": [
-    { "frage": "Wie viele Punkte machte Stephen Curry gegen Minnesota?", "antworten": ["30", "38", "44", "52"], "richtig": 2, "erklaerung": "Es waren 44 Punkte, und dabei traf er alle 16 Freiwürfe." },
-    { "frage": "In welchem Wettbewerb spielt ALBA Berlin in dieser Saison in Europa?", "antworten": ["Euroleague", "Basketball Champions League", "EuroCup", "gar nicht"], "richtig": 1, "erklaerung": "ALBA spielt in der Basketball Champions League und führt dort die Gruppe G an." },
-    { "frage": "Was ist ein Triple-Double?", "antworten": ["Drei Dreier hintereinander", "In drei Statistiken mindestens 10", "Drei Siege in Folge", "Ein Wurf aus drei Metern"], "richtig": 1, "erklaerung": "Zum Beispiel 21 Punkte, 13 Rebounds und 10 Assists wie bei Jokić." },
-    { "frage": "Für welches Team spielt Dennis Schröder jetzt?", "antworten": ["Orlando Magic", "Brooklyn Nets", "Charlotte Hornets", "OKC Thunder"], "richtig": 2, "erklaerung": "Charlotte ist schon sein zwölftes NBA-Team." },
-    { "frage": "Welches BBL-Team hat noch kein Spiel verloren?", "antworten": ["ALBA Berlin", "FC Bayern München", "Phoenix Hagen", "Telekom Baskets Bonn"], "richtig": 1, "erklaerung": "Der FC Bayern hat alle fünf Spiele gewonnen und ist Tabellenführer." }
-  ],
-
-  "lexikon": [
-    { "begriff": "Assist", "en": "assist", "erklaerung": "Ein Pass, nach dem ein Mitspieler direkt einen Korb macht. Auf Deutsch auch Vorlage." },
-    { "begriff": "Rebound", "en": "rebound", "erklaerung": "Wenn ein Wurf danebengeht und ein Spieler den abprallenden Ball fängt." },
-    { "begriff": "Dreier", "en": "three-pointer", "erklaerung": "Ein Wurf von hinter der Dreierlinie. Er zählt 3 Punkte." },
-    { "begriff": "Freiwurf", "en": "free throw", "erklaerung": "Ein freier Wurf von der Linie nach einem Foul. Jeder Treffer zählt 1 Punkt." },
-    { "begriff": "Double-Double", "en": "double-double", "erklaerung": "In zwei Statistiken mindestens 10 schaffen, zum Beispiel 10 Punkte und 14 Rebounds." },
-    { "begriff": "Triple-Double", "en": "triple-double", "erklaerung": "In drei Statistiken mindestens 10, meistens Punkte, Rebounds und Assists. Das ist richtig schwer!" },
-    { "begriff": "Verlängerung", "en": "overtime", "erklaerung": "Steht es nach der normalen Spielzeit unentschieden, gibt es 5 Minuten extra. In den USA heißt das Overtime." },
-    { "begriff": "Draft", "en": "draft", "erklaerung": "Jeden Sommer wählen die NBA-Teams nacheinander die besten jungen Talente aus. Die schwächsten Teams dürfen meist zuerst wählen." },
-    { "begriff": "Rookie", "en": "rookie", "erklaerung": "Ein Spieler in seiner allerersten Saison in der Liga." },
-    { "begriff": "Playoffs", "en": "playoffs", "erklaerung": "Die K.-o.-Runde am Ende der Saison. Wer viermal gegen denselben Gegner gewinnt, kommt weiter." },
-    { "begriff": "Play-In", "en": "play-in", "erklaerung": "Eine Extra-Runde, in der die Teams auf den Plätzen 7 bis 10 um die letzten Playoff-Plätze spielen." },
-    { "begriff": "Guard", "en": "guard", "erklaerung": "Ein meist kleinerer, schneller Spieler, der den Ball nach vorne bringt und viel wirft." },
-    { "begriff": "Forward", "en": "forward", "erklaerung": "Ein Flügelspieler. Er ist groß, aber trotzdem beweglich und wirft auch von außen." },
-    { "begriff": "Center", "en": "center", "erklaerung": "Meist der größte Spieler im Team. Er kämpft unter dem Korb um Rebounds." },
-    { "begriff": "Dunk", "en": "dunk", "erklaerung": "Wenn ein Spieler den Ball von oben in den Korb stopft." },
-    { "begriff": "Steal", "en": "steal", "erklaerung": "Wenn ein Verteidiger dem Gegner den Ball klaut." },
-    { "begriff": "Block", "en": "block", "erklaerung": "Wenn ein Verteidiger einen Wurf mit der Hand abwehrt." },
-    { "begriff": "Debüt", "en": "debut", "erklaerung": "Das allererste Spiel eines Spielers für ein Team oder in einer Liga." },
-    { "begriff": "Bilanz", "en": "record", "erklaerung": "Wie viele Spiele ein Team gewonnen und verloren hat, zum Beispiel 4-1." },
-    { "begriff": "Heimspiel", "en": "home game", "erklaerung": "Ein Spiel in der eigenen Halle vor den eigenen Fans." },
-    { "begriff": "Euroleague", "en": "EuroLeague", "erklaerung": "Die stärkste Klub-Liga in Europa mit 20 Teams." },
-    { "begriff": "Tabellenführer", "en": "first place", "erklaerung": "Das Team, das in der Tabelle ganz oben steht." }
-  ],
-
-  "teams": {
-    "ATL": { "name": "Atlanta Hawks", "kurz": "ATL", "c1": "#E03A3E", "c2": "#FFFFFF" },
-    "BOS": { "name": "Boston Celtics", "kurz": "BOS", "c1": "#007A33", "c2": "#FFFFFF" },
-    "BKN": { "name": "Brooklyn Nets", "kurz": "BKN", "c1": "#111111", "c2": "#FFFFFF" },
-    "CHA": { "name": "Charlotte Hornets", "kurz": "CHA", "c1": "#1D1160", "c2": "#3FC3D1" },
-    "CHI": { "name": "Chicago Bulls", "kurz": "CHI", "c1": "#CE1141", "c2": "#FFFFFF" },
-    "CLE": { "name": "Cleveland Cavaliers", "kurz": "CLE", "c1": "#860038", "c2": "#FDBB30" },
-    "DAL": { "name": "Dallas Mavericks", "kurz": "DAL", "c1": "#00538C", "c2": "#FFFFFF" },
-    "DEN": { "name": "Denver Nuggets", "kurz": "DEN", "c1": "#0E2240", "c2": "#FEC524" },
-    "DET": { "name": "Detroit Pistons", "kurz": "DET", "c1": "#1D42BA", "c2": "#FFFFFF" },
-    "GSW": { "name": "Golden State Warriors", "kurz": "GSW", "c1": "#1D428A", "c2": "#FFC72C" },
-    "HOU": { "name": "Houston Rockets", "kurz": "HOU", "c1": "#CE1141", "c2": "#FFFFFF" },
-    "IND": { "name": "Indiana Pacers", "kurz": "IND", "c1": "#002D62", "c2": "#FDBB30" },
-    "LAC": { "name": "LA Clippers", "kurz": "LAC", "c1": "#C8102E", "c2": "#FFFFFF" },
-    "LAL": { "name": "Los Angeles Lakers", "kurz": "LAL", "c1": "#552583", "c2": "#FDB927" },
-    "MEM": { "name": "Memphis Grizzlies", "kurz": "MEM", "c1": "#12173F", "c2": "#7D9BD1" },
-    "MIA": { "name": "Miami Heat", "kurz": "MIA", "c1": "#98002E", "c2": "#F9A01B" },
-    "MIL": { "name": "Milwaukee Bucks", "kurz": "MIL", "c1": "#00471B", "c2": "#EEE1C6" },
-    "MIN": { "name": "Minnesota Timberwolves", "kurz": "MIN", "c1": "#0C2340", "c2": "#78BE20" },
-    "NOP": { "name": "New Orleans Pelicans", "kurz": "NOP", "c1": "#0C2340", "c2": "#B4975A" },
-    "NYK": { "name": "New York Knicks", "kurz": "NYK", "c1": "#006BB6", "c2": "#F58426" },
-    "OKC": { "name": "Oklahoma City Thunder", "kurz": "OKC", "c1": "#007AC1", "c2": "#FFFFFF" },
-    "ORL": { "name": "Orlando Magic", "kurz": "ORL", "c1": "#0077C0", "c2": "#FFFFFF" },
-    "PHI": { "name": "Philadelphia 76ers", "kurz": "PHI", "c1": "#ED174C", "c2": "#FFFFFF" },
-    "PHX": { "name": "Phoenix Suns", "kurz": "PHX", "c1": "#1D1160", "c2": "#E56020" },
-    "POR": { "name": "Portland Trail Blazers", "kurz": "POR", "c1": "#E03A3E", "c2": "#111111" },
-    "SAC": { "name": "Sacramento Kings", "kurz": "SAC", "c1": "#5A2D81", "c2": "#FFFFFF" },
-    "SAS": { "name": "San Antonio Spurs", "kurz": "SAS", "c1": "#111111", "c2": "#C4CED4" },
-    "TOR": { "name": "Toronto Raptors", "kurz": "TOR", "c1": "#CE1141", "c2": "#FFFFFF" },
-    "UTA": { "name": "Utah Jazz", "kurz": "UTA", "c1": "#002B5C", "c2": "#F9A01B" },
-    "WAS": { "name": "Washington Wizards", "kurz": "WAS", "c1": "#E31837", "c2": "#FFFFFF" },
-
-    "ALBA": { "name": "ALBA BERLIN", "kurz": "ALB", "c1": "#FFD400", "c2": "#0A2C78" },
-    "FCB": { "name": "FC Bayern München", "kurz": "FCB", "c1": "#DC052D", "c2": "#FFFFFF" },
-    "TRI": { "name": "Gladiators Trier", "kurz": "TRI", "c1": "#1B3A6B", "c2": "#FFFFFF" },
-    "MBC": { "name": "SYNTAINICS MBC", "kurz": "MBC", "c1": "#2E8B3A", "c2": "#FFFFFF" },
-    "LUD": { "name": "MHP RIESEN Ludwigsburg", "kurz": "LUD", "c1": "#F39200", "c2": "#12203A" },
-    "FRA": { "name": "SKYLINERS Frankfurt", "kurz": "FRA", "c1": "#003C7E", "c2": "#FFFFFF" },
-    "BRA": { "name": "Basketball Löwen Braunschweig", "kurz": "BRA", "c1": "#0055A4", "c2": "#FFD200" },
-    "WUE": { "name": "Würzburg Baskets", "kurz": "WÜR", "c1": "#CC0000", "c2": "#FFFFFF" },
-    "BAM": { "name": "Bamberg Baskets", "kurz": "BAM", "c1": "#00205B", "c2": "#FFFFFF" },
-    "ROS": { "name": "Rostock Seawolves", "kurz": "ROS", "c1": "#0B2D5B", "c2": "#7FD3F7" },
-    "BON": { "name": "Telekom Baskets Bonn", "kurz": "BON", "c1": "#E20074", "c2": "#FFFFFF" },
-    "OLD": { "name": "EWE Baskets Oldenburg", "kurz": "OLD", "c1": "#0D2B8C", "c2": "#FFD200" },
-    "JEN": { "name": "Science City Jena", "kurz": "JEN", "c1": "#0067B1", "c2": "#FFFFFF" },
-    "ULM": { "name": "ratiopharm ulm", "kurz": "ULM", "c1": "#F37021", "c2": "#FFFFFF" },
-    "HAG": { "name": "Phoenix Hagen", "kurz": "HAG", "c1": "#F5A300", "c2": "#111111" },
-    "HAM": { "name": "Veolia Towers Hamburg", "kurz": "HAM", "c1": "#0B1F3A", "c2": "#FFFFFF" },
-    "VEC": { "name": "RASTA Vechta", "kurz": "VEC", "c1": "#1B1B1B", "c2": "#FFD000" },
-    "CHE": { "name": "NINERS Chemnitz", "kurz": "CHE", "c1": "#7A1E87", "c2": "#FFFFFF" },
-
-    "BIL": { "name": "Surne Bilbao", "kurz": "BIL", "c1": "#111111", "c2": "#E30613" },
-
-    "PAO": { "name": "Panathinaikos Athen", "kurz": "PAO", "c1": "#007841", "c2": "#FFFFFF" },
-    "VAL": { "name": "Valencia Basket", "kurz": "VAL", "c1": "#F47920", "c2": "#FFFFFF" },
-    "HTA": { "name": "Hapoel Tel Aviv", "kurz": "HTA", "c1": "#E2001A", "c2": "#FFFFFF" },
-    "FEN": { "name": "Fenerbahçe Istanbul", "kurz": "FEN", "c1": "#00205B", "c2": "#FFED00" },
-    "OLY": { "name": "Olympiakos Piräus", "kurz": "OLY", "c1": "#D50032", "c2": "#FFFFFF" },
-    "RMA": { "name": "Real Madrid", "kurz": "RMA", "c1": "#FFFFFF", "c2": "#3D195B" },
-    "CZV": { "name": "Crvena zvezda Belgrad", "kurz": "CZV", "c1": "#D7182A", "c2": "#FFFFFF" },
-    "BAR": { "name": "FC Barcelona", "kurz": "BAR", "c1": "#A50044", "c2": "#EDBB00" },
-    "DUB": { "name": "Dubai Basketball", "kurz": "DUB", "c1": "#111111", "c2": "#C9A44C" },
-    "ZAL": { "name": "Žalgiris Kaunas", "kurz": "ZAL", "c1": "#006C35", "c2": "#FFFFFF" },
-    "PAR": { "name": "Partizan Belgrad", "kurz": "PAR", "c1": "#111111", "c2": "#FFFFFF" },
-    "VIR": { "name": "Virtus Bologna", "kurz": "VIR", "c1": "#2B2B2B", "c2": "#FFFFFF" },
-    "BES": { "name": "Beşiktaş Istanbul", "kurz": "BJK", "c1": "#111111", "c2": "#FFFFFF" },
-    "EFS": { "name": "Anadolu Efes", "kurz": "EFS", "c1": "#00337F", "c2": "#FFFFFF" },
-    "ASV": { "name": "ASVEL Villeurbanne", "kurz": "ASV", "c1": "#00843D", "c2": "#FFFFFF" },
-    "PBB": { "name": "Paris Basketball", "kurz": "PAR", "c1": "#1B1B1B", "c2": "#E9C46A" },
-    "MTA": { "name": "Maccabi Tel Aviv", "kurz": "MTA", "c1": "#FFD200", "c2": "#00338D" },
-    "EA7": { "name": "Olimpia Mailand", "kurz": "MIL", "c1": "#E30613", "c2": "#FFFFFF" },
-    "BAS": { "name": "Baskonia", "kurz": "BAS", "c1": "#0A2240", "c2": "#E30613" },
-
-    "GER": { "name": "Deutschland", "kurz": "GER", "c1": "#111111", "c2": "#FFCE00" },
-    "LAT": { "name": "Lettland", "kurz": "LAT", "c1": "#9E3039", "c2": "#FFFFFF" },
-    "POL": { "name": "Polen", "kurz": "POL", "c1": "#DC143C", "c2": "#FFFFFF" },
-    "NED": { "name": "Niederlande", "kurz": "NED", "c1": "#FF6600", "c2": "#FFFFFF" },
-    "ISR": { "name": "Israel", "kurz": "ISR", "c1": "#0038B8", "c2": "#FFFFFF" },
-    "CRO": { "name": "Kroatien", "kurz": "CRO", "c1": "#E2001A", "c2": "#FFFFFF" }
-  }
+                              ],
+                     "titel":  "Weltmeister auf WM-Kurs",
+                     "teaser":  "Im November spielt die Nationalmannschaft in Riga und Frankfurt um das Ticket für die WM 2027.",
+                     "text":  [
+                                  "Deutschland ist amtierender Basketball-Weltmeister. Damit das Team die nächste WM 2027 in Katar spielen darf, muss es sich aber qualifizieren.",
+                                  "In der Gruppe K haben Deutschland, Kroatien und Polen alle 7 Siege und 1 Niederlage. Die besten drei Teams der Gruppe fahren zur WM.",
+                                  "Am 27. November spielt Deutschland in Riga gegen Lettland. Am 30. November kommt Polen nach Frankfurt. NBA-Spieler wie Franz Wagner oder Dennis Schröder sind diesmal nicht dabei, weil die NBA-Saison weiterläuft.",
+                                  "Bundestrainer ist Àlex Mumbrú aus Spanien. Kapitän der Mannschaft ist Dennis Schröder."
+                              ],
+                     "fakten":  [
+                                    "27.11.: Lettland gegen Deutschland",
+                                    "30.11.: Deutschland gegen Polen in Frankfurt",
+                                    "Bundestrainer: Àlex Mumbrú"
+                                ],
+                     "quellen":  [
+                                     "sport1.de",
+                                     "sportschau.de",
+                                     "basketball-bund.de"
+                                 ]
+                 }
+             ],
+    "ergebnisse":  [
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "DAL",
+                           "gast":  "OKC",
+                           "heimPkt":  120,
+                           "gastPkt":  96,
+                           "info":  "Mitchell (OKC) 29 Punkte, Flagg (DAL) 26",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Nach vier Siegen zum Start hat es OKC zum ersten Mal erwischt. In Dallas verloren die Thunder deutlich mit 96:120.",
+                                                        "Vier wichtige Spieler fehlten, darunter Jalen Williams und Chet Holmgren. Dazu lief es beim Dreier gar nicht: OKC traf nur 5 von 32 Versuchen, Dallas dagegen 16."
+                                                    ],
+                                           "highlights":  [
+                                                              "Ajay Mitchell war mit 29 Punkten bester Werfer von OKC",
+                                                              "Shai Gilgeous-Alexander kam auf 21 Punkte",
+                                                              "Isaiah Hartenstein schaffte ein Double-Double: 10 Punkte und 14 Rebounds",
+                                                              "Cooper Flagg machte für Dallas 26 Punkte und 8 Assists"
+                                                          ]
+                                       },
+                           "newsId":  "okc-dallas"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "MIN",
+                           "gast":  "GSW",
+                           "heimPkt":  114,
+                           "gastPkt":  119,
+                           "info":  "Curry (GSW) 44 Punkte",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Stephen Curry hatte in Minnesota einen Riesenabend. Mit 44 Punkten führte er die Warriors zum 119:114-Sieg.",
+                                                        "Für Golden State war es der zweite Sieg in Folge, nachdem die ersten drei Spiele verloren gegangen waren."
+                                                    ],
+                                           "highlights":  [
+                                                              "Curry traf alle 16 Freiwürfe und 6 Dreier",
+                                                              "Dazu holte er 8 Rebounds und 6 Assists",
+                                                              "Sein 46. Spiel mit 40 oder mehr Punkten seit seinem 30. Geburtstag: NBA-Rekord!",
+                                                              "Rookie Yaxel Lendeborg steuerte 26 Punkte bei"
+                                                          ]
+                                       },
+                           "newsId":  "curry-44"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "DET",
+                           "gast":  "CHA",
+                           "heimPkt":  97,
+                           "gastPkt":  89,
+                           "info":  "Cunningham (DET) 30, Schröder (CHA) 14",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Dennis Schröder und seine Charlotte Hornets mussten sich in Detroit mit 89:97 geschlagen geben.",
+                                                        "Charlotte ist schon das zwölfte NBA-Team von Dennis Schröder."
+                                                    ],
+                                           "highlights":  [
+                                                              "Dennis Schröder kam auf 14 Punkte und 5 Assists",
+                                                              "Cunningham war mit 30 Punkten bester Werfer von Detroit"
+                                                          ]
+                                       },
+                           "newsId":  "deutsche-nacht"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "TOR",
+                           "gast":  "ORL",
+                           "heimPkt":  129,
+                           "gastPkt":  99,
+                           "info":  "Barnes (TOR) 28, da Silva (ORL) 20, F. Wagner 15",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Für Orlando war in Toronto nichts zu holen: Die Magic verloren deutlich mit 99:129.",
+                                                        "Zwei Deutsche standen für Orlando auf dem Feld, und beide gehörten zu den besten Werfern."
+                                                    ],
+                                           "highlights":  [
+                                                              "Tristan da Silva war mit 20 Punkten bester Werfer von Orlando",
+                                                              "Franz Wagner machte 15 Punkte, 4 Rebounds und 5 Assists",
+                                                              "Barnes machte 28 Punkte für Toronto"
+                                                          ]
+                                       },
+                           "newsId":  "deutsche-nacht"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "ATL",
+                           "gast":  "MIA",
+                           "heimPkt":  117,
+                           "gastPkt":  129,
+                           "info":  "Antetokounmpo (MIA) 24 Punkte, 18 Rebounds",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Endlich jubelt Miami! Nach vier Niederlagen zum Start gewann die Heat in Atlanta mit 129:117.",
+                                                        "Giannis Antetokounmpo spielt seit dieser Saison für Miami und war der Mann des Abends."
+                                                    ],
+                                           "highlights":  [
+                                                              "Giannis Antetokounmpo machte 24 Punkte und holte 18 Rebounds",
+                                                              "Bam Adebayo ist jetzt Miamis Rebound-Rekordhalter mit 5.794 Rebounds"
+                                                          ]
+                                       },
+                           "newsId":  "giannis-miami"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "IND",
+                           "gast":  "PHI",
+                           "heimPkt":  109,
+                           "gastPkt":  114,
+                           "info":  "Maxey (PHI) 27, Siakam (IND) 26"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "CLE",
+                           "gast":  "WAS",
+                           "heimPkt":  121,
+                           "gastPkt":  111,
+                           "info":  "Mobley (CLE) 24, Dybantsa (WAS) 19",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Cleveland gewann gegen Washington mit 121:111.",
+                                                        "Für die Wizards war es trotzdem ein besonderer Abend: AJ Dybantsa, die Nummer 1 im Draft, spielte zum ersten Mal mit."
+                                                    ],
+                                           "highlights":  [
+                                                              "AJ Dybantsa traf 8 von 12 Würfen und machte 19 Punkte, so viele wie kein anderer Wizards-Spieler",
+                                                              "Mobley war mit 24 Punkten bester Werfer von Cleveland"
+                                                          ]
+                                       },
+                           "newsId":  "dybantsa"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "NOP",
+                           "gast":  "DEN",
+                           "heimPkt":  91,
+                           "gastPkt":  104,
+                           "info":  "Jokić (DEN) Triple-Double: 21/13/10",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Denver gewann in New Orleans mit 104:91. Der Star des Abends war wieder einmal Nikola Jokić."
+                                                    ],
+                                           "highlights":  [
+                                                              "Jokić schaffte ein Triple-Double: 21 Punkte, 13 Rebounds und 10 Assists",
+                                                              "Es war sein 200. Triple-Double. Nur Russell Westbrook hat mehr."
+                                                          ]
+                                       },
+                           "newsId":  "jokic-200"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "MIL",
+                           "gast":  "HOU",
+                           "heimPkt":  100,
+                           "gastPkt":  132,
+                           "info":  "VanVleet (HOU) 24, Herro (MIL) 23"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "CHI",
+                           "gast":  "NYK",
+                           "heimPkt":  127,
+                           "gastPkt":  133,
+                           "info":  "Brunson (NYK) 38"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA · Verlängerung",
+                           "heim":  "UTA",
+                           "gast":  "SAS",
+                           "heimPkt":  111,
+                           "gastPkt":  117,
+                           "info":  "Wembanyama (SAS) 36 Punkte, 14 Rebounds",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Spannung bis in die Verlängerung: San Antonio gewann in Utah am Ende mit 117:111.",
+                                                        "Victor Wembanyama war einen Tag nach seinen 29 Punkten gegen Sacramento schon wieder kaum zu stoppen."
+                                                    ],
+                                           "highlights":  [
+                                                              "Victor Wembanyama machte 36 Punkte und holte 14 Rebounds",
+                                                              "Die Spurs haben jetzt 3 Siege und 2 Niederlagen"
+                                                          ]
+                                       },
+                           "newsId":  "wemby"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "runde":  "NBA",
+                           "heim":  "LAC",
+                           "gast":  "LAL",
+                           "heimPkt":  87,
+                           "gastPkt":  103,
+                           "info":  "Grimes (LAL) 23"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-27",
+                           "runde":  "NBA · Verlängerung",
+                           "heim":  "BOS",
+                           "gast":  "BKN",
+                           "heimPkt":  125,
+                           "gastPkt":  124,
+                           "info":  "Tatum (BOS) 40 Punkte"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-27",
+                           "runde":  "NBA",
+                           "heim":  "NYK",
+                           "gast":  "DET",
+                           "heimPkt":  111,
+                           "gastPkt":  97,
+                           "info":  "Towns (NYK) 27"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-27",
+                           "runde":  "NBA",
+                           "heim":  "SAS",
+                           "gast":  "SAC",
+                           "heimPkt":  130,
+                           "gastPkt":  103,
+                           "info":  "Wembanyama (SAS) 29",
+                           "bericht":  {
+                                           "text":  [
+                                                        "San Antonio feierte einen klaren 130:103-Heimsieg gegen Sacramento."
+                                                    ],
+                                           "highlights":  [
+                                                              "Victor Wembanyama war mit 29 Punkten bester Werfer"
+                                                          ]
+                                       },
+                           "newsId":  "wemby"
+                       },
+                       {
+                           "liga":  "NBA",
+                           "datum":  "2026-10-27",
+                           "runde":  "NBA",
+                           "heim":  "LAL",
+                           "gast":  "POR",
+                           "heimPkt":  129,
+                           "gastPkt":  136,
+                           "info":  "Dončić (LAL) 41, Avdija (POR) 23"
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-26",
+                           "runde":  "6. Spieltag",
+                           "heim":  "WUE",
+                           "gast":  "CHE",
+                           "heimPkt":  98,
+                           "gastPkt":  88
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-25",
+                           "runde":  "6. Spieltag",
+                           "heim":  "ALBA",
+                           "gast":  "ULM",
+                           "heimPkt":  98,
+                           "gastPkt":  82,
+                           "info":  "Griesel 19 Punkte, Sima 18",
+                           "bericht":  {
+                                           "text":  [
+                                                        "ALBA BERLIN gewann in der Bundesliga mit 98:82 gegen ratiopharm ulm.",
+                                                        "Es war der dritte Sieg in Folge. Nach dem holprigen Start kommt ALBA immer besser in Fahrt."
+                                                    ],
+                                           "highlights":  [
+                                                              "Griesel war mit 19 Punkten bester Werfer",
+                                                              "Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte"
+                                                          ]
+                                       },
+                           "newsId":  "alba-form"
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-25",
+                           "runde":  "6. Spieltag",
+                           "heim":  "FCB",
+                           "gast":  "HAM",
+                           "heimPkt":  96,
+                           "gastPkt":  77,
+                           "bericht":  {
+                                           "text":  [
+                                                        "Der FC Bayern bleibt in der Bundesliga ohne Niederlage: Gegen die Veolia Towers Hamburg gab es ein klares 96:77.",
+                                                        "Fünf Spiele, fünf Siege: Die Bayern sind Tabellenführer."
+                                                    ],
+                                           "highlights":  [
+                                                              "Fünfter Sieg im fünften Bundesliga-Spiel",
+                                                              "19 Punkte Vorsprung am Ende"
+                                                          ]
+                                       },
+                           "newsId":  "bayern"
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-25",
+                           "runde":  "6. Spieltag",
+                           "heim":  "HAG",
+                           "gast":  "BRA",
+                           "heimPkt":  88,
+                           "gastPkt":  73,
+                           "bericht":  {
+                                           "text":  [
+                                                        "Phoenix Hagen schlug die Basketball Löwen Braunschweig mit 88:73.",
+                                                        "Für den Aufsteiger war das etwas ganz Besonderes: der erste Bundesliga-Heimsieg seit über zehn Jahren!"
+                                                    ],
+                                           "highlights":  [
+                                                              "Erster BBL-Heimsieg für Hagen seit über 10 Jahren",
+                                                              "Hagen ist im Dezember ALBAs Gegner im Pokal-Viertelfinale"
+                                                          ]
+                                       },
+                           "newsId":  "hagen"
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-24",
+                           "runde":  "6. Spieltag · Verlängerung",
+                           "heim":  "MBC",
+                           "gast":  "ROS",
+                           "heimPkt":  103,
+                           "gastPkt":  98
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-24",
+                           "runde":  "6. Spieltag",
+                           "heim":  "LUD",
+                           "gast":  "BON",
+                           "heimPkt":  84,
+                           "gastPkt":  68
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-24",
+                           "runde":  "6. Spieltag",
+                           "heim":  "VEC",
+                           "gast":  "TRI",
+                           "heimPkt":  88,
+                           "gastPkt":  97
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-23",
+                           "runde":  "6. Spieltag",
+                           "heim":  "OLD",
+                           "gast":  "BAM",
+                           "heimPkt":  70,
+                           "gastPkt":  80
+                       },
+                       {
+                           "liga":  "BBL",
+                           "datum":  "2026-10-19",
+                           "runde":  "Pokal",
+                           "heim":  "ALBA",
+                           "gast":  "BAM",
+                           "heimPkt":  83,
+                           "gastPkt":  71,
+                           "info":  "Bean 20 Punkte, Delow 18 · ALBA im Viertelfinale",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Im Pokal schlug ALBA den Titelverteidiger Bamberg mit 83:71. Dabei lag ALBA zur Halbzeit noch mit 33:41 zurück!",
+                                                        "8.615 Fans sahen die Aufholjagd. Im Viertelfinale spielt ALBA im Dezember in Hagen."
+                                                    ],
+                                           "highlights":  [
+                                                              "Aufholjagd nach einem 33:41 zur Halbzeit",
+                                                              "Bean machte 20 Punkte",
+                                                              "Delow kam auf 18 Punkte"
+                                                          ]
+                                       },
+                           "newsId":  "alba-form"
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-28",
+                           "runde":  "Champions League · Gruppe G",
+                           "heim":  "ALBA",
+                           "gast":  "BIL",
+                           "heimPkt":  103,
+                           "gastPkt":  100,
+                           "info":  "Angel 24 Punkte (10 von 10), Ford 21",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Spannung bis zum Schluss in der Uber Arena: ALBA gewann in der Champions League mit 103:100 gegen Surne Bilbao aus Spanien.",
+                                                        "Mit zwei Siegen aus zwei Spielen ist ALBA jetzt Erster der Gruppe G."
+                                                    ],
+                                           "highlights":  [
+                                                              "Brandon Angel traf alle 10 Würfe aus dem Feld und machte 24 Punkte",
+                                                              "Jordan Ford kam auf 21 Punkte und 6 Assists"
+                                                          ]
+                                       },
+                           "newsId":  "alba-bilbao"
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-28",
+                           "runde":  "8. Runde",
+                           "heim":  "BES",
+                           "gast":  "OLY",
+                           "heimPkt":  73,
+                           "gastPkt":  81
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-28",
+                           "runde":  "8. Runde",
+                           "heim":  "HTA",
+                           "gast":  "EFS",
+                           "heimPkt":  118,
+                           "gastPkt":  88
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-28",
+                           "runde":  "8. Runde",
+                           "heim":  "ASV",
+                           "gast":  "PAR",
+                           "heimPkt":  82,
+                           "gastPkt":  75
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-28",
+                           "runde":  "8. Runde",
+                           "heim":  "VIR",
+                           "gast":  "ZAL",
+                           "heimPkt":  74,
+                           "gastPkt":  91
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-27",
+                           "runde":  "8. Runde",
+                           "heim":  "FCB",
+                           "gast":  "BAR",
+                           "heimPkt":  84,
+                           "gastPkt":  88,
+                           "info":  "Norris (FCB) 17, Punter (BAR) 23",
+                           "bericht":  {
+                                           "text":  [
+                                                        "Knappe Niederlage für den FC Bayern in der Euroleague: Gegen den FC Barcelona hieß es am Ende 84:88.",
+                                                        "Die Entscheidung fiel erst bei den Freiwürfen am Schluss."
+                                                    ],
+                                           "highlights":  [
+                                                              "Miles Norris war mit 17 Punkten bester Münchner",
+                                                              "Punter machte 23 Punkte für Barcelona"
+                                                          ]
+                                       },
+                           "newsId":  "bayern"
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-27",
+                           "runde":  "8. Runde",
+                           "heim":  "DUB",
+                           "gast":  "PBB",
+                           "heimPkt":  93,
+                           "gastPkt":  99
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-27",
+                           "runde":  "8. Runde",
+                           "heim":  "CZV",
+                           "gast":  "MTA",
+                           "heimPkt":  100,
+                           "gastPkt":  78
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-27",
+                           "runde":  "8. Runde",
+                           "heim":  "PAO",
+                           "gast":  "EA7",
+                           "heimPkt":  80,
+                           "gastPkt":  75
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-27",
+                           "runde":  "8. Runde",
+                           "heim":  "VAL",
+                           "gast":  "FEN",
+                           "heimPkt":  86,
+                           "gastPkt":  78
+                       },
+                       {
+                           "liga":  "EL",
+                           "datum":  "2026-10-27",
+                           "runde":  "8. Runde",
+                           "heim":  "BAS",
+                           "gast":  "RMA",
+                           "heimPkt":  86,
+                           "gastPkt":  104
+                       },
+                       {
+                           "liga":  "DBB",
+                           "datum":  "2026-08-30",
+                           "runde":  "WM-Quali · Verlängerung",
+                           "heim":  "POL",
+                           "gast":  "GER",
+                           "heimPkt":  94,
+                           "gastPkt":  96
+                       },
+                       {
+                           "liga":  "DBB",
+                           "datum":  "2026-08-27",
+                           "runde":  "WM-Quali",
+                           "heim":  "GER",
+                           "gast":  "NED",
+                           "heimPkt":  99,
+                           "gastPkt":  83
+                       }
+                   ],
+    "spielplan":  [
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-29T20:00:00+01:00",
+                          "heim":  "CZV",
+                          "gast":  "FCB"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:00:00+01:00",
+                          "heim":  "WAS",
+                          "gast":  "CHA",
+                          "info":  "mit Schröder"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:30:00+01:00",
+                          "heim":  "TOR",
+                          "gast":  "ORL",
+                          "info":  "mit F. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T03:00:00+01:00",
+                          "heim":  "GSW",
+                          "gast":  "LAL",
+                          "info":  "mit Curry"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T23:00:00+01:00",
+                          "heim":  "CHA",
+                          "gast":  "PHI",
+                          "info":  "mit Schröder"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-01T01:30:00+01:00",
+                          "heim":  "HOU",
+                          "gast":  "OKC"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-11-01T18:00:00+01:00",
+                          "heim":  "BON",
+                          "gast":  "ALBA"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-01T21:30:00+01:00",
+                          "heim":  "ORL",
+                          "gast":  "BOS",
+                          "info":  "Gut zum Zuschauen!"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-02T02:30:00+01:00",
+                          "heim":  "GSW",
+                          "gast":  "LAC",
+                          "info":  "mit Curry"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:00:00+01:00",
+                          "heim":  "CLE",
+                          "gast":  "OKC"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T02:00:00+01:00",
+                          "heim":  "OKC",
+                          "gast":  "CLE"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-11-06T20:00:00+01:00",
+                          "heim":  "ALBA",
+                          "gast":  "HAG"
+                      },
+                      {
+                          "liga":  "DBB",
+                          "zeit":  "2026-11-27T12:00:00+01:00",
+                          "ohneZeit":  true,
+                          "heim":  "LAT",
+                          "gast":  "GER",
+                          "info":  "WM-Quali in Riga"
+                      },
+                      {
+                          "liga":  "DBB",
+                          "zeit":  "2026-11-30T12:00:00+01:00",
+                          "ohneZeit":  true,
+                          "heim":  "GER",
+                          "gast":  "POL",
+                          "info":  "WM-Quali in Frankfurt"
+                      }
+                  ],
+    "tabellen":  {
+                     "nbaWest":  {
+                                     "name":  "NBA West",
+                                     "stand":  "Stand: nach den Spielen vom 28.10.",
+                                     "zonen":  [
+                                                   {
+                                                       "von":  1,
+                                                       "bis":  6,
+                                                       "typ":  "good",
+                                                       "label":  "Playoffs"
+                                                   },
+                                                   {
+                                                       "von":  7,
+                                                       "bis":  10,
+                                                       "typ":  "warn",
+                                                       "label":  "Play-In"
+                                                   }
+                                               ],
+                                     "erklaerung":  "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
+                                     "zeilen":  [
+                                                    {
+                                                        "team":  "HOU",
+                                                        "s":  5,
+                                                        "n":  0
+                                                    },
+                                                    {
+                                                        "team":  "MEM",
+                                                        "s":  4,
+                                                        "n":  0
+                                                    },
+                                                    {
+                                                        "team":  "POR",
+                                                        "s":  3,
+                                                        "n":  0
+                                                    },
+                                                    {
+                                                        "team":  "LAL",
+                                                        "s":  4,
+                                                        "n":  1
+                                                    },
+                                                    {
+                                                        "team":  "OKC",
+                                                        "s":  4,
+                                                        "n":  1
+                                                    },
+                                                    {
+                                                        "team":  "SAS",
+                                                        "s":  3,
+                                                        "n":  2
+                                                    },
+                                                    {
+                                                        "team":  "DAL",
+                                                        "s":  3,
+                                                        "n":  2
+                                                    },
+                                                    {
+                                                        "team":  "MIN",
+                                                        "s":  3,
+                                                        "n":  2
+                                                    },
+                                                    {
+                                                        "team":  "DEN",
+                                                        "s":  2,
+                                                        "n":  2
+                                                    },
+                                                    {
+                                                        "team":  "GSW",
+                                                        "s":  2,
+                                                        "n":  3
+                                                    },
+                                                    {
+                                                        "team":  "PHX",
+                                                        "s":  1,
+                                                        "n":  2
+                                                    },
+                                                    {
+                                                        "team":  "LAC",
+                                                        "s":  1,
+                                                        "n":  3
+                                                    },
+                                                    {
+                                                        "team":  "UTA",
+                                                        "s":  1,
+                                                        "n":  4
+                                                    },
+                                                    {
+                                                        "team":  "NOP",
+                                                        "s":  0,
+                                                        "n":  4
+                                                    },
+                                                    {
+                                                        "team":  "SAC",
+                                                        "s":  0,
+                                                        "n":  4
+                                                    }
+                                                ]
+                                 },
+                     "nbaOst":  {
+                                    "name":  "NBA Ost",
+                                    "stand":  "Stand: nach den Spielen vom 28.10.",
+                                    "zonen":  [
+                                                  {
+                                                      "von":  1,
+                                                      "bis":  6,
+                                                      "typ":  "good",
+                                                      "label":  "Playoffs"
+                                                  },
+                                                  {
+                                                      "von":  7,
+                                                      "bis":  10,
+                                                      "typ":  "warn",
+                                                      "label":  "Play-In"
+                                                  }
+                                              ],
+                                    "erklaerung":  "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
+                                    "zeilen":  [
+                                                   {
+                                                       "team":  "DET",
+                                                       "s":  4,
+                                                       "n":  1
+                                                   },
+                                                   {
+                                                       "team":  "PHI",
+                                                       "s":  4,
+                                                       "n":  1
+                                                   },
+                                                   {
+                                                       "team":  "TOR",
+                                                       "s":  3,
+                                                       "n":  1
+                                                   },
+                                                   {
+                                                       "team":  "BOS",
+                                                       "s":  3,
+                                                       "n":  1
+                                                   },
+                                                   {
+                                                       "team":  "CLE",
+                                                       "s":  3,
+                                                       "n":  1
+                                                   },
+                                                   {
+                                                       "team":  "CHA",
+                                                       "s":  3,
+                                                       "n":  2
+                                                   },
+                                                   {
+                                                       "team":  "ATL",
+                                                       "s":  2,
+                                                       "n":  3
+                                                   },
+                                                   {
+                                                       "team":  "NYK",
+                                                       "s":  2,
+                                                       "n":  3
+                                                   },
+                                                   {
+                                                       "team":  "WAS",
+                                                       "s":  2,
+                                                       "n":  3
+                                                   },
+                                                   {
+                                                       "team":  "IND",
+                                                       "s":  2,
+                                                       "n":  3
+                                                   },
+                                                   {
+                                                       "team":  "ORL",
+                                                       "s":  1,
+                                                       "n":  3
+                                                   },
+                                                   {
+                                                       "team":  "CHI",
+                                                       "s":  1,
+                                                       "n":  4
+                                                   },
+                                                   {
+                                                       "team":  "MIA",
+                                                       "s":  1,
+                                                       "n":  4
+                                                   },
+                                                   {
+                                                       "team":  "MIL",
+                                                       "s":  1,
+                                                       "n":  4
+                                                   },
+                                                   {
+                                                       "team":  "BKN",
+                                                       "s":  0,
+                                                       "n":  4
+                                                   }
+                                               ]
+                                },
+                     "bbl":  {
+                                 "name":  "BBL",
+                                 "stand":  "Stand: nach dem 6. Spieltag (26.10.)",
+                                 "zonen":  [
+                                               {
+                                                   "von":  1,
+                                                   "bis":  6,
+                                                   "typ":  "good",
+                                                   "label":  "Playoffs"
+                                               },
+                                               {
+                                                   "von":  7,
+                                                   "bis":  10,
+                                                   "typ":  "warn",
+                                                   "label":  "Play-In"
+                                               },
+                                               {
+                                                   "von":  17,
+                                                   "bis":  18,
+                                                   "typ":  "bad",
+                                                   "label":  "Abstieg"
+                                               }
+                                           ],
+                                 "erklaerung":  "Nach der Hauptrunde spielen die besten Teams in den Playoffs um die Meisterschaft. Die letzten zwei steigen ab.",
+                                 "zeilen":  [
+                                                {
+                                                    "team":  "FCB",
+                                                    "s":  5,
+                                                    "n":  0
+                                                },
+                                                {
+                                                    "team":  "TRI",
+                                                    "s":  5,
+                                                    "n":  1
+                                                },
+                                                {
+                                                    "team":  "MBC",
+                                                    "s":  4,
+                                                    "n":  2
+                                                },
+                                                {
+                                                    "team":  "LUD",
+                                                    "s":  4,
+                                                    "n":  2
+                                                },
+                                                {
+                                                    "team":  "FRA",
+                                                    "s":  3,
+                                                    "n":  1
+                                                },
+                                                {
+                                                    "team":  "BRA",
+                                                    "s":  3,
+                                                    "n":  2
+                                                },
+                                                {
+                                                    "team":  "WUE",
+                                                    "s":  3,
+                                                    "n":  2
+                                                },
+                                                {
+                                                    "team":  "BAM",
+                                                    "s":  3,
+                                                    "n":  3
+                                                },
+                                                {
+                                                    "team":  "ROS",
+                                                    "s":  3,
+                                                    "n":  3
+                                                },
+                                                {
+                                                    "team":  "BON",
+                                                    "s":  3,
+                                                    "n":  3
+                                                },
+                                                {
+                                                    "team":  "OLD",
+                                                    "s":  3,
+                                                    "n":  3
+                                                },
+                                                {
+                                                    "team":  "ALBA",
+                                                    "s":  3,
+                                                    "n":  3
+                                                },
+                                                {
+                                                    "team":  "JEN",
+                                                    "s":  2,
+                                                    "n":  3
+                                                },
+                                                {
+                                                    "team":  "ULM",
+                                                    "s":  2,
+                                                    "n":  4
+                                                },
+                                                {
+                                                    "team":  "HAG",
+                                                    "s":  2,
+                                                    "n":  4
+                                                },
+                                                {
+                                                    "team":  "HAM",
+                                                    "s":  1,
+                                                    "n":  5
+                                                },
+                                                {
+                                                    "team":  "VEC",
+                                                    "s":  1,
+                                                    "n":  5
+                                                },
+                                                {
+                                                    "team":  "CHE",
+                                                    "s":  1,
+                                                    "n":  5
+                                                }
+                                            ]
+                             },
+                     "euroleague":  {
+                                        "name":  "Euroleague",
+                                        "stand":  "Stand: nach der 8. Runde (28.10.)",
+                                        "zonen":  [
+                                                      {
+                                                          "von":  1,
+                                                          "bis":  6,
+                                                          "typ":  "good",
+                                                          "label":  "Playoffs"
+                                                      },
+                                                      {
+                                                          "von":  7,
+                                                          "bis":  10,
+                                                          "typ":  "warn",
+                                                          "label":  "Play-In"
+                                                      }
+                                                  ],
+                                        "erklaerung":  "In der Euroleague spielen 20 der besten Klubs Europas. Aus Deutschland ist nur der FC Bayern dabei.",
+                                        "zeilen":  [
+                                                       {
+                                                           "team":  "PAO",
+                                                           "s":  7,
+                                                           "n":  1
+                                                       },
+                                                       {
+                                                           "team":  "VAL",
+                                                           "s":  6,
+                                                           "n":  2
+                                                       },
+                                                       {
+                                                           "team":  "HTA",
+                                                           "s":  6,
+                                                           "n":  2
+                                                       },
+                                                       {
+                                                           "team":  "FEN",
+                                                           "s":  6,
+                                                           "n":  2
+                                                       },
+                                                       {
+                                                           "team":  "OLY",
+                                                           "s":  6,
+                                                           "n":  2
+                                                       },
+                                                       {
+                                                           "team":  "RMA",
+                                                           "s":  5,
+                                                           "n":  3
+                                                       },
+                                                       {
+                                                           "team":  "CZV",
+                                                           "s":  5,
+                                                           "n":  3
+                                                       },
+                                                       {
+                                                           "team":  "BAR",
+                                                           "s":  5,
+                                                           "n":  3
+                                                       },
+                                                       {
+                                                           "team":  "DUB",
+                                                           "s":  5,
+                                                           "n":  3
+                                                       },
+                                                       {
+                                                           "team":  "ZAL",
+                                                           "s":  4,
+                                                           "n":  4
+                                                       },
+                                                       {
+                                                           "team":  "PAR",
+                                                           "s":  4,
+                                                           "n":  4
+                                                       },
+                                                       {
+                                                           "team":  "VIR",
+                                                           "s":  4,
+                                                           "n":  4
+                                                       },
+                                                       {
+                                                           "team":  "BES",
+                                                           "s":  3,
+                                                           "n":  5
+                                                       },
+                                                       {
+                                                           "team":  "EFS",
+                                                           "s":  3,
+                                                           "n":  5
+                                                       },
+                                                       {
+                                                           "team":  "ASV",
+                                                           "s":  3,
+                                                           "n":  5
+                                                       },
+                                                       {
+                                                           "team":  "PBB",
+                                                           "s":  2,
+                                                           "n":  6
+                                                       },
+                                                       {
+                                                           "team":  "FCB",
+                                                           "s":  2,
+                                                           "n":  6
+                                                       },
+                                                       {
+                                                           "team":  "MTA",
+                                                           "s":  2,
+                                                           "n":  6
+                                                       },
+                                                       {
+                                                           "team":  "EA7",
+                                                           "s":  1,
+                                                           "n":  7
+                                                       },
+                                                       {
+                                                           "team":  "BAS",
+                                                           "s":  1,
+                                                           "n":  7
+                                                       }
+                                                   ]
+                                    },
+                     "wmquali":  {
+                                     "name":  "WM-Quali",
+                                     "stand":  "Gruppe K · Stand: Ende August",
+                                     "zonen":  [
+                                                   {
+                                                       "von":  1,
+                                                       "bis":  3,
+                                                       "typ":  "good",
+                                                       "label":  "WM-Ticket"
+                                                   }
+                                               ],
+                                     "erklaerung":  "Kroatien, Polen und Deutschland haben gleich viele Siege. Die Reihenfolge entscheidet der direkte Vergleich. Die besten drei fahren zur WM 2027 nach Katar.",
+                                     "zeilen":  [
+                                                    {
+                                                        "team":  "CRO",
+                                                        "s":  7,
+                                                        "n":  1
+                                                    },
+                                                    {
+                                                        "team":  "POL",
+                                                        "s":  7,
+                                                        "n":  1
+                                                    },
+                                                    {
+                                                        "team":  "GER",
+                                                        "s":  7,
+                                                        "n":  1
+                                                    },
+                                                    {
+                                                        "team":  "LAT",
+                                                        "s":  4,
+                                                        "n":  4
+                                                    },
+                                                    {
+                                                        "team":  "NED",
+                                                        "s":  2,
+                                                        "n":  6
+                                                    },
+                                                    {
+                                                        "team":  "ISR",
+                                                        "s":  2,
+                                                        "n":  6
+                                                    }
+                                                ]
+                                 }
+                 },
+    "stars":  [
+                  {
+                      "name":  "Shai Gilgeous-Alexander",
+                      "team":  "OKC",
+                      "nummer":  "2",
+                      "position":  "Guard",
+                      "favorit":  true,
+                      "stats":  {
+                                    "spiele":  5,
+                                    "pkt":  26.0,
+                                    "reb":  4.6,
+                                    "ast":  3.4
+                                },
+                      "notiz":  "Der Superstar der Thunder. Gegen die Clippers machte er schon 34 Punkte."
+                  },
+                  {
+                      "name":  "Stephen Curry",
+                      "team":  "GSW",
+                      "nummer":  "30",
+                      "position":  "Guard",
+                      "favorit":  true,
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  28.8,
+                                    "reb":  3.8,
+                                    "ast":  3.5
+                                },
+                      "notiz":  "Der beste Dreierschütze der Geschichte. Gerade erst 44 Punkte gegen Minnesota."
+                  },
+                  {
+                      "name":  "Franz Wagner",
+                      "team":  "ORL",
+                      "nummer":  "22",
+                      "position":  "Forward",
+                      "deutsch":  true,
+                      "favorit":  true,
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  19.5,
+                                    "reb":  7.3,
+                                    "ast":  6.0
+                                },
+                      "notiz":  "Kommt aus Berlin und hat früher bei ALBA gespielt."
+                  },
+                  {
+                      "name":  "Moritz Wagner",
+                      "team":  "BKN",
+                      "position":  "Center",
+                      "deutsch":  true,
+                      "favorit":  true,
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  10.3,
+                                    "reb":  2.8,
+                                    "ast":  1.5
+                                },
+                      "notiz":  "Der große Bruder von Franz. Seit Juli spielt er für die Brooklyn Nets."
+                  },
+                  {
+                      "name":  "Dennis Schröder",
+                      "team":  "CHA",
+                      "position":  "Guard",
+                      "deutsch":  true,
+                      "favorit":  true,
+                      "stats":  {
+                                    "spiele":  5,
+                                    "pkt":  14.0,
+                                    "reb":  4.0,
+                                    "ast":  4.8
+                                },
+                      "notiz":  "Kapitän der Nationalmannschaft. Charlotte ist sein zwölftes NBA-Team."
+                  },
+                  {
+                      "name":  "Isaiah Hartenstein",
+                      "team":  "OKC",
+                      "nummer":  "55",
+                      "position":  "Center",
+                      "deutsch":  true,
+                      "stats":  {
+                                    "spiele":  5,
+                                    "pkt":  9.4,
+                                    "reb":  9.6,
+                                    "ast":  2.4
+                                },
+                      "notiz":  "Spielt bei deinem Lieblingsteam OKC und holt fast 10 Rebounds pro Spiel."
+                  },
+                  {
+                      "name":  "Tristan da Silva",
+                      "team":  "ORL",
+                      "nummer":  "23",
+                      "position":  "Forward",
+                      "deutsch":  true,
+                      "stats":  {
+                                    "spiele":  4,
+                                    "pkt":  14.5,
+                                    "reb":  2.5,
+                                    "ast":  1.8
+                                },
+                      "notiz":  "Teamkollege von Franz Wagner in Orlando."
+                  },
+                  {
+                      "name":  "Hannes Steinbach",
+                      "team":  "CHA",
+                      "position":  "Forward",
+                      "deutsch":  true,
+                      "stats":  {
+                                    "spiele":  1,
+                                    "pkt":  6.0,
+                                    "reb":  5.0,
+                                    "ast":  0.0
+                                },
+                      "notiz":  "Rookie aus Würzburg. Er wurde im Draft an Nummer 14 ausgewählt."
+                  }
+              ],
+    "rekorde":  [
+                    {
+                        "kategorie":  "NBA-Rekord",
+                        "wert":  "46-mal 40+",
+                        "text":  "So oft hat Stephen Curry seit seinem 30. Geburtstag 40 oder mehr Punkte gemacht. Das hat noch keiner geschafft."
+                    },
+                    {
+                        "kategorie":  "Triple-Doubles",
+                        "wert":  "200",
+                        "text":  "Nikola Jokić hat jetzt 200 Triple-Doubles. Nur Russell Westbrook hat mehr."
+                    },
+                    {
+                        "kategorie":  "Ungeschlagen",
+                        "wert":  "5:0",
+                        "text":  "Die Houston Rockets sind das einzige NBA-Team, das noch kein Spiel verloren hat."
+                    },
+                    {
+                        "kategorie":  "Starker Start",
+                        "wert":  "104 Punkte",
+                        "text":  "Ty Jerome von den Memphis Grizzlies machte in seinen ersten drei Spielen zusammen 104 Punkte."
+                    }
+                ],
+    "quiz":  [
+                 {
+                     "frage":  "Wie viele Punkte machte Stephen Curry gegen Minnesota?",
+                     "antworten":  [
+                                       "30",
+                                       "38",
+                                       "44",
+                                       "52"
+                                   ],
+                     "richtig":  2,
+                     "erklaerung":  "Es waren 44 Punkte, und dabei traf er alle 16 Freiwürfe."
+                 },
+                 {
+                     "frage":  "In welchem Wettbewerb spielt ALBA Berlin in dieser Saison in Europa?",
+                     "antworten":  [
+                                       "Euroleague",
+                                       "Basketball Champions League",
+                                       "EuroCup",
+                                       "gar nicht"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "ALBA spielt in der Basketball Champions League und führt dort die Gruppe G an."
+                 },
+                 {
+                     "frage":  "Was ist ein Triple-Double?",
+                     "antworten":  [
+                                       "Drei Dreier hintereinander",
+                                       "In drei Statistiken mindestens 10",
+                                       "Drei Siege in Folge",
+                                       "Ein Wurf aus drei Metern"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Zum Beispiel 21 Punkte, 13 Rebounds und 10 Assists wie bei Jokić."
+                 },
+                 {
+                     "frage":  "Für welches Team spielt Dennis Schröder jetzt?",
+                     "antworten":  [
+                                       "Orlando Magic",
+                                       "Brooklyn Nets",
+                                       "Charlotte Hornets",
+                                       "OKC Thunder"
+                                   ],
+                     "richtig":  2,
+                     "erklaerung":  "Charlotte ist schon sein zwölftes NBA-Team."
+                 },
+                 {
+                     "frage":  "Welches BBL-Team hat noch kein Spiel verloren?",
+                     "antworten":  [
+                                       "ALBA Berlin",
+                                       "FC Bayern München",
+                                       "Phoenix Hagen",
+                                       "Telekom Baskets Bonn"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Der FC Bayern hat alle fünf Spiele gewonnen und ist Tabellenführer."
+                 },
+                 {
+                     "frage":  "Wer war beim Sieg von ALBA gegen Bilbao der Held des Abends?",
+                     "antworten":  [
+                                       "Jordan Ford",
+                                       "Brandon Angel",
+                                       "Yankuba Sima",
+                                       "Griesel"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Brandon Angel traf alle 10 Würfe aus dem Feld und machte 24 Punkte."
+                 },
+                 {
+                     "frage":  "Wie viele Triple-Doubles hat Nikola Jokić jetzt?",
+                     "antworten":  [
+                                       "100",
+                                       "150",
+                                       "200",
+                                       "250"
+                                   ],
+                     "richtig":  2,
+                     "erklaerung":  "Gegen New Orleans schaffte er sein 200. Triple-Double."
+                 },
+                 {
+                     "frage":  "Welcher Spieler hat noch mehr Triple-Doubles als Jokić?",
+                     "antworten":  [
+                                       "LeBron James",
+                                       "Russell Westbrook",
+                                       "Stephen Curry",
+                                       "Luka Dončić"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Russell Westbrook liegt nur noch 10 Triple-Doubles vor Jokić."
+                 },
+                 {
+                     "frage":  "Welches NBA-Team hat als einziges noch kein Spiel verloren?",
+                     "antworten":  [
+                                       "Oklahoma City Thunder",
+                                       "Houston Rockets",
+                                       "San Antonio Spurs",
+                                       "Miami Heat"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Die Houston Rockets haben alle fünf Spiele gewonnen. Am Sonntag spielen sie gegen OKC."
+                 },
+                 {
+                     "frage":  "Wen haben die Washington Wizards im Draft als Nummer 1 ausgewählt?",
+                     "antworten":  [
+                                       "Cooper Flagg",
+                                       "AJ Dybantsa",
+                                       "Victor Wembanyama",
+                                       "Hannes Steinbach"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "AJ Dybantsa machte in seinem ersten Spiel gleich 19 Punkte."
+                 },
+                 {
+                     "frage":  "Wie viele Dreier traf OKC bei der Niederlage in Dallas?",
+                     "antworten":  [
+                                       "5 von 32",
+                                       "12 von 30",
+                                       "16 von 35",
+                                       "20 von 40"
+                                   ],
+                     "richtig":  0,
+                     "erklaerung":  "Nur 5 von 32 Dreiern gingen rein. Dallas traf 16 Dreier."
+                 },
+                 {
+                     "frage":  "Welcher deutsche Spieler holte in Dallas für OKC ein Double-Double?",
+                     "antworten":  [
+                                       "Franz Wagner",
+                                       "Isaiah Hartenstein",
+                                       "Tristan da Silva",
+                                       "Moritz Wagner"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Isaiah Hartenstein kam auf 10 Punkte und 14 Rebounds."
+                 },
+                 {
+                     "frage":  "Wer ist jetzt Miamis Rebound-Rekordhalter?",
+                     "antworten":  [
+                                       "Giannis Antetokounmpo",
+                                       "Bam Adebayo",
+                                       "Udonis Haslem",
+                                       "Tyler Herro"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Bam Adebayo hat jetzt 5.794 Rebounds und überholte damit Udonis Haslem."
+                 },
+                 {
+                     "frage":  "Wie stand es zur Halbzeit im Pokalspiel ALBA gegen Bamberg?",
+                     "antworten":  [
+                                       "33:41 für Bamberg",
+                                       "41:33 für ALBA",
+                                       "50:50",
+                                       "20:45 für Bamberg"
+                                   ],
+                     "richtig":  0,
+                     "erklaerung":  "ALBA lag zur Pause hinten und gewann am Ende trotzdem 83:71."
+                 },
+                 {
+                     "frage":  "Wer ist Trainer von ALBA BERLIN?",
+                     "antworten":  [
+                                       "Anton Gavel",
+                                       "Pedro Calles",
+                                       "Àlex Mumbrú",
+                                       "Gordon Herbert"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Pedro Calles ist ALBA-Trainer. Anton Gavel trainiert den FC Bayern."
+                 },
+                 {
+                     "frage":  "In welchem Land findet die Basketball-WM 2027 statt?",
+                     "antworten":  [
+                                       "USA",
+                                       "Katar",
+                                       "Deutschland",
+                                       "Japan"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Die WM 2027 wird in Katar gespielt. Deutschland muss sich noch qualifizieren."
+                 },
+                 {
+                     "frage":  "Wer ist Kapitän der deutschen Nationalmannschaft?",
+                     "antworten":  [
+                                       "Franz Wagner",
+                                       "Dennis Schröder",
+                                       "Moritz Wagner",
+                                       "Isaiah Hartenstein"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Dennis Schröder ist Kapitän. Bundestrainer ist Àlex Mumbrú."
+                 },
+                 {
+                     "frage":  "Wie groß ist Victor Wembanyama?",
+                     "antworten":  [
+                                       "1,98 Meter",
+                                       "2,08 Meter",
+                                       "2,24 Meter",
+                                       "2,40 Meter"
+                                   ],
+                     "richtig":  2,
+                     "erklaerung":  "Mit 2,24 Metern ist er einer der größten Spieler der NBA."
+                 },
+                 {
+                     "frage":  "Wie lange dauert eine Verlängerung?",
+                     "antworten":  [
+                                       "1 Minute",
+                                       "5 Minuten",
+                                       "10 Minuten",
+                                       "12 Minuten"
+                                   ],
+                     "richtig":  1,
+                     "erklaerung":  "Steht es nach der normalen Spielzeit unentschieden, gibt es 5 Minuten extra."
+                 },
+                 {
+                     "frage":  "Wie viele Punkte zählt ein Freiwurf?",
+                     "antworten":  [
+                                       "1 Punkt",
+                                       "2 Punkte",
+                                       "3 Punkte",
+                                       "4 Punkte"
+                                   ],
+                     "richtig":  0,
+                     "erklaerung":  "Jeder Freiwurf zählt 1 Punkt. Ein Dreier zählt 3 Punkte."
+                 }
+             ],
+    "lexikon":  [
+                    {
+                        "begriff":  "Assist",
+                        "en":  "assist",
+                        "erklaerung":  "Ein Pass, nach dem ein Mitspieler direkt einen Korb macht. Auf Deutsch auch Vorlage."
+                    },
+                    {
+                        "begriff":  "Rebound",
+                        "en":  "rebound",
+                        "erklaerung":  "Wenn ein Wurf danebengeht und ein Spieler den abprallenden Ball fängt."
+                    },
+                    {
+                        "begriff":  "Dreier",
+                        "en":  "three-pointer",
+                        "erklaerung":  "Ein Wurf von hinter der Dreierlinie. Er zählt 3 Punkte."
+                    },
+                    {
+                        "begriff":  "Freiwurf",
+                        "en":  "free throw",
+                        "erklaerung":  "Ein freier Wurf von der Linie nach einem Foul. Jeder Treffer zählt 1 Punkt."
+                    },
+                    {
+                        "begriff":  "Double-Double",
+                        "en":  "double-double",
+                        "erklaerung":  "In zwei Statistiken mindestens 10 schaffen, zum Beispiel 10 Punkte und 14 Rebounds."
+                    },
+                    {
+                        "begriff":  "Triple-Double",
+                        "en":  "triple-double",
+                        "erklaerung":  "In drei Statistiken mindestens 10, meistens Punkte, Rebounds und Assists. Das ist richtig schwer!"
+                    },
+                    {
+                        "begriff":  "Verlängerung",
+                        "en":  "overtime",
+                        "erklaerung":  "Steht es nach der normalen Spielzeit unentschieden, gibt es 5 Minuten extra. In den USA heißt das Overtime."
+                    },
+                    {
+                        "begriff":  "Draft",
+                        "en":  "draft",
+                        "erklaerung":  "Jeden Sommer wählen die NBA-Teams nacheinander die besten jungen Talente aus. Die schwächsten Teams dürfen meist zuerst wählen."
+                    },
+                    {
+                        "begriff":  "Rookie",
+                        "en":  "rookie",
+                        "erklaerung":  "Ein Spieler in seiner allerersten Saison in der Liga."
+                    },
+                    {
+                        "begriff":  "Playoffs",
+                        "en":  "playoffs",
+                        "erklaerung":  "Die K.-o.-Runde am Ende der Saison. Wer viermal gegen denselben Gegner gewinnt, kommt weiter."
+                    },
+                    {
+                        "begriff":  "Play-In",
+                        "en":  "play-in",
+                        "erklaerung":  "Eine Extra-Runde, in der die Teams auf den Plätzen 7 bis 10 um die letzten Playoff-Plätze spielen."
+                    },
+                    {
+                        "begriff":  "Guard",
+                        "en":  "guard",
+                        "erklaerung":  "Ein meist kleinerer, schneller Spieler, der den Ball nach vorne bringt und viel wirft."
+                    },
+                    {
+                        "begriff":  "Forward",
+                        "en":  "forward",
+                        "erklaerung":  "Ein Flügelspieler. Er ist groß, aber trotzdem beweglich und wirft auch von außen."
+                    },
+                    {
+                        "begriff":  "Center",
+                        "en":  "center",
+                        "erklaerung":  "Meist der größte Spieler im Team. Er kämpft unter dem Korb um Rebounds."
+                    },
+                    {
+                        "begriff":  "Dunk",
+                        "en":  "dunk",
+                        "erklaerung":  "Wenn ein Spieler den Ball von oben in den Korb stopft."
+                    },
+                    {
+                        "begriff":  "Steal",
+                        "en":  "steal",
+                        "erklaerung":  "Wenn ein Verteidiger dem Gegner den Ball klaut."
+                    },
+                    {
+                        "begriff":  "Block",
+                        "en":  "block",
+                        "erklaerung":  "Wenn ein Verteidiger einen Wurf mit der Hand abwehrt."
+                    },
+                    {
+                        "begriff":  "Debüt",
+                        "en":  "debut",
+                        "erklaerung":  "Das allererste Spiel eines Spielers für ein Team oder in einer Liga."
+                    },
+                    {
+                        "begriff":  "Bilanz",
+                        "en":  "record",
+                        "erklaerung":  "Wie viele Spiele ein Team gewonnen und verloren hat, zum Beispiel 4-1."
+                    },
+                    {
+                        "begriff":  "Heimspiel",
+                        "en":  "home game",
+                        "erklaerung":  "Ein Spiel in der eigenen Halle vor den eigenen Fans."
+                    },
+                    {
+                        "begriff":  "Euroleague",
+                        "en":  "EuroLeague",
+                        "erklaerung":  "Die stärkste Klub-Liga in Europa mit 20 Teams."
+                    },
+                    {
+                        "begriff":  "Tabellenführer",
+                        "en":  "first place",
+                        "erklaerung":  "Das Team, das in der Tabelle ganz oben steht."
+                    }
+                ],
+    "teams":  {
+                  "ATL":  {
+                              "name":  "Atlanta Hawks",
+                              "kurz":  "ATL",
+                              "c1":  "#E03A3E",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BOS":  {
+                              "name":  "Boston Celtics",
+                              "kurz":  "BOS",
+                              "c1":  "#007A33",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BKN":  {
+                              "name":  "Brooklyn Nets",
+                              "kurz":  "BKN",
+                              "c1":  "#111111",
+                              "c2":  "#FFFFFF"
+                          },
+                  "CHA":  {
+                              "name":  "Charlotte Hornets",
+                              "kurz":  "CHA",
+                              "c1":  "#1D1160",
+                              "c2":  "#3FC3D1"
+                          },
+                  "CHI":  {
+                              "name":  "Chicago Bulls",
+                              "kurz":  "CHI",
+                              "c1":  "#CE1141",
+                              "c2":  "#FFFFFF"
+                          },
+                  "CLE":  {
+                              "name":  "Cleveland Cavaliers",
+                              "kurz":  "CLE",
+                              "c1":  "#860038",
+                              "c2":  "#FDBB30"
+                          },
+                  "DAL":  {
+                              "name":  "Dallas Mavericks",
+                              "kurz":  "DAL",
+                              "c1":  "#00538C",
+                              "c2":  "#FFFFFF"
+                          },
+                  "DEN":  {
+                              "name":  "Denver Nuggets",
+                              "kurz":  "DEN",
+                              "c1":  "#0E2240",
+                              "c2":  "#FEC524"
+                          },
+                  "DET":  {
+                              "name":  "Detroit Pistons",
+                              "kurz":  "DET",
+                              "c1":  "#1D42BA",
+                              "c2":  "#FFFFFF"
+                          },
+                  "GSW":  {
+                              "name":  "Golden State Warriors",
+                              "kurz":  "GSW",
+                              "c1":  "#1D428A",
+                              "c2":  "#FFC72C"
+                          },
+                  "HOU":  {
+                              "name":  "Houston Rockets",
+                              "kurz":  "HOU",
+                              "c1":  "#CE1141",
+                              "c2":  "#FFFFFF"
+                          },
+                  "IND":  {
+                              "name":  "Indiana Pacers",
+                              "kurz":  "IND",
+                              "c1":  "#002D62",
+                              "c2":  "#FDBB30"
+                          },
+                  "LAC":  {
+                              "name":  "LA Clippers",
+                              "kurz":  "LAC",
+                              "c1":  "#C8102E",
+                              "c2":  "#FFFFFF"
+                          },
+                  "LAL":  {
+                              "name":  "Los Angeles Lakers",
+                              "kurz":  "LAL",
+                              "c1":  "#552583",
+                              "c2":  "#FDB927"
+                          },
+                  "MEM":  {
+                              "name":  "Memphis Grizzlies",
+                              "kurz":  "MEM",
+                              "c1":  "#12173F",
+                              "c2":  "#7D9BD1"
+                          },
+                  "MIA":  {
+                              "name":  "Miami Heat",
+                              "kurz":  "MIA",
+                              "c1":  "#98002E",
+                              "c2":  "#F9A01B"
+                          },
+                  "MIL":  {
+                              "name":  "Milwaukee Bucks",
+                              "kurz":  "MIL",
+                              "c1":  "#00471B",
+                              "c2":  "#EEE1C6"
+                          },
+                  "MIN":  {
+                              "name":  "Minnesota Timberwolves",
+                              "kurz":  "MIN",
+                              "c1":  "#0C2340",
+                              "c2":  "#78BE20"
+                          },
+                  "NOP":  {
+                              "name":  "New Orleans Pelicans",
+                              "kurz":  "NOP",
+                              "c1":  "#0C2340",
+                              "c2":  "#B4975A"
+                          },
+                  "NYK":  {
+                              "name":  "New York Knicks",
+                              "kurz":  "NYK",
+                              "c1":  "#006BB6",
+                              "c2":  "#F58426"
+                          },
+                  "OKC":  {
+                              "name":  "Oklahoma City Thunder",
+                              "kurz":  "OKC",
+                              "c1":  "#007AC1",
+                              "c2":  "#FFFFFF"
+                          },
+                  "ORL":  {
+                              "name":  "Orlando Magic",
+                              "kurz":  "ORL",
+                              "c1":  "#0077C0",
+                              "c2":  "#FFFFFF"
+                          },
+                  "PHI":  {
+                              "name":  "Philadelphia 76ers",
+                              "kurz":  "PHI",
+                              "c1":  "#ED174C",
+                              "c2":  "#FFFFFF"
+                          },
+                  "PHX":  {
+                              "name":  "Phoenix Suns",
+                              "kurz":  "PHX",
+                              "c1":  "#1D1160",
+                              "c2":  "#E56020"
+                          },
+                  "POR":  {
+                              "name":  "Portland Trail Blazers",
+                              "kurz":  "POR",
+                              "c1":  "#E03A3E",
+                              "c2":  "#111111"
+                          },
+                  "SAC":  {
+                              "name":  "Sacramento Kings",
+                              "kurz":  "SAC",
+                              "c1":  "#5A2D81",
+                              "c2":  "#FFFFFF"
+                          },
+                  "SAS":  {
+                              "name":  "San Antonio Spurs",
+                              "kurz":  "SAS",
+                              "c1":  "#111111",
+                              "c2":  "#C4CED4"
+                          },
+                  "TOR":  {
+                              "name":  "Toronto Raptors",
+                              "kurz":  "TOR",
+                              "c1":  "#CE1141",
+                              "c2":  "#FFFFFF"
+                          },
+                  "UTA":  {
+                              "name":  "Utah Jazz",
+                              "kurz":  "UTA",
+                              "c1":  "#002B5C",
+                              "c2":  "#F9A01B"
+                          },
+                  "WAS":  {
+                              "name":  "Washington Wizards",
+                              "kurz":  "WAS",
+                              "c1":  "#E31837",
+                              "c2":  "#FFFFFF"
+                          },
+                  "ALBA":  {
+                               "name":  "ALBA BERLIN",
+                               "kurz":  "ALB",
+                               "c1":  "#FFD400",
+                               "c2":  "#0A2C78"
+                           },
+                  "FCB":  {
+                              "name":  "FC Bayern München",
+                              "kurz":  "FCB",
+                              "c1":  "#DC052D",
+                              "c2":  "#FFFFFF"
+                          },
+                  "TRI":  {
+                              "name":  "Gladiators Trier",
+                              "kurz":  "TRI",
+                              "c1":  "#1B3A6B",
+                              "c2":  "#FFFFFF"
+                          },
+                  "MBC":  {
+                              "name":  "SYNTAINICS MBC",
+                              "kurz":  "MBC",
+                              "c1":  "#2E8B3A",
+                              "c2":  "#FFFFFF"
+                          },
+                  "LUD":  {
+                              "name":  "MHP RIESEN Ludwigsburg",
+                              "kurz":  "LUD",
+                              "c1":  "#F39200",
+                              "c2":  "#12203A"
+                          },
+                  "FRA":  {
+                              "name":  "SKYLINERS Frankfurt",
+                              "kurz":  "FRA",
+                              "c1":  "#003C7E",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BRA":  {
+                              "name":  "Basketball Löwen Braunschweig",
+                              "kurz":  "BRA",
+                              "c1":  "#0055A4",
+                              "c2":  "#FFD200"
+                          },
+                  "WUE":  {
+                              "name":  "Würzburg Baskets",
+                              "kurz":  "WÜR",
+                              "c1":  "#CC0000",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BAM":  {
+                              "name":  "Bamberg Baskets",
+                              "kurz":  "BAM",
+                              "c1":  "#00205B",
+                              "c2":  "#FFFFFF"
+                          },
+                  "ROS":  {
+                              "name":  "Rostock Seawolves",
+                              "kurz":  "ROS",
+                              "c1":  "#0B2D5B",
+                              "c2":  "#7FD3F7"
+                          },
+                  "BON":  {
+                              "name":  "Telekom Baskets Bonn",
+                              "kurz":  "BON",
+                              "c1":  "#E20074",
+                              "c2":  "#FFFFFF"
+                          },
+                  "OLD":  {
+                              "name":  "EWE Baskets Oldenburg",
+                              "kurz":  "OLD",
+                              "c1":  "#0D2B8C",
+                              "c2":  "#FFD200"
+                          },
+                  "JEN":  {
+                              "name":  "Science City Jena",
+                              "kurz":  "JEN",
+                              "c1":  "#0067B1",
+                              "c2":  "#FFFFFF"
+                          },
+                  "ULM":  {
+                              "name":  "ratiopharm ulm",
+                              "kurz":  "ULM",
+                              "c1":  "#F37021",
+                              "c2":  "#FFFFFF"
+                          },
+                  "HAG":  {
+                              "name":  "Phoenix Hagen",
+                              "kurz":  "HAG",
+                              "c1":  "#F5A300",
+                              "c2":  "#111111"
+                          },
+                  "HAM":  {
+                              "name":  "Veolia Towers Hamburg",
+                              "kurz":  "HAM",
+                              "c1":  "#0B1F3A",
+                              "c2":  "#FFFFFF"
+                          },
+                  "VEC":  {
+                              "name":  "RASTA Vechta",
+                              "kurz":  "VEC",
+                              "c1":  "#1B1B1B",
+                              "c2":  "#FFD000"
+                          },
+                  "CHE":  {
+                              "name":  "NINERS Chemnitz",
+                              "kurz":  "CHE",
+                              "c1":  "#7A1E87",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BIL":  {
+                              "name":  "Surne Bilbao",
+                              "kurz":  "BIL",
+                              "c1":  "#111111",
+                              "c2":  "#E30613"
+                          },
+                  "PAO":  {
+                              "name":  "Panathinaikos Athen",
+                              "kurz":  "PAO",
+                              "c1":  "#007841",
+                              "c2":  "#FFFFFF"
+                          },
+                  "VAL":  {
+                              "name":  "Valencia Basket",
+                              "kurz":  "VAL",
+                              "c1":  "#F47920",
+                              "c2":  "#FFFFFF"
+                          },
+                  "HTA":  {
+                              "name":  "Hapoel Tel Aviv",
+                              "kurz":  "HTA",
+                              "c1":  "#E2001A",
+                              "c2":  "#FFFFFF"
+                          },
+                  "FEN":  {
+                              "name":  "Fenerbahçe Istanbul",
+                              "kurz":  "FEN",
+                              "c1":  "#00205B",
+                              "c2":  "#FFED00"
+                          },
+                  "OLY":  {
+                              "name":  "Olympiakos Piräus",
+                              "kurz":  "OLY",
+                              "c1":  "#D50032",
+                              "c2":  "#FFFFFF"
+                          },
+                  "RMA":  {
+                              "name":  "Real Madrid",
+                              "kurz":  "RMA",
+                              "c1":  "#FFFFFF",
+                              "c2":  "#3D195B"
+                          },
+                  "CZV":  {
+                              "name":  "Crvena zvezda Belgrad",
+                              "kurz":  "CZV",
+                              "c1":  "#D7182A",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BAR":  {
+                              "name":  "FC Barcelona",
+                              "kurz":  "BAR",
+                              "c1":  "#A50044",
+                              "c2":  "#EDBB00"
+                          },
+                  "DUB":  {
+                              "name":  "Dubai Basketball",
+                              "kurz":  "DUB",
+                              "c1":  "#111111",
+                              "c2":  "#C9A44C"
+                          },
+                  "ZAL":  {
+                              "name":  "Žalgiris Kaunas",
+                              "kurz":  "ZAL",
+                              "c1":  "#006C35",
+                              "c2":  "#FFFFFF"
+                          },
+                  "PAR":  {
+                              "name":  "Partizan Belgrad",
+                              "kurz":  "PAR",
+                              "c1":  "#111111",
+                              "c2":  "#FFFFFF"
+                          },
+                  "VIR":  {
+                              "name":  "Virtus Bologna",
+                              "kurz":  "VIR",
+                              "c1":  "#2B2B2B",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BES":  {
+                              "name":  "Beşiktaş Istanbul",
+                              "kurz":  "BJK",
+                              "c1":  "#111111",
+                              "c2":  "#FFFFFF"
+                          },
+                  "EFS":  {
+                              "name":  "Anadolu Efes",
+                              "kurz":  "EFS",
+                              "c1":  "#00337F",
+                              "c2":  "#FFFFFF"
+                          },
+                  "ASV":  {
+                              "name":  "ASVEL Villeurbanne",
+                              "kurz":  "ASV",
+                              "c1":  "#00843D",
+                              "c2":  "#FFFFFF"
+                          },
+                  "PBB":  {
+                              "name":  "Paris Basketball",
+                              "kurz":  "PAR",
+                              "c1":  "#1B1B1B",
+                              "c2":  "#E9C46A"
+                          },
+                  "MTA":  {
+                              "name":  "Maccabi Tel Aviv",
+                              "kurz":  "MTA",
+                              "c1":  "#FFD200",
+                              "c2":  "#00338D"
+                          },
+                  "EA7":  {
+                              "name":  "Olimpia Mailand",
+                              "kurz":  "MIL",
+                              "c1":  "#E30613",
+                              "c2":  "#FFFFFF"
+                          },
+                  "BAS":  {
+                              "name":  "Baskonia",
+                              "kurz":  "BAS",
+                              "c1":  "#0A2240",
+                              "c2":  "#E30613"
+                          },
+                  "GER":  {
+                              "name":  "Deutschland",
+                              "kurz":  "GER",
+                              "c1":  "#111111",
+                              "c2":  "#FFCE00"
+                          },
+                  "LAT":  {
+                              "name":  "Lettland",
+                              "kurz":  "LAT",
+                              "c1":  "#9E3039",
+                              "c2":  "#FFFFFF"
+                          },
+                  "POL":  {
+                              "name":  "Polen",
+                              "kurz":  "POL",
+                              "c1":  "#DC143C",
+                              "c2":  "#FFFFFF"
+                          },
+                  "NED":  {
+                              "name":  "Niederlande",
+                              "kurz":  "NED",
+                              "c1":  "#FF6600",
+                              "c2":  "#FFFFFF"
+                          },
+                  "ISR":  {
+                              "name":  "Israel",
+                              "kurz":  "ISR",
+                              "c1":  "#0038B8",
+                              "c2":  "#FFFFFF"
+                          },
+                  "CRO":  {
+                              "name":  "Kroatien",
+                              "kurz":  "CRO",
+                              "c1":  "#E2001A",
+                              "c2":  "#FFFFFF"
+                          }
+              }
 }
