@@ -243,6 +243,27 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .eng-list span { background: rgba(255,255,255,.18); border-radius: 999px; padding: 4px 12px; font-weight: 700; }
 .eng-list span b { color: var(--yellow); }
 
+/* NBA-Statistik: breite Tabelle zum Wischen, Spielername bleibt links stehen */
+.st-tools { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+.stbl th, .stbl td { padding: 8px 10px; }
+.stbl td:first-child { width: auto; text-align: left; font-family: var(--font-body); font-size: 15px; border-left: 0; }
+.stbl th.nm { text-align: left; }
+.stbl .nm { position: sticky; left: 0; z-index: 1; background: var(--surface); min-width: 220px; box-shadow: 1px 0 0 var(--line); white-space: normal; }
+.stbl tr.fav td.nm { background: color-mix(in srgb, var(--yellow) 22%, var(--surface)); }
+.stbl .nm div { display: flex; align-items: center; gap: 8px; }
+.stbl .nm b { display: block; font-weight: 800; line-height: 1.15; }
+.stbl .nm small { display: block; font-size: 12px; color: var(--ink-soft); font-weight: 700; }
+.stbl .nm svg { vertical-align: 0; margin-left: 6px; }
+.stbl .rk { font-family: var(--font-display); font-weight: 800; font-size: 18px; color: var(--ink-soft); min-width: 28px; text-align: right; flex: none; }
+.stbl td.on { color: var(--orange-ink); font-weight: 800; background: color-mix(in srgb, var(--orange) 9%, transparent); }
+.sth { background: none; border: 0; padding: 0; color: inherit; letter-spacing: inherit; text-transform: inherit; font-weight: 800; white-space: nowrap; }
+.sth[aria-pressed="true"] { color: var(--orange-ink); }
+.abbr { padding: 14px 16px; }
+.abbr summary { font-weight: 800; cursor: pointer; }
+.abbr dl { display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; margin: 10px 0 0; }
+.abbr dt { font-weight: 800; font-family: var(--font-display); font-size: 18px; }
+.abbr dd { margin: 0; }
+
 /* Liga-Menü links: auf breiten Bildschirmen fest sichtbar, sonst als Schublade über den Menü-Knopf */
 .menu-btn { background: rgba(255,255,255,.12); border: 0; color: #fff; width: 44px; height: 44px; border-radius: 12px; display: grid; place-items: center; flex: none; }
 .menu-btn svg { width: 24px; height: 24px; }
@@ -306,7 +327,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     { id: "tabellen", label: "Tabellen", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M7 9h18M7 16h18M7 23h18" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="9" r="1" fill="currentColor"/>' },
     { id: "stars", label: "Stars", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M16 5l3.3 6.9 7.5 1-5.5 5.2 1.4 7.5L16 22l-6.7 3.6 1.4-7.5L5.2 12.9l7.5-1z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/>' },
     { id: "quiz", label: "Quiz", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12.5 13a3.5 3.5 0 1 1 5 3.2c-1 .5-1.5 1.2-1.5 2.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.5" fill="currentColor"/>' },
-    { id: "lexikon", label: "Lexikon", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M6 7h8a3 3 0 0 1 2 1v17a3 3 0 0 0-2-1H6zM26 7h-8a3 3 0 0 0-2 1v17a3 3 0 0 1 2-1h8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>' }
+    { id: "statistik", label: "Statistik", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M6 25h20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="15" width="4" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="14" y="8" width="4" height="15" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="20" y="12" width="4" height="11" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/>' }
   ];
   const LIGA = { NBA: ["nba", "NBA"], BBL: ["bbl", "BBL"], EL: ["el", "Euroleague"], BCL: ["bcl", "Champions League"], DBB: ["dbb", "Nationalteam"] };
   const LIGA_MENU = { NBA: ["NBA", "USA"], BBL: ["Bundesliga", "BBL"], EL: ["Euroleague", "mit dem FC Bayern"], BCL: ["Champions League", "mit ALBA BERLIN"], DBB: ["Nationalteam", "Deutschland"] };
@@ -314,7 +335,18 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   const LIGA_DOT = { NBA: ["#1D428A", "#fff", "NBA", "#C8102E"], BBL: ["#E30613", "#fff", "BBL", "#12203A"], EL: ["#F27A1A", "#12203A", "EL", "#12203A"], BCL: ["#0A2C78", "#FFD400", "CL", "#00A99B"], DBB: ["#12203A", "#FFCE00", "DE", "#DD0000"] };
   const LIGA_TBL = { NBA: "nbaWest", BBL: "bbl", EL: "euroleague", DBB: "wmquali" };
   const MON = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
-  let D = null, A = [], current = "heute", ligaSel = "ALLE", resFilter = "NBA", tblFilter = null, lexQuery = "";
+  // NBA-Statistik (nba-stats.json): Schlüssel, Abkürzung wie auf NBA.com, Erklärung
+  const ST_COLS = [["alter", "AGE", "Alter"], ["sp", "GP", "Spiele"], ["s", "W", "Siege"], ["n", "L", "Niederlagen"], ["min", "MIN", "Minuten pro Spiel"], ["pkt", "PTS", "Punkte pro Spiel"],
+    ["fgm", "FGM", "Treffer aus dem Feld"], ["fga", "FGA", "Würfe aus dem Feld"], ["fgp", "FG%", "Trefferquote aus dem Feld in Prozent"],
+    ["tpm", "3PM", "Getroffene Dreier"], ["tpa", "3PA", "Geworfene Dreier"], ["tpp", "3P%", "Dreierquote in Prozent"],
+    ["ftm", "FTM", "Getroffene Freiwürfe"], ["fta", "FTA", "Geworfene Freiwürfe"], ["ftp", "FT%", "Freiwurfquote in Prozent"],
+    ["oreb", "OREB", "Offensiv-Rebounds: unter dem Korb des Gegners"], ["dreb", "DREB", "Defensiv-Rebounds: unter dem eigenen Korb"], ["reb", "REB", "Rebounds insgesamt"],
+    ["ast", "AST", "Assists (Vorlagen)"], ["tov", "TOV", "Ballverluste"], ["stl", "STL", "Steals (Ballgewinne)"], ["blk", "BLK", "Blocks"], ["pf", "PF", "Fouls"],
+    ["dd2", "DD2", "Double-Doubles in dieser Saison"], ["td3", "TD3", "Triple-Doubles in dieser Saison"], ["pm", "+/-", "Plus-Minus: um wie viele Punkte das Team besser (+) oder schlechter (−) war, solange der Spieler auf dem Feld stand"]];
+  const ST_SHORT = ["sp", "min", "pkt", "reb", "ast", "stl", "blk", "tpm", "fgp", "tpp", "ftp"];
+  const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"]];
+  let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "NBA", tblFilter = null;
+  let stSort = "pkt", stDir = -1, stAll = false, stFilter = "alle", stQuery = "", stLimit = 50;
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const store = { get(k, d) { try { const v = localStorage.getItem("kj_" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -477,12 +509,35 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       q.antworten.map((a, i) => '<button data-ans="' + i + '"' + (answered ? " disabled" : "") + ' class="' + (answered ? (i === q.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
       (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section></div>";
   }
-  function vLexikon() {
-    const q = lexQuery.trim().toLowerCase();
-    const L = (D.lexikon || []).filter(x => !q || (x.begriff + " " + (x.en || "") + " " + x.erklaerung).toLowerCase().includes(q)).sort((a, b) => a.begriff.localeCompare(b.begriff, "de"));
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Basketball-Lexikon</h2><p>' + (D.lexikon || []).length + " Begriffe einfach erklärt</p></div>" +
-      '<input class="search" id="lexq" type="search" placeholder="Begriff suchen, z. B. Rebound" value="' + esc(lexQuery) + '" aria-label="Begriff suchen"><div class="lex" id="lexlist">' +
-      (L.length ? L.map(x => '<div class="card lex-item"><b>' + esc(x.begriff) + "</b>" + (x.en && x.en.toLowerCase() !== x.begriff.toLowerCase() ? '<span class="en">Englisch: ' + esc(x.en) + "</span>" : "") + "<p>" + esc(x.erklaerung) + "</p></div>").join("") : '<div class="card empty">Nichts gefunden.</div>') + "</div></section></div>";
+  function stFmt(v, k) {
+    if (v == null) return "–";
+    const s = ["alter", "sp", "s", "n", "dd2", "td3"].includes(k) ? String(Math.round(v)) : v.toFixed(1).replace(".", ",");
+    return k === "pm" && v > 0 ? "+" + s : s;
+  }
+  function vStatistik() {
+    if (!S) return '<div class="view"><div class="card empty">Die NBA-Statistiken werden geladen …</div></div>';
+    const idx = {}; S.spalten.forEach((k, i) => { idx[k] = i; });
+    const st = D.stars || [], de = new Set(st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(st.filter(p => p.favorit).map(p => p.name));
+    const q = stQuery.trim().toLowerCase(), k = idx[stSort];
+    const rows = S.spieler.filter(r => (stFilter === "alle" || (stFilter === "de" ? de.has(r[0]) : fav.has(r[0]))) && (!q || (r[0] + " " + r[1] + " " + team(r[1]).name).toLowerCase().includes(q)))
+      .sort((a, b) => stDir * ((a[k] == null ? -1e9 : a[k]) - (b[k] == null ? -1e9 : b[k])));
+    const show = q || stFilter !== "alle" ? rows : rows.slice(0, stLimit);
+    const cols = stAll ? ST_COLS : ST_COLS.filter(c => ST_SHORT.includes(c[0]));
+    const flag = '<svg width="18" height="12" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>';
+    const chip = (attr, val, label, on) => "<button " + attr + '="' + val + '" aria-pressed="' + on + '">' + label + "</button>";
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2><p>Saison ' + esc(S.saison) + " · " + esc(S.art) + " · Stand: " + fmtDate(S.stand) + "</p></div>" +
+      '<div class="seg">' + ST_SORT.map(x => chip("data-st-sort", x[0], x[1], x[0] === stSort)).join("") + "</div>" +
+      '<div class="st-tools"><div class="seg">' + chip("data-st-filter", "alle", "Alle Spieler", stFilter === "alle") + chip("data-st-filter", "de", "Deutsche", stFilter === "de") + chip("data-st-filter", "fav", "Deine Stars", stFilter === "fav") + "</div>" +
+      '<div class="seg">' + chip("data-st-all", "1", stAll ? "Weniger Spalten" : "Alle Spalten", stAll) + "</div></div>" +
+      '<input class="search" id="stq" type="search" placeholder="Spieler oder Team suchen, z. B. Curry" value="' + esc(stQuery) + '" aria-label="Spieler suchen">' +
+      '<div class="card tbl-wrap"><table class="stbl"><thead><tr><th class="nm">Spieler</th>' +
+      cols.map(c => '<th><button class="sth" data-st-sort="' + c[0] + '" aria-pressed="' + (c[0] === stSort) + '" title="' + esc(c[2]) + '">' + esc(c[1]) + (c[0] === stSort ? (stDir < 0 ? " ▾" : " ▴") : "") + "</button></th>").join("") + "</tr></thead><tbody>" +
+      (show.length ? show.map((r, i) => '<tr class="' + (fav.has(r[0]) ? "fav" : "") + '"><td class="nm"><div><span class="rk">' + (i + 1) + "</span>" + badge(r[1], true) + "<span><b>" + esc(r[0]) + (de.has(r[0]) ? flag : "") + "</b><small>" + esc(team(r[1]).name) + "</small></span></div></td>" +
+        cols.map(c => "<td" + (c[0] === stSort ? ' class="on"' : "") + ">" + stFmt(r[idx[c[0]]], c[0]) + "</td>").join("") + "</tr>").join("") : '<tr><td class="nm">Keinen Spieler gefunden.</td></tr>') +
+      "</tbody></table></div>" +
+      (rows.length > show.length ? '<button class="btn" data-st-more>Mehr anzeigen (' + (rows.length - show.length) + " weitere)</button>" : "") +
+      '<details class="card abbr"><summary>Was bedeuten die Abkürzungen?</summary><dl>' + ST_COLS.map(c => "<dt>" + esc(c[1]) + "</dt><dd>" + esc(c[2]) + "</dd>").join("") + "</dl></details>" +
+      '<p class="foot">Quelle: ' + esc(S.quelle) + ". Tippe auf eine Spalte, um danach zu sortieren. Die Tabelle kannst du zur Seite wischen.</p></section></div>";
   }
   /* Aktuelle Artikel plus Archiv (archiv.json); bei gleicher id gewinnt die aktuelle Fassung */
   function allNews() {
@@ -504,7 +559,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       (neu.length ? '<section class="sec"><div class="sec-h"><h2>Aktuell</h2></div><div class="grid">' + neu.map(n => newsCard(n)).join("") + "</div></section>" : "") +
       Object.keys(groups).map(k => '<section class="sec"><div class="sec-h"><h2>' + esc(k) + '</h2><p>aus dem Archiv</p></div><div class="grid">' + groups[k].map(n => newsCard(n)).join("") + "</div></section>").join("") + "</div>";
   }
-  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, tabellen: vTabellen, stars: vStars, quiz: vQuiz, lexikon: vLexikon, liga: vLiga };
+  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, tabellen: vTabellen, stars: vStars, quiz: vQuiz, statistik: vStatistik, liga: vLiga };
 
   function renderSide() {
     const all = D ? allNews() : [];
@@ -568,6 +623,10 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.hasAttribute("data-sheet-close")) b.closest(".sheet").remove();
     else if (b.dataset.res) { resFilter = b.dataset.res; render(); }
     else if (b.dataset.tbl) { tblFilter = b.dataset.tbl; render(); }
+    else if (b.dataset.stSort) { if (stSort === b.dataset.stSort) stDir = -stDir; else { stSort = b.dataset.stSort; stDir = -1; } stLimit = 50; render(); }
+    else if (b.dataset.stFilter) { stFilter = b.dataset.stFilter; render(); }
+    else if (b.dataset.stAll) { stAll = !stAll; render(); }
+    else if (b.hasAttribute("data-st-more")) { stLimit += 50; render(); }
     else if (b.dataset.ans != null || b.dataset.quiz) {
       const key = "quiz_" + (D.quizId || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
       if (b.dataset.ans != null && st.picks.length === st.i) st.picks.push(Number(b.dataset.ans));
@@ -577,13 +636,15 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     }
   });
   document.addEventListener("input", e => {
-    if (e.target.id === "lexq") { lexQuery = e.target.value; const pos = e.target.selectionStart; render(); const i = $("#lexq"); i.focus(); try { i.setSelectionRange(pos, pos); } catch (x) {} }
+    if (e.target.id === "stq") { stQuery = e.target.value; const pos = e.target.selectionStart; render(); const i = $("#stq"); i.focus(); try { i.setSelectionRange(pos, pos); } catch (x) {} }
   });
   document.addEventListener("keydown", e => { if (e.key === "Escape") { const s = $(".sheet"); if (s) s.remove(); else if ($("#side").classList.contains("open")) setSide(false); else closeNews(); } });
 
   const h = (location.hash || "").slice(1);
   if (/^liga-/i.test(h)) { current = "liga"; ligaSel = h.slice(5).toUpperCase(); }
   else { current = VIEWS[h] ? h : store.get("tab", "heute"); ligaSel = store.get("liga", "ALLE"); }
+  if (current === "lexikon") current = "statistik"; // früherer Tab, ersetzt durch die NBA-Statistik
+  if (!VIEWS[current]) current = "heute";
   window.addEventListener("hashchange", () => { const x = location.hash.slice(1); if (/^liga-/i.test(x)) { ligaSel = x.slice(5).toUpperCase(); go("liga"); } else if (VIEWS[x]) go(x); });
   render();
   fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
@@ -592,6 +653,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     render();
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
     fetch("archiv.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(a => { if (a && Array.isArray(a.news)) { A = a.news; render(); } }).catch(() => {});
+    fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (current === "statistik") render(); } }).catch(() => {});
   }).catch(() => { $("#main").innerHTML = '<div class="card empty">Die News konnten gerade nicht geladen werden. Prüfe das Internet und lade die Seite neu.</div>'; $("#stamp").innerHTML = "<strong>Offline</strong>"; });
 })();
 </script>
