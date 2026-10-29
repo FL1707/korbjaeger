@@ -453,7 +453,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   }
   function gameCard(g) {
     const fav = isFav(g.heim) || isFav(g.gast);
-    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + esc(g.runde || "") + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
+    // In „Alle“ zeigt eine Liga-Plakette, woher das Spiel kommt; den doppelten Liganamen in der Runde lassen wir dann weg
+    const runde = resFilter === "ALLE" ? ligaPill(g.liga) + " " + esc((g.runde || "").replace(new RegExp("^" + ((LIGA[g.liga] || [])[1] || g.liga) + "( · )?"), "")) : esc(g.runde || "");
+    return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
       scoreRows(g) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + '<span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></button>";
   }
   /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
@@ -481,16 +483,18 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     $("[data-close]").focus();
   }
   function vErgebnisse() {
-    const list = (D.ergebnisse || []).filter(g => g.liga === resFilter);
+    const all = resFilter === "ALLE", order = Object.keys(LIGA), inLiga = g => all || g.liga === resFilter;
+    const list = (D.ergebnisse || []).filter(inLiga);
     const days = {};
     list.forEach(g => { (days[g.datum] = days[g.datum] || []).push(g); });
     const keys = Object.keys(days).sort().reverse();
-    const sched = (D.spielplan || []).filter(g => g.liga === resFilter && new Date(g.zeit).getTime() > Date.now() - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit));
-    const segs = Object.keys(LIGA).map(l => '<button data-res="' + l + '" aria-pressed="' + (l === resFilter) + '">' + LIGA[l][1] + "</button>").join("");
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Ergebnisse</h2><p>' + (resFilter === "NBA" ? "In der NBA steht das Gastteam oben, so wie in den USA." : "Das Heimteam steht oben.") + '</p></div><div class="seg">' + segs + "</div>" +
+    if (all) keys.forEach(k => days[k].sort((a, b) => order.indexOf(a.liga) - order.indexOf(b.liga)));
+    const sched = (D.spielplan || []).filter(g => inLiga(g) && new Date(g.zeit).getTime() > Date.now() - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit));
+    const segs = ["ALLE"].concat(order).map(l => '<button data-res="' + l + '" aria-pressed="' + (l === resFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1]) + "</button>").join("");
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Ergebnisse</h2><p>' + (all ? "In der NBA steht das Gastteam oben, sonst das Heimteam." : resFilter === "NBA" ? "In der NBA steht das Gastteam oben, so wie in den USA." : "Das Heimteam steht oben.") + '</p></div><div class="seg">' + segs + "</div>" +
       (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(gameCard).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
       '</section><section class="sec"><div class="sec-h"><h2>Demnächst</h2><p>Alle Zeiten in deutscher Uhrzeit</p></div><div class="sched">' +
-      (sched.length ? sched.map(g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + fmtDate(g.zeit) + "<small>" + (g.ohneZeit ? "Uhrzeit folgt" : fmtDate(g.zeit, true).split(", ")[1]) + '</small></div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + "</div></div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
+      (sched.length ? sched.map(g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + fmtDate(g.zeit) + "<small>" + (g.ohneZeit ? "Uhrzeit folgt" : fmtDate(g.zeit, true).split(", ")[1]) + '</small></div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + "</div></div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
       "</div></section></div>";
   }
   function vTabellen() {
