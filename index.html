@@ -519,11 +519,10 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const keys = Object.keys(days).sort().reverse();
     if (all) keys.forEach(k => days[k].sort((a, b) => order.indexOf(a.liga) - order.indexOf(b.liga)));
     const segs = ["ALLE"].concat(order).map(l => '<button data-res="' + l + '" aria-pressed="' + (l === resFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1]) + "</button>").join("");
-    // Oben: alle Spiele der mit Stern markierten Teams und Spieler, neueste zuerst
-    const spT = favSpielerTeams(), favs = keys.flatMap(k => days[k]).filter(g => favGame(g, spT));
-    const card = g => gameCard(g, spT);
+    // Innerhalb jedes Tages stehen die Spiele der mit Stern markierten Teams und Spieler zuerst
+    const spT = favSpielerTeams(), card = g => gameCard(g, spT);
+    keys.forEach(k => { days[k] = days[k].filter(g => favGame(g, spT)).concat(days[k].filter(g => !favGame(g, spT))); });
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Ergebnisse</h2><p>' + (all ? "In der NBA steht das Gastteam oben, sonst das Heimteam." : resFilter === "NBA" ? "In der NBA steht das Gastteam oben, so wie in den USA." : "Das Heimteam steht oben.") + '</p></div><div class="seg">' + segs + "</div>" +
-      (favs.length ? '<div class="day-h">★ Deine Favoriten</div><div class="games">' + favs.map(card).join("") + "</div>" : "") +
       (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(card).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
       "</section></div>";
   }
