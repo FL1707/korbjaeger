@@ -1,15 +1,15 @@
 {
-    "aktualisiert":  "2026-10-29T11:30:00+01:00",
-    "ausgabe":  "Sonderausgabe",
-    "gruss":  "Hallo Basketball-Fan! Das ist die allererste Ausgabe von Korbjäger. Ab jetzt gibt es jeden Morgen um 6 Uhr und jeden Nachmittag um 16 Uhr frische News.",
+    "aktualisiert":  "2026-10-29T13:30:00+01:00",
+    "ausgabe":  "Nachmittagsausgabe",
+    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad. Und am Wochenende wartet auf OKC ein echtes Spitzenspiel in Houston.",
     "favoritenTeams":  [
                            "OKC",
                            "ALBA"
                        ],
     "quizId":  "2026-W44",
     "zahlDesTages":  {
-                         "zahl":  "44",
-                         "text":  "Punkte machte Stephen Curry beim Sieg in Minnesota. Alle 16 Freiwürfe gingen rein!"
+                         "zahl":  "32",
+                         "text":  "Dreier warf OKC in Dallas. Nur 5 davon gingen rein. Gegen Houston soll das besser klappen."
                      },
     "spielerDerWoche":  {
                             "name":  "Brandon Angel",
@@ -43,6 +43,34 @@
                      "quellen":  [
                                      "CBS Sports",
                                      "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "2026-10-29-okc-houston",
+                     "liga":  "NBA",
+                     "lang":  "de",
+                     "motiv":  "ball",
+                     "datum":  "2026-10-29",
+                     "tags":  [
+                                  "fav"
+                              ],
+                     "titel":  "Spitzenspiel in Houston",
+                     "teaser":  "Am Wochenende trifft OKC auf das einzige NBA-Team, das noch ungeschlagen ist.",
+                     "text":  [
+                                  "Die Houston Rockets haben ihre ersten fünf Spiele alle gewonnen. Kein anderes NBA-Team hat das geschafft.",
+                                  "Oklahoma City steht mit 4 Siegen und 1 Niederlage auch weit oben. In der Nacht auf Sonntag treffen die beiden Teams in Houston aufeinander. Los geht es um 01:30 Uhr deutscher Zeit.",
+                                  "Leicht wird es für die Thunder nicht. Jalen Williams und Chet Holmgren fallen verletzt aus. Dafür ist Shai Gilgeous-Alexander dabei. Er macht im Schnitt 26 Punkte pro Spiel.",
+                                  "Auch auf Isaiah Hartenstein kommt es an. Der deutsche Center holt fast 10 Rebounds pro Spiel.",
+                                  "Danach geht es für OKC gleich weiter: Zweimal hintereinander heißt der Gegner Cleveland Cavaliers."
+                              ],
+                     "fakten":  [
+                                    "Houston: 5 Siege, 0 Niederlagen",
+                                    "OKC: 4 Siege, 1 Niederlage",
+                                    "Spielbeginn: So 1.11., 01:30 Uhr"
+                                ],
+                     "quellen":  [
+                                     "ESPN",
+                                     "CBS Sports"
                                  ]
                  },
                  {
@@ -311,30 +339,6 @@
                                 ],
                      "quellen":  [
                                      "ESPN"
-                                 ]
-                 },
-                 {
-                     "id":  "hagen",
-                     "liga":  "BBL",
-                     "lang":  "de",
-                     "motiv":  "pokal",
-                     "datum":  "2026-10-25",
-                     "tags":  [
-
-                              ],
-                     "titel":  "Hagen feiert nach über zehn Jahren",
-                     "teaser":  "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
-                     "text":  [
-                                  "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
-                                  "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
-                                  "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
-                              ],
-                     "fakten":  [
-                                    "Hagen 88, Braunschweig 73",
-                                    "Erster BBL-Heimsieg seit über 10 Jahren"
-                                ],
-                     "quellen":  [
-                                     "easycredit-bbl.de"
                                  ]
                  },
                  {
@@ -1939,6 +1943,11 @@
                         "begriff":  "Tabellenführer",
                         "en":  "first place",
                         "erklaerung":  "Das Team, das in der Tabelle ganz oben steht."
+                    },
+                    {
+                        "begriff":  "Ungeschlagen",
+                        "en":  "undefeated",
+                        "erklaerung":  "Ein Team hat noch kein einziges Spiel verloren."
                     }
                 ],
     "teams":  {

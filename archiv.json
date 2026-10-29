@@ -1,4 +1,29 @@
 {
-  "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst, höchstens 500 Einträge.",
-  "news": []
+    "hinweis":  "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst, höchstens 500 Einträge.",
+    "news":  [
+                 {
+                     "id":  "hagen",
+                     "liga":  "BBL",
+                     "lang":  "de",
+                     "motiv":  "pokal",
+                     "datum":  "2026-10-25",
+                     "tags":  [
+
+                              ],
+                     "titel":  "Hagen feiert nach über zehn Jahren",
+                     "teaser":  "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
+                     "text":  [
+                                  "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
+                                  "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
+                                  "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
+                              ],
+                     "fakten":  [
+                                    "Hagen 88, Braunschweig 73",
+                                    "Erster BBL-Heimsieg seit über 10 Jahren"
+                                ],
+                     "quellen":  [
+                                     "easycredit-bbl.de"
+                                 ]
+                 }
+             ]
 }
