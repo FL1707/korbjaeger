@@ -196,6 +196,9 @@ button.game { text-align: left; border: 0; width: 100%; }
 .sched-row .t { font-weight: 800; line-height: 1.2; } .sched-row .t small { display: block; color: var(--ink-soft); font-weight: 700; }
 
 /* Tabellen */
+.tv { display: inline-block; vertical-align: middle; padding: 2px 7px; border-radius: 6px; font-size: 12px; font-weight: 800; line-height: 1.3; letter-spacing: .02em; }
+.tv-dyn { background: #0B0B0B; color: #fff; text-transform: lowercase; }
+.tv-prime { background: #00A8E1; color: #fff; font-style: italic; text-transform: lowercase; }
 .tbl-wrap { overflow-x: auto; }
 .grp-h { font-size: 22px; font-weight: 800; font-style: italic; text-transform: uppercase; margin: 6px 0 -4px; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
@@ -489,6 +492,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(gameCard).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
       "</section></div>";
   }
+  // Kleines Sender-Logo (Feld tv im Spielplan): nur DYN und Prime Video
+  const TV = { DYN: ["tv-dyn", "dyn", "Live auf DYN"], PRIME: ["tv-prime", "prime", "Live auf Prime Video"] };
+  const tvLogo = k => TV[k] ? ' <span class="tv ' + TV[k][0] + '" title="' + TV[k][2] + '" aria-label="' + TV[k][2] + '">' + TV[k][1] + "</span>" : "";
   /* Upcoming: alle kommenden Spiele aller Ligen, nach Tagen in deutscher Zeit gruppiert */
   function vUpcoming() {
     const all = upFilter === "ALLE", order = Object.keys(LIGA), now = Date.now();
@@ -500,7 +506,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     list.forEach(g => { (days[dayKey(g.zeit)] = days[dayKey(g.zeit)] || []).push(g); });
     const cnt = l => (D.spielplan || []).filter(g => g.liga === l && new Date(g.zeit).getTime() > now - 3 * 3600e3).length;
     const segs = ["ALLE"].concat(order).map(l => '<button data-up="' + l + '" aria-pressed="' + (l === upFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1] + " (" + cnt(l) + ")") + "</button>").join("");
-    const row = g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + (g.ohneZeit ? "offen<small>Uhrzeit folgt</small>" : fmtDate(g.zeit, true).split(", ")[1]) + '</div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + "</div></div>";
+    const row = g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + (g.ohneZeit ? "offen<small>Uhrzeit folgt</small>" : fmtDate(g.zeit, true).split(", ")[1]) + '</div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + tvLogo(g.tv) + "</div></div>";
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>' + list.length + " kommende Spiele · alle Zeiten in deutscher Uhrzeit</p></div>" + '<div class="seg">' + segs + "</div>" +
       (list.length ? Object.keys(days).map(k => '<div class="day-h">' + (k === today ? "Heute · " : k === tomorrow ? "Morgen · " : "") + fmtDate(k + "T12:00:00") + '</div><div class="sched">' + days[k].map(row).join("") + "</div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
       "</section></div>";

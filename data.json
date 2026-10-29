@@ -1182,7 +1182,8 @@
                           "zeit":  "2026-10-30T18:30:00+01:00",
                           "heim":  "JEN",
                           "gast":  "FRA",
-                          "info":  "Nachholspiel"
+                          "info":  "Nachholspiel",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "EL",
@@ -1200,7 +1201,8 @@
                           "liga":  "BBL",
                           "zeit":  "2026-10-30T20:00:00+01:00",
                           "heim":  "HAG",
-                          "gast":  "VEC"
+                          "gast":  "VEC",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "EL",
@@ -1244,7 +1246,8 @@
                           "liga":  "NBA",
                           "zeit":  "2026-10-31T00:30:00+01:00",
                           "heim":  "PHI",
-                          "gast":  "NYK"
+                          "gast":  "NYK",
+                          "tv":  "PRIME"
                       },
                       {
                           "liga":  "NBA",
@@ -1276,7 +1279,8 @@
                           "zeit":  "2026-10-31T03:00:00+01:00",
                           "heim":  "GSW",
                           "gast":  "LAL",
-                          "info":  "mit Curry"
+                          "info":  "mit Curry",
+                          "tv":  "PRIME"
                       },
                       {
                           "liga":  "NBA",
@@ -1288,13 +1292,15 @@
                           "liga":  "BBL",
                           "zeit":  "2026-10-31T18:30:00+01:00",
                           "heim":  "ULM",
-                          "gast":  "OLD"
+                          "gast":  "OLD",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "BBL",
                           "zeit":  "2026-10-31T18:30:00+01:00",
                           "heim":  "BRA",
-                          "gast":  "WUE"
+                          "gast":  "WUE",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "NBA",
@@ -1306,7 +1312,8 @@
                           "liga":  "BBL",
                           "zeit":  "2026-10-31T20:00:00+01:00",
                           "heim":  "CHE",
-                          "gast":  "LUD"
+                          "gast":  "LUD",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "NBA",
@@ -1350,26 +1357,30 @@
                           "liga":  "BBL",
                           "zeit":  "2026-11-01T15:00:00+01:00",
                           "heim":  "BAM",
-                          "gast":  "JEN"
+                          "gast":  "JEN",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "BBL",
                           "zeit":  "2026-11-01T15:00:00+01:00",
                           "heim":  "ROS",
                           "gast":  "FCB",
-                          "info":  "Nachholspiel"
+                          "info":  "Nachholspiel",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "BBL",
                           "zeit":  "2026-11-01T16:30:00+01:00",
                           "heim":  "HAM",
-                          "gast":  "MBC"
+                          "gast":  "MBC",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "BBL",
                           "zeit":  "2026-11-01T18:00:00+01:00",
                           "heim":  "BON",
-                          "gast":  "ALBA"
+                          "gast":  "ALBA",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "NBA",
@@ -1518,7 +1529,8 @@
                           "zeit":  "2026-11-03T20:00:00+01:00",
                           "heim":  "FCB",
                           "gast":  "BRA",
-                          "info":  "Nachholspiel"
+                          "info":  "Nachholspiel",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "BCL",
@@ -1682,7 +1694,8 @@
                           "liga":  "BBL",
                           "zeit":  "2026-11-06T20:00:00+01:00",
                           "heim":  "ALBA",
-                          "gast":  "HAG"
+                          "gast":  "HAG",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "DBB",
