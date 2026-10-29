@@ -1,15 +1,15 @@
 {
     "aktualisiert":  "2026-10-29T16:30:00+01:00",
     "ausgabe":  "Nachmittagsausgabe",
-    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad. Im Tab „Upcoming“ findest du jetzt alle Spiele der nächsten Woche – auch aus der Champions League. Dort ist ALBA mit 3 Siegen noch ungeschlagen!",
+    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad bei Crvena zvezda. Am Sonntag muss ALBA in Bonn ran – und in der Nacht auf Sonntag steigt das Spitzenspiel Houston gegen OKC.",
     "favoritenTeams":  [
                            "OKC",
                            "ALBA"
                        ],
     "quizId":  "2026-W44",
     "zahlDesTages":  {
-                         "zahl":  "2",
-                         "text":  "Teams sind in der Champions League noch ohne Niederlage: ALBA BERLIN und Peristeri aus Griechenland. Beide haben alle 3 Spiele gewonnen."
+                         "zahl":  "5 von 32",
+                         "text":  "So viele Dreier hat OKC in Dallas getroffen. Das war viel zu wenig – die Thunder verloren ihr erstes Spiel der Saison."
                      },
     "spielerDerWoche":  {
                             "name":  "Brandon Angel",
@@ -96,6 +96,33 @@
                                     "ALBA: 3 Siege, 0 Niederlagen"
                                 ],
                      "quellen":  [
+                                     "albaberlin.de"
+                                 ]
+                 },
+                 {
+                     "id":  "2026-10-29-alba-woche",
+                     "liga":  "BBL",
+                     "lang":  "de",
+                     "motiv":  "korb",
+                     "datum":  "2026-10-29",
+                     "tags":  [
+                                  "fav"
+                              ],
+                     "titel":  "ALBAs nächste Aufgaben",
+                     "teaser":  "In Europa läuft es super. Jetzt geht es in der Bundesliga weiter: erst in Bonn, dann zu Hause gegen Hagen.",
+                     "text":  [
+                                  "In der Champions League ist ALBA Berlin Erster der Gruppe G. Alle drei Spiele hat die Mannschaft von Trainer Pedro Calles gewonnen.",
+                                  "In der Bundesliga ist noch Luft nach oben. Mit 3 Siegen und 3 Niederlagen steht ALBA auf Platz 12. Die letzten drei Spiele in der Liga hat ALBA aber alle gewonnen.",
+                                  "Am Sonntag um 18 Uhr spielt ALBA bei den Telekom Baskets Bonn. Bonn hat genau die gleiche Bilanz wie ALBA. Es wird also ein Duell auf Augenhöhe.",
+                                  "Am Freitag, 6. November, kommt dann Hagen nach Berlin. Gegen Hagen spielt ALBA im Dezember auch im Pokal-Viertelfinale."
+                              ],
+                     "fakten":  [
+                                    "Sonntag, 18 Uhr: Bonn gegen ALBA",
+                                    "Freitag, 6.11., 20 Uhr: ALBA gegen Hagen",
+                                    "BBL-Bilanz: 3 Siege, 3 Niederlagen"
+                                ],
+                     "quellen":  [
+                                     "easycredit-bbl.de",
                                      "albaberlin.de"
                                  ]
                  },
@@ -200,33 +227,6 @@
                                 ],
                      "quellen":  [
                                      "basketball-bund.de"
-                                 ]
-                 },
-                 {
-                     "id":  "alba-form",
-                     "liga":  "BBL",
-                     "lang":  "de",
-                     "motiv":  "korb",
-                     "datum":  "2026-10-25",
-                     "tags":  [
-                                  "fav"
-                              ],
-                     "titel":  "ALBA ist in Form",
-                     "teaser":  "Sieg gegen Ulm in der Bundesliga und vorher den Pokalsieger Bamberg rausgeworfen.",
-                     "text":  [
-                                  "Nach einem holprigen Start kommt ALBA Berlin immer besser in Fahrt. Am Sonntag gewannen die Berliner in der Bundesliga mit 98:82 gegen ratiopharm ulm. Es war der dritte Sieg in Folge.",
-                                  "Bester Werfer war Griesel mit 19 Punkten. Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte.",
-                                  "Schon eine Woche vorher gab es einen großen Erfolg im Pokal. ALBA schlug den Titelverteidiger Bamberg mit 83:71, obwohl es zur Halbzeit noch 33:41 stand. 8.615 Fans waren in der Halle.",
-                                  "Im Pokal-Viertelfinale spielt ALBA im Dezember in Hagen. In der Bundesliga steht ALBA mit 3 Siegen und 3 Niederlagen auf Platz 12. Nächster Gegner sind am Sonntag die Telekom Baskets Bonn."
-                              ],
-                     "fakten":  [
-                                    "BBL: ALBA 98, Ulm 82",
-                                    "Pokal: ALBA 83, Bamberg 71",
-                                    "Trainer: Pedro Calles"
-                                ],
-                     "quellen":  [
-                                     "albaberlin.de",
-                                     "dpa"
                                  ]
                  },
                  {
@@ -803,125 +803,6 @@
                            "gastPkt":  88
                        },
                        {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-25",
-                           "runde":  "6. Spieltag",
-                           "heim":  "ALBA",
-                           "gast":  "ULM",
-                           "heimPkt":  98,
-                           "gastPkt":  82,
-                           "info":  "Griesel 19 Punkte, Sima 18",
-                           "bericht":  {
-                                           "text":  [
-                                                        "ALBA BERLIN gewann in der Bundesliga mit 98:82 gegen ratiopharm ulm.",
-                                                        "Es war der dritte Sieg in Folge. Nach dem holprigen Start kommt ALBA immer besser in Fahrt."
-                                                    ],
-                                           "highlights":  [
-                                                              "Griesel war mit 19 Punkten bester Werfer",
-                                                              "Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte"
-                                                          ]
-                                       },
-                           "newsId":  "alba-form"
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-25",
-                           "runde":  "6. Spieltag",
-                           "heim":  "FCB",
-                           "gast":  "HAM",
-                           "heimPkt":  96,
-                           "gastPkt":  77,
-                           "bericht":  {
-                                           "text":  [
-                                                        "Der FC Bayern bleibt in der Bundesliga ohne Niederlage: Gegen die Veolia Towers Hamburg gab es ein klares 96:77.",
-                                                        "Fünf Spiele, fünf Siege: Die Bayern sind Tabellenführer."
-                                                    ],
-                                           "highlights":  [
-                                                              "Fünfter Sieg im fünften Bundesliga-Spiel",
-                                                              "19 Punkte Vorsprung am Ende"
-                                                          ]
-                                       },
-                           "newsId":  "bayern"
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-25",
-                           "runde":  "6. Spieltag",
-                           "heim":  "HAG",
-                           "gast":  "BRA",
-                           "heimPkt":  88,
-                           "gastPkt":  73,
-                           "bericht":  {
-                                           "text":  [
-                                                        "Phoenix Hagen schlug die Basketball Löwen Braunschweig mit 88:73.",
-                                                        "Für den Aufsteiger war das etwas ganz Besonderes: der erste Bundesliga-Heimsieg seit über zehn Jahren!"
-                                                    ],
-                                           "highlights":  [
-                                                              "Erster BBL-Heimsieg für Hagen seit über 10 Jahren",
-                                                              "Hagen ist im Dezember ALBAs Gegner im Pokal-Viertelfinale"
-                                                          ]
-                                       },
-                           "newsId":  "hagen"
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-24",
-                           "runde":  "6. Spieltag · Verlängerung",
-                           "heim":  "MBC",
-                           "gast":  "ROS",
-                           "heimPkt":  103,
-                           "gastPkt":  98
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-24",
-                           "runde":  "6. Spieltag",
-                           "heim":  "LUD",
-                           "gast":  "BON",
-                           "heimPkt":  84,
-                           "gastPkt":  68
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-24",
-                           "runde":  "6. Spieltag",
-                           "heim":  "VEC",
-                           "gast":  "TRI",
-                           "heimPkt":  88,
-                           "gastPkt":  97
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-23",
-                           "runde":  "6. Spieltag",
-                           "heim":  "OLD",
-                           "gast":  "BAM",
-                           "heimPkt":  70,
-                           "gastPkt":  80
-                       },
-                       {
-                           "liga":  "BBL",
-                           "datum":  "2026-10-19",
-                           "runde":  "Pokal",
-                           "heim":  "ALBA",
-                           "gast":  "BAM",
-                           "heimPkt":  83,
-                           "gastPkt":  71,
-                           "info":  "Bean 20 Punkte, Delow 18 · ALBA im Viertelfinale",
-                           "bericht":  {
-                                           "text":  [
-                                                        "Im Pokal schlug ALBA den Titelverteidiger Bamberg mit 83:71. Dabei lag ALBA zur Halbzeit noch mit 33:41 zurück!",
-                                                        "8.615 Fans sahen die Aufholjagd. Im Viertelfinale spielt ALBA im Dezember in Hagen."
-                                                    ],
-                                           "highlights":  [
-                                                              "Aufholjagd nach einem 33:41 zur Halbzeit",
-                                                              "Bean machte 20 Punkte",
-                                                              "Delow kam auf 18 Punkte"
-                                                          ]
-                                       },
-                           "newsId":  "alba-form"
-                       },
-                       {
                            "liga":  "BCL",
                            "datum":  "2026-10-28",
                            "runde":  "Champions League · Gruppe G",
@@ -1150,14 +1031,14 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-10-30T01:00:00+01:00",
-                          "heim":  "ATL",
-                          "gast":  "CLE"
+                          "heim":  "NOP",
+                          "gast":  "SAC"
                       },
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-10-30T01:00:00+01:00",
-                          "heim":  "NOP",
-                          "gast":  "SAC"
+                          "heim":  "ATL",
+                          "gast":  "CLE"
                       },
                       {
                           "liga":  "NBA",
@@ -1172,12 +1053,6 @@
                           "gast":  "HTA"
                       },
                       {
-                          "liga":  "EL",
-                          "zeit":  "2026-10-30T18:30:00+01:00",
-                          "heim":  "EFS",
-                          "gast":  "PAO"
-                      },
-                      {
                           "liga":  "BBL",
                           "zeit":  "2026-10-30T18:30:00+01:00",
                           "heim":  "JEN",
@@ -1187,15 +1062,15 @@
                       },
                       {
                           "liga":  "EL",
-                          "zeit":  "2026-10-30T19:00:00+01:00",
-                          "heim":  "ZAL",
-                          "gast":  "PAR"
+                          "zeit":  "2026-10-30T18:30:00+01:00",
+                          "heim":  "EFS",
+                          "gast":  "PAO"
                       },
                       {
                           "liga":  "EL",
-                          "zeit":  "2026-10-30T20:00:00+01:00",
-                          "heim":  "ASV",
-                          "gast":  "BAS"
+                          "zeit":  "2026-10-30T19:00:00+01:00",
+                          "heim":  "ZAL",
+                          "gast":  "PAR"
                       },
                       {
                           "liga":  "BBL",
@@ -1206,15 +1081,15 @@
                       },
                       {
                           "liga":  "EL",
-                          "zeit":  "2026-10-30T20:15:00+01:00",
-                          "heim":  "OLY",
-                          "gast":  "EA7"
+                          "zeit":  "2026-10-30T20:00:00+01:00",
+                          "heim":  "ASV",
+                          "gast":  "BAS"
                       },
                       {
                           "liga":  "EL",
-                          "zeit":  "2026-10-30T20:30:00+01:00",
-                          "heim":  "VIR",
-                          "gast":  "BES"
+                          "zeit":  "2026-10-30T20:15:00+01:00",
+                          "heim":  "OLY",
+                          "gast":  "EA7"
                       },
                       {
                           "liga":  "EL",
@@ -1223,24 +1098,17 @@
                           "gast":  "VAL"
                       },
                       {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T20:30:00+01:00",
+                          "heim":  "VIR",
+                          "gast":  "BES"
+                      },
+                      {
                           "liga":  "NBA",
                           "zeit":  "2026-10-31T00:00:00+01:00",
                           "heim":  "WAS",
                           "gast":  "CHA",
                           "info":  "mit Schröder"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-10-31T00:30:00+01:00",
-                          "heim":  "BOS",
-                          "gast":  "CHI"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-10-31T00:30:00+01:00",
-                          "heim":  "BKN",
-                          "gast":  "DET",
-                          "info":  "mit M. Wagner"
                       },
                       {
                           "liga":  "NBA",
@@ -1258,9 +1126,22 @@
                       },
                       {
                           "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:30:00+01:00",
+                          "heim":  "BOS",
+                          "gast":  "CHI"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:30:00+01:00",
+                          "heim":  "BKN",
+                          "gast":  "DET",
+                          "info":  "mit M. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
                           "zeit":  "2026-10-31T01:00:00+01:00",
-                          "heim":  "MIA",
-                          "gast":  "IND"
+                          "heim":  "MIN",
+                          "gast":  "LAC"
                       },
                       {
                           "liga":  "NBA",
@@ -1271,8 +1152,14 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-10-31T01:00:00+01:00",
-                          "heim":  "MIN",
-                          "gast":  "LAC"
+                          "heim":  "MIA",
+                          "gast":  "IND"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T03:00:00+01:00",
+                          "heim":  "PHX",
+                          "gast":  "DEN"
                       },
                       {
                           "liga":  "NBA",
@@ -1283,10 +1170,11 @@
                           "tv":  "PRIME"
                       },
                       {
-                          "liga":  "NBA",
-                          "zeit":  "2026-10-31T03:00:00+01:00",
-                          "heim":  "PHX",
-                          "gast":  "DEN"
+                          "liga":  "BBL",
+                          "zeit":  "2026-10-31T18:30:00+01:00",
+                          "heim":  "BRA",
+                          "gast":  "WUE",
+                          "tv":  "DYN"
                       },
                       {
                           "liga":  "BBL",
@@ -1297,9 +1185,9 @@
                       },
                       {
                           "liga":  "BBL",
-                          "zeit":  "2026-10-31T18:30:00+01:00",
-                          "heim":  "BRA",
-                          "gast":  "WUE",
+                          "zeit":  "2026-10-31T20:00:00+01:00",
+                          "heim":  "CHE",
+                          "gast":  "LUD",
                           "tv":  "DYN"
                       },
                       {
@@ -1307,13 +1195,6 @@
                           "zeit":  "2026-10-31T20:00:00+01:00",
                           "heim":  "UTA",
                           "gast":  "POR"
-                      },
-                      {
-                          "liga":  "BBL",
-                          "zeit":  "2026-10-31T20:00:00+01:00",
-                          "heim":  "CHE",
-                          "gast":  "LUD",
-                          "tv":  "DYN"
                       },
                       {
                           "liga":  "NBA",
@@ -1331,8 +1212,8 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-01T01:00:00+01:00",
-                          "heim":  "MEM",
-                          "gast":  "SAC"
+                          "heim":  "SAS",
+                          "gast":  "MIN"
                       },
                       {
                           "liga":  "NBA",
@@ -1343,8 +1224,8 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-01T01:00:00+01:00",
-                          "heim":  "SAS",
-                          "gast":  "MIN"
+                          "heim":  "MEM",
+                          "gast":  "SAC"
                       },
                       {
                           "liga":  "NBA",
@@ -1356,16 +1237,16 @@
                       {
                           "liga":  "BBL",
                           "zeit":  "2026-11-01T15:00:00+01:00",
-                          "heim":  "BAM",
-                          "gast":  "JEN",
+                          "heim":  "ROS",
+                          "gast":  "FCB",
+                          "info":  "Nachholspiel",
                           "tv":  "DYN"
                       },
                       {
                           "liga":  "BBL",
                           "zeit":  "2026-11-01T15:00:00+01:00",
-                          "heim":  "ROS",
-                          "gast":  "FCB",
-                          "info":  "Nachholspiel",
+                          "heim":  "BAM",
+                          "gast":  "JEN",
                           "tv":  "DYN"
                       },
                       {
@@ -1418,26 +1299,6 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-03T01:30:00+01:00",
-                          "heim":  "CHA",
-                          "gast":  "DET",
-                          "info":  "mit Schröder"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-11-03T01:30:00+01:00",
-                          "heim":  "IND",
-                          "gast":  "ATL"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-11-03T01:30:00+01:00",
-                          "heim":  "NYK",
-                          "gast":  "BKN",
-                          "info":  "mit M. Wagner"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-11-03T01:30:00+01:00",
                           "heim":  "ORL",
                           "gast":  "WAS",
                           "info":  "mit F. Wagner"
@@ -1450,9 +1311,29 @@
                       },
                       {
                           "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "NYK",
+                          "gast":  "BKN",
+                          "info":  "mit M. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "CHA",
+                          "gast":  "DET",
+                          "info":  "mit Schröder"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "IND",
+                          "gast":  "ATL"
+                      },
+                      {
+                          "liga":  "NBA",
                           "zeit":  "2026-11-03T02:00:00+01:00",
-                          "heim":  "DAL",
-                          "gast":  "SAC"
+                          "heim":  "MIN",
+                          "gast":  "MIL"
                       },
                       {
                           "liga":  "NBA",
@@ -1463,20 +1344,20 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-03T02:00:00+01:00",
-                          "heim":  "MIN",
-                          "gast":  "MIL"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-11-03T02:30:00+01:00",
-                          "heim":  "HOU",
-                          "gast":  "BOS"
+                          "heim":  "DAL",
+                          "gast":  "SAC"
                       },
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-03T02:30:00+01:00",
                           "heim":  "SAS",
                           "gast":  "UTA"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T02:30:00+01:00",
+                          "heim":  "HOU",
+                          "gast":  "BOS"
                       },
                       {
                           "liga":  "NBA",
@@ -1487,9 +1368,8 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-03T04:00:00+01:00",
-                          "heim":  "GSW",
-                          "gast":  "PHX",
-                          "info":  "mit Curry"
+                          "heim":  "LAL",
+                          "gast":  "MIA"
                       },
                       {
                           "liga":  "NBA",
@@ -1500,8 +1380,9 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-03T04:00:00+01:00",
-                          "heim":  "LAL",
-                          "gast":  "MIA"
+                          "heim":  "GSW",
+                          "gast":  "PHX",
+                          "info":  "mit Curry"
                       },
                       {
                           "liga":  "BCL",
@@ -1518,13 +1399,6 @@
                           "info":  "Gruppe E"
                       },
                       {
-                          "liga":  "BCL",
-                          "zeit":  "2026-11-03T20:00:00+01:00",
-                          "heim":  "SIG",
-                          "gast":  "CIB",
-                          "info":  "Gruppe B"
-                      },
-                      {
                           "liga":  "BBL",
                           "zeit":  "2026-11-03T20:00:00+01:00",
                           "heim":  "FCB",
@@ -1534,10 +1408,10 @@
                       },
                       {
                           "liga":  "BCL",
-                          "zeit":  "2026-11-03T20:30:00+01:00",
-                          "heim":  "UNI",
-                          "gast":  "REG",
-                          "info":  "Gruppe E"
+                          "zeit":  "2026-11-03T20:00:00+01:00",
+                          "heim":  "SIG",
+                          "gast":  "CIB",
+                          "info":  "Gruppe B"
                       },
                       {
                           "liga":  "BCL",
@@ -1548,10 +1422,10 @@
                       },
                       {
                           "liga":  "BCL",
-                          "zeit":  "2026-11-04T18:00:00+01:00",
-                          "heim":  "LEG",
-                          "gast":  "GSM",
-                          "info":  "Gruppe B"
+                          "zeit":  "2026-11-03T20:30:00+01:00",
+                          "heim":  "UNI",
+                          "gast":  "REG",
+                          "info":  "Gruppe E"
                       },
                       {
                           "liga":  "BCL",
@@ -1559,6 +1433,13 @@
                           "heim":  "FAL",
                           "gast":  "AEK",
                           "info":  "Gruppe C"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-04T18:00:00+01:00",
+                          "heim":  "LEG",
+                          "gast":  "GSM",
+                          "info":  "Gruppe B"
                       },
                       {
                           "liga":  "BCL",
@@ -1577,20 +1458,20 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-05T01:00:00+01:00",
-                          "heim":  "DET",
-                          "gast":  "PHI"
-                      },
-                      {
-                          "liga":  "NBA",
-                          "zeit":  "2026-11-05T01:00:00+01:00",
                           "heim":  "WAS",
                           "gast":  "ATL"
                       },
                       {
                           "liga":  "NBA",
+                          "zeit":  "2026-11-05T01:00:00+01:00",
+                          "heim":  "DET",
+                          "gast":  "PHI"
+                      },
+                      {
+                          "liga":  "NBA",
                           "zeit":  "2026-11-05T01:30:00+01:00",
-                          "heim":  "BOS",
-                          "gast":  "MIL"
+                          "heim":  "NYK",
+                          "gast":  "CHI"
                       },
                       {
                           "liga":  "NBA",
@@ -1602,14 +1483,14 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-05T01:30:00+01:00",
-                          "heim":  "NYK",
-                          "gast":  "CHI"
+                          "heim":  "BOS",
+                          "gast":  "MIL"
                       },
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-05T02:00:00+01:00",
-                          "heim":  "MEM",
-                          "gast":  "IND"
+                          "heim":  "OKC",
+                          "gast":  "CLE"
                       },
                       {
                           "liga":  "NBA",
@@ -1620,8 +1501,8 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-05T02:00:00+01:00",
-                          "heim":  "OKC",
-                          "gast":  "CLE"
+                          "heim":  "MEM",
+                          "gast":  "IND"
                       },
                       {
                           "liga":  "NBA",
@@ -1632,14 +1513,14 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-05T03:00:00+01:00",
-                          "heim":  "DEN",
-                          "gast":  "TOR"
+                          "heim":  "PHX",
+                          "gast":  "POR"
                       },
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-11-05T03:00:00+01:00",
-                          "heim":  "PHX",
-                          "gast":  "POR"
+                          "heim":  "DEN",
+                          "gast":  "TOR"
                       },
                       {
                           "liga":  "NBA",
@@ -1668,14 +1549,14 @@
                       {
                           "liga":  "EL",
                           "zeit":  "2026-11-05T19:00:00+01:00",
-                          "heim":  "HTA",
-                          "gast":  "BAR"
+                          "heim":  "FEN",
+                          "gast":  "BAS"
                       },
                       {
                           "liga":  "EL",
                           "zeit":  "2026-11-05T19:00:00+01:00",
-                          "heim":  "FEN",
-                          "gast":  "BAS"
+                          "heim":  "HTA",
+                          "gast":  "BAR"
                       },
                       {
                           "liga":  "EL",
@@ -1691,11 +1572,35 @@
                           "gast":  "VAL"
                       },
                       {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-06T18:00:00+01:00",
+                          "heim":  "BES",
+                          "gast":  "ZAL"
+                      },
+                      {
                           "liga":  "BBL",
                           "zeit":  "2026-11-06T20:00:00+01:00",
                           "heim":  "ALBA",
                           "gast":  "HAG",
                           "tv":  "DYN"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-06T20:15:00+01:00",
+                          "heim":  "OLY",
+                          "gast":  "CZV"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-06T20:30:00+01:00",
+                          "heim":  "VIR",
+                          "gast":  "DUB"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-06T20:45:00+01:00",
+                          "heim":  "PAR",
+                          "gast":  "MTA"
                       },
                       {
                           "liga":  "DBB",
@@ -2427,7 +2332,7 @@
                       "favorit":  true,
                       "stats":  {
                                     "spiele":  5,
-                                    "pkt":  26.0,
+                                    "pkt":  26,
                                     "reb":  4.6,
                                     "ast":  3.4
                                 },
@@ -2458,7 +2363,7 @@
                                     "spiele":  4,
                                     "pkt":  19.5,
                                     "reb":  7.3,
-                                    "ast":  6.0
+                                    "ast":  6
                                 },
                       "notiz":  "Kommt aus Berlin und hat früher bei ALBA gespielt."
                   },
@@ -2484,8 +2389,8 @@
                       "favorit":  true,
                       "stats":  {
                                     "spiele":  5,
-                                    "pkt":  14.0,
-                                    "reb":  4.0,
+                                    "pkt":  14,
+                                    "reb":  4,
                                     "ast":  4.8
                                 },
                       "notiz":  "Kapitän der Nationalmannschaft. Charlotte ist sein zwölftes NBA-Team."
@@ -2525,9 +2430,9 @@
                       "deutsch":  true,
                       "stats":  {
                                     "spiele":  1,
-                                    "pkt":  6.0,
-                                    "reb":  5.0,
-                                    "ast":  0.0
+                                    "pkt":  6,
+                                    "reb":  5,
+                                    "ast":  0
                                 },
                       "notiz":  "Rookie aus Würzburg. Er wurde im Draft an Nummer 14 ausgewählt."
                   },
@@ -2553,7 +2458,7 @@
                                     "spiele":  5,
                                     "pkt":  25.8,
                                     "reb":  2.4,
-                                    "ast":  5.0
+                                    "ast":  5
                                 },
                       "notiz":  "Der Anführer der Knicks. Beim Sieg in Chicago machte er gerade 38 Punkte."
                   },
@@ -2564,7 +2469,7 @@
                       "position":  "Guard",
                       "stats":  {
                                     "spiele":  4,
-                                    "pkt":  36.0,
+                                    "pkt":  36,
                                     "reb":  6.8,
                                     "ast":  8.3
                                 },
@@ -2590,9 +2495,9 @@
                       "position":  "Center",
                       "stats":  {
                                     "spiele":  4,
-                                    "pkt":  22.0,
+                                    "pkt":  22,
                                     "reb":  10.5,
-                                    "ast":  9.0
+                                    "ast":  9
                                 },
                       "notiz":  "Hat schon 200 Triple-Doubles geschafft. Nur Russell Westbrook hat mehr."
                   },
@@ -2603,7 +2508,7 @@
                       "position":  "Center",
                       "stats":  {
                                     "spiele":  5,
-                                    "pkt":  25.0,
+                                    "pkt":  25,
                                     "reb":  11.4,
                                     "ast":  2.8
                                 },
@@ -2618,7 +2523,7 @@
                                     "spiele":  3,
                                     "pkt":  21.7,
                                     "reb":  4.3,
-                                    "ast":  4.0
+                                    "ast":  4
                                 },
                       "notiz":  "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
                   }
@@ -2640,9 +2545,9 @@
                         "text":  "Die Houston Rockets sind das einzige NBA-Team, das noch kein Spiel verloren hat."
                     },
                     {
-                        "kategorie":  "Starker Start",
-                        "wert":  "104 Punkte",
-                        "text":  "Ty Jerome von den Memphis Grizzlies machte in seinen ersten drei Spielen zusammen 104 Punkte."
+                        "kategorie":  "Vereinsrekord",
+                        "wert":  "5.794",
+                        "text":  "So viele Rebounds hat Bam Adebayo jetzt für die Miami Heat geholt. Kein Heat-Spieler hatte jemals mehr."
                     }
                 ],
     "quiz":  [
@@ -3610,62 +3515,64 @@
               },
     "auffaellig":  [
                        {
-                           "art":  "spieler",
+                           "art":  "spiel",
                            "liga":  "BCL",
                            "datum":  "2026-10-28",
-                           "titel":  "Brandon Angel",
-                           "team":  "ALBA",
-                           "wert":  "10 von 10",
-                           "grund":  "Beim 103:100 gegen Bilbao traf er jeden einzelnen Wurf aus dem Feld. Dank seiner 24 Punkte hat ALBA alle drei Champions-League-Spiele gewonnen.",
+                           "heim":  "ALBA",
+                           "gast":  "BIL",
+                           "wert":  "3 von 3",
+                           "grund":  "ALBA gewann 103:100 gegen Bilbao und hat alle drei Spiele in der Champions League gewonnen. Nur ein anderes Team ist auch noch ohne Niederlage.",
                            "newsId":  "alba-bilbao"
                        },
                        {
                            "art":  "spieler",
                            "liga":  "NBA",
                            "datum":  "2026-10-28",
-                           "titel":  "AJ Dybantsa",
-                           "team":  "WAS",
-                           "wert":  "Debüt: 19 Punkte",
-                           "grund":  "Die Nummer 1 im Draft durfte nach einer Pause endlich zum ersten Mal in der NBA spielen. Er traf 8 von 12 Würfen und war gleich bester Werfer seines Teams.",
-                           "newsId":  "dybantsa"
+                           "titel":  "Bam Adebayo",
+                           "team":  "MIA",
+                           "wert":  "5.794 Rebounds",
+                           "grund":  "Beim ersten Saisonsieg der Heat wurde er zum Rebound-Rekordhalter von Miami. Kein Spieler hat für den Klub je mehr Abpraller geholt.",
+                           "newsId":  "giannis-miami"
                        },
                        {
                            "art":  "spieler",
                            "liga":  "NBA",
                            "datum":  "2026-10-28",
-                           "titel":  "Stephen Curry",
-                           "team":  "GSW",
-                           "wert":  "16 von 16",
-                           "grund":  "Bei seinen 44 Punkten in Minnesota ging jeder Freiwurf rein. Kein Spieler hat nach seinem 30. Geburtstag so oft 40 Punkte oder mehr gemacht wie er.",
-                           "newsId":  "curry-44"
+                           "titel":  "Victor Wembanyama",
+                           "team":  "SAS",
+                           "wert":  "36 Punkte + 14 Rebounds",
+                           "grund":  "Nur einen Tag nach 29 Punkten gegen Sacramento legte er in Utah noch mehr nach. Die Spurs gewannen das Spiel in der Verlängerung.",
+                           "newsId":  "wemby"
+                       },
+                       {
+                           "art":  "spiel",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "heim":  "DAL",
+                           "gast":  "OKC",
+                           "wert":  "5 von 32 Dreiern",
+                           "grund":  "OKC traf fast keinen Dreier und verlor zum ersten Mal in dieser Saison. Vorher hatten die Thunder alle vier Spiele gewonnen.",
+                           "newsId":  "okc-dallas"
                        },
                        {
                            "art":  "spieler",
                            "liga":  "NBA",
                            "datum":  "2026-10-28",
-                           "titel":  "Nikola Jokić",
-                           "team":  "DEN",
-                           "wert":  "200. Triple-Double",
-                           "grund":  "Mit 21 Punkten, 13 Rebounds und 10 Assists knackte er die Marke von 200. Nur Russell Westbrook hat in der NBA-Geschichte noch mehr Triple-Doubles.",
-                           "newsId":  "jokic-200"
+                           "titel":  "Isaiah Hartenstein",
+                           "team":  "OKC",
+                           "wert":  "2 Double-Doubles",
+                           "grund":  "Zweimal hintereinander kam der Deutsche auf zweistellige Punkte und Rebounds: erst 15 und 13 gegen Phoenix, dann 10 und 14 in Dallas.",
+                           "newsId":  "okc-dallas"
                        },
                        {
                            "art":  "spiel",
                            "liga":  "EL",
-                           "datum":  "2026-10-28",
-                           "heim":  "HTA",
-                           "gast":  "EFS",
-                           "wert":  "118 Punkte",
-                           "grund":  "Hapoel Tel Aviv schlug Anadolu Efes mit 118:88. In der Euroleague sind schon 90 Punkte viel, so viele Punkte gibt es nur ganz selten."
-                       },
-                       {
-                           "art":  "spiel",
-                           "liga":  "NBA",
                            "datum":  "2026-10-27",
-                           "heim":  "BOS",
-                           "gast":  "BKN",
-                           "wert":  "Nur 1 Punkt!",
-                           "grund":  "Krimi mit Verlängerung: Boston gewann 125:124 gegen Brooklyn. Jayson Tatum machte 40 Punkte für die Celtics."
+                           "heim":  "FCB",
+                           "gast":  "BAR",
+                           "wert":  "Nur 4 Punkte",
+                           "grund":  "Bayern hielt gegen den großen FC Barcelona lange mit. Erst die Freiwürfe ganz am Ende entschieden das Spiel für Barcelona.",
+                           "newsId":  "bayern"
                        }
                    ]
 }
