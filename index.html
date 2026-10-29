@@ -176,7 +176,16 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 .row.win .sc::after { content: "◂"; font-size: 18px; color: var(--orange); margin-left: 4px; vertical-align: 6px; }
 .game .note { font-size: 14px; color: var(--ink-soft); border-top: 1px solid var(--line); padding-top: 6px; }
 button.game { text-align: left; border: 0; width: 100%; }
-.game .more { font-size: 13px; font-weight: 800; color: var(--orange-ink); justify-self: end; }
+.game .more { font-size: 13px; font-weight: 800; color: var(--orange-ink); justify-self: end; white-space: nowrap; }
+/* Kompakte Ergebnis-Boxen in der Liste (der Spielbericht nutzt weiter die großen Zeilen) */
+.games .game { padding: 12px 14px; gap: 4px; }
+.games .game-h { font-size: 12px; }
+.games .row { gap: 8px; }
+.games .row .sc { font-size: 28px; line-height: 1; }
+.games .row.win .sc::after { font-size: 15px; vertical-align: 4px; }
+.games .badge { width: 30px; height: 30px; font-size: 11px; border-width: 2px; }
+.game-f { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; border-top: 1px solid var(--line); padding-top: 4px; margin-top: 2px; }
+.game-f .note { border: 0; padding: 0; font-size: 13px; line-height: 1.3; }
 /* Spielbericht */
 .box-score { padding: 16px 18px; display: grid; gap: 8px; margin-top: 16px; }
 .box-score .row .sc { font-size: 48px; }
@@ -456,7 +465,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     // In „Alle“ zeigt eine Liga-Plakette, woher das Spiel kommt; den doppelten Liganamen in der Runde lassen wir dann weg
     const runde = resFilter === "ALLE" ? ligaPill(g.liga) + " " + esc((g.runde || "").replace(new RegExp("^" + ((LIGA[g.liga] || [])[1] || g.liga) + "( · )?"), "")) : esc(g.runde || "");
     return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
-      scoreRows(g) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + '<span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></button>";
+      scoreRows(g) + '<div class="game-f"><span class="note">' + esc(g.info || "") + '</span><span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></div></button>";
   }
   /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
   function autoBericht(g) {
