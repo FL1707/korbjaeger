@@ -1,0 +1,4 @@
+{
+  "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst, höchstens 500 Einträge.",
+  "news": []
+}
