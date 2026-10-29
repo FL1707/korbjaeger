@@ -557,7 +557,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const zone = i => { for (const z of t.zonen || []) if (i + 1 >= z.von && i + 1 <= z.bis) return z.typ; return ""; };
     const segs = keys.map(k => '<button data-tbl="' + esc(k) + '" aria-pressed="' + (k === tblFilter) + '">' + esc(T[k].name) + "</button>").join("");
     const table = zeilen => '<div class="card tbl-wrap"><table class="stand"><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
-      zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span>" + starBtn("data-fav-team", r.team, isFav(r.team), team(r.team).name) + "</div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
+      zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span>" + starBtn("data-fav-team", r.team, isFav(r.team), team(r.team).name) + "</div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
       "</tbody></table></div>";
     // Wettbewerbe mit Gruppen (z. B. Champions League): alle Gruppen untereinander auf einer Seite
     const body = t.gruppen ? t.gruppen.map(g => '<h3 class="grp-h">' + esc(g.name) + "</h3>" + table(g.zeilen || [])).join("") : table(t.zeilen || []);
