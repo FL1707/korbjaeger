@@ -1,0 +1,473 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<title>Korbjäger</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Korbjäger">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,800;1,800&family=Nunito:wght@500;700;800&display=swap">
+<style>
+/* Layout: Sport-App für Kinder – Kopfzeile mit Logo, Inhalte in Karten-Rastern, feste Tab-Leiste unten wie auf dem iPad gewohnt. */
+:root {
+  --bg: #EEF3F9;
+  --surface: #FFFFFF;
+  --surface-2: #E2EAF4;
+  --ink: #12203A;
+  --ink-soft: #4E5E78;
+  --line: #CFDAE8;
+  --orange: #FF6A13;
+  --orange-ink: #C94A00;
+  --teal: #00A99B;
+  --yellow: #FFCF33;
+  --good: #18A058;
+  --warn: #E8A400;
+  --bad: #D9364A;
+  --court: #F2A65A;
+  --shadow: 0 2px 0 rgba(18,32,58,.08), 0 8px 24px -12px rgba(18,32,58,.25);
+  --font-display: "Barlow Condensed", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --font-body: "Nunito", "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  --r: 18px;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #0D1525; --surface: #172238; --surface-2: #213050; --ink: #F1F5FB; --ink-soft: #A7B5CC;
+  --line: #2B3B5C; --orange: #FF7A2E; --orange-ink: #FF9A5C; --teal: #2CD3C3; --yellow: #FFD54F;
+  --good: #3DD07E; --warn: #F5BE2E; --bad: #FF6B7D; --court: #B9773A;
+  --shadow: 0 2px 0 rgba(0,0,0,.25), 0 8px 24px -12px rgba(0,0,0,.6); color-scheme: dark; } }
+:root[data-theme="dark"] {
+  --bg: #0D1525; --surface: #172238; --surface-2: #213050; --ink: #F1F5FB; --ink-soft: #A7B5CC;
+  --line: #2B3B5C; --orange: #FF7A2E; --orange-ink: #FF9A5C; --teal: #2CD3C3; --yellow: #FFD54F;
+  --good: #3DD07E; --warn: #F5BE2E; --bad: #FF6B7D; --court: #B9773A;
+  --shadow: 0 2px 0 rgba(0,0,0,.25), 0 8px 24px -12px rgba(0,0,0,.6); color-scheme: dark; }
+
+* { box-sizing: border-box; }
+html, body { background: var(--bg); }
+body { color: var(--ink); font-family: var(--font-body); font-size: 17px; line-height: 1.5; -webkit-text-size-adjust: 100%; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 30; background: var(--ink); }
+button { font: inherit; color: inherit; cursor: pointer; }
+:focus-visible { outline: 3px solid var(--teal); outline-offset: 2px; border-radius: 8px; }
+h1, h2, h3 { font-family: var(--font-display); line-height: 1.05; text-wrap: balance; margin: 0; }
+.num { font-family: var(--font-display); font-variant-numeric: tabular-nums; }
+
+/* Kopfzeile */
+.top { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--ink); color: #fff;
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+:root:not([data-theme="light"]) .top { }
+.top-in { max-width: 1100px; margin: 0 auto; display: flex; align-items: center; gap: 12px; padding-block: 10px; }
+.logo { display: flex; align-items: center; gap: 10px; }
+.logo svg { width: 38px; height: 38px; flex: none; }
+.logo b { font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 30px; letter-spacing: .5px; }
+.logo b span { color: var(--yellow); }
+.stamp { margin-left: auto; text-align: right; font-size: 13px; line-height: 1.25; color: #C9D4E6; }
+.stamp strong { display: block; color: #fff; font-size: 14px; }
+
+main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 20px calc(110px + env(safe-area-inset-bottom, 0px)); }
+.view { display: grid; gap: 28px; }
+.sec { display: grid; gap: 12px; min-width: 0; }
+.sec-h { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.sec-h h2 { font-size: 30px; font-weight: 800; font-style: italic; text-transform: uppercase; letter-spacing: .3px; }
+.sec-h p { margin: 0; color: var(--ink-soft); font-size: 15px; }
+.hello { font-size: 15px; color: var(--ink-soft); margin: 0; }
+.hello b { color: var(--ink); }
+
+/* Tab-Leiste */
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--surface); border-top: 1px solid var(--line);
+  padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(8px, env(safe-area-inset-left, 0px)); padding-right: max(8px, env(safe-area-inset-right, 0px)); }
+.tabs-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, 1fr); }
+.tab { background: none; border: 0; padding: 8px 2px 10px; display: grid; justify-items: center; gap: 2px; font-size: 12px; font-weight: 800; color: var(--ink-soft); }
+.tab svg { width: 28px; height: 28px; }
+.tab[aria-selected="true"] { color: var(--orange-ink); }
+.tab[aria-selected="true"] .ic-bg { fill: var(--orange); opacity: .18; }
+
+/* Karten */
+.card { background: var(--surface); border-radius: var(--r); box-shadow: var(--shadow); min-width: 0; }
+.grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.pill { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 800; letter-spacing: .6px; text-transform: uppercase;
+  padding: 3px 9px; border-radius: 999px; background: var(--surface-2); color: var(--ink); white-space: nowrap; }
+.pill.nba { background: #1D428A; color: #fff; } .pill.bbl { background: #E30613; color: #fff; }
+.pill.el { background: #F27A1A; color: #12203A; } .pill.bcl { background: #0A2C78; color: #FFD400; } .pill.dbb { background: #12203A; color: #FFCE00; }
+.pill.en { background: var(--teal); color: #fff; }
+.pill.fav { background: var(--yellow); color: #12203A; }
+
+/* Highlights oben */
+.hero-row { display: grid; gap: 14px; grid-template-columns: 1.2fr 1fr; }
+@media (max-width: 760px) { .hero-row { grid-template-columns: 1fr; } }
+.zahl { background: var(--orange); color: #fff; border-radius: var(--r); padding: 20px 22px; display: grid; gap: 6px; align-content: start; position: relative; overflow: hidden; box-shadow: var(--shadow); }
+.zahl .lbl { font-weight: 800; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; opacity: .9; }
+.zahl .big { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: clamp(64px, 12vw, 104px); line-height: .9; }
+.zahl p { margin: 0; font-size: 17px; font-weight: 700; max-width: 34ch; position: relative; }
+.zahl svg { position: absolute; right: -30px; bottom: -40px; width: 180px; height: 180px; opacity: .22; }
+.next { display: grid; gap: 10px; }
+.next-card { padding: 14px 16px; display: grid; gap: 8px; }
+.next-card .when { font-size: 14px; font-weight: 800; color: var(--orange-ink); }
+.vs { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; font-weight: 800; }
+.vs .at { color: var(--ink-soft); font-weight: 700; font-size: 14px; }
+
+.badge { width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center; flex: none; font-family: var(--font-display); font-weight: 800; font-size: 14px; letter-spacing: .3px; border: 3px solid; }
+.badge.sm { width: 32px; height: 32px; font-size: 12px; border-width: 2px; }
+
+/* News */
+.news-top { display: grid; grid-template-columns: 1.3fr 1fr; overflow: hidden; text-align: left; border: 0; padding: 0; }
+@media (max-width: 760px) { .news-top { grid-template-columns: 1fr; } }
+.news-top .art { min-height: 220px; }
+.news-top .txt { padding: 20px; display: grid; gap: 10px; align-content: start; }
+.news-top h3 { font-size: 34px; font-weight: 800; }
+.news-card { text-align: left; border: 0; padding: 0; overflow: hidden; display: grid; grid-template-rows: auto 1fr; }
+.news-card .art { height: 130px; }
+.news-card .txt { padding: 14px 16px 16px; display: grid; gap: 8px; align-content: start; }
+.news-card h3 { font-size: 24px; font-weight: 800; }
+.teaser { margin: 0; color: var(--ink-soft); font-size: 16px; }
+.meta { display: flex; gap: 6px; flex-wrap: wrap; align-items: center; font-size: 13px; color: var(--ink-soft); font-weight: 700; }
+.art { position: relative; overflow: hidden; display: grid; place-items: center; }
+.art svg { width: 100%; height: 100%; display: block; }
+
+/* Artikel-Ansicht */
+.reader { position: fixed; inset: 0; z-index: 40; background: var(--bg); overflow-y: auto; -webkit-overflow-scrolling: touch;
+  padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.reader-bar { position: sticky; top: 0; z-index: 2; background: var(--ink); color: #fff; padding-block: 10px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.reader-bar button { background: rgba(255,255,255,.12); border: 0; color: #fff; font-weight: 800; padding: 8px 14px 8px 10px; border-radius: 999px; display: inline-flex; align-items: center; gap: 4px; }
+.reader article { max-width: 720px; margin: 0 auto; padding-block: 0 60px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 16px; }
+.reader .art { height: 220px; border-radius: 0 0 var(--r) var(--r); margin: 0 calc(-1 * max(16px, env(safe-area-inset-left, 0px))); }
+@media (min-width: 760px) { .reader .art { margin: 16px 0 0; border-radius: var(--r); } }
+.reader h1 { font-size: clamp(34px, 6vw, 48px); font-weight: 800; }
+.reader .body p { margin: 0 0 14px; font-size: 19px; line-height: 1.65; max-width: 62ch; }
+.facts { background: var(--surface); border-radius: var(--r); padding: 16px 18px; display: grid; gap: 8px; border: 2px dashed var(--line); }
+.facts h4, .vocab h4 { margin: 0; font-family: var(--font-display); font-size: 22px; font-weight: 800; text-transform: uppercase; font-style: italic; }
+.facts ul { margin: 0; padding-left: 20px; display: grid; gap: 4px; }
+.vocab { background: var(--teal); color: #fff; border-radius: var(--r); padding: 16px 18px; display: grid; gap: 8px; }
+.vocab dl { margin: 0; display: grid; grid-template-columns: auto 1fr; gap: 4px 14px; }
+.vocab dt { font-weight: 800; } .vocab dd { margin: 0; }
+.src { font-size: 13px; color: var(--ink-soft); }
+.term { background: none; border: 0; padding: 0; font-weight: 800; color: var(--orange-ink); text-decoration: underline dotted 2px; text-underline-offset: 3px; }
+
+/* Begriffs-Blase */
+.sheet { position: fixed; left: 0; right: 0; bottom: 0; z-index: 50; padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+.sheet-in { max-width: 560px; margin: 0 auto 16px; background: var(--ink); color: #fff; border-radius: var(--r); padding: 16px 18px; display: grid; gap: 6px; box-shadow: 0 12px 40px rgba(0,0,0,.35); }
+.sheet-in b { font-family: var(--font-display); font-size: 26px; font-style: italic; }
+.sheet-in .en { color: var(--yellow); font-weight: 800; font-size: 14px; }
+.sheet-in button { justify-self: end; background: var(--orange); border: 0; color: #fff; font-weight: 800; padding: 6px 16px; border-radius: 999px; }
+
+/* Ergebnisse */
+.seg { display: flex; gap: 6px; flex-wrap: wrap; }
+.seg button { border: 2px solid var(--line); background: var(--surface); padding: 6px 14px; border-radius: 999px; font-weight: 800; font-size: 15px; }
+.seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
+.games { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.game { padding: 12px 14px; display: grid; gap: 6px; }
+.game.fav { outline: 3px solid var(--yellow); }
+.game-h { display: flex; justify-content: space-between; align-items: center; font-size: 13px; font-weight: 800; color: var(--ink-soft); gap: 8px; }
+.row { display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 10px; }
+.row .tn { font-weight: 700; min-width: 0; overflow-wrap: anywhere; line-height: 1.2; }
+.row .sc { font-family: var(--font-display); font-weight: 800; font-size: 34px; font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+.row.win .tn { font-weight: 800; } .row.win .sc { color: var(--ink); }
+.row.win .sc::after { content: "◂"; font-size: 18px; color: var(--orange); margin-left: 4px; vertical-align: 6px; }
+.game .note { font-size: 14px; color: var(--ink-soft); border-top: 1px solid var(--line); padding-top: 6px; }
+.day-h { font-family: var(--font-display); font-weight: 800; font-size: 20px; text-transform: uppercase; color: var(--ink-soft); letter-spacing: .4px; margin-top: 6px; }
+.sched { display: grid; gap: 8px; }
+.sched-row { display: grid; grid-template-columns: 112px 1fr auto; gap: 12px; align-items: center; padding: 10px 14px; }
+@media (max-width: 520px) { .sched-row { grid-template-columns: 1fr; gap: 6px; } }
+.sched-row .t { font-weight: 800; line-height: 1.2; } .sched-row .t small { display: block; color: var(--ink-soft); font-weight: 700; }
+
+/* Tabellen */
+.tbl-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+th { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); text-align: right; padding: 10px 10px; font-weight: 800; }
+th:nth-child(2) { text-align: left; }
+td { padding: 8px 10px; border-top: 1px solid var(--line); text-align: right; font-weight: 700; white-space: nowrap; }
+td:first-child { width: 44px; text-align: center; font-family: var(--font-display); font-size: 20px; font-weight: 800; border-left: 5px solid transparent; }
+td.team { text-align: left; white-space: normal; }
+td.team div { display: flex; align-items: center; gap: 10px; }
+tr.z-good td:first-child { border-left-color: var(--good); }
+tr.z-warn td:first-child { border-left-color: var(--warn); }
+tr.z-bad td:first-child { border-left-color: var(--bad); }
+tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 14px; color: var(--ink-soft); font-weight: 700; }
+.legend span::before { content: ""; display: inline-block; width: 12px; height: 12px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; background: var(--c); }
+
+/* Stars */
+.star { overflow: hidden; display: grid; }
+.star-top { padding: 16px; color: #fff; display: flex; align-items: center; gap: 14px; position: relative; overflow: hidden; }
+.jersey { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 64px; line-height: .8; opacity: .95; min-width: 70px; text-align: center; }
+.star-top h3 { font-size: 30px; font-weight: 800; }
+.star-top small { font-weight: 700; opacity: .9; font-size: 14px; }
+.star-top .flag { position: absolute; right: 12px; top: 12px; }
+.stats { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 16px 6px; gap: 10px; }
+.stat { display: grid; gap: 4px; }
+.stat .v { font-family: var(--font-display); font-weight: 800; font-size: 36px; line-height: 1; font-variant-numeric: tabular-nums; }
+.stat .k { font-size: 12px; font-weight: 800; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .5px; }
+.bar { height: 8px; background: var(--surface-2); border-radius: 99px; overflow: hidden; }
+.bar i { display: block; height: 100%; background: var(--orange); border-radius: 99px; }
+.star p { margin: 0; padding: 4px 16px 16px; color: var(--ink-soft); font-size: 15px; }
+.potw { display: grid; grid-template-columns: auto 1fr; gap: 18px; padding: 18px; align-items: center; background: var(--ink); color: #fff; }
+.potw .lbl { color: var(--yellow); font-weight: 800; font-size: 13px; letter-spacing: 1px; text-transform: uppercase; }
+.potw h3 { font-size: 36px; font-weight: 800; font-style: italic; }
+.potw p { margin: 4px 0 0; color: #D7E0EE; }
+@media (max-width: 520px) { .potw { grid-template-columns: 1fr; } }
+.potw .medal { width: 96px; height: 96px; }
+
+/* Quiz */
+.quiz { padding: 20px; display: grid; gap: 14px; max-width: 720px; }
+.quiz .prog { display: flex; gap: 6px; }
+.quiz .prog i { flex: 1; height: 8px; border-radius: 99px; background: var(--surface-2); }
+.quiz .prog i.ok { background: var(--good); } .quiz .prog i.no { background: var(--bad); } .quiz .prog i.cur { background: var(--orange); }
+.quiz h3 { font-size: 30px; font-weight: 800; }
+.answers { display: grid; gap: 10px; }
+.answers button { text-align: left; border: 2px solid var(--line); background: var(--surface); border-radius: 14px; padding: 12px 16px; font-weight: 800; font-size: 17px; }
+.answers button.ok { background: var(--good); border-color: var(--good); color: #fff; }
+.answers button.no { background: var(--bad); border-color: var(--bad); color: #fff; }
+.answers button:disabled { cursor: default; }
+.expl { margin: 0; padding: 12px 14px; border-radius: 12px; background: var(--surface-2); font-weight: 700; }
+.btn { justify-self: start; background: var(--orange); color: #fff; border: 0; font-weight: 800; padding: 10px 22px; border-radius: 999px; font-size: 17px; }
+.score { font-family: var(--font-display); font-size: 72px; font-weight: 800; font-style: italic; line-height: 1; }
+
+/* Lexikon */
+.search { width: 100%; max-width: 480px; font: inherit; padding: 12px 16px; border-radius: 999px; border: 2px solid var(--line); background: var(--surface); color: var(--ink); }
+.lex { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); }
+.lex-item { padding: 14px 16px; display: grid; gap: 4px; align-content: start; }
+.lex-item b { font-family: var(--font-display); font-size: 26px; font-weight: 800; font-style: italic; }
+.lex-item .en { font-size: 13px; font-weight: 800; color: var(--teal); text-transform: uppercase; letter-spacing: .5px; }
+.lex-item p { margin: 0; font-size: 16px; }
+.eng-box { background: var(--teal); color: #fff; border-radius: var(--r); padding: 18px 20px; display: grid; gap: 10px; }
+.eng-box h3 { font-size: 28px; font-weight: 800; font-style: italic; }
+.eng-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.eng-list span { background: rgba(255,255,255,.18); border-radius: 999px; padding: 4px 12px; font-weight: 700; }
+.eng-list span b { color: var(--yellow); }
+
+.empty { padding: 40px 20px; text-align: center; color: var(--ink-soft); font-weight: 700; }
+.foot { font-size: 13px; color: var(--ink-soft); text-align: center; }
+@media (prefers-reduced-motion: no-preference) { .view { animation: in .25s ease-out; } @keyframes in { from { transform: translateY(6px); opacity: .6; } } }
+</style>
+</head>
+<body>
+
+<header class="top"><div class="top-in">
+  <div class="logo">
+    <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="18" fill="#FF6A13"/><path d="M2 20h36M20 2v36M7 7c7 6 7 20 0 26M33 7c-7 6-7 20 0 26" stroke="#12203A" stroke-width="2.2" fill="none"/></svg>
+    <b>KORB<span>JÄGER</span></b>
+  </div>
+  <div class="stamp" id="stamp"><strong>Lade Neuigkeiten …</strong></div>
+</div></header>
+
+<main id="main"><div class="empty">Die neuesten Basketball-News werden geladen …</div></main>
+
+<nav class="tabs" aria-label="Bereiche"><div class="tabs-in" role="tablist" id="tabs"></div></nav>
+<div id="overlay"></div>
+
+<script>
+(function () {
+  const TABS = [
+    { id: "heute", label: "Heute", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M7 16h18M16 7v18M10 9.5c3 3 3 10 0 13M22 9.5c-3 3-3 10 0 13" stroke="currentColor" stroke-width="2" fill="none"/>' },
+    { id: "ergebnisse", label: "Ergebnisse", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><rect x="5" y="8" width="22" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 8v16M9 14v4M23 13v6M21 13h2" stroke="currentColor" stroke-width="2.4" fill="none"/>' },
+    { id: "tabellen", label: "Tabellen", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M7 9h18M7 16h18M7 23h18" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="9" r="1" fill="currentColor"/>' },
+    { id: "stars", label: "Stars", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M16 5l3.3 6.9 7.5 1-5.5 5.2 1.4 7.5L16 22l-6.7 3.6 1.4-7.5L5.2 12.9l7.5-1z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/>' },
+    { id: "quiz", label: "Quiz", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12.5 13a3.5 3.5 0 1 1 5 3.2c-1 .5-1.5 1.2-1.5 2.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.5" fill="currentColor"/>' },
+    { id: "lexikon", label: "Lexikon", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M6 7h8a3 3 0 0 1 2 1v17a3 3 0 0 0-2-1H6zM26 7h-8a3 3 0 0 0-2 1v17a3 3 0 0 1 2-1h8z" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linejoin="round"/>' }
+  ];
+  const LIGA = { NBA: ["nba", "NBA"], BBL: ["bbl", "BBL"], EL: ["el", "Euroleague"], BCL: ["bcl", "Champions League"], DBB: ["dbb", "Nationalteam"] };
+  let D = null, current = "heute", resFilter = "NBA", tblFilter = null, lexQuery = "";
+  const $ = (s, r = document) => r.querySelector(s);
+  const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+  const store = { get(k, d) { try { const v = localStorage.getItem("kj_" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
+                  set(k, v) { try { localStorage.setItem("kj_" + k, JSON.stringify(v)); } catch (e) {} } };
+  const WT = ["So", "Mo", "Di", "Mi", "Do", "Fr", "Sa"];
+  function fmtDate(iso, withTime) {
+    const d = new Date(iso); if (isNaN(d)) return esc(iso);
+    const s = WT[d.getDay()] + " " + String(d.getDate()).padStart(2, "0") + "." + String(d.getMonth() + 1).padStart(2, "0") + ".";
+    return withTime ? s + ", " + String(d.getHours()).padStart(2, "0") + ":" + String(d.getMinutes()).padStart(2, "0") + " Uhr" : s;
+  }
+  function team(k) { return (D.teams && D.teams[k]) || { name: k, kurz: k, c1: "#4E5E78", c2: "#FFFFFF" }; }
+  function badge(k, sm) { const t = team(k); return '<span class="badge' + (sm ? " sm" : "") + '" style="background:' + t.c1 + ';color:' + t.c2 + ';border-color:' + t.c2 + '" aria-hidden="true">' + esc(t.kurz || k) + '</span>'; }
+  const isFav = k => (D.favoritenTeams || []).includes(k);
+  function ligaPill(l) { const x = LIGA[l] || ["", l]; return '<span class="pill ' + x[0] + '">' + esc(x[1]) + '</span>'; }
+
+  /* Selbst gezeichnete Bildmotive – keine fremden Fotos */
+  function art(motiv, liga) {
+    const bgs = { NBA: ["#1D428A", "#C8102E"], BBL: ["#E30613", "#12203A"], EL: ["#F27A1A", "#12203A"], BCL: ["#0A2C78", "#00A99B"], DBB: ["#12203A", "#DD0000"] };
+    const [a, b] = bgs[liga] || ["#FF6A13", "#12203A"];
+    const ball = (x, y, r) => '<g transform="translate(' + x + ' ' + y + ')"><circle r="' + r + '" fill="#FF6A13" stroke="#12203A" stroke-width="' + r / 12 + '"/><path d="M' + -r + ' 0H' + r + 'M0 ' + -r + 'V' + r + 'M' + -r * .65 + ' ' + -r * .76 + 'c' + r * .5 + ' ' + r * .45 + ' ' + r * .5 + ' ' + r * 1.07 + ' 0 ' + r * 1.52 + 'M' + r * .65 + ' ' + -r * .76 + 'c' + -r * .5 + ' ' + r * .45 + ' ' + -r * .5 + ' ' + r * 1.07 + ' 0 ' + r * 1.52 + '" stroke="#12203A" stroke-width="' + r / 14 + '" fill="none"/></g>';
+    const court = '<g stroke="rgba(255,255,255,.28)" stroke-width="3" fill="none"><circle cx="200" cy="200" r="60"/><path d="M200 0V400M0 70H120V330H0M400 70H280V330H400"/><path d="M0 20C220 40 220 360 0 380M400 20C180 40 180 360 400 380"/></g>';
+    let fg = "";
+    if (motiv === "korb") fg = '<g transform="translate(250 60)"><rect x="-70" y="0" width="140" height="95" rx="6" fill="#fff" stroke="#12203A" stroke-width="5"/><rect x="-28" y="38" width="56" height="40" fill="none" stroke="#FF6A13" stroke-width="5"/><ellipse cx="0" cy="100" rx="42" ry="9" fill="none" stroke="#FF6A13" stroke-width="7"/><path d="M-40 104l12 70M-14 108l4 70M14 108l-4 70M40 104l-12 70M-34 130h68M-26 156h52" stroke="#fff" stroke-width="3"/></g>' + ball(120, 270, 52);
+    else if (motiv === "pokal") fg = '<g transform="translate(200 210)"><path d="M-70 -110h140v40c0 55-30 90-70 95-40-5-70-40-70-95z" fill="#FFCF33" stroke="#12203A" stroke-width="6"/><path d="M-70 -90h-30c0 40 20 60 40 62M70 -90h30c0 40-20 60-40 62" fill="none" stroke="#12203A" stroke-width="6"/><rect x="-14" y="25" width="28" height="40" fill="#FFCF33" stroke="#12203A" stroke-width="6"/><rect x="-55" y="62" width="110" height="26" rx="4" fill="#12203A"/></g>' + ball(320, 300, 40);
+    else if (motiv === "flagge") fg = '<g transform="translate(110 90) rotate(-6)"><rect width="190" height="40" fill="#111"/><rect y="40" width="190" height="40" fill="#DD0000"/><rect y="80" width="190" height="40" fill="#FFCE00"/></g>' + ball(280, 270, 62);
+    else if (motiv === "zahlen") fg = '<text x="200" y="250" text-anchor="middle" font-family="Barlow Condensed, Arial Narrow, sans-serif" font-weight="800" font-style="italic" font-size="190" fill="#fff">24</text><rect x="95" y="80" width="210" height="190" rx="18" fill="none" stroke="#FFCF33" stroke-width="8"/>' + ball(320, 310, 38);
+    else if (motiv === "schuh") fg = '<path d="M80 240c10-50 30-90 60-100l40 30c30 20 80 30 130 40 30 6 40 30 30 50H90c-12 0-14-10-10-20z" fill="#fff" stroke="#12203A" stroke-width="6"/><path d="M78 262h264" stroke="#FF6A13" stroke-width="14"/><path d="M150 165l20 14M165 150l20 14" stroke="#12203A" stroke-width="5"/>' + ball(300, 120, 44);
+    else fg = ball(200, 200, 110);
+    return '<svg viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice" aria-hidden="true"><defs><linearGradient id="g' + liga + motiv + '" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="' + a + '"/><stop offset="1" stop-color="' + b + '"/></linearGradient></defs><rect width="400" height="400" fill="url(#g' + liga + motiv + ')"/>' + court + fg + '</svg>';
+  }
+
+  function linkTerms(text) {
+    // Jeder Lexikon-Begriff wird im Artikel einmal antippbar; längere Begriffe zuerst.
+    const parts = [{ t: esc(text) }];
+    const terms = (D.lexikon || []).map(x => x.begriff).sort((a, b) => b.length - a.length);
+    terms.forEach(t => {
+      const re = new RegExp("(^|[^\\wÄÖÜäöüß-])(" + esc(t).replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + ")(?=$|[^\\wÄÖÜäöüß-])", "i");
+      for (let i = 0; i < parts.length; i++) {
+        if (parts[i].btn) continue;
+        const s = parts[i].t, m = s.match(re);
+        if (!m) continue;
+        parts.splice(i, 1, { t: s.slice(0, m.index) + m[1] }, { t: '<button class="term" data-t="' + esc(t) + '">' + m[2] + "</button>", btn: true }, { t: s.slice(m.index + m[0].length) });
+        break;
+      }
+    });
+    return parts.map(p => p.t).join("");
+  }
+
+  /* ---------- Ansichten ---------- */
+  function newsCard(n, top) {
+    const pills = ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + ((n.tags || []).includes("fav") ? '<span class="pill fav">Dein Team</span>' : "");
+    if (top) return '<button class="card news-top" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
+    return '<button class="card news-card" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
+  }
+  function nextCard(g) {
+    return '<div class="card next-card"><div class="when">' + ligaPill(g.liga) + " &nbsp;" + fmtDate(g.zeit, !g.ohneZeit) + '</div><div class="vs">' + badge(g.gast, true) + "<span>" + esc(team(g.gast).name) + '</span><span class="at">bei</span>' + badge(g.heim, true) + "<span>" + esc(team(g.heim).name) + "</span></div>" + (g.info ? '<div class="teaser" style="font-size:14px">' + esc(g.info) + "</div>" : "") + "</div>";
+  }
+  function vHeute() {
+    const now = Date.now();
+    const nexts = (D.favoritenTeams || []).map(k => (D.spielplan || []).filter(g => (g.heim === k || g.gast === k) && new Date(g.zeit).getTime() > now - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit))[0]).filter(Boolean);
+    const news = D.news || [];
+    const z = D.zahlDesTages || {};
+    const eng = (D.lexikon || []).filter(x => x.en).slice(0, 8);
+    const potw = D.spielerDerWoche;
+    return '<div class="view">' +
+      '<p class="hello">' + esc(D.gruss || "Hallo Basketball-Fan!") + "</p>" +
+      '<div class="hero-row"><div class="zahl"><span class="lbl">Zahl des Tages</span><span class="big">' + esc(z.zahl) + "</span><p>" + esc(z.text) + "</p>" + '<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle r="55" fill="none" stroke="#fff" stroke-width="6"/><path d="M-55 0H55M0-55V55M-36-42c28 25 28 59 0 84M36-42c-28 25-28 59 0 84" stroke="#fff" stroke-width="5" fill="none"/></svg></div>' +
+      '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (nexts.length ? nexts.map(nextCard).join("") : '<div class="card next-card">Gerade keine Spiele geplant.</div>') + "</div></div>" +
+      '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
+      (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div></section>" +
+      (potw ? '<section class="sec"><div class="card potw"><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + "</p></div></div></section>" : "") +
+      (eng.length ? '<section class="eng-box"><h3>Englisch-Ecke</h3><div>So sagen die NBA-Reporter in den USA:</div><div class="eng-list">' + eng.map(x => "<span><b>" + esc(x.en) + "</b> = " + esc(x.begriff) + "</span>").join("") + "</div></section>" : "") +
+      '<p class="foot">Alle Texte wurden für dich zusammengefasst. Quellen stehen unter jedem Artikel.</p></div>';
+  }
+  function gameCard(g) {
+    const hW = g.heimPkt > g.gastPkt, fav = isFav(g.heim) || isFav(g.gast);
+    const row = (k, p, w) => '<div class="row' + (w ? " win" : "") + '">' + badge(k) + '<span class="tn">' + esc(team(k).name) + '</span><span class="sc">' + esc(p) + "</span></div>";
+    return '<div class="card game' + (fav ? " fav" : "") + '"><div class="game-h"><span>' + esc(g.runde || "") + "</span>" + (fav ? '<span class="pill fav">Dein Team</span>' : "<span>Endstand</span>") + "</div>" +
+      (g.liga === "NBA" ? row(g.gast, g.gastPkt, !hW) + row(g.heim, g.heimPkt, hW) : row(g.heim, g.heimPkt, hW) + row(g.gast, g.gastPkt, !hW)) + (g.info ? '<div class="note">' + esc(g.info) + "</div>" : "") + "</div>";
+  }
+  function vErgebnisse() {
+    const list = (D.ergebnisse || []).filter(g => g.liga === resFilter);
+    const days = {};
+    list.forEach(g => { (days[g.datum] = days[g.datum] || []).push(g); });
+    const keys = Object.keys(days).sort().reverse();
+    const sched = (D.spielplan || []).filter(g => g.liga === resFilter && new Date(g.zeit).getTime() > Date.now() - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit));
+    const segs = Object.keys(LIGA).map(l => '<button data-res="' + l + '" aria-pressed="' + (l === resFilter) + '">' + LIGA[l][1] + "</button>").join("");
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Ergebnisse</h2><p>' + (resFilter === "NBA" ? "In der NBA steht das Gastteam oben, so wie in den USA." : "Das Heimteam steht oben.") + '</p></div><div class="seg">' + segs + "</div>" +
+      (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(gameCard).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
+      '</section><section class="sec"><div class="sec-h"><h2>Demnächst</h2><p>Alle Zeiten in deutscher Uhrzeit</p></div><div class="sched">' +
+      (sched.length ? sched.map(g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + fmtDate(g.zeit) + "<small>" + (g.ohneZeit ? "Uhrzeit folgt" : fmtDate(g.zeit, true).split(", ")[1]) + '</small></div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + "</div></div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
+      "</div></section></div>";
+  }
+  function vTabellen() {
+    const T = D.tabellen || {};
+    const keys = Object.keys(T);
+    if (!tblFilter || !T[tblFilter]) tblFilter = keys[0];
+    const t = T[tblFilter];
+    if (!t) return '<div class="view"><div class="card empty">Keine Tabellen vorhanden.</div></div>';
+    const zone = i => { for (const z of t.zonen || []) if (i + 1 >= z.von && i + 1 <= z.bis) return z.typ; return ""; };
+    const segs = keys.map(k => '<button data-tbl="' + esc(k) + '" aria-pressed="' + (k === tblFilter) + '">' + esc(T[k].name) + "</button>").join("");
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + '</div><div class="card tbl-wrap"><table><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
+      t.zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span></div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
+      '</tbody></table></div><div class="legend">' + (t.zonen || []).map(z => '<span style="--c:var(--' + z.typ + ')">' + esc(z.label) + "</span>").join("") + "</div>" +
+      (t.erklaerung ? '<p class="teaser">' + esc(t.erklaerung) + "</p>" : "") + "</section></div>";
+  }
+  function starCard(p) {
+    const t = team(p.team), s = p.stats || {};
+    const st = (v, k, max) => '<div class="stat"><span class="v">' + (v == null ? "–" : String(v).replace(".", ",")) + '</span><span class="k">' + k + '</span><div class="bar"><i style="width:' + Math.min(100, (v || 0) / max * 100) + '%"></i></div></div>';
+    return '<div class="card star"><div class="star-top" style="background:' + t.c1 + ";color:" + t.c2 + '"><span class="jersey">' + esc(p.nummer || p.name.split(" ").map(w => w[0]).join("").slice(0, 2)) + '</span><div><h3>' + esc(p.name) + "</h3><small>" + esc(t.name) + " · " + esc(p.position || "") + "</small></div>" + (p.deutsch ? '<svg class="flag" width="30" height="20" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>' : "") + "</div>" +
+      '<div class="stats">' + st(s.pkt, "Punkte", 35) + st(s.reb, "Rebounds", 15) + st(s.ast, "Assists", 12) + "</div><p>" + (s.spiele ? s.spiele + " Spiele in dieser Saison. " : "") + esc(p.notiz || "") + "</p></div>";
+  }
+  function vStars() {
+    const st = D.stars || [];
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Deine Stars</h2><p>Durchschnitt pro Spiel in dieser Saison</p></div><div class="grid">' + st.filter(p => p.favorit).map(starCard).join("") + "</div></section>" +
+      '<section class="sec"><div class="sec-h"><h2>Deutsche in der NBA</h2></div><div class="grid">' + st.filter(p => !p.favorit).map(starCard).join("") + "</div></section>" +
+      (D.rekorde && D.rekorde.length ? '<section class="sec"><div class="sec-h"><h2>Rekorde & Bestwerte</h2></div><div class="grid">' + D.rekorde.map(r => '<div class="card lex-item"><span class="en">' + esc(r.kategorie) + "</span><b>" + esc(r.wert) + "</b><p>" + esc(r.text) + "</p></div>").join("") + "</div></section>" : "") + "</div>";
+  }
+  function vQuiz() {
+    const Q = D.quiz || [];
+    const key = "quiz_" + (D.quizId || D.aktualisiert);
+    const st = store.get(key, { i: 0, picks: [] });
+    if (!Q.length) return '<div class="view"><div class="card empty">Diese Woche gibt es noch kein Quiz.</div></div>';
+    const prog = '<div class="prog">' + Q.map((q, i) => '<i class="' + (i < st.picks.length ? (st.picks[i] === q.richtig ? "ok" : "no") : i === st.i ? "cur" : "") + '"></i>').join("") + "</div>";
+    if (st.i >= Q.length) {
+      const pts = st.picks.filter((p, i) => p === Q[i].richtig).length;
+      const msg = pts === Q.length ? "Perfekt! Du bist ein echter Basketball-Profi." : pts >= Q.length / 2 ? "Stark! Du kennst dich richtig gut aus." : "Gut gemacht! Lies die News und versuch es nochmal.";
+      return '<div class="view"><section class="sec"><div class="sec-h"><h2>Wochenquiz</h2></div><div class="card quiz">' + prog + '<span class="score">' + pts + " von " + Q.length + "</span><p style=\"margin:0;font-weight:800\">" + msg + '</p><button class="btn" data-quiz="reset">Nochmal spielen</button></div></section></div>';
+    }
+    const q = Q[st.i], answered = st.picks.length > st.i, pick = st.picks[st.i];
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Wochenquiz</h2><p>Frage ' + (st.i + 1) + " von " + Q.length + '</p></div><div class="card quiz">' + prog + "<h3>" + esc(q.frage) + '</h3><div class="answers">' +
+      q.antworten.map((a, i) => '<button data-ans="' + i + '"' + (answered ? " disabled" : "") + ' class="' + (answered ? (i === q.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
+      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section></div>";
+  }
+  function vLexikon() {
+    const q = lexQuery.trim().toLowerCase();
+    const L = (D.lexikon || []).filter(x => !q || (x.begriff + " " + (x.en || "") + " " + x.erklaerung).toLowerCase().includes(q)).sort((a, b) => a.begriff.localeCompare(b.begriff, "de"));
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Basketball-Lexikon</h2><p>' + (D.lexikon || []).length + " Begriffe einfach erklärt</p></div>" +
+      '<input class="search" id="lexq" type="search" placeholder="Begriff suchen, z. B. Rebound" value="' + esc(lexQuery) + '" aria-label="Begriff suchen"><div class="lex" id="lexlist">' +
+      (L.length ? L.map(x => '<div class="card lex-item"><b>' + esc(x.begriff) + "</b>" + (x.en && x.en.toLowerCase() !== x.begriff.toLowerCase() ? '<span class="en">Englisch: ' + esc(x.en) + "</span>" : "") + "<p>" + esc(x.erklaerung) + "</p></div>").join("") : '<div class="card empty">Nichts gefunden.</div>') + "</div></section></div>";
+  }
+  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, tabellen: vTabellen, stars: vStars, quiz: vQuiz, lexikon: vLexikon };
+
+  function render() {
+    $("#tabs").innerHTML = TABS.map(t => '<button class="tab" role="tab" data-tab="' + t.id + '" aria-selected="' + (t.id === current) + '"><svg viewBox="0 0 32 32" aria-hidden="true">' + t.icon + "</svg>" + t.label + "</button>").join("");
+    if (!D) return;
+    $("#main").innerHTML = VIEWS[current]();
+  }
+  function go(id) { if (!VIEWS[id]) id = "heute"; current = id; store.set("tab", id); render(); window.scrollTo(0, 0); }
+
+  function openNews(id) {
+    const n = (D.news || []).find(x => x.id === id); if (!n) return;
+    $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="' + esc(n.titel) + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      '<div class="art">' + art(n.motiv, n.liga) + '</div><div class="meta">' + ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + "<span>" + fmtDate(n.datum) + "</span></div><h1>" + esc(n.titel) + '</h1><div class="body">' + (n.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" +
+      (n.fakten && n.fakten.length ? '<div class="facts"><h4>' + (n.lang === "en" ? "Quick facts" : "Das Wichtigste") + "</h4><ul>" + n.fakten.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul></div>" : "") +
+      (n.vokabeln && n.vokabeln.length ? '<div class="vocab"><h4>Vokabeln</h4><dl>' + n.vokabeln.map(v => "<dt>" + esc(v.en) + "</dt><dd>" + esc(v.de) + "</dd>").join("") + "</dl></div>" : "") +
+      '<p class="src">Zusammengefasst nach: ' + esc((n.quellen || []).join(", ")) + "</p></article></div>";
+    document.body.style.overflow = "hidden";
+    $("[data-close]").focus();
+  }
+  function closeNews() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
+  function showTerm(t) {
+    const x = (D.lexikon || []).find(l => l.begriff.toLowerCase() === t.toLowerCase()); if (!x) return;
+    const old = $(".sheet"); if (old) old.remove();
+    const el = document.createElement("div"); el.className = "sheet";
+    el.innerHTML = '<div class="sheet-in" role="dialog" aria-label="Begriff"><b>' + esc(x.begriff) + "</b>" + (x.en ? '<span class="en">Englisch: ' + esc(x.en) + "</span>" : "") + "<span>" + esc(x.erklaerung) + '</span><button data-sheet-close>Verstanden</button></div>';
+    document.body.appendChild(el);
+  }
+
+  document.addEventListener("click", e => {
+    const b = e.target.closest("button"); if (!b) return;
+    if (b.dataset.tab) go(b.dataset.tab);
+    else if (b.dataset.news) openNews(b.dataset.news);
+    else if (b.hasAttribute("data-close")) closeNews();
+    else if (b.dataset.t) showTerm(b.dataset.t);
+    else if (b.hasAttribute("data-sheet-close")) b.closest(".sheet").remove();
+    else if (b.dataset.res) { resFilter = b.dataset.res; render(); }
+    else if (b.dataset.tbl) { tblFilter = b.dataset.tbl; render(); }
+    else if (b.dataset.ans != null || b.dataset.quiz) {
+      const key = "quiz_" + (D.quizId || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
+      if (b.dataset.ans != null && st.picks.length === st.i) st.picks.push(Number(b.dataset.ans));
+      else if (b.dataset.quiz === "next") st.i++;
+      else if (b.dataset.quiz === "reset") { st.i = 0; st.picks = []; }
+      store.set(key, st); render();
+    }
+  });
+  document.addEventListener("input", e => {
+    if (e.target.id === "lexq") { lexQuery = e.target.value; const pos = e.target.selectionStart; render(); const i = $("#lexq"); i.focus(); try { i.setSelectionRange(pos, pos); } catch (x) {} }
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { const s = $(".sheet"); if (s) s.remove(); else closeNews(); } });
+
+  const h = (location.hash || "").slice(1);
+  current = VIEWS[h] ? h : store.get("tab", "heute");
+  render();
+  fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+    D = d;
+    $("#stamp").innerHTML = "<strong>" + esc(d.ausgabe || "Aktuelle Ausgabe") + "</strong>Stand: " + fmtDate(d.aktualisiert, true);
+    render();
+  }).catch(() => { $("#main").innerHTML = '<div class="card empty">Die News konnten gerade nicht geladen werden. Prüfe das Internet und lade die Seite neu.</div>'; $("#stamp").innerHTML = "<strong>Offline</strong>"; });
+})();
+</script>
+</body>
+</html>
