@@ -2138,6 +2138,227 @@
                                                        }
                                                    ]
                                     },
+                     "bcl":  {
+                                 "name":  "Champions League",
+                                 "stand":  "Stand: nach den Spielen vom 28.10.",
+                                 "zonen":  [
+                                               {
+                                                   "von":  1,
+                                                   "bis":  1,
+                                                   "typ":  "good",
+                                                   "label":  "Achtelfinale"
+                                               },
+                                               {
+                                                   "von":  2,
+                                                   "bis":  3,
+                                                   "typ":  "warn",
+                                                   "label":  "Play-In"
+                                               }
+                                           ],
+                                 "erklaerung":  "In jeder Gruppe spielen vier Teams je zweimal gegeneinander. Der Gruppenerste kommt direkt ins Achtelfinale. Platz 2 und 3 spielen im Januar in einem Play-In um die übrigen Plätze. Bei gleicher Bilanz entscheidet der direkte Vergleich.",
+                                 "gruppen":  [
+                                                 {
+                                                     "name":  "Gruppe A",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "RYT",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "TS",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "SAB",
+                                                                        "s":  1,
+                                                                        "n":  2
+                                                                    },
+                                                                    {
+                                                                        "team":  "NTR",
+                                                                        "s":  1,
+                                                                        "n":  2
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe B",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "SIG",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "CIB",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "GSM",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "LEG",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe C",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "WGA",
+                                                                        "s":  2,
+                                                                        "n":  0
+                                                                    },
+                                                                    {
+                                                                        "team":  "FAL",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "AEK",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "VLP",
+                                                                        "s":  0,
+                                                                        "n":  2
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe D",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "PERI",
+                                                                        "s":  3,
+                                                                        "n":  0
+                                                                    },
+                                                                    {
+                                                                        "team":  "UCAM",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "VAR",
+                                                                        "s":  1,
+                                                                        "n":  2
+                                                                    },
+                                                                    {
+                                                                        "team":  "BAM",
+                                                                        "s":  0,
+                                                                        "n":  3
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe E",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "UNI",
+                                                                        "s":  2,
+                                                                        "n":  0
+                                                                    },
+                                                                    {
+                                                                        "team":  "JUV",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "REG",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "PCE",
+                                                                        "s":  0,
+                                                                        "n":  2
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe F",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "CHO",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "SPA",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "HOL",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "VEC",
+                                                                        "s":  0,
+                                                                        "n":  3
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe G",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "ALBA",
+                                                                        "s":  3,
+                                                                        "n":  0
+                                                                    },
+                                                                    {
+                                                                        "team":  "BIL",
+                                                                        "s":  2,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "IGO",
+                                                                        "s":  1,
+                                                                        "n":  2
+                                                                    },
+                                                                    {
+                                                                        "team":  "SKS",
+                                                                        "s":  0,
+                                                                        "n":  3
+                                                                    }
+                                                                ]
+                                                 },
+                                                 {
+                                                     "name":  "Gruppe H",
+                                                     "zeilen":  [
+                                                                    {
+                                                                        "team":  "AJB",
+                                                                        "s":  2,
+                                                                        "n":  0
+                                                                    },
+                                                                    {
+                                                                        "team":  "BON",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "FCP",
+                                                                        "s":  1,
+                                                                        "n":  1
+                                                                    },
+                                                                    {
+                                                                        "team":  "HRZ",
+                                                                        "s":  0,
+                                                                        "n":  2
+                                                                    }
+                                                                ]
+                                                 }
+                                             ]
+                             },
                      "wmquali":  {
                                      "name":  "WM-Quali",
                                      "stand":  "Gruppe K · Stand: Ende August",
@@ -3329,6 +3550,48 @@
                               "name":  "Spartak Subotica",
                               "kurz":  "SPA",
                               "c1":  "#1E3A8A",
+                              "c2":  "#FFFFFF"
+                          },
+                  "SAB":  {
+                              "name":  "Sabah Baku",
+                              "kurz":  "SAB",
+                              "c1":  "#0072CE",
+                              "c2":  "#FFFFFF"
+                          },
+                  "NTR":  {
+                              "name":  "Nanterre 92",
+                              "kurz":  "NAN",
+                              "c1":  "#004B93",
+                              "c2":  "#FFFFFF"
+                          },
+                  "PERI":  {
+                               "name":  "Peristeri Athen",
+                               "kurz":  "PER",
+                               "c1":  "#00A651",
+                               "c2":  "#FFFFFF"
+                           },
+                  "UCAM":  {
+                               "name":  "UCAM Murcia",
+                               "kurz":  "MUR",
+                               "c1":  "#B5121B",
+                               "c2":  "#FFFFFF"
+                           },
+                  "VAR":  {
+                              "name":  "Pallacanestro Varese",
+                              "kurz":  "VAR",
+                              "c1":  "#C8102E",
+                              "c2":  "#FFFFFF"
+                          },
+                  "IGO":  {
+                              "name":  "Igokea",
+                              "kurz":  "IGO",
+                              "c1":  "#E30613",
+                              "c2":  "#FFFFFF"
+                          },
+                  "SKS":  {
+                              "name":  "Slavia Prag",
+                              "kurz":  "SLA",
+                              "c1":  "#C8102E",
                               "c2":  "#FFFFFF"
                           }
               },

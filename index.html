@@ -197,6 +197,7 @@ button.game { text-align: left; border: 0; width: 100%; }
 
 /* Tabellen */
 .tbl-wrap { overflow-x: auto; }
+.grp-h { font-size: 22px; font-weight: 800; font-style: italic; text-transform: uppercase; margin: 6px 0 -4px; }
 table { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
 th { font-size: 12px; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); text-align: right; padding: 10px 10px; font-weight: 800; }
 th:nth-child(2) { text-align: left; }
@@ -333,7 +334,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   const LIGA_MENU = { NBA: ["NBA", "USA"], BBL: ["Bundesliga", "BBL"], EL: ["Euroleague", "mit dem FC Bayern"], BCL: ["Champions League", "mit ALBA BERLIN"], DBB: ["Nationalteam", "Deutschland"] };
   // Farben des Liga-Punkts: Hintergrund, Schrift, Kürzel, zweite Verlaufsfarbe für den Kopf der Liga-Seite
   const LIGA_DOT = { NBA: ["#1D428A", "#fff", "NBA", "#C8102E"], BBL: ["#E30613", "#fff", "BBL", "#12203A"], EL: ["#F27A1A", "#12203A", "EL", "#12203A"], BCL: ["#0A2C78", "#FFD400", "CL", "#00A99B"], DBB: ["#12203A", "#FFCE00", "DE", "#DD0000"] };
-  const LIGA_TBL = { NBA: "nbaWest", BBL: "bbl", EL: "euroleague", DBB: "wmquali" };
+  const LIGA_TBL = { NBA: "nbaWest", BBL: "bbl", EL: "euroleague", BCL: "bcl", DBB: "wmquali" };
   const MON = ["Januar", "Februar", "März", "April", "Mai", "Juni", "Juli", "August", "September", "Oktober", "November", "Dezember"];
   // NBA-Statistik (nba-stats.json): Schlüssel, Abkürzung wie auf NBA.com, Erklärung
   const ST_COLS = [["alter", "AGE", "Alter"], ["sp", "GP", "Spiele"], ["s", "W", "Siege"], ["n", "L", "Niederlagen"], ["min", "MIN", "Minuten pro Spiel"], ["pkt", "PTS", "Punkte pro Spiel"],
@@ -512,9 +513,12 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     if (!t) return '<div class="view"><div class="card empty">Keine Tabellen vorhanden.</div></div>';
     const zone = i => { for (const z of t.zonen || []) if (i + 1 >= z.von && i + 1 <= z.bis) return z.typ; return ""; };
     const segs = keys.map(k => '<button data-tbl="' + esc(k) + '" aria-pressed="' + (k === tblFilter) + '">' + esc(T[k].name) + "</button>").join("");
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + '</div><div class="card tbl-wrap"><table class="stand"><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
-      t.zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span></div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
-      '</tbody></table></div><div class="legend">' + (t.zonen || []).map(z => '<span style="--c:var(--' + z.typ + ')">' + esc(z.label) + "</span>").join("") + "</div>" +
+    const table = zeilen => '<div class="card tbl-wrap"><table class="stand"><thead><tr><th>#</th><th>Team</th><th>Sp</th><th>S</th><th>N</th><th>Quote</th></tr></thead><tbody>' +
+      zeilen.map((r, i) => { const sp = r.s + r.n; return '<tr class="' + (zone(i) ? "z-" + zone(i) : "") + (isFav(r.team) ? " fav" : "") + '"><td>' + (i + 1) + '</td><td class="team"><div>' + badge(r.team, true) + "<span>" + esc(team(r.team).name) + "</span></div></td><td>" + sp + "</td><td>" + r.s + "</td><td>" + r.n + "</td><td>" + (sp ? Math.round(r.s / sp * 100) + " %" : "–") + "</td></tr>"; }).join("") +
+      "</tbody></table></div>";
+    // Wettbewerbe mit Gruppen (z. B. Champions League): alle Gruppen untereinander auf einer Seite
+    const body = t.gruppen ? t.gruppen.map(g => '<h3 class="grp-h">' + esc(g.name) + "</h3>" + table(g.zeilen || [])).join("") : table(t.zeilen || []);
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Tabellen</h2><p>' + esc(t.stand || "") + '</p></div><div class="seg">' + segs + "</div>" + body + '<div class="legend">' + (t.zonen || []).map(z => '<span style="--c:var(--' + z.typ + ')">' + esc(z.label) + "</span>").join("") + "</div>" +
       (t.erklaerung ? '<p class="teaser">' + esc(t.erklaerung) + "</p>" : "") + "</section></div>";
   }
   function starCard(p) {
