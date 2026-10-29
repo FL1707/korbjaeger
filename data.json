@@ -1,15 +1,15 @@
 {
-    "aktualisiert":  "2026-10-29T13:30:00+01:00",
+    "aktualisiert":  "2026-10-29T15:45:00+01:00",
     "ausgabe":  "Nachmittagsausgabe",
-    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad. Und am Wochenende wartet auf OKC ein echtes Spitzenspiel in Houston.",
+    "gruss":  "Hallo Basketball-Fan! Heute Abend um 20 Uhr spielt der FC Bayern in Belgrad. Im Tab â€žUpcomingâ€œ findest du jetzt alle Spiele der nÃ¤chsten Woche â€“ auch aus der Champions League. Dort ist ALBA mit 3 Siegen noch ungeschlagen!",
     "favoritenTeams":  [
                            "OKC",
                            "ALBA"
                        ],
     "quizId":  "2026-W44",
     "zahlDesTages":  {
-                         "zahl":  "32",
-                         "text":  "Dreier warf OKC in Dallas. Nur 5 davon gingen rein. Gegen Houston soll das besser klappen."
+                         "zahl":  "2",
+                         "text":  "Teams sind in der Champions League noch ohne Niederlage: ALBA BERLIN und Peristeri aus Griechenland. Beide haben alle 3 Spiele gewonnen."
                      },
     "spielerDerWoche":  {
                             "name":  "Brandon Angel",
@@ -83,17 +83,17 @@
                                   "fav"
                               ],
                      "titel":  "ALBA bleibt ungeschlagen",
-                     "teaser":  "103:100 gegen Bilbao! In der Champions League führt ALBA jetzt die Gruppe an.",
+                     "teaser":  "103:100 gegen Bilbao! In der Champions League hat ALBA alle drei Spiele gewonnen.",
                      "text":  [
                                   "ALBA Berlin spielt in dieser Saison nicht in der Euroleague, sondern in der Basketball Champions League. Dort läuft es richtig gut.",
                                   "Gegen Surne Bilbao aus Spanien wurde es am Mittwochabend in der Uber Arena spannend bis zum Schluss. Am Ende gewann ALBA mit 103:100.",
                                   "Der Held des Abends war Brandon Angel: Er traf alle 10 Würfe aus dem Feld und machte 24 Punkte. Jordan Ford kam auf 21 Punkte und 6 Assists.",
-                                  "Mit zwei Siegen aus zwei Spielen ist ALBA jetzt Erster der Gruppe G."
+                                  "Mit drei Siegen aus drei Spielen ist ALBA jetzt Erster der Gruppe G. Nur noch ein anderes Team in der ganzen Champions League hat auch noch nicht verloren: Peristeri aus Griechenland."
                               ],
                      "fakten":  [
                                     "Endstand: ALBA 103, Bilbao 100",
                                     "Brandon Angel: 10 von 10 Würfen getroffen",
-                                    "ALBA ist Gruppenerster"
+                                    "ALBA: 3 Siege, 0 Niederlagen"
                                 ],
                      "quellen":  [
                                      "albaberlin.de"
@@ -174,6 +174,32 @@
                      "quellen":  [
                                      "sport1.de",
                                      "ESPN"
+                                 ]
+                 },
+                 {
+                     "id":  "2026-10-29-damen-ungarn",
+                     "liga":  "DBB",
+                     "lang":  "de",
+                     "motiv":  "flagge",
+                     "datum":  "2026-10-29",
+                     "tags":  [
+
+                              ],
+                     "titel":  "Die WM-Heldinnen sind zurÃ¼ck",
+                     "teaser":  "Am 11. November spielen die deutschen Basketballerinnen in Hamburg gegen Ungarn.",
+                     "text":  [
+                                  "Im Sommer fand die Basketball-WM der Frauen in Berlin statt. Die deutsche Mannschaft spielte richtig stark und wurde am Ende Vierte.",
+                                  "Ein HÃ¶hepunkt war das Viertelfinale: Deutschland schlug Europameister Belgien mit 93:74. Mehr als 10.000 Fans waren in der Halle. Leonie Fiebich wurde danach ins All-Star-Team der WM gewÃ¤hlt. Dort stehen die fÃ¼nf besten Spielerinnen des Turniers.",
+                                  "Jetzt geht es um die Qualifikation fÃ¼r die Europameisterschaft 2027. Die Gegner heiÃŸen Ungarn, Portugal und DÃ¤nemark.",
+                                  "Los geht es am Mittwoch, 11. November, um 19 Uhr in Hamburg gegen Ungarn. Leicht wird das nicht: Auch Ungarn stand bei der WM im Viertelfinale. Bundestrainer der Damen ist Olaf Lange."
+                              ],
+                     "fakten":  [
+                                    "11.11., 19 Uhr: Deutschland gegen Ungarn in Hamburg",
+                                    "Gruppengegner: Ungarn, Portugal, DÃ¤nemark",
+                                    "WM 2026 in Berlin: Platz 4"
+                                ],
+                     "quellen":  [
+                                     "basketball-bund.de"
                                  ]
                  },
                  {
@@ -330,7 +356,7 @@
                      "teaser":  "AJ Dybantsa wurde als Erster im Draft ausgewählt. Bei seinem ersten Spiel machte er 19 Punkte.",
                      "text":  [
                                   "Im Draft suchen sich die NBA-Teams jeden Sommer die besten jungen Spieler aus. Die Washington Wizards durften zuerst wählen und nahmen AJ Dybantsa.",
-                                  "Wegen eines verstauchten Knöchels musste er die ersten vier Spiele zuschauen. In Cleveland durfte er nun endlich ran.",
+                                  "Weil er verletzt war, musste er die ersten vier Spiele zuschauen. In Cleveland durfte er nun endlich ran.",
                                   "Dybantsa traf 8 von 12 Würfen und war mit 19 Punkten bester Werfer seines Teams. Gewonnen hat Washington trotzdem nicht: Cleveland siegte 121:111."
                               ],
                      "fakten":  [
@@ -772,7 +798,7 @@
                            "bericht":  {
                                            "text":  [
                                                         "Spannung bis zum Schluss in der Uber Arena: ALBA gewann in der Champions League mit 103:100 gegen Surne Bilbao aus Spanien.",
-                                                        "Mit zwei Siegen aus zwei Spielen ist ALBA jetzt Erster der Gruppe G."
+                                                        "Mit drei Siegen aus drei Spielen ist ALBA Erster der Gruppe G und noch ungeschlagen."
                                                     ],
                                            "highlights":  [
                                                               "Brandon Angel traf alle 10 Würfe aus dem Feld und machte 24 Punkte",
@@ -780,6 +806,24 @@
                                                           ]
                                        },
                            "newsId":  "alba-bilbao"
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-28",
+                           "runde":  "Champions League Â· Gruppe F",
+                           "heim":  "VEC",
+                           "gast":  "HOL",
+                           "heimPkt":  81,
+                           "gastPkt":  88
+                       },
+                       {
+                           "liga":  "BCL",
+                           "datum":  "2026-10-27",
+                           "runde":  "Champions League Â· Gruppe H",
+                           "heim":  "AJB",
+                           "gast":  "BON",
+                           "heimPkt":  76,
+                           "gastPkt":  74
                        },
                        {
                            "liga":  "EL",
@@ -907,7 +951,94 @@
                           "liga":  "EL",
                           "zeit":  "2026-10-29T20:00:00+01:00",
                           "heim":  "CZV",
-                          "gast":  "FCB"
+                          "gast":  "FCB",
+                          "info":  "Bayern in Belgrad"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-29T20:05:00+01:00",
+                          "heim":  "MTA",
+                          "gast":  "PBB"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-29T20:45:00+01:00",
+                          "heim":  "RMA",
+                          "gast":  "FEN",
+                          "info":  "Top-Spiel"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-30T01:00:00+01:00",
+                          "heim":  "ATL",
+                          "gast":  "CLE"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-30T01:00:00+01:00",
+                          "heim":  "NOP",
+                          "gast":  "SAC"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-30T03:00:00+01:00",
+                          "heim":  "POR",
+                          "gast":  "MEM"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T17:00:00+01:00",
+                          "heim":  "DUB",
+                          "gast":  "HTA"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T18:30:00+01:00",
+                          "heim":  "EFS",
+                          "gast":  "PAO"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-10-30T18:30:00+01:00",
+                          "heim":  "JEN",
+                          "gast":  "FRA",
+                          "info":  "Nachholspiel"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T19:00:00+01:00",
+                          "heim":  "ZAL",
+                          "gast":  "PAR"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T20:00:00+01:00",
+                          "heim":  "ASV",
+                          "gast":  "BAS"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-10-30T20:00:00+01:00",
+                          "heim":  "HAG",
+                          "gast":  "VEC"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T20:15:00+01:00",
+                          "heim":  "OLY",
+                          "gast":  "EA7"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T20:30:00+01:00",
+                          "heim":  "VIR",
+                          "gast":  "BES"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-10-30T20:30:00+01:00",
+                          "heim":  "BAR",
+                          "gast":  "VAL"
                       },
                       {
                           "liga":  "NBA",
@@ -919,9 +1050,46 @@
                       {
                           "liga":  "NBA",
                           "zeit":  "2026-10-31T00:30:00+01:00",
+                          "heim":  "BOS",
+                          "gast":  "CHI"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:30:00+01:00",
+                          "heim":  "BKN",
+                          "gast":  "DET",
+                          "info":  "mit M. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:30:00+01:00",
+                          "heim":  "PHI",
+                          "gast":  "NYK"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T00:30:00+01:00",
                           "heim":  "TOR",
                           "gast":  "ORL",
                           "info":  "mit F. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T01:00:00+01:00",
+                          "heim":  "MIA",
+                          "gast":  "IND"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T01:00:00+01:00",
+                          "heim":  "DAL",
+                          "gast":  "HOU"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T01:00:00+01:00",
+                          "heim":  "MIN",
+                          "gast":  "LAC"
                       },
                       {
                           "liga":  "NBA",
@@ -932,6 +1100,36 @@
                       },
                       {
                           "liga":  "NBA",
+                          "zeit":  "2026-10-31T03:00:00+01:00",
+                          "heim":  "PHX",
+                          "gast":  "DEN"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-10-31T18:30:00+01:00",
+                          "heim":  "ULM",
+                          "gast":  "OLD"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-10-31T18:30:00+01:00",
+                          "heim":  "BRA",
+                          "gast":  "WUE"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-10-31T20:00:00+01:00",
+                          "heim":  "UTA",
+                          "gast":  "POR"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-10-31T20:00:00+01:00",
+                          "heim":  "CHE",
+                          "gast":  "LUD"
+                      },
+                      {
+                          "liga":  "NBA",
                           "zeit":  "2026-10-31T23:00:00+01:00",
                           "heim":  "CHA",
                           "gast":  "PHI",
@@ -939,9 +1137,53 @@
                       },
                       {
                           "liga":  "NBA",
+                          "zeit":  "2026-11-01T00:00:00+01:00",
+                          "heim":  "NOP",
+                          "gast":  "ATL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-01T01:00:00+01:00",
+                          "heim":  "MEM",
+                          "gast":  "SAC"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-01T01:00:00+01:00",
+                          "heim":  "MIL",
+                          "gast":  "CLE"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-01T01:00:00+01:00",
+                          "heim":  "SAS",
+                          "gast":  "MIN"
+                      },
+                      {
+                          "liga":  "NBA",
                           "zeit":  "2026-11-01T01:30:00+01:00",
                           "heim":  "HOU",
-                          "gast":  "OKC"
+                          "gast":  "OKC",
+                          "info":  "Top-Spiel"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-11-01T15:00:00+01:00",
+                          "heim":  "BAM",
+                          "gast":  "JEN"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-11-01T15:00:00+01:00",
+                          "heim":  "ROS",
+                          "gast":  "FCB",
+                          "info":  "Nachholspiel"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-11-01T16:30:00+01:00",
+                          "heim":  "HAM",
+                          "gast":  "MBC"
                       },
                       {
                           "liga":  "BBL",
@@ -954,7 +1196,14 @@
                           "zeit":  "2026-11-01T21:30:00+01:00",
                           "heim":  "ORL",
                           "gast":  "BOS",
-                          "info":  "Gut zum Zuschauen!"
+                          "info":  "mit F. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-01T23:00:00+01:00",
+                          "heim":  "IND",
+                          "gast":  "BKN",
+                          "info":  "mit M. Wagner"
                       },
                       {
                           "liga":  "NBA",
@@ -965,9 +1214,216 @@
                       },
                       {
                           "liga":  "NBA",
+                          "zeit":  "2026-11-02T03:00:00+01:00",
+                          "heim":  "LAL",
+                          "gast":  "TOR"
+                      },
+                      {
+                          "liga":  "NBA",
                           "zeit":  "2026-11-03T01:00:00+01:00",
                           "heim":  "CLE",
                           "gast":  "OKC"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "CHA",
+                          "gast":  "DET",
+                          "info":  "mit Schröder"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "IND",
+                          "gast":  "ATL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "NYK",
+                          "gast":  "BKN",
+                          "info":  "mit M. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "ORL",
+                          "gast":  "WAS",
+                          "info":  "mit F. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T01:30:00+01:00",
+                          "heim":  "PHI",
+                          "gast":  "CHI"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T02:00:00+01:00",
+                          "heim":  "DAL",
+                          "gast":  "SAC"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T02:00:00+01:00",
+                          "heim":  "MEM",
+                          "gast":  "NOP"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T02:00:00+01:00",
+                          "heim":  "MIN",
+                          "gast":  "MIL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T02:30:00+01:00",
+                          "heim":  "HOU",
+                          "gast":  "BOS"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T02:30:00+01:00",
+                          "heim":  "SAS",
+                          "gast":  "UTA"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T03:00:00+01:00",
+                          "heim":  "DEN",
+                          "gast":  "POR"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T04:00:00+01:00",
+                          "heim":  "GSW",
+                          "gast":  "PHX",
+                          "info":  "mit Curry"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T04:00:00+01:00",
+                          "heim":  "LAC",
+                          "gast":  "TOR"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-03T04:00:00+01:00",
+                          "heim":  "LAL",
+                          "gast":  "MIA"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-03T18:30:00+01:00",
+                          "heim":  "VLP",
+                          "gast":  "WGA",
+                          "info":  "Gruppe C"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-03T19:00:00+01:00",
+                          "heim":  "JUV",
+                          "gast":  "PCE",
+                          "info":  "Gruppe E"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-03T20:00:00+01:00",
+                          "heim":  "SIG",
+                          "gast":  "CIB",
+                          "info":  "Gruppe B"
+                      },
+                      {
+                          "liga":  "BBL",
+                          "zeit":  "2026-11-03T20:00:00+01:00",
+                          "heim":  "FCB",
+                          "gast":  "BRA",
+                          "info":  "Nachholspiel"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-03T20:30:00+01:00",
+                          "heim":  "UNI",
+                          "gast":  "REG",
+                          "info":  "Gruppe E"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-03T20:30:00+01:00",
+                          "heim":  "FCP",
+                          "gast":  "AJB",
+                          "info":  "Gruppe H"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-04T18:00:00+01:00",
+                          "heim":  "LEG",
+                          "gast":  "GSM",
+                          "info":  "Gruppe B"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-04T18:00:00+01:00",
+                          "heim":  "FAL",
+                          "gast":  "AEK",
+                          "info":  "Gruppe C"
+                      },
+                      {
+                          "liga":  "BCL",
+                          "zeit":  "2026-11-04T20:00:00+01:00",
+                          "heim":  "BON",
+                          "gast":  "HRZ",
+                          "info":  "Gruppe H"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-04T20:45:00+01:00",
+                          "heim":  "RMA",
+                          "gast":  "PAO",
+                          "info":  "Top-Spiel"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T01:00:00+01:00",
+                          "heim":  "DET",
+                          "gast":  "PHI"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T01:00:00+01:00",
+                          "heim":  "WAS",
+                          "gast":  "ATL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T01:30:00+01:00",
+                          "heim":  "BOS",
+                          "gast":  "MIL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T01:30:00+01:00",
+                          "heim":  "BKN",
+                          "gast":  "CHA",
+                          "info":  "mit Schröder und M. Wagner"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T01:30:00+01:00",
+                          "heim":  "NYK",
+                          "gast":  "CHI"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T02:00:00+01:00",
+                          "heim":  "MEM",
+                          "gast":  "IND"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T02:00:00+01:00",
+                          "heim":  "NOP",
+                          "gast":  "UTA"
                       },
                       {
                           "liga":  "NBA",
@@ -976,10 +1432,84 @@
                           "gast":  "CLE"
                       },
                       {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T02:30:00+01:00",
+                          "heim":  "HOU",
+                          "gast":  "MIN"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T03:00:00+01:00",
+                          "heim":  "DEN",
+                          "gast":  "TOR"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T03:00:00+01:00",
+                          "heim":  "PHX",
+                          "gast":  "POR"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T03:30:00+01:00",
+                          "heim":  "SAS",
+                          "gast":  "DAL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T04:00:00+01:00",
+                          "heim":  "SAC",
+                          "gast":  "LAL"
+                      },
+                      {
+                          "liga":  "NBA",
+                          "zeit":  "2026-11-05T04:30:00+01:00",
+                          "heim":  "LAC",
+                          "gast":  "MIA"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-05T18:15:00+01:00",
+                          "heim":  "EFS",
+                          "gast":  "PBB"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-05T19:00:00+01:00",
+                          "heim":  "HTA",
+                          "gast":  "BAR"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-05T19:00:00+01:00",
+                          "heim":  "FEN",
+                          "gast":  "BAS"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-05T20:00:00+01:00",
+                          "heim":  "ASV",
+                          "gast":  "FCB",
+                          "info":  "mit dem FC Bayern"
+                      },
+                      {
+                          "liga":  "EL",
+                          "zeit":  "2026-11-05T20:30:00+01:00",
+                          "heim":  "EA7",
+                          "gast":  "VAL"
+                      },
+                      {
                           "liga":  "BBL",
                           "zeit":  "2026-11-06T20:00:00+01:00",
                           "heim":  "ALBA",
                           "gast":  "HAG"
+                      },
+                      {
+                          "liga":  "DBB",
+                          "zeit":  "2026-11-11T19:00:00+01:00",
+                          "heim":  "GER",
+                          "gast":  "HUN",
+                          "info":  "Damen"
                       },
                       {
                           "liga":  "DBB",
@@ -991,8 +1521,7 @@
                       },
                       {
                           "liga":  "DBB",
-                          "zeit":  "2026-11-30T12:00:00+01:00",
-                          "ohneZeit":  true,
+                          "zeit":  "2026-11-30T19:30:00+01:00",
                           "heim":  "GER",
                           "gast":  "POL",
                           "info":  "WM-Quali in Frankfurt"
@@ -2039,6 +2568,16 @@
                         "begriff":  "Ungeschlagen",
                         "en":  "undefeated",
                         "erklaerung":  "Ein Team hat noch kein einziges Spiel verloren."
+                    },
+                    {
+                        "begriff":  "Champions League",
+                        "en":  "Champions League",
+                        "erklaerung":  "Ein Wettbewerb fÃ¼r Vereine aus ganz Europa. Im Basketball spielt dort zum Beispiel ALBA BERLIN. Die Euroleague ist noch etwas stÃ¤rker."
+                    },
+                    {
+                        "begriff":  "Qualifikation",
+                        "en":  "qualification",
+                        "erklaerung":  "Spiele, in denen Teams sich die Teilnahme an einem groÃŸen Turnier wie einer WM oder EM erst verdienen mÃ¼ssen."
                     }
                 ],
     "teams":  {
@@ -2485,19 +3024,111 @@
                               "kurz":  "CRO",
                               "c1":  "#E2001A",
                               "c2":  "#FFFFFF"
+                          },
+                  "HOL":  {
+                              "name":  "Hapoel Holon",
+                              "kurz":  "HOL",
+                              "c1":  "#4B2E83",
+                              "c2":  "#FFFFFF"
+                          },
+                  "AJB":  {
+                              "name":  "Joventut Badalona",
+                              "kurz":  "JOV",
+                              "c1":  "#00843D",
+                              "c2":  "#FFFFFF"
+                          },
+                  "VLP":  {
+                              "name":  "Salon Vilpas",
+                              "kurz":  "VIL",
+                              "c1":  "#003C71",
+                              "c2":  "#FFFFFF"
+                          },
+                  "WGA":  {
+                              "name":  "Antwerp Giants",
+                              "kurz":  "ANT",
+                              "c1":  "#1C1C1C",
+                              "c2":  "#F5A800"
+                          },
+                  "JUV":  {
+                              "name":  "Juventus Utena",
+                              "kurz":  "JUV",
+                              "c1":  "#111111",
+                              "c2":  "#FFFFFF"
+                          },
+                  "PCE":  {
+                              "name":  "Pardubice",
+                              "kurz":  "PAR",
+                              "c1":  "#C8102E",
+                              "c2":  "#FFFFFF"
+                          },
+                  "SIG":  {
+                              "name":  "SIG Strasbourg",
+                              "kurz":  "SIG",
+                              "c1":  "#7A1F2B",
+                              "c2":  "#FFFFFF"
+                          },
+                  "CIB":  {
+                              "name":  "Cibona Zagreb",
+                              "kurz":  "CIB",
+                              "c1":  "#003DA5",
+                              "c2":  "#FFFFFF"
+                          },
+                  "UNI":  {
+                              "name":  "Unicaja MÃ¡laga",
+                              "kurz":  "UNI",
+                              "c1":  "#00843D",
+                              "c2":  "#FFFFFF"
+                          },
+                  "REG":  {
+                              "name":  "Reggiana",
+                              "kurz":  "REG",
+                              "c1":  "#9E1B32",
+                              "c2":  "#FFFFFF"
+                          },
+                  "FCP":  {
+                              "name":  "FC Porto",
+                              "kurz":  "POR",
+                              "c1":  "#003D8F",
+                              "c2":  "#FFFFFF"
+                          },
+                  "LEG":  {
+                              "name":  "Legia Warschau",
+                              "kurz":  "LEG",
+                              "c1":  "#00843D",
+                              "c2":  "#FFFFFF"
+                          },
+                  "GSM":  {
+                              "name":  "Galatasaray",
+                              "kurz":  "GAL",
+                              "c1":  "#A90432",
+                              "c2":  "#FDB912"
+                          },
+                  "FAL":  {
+                              "name":  "Falco Szombathely",
+                              "kurz":  "FAL",
+                              "c1":  "#00529B",
+                              "c2":  "#FFFFFF"
+                          },
+                  "AEK":  {
+                              "name":  "AEK Athen",
+                              "kurz":  "AEK",
+                              "c1":  "#FFD100",
+                              "c2":  "#111111"
+                          },
+                  "HRZ":  {
+                              "name":  "Bnei Herzliya",
+                              "kurz":  "HRZ",
+                              "c1":  "#0057B8",
+                              "c2":  "#FFFFFF"
+                          },
+                  "HUN":  {
+                              "name":  "Ungarn",
+                              "kurz":  "HUN",
+                              "c1":  "#CE2939",
+                              "c2":  "#FFFFFF"
                           }
               },
     "auffaellig":  [
-                       {
-                           "art":  "spieler",
-                           "liga":  "NBA",
-                           "datum":  "2026-10-28",
-                           "titel":  "Stephen Curry",
-                           "team":  "GSW",
-                           "wert":  "44 Punkte",
-                           "grund":  "Er traf alle 16 Freiwürfe. Es war sein 46. Spiel mit mindestens 40 Punkten seit seinem 30. Geburtstag – das hat noch kein anderer NBA-Spieler geschafft.",
-                           "newsId":  "curry-44"
-                       },
                        {
                            "art":  "spieler",
                            "liga":  "BCL",
@@ -2505,8 +3136,28 @@
                            "titel":  "Brandon Angel",
                            "team":  "ALBA",
                            "wert":  "10 von 10",
-                           "grund":  "Beim 103:100 gegen Bilbao ging jeder seiner Würfe aus dem Feld in den Korb. Am Ende hatte er 24 Punkte.",
+                           "grund":  "Beim 103:100 gegen Bilbao traf er jeden einzelnen Wurf aus dem Feld. Dank seiner 24 Punkte hat ALBA alle drei Champions-League-Spiele gewonnen.",
                            "newsId":  "alba-bilbao"
+                       },
+                       {
+                           "art":  "spieler",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "titel":  "AJ Dybantsa",
+                           "team":  "WAS",
+                           "wert":  "Debüt: 19 Punkte",
+                           "grund":  "Die Nummer 1 im Draft durfte nach einer Pause endlich zum ersten Mal in der NBA spielen. Er traf 8 von 12 Würfen und war gleich bester Werfer seines Teams.",
+                           "newsId":  "dybantsa"
+                       },
+                       {
+                           "art":  "spieler",
+                           "liga":  "NBA",
+                           "datum":  "2026-10-28",
+                           "titel":  "Stephen Curry",
+                           "team":  "GSW",
+                           "wert":  "16 von 16",
+                           "grund":  "Bei seinen 44 Punkten in Minnesota ging jeder Freiwurf rein. Kein Spieler hat nach seinem 30. Geburtstag so oft 40 Punkte oder mehr gemacht wie er.",
+                           "newsId":  "curry-44"
                        },
                        {
                            "art":  "spieler",
@@ -2515,18 +3166,17 @@
                            "titel":  "Nikola Jokić",
                            "team":  "DEN",
                            "wert":  "200. Triple-Double",
-                           "grund":  "Gegen New Orleans schaffte er 21 Punkte, 13 Rebounds und 10 Assists. Nur Russell Westbrook hat in der NBA-Geschichte noch mehr Triple-Doubles.",
+                           "grund":  "Mit 21 Punkten, 13 Rebounds und 10 Assists knackte er die Marke von 200. Nur Russell Westbrook hat in der NBA-Geschichte noch mehr Triple-Doubles.",
                            "newsId":  "jokic-200"
                        },
                        {
-                           "art":  "spieler",
-                           "liga":  "NBA",
+                           "art":  "spiel",
+                           "liga":  "EL",
                            "datum":  "2026-10-28",
-                           "titel":  "Bam Adebayo",
-                           "team":  "MIA",
-                           "wert":  "5.794 Rebounds",
-                           "grund":  "Neuer Rekord der Miami Heat: Kein Spieler des Teams hat jemals mehr Rebounds geholt. Er überholte Udonis Haslem.",
-                           "newsId":  "giannis-miami"
+                           "heim":  "HTA",
+                           "gast":  "EFS",
+                           "wert":  "118 Punkte",
+                           "grund":  "Hapoel Tel Aviv schlug Anadolu Efes mit 118:88. In der Euroleague sind schon 90 Punkte viel, so viele Punkte gibt es nur ganz selten."
                        },
                        {
                            "art":  "spiel",
@@ -2535,16 +3185,7 @@
                            "heim":  "BOS",
                            "gast":  "BKN",
                            "wert":  "Nur 1 Punkt!",
-                           "grund":  "Krimi mit Verlängerung: Am Ende entschied ein einziger Punkt. Jayson Tatum machte für Boston 40 Punkte."
-                       },
-                       {
-                           "art":  "spiel",
-                           "liga":  "NBA",
-                           "datum":  "2026-10-28",
-                           "heim":  "UTA",
-                           "gast":  "SAS",
-                           "wert":  "Verlängerung",
-                           "grund":  "Erst in der Verlängerung fiel die Entscheidung für San Antonio. Victor Wembanyama war mit 36 Punkten und 14 Rebounds kaum zu stoppen."
+                           "grund":  "Krimi mit Verlängerung: Boston gewann 125:124 gegen Brooklyn. Jayson Tatum machte 40 Punkte für die Celtics."
                        }
                    ]
 }
