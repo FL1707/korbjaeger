@@ -77,7 +77,7 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 /* Tab-Leiste */
 .tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--surface); border-top: 1px solid var(--line);
   padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(8px, env(safe-area-inset-left, 0px)); padding-right: max(8px, env(safe-area-inset-right, 0px)); }
-.tabs-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: repeat(6, 1fr); }
+.tabs-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: repeat(7, 1fr); }
 .tab { background: none; border: 0; padding: 8px 2px 10px; display: grid; justify-items: center; gap: 2px; font-size: 12px; font-weight: 800; color: var(--ink-soft); }
 .tab svg { width: 28px; height: 28px; }
 .tab[aria-selected="true"] { color: var(--orange-ink); }
@@ -343,6 +343,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   const TABS = [
     { id: "heute", label: "Heute", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="9" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M7 16h18M16 7v18M10 9.5c3 3 3 10 0 13M22 9.5c-3 3-3 10 0 13" stroke="currentColor" stroke-width="2" fill="none"/>' },
     { id: "ergebnisse", label: "Ergebnisse", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><rect x="5" y="8" width="22" height="16" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M16 8v16M9 14v4M23 13v6M21 13h2" stroke="currentColor" stroke-width="2.4" fill="none"/>' },
+    { id: "upcoming", label: "Upcoming", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><rect x="6" y="8" width="20" height="18" rx="3" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M6 13h20M11 5v5M21 5v5" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="19.5" r="2.2" fill="currentColor"/>' },
     { id: "tabellen", label: "Tabellen", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M7 9h18M7 16h18M7 23h18" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="9" r="1" fill="currentColor"/>' },
     { id: "stars", label: "Stars", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M16 5l3.3 6.9 7.5 1-5.5 5.2 1.4 7.5L16 22l-6.7 3.6 1.4-7.5L5.2 12.9l7.5-1z" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round"/>' },
     { id: "quiz", label: "Quiz", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12.5 13a3.5 3.5 0 1 1 5 3.2c-1 .5-1.5 1.2-1.5 2.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.5" fill="currentColor"/>' },
@@ -364,7 +365,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     ["dd2", "DD2", "Double-Doubles in dieser Saison"], ["td3", "TD3", "Triple-Doubles in dieser Saison"], ["pm", "+/-", "Plus-Minus: um wie viele Punkte das Team besser (+) oder schlechter (−) war, solange der Spieler auf dem Feld stand"]];
   const ST_SHORT = ["sp", "min", "pkt", "reb", "ast", "stl", "blk", "tpm", "fgp", "tpp", "ftp"];
   const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"]];
-  let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "NBA", tblFilter = null;
+  let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "ALLE", upFilter = "ALLE", tblFilter = null;
   let stSort = "pkt", stDir = -1, stAll = false, stFilter = "alle", stQuery = "", stLimit = 50;
   // Vergangene Saisons: Liste aus nba-stats-saisons.json, Daten je Saison erst beim Antippen laden
   let SX = [], SC = {}, stSaison = "";
@@ -500,13 +501,26 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     list.forEach(g => { (days[g.datum] = days[g.datum] || []).push(g); });
     const keys = Object.keys(days).sort().reverse();
     if (all) keys.forEach(k => days[k].sort((a, b) => order.indexOf(a.liga) - order.indexOf(b.liga)));
-    const sched = (D.spielplan || []).filter(g => inLiga(g) && new Date(g.zeit).getTime() > Date.now() - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit));
     const segs = ["ALLE"].concat(order).map(l => '<button data-res="' + l + '" aria-pressed="' + (l === resFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1]) + "</button>").join("");
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Ergebnisse</h2><p>' + (all ? "In der NBA steht das Gastteam oben, sonst das Heimteam." : resFilter === "NBA" ? "In der NBA steht das Gastteam oben, so wie in den USA." : "Das Heimteam steht oben.") + '</p></div><div class="seg">' + segs + "</div>" +
       (keys.length ? keys.map(k => '<div class="day-h">' + fmtDate(k + "T12:00:00") + '</div><div class="games">' + days[k].map(gameCard).join("") + "</div>").join("") : '<div class="card empty">Hier gab es zuletzt keine Spiele.</div>') +
-      '</section><section class="sec"><div class="sec-h"><h2>Demnächst</h2><p>Alle Zeiten in deutscher Uhrzeit</p></div><div class="sched">' +
-      (sched.length ? sched.map(g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + fmtDate(g.zeit) + "<small>" + (g.ohneZeit ? "Uhrzeit folgt" : fmtDate(g.zeit, true).split(", ")[1]) + '</small></div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + "</div></div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
-      "</div></section></div>";
+      "</section></div>";
+  }
+  /* Upcoming: alle kommenden Spiele aller Ligen, nach Tagen in deutscher Zeit gruppiert */
+  function vUpcoming() {
+    const all = upFilter === "ALLE", order = Object.keys(LIGA), now = Date.now();
+    const list = (D.spielplan || []).filter(g => (all || g.liga === upFilter) && new Date(g.zeit).getTime() > now - 3 * 3600e3)
+      .sort((a, b) => new Date(a.zeit) - new Date(b.zeit) || order.indexOf(a.liga) - order.indexOf(b.liga));
+    const dayKey = iso => { const d = new Date(iso); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
+    const today = dayKey(new Date(now)), tomorrow = dayKey(new Date(now + 864e5));
+    const days = {};
+    list.forEach(g => { (days[dayKey(g.zeit)] = days[dayKey(g.zeit)] || []).push(g); });
+    const cnt = l => (D.spielplan || []).filter(g => g.liga === l && new Date(g.zeit).getTime() > now - 3 * 3600e3).length;
+    const segs = ["ALLE"].concat(order).map(l => '<button data-up="' + l + '" aria-pressed="' + (l === upFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1] + " (" + cnt(l) + ")") + "</button>").join("");
+    const row = g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + (g.ohneZeit ? "offen<small>Uhrzeit folgt</small>" : fmtDate(g.zeit, true).split(", ")[1]) + '</div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + "</div></div>";
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>' + list.length + " kommende Spiele · alle Zeiten in deutscher Uhrzeit</p></div>" + '<div class="seg">' + segs + "</div>" +
+      (list.length ? Object.keys(days).map(k => '<div class="day-h">' + (k === today ? "Heute · " : k === tomorrow ? "Morgen · " : "") + fmtDate(k + "T12:00:00") + '</div><div class="sched">' + days[k].map(row).join("") + "</div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
+      "</section></div>";
   }
   function vTabellen() {
     const T = D.tabellen || {};
@@ -602,13 +616,13 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const neu = list.filter(n => cur.has(n.id)), groups = {};
     list.filter(n => !cur.has(n.id)).forEach(n => { const d = new Date(n.datum + "T12:00:00"); const k = isNaN(d) ? "Ältere Artikel" : MON[d.getMonth()] + " " + d.getFullYear(); (groups[k] = groups[k] || []).push(n); });
     const tbl = LIGA_TBL[ligaSel];
-    const links = isAll ? "" : '<div class="seg"><button data-goto-res="' + ligaSel + '">Ergebnisse</button>' + (tbl && (D.tabellen || {})[tbl] ? '<button data-goto-tbl="' + tbl + '">Tabelle</button>' : "") + "</div>";
+    const links = isAll ? "" : '<div class="seg"><button data-goto-res="' + ligaSel + '">Ergebnisse</button><button data-goto-up="' + ligaSel + '">Upcoming</button>' + (tbl && (D.tabellen || {})[tbl] ? '<button data-goto-tbl="' + tbl + '">Tabelle</button>' : "") + "</div>";
     return '<div class="view"><div class="liga-head" style="background:linear-gradient(135deg,' + c[0] + "," + c[3] + ')"><div><h2>' + esc(isAll ? "Alle Artikel" : LIGA_MENU[ligaSel][0]) + "</h2><p>" + list.length + " Artikel" + (isAll ? " aus allen Ligen" : "") + "</p></div>" + links + "</div>" +
       (list.length ? "" : '<div class="card empty">Hier gibt es noch keine Artikel. Schau bald wieder vorbei!</div>') +
       (neu.length ? '<section class="sec"><div class="sec-h"><h2>Aktuell</h2></div><div class="grid">' + neu.map(n => newsCard(n)).join("") + "</div></section>" : "") +
       Object.keys(groups).map(k => '<section class="sec"><div class="sec-h"><h2>' + esc(k) + '</h2><p>aus dem Archiv</p></div><div class="grid">' + groups[k].map(n => newsCard(n)).join("") + "</div></section>").join("") + "</div>";
   }
-  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, tabellen: vTabellen, stars: vStars, quiz: vQuiz, statistik: vStatistik, liga: vLiga };
+  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, tabellen: vTabellen, stars: vStars, quiz: vQuiz, statistik: vStatistik, liga: vLiga };
 
   function renderSide() {
     const all = D ? allNews() : [];
@@ -664,6 +678,8 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.hasAttribute("data-menu")) setSide(!$("#side").classList.contains("open"));
     else if (b.dataset.liga) { ligaSel = b.dataset.liga; go("liga"); }
     else if (b.dataset.gotoRes) { resFilter = b.dataset.gotoRes; go("ergebnisse"); }
+    else if (b.dataset.gotoUp) { upFilter = b.dataset.gotoUp; go("upcoming"); }
+    else if (b.dataset.up) { upFilter = b.dataset.up; render(); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
