@@ -232,6 +232,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .fav-star.on { color: #F5B400; }
 .star-top .fav-star { position: absolute; right: 8px; bottom: 6px; font-size: 26px; color: inherit; opacity: .85; }
 .star-top .fav-star.on { color: #FFD43B; opacity: 1; text-shadow: 0 1px 2px rgba(0,0,0,.35); }
+.fav-list { padding: 6px 14px; }
+.fav-team { display: flex; align-items: center; gap: 10px; padding: 8px 0; font-weight: 800; font-size: 17px; }
+.fav-team + .fav-team { border-top: 1px solid var(--line); }
 .link { border: 0; background: none; padding: 0; font: inherit; font-weight: 800; color: var(--orange-ink); text-decoration: underline; cursor: pointer; }
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); padding: 14px 16px 6px; gap: 10px; }
 .stat { display: grid; gap: 4px; }
@@ -427,9 +430,6 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     if (top) return '<button class="card news-top" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
     return '<button class="card news-card" data-news="' + esc(n.id) + '"><div class="art">' + art(n.motiv, n.liga) + '</div><div class="txt"><div class="meta">' + pills + "<span>" + fmtDate(n.datum) + '</span></div><h3>' + esc(n.titel) + '</h3><p class="teaser">' + esc(n.teaser) + "</p></div></button>";
   }
-  function nextCard(g) {
-    return '<div class="card next-card"><div class="when">' + ligaPill(g.liga) + " &nbsp;" + fmtDate(g.zeit, !g.ohneZeit) + '</div><div class="vs">' + badge(g.gast, true) + "<span>" + esc(team(g.gast).name) + '</span><span class="at">bei</span>' + badge(g.heim, true) + "<span>" + esc(team(g.heim).name) + "</span></div>" + (g.info ? '<div class="teaser" style="font-size:14px">' + esc(g.info) + "</div>" : "") + "</div>";
-  }
   // Ziel beim Antippen: erst der passende Artikel, sonst das Spiel unter Ergebnisse
   function hlTarget(h) {
     if (h.newsId && allNews().some(n => n.id === h.newsId)) return ' data-news="' + esc(h.newsId) + '"';
@@ -445,8 +445,6 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       '<p class="hl-why"><b>Warum auffällig?</b>' + esc(h.grund) + "</p>" + (target ? '<span class="more">Mehr dazu ›</span>' : "") + "</" + tag + ">";
   }
   function vHeute() {
-    const now = Date.now();
-    const nexts = favT.map(k => (D.spielplan || []).filter(g => (g.heim === k || g.gast === k) && new Date(g.zeit).getTime() > now - 3 * 3600e3).sort((a, b) => new Date(a.zeit) - new Date(b.zeit))[0]).filter((g, i, l) => g && l.indexOf(g) === i);
     // Artikel zu Lieblingsteams und -spielern stehen oben, sonst bleibt die Reihenfolge der Redaktion
     const news = (D.news || []).filter(newsFav).concat((D.news || []).filter(n => !newsFav(n)));
     const alt = allNews().length - news.length;
@@ -456,7 +454,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     return '<div class="view">' +
       '<p class="hello">' + esc(D.gruss || "Hallo Basketball-Fan!") + "</p>" +
       '<div class="hero-row"><div class="zahl"><span class="lbl">Zahl des Tages</span><span class="big">' + esc(z.zahl) + "</span><p>" + esc(z.text) + "</p>" + '<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle r="55" fill="none" stroke="#fff" stroke-width="6"/><path d="M-55 0H55M0-55V55M-36-42c28 25 28 59 0 84M36-42c-28 25-28 59 0 84" stroke="#fff" stroke-width="5" fill="none"/></svg></div>' +
-      '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (nexts.length ? nexts.map(nextCard).join("") : '<div class="card next-card">' + (favT.length ? "Gerade keine Spiele geplant." : 'Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.') + "</div>") + "</div></div>" +
+      '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (favT.length ? '<div class="card fav-list">' + favT.map(k => '<div class="fav-team">' + badge(k, true) + "<span>" + esc(team(k).name) + "</span>" + starBtn("data-fav-team", k, true, team(k).name) + "</div>").join("") + "</div>" : '<div class="card next-card">Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.</div>') + "</div></div>" +
       ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
       (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div>" +
