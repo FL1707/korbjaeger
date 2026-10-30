@@ -540,7 +540,12 @@
           "James Harden war mit 24 Punkten bester Cavalier"
         ]
       },
-      "newsId": "2026-10-30-hawks-cavs"
+      "newsId": "2026-10-30-hawks-cavs",
+      "video": {
+        "id": "0kradsFvqpM",
+        "kanal": "NBA",
+        "titel": "Die letzten 3:34 Minuten des knappen Finales"
+      }
     },
     {
       "liga": "NBA",
@@ -562,7 +567,12 @@
           "Darius Acuff Jr. machte 34 Punkte für Sacramento"
         ]
       },
-      "newsId": "2026-10-30-pelicans-erster-sieg"
+      "newsId": "2026-10-30-pelicans-erster-sieg",
+      "video": {
+        "id": "5rba8sCeGZ4",
+        "kanal": "NBC Sports California",
+        "titel": "Zusammenfassung des ganzen Spiels"
+      }
     },
     {
       "liga": "NBA",
@@ -584,7 +594,12 @@
           "Deni Avdija war mit 24 Punkten bester Spieler von Portland"
         ]
       },
-      "newsId": "2026-10-30-boozer-triple-double"
+      "newsId": "2026-10-30-boozer-triple-double",
+      "video": {
+        "id": "5bbikxXVQL0",
+        "kanal": "NBA",
+        "titel": "Cameron Boozers Triple-Double: 18 Punkte, 12 Rebounds, 12 Assists"
+      }
     },
     {
       "liga": "EL",

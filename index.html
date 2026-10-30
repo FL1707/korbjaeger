@@ -187,6 +187,15 @@ button.game { text-align: left; border: 0; width: 100%; }
 .game-f .note { border: 0; padding: 0; font-size: 13px; line-height: 1.3; }
 /* Spielbericht */
 .box-score { padding: 16px 18px; display: grid; gap: 8px; margin-top: 16px; }
+/* Highlight-Video im Spielbericht: erst ein selbst gezeichneter Platzhalter, der YouTube-Player lädt erst beim Antippen */
+.vid { position: relative; aspect-ratio: 16 / 9; border-radius: var(--r); overflow: hidden; background: #0B1220; box-shadow: var(--shadow); }
+.vid iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.vid-start, .vid-aus { width: 100%; height: 100%; border: 0; padding: 16px; display: grid; place-items: center; align-content: center; gap: 8px; text-align: center; color: #fff; background: linear-gradient(135deg, #1D428A, #12203A); }
+.vid-start b { font-family: var(--font-display); font-size: 26px; font-style: italic; text-transform: uppercase; }
+.vid-start small, .vid-aus small { font-weight: 700; opacity: .85; font-size: 14px; }
+.vid-start .play { width: 72px; height: 72px; border-radius: 50%; background: var(--orange); display: grid; place-items: center; box-shadow: 0 6px 20px rgba(0,0,0,.35); }
+.vid-aus { background: linear-gradient(135deg, #4E5E78, #12203A); font-weight: 800; font-size: 18px; }
+.pill.vid-pill { background: var(--orange); color: #fff; }
 .box-score .row .sc { font-size: 48px; }
 .box-score .row .tn { font-size: 19px; }
 .box-score .badge { width: 52px; height: 52px; font-size: 17px; }
@@ -516,7 +525,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     // In „Alle“ zeigt eine Liga-Plakette, woher das Spiel kommt; den doppelten Liganamen in der Runde lassen wir dann weg
     const runde = resFilter === "ALLE" ? ligaPill(g.liga) + " " + esc((g.runde || "").replace(new RegExp("^" + ((LIGA[g.liga] || [])[1] || g.liga) + "( · )?"), "")) : esc(g.runde || "");
     return '<button class="card game' + (fav ? " fav" : "") + '" data-game="' + D.ergebnisse.indexOf(g) + '"><div class="game-h"><span>' + runde + "</span><span>Endstand</span></div>" +
-      scoreRows(g) + '<div class="game-f"><span class="note">' + esc(g.info || "") + '</span><span class="more">' + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></div></button>";
+      scoreRows(g) + '<div class="game-f"><span class="note">' + esc(g.info || "") + '</span><span class="more">' + (g.video && g.video.id ? '<span class="pill vid-pill">▶ Video</span> ' : "") + (g.newsId ? "Zum Artikel" : g.bericht ? "Spielbericht" : "Zusammenfassung") + " ›</span></div></button>";
   }
   /* Ohne eigenen Bericht entsteht eine Kurzfassung nur aus gesicherten Daten: Ergebnis, Runde und Topscorer */
   function autoBericht(g) {
@@ -528,6 +537,23 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (diff >= 20) text.push("Ein deutlicher Sieg mit " + diff + " Punkten Vorsprung.");
     return { text, highlights: g.info ? g.info.split(/, | · /) : [] };
   }
+  /* Highlight-Videos: höchstens VID_MAX verschiedene Videos pro Kalendertag (nur auf diesem Gerät gezählt, in localStorage).
+     Dasselbe Video noch einmal anzusehen zählt nicht neu. Eingebettet über youtube-nocookie.com, erst nach dem Antippen. */
+  const VID_MAX = 2;
+  const vidTag = () => "videos_" + new Date().toLocaleDateString("sv");
+  const vidHeute = () => store.get(vidTag(), []);
+  function vidPlatzhalter(v) {
+    const gesehen = vidHeute(), rest = Math.max(0, VID_MAX - gesehen.length);
+    if (!gesehen.includes(v.id) && rest === 0) return '<div class="vid-aus">Für heute hast du deine ' + VID_MAX + " Videos geschaut.<small>Morgen kannst du wieder " + VID_MAX + " Spiele ansehen. Der Spielbericht steht unten.</small></div>";
+    return '<button class="vid-start" data-video="' + esc(v.id) + '"><span class="play"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path d="M10 6l15 9-15 9z" fill="#fff"/></svg></span><b>Highlights ansehen</b>' + (v.titel ? "<span>" + esc(v.titel) + "</span>" : "") + "<small>" +
+      (gesehen.includes(v.id) ? "Schon geschaut – zählt nicht noch mal" : "Heute noch " + rest + " von " + VID_MAX + " Videos") + (v.kanal ? " · Video: " + esc(v.kanal) : "") + "</small></button>";
+  }
+  function vidStart(id) {
+    const gesehen = vidHeute();
+    if (!gesehen.includes(id)) { if (gesehen.length >= VID_MAX) { const box = $("#vid"); if (box) box.innerHTML = vidPlatzhalter({ id }); return; } gesehen.push(id); store.set(vidTag(), gesehen); }
+    const box = $("#vid"); if (!box) return;
+    box.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + encodeURIComponent(id) + '?autoplay=1&rel=0&playsinline=1&modestbranding=1" title="Highlight-Video" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>';
+  }
   function openGame(i, modus) {
     const g = (D.ergebnisse || [])[i]; if (!g) return;
     if (modus !== "zurueck") merken({ ov: { g: i } });
@@ -537,6 +563,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     // Gibt es einen Artikel zum Spiel, steht er direkt unter dem Endstand; sonst der Spielbericht bzw. die Kurzfassung.
     $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="' + esc(n ? n.titel : "Spielbericht") + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
       '<div class="card box-score"><div class="game-h"><span>' + ligaPill(g.liga) + " &nbsp;" + esc(g.runde || "") + "</span><span>" + fmtDate(g.datum + "T12:00:00") + "</span></div>" + scoreRows(g) + "</div>" +
+      (g.video && g.video.id ? '<div class="vid" id="vid">' + vidPlatzhalter(g.video) + "</div>" : "") +
       (n ? articleBody(n) + hl :
         "<h1>" + esc(team(w).name) + " gewinnt " + esc(Math.max(g.heimPkt, g.gastPkt) + ":" + Math.min(g.heimPkt, g.gastPkt)) + '</h1><div class="body">' + (b.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" + hl +
         (g.bericht ? "" : '<p class="src">Kurzfassung aus dem Endergebnis. Einen ausführlichen Bericht gibt es bei den Spielen deiner Teams und der deutschen Spieler.</p>')) + "</article></div>";
@@ -797,6 +824,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
+    else if (b.dataset.video) vidStart(b.dataset.video);
     else if (b.hasAttribute("data-close")) closeNews();
     else if (b.dataset.t) showTerm(b.dataset.t);
     else if (b.hasAttribute("data-sheet-close")) b.closest(".sheet").remove();
