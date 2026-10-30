@@ -383,13 +383,16 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     ["ftm", "FTM", "Getroffene Freiwürfe"], ["fta", "FTA", "Geworfene Freiwürfe"], ["ftp", "FT%", "Freiwurfquote in Prozent"],
     ["oreb", "OREB", "Offensiv-Rebounds: unter dem Korb des Gegners"], ["dreb", "DREB", "Defensiv-Rebounds: unter dem eigenen Korb"], ["reb", "REB", "Rebounds insgesamt"],
     ["ast", "AST", "Assists (Vorlagen)"], ["tov", "TOV", "Ballverluste"], ["stl", "STL", "Steals (Ballgewinne)"], ["blk", "BLK", "Blocks"], ["pf", "PF", "Fouls"],
-    ["dd2", "DD2", "Double-Doubles in dieser Saison"], ["td3", "TD3", "Triple-Doubles in dieser Saison"], ["pm", "+/-", "Plus-Minus: um wie viele Punkte das Team besser (+) oder schlechter (−) war, solange der Spieler auf dem Feld stand"]];
-  const ST_SHORT = ["sp", "min", "pkt", "reb", "ast", "stl", "blk", "tpm", "fgp", "tpp", "ftp"];
-  const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"]];
+    ["dd2", "DD2", "Double-Doubles in dieser Saison"], ["td3", "TD3", "Triple-Doubles in dieser Saison"], ["pm", "+/-", "Plus-Minus: um wie viele Punkte das Team besser (+) oder schlechter (−) war, solange der Spieler auf dem Feld stand"],
+    ["eff", "EFF", "Effizienz: Punkte, Rebounds, Assists, Steals und Blocks zusammen, minus Fehlwürfe und Ballverluste (nur BBL)"]];
+  const ST_SHORT = ["sp", "min", "pkt", "reb", "ast", "stl", "blk", "tpm", "fgp", "tpp", "ftp", "eff"];
+  const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"], ["eff", "Effizienz"]];
   let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "ALLE", upFilter = "ALLE", tblFilter = null;
   let stSort = "pkt", stDir = -1, stAll = false, stFilter = "alle", stQuery = "", stLimit = 50;
   // Vergangene Saisons: Liste aus nba-stats-saisons.json, Daten je Saison erst beim Antippen laden
   let SX = [], SC = {}, stSaison = "";
+  // BBL-Statistik (bbl-stats.json, nur laufende Saison): erst laden, wenn jemand auf „BBL“ tippt
+  let B = null, stLiga = "NBA";
   const $ = (s, r = document) => r.querySelector(s);
   const esc = s => String(s == null ? "" : s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
   const store = { get(k, d) { try { const v = localStorage.getItem("kj_" + k); return v == null ? d : JSON.parse(v); } catch (e) { return d; } },
@@ -666,31 +669,43 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     if (!x || SC[x]) return;
     fetch("nba-stats-" + x + ".json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Array.isArray(j.spieler)) SC[x] = j; else stSaison = ""; render(); }).catch(() => { stSaison = ""; render(); });
   }
+  function loadBBL() {
+    if (B) return;
+    fetch("bbl-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(j => { B = j && Array.isArray(j.spieler) ? j : { fehlt: true }; render(); }).catch(() => { B = { fehlt: true }; render(); });
+  }
   function vStatistik() {
-    const akt = statsAktuell(), S = stSaison ? SC[stSaison] : akt;
-    const saisons = akt && SX.length ? '<label class="st-saison">Saison <select id="st-saison" aria-label="Saison wählen">' + [""].concat(SX).map(x => '<option value="' + x + '"' + (x === stSaison ? " selected" : "") + ">" + (x ? esc(x) : esc(akt.saison) + " (aktuell)") + "</option>").join("") + "</select></label>" : "";
-    if (!S) return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2></div>' + saisons + '<div class="card empty">Die NBA-Statistiken werden geladen …</div></section></div>';
+    const chip = (attr, val, label, on) => "<button " + attr + '="' + val + '" aria-pressed="' + on + '">' + label + "</button>";
+    const bbl = stLiga === "BBL", liga = bbl ? "BBL" : "NBA";
+    const ligaSeg = '<div class="seg">' + chip("data-st-liga", "NBA", "NBA", !bbl) + chip("data-st-liga", "BBL", "BBL", bbl) + "</div>";
+    if (bbl) { loadBBL(); if (B && B.fehlt) return '<div class="view"><section class="sec"><div class="sec-h"><h2>BBL-Statistiken</h2></div>' + ligaSeg + '<div class="card empty">Die BBL-Statistik ist gerade nicht verfügbar.</div></section></div>'; }
+    const akt = statsAktuell(), S = bbl ? B : stSaison ? SC[stSaison] : akt;
+    const saisons = !bbl && akt && SX.length ? '<label class="st-saison">Saison <select id="st-saison" aria-label="Saison wählen">' + [""].concat(SX).map(x => '<option value="' + x + '"' + (x === stSaison ? " selected" : "") + ">" + (x ? esc(x) : esc(akt.saison) + " (aktuell)") + "</option>").join("") + "</select></label>" : "";
+    if (!S) return '<div class="view"><section class="sec"><div class="sec-h"><h2>' + liga + '-Statistiken</h2></div>' + ligaSeg + saisons + '<div class="card empty">Die ' + liga + "-Statistiken werden geladen …</div></section></div>";
     const idx = {}; S.spalten.forEach((k, i) => { idx[k] = i; });
-    const st = D.stars || [], de = new Set(st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(favP);
+    // Nur Spalten zeigen, die die Liga auch liefert (BBL: kein Alter, keine Siege/Niederlagen; NBA: keine Effizienz)
+    const hat = key => idx[key] != null && S.spieler.some(r => r[idx[key]] != null);
+    const allCols = ST_COLS.filter(c => hat(c[0]));
+    if (!hat(stSort)) { stSort = "pkt"; stDir = -1; }
+    if (bbl && stFilter === "de") stFilter = "alle"; // die BBL-Daten enthalten keine Nationalität
+    const st = D.stars || [], de = new Set(bbl ? [] : st.filter(p => p.deutsch).map(p => p.name)), fav = new Set(favP);
     const q = stQuery.trim().toLowerCase(), k = idx[stSort];
     const rows = S.spieler.filter(r => (stFilter === "alle" || (stFilter === "de" ? de.has(r[0]) : fav.has(r[0]))) && (!q || (r[0] + " " + r[1] + " " + team(r[1]).name).toLowerCase().includes(q)))
       .sort((a, b) => stDir * ((a[k] == null ? -1e9 : a[k]) - (b[k] == null ? -1e9 : b[k])));
     const show = q || stFilter !== "alle" ? rows : rows.slice(0, stLimit);
-    const cols = stAll ? ST_COLS : ST_COLS.filter(c => ST_SHORT.includes(c[0]));
+    const cols = stAll ? allCols : allCols.filter(c => ST_SHORT.includes(c[0]));
     const flag = '<svg width="18" height="12" viewBox="0 0 3 2" aria-label="Deutscher Spieler"><rect width="3" height="2" fill="#000"/><rect y=".667" width="3" height=".667" fill="#D00"/><rect y="1.333" width="3" height=".667" fill="#FFCE00"/></svg>';
-    const chip = (attr, val, label, on) => "<button " + attr + '="' + val + '" aria-pressed="' + on + '">' + label + "</button>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>NBA-Statistiken</h2><p>Saison ' + esc(S.saison) + " · " + esc(S.art) + " · " + (stSaison ? "abgeschlossene Saison" : "Stand: " + fmtDate(S.stand)) + "</p></div>" + saisons +
-      '<div class="seg">' + ST_SORT.map(x => chip("data-st-sort", x[0], x[1], x[0] === stSort)).join("") + "</div>" +
-      '<div class="st-tools"><div class="seg">' + chip("data-st-filter", "alle", "Alle Spieler", stFilter === "alle") + chip("data-st-filter", "de", "Deutsche", stFilter === "de") + chip("data-st-filter", "fav", "Deine Stars", stFilter === "fav") + "</div>" +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>' + liga + "-Statistiken</h2><p>Saison " + esc(S.saison) + " · " + esc(S.art) + " · " + (!bbl && stSaison ? "abgeschlossene Saison" : "Stand: " + fmtDate(S.stand)) + "</p></div>" + ligaSeg + saisons +
+      '<div class="seg">' + ST_SORT.filter(x => hat(x[0])).map(x => chip("data-st-sort", x[0], x[1], x[0] === stSort)).join("") + "</div>" +
+      '<div class="st-tools"><div class="seg">' + chip("data-st-filter", "alle", "Alle Spieler", stFilter === "alle") + (bbl ? "" : chip("data-st-filter", "de", "Deutsche", stFilter === "de")) + chip("data-st-filter", "fav", "Deine Stars", stFilter === "fav") + "</div>" +
       '<div class="seg">' + chip("data-st-all", "1", stAll ? "Weniger Spalten" : "Alle Spalten", stAll) + "</div></div>" +
-      '<input class="search" id="stq" type="search" placeholder="Spieler oder Team suchen, z. B. Curry" value="' + esc(stQuery) + '" aria-label="Spieler suchen">' +
+      '<input class="search" id="stq" type="search" placeholder="' + (bbl ? "Spieler oder Team suchen, z. B. ALBA oder Brooks" : "Spieler oder Team suchen, z. B. Curry") + '" value="' + esc(stQuery) + '" aria-label="' + liga + '-Spieler suchen">' +
       '<div class="card tbl-wrap"><table class="stbl"><thead><tr><th class="nm">Spieler</th>' +
       cols.map(c => '<th><button class="sth" data-st-sort="' + c[0] + '" aria-pressed="' + (c[0] === stSort) + '" title="' + esc(c[2]) + '">' + esc(c[1]) + (c[0] === stSort ? (stDir < 0 ? " ▾" : " ▴") : "") + "</button></th>").join("") + "</tr></thead><tbody>" +
       (show.length ? show.map((r, i) => '<tr class="' + (fav.has(r[0]) ? "fav" : "") + '"><td class="nm"><div><span class="rk">' + (i + 1) + "</span>" + badge(r[1], true) + "<span><b>" + esc(r[0]) + (de.has(r[0]) ? flag : "") + "</b><small>" + esc(team(r[1]).name) + "</small></span>" + starBtn("data-fav-spieler", r[0], fav.has(r[0]), r[0]) + "</div></td>" +
         cols.map(c => "<td" + (c[0] === stSort ? ' class="on"' : "") + ">" + stFmt(r[idx[c[0]]], c[0]) + "</td>").join("") + "</tr>").join("") : '<tr><td class="nm">Keinen Spieler gefunden.</td></tr>') +
       "</tbody></table></div>" +
       (rows.length > show.length ? '<button class="btn" data-st-more>Mehr anzeigen (' + (rows.length - show.length) + " weitere)</button>" : "") +
-      '<details class="card abbr"><summary>Was bedeuten die Abkürzungen?</summary><dl>' + ST_COLS.map(c => "<dt>" + esc(c[1]) + "</dt><dd>" + esc(c[2]) + "</dd>").join("") + "</dl></details>" +
+      '<details class="card abbr"><summary>Was bedeuten die Abkürzungen?</summary><dl>' + allCols.map(c => "<dt>" + esc(c[1]) + "</dt><dd>" + esc(c[2]) + "</dd>").join("") + "</dl></details>" +
       '<p class="foot">Quelle: ' + esc(S.quelle) + ". Tippe auf eine Spalte, um danach zu sortieren. Die Tabelle kannst du zur Seite wischen.</p></section></div>";
   }
   /* Aktuelle Artikel plus Archiv (archiv.json); bei gleicher id gewinnt die aktuelle Fassung */
@@ -764,6 +779,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.tbl) { tblFilter = b.dataset.tbl; render(); }
     else if (b.dataset.stSort) { if (stSort === b.dataset.stSort) stDir = -stDir; else { stSort = b.dataset.stSort; stDir = -1; } stLimit = 50; render(); }
     else if (b.hasAttribute("data-st-saison")) loadSaison(b.dataset.stSaison);
+    else if (b.dataset.stLiga) { stLiga = b.dataset.stLiga; stLimit = 50; render(); }
     else if (b.dataset.stFilter) { stFilter = b.dataset.stFilter; render(); }
     else if (b.dataset.stAll) { stAll = !stAll; render(); }
     else if (b.hasAttribute("data-st-more")) { stLimit += 50; render(); }
