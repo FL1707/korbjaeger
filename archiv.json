@@ -2,6 +2,129 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst, höchstens 500 Einträge.",
   "news": [
     {
+      "id": "giannis-miami",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "schuh",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Endlich jubelt Miami",
+      "teaser": "Erster Sieg für Giannis im Heat-Trikot und ein neuer Vereinsrekord für Bam Adebayo.",
+      "text": [
+        "Giannis Antetokounmpo spielt seit dieser Saison für die Miami Heat. Die ersten vier Spiele gingen alle verloren. In Atlanta klappte es nun mit dem ersten Sieg: 129:117.",
+        "Giannis machte 24 Punkte und holte 18 Rebounds.",
+        "Sein Teamkollege Bam Adebayo schrieb dabei Geschichte: Er hat jetzt die meisten Rebounds aller Heat-Spieler aller Zeiten, nämlich 5.794. Damit überholte er Udonis Haslem."
+      ],
+      "fakten": [
+        "Miami 129, Atlanta 117",
+        "Adebayo ist Miamis Rebound-Rekordhalter"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "MIA",
+        "ATL"
+      ],
+      "spieler": [
+        "Giannis Antetokounmpo",
+        "Bam Adebayo"
+      ]
+    },
+    {
+      "id": "wemby",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Wembanyama zaubert doppelt",
+      "teaser": "Zwei Spiele in zwei Nächten, zwei Siege. Victor Wembanyama war beide Male der Beste.",
+      "text": [
+        "Victor Wembanyama aus Frankreich ist 2,24 Meter groß und spielt für die San Antonio Spurs. Diese Woche zeigte er wieder, was er kann.",
+        "Am Dienstag machte er 29 Punkte beim 130:103 gegen Sacramento. Am Mittwoch folgten 36 Punkte und 14 Rebounds in Utah. Das Spiel ging in die Verlängerung, und die Spurs gewannen 117:111.",
+        "Die Spurs haben jetzt 3 Siege und 2 Niederlagen."
+      ],
+      "fakten": [
+        "Spurs 130, Kings 103",
+        "Spurs 117, Jazz 111 (nach Verlängerung)"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "SAS",
+        "SAC",
+        "UTA"
+      ],
+      "spieler": [
+        "Victor Wembanyama"
+      ]
+    },
+    {
+      "id": "dybantsa",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "schuh",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Starkes Debüt der Nummer 1",
+      "teaser": "AJ Dybantsa wurde als Erster im Draft ausgewählt. Bei seinem ersten Spiel machte er 19 Punkte.",
+      "text": [
+        "Im Draft suchen sich die NBA-Teams jeden Sommer die besten jungen Spieler aus. Die Washington Wizards durften zuerst wählen und nahmen AJ Dybantsa.",
+        "Weil er verletzt war, musste er die ersten vier Spiele zuschauen. In Cleveland durfte er nun endlich ran.",
+        "Dybantsa traf 8 von 12 Würfen und war mit 19 Punkten bester Werfer seines Teams. Gewonnen hat Washington trotzdem nicht: Cleveland siegte 121:111."
+      ],
+      "fakten": [
+        "Dybantsa: 19 Punkte, 8 von 12 Würfen",
+        "Cleveland 121, Washington 111"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "WAS",
+        "CLE"
+      ],
+      "spieler": [
+        "AJ Dybantsa"
+      ]
+    },
+    {
+      "id": "alba-bilbao",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-10-28",
+      "tags": [
+        "fav"
+      ],
+      "titel": "ALBA bleibt ungeschlagen",
+      "teaser": "103:100 gegen Bilbao! In der Champions League hat ALBA alle drei Spiele gewonnen.",
+      "text": [
+        "ALBA Berlin spielt in dieser Saison nicht in der Euroleague, sondern in der Basketball Champions League. Dort läuft es richtig gut.",
+        "Gegen Surne Bilbao aus Spanien wurde es am Mittwochabend in der Uber Arena spannend bis zum Schluss. Am Ende gewann ALBA mit 103:100.",
+        "Der Held des Abends war Brandon Angel: Er traf alle 10 Würfe aus dem Feld und machte 24 Punkte. Jordan Ford kam auf 21 Punkte und 6 Assists.",
+        "Mit drei Siegen aus drei Spielen ist ALBA jetzt Erster der Gruppe G. Nur noch ein anderes Team in der ganzen Champions League hat auch noch nicht verloren: Peristeri aus Griechenland."
+      ],
+      "fakten": [
+        "Endstand: ALBA 103, Bilbao 100",
+        "Brandon Angel: 10 von 10 Würfen getroffen",
+        "ALBA: 3 Siege, 0 Niederlagen"
+      ],
+      "quellen": [
+        "albaberlin.de"
+      ],
+      "teams": [
+        "ALBA",
+        "BIL"
+      ],
+      "spieler": [
+        "Brandon Angel",
+        "Jordan Ford"
+      ]
+    },
+    {
       "id": "bayern",
       "liga": "EL",
       "lang": "de",
