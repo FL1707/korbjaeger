@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-10-30T06:07:35+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen! Memphis ist nach dem fünften Sieg weiter ungeschlagen, und Rookie Cameron Boozer hat sein erstes Triple-Double geschafft. Heute Abend startet das Bundesliga-Wochenende, und in der Nacht spielen Golden State und die Lakers.",
+  "aktualisiert": "2026-10-30T16:22:44+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo! Heute Abend geht es in der Bundesliga los: Jena spielt gegen Frankfurt und Hagen gegen Vechta. In der Nacht trifft Stephen Curry mit Golden State auf Luka Dončić und die Lakers. Auch Dennis Schröder, Franz Wagner und Moritz Wagner sind im Einsatz.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-10-30",
   "zahlDesTages": {
-    "zahl": "41:8",
-    "text": "So viele Punkte machten die Einwechselspieler von New Orleans und Sacramento. Die starke Bank half den Pelicans zum ersten Sieg."
+    "zahl": "36,0",
+    "text": "So viele Punkte macht Luka Dončić im Schnitt pro Spiel. Das ist der beste Wert der ganzen NBA. Heute Nacht spielt er mit den Lakers bei Golden State."
   },
   "spielerDerWoche": {
     "name": "Brandon Angel",
@@ -168,6 +168,41 @@
         "MBC"
       ],
       "spieler": []
+    },
+    {
+      "id": "2026-10-30-warriors-lakers-vorschau",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-30",
+      "tags": [],
+      "titel": "Curry gegen Dončić: Warriors empfangen die Lakers",
+      "teaser": "In der Nacht treffen zwei der besten Werfer der NBA aufeinander. Golden State will den dritten Sieg in Folge.",
+      "text": [
+        "In der Nacht zum Samstag spielen die Golden State Warriors zu Hause gegen die Los Angeles Lakers. Anwurf ist um 3 Uhr deutscher Zeit. Prime Video zeigt das Spiel.",
+        "Bei den Warriors dreht sich alles um Stephen Curry. Er macht bisher 28,8 Punkte pro Spiel. Zuletzt holte er 44 Punkte in Minnesota und traf dabei alle 16 Freiwürfe.",
+        "Die Lakers haben Luka Dončić. Er ist mit 36,0 Punkten im Schnitt der beste Werfer der ganzen Liga. Dazu kommt Austin Reaves mit 24,4 Punkten.",
+        "Los Angeles ist mit 4 Siegen und 1 Niederlage gut gestartet. Golden State hat 2 Siege und 3 Niederlagen. Nach drei Pleiten zum Start haben die Warriors aber zweimal hintereinander gewonnen."
+      ],
+      "fakten": [
+        "Anwurf: Samstag, 3 Uhr deutscher Zeit",
+        "Bilanz Lakers: 4 Siege, 1 Niederlage",
+        "Bilanz Warriors: 2 Siege, 3 Niederlagen",
+        "Dončić: 36,0 Punkte pro Spiel"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "GSW",
+        "LAL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Luka Dončić",
+        "Austin Reaves"
+      ]
     },
     {
       "id": "okc-dallas",
@@ -945,167 +980,6 @@
       "gast": "SPA",
       "heimPkt": 65,
       "gastPkt": 69
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-10-27",
-      "runde": "NBA · Verlängerung",
-      "heim": "BOS",
-      "gast": "BKN",
-      "heimPkt": 125,
-      "gastPkt": 124,
-      "info": "Tatum (BOS) 40 Punkte",
-      "bericht": {
-        "text": [
-          "Was für ein Krimi! Boston gewann gegen Brooklyn erst in der Verlängerung, und am Ende fehlte den Nets nur ein einziger Punkt.",
-          "Für Brooklyn spielte auch der Deutsche Moritz Wagner und traf richtig gut."
-        ],
-        "highlights": [
-          "Jayson Tatum machte 40 Punkte und 8 Assists für Boston",
-          "Moritz Wagner kam auf 15 Punkte und traf 6 von 9 Würfen",
-          "Michael Porter Jr. machte 27 Punkte und 12 Rebounds für Brooklyn"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-10-27",
-      "runde": "NBA",
-      "heim": "NYK",
-      "gast": "DET",
-      "heimPkt": 111,
-      "gastPkt": 97,
-      "info": "Towns (NYK) 27"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-10-27",
-      "runde": "NBA",
-      "heim": "SAS",
-      "gast": "SAC",
-      "heimPkt": 130,
-      "gastPkt": 103,
-      "info": "Wembanyama (SAS) 29",
-      "bericht": {
-        "text": [
-          "San Antonio feierte einen klaren 130:103-Heimsieg gegen Sacramento."
-        ],
-        "highlights": [
-          "Victor Wembanyama war mit 29 Punkten bester Werfer"
-        ]
-      },
-      "newsId": "wemby"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-10-27",
-      "runde": "NBA",
-      "heim": "LAL",
-      "gast": "POR",
-      "heimPkt": 129,
-      "gastPkt": 136,
-      "info": "Dončić (LAL) 41, Avdija (POR) 23"
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-27",
-      "runde": "8. Runde",
-      "heim": "FCB",
-      "gast": "BAR",
-      "heimPkt": 84,
-      "gastPkt": 88,
-      "info": "Norris (FCB) 17, Punter (BAR) 23",
-      "bericht": {
-        "text": [
-          "Knappe Niederlage für den FC Bayern in der Euroleague: Gegen den FC Barcelona hieß es am Ende 84:88.",
-          "Die Entscheidung fiel erst bei den Freiwürfen am Schluss."
-        ],
-        "highlights": [
-          "Miles Norris war mit 17 Punkten bester Münchner",
-          "Punter machte 23 Punkte für Barcelona"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-27",
-      "runde": "8. Runde",
-      "heim": "DUB",
-      "gast": "PBB",
-      "heimPkt": 93,
-      "gastPkt": 99
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-27",
-      "runde": "8. Runde",
-      "heim": "CZV",
-      "gast": "MTA",
-      "heimPkt": 100,
-      "gastPkt": 78
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-27",
-      "runde": "8. Runde",
-      "heim": "PAO",
-      "gast": "EA7",
-      "heimPkt": 80,
-      "gastPkt": 75
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-27",
-      "runde": "8. Runde",
-      "heim": "VAL",
-      "gast": "FEN",
-      "heimPkt": 86,
-      "gastPkt": 78
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-27",
-      "runde": "8. Runde",
-      "heim": "BAS",
-      "gast": "RMA",
-      "heimPkt": 86,
-      "gastPkt": 104
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-10-27",
-      "runde": "Champions League · Gruppe A",
-      "heim": "SAB",
-      "gast": "NTR",
-      "heimPkt": 87,
-      "gastPkt": 80
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-10-27",
-      "runde": "Champions League · Gruppe D",
-      "heim": "BAM",
-      "gast": "VAR",
-      "heimPkt": 61,
-      "gastPkt": 95
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-10-27",
-      "runde": "Champions League · Gruppe G",
-      "heim": "IGO",
-      "gast": "SKS",
-      "heimPkt": 77,
-      "gastPkt": 72
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-10-27",
-      "runde": "Champions League · Gruppe D",
-      "heim": "UCAM",
-      "gast": "PERI",
-      "heimPkt": 72,
-      "gastPkt": 80
     },
     {
       "liga": "DBB",
