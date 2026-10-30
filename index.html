@@ -77,9 +77,15 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 /* Tab-Leiste */
 .tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 25; background: var(--surface); border-top: 1px solid var(--line);
   padding-bottom: env(safe-area-inset-bottom, 0px); padding-left: max(8px, env(safe-area-inset-left, 0px)); padding-right: max(8px, env(safe-area-inset-right, 0px)); }
-.tabs-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: repeat(7, 1fr); }
+.tabs-in { max-width: 760px; margin: 0 auto; display: grid; grid-template-columns: repeat(8, 1fr); }
 .tab { background: none; border: 0; padding: 8px 2px 10px; display: grid; justify-items: center; gap: 2px; font-size: 12px; font-weight: 800; color: var(--ink-soft); }
 .tab svg { width: 28px; height: 28px; }
+/* Schmale Handys: 8 Tabs nach Textbreite verteilen statt in gleich breite Spalten */
+@media (max-width: 520px) {
+  .tabs-in { display: flex; justify-content: space-between; }
+  .tab { padding: 7px 1px 9px; font-size: 10px; letter-spacing: -.1px; white-space: nowrap; }
+  .tab svg { width: 24px; height: 24px; }
+}
 .tab[aria-selected="true"] { color: var(--orange-ink); }
 .tab[aria-selected="true"] .ic-bg { fill: var(--orange); opacity: .18; }
 
@@ -335,6 +341,21 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .liga-head .seg { margin-left: auto; }
 .liga-head .seg button { background: rgba(255,255,255,.16); border-color: rgba(255,255,255,.45); color: #fff; }
 
+/* Game: Korbwurf-Spiel mit Guthaben aus dem Quiz */
+.game-start { padding: 20px; display: grid; gap: 12px; justify-items: start; }
+.game-zahlen { display: flex; gap: 28px; flex-wrap: wrap; }
+.game-zahlen div { display: grid; }
+.game-zahlen b { font-family: var(--font-display); font-weight: 800; font-style: italic; font-size: 64px; line-height: .9; color: var(--orange-ink); }
+.game-zahlen span { font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); }
+.game-ergebnis { padding: 16px 18px; display: grid; gap: 4px; border-left: 6px solid var(--teal); }
+.game-ergebnis b { font-family: var(--font-display); font-size: 30px; font-style: italic; }
+.game-top { display: flex; justify-content: space-between; gap: 10px; font-weight: 800; color: var(--ink-soft); max-width: 520px; width: 100%; margin: 0 auto; }
+.game-top b { color: var(--ink); font-family: var(--font-display); font-size: 24px; margin-left: 4px; }
+.game-feld { max-width: 520px; width: 100%; margin: 0 auto; overflow: hidden; position: relative; }
+.game-feld canvas { display: block; width: 100%; height: auto; aspect-ratio: 400 / 560; touch-action: none; cursor: grab; }
+.game-tipp { position: absolute; left: 0; right: 0; top: 12px; margin: 0; text-align: center; font-weight: 800; font-size: 18px; color: var(--ink); pointer-events: none; text-shadow: 0 1px 0 var(--surface); }
+.quiz .plus { color: var(--good); font-weight: 800; }
+
 .empty { padding: 40px 20px; text-align: center; color: var(--ink-soft); font-weight: 700; }
 .archiv-btn { display: flex; align-items: center; justify-content: space-between; gap: 12px; width: 100%; margin-top: 14px; padding: 16px 20px; text-align: left; font: inherit; color: var(--ink); cursor: pointer; }
 .archiv-btn b { display: block; font-size: 19px; font-weight: 800; }
@@ -368,6 +389,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     { id: "tabellen", label: "Tabellen", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M7 9h18M7 16h18M7 23h18" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><circle cx="7" cy="9" r="1" fill="currentColor"/>' },
     { id: "training", label: "Training", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M5 23h22M8 23v-8h5v8M19 23V9h5v14" fill="none" stroke="currentColor" stroke-width="2.3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="10.5" cy="10" r="2.6" fill="none" stroke="currentColor" stroke-width="2.2"/>' },
     { id: "quiz", label: "Quiz", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><circle cx="16" cy="16" r="11" fill="none" stroke="currentColor" stroke-width="2.4"/><path d="M12.5 13a3.5 3.5 0 1 1 5 3.2c-1 .5-1.5 1.2-1.5 2.3" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><circle cx="16" cy="22.5" r="1.5" fill="currentColor"/>' },
+    { id: "game", label: "Game", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><rect x="8" y="4" width="16" height="10" rx="1.5" fill="none" stroke="currentColor" stroke-width="2.2"/><path d="M10 15h12M11 15l2 7M21 15l-2 7M13 18h6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="23" cy="25" r="4" fill="none" stroke="currentColor" stroke-width="2"/>' },
     { id: "statistik", label: "Statistik", icon: '<circle class="ic-bg" cx="16" cy="16" r="15" fill="none"/><path d="M6 25h20" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/><rect x="8" y="15" width="4" height="8" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="14" y="8" width="4" height="15" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/><rect x="20" y="12" width="4" height="11" rx="1" fill="none" stroke="currentColor" stroke-width="2.2"/>' }
   ];
   const LIGA = { NBA: ["nba", "NBA"], BBL: ["bbl", "BBL"], EL: ["el", "Euroleague"], BCL: ["bcl", "Champions League"], DBB: ["dbb", "Nationalteam"] };
@@ -657,7 +679,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const q = Q[st.i], answered = st.picks.length > st.i, pick = st.picks[st.i];
     return '<section class="sec"><div class="sec-h"><h2>Tagesquiz</h2><p>Frage ' + (st.i + 1) + " von " + Q.length + '</p></div><div class="card quiz">' + prog + (q.art === "legacy" ? '<span class="pill legacy">NBA-Geschichte' + (q.jahr ? " · " + esc(q.jahr) : "") + "</span>" : "") + "<h3>" + esc(q.frage) + '</h3><div class="answers">' +
       q.antworten.map((a, i) => '<button data-ans="' + i + '"' + (answered ? " disabled" : "") + ' class="' + (answered ? (i === q.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
-      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section>";
+      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + (pick === q.richtig && !st.wdh ? ' <span class="plus">🏀 +1 Spiel im Game-Tab</span>' : "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section>";
   }
   function stFmt(v, k) {
     if (v == null) return "–";
@@ -737,12 +759,122 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       (neu.length ? '<section class="sec"><div class="sec-h"><h2>Aktuell</h2></div><div class="grid">' + neu.map(n => newsCard(n)).join("") + "</div></section>" : "") +
       Object.keys(groups).map(k => '<section class="sec"><div class="sec-h"><h2>' + esc(k) + '</h2><p>aus dem Archiv</p></div><div class="grid">' + groups[k].map(n => newsCard(n)).join("") + "</div></section>").join("") + "</div>";
   }
-  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, tabellen: vTabellen, training: vTraining, quiz: vQuiz, statistik: vStatistik, liga: vLiga };
+  /* ---------- Game: Korbwurf-Spiel ----------
+     Guthaben: 1 Spiel je Quizfrage, die beim ERSTEN Versuch richtig beantwortet wurde (game_erst: {quizId: {Frage: true/false}}),
+     minus gespielte Spiele (game_gespielt). Alles nur auf diesem Gerät gespeichert; Guthaben verfällt nicht. */
+  const GAME_WUERFE = 10;
+  let G = null, Gletzt = null;
+  function gameErst(qid, i, richtig) { const m = store.get("game_erst", {}), r = m[qid] || {}; if (r[i] == null) { r[i] = richtig; m[qid] = r; store.set("game_erst", m); } }
+  function gameGuthaben() { let v = 0; Object.values(store.get("game_erst", {})).forEach(r => Object.values(r).forEach(x => { if (x) v++; })); return Math.max(0, v - store.get("game_gespielt", 0)); }
+  // Antworten aus der Zeit vor dem Game zählen einmalig mit (bestes Wissen: die gespeicherten Antworten des heutigen Quiz)
+  function gameSeed() { const qid = D.quizId || D.aktualisiert, m = store.get("game_erst", {}), st = store.get("quiz_" + qid, null); if (m[qid] || !st || !st.picks || !st.picks.length || !D.quiz) return; m[qid] = {}; st.picks.forEach((p, i) => { if (D.quiz[i]) m[qid][i] = p === D.quiz[i].richtig; }); store.set("game_erst", m); }
+  function vGame() {
+    const rek = store.get("game_rekord", 0);
+    if (G) return '<div class="view"><div class="game-top"><span>Wurf<b id="g-wurf">1/' + GAME_WUERFE + '</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + rek + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Wurfspiel: vom Ball wegziehen und loslassen"></canvas><p class="game-tipp" id="g-tipp">Zieh vom Ball weg und lass los!</p></div></div>';
+    const gut = gameGuthaben();
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Korbjäger-Game</h2><p>Für jede Quizfrage, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel.</p></div>' +
+      (Gletzt ? '<div class="card game-ergebnis"><span>Letztes Spiel</span><b>' + Gletzt.punkte + " Punkte" + (Gletzt.rekord ? " – neuer Rekord! 🏆" : "") + "</b><span>" + Gletzt.treffer + " von " + GAME_WUERFE + " Würfen getroffen, davon " + Gletzt.swish + " Swish</span></div>" : "") +
+      '<div class="card game-start"><div class="game-zahlen"><div><b>' + gut + "</b><span>" + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div><div><b>" + rek + "</b><span>Dein Rekord</span></div></div>" +
+      (gut ? '<button class="btn" data-gstart>Spiel starten</button>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz, dann geht es los!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
+      '<details class="card abbr"><summary>So geht das Spiel</summary><p>Lege den Finger irgendwo aufs Spielfeld und zieh ihn vom Korb weg, wie bei einer Steinschleuder. Je weiter du ziehst, desto fester wirfst du. Lass los, um zu werfen.</p><p>Jedes Spiel hat ' + GAME_WUERFE + " Würfe. Ein Swish (nur Netz) bringt 3 Punkte, ein Treffer mit Ring oder Brett 2 Punkte. Nach drei Treffern in Folge bewegt sich der Korb!</p></details></section></div>";
+  }
+  function gameStart() { if (!gameGuthaben()) return; store.set("game_gespielt", store.get("game_gespielt", 0) + 1); G = { wurf: 0, punkte: 0, treffer: 0, swish: 0, serie: 0, t: 0, laeuft: false }; render(); }
+  function gameEnde() {
+    if (!G) return; const g = G; G = null;
+    const rek = store.get("game_rekord", 0), neu = g.punkte > rek; if (neu) store.set("game_rekord", g.punkte);
+    Gletzt = { punkte: g.punkte, treffer: g.treffer, swish: g.swish, rekord: neu && g.punkte > 0 };
+  }
+  function gameInit() {
+    const cv = $("#gcv"); if (!cv || G.laeuft) return;
+    const W = 400, H = 560, BODEN = 532, R = 13, GRAV = 900, RIM_V = 274, RIM_H = 340, BRETT = 346;
+    const css = getComputedStyle(document.documentElement), farbe = n => css.getPropertyValue(n).trim() || "#888";
+    const dpr = Math.min(window.devicePixelRatio || 1, 3); cv.width = W * dpr; cv.height = H * dpr;
+    const c = cv.getContext("2d"); c.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const g = G; g.laeuft = true;
+    let ball, zieh = null, text = "", textT = 0, letzte = performance.now();
+    const rimY = () => 210 + (g.serie >= 3 ? 34 * Math.sin(g.t * 1.7) : 0);
+    function neuerBall() { ball = { x: 40 + Math.random() * 160, y: BODEN - R - 40 - Math.random() * 30, vx: 0, vy: 0, fliegt: false, beruehrt: false, drin: false, t: 0 }; ball.sx = ball.x; ball.sy = ball.y; }
+    function anzeige() { const w = $("#g-wurf"), p = $("#g-pkt"); if (w) w.textContent = Math.min(g.wurf + 1, GAME_WUERFE) + "/" + GAME_WUERFE; if (p) p.textContent = g.punkte; }
+    function zeige(t) { text = t; textT = 1.4; const e = $("#g-tipp"); if (e) e.textContent = ""; }
+    function wurfVorbei() {
+      if (ball.drin) { const p = ball.beruehrt ? 2 : 3; g.punkte += p; g.treffer++; g.serie++; if (!ball.beruehrt) g.swish++; zeige(ball.beruehrt ? "Treffer! +2" : "Swish! +3"); if (g.serie === 3) setTimeout(() => zeige("Der Korb bewegt sich!"), 900); }
+      else { g.serie = 0; zeige("Daneben!"); }
+      g.wurf++; anzeige();
+      if (g.wurf >= GAME_WUERFE) { setTimeout(() => { if (G === g) { gameEnde(); render(); } }, 1300); ball = null; return; }
+      neuerBall();
+    }
+    function punkt(e) { const r = cv.getBoundingClientRect(); return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height }; }
+    cv.addEventListener("pointerdown", e => { if (!ball || ball.fliegt) return; try { cv.setPointerCapture(e.pointerId); } catch (x) {} zieh = { a: punkt(e), b: punkt(e) }; });
+    cv.addEventListener("pointermove", e => { if (zieh) zieh.b = punkt(e); });
+    cv.addEventListener("pointerup", () => {
+      if (!zieh || !ball) { zieh = null; return; }
+      let dx = zieh.a.x - zieh.b.x, dy = zieh.a.y - zieh.b.y; const l = Math.hypot(dx, dy); zieh = null;
+      if (l < 12) return; // nur angetippt
+      const k = Math.min(l, 170) / l; ball.vx = dx * k * 5.6; ball.vy = dy * k * 5.6; ball.fliegt = true;
+      const e = $("#g-tipp"); if (e) e.textContent = "";
+    });
+    function abprallen(px, py) {
+      const dx = ball.x - px, dy = ball.y - py, d = Math.hypot(dx, dy), min = R + 3;
+      if (d >= min || d === 0) return;
+      const nx = dx / d, ny = dy / d; ball.x = px + nx * min; ball.y = py + ny * min;
+      const vn = ball.vx * nx + ball.vy * ny; if (vn < 0) { ball.vx -= 1.55 * vn * nx; ball.vy -= 1.55 * vn * ny; } ball.beruehrt = true;
+    }
+    function schritt(dt) {
+      g.t += dt; if (textT > 0) textT -= dt;
+      if (!ball || !ball.fliegt) return;
+      const ry = rimY(); ball.t += dt;
+      const vorher = ball.y; ball.vy += GRAV * dt; ball.x += ball.vx * dt; ball.y += ball.vy * dt;
+      if (ball.x + R > BRETT && ball.x - R < BRETT + 7 && ball.y > ry - 92 && ball.y < ry + 12) { if (ball.vx > 0) { ball.x = BRETT - R; ball.vx *= -0.55; ball.vy *= 0.9; ball.beruehrt = true; } }
+      abprallen(RIM_V, ry); abprallen(RIM_H, ry);
+      if (!ball.drin && vorher < ry && ball.y >= ry && ball.vy > 0 && ball.x > RIM_V + 3 && ball.x < RIM_H - 3) ball.drin = true;
+      if (ball.y + R > BODEN) { ball.y = BODEN - R; ball.vy *= -0.5; ball.vx *= 0.75; if (Math.abs(ball.vy) < 70) ball.vy = 0; }
+      const ruht = ball.y + R >= BODEN - 0.5 && ball.vy === 0 && Math.abs(ball.vx) < 25;
+      if (ball.x < -40 || ball.x > W + 40 || ruht || ball.t > 5 || (ball.drin && ball.y > ry + 90)) wurfVorbei();
+    }
+    function zeichneBall(x, y) {
+      c.save(); c.translate(x, y); c.fillStyle = "#FF6A13"; c.strokeStyle = "#12203A"; c.lineWidth = 1.6;
+      c.beginPath(); c.arc(0, 0, R, 0, Math.PI * 2); c.fill(); c.stroke();
+      c.beginPath(); c.moveTo(-R, 0); c.lineTo(R, 0); c.moveTo(0, -R); c.lineTo(0, R); c.moveTo(-R * .65, -R * .76); c.quadraticCurveTo(-R * .1, 0, -R * .65, R * .76); c.moveTo(R * .65, -R * .76); c.quadraticCurveTo(R * .1, 0, R * .65, R * .76); c.lineWidth = 1.1; c.stroke(); c.restore();
+    }
+    function zeichne() {
+      const ry = rimY();
+      c.clearRect(0, 0, W, H);
+      const hg = c.createLinearGradient(0, 0, 0, H); hg.addColorStop(0, farbe("--surface-2")); hg.addColorStop(1, farbe("--surface")); c.fillStyle = hg; c.fillRect(0, 0, W, H);
+      c.fillStyle = farbe("--court"); c.fillRect(0, BODEN, W, H - BODEN);
+      c.strokeStyle = "rgba(255,255,255,.55)"; c.lineWidth = 3; c.beginPath(); c.arc(BRETT, BODEN, 300, Math.PI, Math.PI * 1.06); c.stroke();
+      // Brett, Ring und Netz
+      c.fillStyle = "#fff"; c.strokeStyle = farbe("--ink"); c.lineWidth = 2; c.fillRect(BRETT, ry - 92, 7, 104); c.strokeRect(BRETT, ry - 92, 7, 104);
+      c.strokeStyle = "#E8650F"; c.lineWidth = 4; c.beginPath(); c.moveTo(RIM_V, ry); c.lineTo(BRETT, ry); c.stroke();
+      c.strokeStyle = "rgba(255,255,255,.95)"; c.lineWidth = 1.5; c.beginPath();
+      for (let i = 0; i <= 4; i++) { const x0 = RIM_V + (RIM_H - RIM_V) * i / 4, x1 = RIM_V + 8 + (RIM_H - RIM_V - 16) * i / 4; c.moveTo(x0, ry); c.lineTo(x1, ry + 34); }
+      c.moveTo(RIM_V + 4, ry + 12); c.lineTo(RIM_H - 4, ry + 12); c.moveTo(RIM_V + 7, ry + 24); c.lineTo(RIM_H - 7, ry + 24); c.stroke();
+      c.fillStyle = farbe("--ink-soft"); c.fillRect(BRETT + 7, ry - 40, 40, 6);
+      // Zielhilfe: nur der Anfang der Flugbahn
+      if (zieh && ball && !ball.fliegt) {
+        let dx = zieh.a.x - zieh.b.x, dy = zieh.a.y - zieh.b.y; const l = Math.hypot(dx, dy);
+        if (l > 12) { const k = Math.min(l, 170) / l, vx = dx * k * 5.6, vy = dy * k * 5.6; c.fillStyle = farbe("--ink-soft");
+          for (let i = 1; i <= 12; i++) { const t = i * 0.04; c.beginPath(); c.arc(ball.x + vx * t, ball.y + vy * t + GRAV * t * t / 2, 2.6, 0, Math.PI * 2); c.fill(); }
+          c.fillStyle = farbe("--orange"); c.fillRect(16, BODEN + 10, 120 * Math.min(l, 170) / 170, 8); c.strokeStyle = farbe("--ink-soft"); c.lineWidth = 1; c.strokeRect(16, BODEN + 10, 120, 8); }
+      }
+      if (ball) zeichneBall(ball.x, ball.y);
+      if (textT > 0) { c.globalAlpha = Math.min(1, textT * 1.5); c.fillStyle = farbe("--orange-ink"); c.font = "italic 800 40px 'Barlow Condensed', 'Arial Narrow', sans-serif"; c.textAlign = "center"; c.fillText(text, W / 2, 110); c.globalAlpha = 1; }
+    }
+    function schleife(jetzt) {
+      if (G !== g || !document.body.contains(cv)) return;
+      let dt = Math.min(0.05, (jetzt - letzte) / 1000); letzte = jetzt;
+      while (dt > 0) { const s = Math.min(dt, 1 / 240); schritt(s); dt -= s; }
+      zeichne(); requestAnimationFrame(schleife);
+    }
+    neuerBall(); anzeige(); requestAnimationFrame(schleife);
+  }
+  const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, tabellen: vTabellen, training: vTraining, quiz: vQuiz, game: vGame, statistik: vStatistik, liga: vLiga };
 
   function render() {
     $("#tabs").innerHTML = TABS.map(t => '<button class="tab" role="tab" data-tab="' + t.id + '" aria-selected="' + (t.id === current) + '"><svg viewBox="0 0 32 32" aria-hidden="true">' + t.icon + "</svg>" + t.label + "</button>").join("");
     if (!D) return;
+    if (current === "game" && G && G.laeuft) return; // ein laufendes Spiel nicht durch nachgeladene Daten zerstören
     $("#main").innerHTML = VIEWS[current]();
+    if (current === "game" && G) gameInit();
   }
   /* Browser-Verlauf: Jeder Tab-Wechsel und jeder geöffnete Artikel/Spielbericht bekommt einen eigenen Eintrag,
      damit die Zurück-Geste in Safari innerhalb der App zurückführt statt zur vorher besuchten Website.
@@ -756,6 +888,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   }
   // modus: undefined = neuer Verlaufseintrag, "ersetzen" = aktuellen Eintrag überschreiben, "zurueck" = kommt aus dem Verlauf
   function go(id, modus) { if (!VIEWS[id]) id = "heute";
+    if (G && id !== "game") gameEnde(); // Tab verlassen beendet das laufende Spiel
     const neu = id !== current || (id === "liga" && history.state && history.state.liga !== ligaSel);
     current = id; store.set("tab", id); store.set("liga", ligaSel);
     if (modus === "ersetzen" || (!modus && neu)) merken({}, modus === "ersetzen");
@@ -797,6 +930,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
+    else if (b.hasAttribute("data-gstart")) gameStart();
     else if (b.hasAttribute("data-close")) closeNews();
     else if (b.dataset.t) showTerm(b.dataset.t);
     else if (b.hasAttribute("data-sheet-close")) b.closest(".sheet").remove();
@@ -814,9 +948,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     }
     else if (b.dataset.ans != null || b.dataset.quiz) {
       const key = "quiz_" + (D.quizId || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
-      if (b.dataset.ans != null && st.picks.length === st.i) st.picks.push(Number(b.dataset.ans));
+      if (b.dataset.ans != null && st.picks.length === st.i) { st.picks.push(Number(b.dataset.ans)); gameErst(D.quizId || D.aktualisiert, st.i, Number(b.dataset.ans) === (D.quiz[st.i] || {}).richtig); }
       else if (b.dataset.quiz === "next") st.i++;
-      else if (b.dataset.quiz === "reset") { st.i = 0; st.picks = []; }
+      else if (b.dataset.quiz === "reset") { st.i = 0; st.picks = []; st.wdh = true; } // Wiederholung: bringt kein neues Spiel-Guthaben
       store.set(key, st); render();
     }
   });
@@ -849,6 +983,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   render();
   fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d;
+    gameSeed();
     $("#stamp").innerHTML = "<strong>" + esc(d.ausgabe || "Aktuelle Ausgabe") + "</strong>Stand: " + fmtDate(d.aktualisiert, true);
     render();
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
