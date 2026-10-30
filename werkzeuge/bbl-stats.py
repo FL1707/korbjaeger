@@ -60,14 +60,19 @@ def main():
         sys.exit("Spielerstatistik nicht gefunden - bbl-stats.json bleibt unverändert.")
 
     jahr = int(w.get("activeSeason") or 0)
-    saison = f"{jahr}-{(jahr + 1) % 100:02d}" if jahr else ""
-    zeilen = []
-    for e in w["data"]:
+    schreibe(w["data"], f"{jahr}-{(jahr + 1) % 100:02d}" if jahr else "", a.ziel)
+
+
+def schreibe(daten, saison, ziel, mindestens=150):
+    # daten: Liste der BBL-Einträge (seasonPlayer, seasonTeam und die Statistikfelder), wie die Seite sie liefert
+    zeilen, namen = [], {}
+    for e in daten:
         p, t = e.get("seasonPlayer") or {}, e.get("seasonTeam") or {}
-        name = f"{p.get('firstName', '').strip()} {p.get('lastName', '').strip()}".strip()
+        name = f"{(p.get('firstName') or '').strip()} {(p.get('lastName') or '').strip()}".strip()
         team = TEAM.get(t.get("tlc", ""), t.get("tlc", ""))
         if not name or not team:
             continue
+        namen.setdefault(team, (t.get("name") or team).strip())
         z = [name, team]
         for key in KEYS[2:]:
             q = QUELLE.get(key)
@@ -78,25 +83,51 @@ def main():
         zeilen.append(z)
 
     # Lieber den alten Stand behalten als eine unvollständige Tabelle veröffentlichen (18 Teams, normal 200+ Spieler)
-    if len(zeilen) < 150:
-        sys.exit(f"Nur {len(zeilen)} Spieler gefunden - bbl-stats.json bleibt unverändert.")
+    if len(zeilen) < mindestens:
+        sys.exit(f"Nur {len(zeilen)} Spieler gefunden - {os.path.basename(ziel)} bleibt unverändert.")
     zeilen.sort(key=lambda z: -(z[KEYS.index("pkt")] or 0))
 
+    # Teams, die die App nicht kennt (frühere Vereine), bekommen ihren Namen in "teamnamen" mit
     try:
         bekannt = set(json.load(open(os.path.join(REPO, "data.json"), encoding="utf-8")).get("teams", {}))
-        fehlt = sorted({z[1] for z in zeilen} - bekannt)
-        if fehlt:
-            print("Achtung, Team-Schlüssel fehlen in data.json/teams: " + ", ".join(fehlt))
     except Exception:
-        pass
+        bekannt = set()
 
     kopf = {"quelle": "easycredit-bbl.de", "saison": saison, "art": "Hauptrunde, Durchschnitt pro Spiel",
-            "stand": datetime.now(ZoneInfo("Europe/Berlin")).isoformat(timespec="seconds"), "spalten": KEYS}
+            "stand": datetime.now(ZoneInfo("Europe/Berlin")).isoformat(timespec="seconds"), "spalten": KEYS,
+            "teamnamen": {k: v for k, v in sorted(namen.items()) if k not in bekannt}}
     text = json.dumps(kopf, ensure_ascii=False)[:-1] + ',"spieler":[\n' + ",\n".join(json.dumps(z, ensure_ascii=False) for z in zeilen) + "\n]}"
     json.loads(text)
-    with open(a.ziel, "w", encoding="utf-8", newline="\n") as f:
+    archiviere(ziel, saison)
+    with open(ziel, "w", encoding="utf-8", newline="\n") as f:
         f.write(text)
-    print(f"{os.path.basename(a.ziel)} geschrieben: {len(zeilen)} Spieler (Saison {saison})")
+    print(f"{os.path.basename(ziel)} geschrieben: {len(zeilen)} Spieler (Saison {saison})")
+
+
+def archiviere(ziel, saison):
+    # Saisonwechsel: Bevor bbl-stats.json eine NEUERE Saison bekommt, wandert die bisherige Saison unverändert
+    # nach bbl-stats-<alte Saison>.json und in die Liste bbl-stats-saisons.json (alle Saisons bleiben erhalten).
+    if os.path.basename(ziel) != "bbl-stats.json" or not os.path.exists(ziel):
+        return
+    try:
+        alt = json.load(open(ziel, encoding="utf-8")).get("saison", "")
+    except Exception:
+        return
+    if not alt or not saison or saison <= alt:
+        return
+    kopie = os.path.join(os.path.dirname(ziel), f"bbl-stats-{alt}.json")
+    if not os.path.exists(kopie):
+        with open(ziel, encoding="utf-8") as q, open(kopie, "w", encoding="utf-8", newline="\n") as z:
+            z.write(q.read())
+    liste_datei = os.path.join(os.path.dirname(ziel), "bbl-stats-saisons.json")
+    try:
+        liste = json.load(open(liste_datei, encoding="utf-8"))
+    except Exception:
+        liste = {"vergangen": []}
+    vergangen = sorted(set(liste.get("vergangen", [])) | {alt}, reverse=True)
+    with open(liste_datei, "w", encoding="utf-8", newline="\n") as f:
+        f.write(json.dumps({"aktuell": saison, "vergangen": vergangen}))
+    print(f"Saisonwechsel: {alt} archiviert als {os.path.basename(kopie)}, neue Saison {saison}")
 
 
 if __name__ == "__main__":
