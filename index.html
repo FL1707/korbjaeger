@@ -528,8 +528,9 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (diff >= 20) text.push("Ein deutlicher Sieg mit " + diff + " Punkten Vorsprung.");
     return { text, highlights: g.info ? g.info.split(/, | · /) : [] };
   }
-  function openGame(i) {
+  function openGame(i, modus) {
     const g = (D.ergebnisse || [])[i]; if (!g) return;
+    if (modus !== "zurueck") merken({ ov: { g: i } });
     const b = g.bericht || autoBericht(g), w = g.heimPkt > g.gastPkt ? g.heim : g.gast;
     const n = g.newsId ? allNews().find(x => x.id === g.newsId) : null;
     const hl = b.highlights && b.highlights.length ? '<div class="facts"><h4>' + (n ? "Highlights dieses Spiels" : "Highlights") + "</h4><ul>" + b.highlights.map(h => "<li>" + esc(h) + "</li>").join("") + "</ul></div>" : "";
@@ -743,9 +744,22 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     if (!D) return;
     $("#main").innerHTML = VIEWS[current]();
   }
-  function go(id) { if (!VIEWS[id]) id = "heute"; current = id;
-    // Einen alten Sprung wie #liga-NBA entfernen, damit Neuladen nicht dorthin zurückführt
-    if (location.hash && location.hash.slice(1) !== id) history.replaceState(null, "", location.pathname + location.search); store.set("tab", id); store.set("liga", ligaSel); render(); window.scrollTo(0, 0); }
+  /* Browser-Verlauf: Jeder Tab-Wechsel und jeder geöffnete Artikel/Spielbericht bekommt einen eigenen Eintrag,
+     damit die Zurück-Geste in Safari innerhalb der App zurückführt statt zur vorher besuchten Website.
+     Eintrag: { kj: 1, tab, liga, ov?: { n: Artikel-id } | { g: Spiel-Index }, y: Scrollposition } */
+  const URL0 = () => location.pathname + location.search; // ohne #liga-…, damit Neuladen nicht auf eine alte Liga-Seite springt
+  function merken(eintrag, ersetzen) {
+    try {
+      if (!ersetzen && history.state && history.state.kj) history.replaceState(Object.assign({}, history.state, { y: window.scrollY }), "");
+      history[ersetzen ? "replaceState" : "pushState"](Object.assign({ kj: 1, tab: current, liga: ligaSel, y: 0 }, eintrag), "", URL0());
+    } catch (e) {}
+  }
+  // modus: undefined = neuer Verlaufseintrag, "ersetzen" = aktuellen Eintrag überschreiben, "zurueck" = kommt aus dem Verlauf
+  function go(id, modus) { if (!VIEWS[id]) id = "heute";
+    const neu = id !== current || (id === "liga" && history.state && history.state.liga !== ligaSel);
+    current = id; store.set("tab", id); store.set("liga", ligaSel);
+    if (modus === "ersetzen" || (!modus && neu)) merken({}, modus === "ersetzen");
+    render(); if (modus !== "zurueck") window.scrollTo(0, 0); }
 
   function articleBody(n) {
     return '<div class="meta">' + ligaPill(n.liga) + (n.lang === "en" ? '<span class="pill en">English</span>' : "") + "<span>" + fmtDate(n.datum) + "</span></div><h1>" + esc(n.titel) + '</h1><div class="body">' + (n.text || []).map(p => "<p>" + linkTerms(p) + "</p>").join("") + "</div>" +
@@ -753,14 +767,17 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       (n.vokabeln && n.vokabeln.length ? '<div class="vocab"><h4>Vokabeln</h4><dl>' + n.vokabeln.map(v => "<dt>" + esc(v.en) + "</dt><dd>" + esc(v.de) + "</dd>").join("") + "</dl></div>" : "") +
       '<p class="src">Zusammengefasst nach: ' + esc((n.quellen || []).join(", ")) + "</p>";
   }
-  function openNews(id) {
+  function openNews(id, modus) {
     const n = allNews().find(x => x.id === id); if (!n) return;
+    if (modus !== "zurueck") merken({ ov: { n: id } });
     $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="' + esc(n.titel) + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
       '<div class="art">' + art(n.motiv, n.liga) + "</div>" + articleBody(n) + "</article></div>";
     document.body.style.overflow = "hidden";
     $("[data-close]").focus();
   }
-  function closeNews() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
+  function overlayZu() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
+  // „Zurück“-Knopf und Esc gehen denselben Weg wie die Zurück-Geste, damit der Verlauf stimmt
+  function closeNews() { if (history.state && history.state.kj && history.state.ov) history.back(); else overlayZu(); }
   function showTerm(t) {
     const x = (D.lexikon || []).find(l => l.begriff.toLowerCase() === t.toLowerCase()); if (!x) return;
     const old = $(".sheet"); if (old) old.remove();
@@ -818,7 +835,17 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   if (current === "stars") current = "training"; // früherer Tab, ersetzt durch Training
   if (current === "liga" && !/^liga-/i.test(h)) current = "heute"; // Liga-Seiten gibt es nur noch über einen direkten Link (#liga-NBA)
   if (!VIEWS[current]) current = "heute";
-  window.addEventListener("hashchange", () => { const x = location.hash.slice(1); if (/^liga-/i.test(x)) { ligaSel = x.slice(5).toUpperCase(); go("liga"); } else if (VIEWS[x]) go(x); });
+  window.addEventListener("hashchange", () => { const x = location.hash.slice(1); if (/^liga-/i.test(x)) { ligaSel = x.slice(5).toUpperCase(); go("liga", "ersetzen"); } else if (VIEWS[x]) go(x, "ersetzen"); });
+  window.addEventListener("popstate", e => {
+    const st = e.state; if (!st || !st.kj) return;
+    const s = $(".sheet"); if (s) s.remove();
+    if (!st.ov) overlayZu();
+    if (st.tab !== current || st.liga !== ligaSel) { ligaSel = st.liga || ligaSel; go(st.tab, "zurueck"); }
+    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); }
+    else window.scrollTo(0, st.y || 0);
+  });
+  if ("scrollRestoration" in history) history.scrollRestoration = "manual";
+  merken({}, true); // Startpunkt im Verlauf (ersetzt den Eintrag des Seitenaufrufs)
   render();
   fetch("data.json", { cache: "no-store" }).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
     D = d;
