@@ -2,6 +2,323 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-10-30-hawks-cavs",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-30",
+      "tags": [],
+      "titel": "Atlanta dreht das Spiel gegen Cleveland",
+      "teaser": "Die Hawks lagen früh mit 15 Punkten hinten – und gewannen am Ende doch mit 114:111.",
+      "text": [
+        "Für Atlanta begann der Abend schlecht. Cleveland führte im ersten Viertel schon mit 15 Punkten Vorsprung.",
+        "Im zweiten Viertel kam die Wende: Mit einem 19:2-Lauf drehten die Hawks das Spiel. Aus einem 24:35 wurde ein 43:37.",
+        "Star des Abends war Onyeka Okongwu. Der Center machte 29 Punkte und holte 12 Rebounds, so viele Punkte wie noch nie in dieser Saison. Nickeil Alexander-Walker traf 25 Punkte, Aaron Wiggins kam von der Bank auf 20.",
+        "Ganz am Ende wurde es noch einmal eng. Clevelands Donovan Mitchell hatte im letzten Angriff zwei Chancen zum Ausgleich, traf aber beide Male nicht. So endeten für Atlanta drei Niederlagen in Folge."
+      ],
+      "fakten": [
+        "Endstand: Atlanta 114, Cleveland 111",
+        "Okongwu: 29 Punkte, 12 Rebounds",
+        "Bester Cavalier: James Harden mit 24 Punkten"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ATL",
+        "CLE"
+      ],
+      "spieler": [
+        "Onyeka Okongwu",
+        "Nickeil Alexander-Walker",
+        "Aaron Wiggins",
+        "James Harden",
+        "Donovan Mitchell"
+      ]
+    },
+    {
+      "id": "2026-10-30-pelicans-erster-sieg",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-30",
+      "tags": [],
+      "titel": "Endlich ein Sieg für New Orleans",
+      "teaser": "Die Pelicans schlagen Sacramento 132:120. Die Kings warten weiter auf ihren ersten Sieg.",
+      "text": [
+        "Vier Spiele, vier Niederlagen – so war New Orleans in die Saison gestartet. Gegen die Sacramento Kings klappte es jetzt mit dem ersten Sieg: 132:120.",
+        "Wichtigster Mann war Jeremiah Fears. Er machte 22 Punkte und verteilte 13 Assists, so viele wie noch nie in seiner NBA-Karriere. Zion Williamson traf 10 von 12 Würfen und kam ebenfalls auf 22 Punkte.",
+        "Auch die Bank der Pelicans war stark: Die Einwechselspieler machten zusammen 41 Punkte, die der Kings nur 8.",
+        "Bei Sacramento glänzte Rookie Darius Acuff Jr. mit 34 Punkten, so vielen wie noch nie in seiner jungen Karriere. Doch die Kings verloren den Ball 25-mal. Sie haben nun 0 Siege und 5 Niederlagen."
+      ],
+      "fakten": [
+        "Endstand: New Orleans 132, Sacramento 120",
+        "Fears: 22 Punkte, 13 Assists",
+        "Acuff Jr.: 34 Punkte für Sacramento"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "NOP",
+        "SAC"
+      ],
+      "spieler": [
+        "Jeremiah Fears",
+        "Zion Williamson",
+        "Darius Acuff Jr.",
+        "Domantas Sabonis",
+        "Trey Murphy III"
+      ]
+    },
+    {
+      "id": "2026-10-30-warriors-lakers-vorschau",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-30",
+      "tags": [],
+      "titel": "Curry gegen Dončić: Warriors empfangen die Lakers",
+      "teaser": "In der Nacht treffen zwei der besten Werfer der NBA aufeinander. Golden State will den dritten Sieg in Folge.",
+      "text": [
+        "In der Nacht zum Samstag spielen die Golden State Warriors zu Hause gegen die Los Angeles Lakers. Anwurf ist um 3 Uhr deutscher Zeit. Prime Video zeigt das Spiel.",
+        "Bei den Warriors dreht sich alles um Stephen Curry. Er macht bisher 28,8 Punkte pro Spiel. Zuletzt holte er 44 Punkte in Minnesota und traf dabei alle 16 Freiwürfe.",
+        "Die Lakers haben Luka Dončić. Er ist mit 36,0 Punkten im Schnitt der beste Werfer der ganzen Liga. Dazu kommt Austin Reaves mit 24,4 Punkten.",
+        "Los Angeles ist mit 4 Siegen und 1 Niederlage gut gestartet. Golden State hat 2 Siege und 3 Niederlagen. Nach drei Pleiten zum Start haben die Warriors aber zweimal hintereinander gewonnen."
+      ],
+      "fakten": [
+        "Anwurf: Samstag, 3 Uhr deutscher Zeit",
+        "Bilanz Lakers: 4 Siege, 1 Niederlage",
+        "Bilanz Warriors: 2 Siege, 3 Niederlagen",
+        "Dončić: 36,0 Punkte pro Spiel"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "GSW",
+        "LAL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Luka Dončić",
+        "Austin Reaves"
+      ]
+    },
+    {
+      "id": "okc-dallas",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-29",
+      "tags": [
+        "fav"
+      ],
+      "titel": "Erste Niederlage für OKC",
+      "teaser": "Nach vier Siegen hat es die Thunder in Dallas erwischt. Vier Stammspieler fehlten.",
+      "text": [
+        "Oklahoma City hatte die ersten vier Spiele der Saison alle gewonnen. In Dallas klappte es nun nicht: Die Thunder verloren mit 96:120.",
+        "OKC fehlten gleich vier wichtige Spieler, unter anderem Jalen Williams und Chet Holmgren. Die beiden waren verletzt und konnten nicht mitspielen.",
+        "Bester Werfer der Thunder war Ajay Mitchell mit 29 Punkten. Shai Gilgeous-Alexander kam auf 21 Punkte. Der Deutsche Isaiah Hartenstein schaffte 10 Punkte und 14 Rebounds, also ein Double-Double.",
+        "Das Problem war der Dreier: OKC traf nur 5 von 32 Versuchen. Dallas traf 16 Dreier. Bei den Mavericks glänzte Cooper Flagg mit 26 Punkten und 8 Assists.",
+        "Mit 4 Siegen und 1 Niederlage steht OKC trotzdem weit oben in der Tabelle. Am Sonntag geht es nach Houston, zum einzigen Team, das noch gar nicht verloren hat."
+      ],
+      "fakten": [
+        "Endstand: Dallas 120, OKC 96",
+        "Bilanz OKC: 4 Siege, 1 Niederlage",
+        "Nächstes Spiel: So 1.11., 01:30 Uhr in Houston"
+      ],
+      "quellen": [
+        "CBS Sports",
+        "ESPN"
+      ],
+      "teams": [
+        "OKC",
+        "DAL"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Ajay Mitchell",
+        "Cooper Flagg",
+        "Jalen Williams",
+        "Chet Holmgren"
+      ]
+    },
+    {
+      "id": "2026-10-29-bayern-belgrad",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Bayern geht in Belgrad unter",
+      "teaser": "73:103 bei Crvena zvezda: Der FC Bayern kassiert in der Euroleague eine deutliche Niederlage.",
+      "text": [
+        "Für den FC Bayern war der Abend in Belgrad sehr bitter. Bei Crvena zvezda verloren die Münchner mit 73:103.",
+        "Nach dem ersten Viertel stand es noch 19:15 für Belgrad, das war knapp. Doch dann zog Crvena zvezda davon. Zur Halbzeit lag Bayern schon mit 31:48 hinten, nach dem dritten Viertel mit 54:79.",
+        "Bester Münchner war Duane Washington mit 16 Punkten. Miles Norris kam auf 14 Punkte und 6 Rebounds, Vladimir Lucic auf 12. Bei Belgrad war Chima Moneke mit 15 Punkten der beste Werfer. Insgesamt trafen sieben Spieler von Crvena zvezda zweistellig.",
+        "In der Euroleague hat Bayern jetzt 2 Siege und 7 Niederlagen. In der Bundesliga läuft es viel besser: Dort sind die Münchner noch ohne Niederlage. Am Sonntag geht es in der BBL nach Rostock."
+      ],
+      "fakten": [
+        "Endstand: Crvena zvezda 103, FC Bayern 73",
+        "Bayern in der Euroleague: 2 Siege, 7 Niederlagen",
+        "Nächstes Euroleague-Spiel: Do 5.11., 20 Uhr in Villeurbanne"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "FCB",
+        "CZV",
+        "ROS",
+        "ASV"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "curry-44",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Steph Curry scores 44 points",
+      "teaser": "Curry led the Golden State Warriors to a win in Minnesota. He did not miss a single free throw.",
+      "text": [
+        "Stephen Curry had a big night in Minnesota. He scored 44 points, and the Golden State Warriors won 119 to 114.",
+        "Curry made 6 three-pointers and all 16 of his free throws. He also had 8 rebounds and 6 assists.",
+        "This was his 46th game with 40 or more points since he turned 30 years old. No other player in NBA history has done that so often.",
+        "Rookie Yaxel Lendeborg helped with 26 points. The Warriors lost their first three games, but now they have won two in a row."
+      ],
+      "fakten": [
+        "Final score: Warriors 119, Timberwolves 114",
+        "Curry: 44 points, 16 of 16 free throws",
+        "Warriors record: 2 wins, 3 losses"
+      ],
+      "vokabeln": [
+        {
+          "en": "to score",
+          "de": "Punkte erzielen"
+        },
+        {
+          "en": "free throw",
+          "de": "Freiwurf"
+        },
+        {
+          "en": "three-pointer",
+          "de": "Dreier"
+        },
+        {
+          "en": "to miss",
+          "de": "verfehlen, danebenwerfen"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "CBS Sports"
+      ],
+      "teams": [
+        "GSW",
+        "MIN"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Yaxel Lendeborg"
+      ]
+    },
+    {
+      "id": "deutsche-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Schwere Nacht für die Deutschen",
+      "teaser": "Franz Wagner, Dennis Schröder und Isaiah Hartenstein spielten gut, verloren aber alle.",
+      "text": [
+        "In der Nacht auf Donnerstag waren gleich mehrere deutsche Spieler im Einsatz. Gewinnen konnte leider keiner von ihnen.",
+        "Franz Wagner verlor mit Orlando deutlich mit 99:129 in Toronto. Er machte 15 Punkte, 4 Rebounds und 5 Assists. Sein deutscher Teamkollege Tristan da Silva war sogar bester Werfer der Magic mit 20 Punkten.",
+        "Dennis Schröder spielt jetzt für die Charlotte Hornets. Es ist schon sein zwölftes NBA-Team! Bei der 89:97-Niederlage in Detroit kam er auf 14 Punkte und 5 Assists.",
+        "Isaiah Hartenstein holte für OKC 10 Punkte und 14 Rebounds. Das war sein zweites Double-Double hintereinander.",
+        "Ein Highlight gab es aber schon vor ein paar Tagen: Franz Wagner war beim Sieg in New York mit 23 Punkten, 13 Rebounds und 9 Assists ganz knapp an einem Triple-Double dran."
+      ],
+      "fakten": [
+        "Orlando verliert 99:129 in Toronto",
+        "Charlotte verliert 89:97 in Detroit",
+        "OKC verliert 96:120 in Dallas"
+      ],
+      "quellen": [
+        "sport1.de",
+        "ESPN"
+      ],
+      "teams": [
+        "ORL",
+        "TOR",
+        "CHA",
+        "DET",
+        "OKC",
+        "NYK"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Dennis Schröder",
+        "Isaiah Hartenstein"
+      ]
+    },
+    {
+      "id": "jokic-200",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "pokal",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Jokić gets triple-double number 200",
+      "teaser": "The Denver star reached a number that only one other player in history has reached.",
+      "text": [
+        "Nikola Jokić from Serbia plays for the Denver Nuggets. Against New Orleans he had 21 points, 13 rebounds and 10 assists. That is a triple-double.",
+        "It was the 200th triple-double of his career. Only Russell Westbrook has more. Westbrook is just 10 ahead of Jokić.",
+        "Denver won the game 104 to 91."
+      ],
+      "fakten": [
+        "Jokić: 21 points, 13 rebounds, 10 assists",
+        "200 triple-doubles in 814 games",
+        "Nuggets 104, Pelicans 91"
+      ],
+      "vokabeln": [
+        {
+          "en": "career",
+          "de": "Karriere, Laufbahn"
+        },
+        {
+          "en": "ahead of",
+          "de": "vor (jemandem)"
+        },
+        {
+          "en": "to reach",
+          "de": "erreichen"
+        }
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "DEN",
+        "NOP"
+      ],
+      "spieler": [
+        "Nikola Jokić"
+      ]
+    },
+    {
       "id": "giannis-miami",
       "liga": "NBA",
       "lang": "de",
