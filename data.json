@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-10-31T06:20:58+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen! In der Nacht hat Stephen Curry mit Golden State einen Rückstand von 23 Punkten gegen die Lakers aufgeholt. Franz Wagner führte Orlando mit 26 Punkten und 11 Assists zum Sieg in Toronto. Am Sonntag spielt ALBA in Bonn und der FC Bayern in Rostock. Viel Spaß beim Lesen!",
+  "aktualisiert": "2026-10-31T16:17:05+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo und happy Halloween! Heute Abend spielt Ulm gegen Oldenburg und Braunschweig gegen Würzburg. In der Nacht trifft Dennis Schröder mit Charlotte auf LeBron James und die 76ers, und um 01:30 Uhr spielt Oklahoma City mit Shai Gilgeous-Alexander und Isaiah Hartenstein in Houston. Am Sonntag ist ALBA in Bonn gefordert, der FC Bayern spielt in Rostock.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-10-31",
   "zahlDesTages": {
-    "zahl": "23",
-    "text": "Mit so vielen Punkten lagen die Golden State Warriors nach dem ersten Viertel gegen die Lakers hinten (15:38). Am Ende gewannen sie trotzdem 112:95."
+    "zahl": "5:0 gegen 0:5",
+    "text": "Memphis hat alle fünf Spiele gewonnen, Sacramento alle fünf verloren. In der Halloween-Nacht treffen die beiden Teams aufeinander."
   },
   "spielerDerWoche": {
     "name": "Brandon Angel",
@@ -17,6 +17,72 @@
     "text": "Beim 103:100 von ALBA gegen Bilbao traf er alle 10 Würfe aus dem Feld und machte 24 Punkte. Perfekter geht es kaum!"
   },
   "news": [
+    {
+      "id": "2026-10-31-halloween-night",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "ball",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Halloween night: 5-0 against 0-5",
+      "teaser": "Tonight Memphis has won all five games. Their opponent Sacramento has lost all five. And Dennis Schröder plays against the strong 76ers.",
+      "text": [
+        "There are seven NBA games on Halloween night. One game is very special. The Memphis Grizzlies have 5 wins and 0 losses. The Sacramento Kings have 0 wins and 5 losses. Who will win?",
+        "Memphis has a young star. Rookie Cameron Boozer gets 10.8 rebounds per game. Two days ago he got his first triple-double. Ty Jerome scores 25.8 points per game. For Sacramento, Domantas Sabonis gets 16.2 rebounds per game. That is a lot!",
+        "Dennis Schröder and the Charlotte Hornets play at home against the Philadelphia 76ers. Philadelphia has 5 wins and 1 loss. Tyrese Maxey scores 28.2 points per game. LeBron James and Joel Embiid also play for the 76ers. The game starts at 23:00 German time.",
+        "The last game of the night is the big one: Oklahoma City plays in Houston at 01:30. Shai Gilgeous-Alexander and Isaiah Hartenstein want to stop the Rockets."
+      ],
+      "fakten": [
+        "Memphis: 5 wins, 0 losses",
+        "Sacramento: 0 wins, 5 losses",
+        "Charlotte vs. Philadelphia: 23:00 Uhr",
+        "OKC in Houston: 01:30 Uhr"
+      ],
+      "vokabeln": [
+        {
+          "en": "win",
+          "de": "Sieg"
+        },
+        {
+          "en": "loss",
+          "de": "Niederlage"
+        },
+        {
+          "en": "rookie",
+          "de": "Neuling im ersten NBA-Jahr"
+        },
+        {
+          "en": "per game",
+          "de": "pro Spiel"
+        },
+        {
+          "en": "opponent",
+          "de": "Gegner"
+        }
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "MEM",
+        "SAC",
+        "CHA",
+        "PHI",
+        "OKC",
+        "HOU"
+      ],
+      "spieler": [
+        "Cameron Boozer",
+        "Ty Jerome",
+        "Domantas Sabonis",
+        "Dennis Schröder",
+        "Tyrese Maxey",
+        "LeBron James",
+        "Joel Embiid",
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein"
+      ]
+    },
     {
       "id": "2026-10-31-warriors-lakers",
       "liga": "NBA",
@@ -2578,10 +2644,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 4,
-        "pkt": 28.8,
+        "spiele": 5,
+        "pkt": 29.2,
         "reb": 3.8,
-        "ast": 3.5
+        "ast": 4.0
       },
       "notiz": "Der beste Dreierschütze der Geschichte. Gerade erst 44 Punkte gegen Minnesota."
     },
@@ -2593,10 +2659,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 4,
-        "pkt": 19.5,
-        "reb": 7.3,
-        "ast": 6.0
+        "spiele": 5,
+        "pkt": 20.8,
+        "reb": 6.8,
+        "ast": 7.0
       },
       "notiz": "Kommt aus Berlin und hat früher bei ALBA gespielt."
     },
@@ -2607,10 +2673,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 4,
-        "pkt": 10.3,
-        "reb": 2.8,
-        "ast": 1.5
+        "spiele": 5,
+        "pkt": 11.4,
+        "reb": 3.8,
+        "ast": 1.4
       },
       "notiz": "Der große Bruder von Franz. Seit Juli spielt er für die Brooklyn Nets."
     },
@@ -2621,10 +2687,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 5,
-        "pkt": 14.0,
-        "reb": 4.0,
-        "ast": 4.8
+        "spiele": 6,
+        "pkt": 13.0,
+        "reb": 3.7,
+        "ast": 5.3
       },
       "notiz": "Kapitän der Nationalmannschaft. Charlotte ist sein zwölftes NBA-Team."
     },
@@ -2649,10 +2715,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 4,
-        "pkt": 14.5,
-        "reb": 2.5,
-        "ast": 1.8
+        "spiele": 5,
+        "pkt": 13.2,
+        "reb": 2.0,
+        "ast": 1.4
       },
       "notiz": "Teamkollege von Franz Wagner in Orlando."
     },
@@ -2662,9 +2728,9 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 1,
-        "pkt": 6.0,
-        "reb": 5.0,
+        "spiele": 2,
+        "pkt": 3.0,
+        "reb": 2.5,
         "ast": 0.0
       },
       "notiz": "Rookie aus Würzburg. Er wurde im Draft an Nummer 14 ausgewählt."
@@ -2675,10 +2741,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 4,
-        "pkt": 15.5,
-        "reb": 6.5,
-        "ast": 6.8
+        "spiele": 5,
+        "pkt": 16.4,
+        "reb": 7.0,
+        "ast": 7.0
       },
       "notiz": "Der beste Punktesammler der NBA-Geschichte. Seit dieser Saison spielt er für die Philadelphia 76ers."
     },
@@ -2688,10 +2754,10 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 5,
-        "pkt": 25.8,
-        "reb": 2.4,
-        "ast": 5.0
+        "spiele": 6,
+        "pkt": 25.5,
+        "reb": 2.8,
+        "ast": 5.2
       },
       "notiz": "Der Anführer der Knicks. Beim Sieg in Chicago machte er gerade 38 Punkte."
     },
@@ -2701,10 +2767,10 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 4,
-        "pkt": 36.0,
+        "spiele": 5,
+        "pkt": 36.2,
         "reb": 6.8,
-        "ast": 8.3
+        "ast": 7.6
       },
       "notiz": "Macht im Moment die meisten Punkte pro Spiel in der ganzen NBA."
     },
@@ -2727,10 +2793,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 4,
-        "pkt": 22.0,
-        "reb": 10.5,
-        "ast": 9.0
+        "spiele": 5,
+        "pkt": 21.2,
+        "reb": 9.8,
+        "ast": 9.2
       },
       "notiz": "Hat schon 200 Triple-Doubles geschafft. Nur Russell Westbrook hat mehr."
     },
