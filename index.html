@@ -228,6 +228,22 @@ button.game { text-align: left; border: 0; width: 100%; }
 /* Spielfeld-Skizze */
 .feld { margin: 4px 0; max-width: 420px; }
 .feld svg { width: 100%; height: auto; display: block; border-radius: 14px; }
+.pos-karte { padding: 14px; display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); }
+@media (min-width: 760px) { .pos-karte { grid-template-columns: 300px 1fr; align-items: start; } }
+.pos-karte .feld { margin: 0 auto; width: 100%; max-width: 250px; }
+.pos-karte .feld figcaption { display: none; }
+.pos-liste { display: grid; gap: 8px; }
+.pos-btn { display: grid; grid-template-columns: auto 1fr auto; gap: 12px; align-items: center; width: 100%; text-align: left; font: inherit; color: var(--ink); background: var(--surface-2); border: 0; border-radius: 14px; padding: 10px 12px; cursor: pointer; }
+.pos-btn b { font-size: 17px; }
+.pos-btn small { display: block; font-size: 11.5px; font-weight: 800; color: var(--ink-soft); text-transform: uppercase; letter-spacing: .4px; }
+.pos-btn em { display: block; font-style: normal; font-size: 14px; color: var(--ink-soft); line-height: 1.3; margin-top: 2px; }
+.pos-nr { width: 36px; height: 36px; border-radius: 50%; display: grid; place-items: center; background: var(--orange); color: #fff; font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 22px; }
+.pos-pfeil { font-size: 28px; font-weight: 800; color: var(--orange-ink); }
+.reader article > .feld { max-width: 300px; margin-left: auto; margin-right: auto; }
+.pos-aufgaben { margin: 0; padding-left: 22px; display: grid; gap: 6px; }
+.pos-aufgaben li::marker { color: var(--orange-ink); }
+.pos-weiter { display: flex; justify-content: space-between; gap: 10px; margin-top: 18px; flex-wrap: wrap; }
+.btn.hell { background: var(--surface-2); color: var(--ink); }
 .f-boden { fill: color-mix(in srgb, var(--court) 30%, var(--surface)); stroke: none; }
 .f-linie * { fill: none; stroke: color-mix(in srgb, var(--ink) 55%, transparent); stroke-width: .7; }
 .feld line { stroke: var(--ink); stroke-width: .9; stroke-linecap: round; }
@@ -707,10 +723,69 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       '<rect x="0.5" y="0.5" width="99" height="93" class="f-boden"/><g class="f-linie"><rect x="33.7" y="0.5" width="32.6" height="38.2"/><circle cx="50" cy="38.7" r="12"/><path d="M6 0.5V20A45 45 0 0 0 94 20V0.5"/><line x1="44" y1="8" x2="56" y2="8"/><circle cx="50" cy="10.5" r="3"/><path d="M38 93.5A12 12 0 0 1 62 93.5"/></g>' +
       pfeile + spieler + ball + "</svg>" + (leg.length ? "<figcaption>" + leg.join("") + "</figcaption>" : "") + "</figure>";
   }
+  /* Die 5 Positionen (Tab „Training“, über der Übung der Woche). Feste Inhalte, die Update-Routine ändert sie nicht.
+     sk = Ort auf dem halben Feld wie bei den Übungs-Skizzen (x 0–100 quer, y 0–94 ab Grundlinie). */
+  const POSITIONEN = [
+    { nr: 1, name: "Aufbauspieler", en: "Point Guard", kurz: "Der Spielmacher: bringt den Ball nach vorne und sagt die Spielzüge an.",
+      text: "Der Aufbauspieler ist so etwas wie der Kapitän auf dem Feld. Er hat am häufigsten den Ball, bringt ihn nach vorne und entscheidet, welcher Spielzug gespielt wird. Oft ist er einer der kleineren und schnellsten Spieler im Team.",
+      angriff: ["Den Ball sicher über das Feld bringen, auch wenn der Gegner Druck macht", "Den Spielzug ansagen und die Mitspieler an ihre Plätze schicken", "Den freien Mitspieler sehen und ihm den Ball passen (Assist)", "Das Tempo bestimmen: Schnellangriff oder ruhig aufbauen", "Selbst werfen oder zum Korb ziehen, wenn der Weg frei ist"],
+      verteidigung: ["Den gegnerischen Aufbauspieler früh unter Druck setzen", "Laut reden: „Block links!“, „Ich hab ihn!“", "Nach einem Ballverlust als Erster zurücklaufen"],
+      koennen: ["Dribbeln mit links und rechts, ohne auf den Ball zu schauen", "Kopf hoch: das ganze Feld im Blick haben", "Genaue Pässe (Druckpass, Bodenpass)", "Ruhe bewahren, auch wenn es eng wird"],
+      vorbilder: ["Stephen Curry", "Dennis Schröder", "Jalen Brunson"],
+      sk: { spieler: [{ x: 50, y: 66, team: "a", label: "1" }], ball: { x: 53, y: 69 }, pfeile: [{ von: [50, 80], nach: [50, 70], art: "dribbel" }, { von: [52, 62], nach: [78, 42], art: "pass" }] } },
+    { nr: 2, name: "Shooting Guard", en: "Shooting Guard", kurz: "Der Scharfschütze: punktet von außen, oft mit Dreiern.",
+      text: "Der Shooting Guard (auf Deutsch manchmal „Werfer“ oder einfach „die Zwei“) ist der beste Distanzwerfer im Team. Er spielt meistens außen auf dem Flügel und läuft sich ohne Ball frei, damit er den Wurf bekommt.",
+      angriff: ["Sich ohne Ball freilaufen, zum Beispiel um einen Block herum", "Dreier und Würfe aus der Mitteldistanz nehmen", "Beim Schnellangriff an der Seite mitlaufen und abschließen", "Den Aufbauspieler entlasten und auch mal den Ball nach vorne bringen"],
+      verteidigung: ["Den besten Werfer des Gegners verteidigen", "Passwege stören und Bälle abfangen (Steal)", "Beim Wurf des Gegners die Hand hoch"],
+      koennen: ["Saubere Wurftechnik (BEEF: Balance, Eyes, Elbow, Follow through)", "Schnell fangen und sofort werfen", "Laufen ohne Ball und Richtungswechsel", "Korbleger mit beiden Händen"],
+      vorbilder: ["Anthony Edwards", "Devin Booker", "Klay Thompson"],
+      sk: { spieler: [{ x: 84, y: 36, team: "a", label: "2" }], ball: null, pfeile: [{ von: [70, 22], nach: [84, 34], art: "lauf" }] } },
+    { nr: 3, name: "Flügelspieler", en: "Small Forward", kurz: "Der Allrounder: kann werfen, dribbeln, zum Korb ziehen und verteidigen.",
+      text: "Der Flügelspieler spielt meistens auf der Seite des Feldes, auf dem „Flügel“. Er ist größer als die Guards, aber beweglicher als die großen Spieler. Darum muss er von allem etwas können: werfen, dribbeln, zum Korb ziehen und gut verteidigen.",
+      angriff: ["Mit dem Ball zum Korb ziehen (Drive) und abschließen", "Von außen werfen, wenn der Verteidiger zu weit weg steht", "Im Schnellangriff mitlaufen", "Rebounds holen, besonders bei Würfen von der anderen Seite"],
+      verteidigung: ["Gegen ganz verschiedene Gegenspieler verteidigen: kleine und große", "Mitspielern helfen, wenn jemand vorbeigezogen ist", "Ausboxen und Rebounds holen"],
+      koennen: ["Dribbeln, Werfen und Korbleger auf beiden Seiten", "Erster Schritt: schnell am Verteidiger vorbei", "Gute Ausdauer, denn er läuft viel", "Verteidigungsstellung und seitliche Schritte (Slides)"],
+      vorbilder: ["LeBron James", "Franz Wagner", "Jayson Tatum"],
+      sk: { spieler: [{ x: 16, y: 38, team: "a", label: "3" }], ball: { x: 19, y: 41 }, pfeile: [{ von: [18, 34], nach: [40, 14], art: "dribbel" }] } },
+    { nr: 4, name: "Power Forward", en: "Power Forward", kurz: "Der starke Flügel: kräftig unter dem Korb, mit Wurf aus der Mitteldistanz.",
+      text: "Der Power Forward (auf Deutsch auch „großer Flügel“ oder „die Vier“) ist groß und kräftig. Er spielt oft in der Nähe der Zone, stellt Blöcke für seine Mitspieler und holt Rebounds. Viele Vierer können heute auch von außen werfen.",
+      angriff: ["Blöcke für die Guards stellen und danach zum Korb abrollen oder zum Wurf rausgehen (Pick and Roll, Pick and Pop)", "Nah am Korb punkten, auch mit Körperkontakt", "Offensiv-Rebounds holen und den Ball gleich wieder reinlegen", "Würfe aus der Mitteldistanz oder sogar Dreier"],
+      verteidigung: ["Große, starke Gegenspieler verteidigen", "Konsequent ausboxen und den Rebound sichern", "Am Korb helfen, wenn ein Gegner durchbricht"],
+      koennen: ["Ausboxen und Rebound", "Einen guten Block stellen, ohne zu foulen", "Fußarbeit: Sternschritt unter dem Korb", "Sicherer Wurf aus der Mitteldistanz"],
+      vorbilder: ["Giannis Antetokounmpo", "Paolo Banchero", "Dirk Nowitzki (Legende)"],
+      sk: { spieler: [{ x: 70, y: 30, team: "a", label: "4" }], ball: null, pfeile: [{ von: [70, 30], nach: [56, 46], art: "lauf" }, { von: [56, 46], nach: [56, 16], art: "lauf" }] } },
+    { nr: 5, name: "Center", en: "Center", kurz: "Der Große unter dem Korb: holt Rebounds, blockt Würfe und punktet nah am Korb.",
+      text: "Der Center ist meistens der größte Spieler im Team. Er spielt nah am Korb, in und um die Zone. In der Verteidigung beschützt er den Korb, im Angriff bietet er sich mit dem Rücken zum Korb an. Manche Center, wie Nikola Jokić, sind auch richtig gute Passgeber.",
+      angriff: ["Sich unter dem Korb anbieten (Low Post) und den Ball fordern", "Mit dem Rücken zum Korb spielen: drehen, Hakenwurf, Korbleger", "Blöcke stellen und danach zum Korb abrollen", "Offensiv-Rebounds holen", "Den Ball zum freien Mitspieler passen, wenn zwei Gegner kommen"],
+      verteidigung: ["Den Korb beschützen und Würfe blocken, ohne zu foulen", "Jeden Rebound sichern", "Den Mitspielern von hinten sagen, was passiert – der Center sieht alles"],
+      koennen: ["Ausboxen und Rebound mit beiden Händen", "Fußarbeit und Sternschritt", "Korbleger und Hakenwurf mit links und rechts", "Gutes Timing beim Springen"],
+      vorbilder: ["Nikola Jokić", "Victor Wembanyama", "Daniel Theis"],
+      sk: { spieler: [{ x: 60, y: 14, team: "a", label: "5" }], ball: null, pfeile: [{ von: [74, 20], nach: [62, 15], art: "lauf" }] } }
+  ];
+  function positionenHtml() {
+    const alle = { spieler: [{ x: 50, y: 66, team: "a", label: "1" }, { x: 84, y: 36, team: "a", label: "2" }, { x: 16, y: 38, team: "a", label: "3" }, { x: 70, y: 30, team: "a", label: "4" }, { x: 40, y: 14, team: "a", label: "5" }] };
+    return '<section class="sec"><div class="sec-h"><h2>Die Positionen</h2><p>Wer macht was auf dem Feld? Tippe auf eine Position.</p></div><div class="card pos-karte">' + feld(alle) +
+      '<div class="pos-liste">' + POSITIONEN.map((p, i) => '<button class="pos-btn" data-pos="' + i + '"><span class="pos-nr">' + p.nr + "</span><span><b>" + esc(p.name) + "</b>" + (p.en !== p.name ? "<small>" + esc(p.en) + "</small>" : "") + "<em>" + esc(p.kurz) + '</em></span><span class="pos-pfeil">›</span></button>').join("") + "</div></div></section>";
+  }
+  function openPos(i, modus) {
+    const p = POSITIONEN[i]; if (!p) return;
+    if (modus !== "zurueck") merken({ ov: { pos: i } }, modus === "ersetzen");
+    const liste = (titel, l) => '<h2 class="potw-h">' + titel + '</h2><ul class="pos-aufgaben">' + l.map(x => "<li>" + linkTerms(x) + "</li>").join("") + "</ul>";
+    $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="Position ' + p.nr + ": " + esc(p.name) + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      '<div class="meta"><span class="pill">Position ' + p.nr + "</span>" + (p.en !== p.name ? '<span class="pill en">' + esc(p.en) + "</span>" : "") + "</div><h1>" + esc(p.name) + '</h1><p class="teaser">' + esc(p.kurz) + "</p>" + feld(p.sk) +
+      '<div class="body"><p>' + linkTerms(p.text) + "</p></div>" +
+      liste("Deine Aufgaben im Angriff", p.angriff) + liste("Deine Aufgaben in der Verteidigung", p.verteidigung) + liste("Das solltest du gut können", p.koennen) +
+      '<div class="facts"><h4>Vorbilder auf dieser Position</h4><ul>' + p.vorbilder.map(v => "<li>" + esc(v) + "</li>").join("") + "</ul></div>" +
+      '<p class="expl">Gut zu wissen: Heute sind die Positionen nicht mehr so streng getrennt. Viele Profis können mehrere Positionen spielen. Gerade in der Jugend ist es gut, alles einmal auszuprobieren – so wirst du ein kompletter Spieler.</p>' +
+      '<div class="pos-weiter">' + (i > 0 ? '<button class="btn hell" data-pos="' + (i - 1) + '" data-pos-ersetzen>‹ ' + esc(POSITIONEN[i - 1].name) + "</button>" : "<span></span>") + (i < POSITIONEN.length - 1 ? '<button class="btn hell" data-pos="' + (i + 1) + '" data-pos-ersetzen>' + esc(POSITIONEN[i + 1].name) + " ›</button>" : "") + "</div></article></div>";
+    document.body.style.overflow = "hidden";
+    const r = $(".reader"); if (r) r.scrollTop = 0;
+    $("[data-close]").focus();
+  }
   // Training: training[0] ist die Übung der Woche, die übrigen sind frühere Übungen
   function vTraining() {
     const T = D.training || [];
-    if (!T.length) return '<div class="view"><div class="card empty">Die erste Übung kommt bald. Schau wieder vorbei!</div></div>';
+    if (!T.length) return '<div class="view">' + positionenHtml() + '<div class="card empty">Die erste Übung kommt bald. Schau wieder vorbei!</div></div>';
     const uebung = (t, voll) => '<div class="card uebung">' +
       '<div class="meta">' + [t.ort, t.dauer, t.material].filter(Boolean).map(x => '<span class="pill">' + esc(x) + "</span>").join("") + "</div>" +
       "<h3>" + esc(t.titel) + "</h3>" + (t.ziel ? '<p class="teaser">' + esc(t.ziel) + "</p>" : "") + feld(t.skizze) +
@@ -718,7 +793,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       (t.stufen ? "<h4>Wähle deine Stufe</h4><div class=\"stufen\">" + [["leicht", "Leicht"], ["mittel", "Mittel"], ["schwer", "Schwer"]].filter(s => t.stufen[s[0]]).map(s => '<div class="stufe ' + s[0] + '"><b>' + s[1] + "</b><span>" + esc(t.stufen[s[0]]) + "</span></div>").join("") + "</div>" : "") +
       ((t.fehler || []).length ? '<h4>Typische Fehler</h4><ul class="fehler">' + t.fehler.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul>" : "") +
       (t.profi ? '<p class="expl">' + esc(t.profi.text) + (t.profi.newsId && allNews().some(n => n.id === t.profi.newsId) ? ' <button class="link" data-news="' + esc(t.profi.newsId) + '">Zum Artikel</button>' : "") + "</p>" : "") + "</div>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Übung der Woche</h2><p>Zum Nachmachen zuhause oder auf dem Freiplatz</p></div>' + uebung(T[0], true) + "</section>" +
+    return '<div class="view">' + positionenHtml() + '<section class="sec"><div class="sec-h"><h2>Übung der Woche</h2><p>Zum Nachmachen zuhause oder auf dem Freiplatz</p></div>' + uebung(T[0], true) + "</section>" +
       (T.length > 1 ? '<section class="sec"><div class="sec-h"><h2>Frühere Übungen</h2></div>' + T.slice(1).map(t => '<details class="card frueher"><summary>' + esc(t.titel) + "</summary>" + uebung(t) + "</details>").join("") + "</section>" : "") + "</div>";
   }
   // Schiri-Situation des Tages: eine Spielsituation, die man selbst entscheidet
@@ -1225,6 +1300,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.hasAttribute("data-potw")) openPotw();
+    else if (b.dataset.pos != null) openPos(Number(b.dataset.pos), b.hasAttribute("data-pos-ersetzen") ? "ersetzen" : undefined);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
     else if (b.hasAttribute("data-gstart")) gameStart(b.dataset.gstart);
     else if (b.hasAttribute("data-close")) closeNews();
@@ -1272,7 +1348,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const s = $(".sheet"); if (s) s.remove();
     if (!st.ov) overlayZu();
     if (st.tab !== current || st.liga !== ligaSel) { ligaSel = st.liga || ligaSel; go(st.tab, "zurueck"); }
-    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); }
+    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); }
     else window.scrollTo(0, st.y || 0);
   });
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";
