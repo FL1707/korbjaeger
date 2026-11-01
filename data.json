@@ -116,6 +116,122 @@
       ]
     }
   },
+  "comic": {
+    "datum": "2026-11-01",
+    "liga": "NBA",
+    "heim": "SAS",
+    "gast": "MIN",
+    "newsId": "2026-11-01-wemby-43",
+    "titel": "Wembys 43-Punkte-Show",
+    "untertitel": "San Antonio Spurs gegen Minnesota Timberwolves · Samstag, 31. Oktober",
+    "bilder": [
+      {
+        "szene": "halle",
+        "breit": true,
+        "text": "Samstagabend in San Antonio. Die Spurs empfangen die Minnesota Timberwolves.",
+        "anzeige": {
+          "info": "GLEICH GEHT'S LOS"
+        }
+      },
+      {
+        "szene": "lauf",
+        "spieler": {
+          "name": "Minnesota",
+          "team": "MIN"
+        },
+        "text": "Minnesota fehlen zwei Stars. Trotzdem legen die Timberwolves im zweiten Viertel richtig los …",
+        "sfx": "16:0!"
+      },
+      {
+        "szene": "anzeige",
+        "text": "… mit einem 16:0-Lauf! Plötzlich führt Minnesota.",
+        "anzeige": {
+          "info": "2. VIERTEL · MIN FÜHRT"
+        }
+      },
+      {
+        "szene": "wurf",
+        "spieler": {
+          "name": "Victor Wembanyama",
+          "team": "SAS",
+          "nr": 1
+        },
+        "text": "Aber die Spurs haben Victor Wembanyama. 2,24 Meter groß – und heute nicht zu stoppen.",
+        "sfx": "SWISH!"
+      },
+      {
+        "szene": "block",
+        "spieler": {
+          "name": "Victor Wembanyama",
+          "team": "SAS",
+          "nr": 1
+        },
+        "text": "Auch hinten ist er überall: Ein Gegner wirft einen Dreier – Wemby blockt ihn!",
+        "sfx": "ZACK!"
+      },
+      {
+        "szene": "dribbel",
+        "spieler": {
+          "name": "Victor Wembanyama",
+          "team": "SAS",
+          "nr": 1
+        },
+        "gegner": "MIN",
+        "text": "Er schnappt sich den Ball und rennt übers ganze Feld …"
+      },
+      {
+        "szene": "dunk",
+        "spieler": {
+          "name": "Victor Wembanyama",
+          "team": "SAS",
+          "nr": 1
+        },
+        "text": "… und stopft ihn mit voller Wucht in den Korb!",
+        "sfx": "BAMM!"
+      },
+      {
+        "szene": "jubel",
+        "breit": true,
+        "spieler": {
+          "name": "Spurs",
+          "team": "SAS"
+        },
+        "text": "Nach der Pause ziehen die Spurs davon. Auch Dylan Harper (25 Punkte) und De'Aaron Fox (22) treffen.",
+        "sprech": {
+          "wer": "Fans",
+          "text": "WEM-BY! WEM-BY!"
+        }
+      },
+      {
+        "szene": "zahl",
+        "zahl": 43,
+        "label": "PUNKTE",
+        "spieler": {
+          "team": "SAS"
+        },
+        "text": "Wembys Bilanz: 43 Punkte, 7 Rebounds und 6 Blocks. Sein bester Wert in dieser Saison!"
+      },
+      {
+        "szene": "zahl",
+        "zahl": 34,
+        "label": "WÜRFE",
+        "spieler": {
+          "team": "SAS"
+        },
+        "text": "34 Würfe hat er genommen – so viele wie noch nie in einem Spiel."
+      },
+      {
+        "szene": "anzeige",
+        "breit": true,
+        "text": "Endstand 121:111 für San Antonio. Der vierte Sieg in Folge!",
+        "anzeige": {
+          "heim": 121,
+          "gast": 111,
+          "info": "ENDSTAND"
+        }
+      }
+    ]
+  },
   "news": [
     {
       "id": "2026-11-01-thunder-rockets",

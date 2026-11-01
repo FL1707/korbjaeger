@@ -228,6 +228,34 @@ button.game { text-align: left; border: 0; width: 100%; }
 /* Spielfeld-Skizze */
 .feld { margin: 4px 0; max-width: 420px; }
 .feld svg { width: 100%; height: auto; display: block; border-radius: 14px; }
+.comic-btn { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; width: 100%; margin: 12px 0 4px; padding: 12px 16px; text-align: left; font: inherit; color: #1A1A1A; cursor: pointer;
+  background: radial-gradient(circle, rgba(226,59,59,.35) 1.2px, transparent 1.5px) 0 0 / 7px 7px, #FFD54F; border: 3px solid #1A1A1A; border-radius: 14px; box-shadow: 5px 5px 0 #1A1A1A; }
+.comic-btn:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 #1A1A1A; }
+.comic-btn b { display: block; font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 26px; line-height: 1; text-transform: uppercase; }
+.comic-btn em { display: block; font-style: normal; font-weight: 700; font-size: 15px; margin-top: 2px; }
+.comic-btn .pos-pfeil { color: #1A1A1A; }
+.comic-btn-bum { font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 22px; color: #fff; background: #E23B3B; border: 3px solid #1A1A1A; padding: 8px 6px; transform: rotate(-8deg); clip-path: polygon(50% 0, 62% 18%, 85% 8%, 80% 32%, 100% 42%, 82% 58%, 94% 82%, 68% 76%, 56% 100%, 44% 78%, 18% 92%, 22% 66%, 0 52%, 20% 38%, 10% 12%, 36% 20%); }
+.comic-leser { background: #FFF6E0; color: #1A1A1A; }
+.comic-leser .reader-bar { background: #1A1A1A; }
+.comic-leser article { max-width: 880px; }
+.comic-leser .src { color: #5B5B5B; }
+.c-titel { position: relative; padding: 18px 16px 16px; margin-bottom: 14px; border: 3px solid #1A1A1A; box-shadow: 5px 5px 0 #1A1A1A; background: radial-gradient(circle, rgba(255,122,26,.45) 1.3px, transparent 1.6px) 0 0 / 7px 7px, #FFD54F; }
+.c-titel h1 { font-size: clamp(34px, 9vw, 54px); font-style: italic; font-weight: 800; text-transform: uppercase; color: #1A1A1A; -webkit-text-stroke: 0; text-shadow: 3px 3px 0 #fff; margin: 4px 0; }
+.c-titel p { margin: 0; font-weight: 800; }
+.c-marke { display: inline-block; background: #E23B3B; color: #fff; font-weight: 800; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 8px; border: 2px solid #1A1A1A; transform: rotate(-2deg); }
+.c-teams { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
+.c-teams b { font-family: var(--font-display); font-style: italic; font-size: 22px; }
+.c-heft { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+@media (min-width: 760px) { .c-heft { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; } }
+.c-bild { margin: 0; position: relative; background: #fff; border: 3px solid #1A1A1A; display: flex; flex-direction: column; }
+.c-bild.breit { grid-column: 1 / -1; }
+.c-bild svg { display: block; width: 100%; height: auto; font-family: var(--font-body, system-ui), sans-serif; }
+.c-bild.breit svg { max-height: 320px; }
+.c-text { background: #FFD54F; border-bottom: 3px solid #1A1A1A; padding: 6px 8px; font-size: 13.5px; font-weight: 700; line-height: 1.3; color: #1A1A1A; }
+.c-wer { position: absolute; right: 6px; bottom: 4px; font-size: 10px; font-weight: 800; color: #1A1A1A; background: #fff; padding: 0 4px; border: 1.5px solid #1A1A1A; }
+.c-sfx { font-family: var(--font-display); font-style: italic; font-weight: 800; fill: #FFD54F; stroke: #1A1A1A; stroke-width: 1.6px; paint-order: stroke; letter-spacing: .5px; }
+.c-zahl { font-family: var(--font-display); font-style: italic; font-weight: 800; fill: #fff; stroke: #1A1A1A; stroke-width: 2.4px; paint-order: stroke; }
+.c-led { font-family: var(--font-display); font-weight: 800; fill: #FF7A1A; }
 .pos-karte { padding: 14px; display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 760px) { .pos-karte { grid-template-columns: 300px 1fr; align-items: start; } }
 .pos-karte .feld { margin: 0 auto; width: 100%; max-width: 250px; }
@@ -574,6 +602,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const potw = D.spielerDerWoche;
     return '<div class="view">' +
       '<p class="hello">' + esc(D.gruss || "Hallo Basketball-Fan!") + "</p>" +
+      (D.comic && (D.comic.bilder || []).length ? '<button class="comic-btn" data-comic><span class="comic-btn-bum">POW!</span><span><b>Comic des Tages</b><em>' + esc(D.comic.titel) + '</em></span><span class="pos-pfeil">›</span></button>' : "") +
       '<div class="hero-row"><div class="zahl"><span class="lbl">Zahl des Tages</span><span class="big">' + esc(z.zahl) + "</span><p>" + esc(z.text) + "</p>" + '<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle r="55" fill="none" stroke="#fff" stroke-width="6"/><path d="M-55 0H55M0-55V55M-36-42c28 25 28 59 0 84M36-42c-28 25-28 59 0 84" stroke="#fff" stroke-width="5" fill="none"/></svg></div>' +
       '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (favT.length ? '<div class="card fav-list">' + favT.map(k => '<div class="fav-team">' + badge(k, true) + "<span>" + esc(team(k).name) + "</span>" + starBtn("data-fav-team", k, true, team(k).name) + "</div>").join("") + "</div>" : '<div class="card next-card">Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.</div>') + "</div></div>" +
       (potw ? '<section class="sec"><button class="card potw" data-potw><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + '</p>' + (potw.profil ? '<span class="potw-mehr">Mehr über ' + esc(potw.name.split(" ")[0]) + " →</span>" : "") + "</div></button></section>" : "") +
@@ -1272,6 +1301,126 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     document.body.style.overflow = "hidden";
     $("[data-close]").focus();
   }
+  /* Comic des Tages – eigener Stil „Korbjäger-Comic“: Spieler als Silhouetten in Vereinsfarben (keine echten Gesichter),
+     dicke Tusche-Konturen, Rasterpunkte, Speed-Lines, gelbe Erzählkästen und Lautwörter. Die Update-Routine liefert nur
+     die Geschichte als Daten (data.json → comic), gezeichnet wird alles hier.
+     comic = { datum, titel, untertitel, liga, heim, gast, newsId?, bilder: [{ szene, text, sfx?, sprech?: { wer, text },
+       spieler?: { name, team, nr? }, gegner?: Team-Schlüssel, zahl?, label?, anzeige?: { heim?, gast?, info }, breit? }] }
+     Szenen: titel, halle, anzeige, wurf, dunk, block, lauf, jubel, zahl */
+  const TUSCHE = "#1A1A1A", PAPIER = "#FFF6E0";
+  function comicFigur(x, y, s, pose, c1, c2, nr, spiegeln) {
+    // Gelenkpunkte relativ zu den Füßen (y nach oben negativ); pro Pose Arme [Schulter→Hand] und Beine [Hüfte→Fuß]
+    const P = {
+      stehen: { h: 0, a: [[-5, -29, -7, -17], [5, -29, 7, -17]], b: [[-3, -16, -4, 0], [3, -16, 4, 0]] },
+      wurf: { h: -5, a: [[-4, -29, -2, -44], [4, -29, 3, -45]], b: [[-3, -16, -3, 0], [3, -16, 3, 0]], ball: [1, -49] },
+      dunk: { h: -16, a: [[-4, -29, -10, -21], [4, -29, 9, -46]], b: [[-3, -16, -7, -5], [3, -16, 6, -3]], ball: [10, -49] },
+      lauf: { h: 0, a: [[-4, -29, -11, -23], [4, -29, 9, -35]], b: [[-3, -16, -10, -2], [3, -16, 8, -1]] },
+      dribbel: { h: 0, a: [[-4, -29, -11, -23], [4, -29, 10, -17]], b: [[-3, -16, -10, -2], [3, -16, 8, -1]], ball: [12, -6] },
+      block: { h: -7, a: [[-4, -29, -8, -19], [4, -29, 12, -45]], b: [[-3, -16, -6, -1], [3, -16, 5, 0]] },
+      jubel: { h: -4, a: [[-4, -29, -12, -43], [4, -29, 12, -43]], b: [[-3, -16, -7, 0], [3, -16, 7, 0]] }
+    }[pose] || null;
+    const p = P || { h: 0, a: [], b: [] }, glied = (l, w) => l.map(g => '<line x1="' + g[0] + '" y1="' + (g[1] + p.h) + '" x2="' + g[2] + '" y2="' + (g[3] + p.h) + '" stroke-width="' + w + '"/>').join("");
+    return '<g transform="translate(' + x + " " + y + ") scale(" + (spiegeln ? -s : s) + " " + s + ')" stroke-linecap="round">' +
+      '<g stroke="' + TUSCHE + '">' + glied(p.b, 6) + glied(p.a, 5.6) + "</g>" + '<g stroke="' + c1 + '">' + glied(p.b, 3.8) + glied(p.a, 3.4) + "</g>" +
+      '<rect x="-6" y="' + (-31 + p.h) + '" width="12" height="17" rx="3" fill="' + c1 + '" stroke="' + TUSCHE + '" stroke-width="1.4"/>' +
+      '<circle cx="0" cy="' + (-36.5 + p.h) + '" r="4.8" fill="' + c1 + '" stroke="' + TUSCHE + '" stroke-width="1.4"/>' +
+      (nr != null ? '<text x="0" y="' + (-19.5 + p.h) + '" font-size="8" text-anchor="middle" fill="' + c2 + '" font-weight="800"' + (spiegeln ? ' transform="scale(-1 1)"' : "") + ">" + esc(String(nr)) + "</text>" : "") +
+      (p.ball ? comicBall(p.ball[0], p.ball[1] + p.h, 3.6) : "") + "</g>";
+  }
+  const comicBall = (x, y, r) => '<g><circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#FF7A1A" stroke="' + TUSCHE + '" stroke-width="1.1"/><path d="M' + (x - r) + " " + y + "H" + (x + r) + "M" + x + " " + (y - r) + "V" + (y + r) + '" stroke="' + TUSCHE + '" stroke-width=".7"/></g>';
+  function comicKorb(x, y, s) { // Brett mit Ring; (x, y) = Ringmitte
+    return '<g transform="translate(' + x + " " + y + ") scale(" + s + ')"><rect x="-2" y="-22" width="22" height="16" fill="#fff" stroke="' + TUSCHE + '" stroke-width="1.6" transform="translate(-9 0)"/>' +
+      '<rect x="-4" y="-15" width="8" height="7" fill="none" stroke="#E8650F" stroke-width="1.2"/><path d="M-7 0L-5 11H5L7 0" fill="none" stroke="' + TUSCHE + '" stroke-width=".8"/><path d="M-6 4H6M-5.5 8H5.5M-3 0L-2 11M3 0L2 11" stroke="' + TUSCHE + '" stroke-width=".6"/>' +
+      '<ellipse cx="0" cy="0" rx="8" ry="2.2" fill="none" stroke="#E8650F" stroke-width="2"/></g>';
+  }
+  function comicBurst(cx, cy, farbe, n = 18) { // Strahlenkranz hinter der Action
+    let d = ""; for (let i = 0; i < n; i++) { const w0 = i / n * Math.PI * 2, w1 = (i + 0.5) / n * Math.PI * 2; d += "M" + cx + " " + cy + "L" + (cx + Math.cos(w0) * 160).toFixed(1) + " " + (cy + Math.sin(w0) * 160).toFixed(1) + "L" + (cx + Math.cos(w1) * 160).toFixed(1) + " " + (cy + Math.sin(w1) * 160).toFixed(1) + "Z"; }
+    return '<path d="' + d + '" fill="' + farbe + '" opacity=".35"/>';
+  }
+  const comicSpeed = (y0, y1, x0) => Array.from({ length: 7 }, (_, i) => { const y = y0 + (y1 - y0) * i / 6, l = 12 + (i * 37 % 19); return '<line x1="' + (x0 - l) + '" y1="' + y + '" x2="' + x0 + '" y2="' + y + '" stroke="' + TUSCHE + '" stroke-width="1" stroke-linecap="round"/>'; }).join("");
+  function comicSfx(text, x, y, gr, dreh) {
+    return '<text x="' + x + '" y="' + y + '" transform="rotate(' + (dreh || -8) + " " + x + " " + y + ')" text-anchor="middle" class="c-sfx" font-size="' + (gr || 20) + '">' + esc(text) + "</text>";
+  }
+  function comicBlase(text, x, y, b, links) { // Sprechblase mit Zeilenumbruch nach ca. 16 Zeichen
+    const worte = String(text).split(" "), zeilen = [""]; worte.forEach(w => { if ((zeilen[zeilen.length - 1] + " " + w).trim().length > 16) zeilen.push(w); else zeilen[zeilen.length - 1] = (zeilen[zeilen.length - 1] + " " + w).trim(); });
+    const h = 6 + zeilen.length * 7, w = Math.max(b || 46, Math.max(...zeilen.map(z => z.length)) * 4.1 + 12), tx = links ? x + 6 : x + w - 6;
+    return '<g><path d="M' + tx + " " + (y + h - 1) + "L" + (tx + (links ? -4 : 4)) + " " + (y + h + 7) + "L" + (tx + (links ? 5 : -5)) + " " + (y + h - 1) + 'Z" fill="#fff" stroke="' + TUSCHE + '" stroke-width="1.2"/>' +
+      '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="9" fill="#fff" stroke="' + TUSCHE + '" stroke-width="1.2"/>' +
+      zeilen.map((z, i) => '<text x="' + (x + w / 2) + '" y="' + (y + 8.5 + i * 7) + '" text-anchor="middle" font-size="6.2" font-weight="800" fill="' + TUSCHE + '">' + esc(z) + "</text>").join("") + "</g>";
+  }
+  function comicMenge(y0, n) { // Zuschauer als bunte Rasterköpfe
+    const f = ["#E23B3B", "#2F6FD6", "#FFD54F", "#3DD07E", "#FF7A1A", "#9B59B6", "#C4CED4"]; let o = "";
+    for (let r = 0; r < 3; r++) for (let i = 0; i < n; i++) { const x = 4 + i * (112 / (n - 1)) + (r % 2) * 3, y = y0 + r * 7; o += '<circle cx="' + x.toFixed(1) + '" cy="' + y + '" r="2.6" fill="' + f[(i * 3 + r * 5) % f.length] + '" stroke="' + TUSCHE + '" stroke-width=".5"/>'; }
+    return o;
+  }
+  function comicBild(b, c, i) {
+    const T = k => team(k || c.heim), sp = b.spieler || {}, st = T(sp.team), gg = T(b.gegner || (sp.team === c.heim ? c.gast : c.heim));
+    const schild = (x, y) => sp.name ? '<g><rect x="' + (x - 24) + '" y="' + y + '" width="48" height="9" rx="2" fill="' + TUSCHE + '"/><text x="' + x + '" y="' + (y + 6.7) + '" text-anchor="middle" font-size="6" font-weight="800" fill="#fff" letter-spacing=".4">' + esc(String(sp.name).split(" ").slice(-1)[0].toUpperCase()) + "</text></g>" : "";
+    const raster = '<pattern id="ras' + i + '" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".9" fill="' + (st.c1 === "#111111" ? "#9AA4AD" : st.c1) + '" opacity=".55"/></pattern>';
+    let inhalt = "";
+    const boden = '<path d="M0 74H120V90H0Z" fill="#E8A35A"/><path d="M0 74H120" stroke="' + TUSCHE + '" stroke-width="1.2"/>';
+    switch (b.szene) {
+      case "halle": {
+        const a = b.anzeige || {};
+        inhalt = '<rect width="120" height="90" fill="#2B3B5C"/>' + comicMenge(30, 16) + '<path d="M0 54L120 54L120 90L0 90Z" fill="#E8A35A" stroke="' + TUSCHE + '" stroke-width="1.2"/><path d="M60 54V90M20 90L35 54M100 90L85 54" stroke="#fff" stroke-width="1" opacity=".8"/><ellipse cx="60" cy="72" rx="12" ry="5" fill="none" stroke="#fff" stroke-width="1"/>' +
+          '<rect x="36" y="4" width="48" height="18" rx="2" fill="' + TUSCHE + '" stroke="#555" stroke-width="1"/><text x="60" y="12" text-anchor="middle" font-size="6" font-weight="800" fill="#FFD54F">' + esc(T(c.heim).kurz + "  –  " + T(c.gast).kurz) + '</text><text x="60" y="19" text-anchor="middle" font-size="5" font-weight="800" fill="#FF7A1A">' + esc(a.info || "GLEICH GEHT'S LOS") + "</text>";
+        break;
+      }
+      case "anzeige": {
+        const a = b.anzeige || {}, z = v => v == null ? "–" : String(v);
+        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + comicBurst(60, 45, "#FFD54F") + '<rect x="14" y="14" width="92" height="56" rx="5" fill="' + TUSCHE + '" stroke="#555" stroke-width="2"/>' +
+          '<text x="37" y="30" text-anchor="middle" font-size="9" font-weight="800" fill="#fff">' + esc(T(c.heim).kurz) + '</text><text x="83" y="30" text-anchor="middle" font-size="9" font-weight="800" fill="#fff">' + esc(T(c.gast).kurz) + "</text>" +
+          '<text x="37" y="51" text-anchor="middle" class="c-led" font-size="20">' + esc(z(a.heim)) + '</text><text x="83" y="51" text-anchor="middle" class="c-led" font-size="20">' + esc(z(a.gast)) + "</text>" +
+          '<text x="60" y="64" text-anchor="middle" font-size="6.5" font-weight="800" fill="#FFD54F">' + esc(a.info || "") + "</text>";
+        break;
+      }
+      case "wurf":
+        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + boden + comicKorb(96, 26, 1) + '<path d="M38 26Q66 -6 94 24" fill="none" stroke="' + TUSCHE + '" stroke-width="1" stroke-dasharray="2 2.5"/>' + comicFigur(32, 74, 1, "wurf", st.c1, st.c2, sp.nr) + schild(32, 78);
+        break;
+      case "dunk":
+        inhalt = '<rect width="120" height="90" fill="#FFD54F"/>' + comicBurst(78, 30, "#FF7A1A", 22) + boden + comicKorb(80, 30, 1.25) + comicFigur(66, 76, 1.1, "dunk", st.c1, st.c2, sp.nr) + schild(60, 79);
+        break;
+      case "block":
+        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + comicBurst(60, 26, "#E23B3B", 16) + boden + comicFigur(42, 74, 1, "wurf", gg.c1, gg.c2, null) + comicFigur(76, 74, 1.08, "block", st.c1, st.c2, sp.nr, true) +
+          '<path d="M52 20l6 4-1 -7 5 5 1-7 3 6" fill="none" stroke="' + TUSCHE + '" stroke-width="1"/>' + schild(76, 78);
+        break;
+      case "lauf": case "dribbel":
+        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + boden + comicSpeed(28, 66, 40) + comicFigur(64, 74, 1.05, sp.name || b.mitBall ? "dribbel" : "lauf", st.c1, st.c2, sp.nr) +
+          (b.gegner ? comicFigur(18, 74, .8, "lauf", gg.c1, gg.c2, null) : "") + schild(64, 78);
+        break;
+      case "jubel":
+        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + comicMenge(8, 16) + boden +
+          [[30, .9], [60, 1.05], [90, .9]].map((f, k) => comicFigur(f[0], 74, f[1], "jubel", st.c1, st.c2, k === 1 ? sp.nr : null, k === 2)).join("") +
+          Array.from({ length: 14 }, (_, k) => '<rect x="' + (8 + k * 8) + '" y="' + (20 + (k * 17) % 30) + '" width="2.4" height="1.4" fill="' + ["#E23B3B", "#2F6FD6", "#FFD54F", "#3DD07E"][k % 4] + '" transform="rotate(' + (k * 33) + " " + (8 + k * 8) + " " + (20 + (k * 17) % 30) + ')"/>').join("") + schild(60, 78);
+        break;
+      case "zahl":
+        inhalt = '<rect width="120" height="90" fill="' + (st.c1 === "#111111" ? "#2B3B5C" : st.c1) + '"/>' + comicBurst(60, 42, "#FFD54F", 24) +
+          '<text x="60" y="56" text-anchor="middle" class="c-zahl" font-size="44">' + esc(String(b.zahl == null ? "" : b.zahl)) + "</text>" +
+          (b.label ? '<rect x="30" y="64" width="60" height="12" rx="2" fill="' + TUSCHE + '"/><text x="60" y="72.6" text-anchor="middle" font-size="7.5" font-weight="800" fill="#FFD54F" letter-spacing=".8">' + esc(b.label) + "</text>" : "");
+        break;
+      default:
+        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + boden + comicFigur(60, 74, 1, "stehen", st.c1, st.c2, sp.nr) + schild(60, 78);
+    }
+    const sfx = b.sfx ? comicSfx(b.sfx, b.szene === "dunk" ? 34 : b.szene === "block" ? 30 : 88, b.szene === "dunk" ? 24 : 18, b.szene === "dunk" ? 24 : 18) : "";
+    const blase = b.sprech && b.sprech.text ? comicBlase(b.sprech.text, b.szene === "jubel" ? 6 : 62, 4, 52, b.szene === "jubel") : "";
+    return '<figure class="c-bild' + (b.breit ? " breit" : "") + '">' + (b.text ? '<figcaption class="c-text">' + esc(b.text) + "</figcaption>" : "") +
+      '<svg viewBox="0 0 120 90" role="img" aria-label="' + esc(b.text || b.szene) + '"><defs>' + raster + "</defs>" + inhalt + sfx + blase + "</svg>" +
+      (b.sprech && b.sprech.wer ? '<span class="c-wer">' + esc(b.sprech.wer) + "</span>" : "") + "</figure>";
+  }
+  function openComic(modus) {
+    const c = D.comic; if (!c || !(c.bilder || []).length) return;
+    if (modus !== "zurueck") merken({ ov: { comic: 1 } });
+    const titel = '<div class="c-titel"><span class="c-marke">Comic des Tages</span><h1>' + esc(c.titel) + "</h1>" + (c.untertitel ? "<p>" + esc(c.untertitel) + "</p>" : "") +
+      '<div class="c-teams">' + badge(c.heim) + '<b>vs</b>' + badge(c.gast) + "</div></div>";
+    const n = c.newsId && allNews().find(x => x.id === c.newsId);
+    $("#overlay").innerHTML = '<div class="reader comic-leser" role="dialog" aria-modal="true" aria-label="Comic des Tages"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      titel + '<div class="c-heft">' + c.bilder.map((b, i) => comicBild(b, c, i)).join("") + "</div>" +
+      '<p class="src">Gezeichnet im Korbjäger-Comic-Stil nach dem echten Spiel. Die Figuren sind Silhouetten, keine Porträts. Sprechblasen gibt es nur für Fans, nie erfundene Zitate echter Spieler.</p>' +
+      (n ? '<button class="btn" data-news="' + esc(n.id) + '">Den Artikel zum Spiel lesen</button>' : "") + "</article></div>";
+    document.body.style.overflow = "hidden";
+    const r = $(".reader"); if (r) r.scrollTop = 0;
+    $("[data-close]").focus();
+  }
   function overlayZu() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
   // „Zurück“-Knopf und Esc gehen denselben Weg wie die Zurück-Geste, damit der Verlauf stimmt
   function closeNews() { if (history.state && history.state.kj && history.state.ov) history.back(); else overlayZu(); }
@@ -1300,6 +1449,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.hasAttribute("data-potw")) openPotw();
+    else if (b.hasAttribute("data-comic")) openComic();
     else if (b.dataset.pos != null) openPos(Number(b.dataset.pos), b.hasAttribute("data-pos-ersetzen") ? "ersetzen" : undefined);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
     else if (b.hasAttribute("data-gstart")) gameStart(b.dataset.gstart);
@@ -1348,7 +1498,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const s = $(".sheet"); if (s) s.remove();
     if (!st.ov) overlayZu();
     if (st.tab !== current || st.liga !== ligaSel) { ligaSel = st.liga || ligaSel; go(st.tab, "zurueck"); }
-    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); }
+    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); else if (st.ov.comic) openComic("zurueck"); }
     else window.scrollTo(0, st.y || 0);
   });
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";
