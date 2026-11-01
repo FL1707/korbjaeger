@@ -14,7 +14,107 @@
   "spielerDerWoche": {
     "name": "Brandon Angel",
     "team": "ALBA",
-    "text": "Beim 103:100 von ALBA gegen Bilbao traf er alle 10 Würfe aus dem Feld und machte 24 Punkte. Perfekter geht es kaum!"
+    "text": "Beim 103:100 von ALBA gegen Bilbao traf er alle 10 Würfe aus dem Feld und machte 24 Punkte. Perfekter geht es kaum!",
+    "profil": {
+      "geboren": "2001-10-27",
+      "geburtsort": "San Diego (USA)",
+      "nation": "USA",
+      "groesse": "2,06 m",
+      "position": "Flügelspieler (Forward)",
+      "nummer": 21,
+      "stationen": [
+        {
+          "zeit": "bis 2020",
+          "team": "Torrey Pines High School",
+          "info": "Schule in San Diego"
+        },
+        {
+          "zeit": "2020–2024",
+          "team": "Stanford University",
+          "info": "College in den USA"
+        },
+        {
+          "zeit": "2024–2025",
+          "team": "University of Oregon",
+          "info": "College in den USA"
+        },
+        {
+          "zeit": "2025–2026",
+          "team": "Hapoel Be'er Sheva",
+          "info": "Israel, erste Profi-Saison"
+        },
+        {
+          "zeit": "seit 2026",
+          "team": "ALBA Berlin",
+          "info": "Bundesliga und Champions League"
+        }
+      ],
+      "saisons": [
+        {
+          "saison": "2026/27",
+          "team": "ALBA Berlin",
+          "liga": "Bundesliga",
+          "live": "bbl",
+          "sp": 6,
+          "pkt": 12.7,
+          "fgp": 53.7,
+          "tpp": 23.5,
+          "reb": 5.5,
+          "ast": 1.8
+        },
+        {
+          "saison": "2026/27",
+          "team": "ALBA Berlin",
+          "liga": "Champions League",
+          "sp": 3,
+          "pkt": 16.3,
+          "fgp": 79.2,
+          "tpp": 66.7,
+          "reb": 4.3,
+          "ast": 2.0
+        },
+        {
+          "saison": "2025/26",
+          "team": "Hapoel Be'er Sheva",
+          "liga": "Israel",
+          "sp": 17,
+          "pkt": 16.9,
+          "fgp": 51.6,
+          "tpp": 42.6,
+          "reb": 7.9,
+          "ast": 2.3
+        },
+        {
+          "saison": "2024/25",
+          "team": "Oregon",
+          "liga": "College (NCAA)",
+          "sp": 35,
+          "pkt": 8.3,
+          "fgp": 53.6,
+          "tpp": 36.8,
+          "reb": 3.8,
+          "ast": 1.1
+        }
+      ],
+      "fakten": [
+        "Er war fünf Jahre am College: vier bei Stanford, eins bei Oregon.",
+        "Beim NBA-Draft 2025 wurde er nicht ausgewählt. Danach ging er als Profi nach Israel.",
+        "Im Sommer spielte er bei der NBA Summer League mit: 2025 für Phoenix, 2026 für Toronto.",
+        "In Israel traf er 43 Prozent seiner Dreier. Bei ALBA trägt er die Nummer 21."
+      ],
+      "bild": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/2026-10-03_ALBA_Berlin_gegen_Bamberg_Baskets_%28Basketball-Bundesliga_2026-27%29_by_Sandro_Halank%E2%80%93150.jpg/500px-2026-10-03_ALBA_Berlin_gegen_Bamberg_Baskets_%28Basketball-Bundesliga_2026-27%29_by_Sandro_Halank%E2%80%93150.jpg",
+        "seite": "https://commons.wikimedia.org/wiki/File:2026-10-03_ALBA_Berlin_gegen_Bamberg_Baskets_(Basketball-Bundesliga_2026-27)_by_Sandro_Halank%E2%80%93150.jpg",
+        "autor": "Sandro Halank",
+        "lizenz": "CC BY-SA 4.0",
+        "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de"
+      },
+      "quellen": [
+        "RealGM",
+        "easycredit-bbl.de",
+        "Wikimedia Commons"
+      ]
+    }
   },
   "news": [
     {

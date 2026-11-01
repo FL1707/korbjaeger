@@ -282,6 +282,31 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .potw h3 { font-size: 36px; font-weight: 800; font-style: italic; }
 .potw p { margin: 4px 0 0; color: #D7E0EE; }
 @media (max-width: 520px) { .potw { grid-template-columns: 1fr; } }
+button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: pointer; }
+.potw-mehr { display: inline-block; margin-top: 10px; color: var(--yellow); font-weight: 800; }
+.potw-bild { margin: 0 0 14px; border-radius: 16px; overflow: hidden; background: var(--surface-2); }
+.potw-bild img { display: block; width: 100%; max-height: 420px; object-fit: cover; object-position: center 20%; }
+.potw-bild figcaption { font-size: 12px; color: var(--ink-soft); padding: 6px 10px; }
+.potw-bild a { color: inherit; }
+.steckbrief { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 8px; margin: 16px 0; }
+.steckbrief div { background: var(--surface-2); border-radius: 12px; padding: 8px 12px; }
+.steckbrief dt { font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .5px; color: var(--ink-soft); }
+.steckbrief dd { margin: 2px 0 0; font-weight: 800; }
+.potw-h { font-family: var(--font-display); font-style: italic; font-size: 26px; margin: 22px 0 8px; }
+.potw-tbl { overflow-x: auto; }
+.potw-tbl table { width: 100%; border-collapse: collapse; font-size: 14px; font-variant-numeric: tabular-nums; }
+.potw-tbl th { font-size: 11px; font-weight: 800; text-transform: uppercase; color: var(--ink-soft); text-align: right; padding: 4px 3px; border-bottom: 2px solid var(--line); }
+.potw-tbl td { text-align: right; padding: 7px 3px; border-bottom: 1px solid var(--line); white-space: nowrap; }
+.potw-tbl th:nth-child(-n+2), .potw-tbl td:nth-child(-n+2) { text-align: left; }
+.potw-tbl td:first-child { width: auto; font-family: inherit; font-size: inherit; font-weight: 800; border-left: 0; text-align: left; }
+.potw-tbl td:nth-child(2) { white-space: normal; font-weight: 700; line-height: 1.15; }
+@media (max-width: 420px) { .potw-tbl table { font-size: 12.5px; } .potw-tbl td, .potw-tbl th { padding-left: 2px; padding-right: 2px; } }
+.potw-liga { display: block; font-size: 12px; color: var(--ink-soft); font-weight: 600; }
+.stationen { list-style: none; padding: 0; margin: 0 0 0 6px; border-left: 3px solid var(--orange); }
+.stationen li { padding: 6px 0 10px 16px; position: relative; display: grid; }
+.stationen li::before { content: ""; position: absolute; left: -8px; top: 10px; width: 13px; height: 13px; border-radius: 50%; background: var(--orange); }
+.stationen span { font-size: 13px; font-weight: 800; color: var(--ink-soft); }
+.stationen em { font-style: normal; font-size: 14px; color: var(--ink-soft); }
 .potw .medal { width: 96px; height: 96px; }
 
 /* Quiz */
@@ -514,11 +539,11 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       '<p class="hello">' + esc(D.gruss || "Hallo Basketball-Fan!") + "</p>" +
       '<div class="hero-row"><div class="zahl"><span class="lbl">Zahl des Tages</span><span class="big">' + esc(z.zahl) + "</span><p>" + esc(z.text) + "</p>" + '<svg viewBox="-60 -60 120 120" aria-hidden="true"><circle r="55" fill="none" stroke="#fff" stroke-width="6"/><path d="M-55 0H55M0-55V55M-36-42c28 25 28 59 0 84M36-42c-28 25-28 59 0 84" stroke="#fff" stroke-width="5" fill="none"/></svg></div>' +
       '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (favT.length ? '<div class="card fav-list">' + favT.map(k => '<div class="fav-team">' + badge(k, true) + "<span>" + esc(team(k).name) + "</span>" + starBtn("data-fav-team", k, true, team(k).name) + "</div>").join("") + "</div>" : '<div class="card next-card">Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.</div>') + "</div></div>" +
+      (potw ? '<section class="sec"><button class="card potw" data-potw><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + '</p>' + (potw.profil ? '<span class="potw-mehr">Mehr über ' + esc(potw.name.split(" ")[0]) + " →</span>" : "") + "</div></button></section>" : "") +
       ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
       (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div>" +
       (alt ? '<button class="card archiv-btn" data-liga="ALLE"><span><b>Ältere Artikel</b><small>' + alt + (alt === 1 ? " Geschichte" : " Geschichten") + " aus den letzten 4 Wochen.</small></span><span class=\"pfeil\" aria-hidden=\"true\">›</span></button>" : "") + "</section>" +
-      (potw ? '<section class="sec"><div class="card potw"><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + "</p></div></div></section>" : "") +
       (eng.length ? '<section class="eng-box"><h3>Englisch-Ecke</h3><div>So sagen die NBA-Reporter in den USA:</div><div class="eng-list">' + eng.map(x => "<span><b>" + esc(x.en) + "</b> = " + esc(x.begriff) + "</span>").join("") + "</div></section>" : "") +
       '<p class="foot">Alle Texte wurden für dich zusammengefasst. Quellen stehen unter jedem Artikel.</p></div>';
   }
@@ -1088,6 +1113,41 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     document.body.style.overflow = "hidden";
     $("[data-close]").focus();
   }
+  /* Spieler der Woche: eigene Seite mit Steckbrief, Statistik, Stationen und freiem Foto (Wikimedia Commons).
+     Saisons mit "live": "bbl"/"nba" werden aus der aktuellen Statistik-Datei ergänzt, damit die Zahlen frisch bleiben. */
+  const POTW_LIVE = {};
+  function potwLive(liga) {
+    if (POTW_LIVE[liga]) return POTW_LIVE[liga];
+    POTW_LIVE[liga] = {};
+    fetch(liga + "-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Array.isArray(j.spieler)) { POTW_LIVE[liga] = j; if (history.state && history.state.ov && history.state.ov.p) openPotw("zurueck"); } }).catch(() => {});
+    return POTW_LIVE[liga];
+  }
+  function alterAus(geb) { const g = new Date(geb + "T12:00:00"), h = new Date(); let a = h.getFullYear() - g.getFullYear(); if (h.getMonth() < g.getMonth() || (h.getMonth() === g.getMonth() && h.getDate() < g.getDate())) a--; return a; }
+  function openPotw(modus) {
+    const p = D.spielerDerWoche; if (!p || !p.profil) return;
+    if (modus !== "zurueck") merken({ ov: { p: 1 } });
+    const pr = p.profil, zahl = (v, pc, d = 1) => v == null ? "–" : (d ? Number(v).toFixed(1) : String(v)).replace(".", ",") + (pc ? " %" : "");
+    const saisons = (pr.saisons || []).map(z => {
+      const L = z.live && potwLive(z.live), sp = L && L.spalten, r = sp && L.spieler.find(x => x[0] === p.name);
+      if (!r) return z;
+      const w = k => r[sp.indexOf(k)];
+      return Object.assign({}, z, { sp: w("sp"), pkt: w("pkt"), fgp: w("fgp"), tpp: w("tpp"), reb: w("reb"), ast: w("ast") });
+    });
+    const steck = [["Alter", pr.geboren ? alterAus(pr.geboren) + " Jahre" : null], ["Geboren", pr.geboren ? new Date(pr.geboren + "T12:00:00").toLocaleDateString("de-DE", { day: "numeric", month: "long", year: "numeric" }) + (pr.geburtsort ? " in " + pr.geburtsort : "") : null],
+      ["Größe", pr.groesse], ["Position", pr.position], ["Nation", pr.nation], ["Team", team(p.team).name], ["Nummer", pr.nummer]].filter(x => x[1] != null && x[1] !== "");
+    const bild = pr.bild && pr.bild.url ? '<figure class="potw-bild"><img src="' + esc(pr.bild.url) + '" alt="' + esc(p.name) + '" onerror="this.closest(\'figure\').remove()"><figcaption>Foto: ' + esc(pr.bild.autor || "") + ', <a href="' + esc(pr.bild.seite || "") + '" target="_blank" rel="noopener">Wikimedia Commons</a>, Lizenz <a href="' + esc(pr.bild.lizenzUrl || "") + '" target="_blank" rel="noopener">' + esc(pr.bild.lizenz || "") + "</a></figcaption></figure>" : "";
+    $("#overlay").innerHTML = '<div class="reader" role="dialog" aria-modal="true" aria-label="Spieler der Woche: ' + esc(p.name) + '"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      bild + '<div class="meta"><span class="pill">Spieler der Woche</span></div><h1>' + esc(p.name) + '</h1><div class="body"><p>' + esc(p.text) + "</p></div>" +
+      (steck.length ? '<dl class="steckbrief">' + steck.map(x => "<div><dt>" + x[0] + "</dt><dd>" + esc(x[1]) + "</dd></div>").join("") + "</dl>" : "") +
+      (saisons.length ? '<h2 class="potw-h">Statistik pro Spiel</h2><div class="potw-tbl"><table><thead><tr><th>Saison</th><th>Team</th><th title="Spiele">Sp</th><th title="Punkte pro Spiel">Pkt</th><th title="Trefferquote aus dem Feld">Feld %</th><th title="Dreierquote">3er %</th><th title="Rebounds">Reb</th><th title="Assists">Ast</th></tr></thead><tbody>' +
+        saisons.map(z => "<tr><td>" + esc(z.saison) + "</td><td>" + esc(z.team) + '<span class="potw-liga">' + esc(z.liga || "") + "</span></td><td>" + zahl(z.sp, 0, 0) + "</td><td><b>" + zahl(z.pkt) + "</b></td><td>" + zahl(z.fgp, 1) + "</td><td>" + zahl(z.tpp, 1) + "</td><td>" + zahl(z.reb) + "</td><td>" + zahl(z.ast) + "</td></tr>").join("") +
+        '</tbody></table></div><p class="src">Feld % = wie viele seiner Würfe aus dem Spiel er trifft. 3er % = das Gleiche, nur für Dreier.</p>' : "") +
+      (pr.stationen && pr.stationen.length ? '<h2 class="potw-h">Seine Stationen</h2><ol class="stationen">' + pr.stationen.map(x => "<li><span>" + esc(x.zeit) + "</span><b>" + esc(x.team) + "</b>" + (x.info ? "<em>" + esc(x.info) + "</em>" : "") + "</li>").join("") + "</ol>" : "") +
+      (pr.fakten && pr.fakten.length ? '<div class="facts"><h4>Gut zu wissen</h4><ul>' + pr.fakten.map(f => "<li>" + esc(f) + "</li>").join("") + "</ul></div>" : "") +
+      (pr.quellen && pr.quellen.length ? '<p class="src">Quellen: ' + esc(pr.quellen.join(", ")) + "</p>" : "") + "</article></div>";
+    document.body.style.overflow = "hidden";
+    $("[data-close]").focus();
+  }
   function overlayZu() { $("#overlay").innerHTML = ""; document.body.style.overflow = ""; }
   // „Zurück“-Knopf und Esc gehen denselben Weg wie die Zurück-Geste, damit der Verlauf stimmt
   function closeNews() { if (history.state && history.state.kj && history.state.ov) history.back(); else overlayZu(); }
@@ -1109,6 +1169,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.up) { upFilter = b.dataset.up; render(); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
+    else if (b.hasAttribute("data-potw")) openPotw();
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
     else if (b.hasAttribute("data-gstart")) gameStart(b.dataset.gstart);
     else if (b.hasAttribute("data-close")) closeNews();
@@ -1155,7 +1216,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const s = $(".sheet"); if (s) s.remove();
     if (!st.ov) overlayZu();
     if (st.tab !== current || st.liga !== ligaSel) { ligaSel = st.liga || ligaSel; go(st.tab, "zurueck"); }
-    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); }
+    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); }
     else window.scrollTo(0, st.y || 0);
   });
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";
