@@ -679,7 +679,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const q = Q[st.i], answered = st.picks.length > st.i, pick = st.picks[st.i];
     return '<section class="sec"><div class="sec-h"><h2>Tagesquiz</h2><p>Frage ' + (st.i + 1) + " von " + Q.length + '</p></div><div class="card quiz">' + prog + (q.art === "legacy" ? '<span class="pill legacy">NBA-Geschichte' + (q.jahr ? " · " + esc(q.jahr) : "") + "</span>" : "") + "<h3>" + esc(q.frage) + '</h3><div class="answers">' +
       q.antworten.map((a, i) => '<button data-ans="' + i + '"' + (answered ? " disabled" : "") + ' class="' + (answered ? (i === q.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
-      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + (pick === q.richtig && !st.wdh ? ' <span class="plus">🏀 +1 Spiel im Game-Tab</span>' : "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section>";
+      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch. ") + esc(q.erklaerung || "") + (pick === q.richtig && !st.wdh ? ' <span class="plus">' + (gameRichtig() % 2 ? "🏀 +1 Spiel im Game-Tab" : "🏀 Die nächste richtige Antwort bringt ein neues Spiel") + "</span>" : "") + '</p><button class="btn" data-quiz="next">' + (st.i + 1 < Q.length ? "Nächste Frage" : "Ergebnis zeigen") + "</button>" : "") + "</div></section>";
   }
   function stFmt(v, k) {
     if (v == null) return "–";
@@ -760,19 +760,20 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
       Object.keys(groups).map(k => '<section class="sec"><div class="sec-h"><h2>' + esc(k) + '</h2><p>aus dem Archiv</p></div><div class="grid">' + groups[k].map(n => newsCard(n)).join("") + "</div></section>").join("") + "</div>";
   }
   /* ---------- Game: Korbwurf-Spiel ----------
-     Guthaben: 1 Spiel je Quizfrage, die beim ERSTEN Versuch richtig beantwortet wurde (game_erst: {quizId: {Frage: true/false}}),
-     minus gespielte Spiele (game_gespielt). Alles nur auf diesem Gerät gespeichert; Guthaben verfällt nicht. */
-  const GAME_WUERFE = 5;
+     Guthaben: 1 Spiel je 2 Quizfragen, die beim ERSTEN Versuch richtig beantwortet wurden, aufgerundet
+     (game_erst: {quizId: {Frage: true/false}}), minus gespielte Spiele (game_gespielt). Alles nur auf diesem Gerät gespeichert; Guthaben verfällt nicht. */
+  const GAME_WUERFE = 10;
   let G = null, Gletzt = null;
   function gameErst(qid, i, richtig) { const m = store.get("game_erst", {}), r = m[qid] || {}; if (r[i] == null) { r[i] = richtig; m[qid] = r; store.set("game_erst", m); } }
-  function gameGuthaben() { let v = 0; Object.values(store.get("game_erst", {})).forEach(r => Object.values(r).forEach(x => { if (x) v++; })); return Math.max(0, v - store.get("game_gespielt", 0)); }
+  function gameRichtig() { let v = 0; Object.values(store.get("game_erst", {})).forEach(r => Object.values(r).forEach(x => { if (x) v++; })); return v; }
+  function gameGuthaben() { return Math.max(0, Math.ceil(gameRichtig() / 2) - store.get("game_gespielt", 0)); }
   // Antworten aus der Zeit vor dem Game zählen einmalig mit (bestes Wissen: die gespeicherten Antworten des heutigen Quiz)
   function gameSeed() { const qid = D.quizId || D.aktualisiert, m = store.get("game_erst", {}), st = store.get("quiz_" + qid, null); if (m[qid] || !st || !st.picks || !st.picks.length || !D.quiz) return; m[qid] = {}; st.picks.forEach((p, i) => { if (D.quiz[i]) m[qid][i] = p === D.quiz[i].richtig; }); store.set("game_erst", m); }
   function vGame() {
     const rek = store.get("game_rekord", 0);
     if (G) return '<div class="view"><div class="game-top"><span>Wurf<b id="g-wurf">1/' + GAME_WUERFE + '</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + rek + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Wurfspiel: vom Ball wegziehen und loslassen"></canvas><p class="game-tipp" id="g-tipp">Zieh vom Ball weg und lass los!</p></div></div>';
     const gut = gameGuthaben();
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Korbjäger-Game</h2><p>Für jede Quizfrage, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel.</p></div>' +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Korbjäger-Game</h2><p>Für je zwei Quizfragen, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel. Schon die erste richtige Antwort bringt ein Spiel.</p></div>' +
       (Gletzt ? '<div class="card game-ergebnis"><span>Letztes Spiel</span><b>' + Gletzt.punkte + " Punkte" + (Gletzt.rekord ? " – neuer Rekord! 🏆" : "") + "</b><span>" + Gletzt.treffer + " von " + GAME_WUERFE + " Würfen getroffen, davon " + Gletzt.swish + " Swish</span></div>" : "") +
       '<div class="card game-start"><div class="game-zahlen"><div><b>' + gut + "</b><span>" + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div><div><b>" + rek + "</b><span>Dein Rekord</span></div></div>" +
       (gut ? '<button class="btn" data-gstart>Spiel starten</button>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz, dann geht es los!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
