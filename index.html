@@ -762,7 +762,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   /* ---------- Game: Korbwurf-Spiel ----------
      Guthaben: 1 Spiel je Quizfrage, die beim ERSTEN Versuch richtig beantwortet wurde (game_erst: {quizId: {Frage: true/false}}),
      minus gespielte Spiele (game_gespielt). Alles nur auf diesem Gerät gespeichert; Guthaben verfällt nicht. */
-  const GAME_WUERFE = 10;
+  const GAME_WUERFE = 5;
   let G = null, Gletzt = null;
   function gameErst(qid, i, richtig) { const m = store.get("game_erst", {}), r = m[qid] || {}; if (r[i] == null) { r[i] = richtig; m[qid] = r; store.set("game_erst", m); } }
   function gameGuthaben() { let v = 0; Object.values(store.get("game_erst", {})).forEach(r => Object.values(r).forEach(x => { if (x) v++; })); return Math.max(0, v - store.get("game_gespielt", 0)); }
@@ -793,7 +793,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     const g = G; g.laeuft = true;
     let ball, zieh = null, text = "", textT = 0, letzte = performance.now();
     const rimY = () => 210 + (g.serie >= 3 ? 34 * Math.sin(g.t * 1.7) : 0);
-    function neuerBall() { ball = { x: 40 + Math.random() * 160, y: BODEN - R - 40 - Math.random() * 30, vx: 0, vy: 0, fliegt: false, beruehrt: false, drin: false, t: 0 }; ball.sx = ball.x; ball.sy = ball.y; }
+    function neuerBall() { ball = { x: 40 + Math.random() * 160, y: Math.round((BODEN - R - 40 - Math.random() * 30) * 0.7), vx: 0, vy: 0, fliegt: false, beruehrt: false, drin: false, t: 0 }; ball.sx = ball.x; ball.sy = ball.y; }
     function anzeige() { const w = $("#g-wurf"), p = $("#g-pkt"); if (w) w.textContent = Math.min(g.wurf + 1, GAME_WUERFE) + "/" + GAME_WUERFE; if (p) p.textContent = g.punkte; }
     function zeige(t) { text = t; textT = 1.4; const e = $("#g-tipp"); if (e) e.textContent = ""; }
     function wurfVorbei() {
