@@ -910,7 +910,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   /* Dreier-Contest: Blick von hinten über die Schulter des Werfers. Echte 3D-Flugbahn in Metern (Korb im Ursprung,
      Spielfeld in +z), die Kamera steht 2,8 m hinter der jeweiligen Position und schaut zum Korb. */
   const DREIER_POS = [["ganz außen rechts", 84], ["halb rechts", 45], ["mittig", 0], ["halb links", -45], ["ganz außen links", -84]];
-  const DR = { abst: 6.75, ringY: 3.05, ringR: 0.25, ballR: 0.12, brettZ: -0.4, grav: 9.81, winkel: 50 * Math.PI / 180, abwurfY: 1.5, vMitte: 9.05, spanne: 1.0, drehung: 0.16 };
+  const DR = { abst: 6.75, ringY: 3.05, ringR: 0.25, ballR: 0.12, brettZ: -0.4, grav: 9.81, winkel: 50 * Math.PI / 180, abwurfY: 1.5, vMitte: 9.05, spanne: 0.6, drehung: 0.115 };
   // Angehaltene Leisten -> Abwurf von Position p: k = Kraft (0 unten … 1 oben, Mitte 0,5 trifft), d = Richtung (-1 links … 1 rechts)
   function dreierWurf(p, k, d) {
     const a = DREIER_POS[p][1] * Math.PI / 180, ux = Math.sin(a), uz = Math.cos(a), fx = -ux, fz = -uz, rx = -fz, rz = fx;
@@ -931,8 +931,8 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
         b.ring = true;
       }
     }
-    // Brett. Frontal zu fest ans Brett (vom Ball aus fast gerade) springt der Ball zurück und zählt nicht – sonst würden von „mittig“ auch rote Würfe treffen
-    if (b.vz < 0 && b.z - DR.ballR < DR.brettZ && vz0 - DR.ballR >= DR.brettZ && Math.abs(b.x) < 0.9 && b.y > 2.9 - DR.ballR && b.y < 3.95 + DR.ballR) { b.z = DR.brettZ + DR.ballR; b.brett = true; if (Math.abs(b.vx) < 0.5 * Math.abs(b.vz)) { b.vz = -b.vz * 0.75 + 1.6; b.abpraller = true; } else b.vz *= -0.75; }
+    // Brett: Brettwürfe zählen nicht, damit nur Grün trifft (sonst gingen zu feste Würfe übers Brett rein). Frontal springt der Ball deutlich zurück
+    if (b.vz < 0 && b.z - DR.ballR < DR.brettZ && vz0 - DR.ballR >= DR.brettZ && Math.abs(b.x) < 0.9 && b.y > 2.9 - DR.ballR && b.y < 3.95 + DR.ballR) { b.z = DR.brettZ + DR.ballR; b.brett = true; b.abpraller = true; if (Math.abs(b.vx) < 0.5 * Math.abs(b.vz)) b.vz = -b.vz * 0.75 + 1.6; else b.vz *= -0.75; }
     // Durch die Ringebene nach unten
     if (vy0 >= DR.ringY && b.y < DR.ringY && b.vy < 0) {
       if (!b.kreuz) b.kreuz = { x: b.x, z: b.z };
@@ -950,7 +950,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const g = G; g.laeuft = true; g.pos = 0; g.nr = 0; g.money = 0; g.erg = DREIER_POS.map(() => []);
     let ball = null, phase = "kraft", pt = 0, kraftWert = 0.5, text = "", textT = 0, pause = 0, kam, letzte = performance.now();
     // Streifen läuft hoch und runter: 0 → 1 → 0 in einer Periode; der Money Ball ist doppelt so schnell
-    const periode = () => g.nr === 2 ? 0.8 : 1.6, pendel = t => 1 - Math.abs((t / periode() * 2) % 2 - 1);
+    const periode = () => g.nr === 2 ? 1.1 : 2.2, pendel = t => 1 - Math.abs((t / periode() * 2) % 2 - 1);
     function kamera() {
       const a = DREIER_POS[g.pos][1] * Math.PI / 180, ux = Math.sin(a), uz = Math.cos(a);
       kam = { cx: ux * (DR.abst + KAM_HINTEN), cz: uz * (DR.abst + KAM_HINTEN), fx: -ux, fz: -uz, rx: uz, rz: -ux };
@@ -1061,7 +1061,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       if (textT > 0) { c.globalAlpha = Math.min(1, textT * 1.5); c.fillStyle = farbe("--orange-ink"); c.font = "italic 800 38px 'Barlow Condensed', 'Arial Narrow', sans-serif"; c.textAlign = "center"; c.fillText(text, W / 2, 110); c.globalAlpha = 1; }
     }
     // Farbskala: Mitte grün (trifft), nach außen gelb, ganz außen rot
-    function skala(x0, y0, x1, y1) { const s = c.createLinearGradient(x0, y0, x1, y1); [[0, "#E23B3B"], [0.2, "#E23B3B"], [0.37, "#F5BE2E"], [0.455, "#3DD07E"], [0.545, "#3DD07E"], [0.63, "#F5BE2E"], [0.8, "#E23B3B"], [1, "#E23B3B"]].forEach(f => s.addColorStop(f[0], f[1])); return s; }
+    function skala(x0, y0, x1, y1) { const s = c.createLinearGradient(x0, y0, x1, y1); [[0, "#E23B3B"], [0.12, "#E23B3B"], [0.3, "#F5BE2E"], [0.42, "#3DD07E"], [0.58, "#3DD07E"], [0.7, "#F5BE2E"], [0.88, "#E23B3B"], [1, "#E23B3B"]].forEach(f => s.addColorStop(f[0], f[1])); return s; }
     function leisten() {
       if (g.pos >= 5) return;
       const wartet = !ball && pause <= 0, kAktiv = wartet && phase === "kraft", rAktiv = wartet && phase === "richtung";
