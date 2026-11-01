@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-01T06:20:40+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen! Memphis hat auch das sechste Spiel gewonnen, OKC hat in Houston verloren. Heute spielt der FC Bayern um 15 Uhr in Rostock und ALBA um 18 Uhr in Bonn. Am Abend trifft Franz Wagner mit Orlando auf Boston, danach ist Moritz Wagner mit Brooklyn in Indiana dran.",
+  "aktualisiert": "2026-11-01T16:18:36+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo am Sonntagnachmittag! Gerade spielt der FC Bayern in Rostock, um 18 Uhr ist ALBA in Bonn dran. Am Abend um 21:30 Uhr treffen Franz Wagner und Tristan da Silva mit Orlando auf Boston, um 23 Uhr spielt Moritz Wagner mit Brooklyn in Indiana. Und in der Nacht empfangen Stephen Curry und die Warriors die Clippers.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-01",
   "zahlDesTages": {
-    "zahl": "6:0",
-    "text": "Memphis hat alle sechs Spiele gewonnen. So gut sind die Grizzlies erst einmal in eine Saison gestartet – 2014/15."
+    "zahl": "23",
+    "text": "So viele Punkte lagen die Golden State Warriors gegen die Lakers schon zurück – und haben trotzdem noch mit 112:95 gewonnen."
   },
   "spielerDerWoche": {
     "name": "Brandon Angel",
@@ -449,6 +449,53 @@
         "BON"
       ],
       "spieler": []
+    },
+    {
+      "id": "2026-11-01-wochenvorschau",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "Die Woche: Bayern dreimal gefordert, deutsches Duell in Brooklyn",
+      "teaser": "Der FC Bayern spielt in einer Woche in drei Wettbewerben, OKC trifft zweimal auf Cleveland und Moritz Wagner auf Dennis Schröder.",
+      "text": [
+        "Für den FC Bayern wird die neue Woche anstrengend. Am Dienstag um 20 Uhr kommt Braunschweig zu einem Nachholspiel der Bundesliga nach München. Am Donnerstag geht es in der Euroleague nach Villeurbanne in Frankreich. Und am Sonntag um 18 Uhr spielen die Bayern in Würzburg.",
+        "ALBA Berlin hat am Freitag um 20 Uhr ein Heimspiel gegen Hagen. Die Telekom Baskets Bonn spielen am Mittwoch in der Champions League gegen Bnei Herzliya aus Israel.",
+        "In der NBA treffen die Oklahoma City Thunder mit Isaiah Hartenstein gleich zweimal hintereinander auf die Cleveland Cavaliers: erst in Cleveland, dann zu Hause in Oklahoma City. Zweimal kurz hintereinander gegen denselben Gegner – da kann man gleich zeigen, was man aus dem ersten Spiel gelernt hat.",
+        "In der Nacht zu Donnerstag gibt es ein deutsches Duell: Moritz Wagner und die Brooklyn Nets empfangen Charlotte mit Dennis Schröder und Hannes Steinbach. Anwurf ist um 1:30 Uhr deutscher Zeit."
+      ],
+      "fakten": [
+        "Di 3.11., 20 Uhr: FC Bayern – Braunschweig (BBL)",
+        "Do 5.11., 20 Uhr: Villeurbanne – FC Bayern (Euroleague)",
+        "Fr 6.11., 20 Uhr: ALBA – Hagen (BBL)",
+        "Do 5.11., 1:30 Uhr: Brooklyn – Charlotte (NBA)"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "euroleaguebasketball.net",
+        "espn.com"
+      ],
+      "teams": [
+        "FCB",
+        "BRA",
+        "ASV",
+        "WUE",
+        "ALBA",
+        "HAG",
+        "BON",
+        "HRZ",
+        "OKC",
+        "CLE",
+        "BKN",
+        "CHA"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Moritz Wagner",
+        "Dennis Schröder",
+        "Hannes Steinbach"
+      ]
     },
     {
       "id": "2026-10-31-warriors-lakers",
@@ -1314,132 +1361,6 @@
       "gastPkt": 83
     },
     {
-      "liga": "NBA",
-      "datum": "2026-10-29",
-      "runde": "NBA",
-      "heim": "ATL",
-      "gast": "CLE",
-      "heimPkt": 114,
-      "gastPkt": 111,
-      "info": "Okongwu (ATL) 29 Punkte, 12 Rebounds",
-      "bericht": {
-        "text": [
-          "Cleveland lag im ersten Viertel schon mit 15 Punkten vorne. Doch Atlanta drehte das Spiel im zweiten Viertel mit einem 19:2-Lauf.",
-          "Am Ende wurde es noch einmal knapp. Donovan Mitchell hatte im letzten Angriff zwei Chancen zum Ausgleich, traf aber nicht. Atlanta beendete so eine Serie von drei Niederlagen."
-        ],
-        "highlights": [
-          "Onyeka Okongwu: 29 Punkte und 12 Rebounds",
-          "Nickeil Alexander-Walker traf 25 Punkte",
-          "James Harden war mit 24 Punkten bester Cavalier"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-10-29",
-      "runde": "NBA",
-      "heim": "NOP",
-      "gast": "SAC",
-      "heimPkt": 132,
-      "gastPkt": 120,
-      "info": "Fears (NOP) 22 Punkte, 13 Assists",
-      "bericht": {
-        "text": [
-          "New Orleans holte im fünften Spiel den ersten Saisonsieg. Im dritten Viertel setzten sich die Pelicans mit einem 16:2-Lauf ab.",
-          "Sacramento verlor den Ball 25-mal und hat noch kein Spiel gewonnen."
-        ],
-        "highlights": [
-          "Jeremiah Fears: 22 Punkte und 13 Assists (Karrierebestwert)",
-          "Zion Williamson traf 10 von 12 Würfen",
-          "Darius Acuff Jr. machte 34 Punkte für Sacramento"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-10-29",
-      "runde": "NBA",
-      "heim": "POR",
-      "gast": "MEM",
-      "heimPkt": 103,
-      "gastPkt": 124,
-      "info": "Boozer (MEM) Triple-Double",
-      "bericht": {
-        "text": [
-          "Memphis gewann auch das fünfte Spiel der Saison. Im dritten Viertel zogen die Grizzlies mit einem 10:0-Lauf davon.",
-          "Rookie Cameron Boozer schaffte dabei das erste Triple-Double seiner NBA-Karriere."
-        ],
-        "highlights": [
-          "Cameron Boozer: 18 Punkte, 12 Rebounds, 12 Assists",
-          "Isaiah Stewart machte 18 Punkte von der Bank",
-          "Deni Avdija war mit 24 Punkten bester Spieler von Portland"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-29",
-      "runde": "9. Runde",
-      "heim": "CZV",
-      "gast": "FCB",
-      "heimPkt": 103,
-      "gastPkt": 73,
-      "info": "Washington (FCB) 16, Moneke (CZV) 15",
-      "bericht": {
-        "text": [
-          "Der FC Bayern hatte in Belgrad keine Chance. Crvena zvezda gewann deutlich mit 103:73.",
-          "Nach einem knappen ersten Viertel (19:15) zog Belgrad im zweiten und dritten Viertel weit davon. Zur Pause stand es schon 48:31."
-        ],
-        "highlights": [
-          "Duane Washington war mit 16 Punkten bester Münchner",
-          "Miles Norris: 14 Punkte und 6 Rebounds",
-          "Chima Moneke machte 15 Punkte für Belgrad",
-          "Sieben Belgrader Spieler trafen zweistellig"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-29",
-      "runde": "9. Runde",
-      "heim": "MTA",
-      "gast": "PBB",
-      "heimPkt": 94,
-      "gastPkt": 99,
-      "info": "Hifi (PBB) 26 Punkte",
-      "bericht": {
-        "text": [
-          "Nach drei Vierteln stand es 65:65 – alles war offen. Dann drehte Paris im letzten Viertel richtig auf und erzielte 34 Punkte.",
-          "So gewann Paris in Tel Aviv mit 99:94. Es war schon der zweite Auswärtssieg in dieser Woche."
-        ],
-        "highlights": [
-          "Nadir Hifi traf 26 Punkte für Paris",
-          "34 Punkte im letzten Viertel",
-          "Jimmy Clark III machte 21 Punkte für Maccabi"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-10-29",
-      "runde": "9. Runde",
-      "heim": "RMA",
-      "gast": "FEN",
-      "heimPkt": 95,
-      "gastPkt": 76,
-      "info": "Maledon (RMA) 26 Punkte",
-      "bericht": {
-        "text": [
-          "Im Spitzenspiel lag Fenerbahçe nach dem ersten Viertel noch vorne. Danach übernahm Real Madrid die Kontrolle und gewann klar mit 95:76."
-        ],
-        "highlights": [
-          "Théo Maledon war mit 26 Punkten der beste Werfer",
-          "Facundo Campazzo verteilte 10 Assists",
-          "Will Clyburn traf 5 Dreier für Fenerbahçe"
-        ]
-      }
-    },
-    {
       "liga": "DBB",
       "datum": "2026-08-30",
       "runde": "WM-Quali · Verlängerung",
@@ -1696,15 +1617,15 @@
     {
       "liga": "NBA",
       "zeit": "2026-11-05T01:30:00+01:00",
-      "heim": "BOS",
-      "gast": "MIL"
+      "heim": "BKN",
+      "gast": "CHA",
+      "info": "mit M. Wagner · mit Schröder und Steinbach"
     },
     {
       "liga": "NBA",
       "zeit": "2026-11-05T01:30:00+01:00",
-      "heim": "BKN",
-      "gast": "CHA",
-      "info": "mit M. Wagner · mit Schröder und Steinbach"
+      "heim": "BOS",
+      "gast": "MIL"
     },
     {
       "liga": "NBA",
@@ -1912,15 +1833,15 @@
     {
       "liga": "BBL",
       "zeit": "2026-11-07T18:30:00+01:00",
-      "heim": "TRI",
-      "gast": "BAM",
+      "heim": "ROS",
+      "gast": "ULM",
       "tv": "DYN"
     },
     {
       "liga": "BBL",
       "zeit": "2026-11-07T18:30:00+01:00",
-      "heim": "ROS",
-      "gast": "ULM",
+      "heim": "TRI",
+      "gast": "BAM",
       "tv": "DYN"
     },
     {
@@ -1928,6 +1849,13 @@
       "zeit": "2026-11-07T20:00:00+01:00",
       "heim": "BON",
       "gast": "BRA",
+      "tv": "DYN"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-11-07T20:00:00+01:00",
+      "heim": "VEC",
+      "gast": "CHE",
       "tv": "DYN"
     },
     {
@@ -1974,6 +1902,28 @@
       "zeit": "2026-11-08T04:00:00+01:00",
       "heim": "POR",
       "gast": "SAS"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-11-08T15:00:00+01:00",
+      "heim": "MBC",
+      "gast": "FRA",
+      "tv": "DYN"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-11-08T16:30:00+01:00",
+      "heim": "LUD",
+      "gast": "OLD",
+      "tv": "DYN"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-11-08T18:00:00+01:00",
+      "heim": "WUE",
+      "gast": "FCB",
+      "tv": "DYN",
+      "info": "mit Bayern"
     },
     {
       "liga": "NBA",
@@ -2710,10 +2660,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 5,
+        "spiele": 6,
         "pkt": 26.0,
-        "reb": 4.6,
-        "ast": 3.4
+        "reb": 4.5,
+        "ast": 3.3
       },
       "notiz": "Der Superstar der Thunder. In Houston machte er 26 Punkte, doch OKC verlor."
     },
@@ -2767,10 +2717,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 6,
-        "pkt": 13.0,
-        "reb": 3.7,
-        "ast": 5.3
+        "spiele": 7,
+        "pkt": 11.7,
+        "reb": 3.6,
+        "ast": 5.6
       },
       "notiz": "Kapitän der Nationalmannschaft. Charlotte ist sein zwölftes NBA-Team."
     },
@@ -2781,10 +2731,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 5,
-        "pkt": 9.4,
-        "reb": 9.6,
-        "ast": 2.4
+        "spiele": 6,
+        "pkt": 9.5,
+        "reb": 9.2,
+        "ast": 2.0
       },
       "notiz": "Der deutsche Center der Oklahoma City Thunder holt fast 10 Rebounds pro Spiel."
     },
@@ -2886,10 +2836,10 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 5,
-        "pkt": 25.0,
-        "reb": 11.4,
-        "ast": 2.8
+        "spiele": 6,
+        "pkt": 28.0,
+        "reb": 10.7,
+        "ast": 3.0
       },
       "notiz": "Der riesige Franzose machte gegen Minnesota 43 Punkte und 6 Blocks."
     },
@@ -2899,10 +2849,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 4,
-        "pkt": 18.5,
-        "reb": 3.8,
-        "ast": 3.5
+        "spiele": 5,
+        "pkt": 19.2,
+        "reb": 4.0,
+        "ast": 3.6
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -3829,63 +3779,64 @@
   },
   "auffaellig": [
     {
+      "art": "spiel",
+      "liga": "EL",
+      "datum": "2026-10-30",
+      "heim": "VIR",
+      "gast": "BES",
+      "wert": "Nur 2 Punkte!",
+      "grund": "Beşiktaş machte im letzten Viertel 33 Punkte und gewann in Bologna mit 103:101 – eine Aufholjagd bis zum Schluss.",
+      "newsId": "2026-10-31-euroleague-runde9"
+    },
+    {
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-10-31",
       "titel": "Victor Wembanyama",
       "team": "SAS",
       "wert": "43 Punkte",
-      "grund": "Sein bester Wert in dieser Saison – dazu 6 Blocks. Noch nie hat er in einem Spiel so viele Würfe genommen wie diesmal (34).",
+      "grund": "Sein bester Wert in dieser Saison – dazu 6 Blocks gegen Minnesota.",
       "newsId": "2026-11-01-wemby-43"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-10-31",
-      "titel": "Darius Acuff Jr.",
-      "team": "SAC",
-      "wert": "9 Dreier",
-      "grund": "Der Rookie traf 9 von 14 Dreiern und machte 38 Punkte. Zwei Tage vorher hatte er schon 34 Punkte gemacht.",
-      "newsId": "2026-11-01-grizzlies-6-0"
     },
     {
       "art": "spiel",
       "liga": "NBA",
-      "datum": "2026-10-31",
-      "heim": "MIL",
-      "gast": "CLE",
-      "wert": "48 Punkte in einem Viertel",
-      "grund": "Cleveland machte im zweiten Viertel 48 Punkte – mehr als doppelt so viele wie Milwaukee im gleichen Viertel (21)."
+      "datum": "2026-10-30",
+      "heim": "GSW",
+      "gast": "LAL",
+      "wert": "23 Punkte aufgeholt",
+      "grund": "Golden State lag gegen die Lakers schon mit 23 Punkten hinten. Dann drehten Stephen Curry und Co. das Spiel und gewannen noch klar mit 112:95.",
+      "newsId": "2026-10-31-warriors-lakers"
     },
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-10-31",
-      "titel": "GG Jackson",
-      "team": "MEM",
-      "wert": "5 von 5 Dreiern",
-      "grund": "Er traf jeden Dreier, den er warf, und half Memphis so zum sechsten Sieg im sechsten Spiel.",
-      "newsId": "2026-11-01-grizzlies-6-0"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-10-31",
-      "titel": "Grayson Allen",
-      "team": "CHA",
-      "wert": "7 von 10 Dreiern",
-      "grund": "Von der Bank kommend machte er 27 Punkte für Charlotte. Am Ende reichte es trotzdem knapp nicht gegen Philadelphia.",
-      "newsId": "2026-11-01-hornets-sixers"
+      "datum": "2026-10-30",
+      "titel": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "wert": "31-18-10",
+      "grund": "Ein Triple-Double: 31 Punkte, 18 Rebounds und 10 Assists beim 145:125 von Miami gegen Indiana.",
+      "newsId": "2026-10-31-giannis-triple-double"
     },
     {
       "art": "spiel",
       "liga": "BBL",
       "datum": "2026-10-31",
-      "heim": "CHE",
-      "gast": "LUD",
-      "wert": "Nur 10 Punkte zugelassen",
-      "grund": "Chemnitz lag zur Pause hinten. Dann ließ die Verteidigung im dritten Viertel nur 10 Punkte von Ludwigsburg zu – und die NINERS drehten das Spiel.",
+      "heim": "BRA",
+      "gast": "WUE",
+      "wert": "+24 auswärts",
+      "grund": "Würzburg gewann in Braunschweig mit 96:72. Ein Auswärtssieg mit 24 Punkten Vorsprung – so deutlich gewinnt man in fremder Halle selten.",
       "newsId": "2026-11-01-bbl-samstag"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-10-30",
+      "titel": "Moritz Wagner",
+      "team": "BKN",
+      "wert": "7 von 10",
+      "grund": "Der Deutsche traf 7 seiner 10 Würfe und kam auf 16 Punkte und 8 Rebounds. Den Sieg holte trotzdem Detroit.",
+      "newsId": "2026-10-31-deutsche-nacht"
     }
   ],
   "legacyGestellt": [
