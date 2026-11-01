@@ -1,4 +1,4 @@
-{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-10-31T16:15:36+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
+{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-01T06:14:43+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
 ["Luka Dončić", "LAL", 27, 5, null, null, 35.8, 36.2, 11.2, 23.6, 47.5, 5.4, 13.8, 39.1, 8.4, 9.6, 87.5, null, null, 6.8, 7.6, 5.2, 1.2, 0.8, 2.4, 1, 0, null],
 ["Anthony Edwards", "MIN", 25, 4, null, null, 33.8, 33.3, 12.5, 26.0, 48.1, 4.5, 11.3, 40.0, 3.8, 5.0, 75.0, null, null, 4.8, 3.5, 3.5, 2.0, 0.8, 2.0, 1, 0, null],
 ["Stephen Curry", "GSW", 38, 5, null, null, 28.0, 29.2, 8.4, 17.6, 47.7, 4.4, 10.0, 44.0, 8.0, 8.0, 100.0, null, null, 3.8, 4.0, 1.8, 1.4, 0.2, 1.4, 0, 0, null],
