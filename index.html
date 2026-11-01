@@ -801,7 +801,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   // Antworten aus der Zeit vor dem Game zählen einmalig mit (bestes Wissen: die gespeicherten Antworten des heutigen Quiz)
   function gameSeed() { const qid = D.quizId || D.aktualisiert, m = store.get("game_erst", {}), st = store.get("quiz_" + qid, null); if (m[qid] || !st || !st.picks || !st.picks.length || !D.quiz) return; m[qid] = {}; st.picks.forEach((p, i) => { if (D.quiz[i]) m[qid][i] = p === D.quiz[i].richtig; }); store.set("game_erst", m); }
   function vGame() {
-    if (G && G.art === "dreier") return '<div class="view"><div class="game-top"><span>Position<b id="g-wurf">1/5</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + store.get("dreier_rekord", 0) + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Dreier-Contest: nach oben zum Korb wischen"></canvas><p class="game-tipp" id="g-tipp" style="top:64px">Wisch nach oben Richtung Korb!</p></div></div>';
+    if (G && G.art === "dreier") return '<div class="view"><div class="game-top"><span>Position<b id="g-wurf">1/5</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + store.get("dreier_rekord", 0) + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Dreier-Contest: tippen, um Kraft und Richtung anzuhalten"></canvas><p class="game-tipp" id="g-tipp" style="top:64px">Tippe, um die Kraft anzuhalten!</p></div></div>';
     const rek = store.get("game_rekord", 0), drek = store.get("dreier_rekord", 0);
     if (G) return '<div class="view"><div class="game-top"><span>Wurf<b id="g-wurf">1/' + GAME_WUERFE + '</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + rek + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Wurfspiel: vom Ball wegziehen und loslassen"></canvas><p class="game-tipp" id="g-tipp">Zieh vom Ball weg und lass los!</p></div></div>';
     const gut = gameGuthaben();
@@ -811,9 +811,9 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       '<div class="card game-start"><div class="game-zahlen"><div><b>' + gut + "</b><span>" + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div></div>" +
       (gut ? '<p style="margin:0;font-weight:700">Jedes Spiel kostet eins davon. Such dir aus, was du spielen willst:</p>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz, dann geht es los!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
       '<div class="game-wahlen">' + karte("korb", "Korbwurf", GAME_WUERFE + " Würfe von der Seite. Swish bringt 3 Punkte, sonst 2.", rek) +
-      karte("dreier", "Dreier-Contest", "15 Dreier von 5 Positionen, je 3 Bälle. Der letzte Ball jeder Position ist der Money Ball.", drek) + "</div>" +
+      karte("dreier", "Dreier-Contest", "15 Dreier von 5 Positionen, je 3 Bälle. Halte Kraft und Richtung im grünen Bereich an.", drek) + "</div>" +
       '<details class="card abbr"><summary>So geht Korbwurf</summary><p>Lege den Finger irgendwo aufs Spielfeld und zieh ihn vom Korb weg, wie bei einer Steinschleuder. Je weiter du ziehst, desto fester wirfst du. Lass los, um zu werfen.</p><p>Jedes Spiel hat ' + GAME_WUERFE + " Würfe. Ein Swish (nur Netz) bringt 3 Punkte, ein Treffer mit Ring oder Brett 2 Punkte. Nach drei Treffern in Folge bewegt sich der Korb!</p></details>" +
-      '<details class="card abbr"><summary>So geht der Dreier-Contest</summary><p>Du stehst hinter dem Werfer an der Dreierlinie. Wisch mit dem Finger nach oben in Richtung Korb und lass los. Die Richtung bestimmt, ob der Ball links oder rechts fliegt, die Länge des Wischens bestimmt die Kraft.</p><p>Du wirfst von 5 Positionen je 3 Bälle: ganz außen rechts, halb rechts, mittig, halb links und ganz außen links. Jeder Treffer zählt 1 Punkt, der letzte Ball jeder Position (der bunte Money Ball) 2 Punkte. Höchstens sind 20 Punkte möglich.</p><p>Tipp: Der Strich an der Kraftanzeige rechts zeigt, wie fest dein letzter Wurf war.</p></details></section></div>';
+      '<details class="card abbr"><summary>So geht der Dreier-Contest</summary><p>Du stehst hinter dem Werfer an der Dreierlinie. Rechts läuft auf der Kraft-Leiste ein schwarzer Streifen hoch und runter. Tippe aufs Spielfeld (oder drück die Leertaste), um ihn anzuhalten. Danach läuft der Streifen auf der Richtungs-Leiste unter dem Ball hin und her: zweites Tippen hält ihn an, und der Ball fliegt.</p><p>Triffst du bei beiden Leisten den grünen Bereich in der Mitte, geht der Ball rein. Gelb ist knapp, rot geht daneben. Beim Money Ball laufen die Streifen doppelt so schnell!</p><p>Du wirfst von 5 Positionen je 3 Bälle: ganz außen rechts, halb rechts, mittig, halb links und ganz außen links. Jeder Treffer zählt 1 Punkt, der letzte Ball jeder Position (der bunte Money Ball) 2 Punkte. Höchstens sind 20 Punkte möglich.</p></details></section></div>';
   }
   function gameStart(art) { if (!gameGuthaben()) return; store.set("game_gespielt", store.get("game_gespielt", 0) + 1); G = { art: art === "dreier" ? "dreier" : "korb", wurf: 0, punkte: 0, treffer: 0, swish: 0, serie: 0, t: 0, laeuft: false }; render(); }
   function gameEnde() {
@@ -910,12 +910,12 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   /* Dreier-Contest: Blick von hinten über die Schulter des Werfers. Echte 3D-Flugbahn in Metern (Korb im Ursprung,
      Spielfeld in +z), die Kamera steht 2,8 m hinter der jeweiligen Position und schaut zum Korb. */
   const DREIER_POS = [["ganz außen rechts", 84], ["halb rechts", 45], ["mittig", 0], ["halb links", -45], ["ganz außen links", -84]];
-  const DR = { abst: 6.75, ringY: 3.05, ringR: 0.25, ballR: 0.12, brettZ: -0.4, grav: 9.81, winkel: 50 * Math.PI / 180, abwurfY: 2.1 };
-  // Wisch (Länge L in Spielfeld-Pixeln, Winkel err zur Senkrechten) -> Abwurf von Position p
-  function dreierWurf(p, L, err) {
+  const DR = { abst: 6.75, ringY: 3.05, ringR: 0.25, ballR: 0.12, brettZ: -0.4, grav: 9.81, winkel: 50 * Math.PI / 180, abwurfY: 1.5, vMitte: 9.05, spanne: 1.0, drehung: 0.16 };
+  // Angehaltene Leisten -> Abwurf von Position p: k = Kraft (0 unten … 1 oben, Mitte 0,5 trifft), d = Richtung (-1 links … 1 rechts)
+  function dreierWurf(p, k, d) {
     const a = DREIER_POS[p][1] * Math.PI / 180, ux = Math.sin(a), uz = Math.cos(a), fx = -ux, fz = -uz, rx = -fz, rz = fx;
-    const yaw = Math.max(-0.5, Math.min(0.5, err * 0.3)), dx = fx * Math.cos(yaw) + rx * Math.sin(yaw), dz = fz * Math.cos(yaw) + rz * Math.sin(yaw);
-    const v = 7.7 + Math.min(L, 320) / 320 * 1.8, h = v * Math.cos(DR.winkel);
+    const yaw = d * DR.drehung, dx = fx * Math.cos(yaw) + rx * Math.sin(yaw), dz = fz * Math.cos(yaw) + rz * Math.sin(yaw);
+    const v = DR.vMitte + (k - 0.5) * DR.spanne, h = v * Math.cos(DR.winkel);
     return { x: ux * (DR.abst - 0.25), y: DR.abwurfY, z: uz * (DR.abst - 0.25), vx: dx * h, vy: v * Math.sin(DR.winkel), vz: dz * h, t: 0, ring: false, brett: false, drin: false, kreuz: null };
   }
   function dreierSchritt(b, dt) {
@@ -931,12 +931,12 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
         b.ring = true;
       }
     }
-    // Brett
-    if (b.vz < 0 && b.z - DR.ballR < DR.brettZ && vz0 - DR.ballR >= DR.brettZ && Math.abs(b.x) < 0.9 && b.y > 2.9 - DR.ballR && b.y < 3.95 + DR.ballR) { b.z = DR.brettZ + DR.ballR; b.vz *= -0.75; b.brett = true; }
+    // Brett. Frontal zu fest ans Brett (vom Ball aus fast gerade) springt der Ball zurück und zählt nicht – sonst würden von „mittig“ auch rote Würfe treffen
+    if (b.vz < 0 && b.z - DR.ballR < DR.brettZ && vz0 - DR.ballR >= DR.brettZ && Math.abs(b.x) < 0.9 && b.y > 2.9 - DR.ballR && b.y < 3.95 + DR.ballR) { b.z = DR.brettZ + DR.ballR; b.brett = true; if (Math.abs(b.vx) < 0.5 * Math.abs(b.vz)) { b.vz = -b.vz * 0.75 + 1.6; b.abpraller = true; } else b.vz *= -0.75; }
     // Durch die Ringebene nach unten
     if (vy0 >= DR.ringY && b.y < DR.ringY && b.vy < 0) {
       if (!b.kreuz) b.kreuz = { x: b.x, z: b.z };
-      if (!b.drin && Math.hypot(b.x, b.z) < DR.ringR - 0.03) b.drin = true;
+      if (!b.drin && !b.abpraller && Math.hypot(b.x, b.z) < DR.ringR - 0.03) b.drin = true;
     }
     if (b.y < DR.ballR) { b.y = DR.ballR; b.vy *= -0.55; b.vx *= 0.8; b.vz *= 0.8; }
     return b.t > 3.5 || (b.drin && b.y < 1.6) || (b.kreuz && b.y < 1.2) || (b.t > 0.6 && b.vy < 0 && b.y < 1.2);
@@ -947,8 +947,10 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const css = getComputedStyle(document.documentElement), farbe = n => css.getPropertyValue(n).trim() || "#888";
     const dpr = Math.min(window.devicePixelRatio || 1, 3); cv.width = W * dpr; cv.height = H * dpr;
     const c = cv.getContext("2d"); c.setTransform(dpr, 0, 0, dpr, 0, 0);
-    const g = G; g.laeuft = true; g.pos = 0; g.nr = 0; g.money = 0; g.erg = DREIER_POS.map(() => []); g.letzteKraft = null;
-    let ball = null, zieh = null, text = "", textT = 0, pause = 0, kam, letzte = performance.now();
+    const g = G; g.laeuft = true; g.pos = 0; g.nr = 0; g.money = 0; g.erg = DREIER_POS.map(() => []);
+    let ball = null, phase = "kraft", pt = 0, kraftWert = 0.5, text = "", textT = 0, pause = 0, kam, letzte = performance.now();
+    // Streifen läuft hoch und runter: 0 → 1 → 0 in einer Periode; der Money Ball ist doppelt so schnell
+    const periode = () => g.nr === 2 ? 0.8 : 1.6, pendel = t => 1 - Math.abs((t / periode() * 2) % 2 - 1);
     function kamera() {
       const a = DREIER_POS[g.pos][1] * Math.PI / 180, ux = Math.sin(a), uz = Math.cos(a);
       kam = { cx: ux * (DR.abst + KAM_HINTEN), cz: uz * (DR.abst + KAM_HINTEN), fx: -ux, fz: -uz, rx: uz, rz: -ux };
@@ -958,7 +960,8 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       if (tiefe < 0.3) return null;
       return { x: W / 2 + F * (dx * kam.rx + dz * kam.rz) / tiefe, y: HZ - F * (y - KAM_H) / tiefe, s: F / tiefe, t: tiefe };
     }
-    function neuerBall() { ball = null; pause = 0; const e = $("#g-tipp"); if (e && !g.wurf) e.textContent = "Wisch nach oben Richtung Korb!"; }
+    function tipp(t) { const e = $("#g-tipp"); if (e) e.textContent = t; }
+    function neuerBall() { ball = null; pause = 0; phase = "kraft"; pt = 0; if (!g.wurf) tipp("Tippe, um die Kraft anzuhalten!"); }
     function anzeige() { const w = $("#g-wurf"), p = $("#g-pkt"); if (w) w.textContent = Math.min(g.pos + 1, 5) + "/5"; if (p) p.textContent = g.punkte; }
     function zeige(t) { text = t; textT = 1.3; const e = $("#g-tipp"); if (e) e.textContent = ""; }
     function wurfVorbei() {
@@ -974,20 +977,22 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       anzeige();
       if (g.pos >= 5) setTimeout(() => { if (G === g) { gameEnde(); render(); } }, 1500);
     }
-    function punkt(e) { const r = cv.getBoundingClientRect(); return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height }; }
     const bereit = () => !ball && pause <= 0 && g.pos < 5;
-    cv.addEventListener("pointerdown", e => { if (!bereit()) return; try { cv.setPointerCapture(e.pointerId); } catch (x) {} zieh = { a: punkt(e), b: punkt(e) }; });
-    cv.addEventListener("pointermove", e => { if (zieh) zieh.b = punkt(e); });
-    cv.addEventListener("pointerup", () => {
-      if (!zieh || !bereit()) { zieh = null; return; }
-      const sx = zieh.b.x - zieh.a.x, sy = zieh.b.y - zieh.a.y; zieh = null;
-      if (sy > -20) { const e = $("#g-tipp"); if (e) e.textContent = "Wisch nach oben!"; return; }
-      const L = Math.hypot(sx, sy); g.letzteKraft = Math.min(L, 320) / 320;
-      ball = dreierWurf(g.pos, L, Math.atan2(sx, -sy)); ball.money = g.nr === 2;
-      const e = $("#g-tipp"); if (e) e.textContent = "";
-    });
+    // Erster Stopp hält die Kraft an, der zweite die Richtung – dann fliegt der Ball
+    function stopp() {
+      if (!bereit()) return;
+      if (phase === "kraft") { kraftWert = pendel(pt); phase = "richtung"; pt = 0; tipp(g.wurf ? "" : "Und jetzt die Richtung!"); return; }
+      ball = dreierWurf(g.pos, kraftWert, pendel(pt) * 2 - 1); ball.money = g.nr === 2; ball.richtung = pendel(pt); tipp("");
+    }
+    cv.addEventListener("pointerdown", e => { e.preventDefault(); stopp(); });
+    const taste = e => {
+      if (G !== g || !document.body.contains(cv)) { document.removeEventListener("keydown", taste); return; }
+      if (e.key === " " || e.key === "Enter") { e.preventDefault(); stopp(); }
+    };
+    document.addEventListener("keydown", taste);
     function schritt(dt) {
       if (textT > 0) textT -= dt;
+      if (bereit()) pt += dt;
       if (pause > 0) { pause -= dt; if (ball) dreierSchritt(ball, dt); if (pause <= 0 && g.pos < 5) { kamera(); neuerBall(); } return; }
       if (ball && !ball.fertig && dreierSchritt(ball, dt)) { ball.fertig = true; wurfVorbei(); }
     }
@@ -1043,12 +1048,8 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       // Ball in der Hand vor dem Wurf
       if (!ball && pause <= 0 && g.pos < 5) {
         const a = DREIER_POS[g.pos][1] * Math.PI / 180; zeichneBall(Math.sin(a) * (DR.abst - 0.25), DR.abwurfY, Math.cos(a) * (DR.abst - 0.25), g.nr === 2, false);
-        if (zieh) { const sx = zieh.b.x - zieh.a.x, sy = zieh.b.y - zieh.a.y, l = Math.hypot(sx, sy);
-          if (sy < -20) { const q = proj(Math.sin(a) * (DR.abst - 0.25), DR.abwurfY, Math.cos(a) * (DR.abst - 0.25)), w = Math.atan2(sx, -sy);
-            c.strokeStyle = farbe("--ink"); c.lineWidth = 3; c.setLineDash([6, 7]); c.beginPath(); c.moveTo(q.x, q.y - 26); c.lineTo(q.x + Math.sin(w) * 90, q.y - 26 - Math.cos(w) * 90); c.stroke(); c.setLineDash([]); }
-          kraft(Math.min(l, 320) / 320); }
-        else kraft(0);
-      } else kraft(0);
+      }
+      leisten();
       // Ballständer der aktuellen Position: unten links, Treffer grün, daneben rot
       if (g.pos < 5) for (let i = 0; i < 3; i++) { const x = 26 + i * 30, y = H - 26, e = g.erg[g.pos][i]; c.fillStyle = e == null ? (i === 2 ? "#2F6FD6" : "#FF6A13") : e ? farbe("--good") : farbe("--bad"); c.globalAlpha = e == null && i < g.nr ? 0.3 : 1; c.beginPath(); c.arc(x, y, 11, 0, Math.PI * 2); c.fill(); c.globalAlpha = 1; }
       // Übersicht oben links: die 5 Positionen auf einem kleinen Dreierbogen
@@ -1059,10 +1060,21 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       if (g.pos < 5) { c.fillStyle = farbe("--ink"); c.font = "800 15px sans-serif"; c.textAlign = "right"; c.fillText(DREIER_POS[g.pos][0], W - 14, 26); c.font = "700 13px sans-serif"; c.fillStyle = farbe("--ink-soft"); c.fillText("Ball " + (g.nr + 1) + " von 3" + (g.nr === 2 ? " · Money Ball" : ""), W - 14, 44); }
       if (textT > 0) { c.globalAlpha = Math.min(1, textT * 1.5); c.fillStyle = farbe("--orange-ink"); c.font = "italic 800 38px 'Barlow Condensed', 'Arial Narrow', sans-serif"; c.textAlign = "center"; c.fillText(text, W / 2, 110); c.globalAlpha = 1; }
     }
-    function kraft(k) { // Kraftanzeige rechts unten, Strich = Kraft des letzten Wurfs
-      const x = W - 26, y0 = H - 30, h = 170; c.fillStyle = farbe("--surface"); c.globalAlpha = 0.8; c.fillRect(x, y0 - h, 12, h); c.globalAlpha = 1;
-      c.fillStyle = farbe("--orange"); c.fillRect(x, y0 - h * k, 12, h * k); c.strokeStyle = farbe("--ink-soft"); c.lineWidth = 1; c.strokeRect(x, y0 - h, 12, h);
-      if (g.letzteKraft != null) { c.strokeStyle = farbe("--ink"); c.lineWidth = 3; c.beginPath(); c.moveTo(x - 5, y0 - h * g.letzteKraft); c.lineTo(x + 17, y0 - h * g.letzteKraft); c.stroke(); }
+    // Farbskala: Mitte grün (trifft), nach außen gelb, ganz außen rot
+    function skala(x0, y0, x1, y1) { const s = c.createLinearGradient(x0, y0, x1, y1); [[0, "#E23B3B"], [0.2, "#E23B3B"], [0.37, "#F5BE2E"], [0.455, "#3DD07E"], [0.545, "#3DD07E"], [0.63, "#F5BE2E"], [0.8, "#E23B3B"], [1, "#E23B3B"]].forEach(f => s.addColorStop(f[0], f[1])); return s; }
+    function leisten() {
+      if (g.pos >= 5) return;
+      const wartet = !ball && pause <= 0, kAktiv = wartet && phase === "kraft", rAktiv = wartet && phase === "richtung";
+      // Kraft: senkrecht rechts
+      const kx = W - 36, ky0 = H - 40, kh = 240, kw = 18, k = kAktiv ? pendel(pt) : kraftWert;
+      c.globalAlpha = kAktiv ? 1 : 0.55; c.fillStyle = skala(0, ky0 - kh, 0, ky0); c.fillRect(kx, ky0 - kh, kw, kh); c.strokeStyle = farbe("--ink"); c.lineWidth = 1.5; c.strokeRect(kx, ky0 - kh, kw, kh);
+      if (kAktiv || rAktiv || ball) { c.fillStyle = "#12203A"; c.fillRect(kx - 6, ky0 - kh * k - 3, kw + 12, 6); }
+      c.globalAlpha = 1; c.fillStyle = farbe("--ink"); c.font = "800 12px sans-serif"; c.textAlign = "center"; c.fillText("Kraft", kx + kw / 2, ky0 + 16);
+      // Richtung: waagrecht unter dem Ball
+      const rx0 = 110, rw = 180, ry = H - 82, rh = 16, r = rAktiv ? pendel(pt) : ball && ball.richtung != null ? ball.richtung : null;
+      c.globalAlpha = rAktiv ? 1 : 0.45; c.fillStyle = skala(rx0, 0, rx0 + rw, 0); c.fillRect(rx0, ry, rw, rh); c.strokeStyle = farbe("--ink"); c.strokeRect(rx0, ry, rw, rh);
+      if (r != null) { c.fillStyle = "#12203A"; c.fillRect(rx0 + rw * r - 3, ry - 6, 6, rh + 12); }
+      c.globalAlpha = 1; c.fillStyle = farbe("--ink"); c.fillText("Richtung", rx0 + rw / 2, ry + rh + 15);
     }
     function schleife(jetzt) {
       if (G !== g || !document.body.contains(cv)) return;
