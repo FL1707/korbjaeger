@@ -170,6 +170,16 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 
 /* Ergebnisse */
 .seg { display: flex; gap: 6px; flex-wrap: wrap; }
+.team-such { position: relative; max-width: 480px; margin-top: 10px; }
+.team-such .search { padding-right: 44px; }
+.team-x { position: absolute; right: 8px; top: 8px; width: 32px; height: 32px; border-radius: 50%; border: 0; background: var(--surface-2); color: var(--ink); font-size: 20px; line-height: 1; cursor: pointer; }
+.team-liste { position: absolute; left: 0; right: 0; top: calc(100% + 6px); z-index: 30; max-height: min(60vh, 380px); overflow-y: auto; background: var(--surface); border: 2px solid var(--line); border-radius: 16px; box-shadow: 0 10px 30px rgba(0,0,0,.18); padding: 4px 0 8px; }
+.team-liste h4 { margin: 0; padding: 10px 14px 4px; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: .6px; color: var(--ink-soft); }
+.team-liste button { display: flex; align-items: center; gap: 10px; width: 100%; padding: 8px 14px; border: 0; background: none; color: var(--ink); font: inherit; font-weight: 700; text-align: left; cursor: pointer; }
+.team-liste button:hover, .team-liste button[aria-pressed="true"] { background: var(--surface-2); }
+.team-liste button:disabled { opacity: .45; cursor: default; }
+.team-liste small { margin-left: auto; font-weight: 600; color: var(--ink-soft); white-space: nowrap; }
+.team-leer { margin: 0; padding: 12px 14px; color: var(--ink-soft); }
 .seg button { border: 2px solid var(--line); background: var(--surface); padding: 6px 14px; border-radius: 999px; font-weight: 800; font-size: 15px; }
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
 .games { display: grid; gap: 12px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
@@ -441,6 +451,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   const ST_SHORT = ["sp", "min", "pkt", "reb", "ast", "stl", "blk", "tpm", "fgp", "tpp", "ftp", "eff"];
   const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"], ["eff", "Effizienz"]];
   let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "ALLE", upFilter = "ALLE", tblFilter = null;
+  let upTeam = "", upQ = "", upOffen = false; // Team-Suche unter Upcoming
   let stSort = "pkt", stDir = -1, stAll = false, stFilter = "alle", stQuery = "", stLimit = 50;
   // Vergangene Saisons: Liste aus nba-stats-saisons.json, Daten je Saison erst beim Antippen laden
   let SX = [], SC = {}, stSaison = "";
@@ -617,7 +628,11 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   /* Upcoming: alle kommenden Spiele aller Ligen, nach Tagen in deutscher Zeit gruppiert */
   function vUpcoming() {
     const all = upFilter === "ALLE", order = Object.keys(LIGA), now = Date.now();
-    const list = (D.spielplan || []).filter(g => (all || g.liga === upFilter) && new Date(g.zeit).getTime() > now - 3 * 3600e3)
+    const basis = (D.spielplan || []).filter(g => (all || g.liga === upFilter) && new Date(g.zeit).getTime() > now - 3 * 3600e3);
+    // Teams der gewählten Liga(en) für die Suche; ein gewähltes Team ohne Spiel in der neuen Liga fällt weg
+    const anz = {}; basis.forEach(g => { anz[g.heim] = (anz[g.heim] || 0) + 1; anz[g.gast] = (anz[g.gast] || 0) + 1; });
+    if (upTeam && !anz[upTeam]) upTeam = "";
+    const list = basis.filter(g => !upTeam || g.heim === upTeam || g.gast === upTeam)
       .sort((a, b) => new Date(a.zeit) - new Date(b.zeit) || order.indexOf(a.liga) - order.indexOf(b.liga));
     const dayKey = iso => { const d = new Date(iso); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
     const today = dayKey(new Date(now)), tomorrow = dayKey(new Date(now + 864e5));
@@ -626,7 +641,16 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const cnt = l => (D.spielplan || []).filter(g => g.liga === l && new Date(g.zeit).getTime() > now - 3 * 3600e3).length;
     const segs = ["ALLE"].concat(order).map(l => '<button data-up="' + l + '" aria-pressed="' + (l === upFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1] + " (" + cnt(l) + ")") + "</button>").join("");
     const row = g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + (g.ohneZeit ? "offen<small>Uhrzeit folgt</small>" : fmtDate(g.zeit, true).split(", ")[1]) + '</div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + tvLogo(g.tv) + "</div></div>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>' + list.length + " kommende Spiele · alle Zeiten in deutscher Uhrzeit</p></div>" + '<div class="seg">' + segs + "</div>" +
+    // Suchliste: zuerst die Teams mit Stern, dann alle anderen alphabetisch
+    const q = upQ.trim().toLowerCase(), passt = k => !q || team(k).name.toLowerCase().includes(q) || String(team(k).kurz || k).toLowerCase().includes(q);
+    const eintrag = k => '<button data-up-team="' + esc(k) + '"' + (anz[k] ? "" : " disabled") + (k === upTeam ? ' aria-pressed="true"' : "") + ">" + badge(k, true) + "<span>" + esc(team(k).name) + "</span><small>" + (anz[k] ? anz[k] + (anz[k] === 1 ? " Spiel" : " Spiele") : "keine Spiele") + "</small></button>";
+    const sterne = favT.filter(passt), rest = Object.keys(anz).filter(k => !isFav(k) && passt(k)).sort((a, b) => team(a).name.localeCompare(team(b).name, "de"));
+    const liste = upOffen ? '<div class="team-liste" role="listbox">' + (sterne.length ? "<h4>★ Deine Teams</h4>" + sterne.map(eintrag).join("") : "") +
+      (rest.length ? "<h4>" + (sterne.length ? "Weitere Teams" : "Alle Teams") + " A–Z</h4>" + rest.map(eintrag).join("") : "") +
+      (!sterne.length && !rest.length ? '<p class="team-leer">Kein Team gefunden.</p>' : "") + "</div>" : "";
+    const suche = '<div class="team-such"><input class="search" id="upq" type="search" autocomplete="off" placeholder="' + (upTeam ? esc(team(upTeam).name) : "Team suchen …") + '" value="' + esc(upOffen ? upQ : upTeam ? team(upTeam).name : "") + '" aria-label="Team suchen">' +
+      (upTeam ? '<button class="team-x" data-up-team="" aria-label="Team-Auswahl löschen">×</button>' : "") + liste + "</div>";
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>' + list.length + " kommende Spiele" + (upTeam ? " von " + esc(team(upTeam).name) : "") + " · alle Zeiten in deutscher Uhrzeit</p></div>" + '<div class="seg">' + segs + "</div>" + suche +
       (list.length ? Object.keys(days).map(k => '<div class="day-h">' + (k === today ? "Heute · " : k === tomorrow ? "Morgen · " : "") + fmtDate(k + "T12:00:00") + '</div><div class="sched">' + days[k].map(row).join("") + "</div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
       "</section></div>";
   }
@@ -1171,6 +1195,10 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     document.body.appendChild(el);
   }
 
+  // Team-Suche unter Upcoming: Liste öffnet beim Antippen des Feldes und schließt bei einem Klick daneben
+  function upFokus() { const i = $("#upq"); if (!i) return; const pos = i.value.length; i.focus(); try { i.setSelectionRange(pos, pos); } catch (x) {} }
+  document.addEventListener("focusin", e => { if (e.target.id === "upq" && !upOffen) { upOffen = true; upQ = ""; render(); upFokus(); } });
+  document.addEventListener("click", e => { if (upOffen && !e.target.closest(".team-such")) { upOffen = false; upQ = ""; if (!e.target.closest("button")) render(); } });
   document.addEventListener("click", e => {
     const b = e.target.closest("button"); if (!b) return;
     if (b.dataset.favTeam || b.dataset.favSpieler) { toggleFav(b.dataset.favTeam, b.dataset.favSpieler); render(); }
@@ -1179,6 +1207,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.gotoRes) { resFilter = b.dataset.gotoRes; go("ergebnisse"); }
     else if (b.dataset.gotoUp) { upFilter = b.dataset.gotoUp; go("upcoming"); }
     else if (b.dataset.up) { upFilter = b.dataset.up; render(); }
+    else if (b.dataset.upTeam != null) { upTeam = b.dataset.upTeam; upQ = ""; upOffen = false; render(); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.hasAttribute("data-potw")) openPotw();
@@ -1211,9 +1240,10 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     if (e.target.id === "st-saison") loadSaison(e.target.value);
   });
   document.addEventListener("input", e => {
+    if (e.target.id === "upq") { upQ = e.target.value; upOffen = true; render(); upFokus(); return; }
     if (e.target.id === "stq") { stQuery = e.target.value; const pos = e.target.selectionStart; render(); const i = $("#stq"); i.focus(); try { i.setSelectionRange(pos, pos); } catch (x) {} }
   });
-  document.addEventListener("keydown", e => { if (e.key === "Escape") { const s = $(".sheet"); if (s) s.remove(); else closeNews(); } });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") { const s = $(".sheet"); if (upOffen) { upOffen = false; upQ = ""; render(); } else if (s) s.remove(); else closeNews(); } });
 
   const h = (location.hash || "").slice(1);
   if (/^liga-/i.test(h)) { current = "liga"; ligaSel = h.slice(5).toUpperCase(); }
