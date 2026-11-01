@@ -354,6 +354,12 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
 .game-feld { max-width: 520px; width: 100%; margin: 0 auto; overflow: hidden; position: relative; }
 .game-feld canvas { display: block; width: 100%; height: auto; aspect-ratio: 400 / 560; touch-action: none; cursor: grab; }
 .game-tipp { position: absolute; left: 0; right: 0; top: 12px; margin: 0; text-align: center; font-weight: 800; font-size: 18px; color: var(--ink); pointer-events: none; text-shadow: 0 1px 0 var(--surface); }
+.game-wahlen { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 14px; }
+.game-wahl { padding: 18px; display: grid; gap: 8px; align-content: start; }
+.game-wahl h3 { margin: 0; font-family: var(--font-display); font-style: italic; font-size: 28px; }
+.game-wahl p { margin: 0; }
+.game-rek { font-weight: 800; color: var(--ink-soft); }
+.game-rek b { color: var(--orange-ink); font-size: 18px; }
 .quiz .plus { color: var(--good); font-weight: 800; }
 
 .empty { padding: 40px 20px; text-align: center; color: var(--ink-soft); font-weight: 700; }
@@ -770,22 +776,30 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
   // Antworten aus der Zeit vor dem Game zählen einmalig mit (bestes Wissen: die gespeicherten Antworten des heutigen Quiz)
   function gameSeed() { const qid = D.quizId || D.aktualisiert, m = store.get("game_erst", {}), st = store.get("quiz_" + qid, null); if (m[qid] || !st || !st.picks || !st.picks.length || !D.quiz) return; m[qid] = {}; st.picks.forEach((p, i) => { if (D.quiz[i]) m[qid][i] = p === D.quiz[i].richtig; }); store.set("game_erst", m); }
   function vGame() {
-    const rek = store.get("game_rekord", 0);
+    if (G && G.art === "dreier") return '<div class="view"><div class="game-top"><span>Position<b id="g-wurf">1/5</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + store.get("dreier_rekord", 0) + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Dreier-Contest: nach oben zum Korb wischen"></canvas><p class="game-tipp" id="g-tipp" style="top:64px">Wisch nach oben Richtung Korb!</p></div></div>';
+    const rek = store.get("game_rekord", 0), drek = store.get("dreier_rekord", 0);
     if (G) return '<div class="view"><div class="game-top"><span>Wurf<b id="g-wurf">1/' + GAME_WUERFE + '</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + rek + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Wurfspiel: vom Ball wegziehen und loslassen"></canvas><p class="game-tipp" id="g-tipp">Zieh vom Ball weg und lass los!</p></div></div>';
     const gut = gameGuthaben();
+    const karte = (art, titel, text, r) => '<div class="card game-wahl"><h3>' + titel + "</h3><p>" + text + '</p><span class="game-rek">Dein Rekord: <b>' + r + "</b></span>" + (gut ? '<button class="btn" data-gstart="' + art + '">Spielen</button>' : "") + "</div>";
     return '<div class="view"><section class="sec"><div class="sec-h"><h2>Korbjäger-Game</h2><p>Für je zwei Quizfragen, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel. Schon die erste richtige Antwort bringt ein Spiel.</p></div>' +
-      (Gletzt ? '<div class="card game-ergebnis"><span>Letztes Spiel</span><b>' + Gletzt.punkte + " Punkte" + (Gletzt.rekord ? " – neuer Rekord! 🏆" : "") + "</b><span>" + Gletzt.treffer + " von " + GAME_WUERFE + " Würfen getroffen, davon " + Gletzt.swish + " Swish</span></div>" : "") +
-      '<div class="card game-start"><div class="game-zahlen"><div><b>' + gut + "</b><span>" + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div><div><b>" + rek + "</b><span>Dein Rekord</span></div></div>" +
-      (gut ? '<button class="btn" data-gstart>Spiel starten</button>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz, dann geht es los!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
-      '<details class="card abbr"><summary>So geht das Spiel</summary><p>Lege den Finger irgendwo aufs Spielfeld und zieh ihn vom Korb weg, wie bei einer Steinschleuder. Je weiter du ziehst, desto fester wirfst du. Lass los, um zu werfen.</p><p>Jedes Spiel hat ' + GAME_WUERFE + " Würfe. Ein Swish (nur Netz) bringt 3 Punkte, ein Treffer mit Ring oder Brett 2 Punkte. Nach drei Treffern in Folge bewegt sich der Korb!</p></details></section></div>";
+      (Gletzt ? '<div class="card game-ergebnis"><span>Letztes Spiel · ' + Gletzt.titel + "</span><b>" + Gletzt.punkte + " Punkte" + (Gletzt.rekord ? " – neuer Rekord! 🏆" : "") + "</b><span>" + Gletzt.zeile + "</span></div>" : "") +
+      '<div class="card game-start"><div class="game-zahlen"><div><b>' + gut + "</b><span>" + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div></div>" +
+      (gut ? '<p style="margin:0;font-weight:700">Jedes Spiel kostet eins davon. Such dir aus, was du spielen willst:</p>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz, dann geht es los!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
+      '<div class="game-wahlen">' + karte("korb", "Korbwurf", GAME_WUERFE + " Würfe von der Seite. Swish bringt 3 Punkte, sonst 2.", rek) +
+      karte("dreier", "Dreier-Contest", "15 Dreier von 5 Positionen, je 3 Bälle. Der letzte Ball jeder Position ist der Money Ball.", drek) + "</div>" +
+      '<details class="card abbr"><summary>So geht Korbwurf</summary><p>Lege den Finger irgendwo aufs Spielfeld und zieh ihn vom Korb weg, wie bei einer Steinschleuder. Je weiter du ziehst, desto fester wirfst du. Lass los, um zu werfen.</p><p>Jedes Spiel hat ' + GAME_WUERFE + " Würfe. Ein Swish (nur Netz) bringt 3 Punkte, ein Treffer mit Ring oder Brett 2 Punkte. Nach drei Treffern in Folge bewegt sich der Korb!</p></details>" +
+      '<details class="card abbr"><summary>So geht der Dreier-Contest</summary><p>Du stehst hinter dem Werfer an der Dreierlinie. Wisch mit dem Finger nach oben in Richtung Korb und lass los. Die Richtung bestimmt, ob der Ball links oder rechts fliegt, die Länge des Wischens bestimmt die Kraft.</p><p>Du wirfst von 5 Positionen je 3 Bälle: ganz außen rechts, halb rechts, mittig, halb links und ganz außen links. Jeder Treffer zählt 1 Punkt, der letzte Ball jeder Position (der bunte Money Ball) 2 Punkte. Höchstens sind 20 Punkte möglich.</p><p>Tipp: Der Strich an der Kraftanzeige rechts zeigt, wie fest dein letzter Wurf war.</p></details></section></div>';
   }
-  function gameStart() { if (!gameGuthaben()) return; store.set("game_gespielt", store.get("game_gespielt", 0) + 1); G = { wurf: 0, punkte: 0, treffer: 0, swish: 0, serie: 0, t: 0, laeuft: false }; render(); }
+  function gameStart(art) { if (!gameGuthaben()) return; store.set("game_gespielt", store.get("game_gespielt", 0) + 1); G = { art: art === "dreier" ? "dreier" : "korb", wurf: 0, punkte: 0, treffer: 0, swish: 0, serie: 0, t: 0, laeuft: false }; render(); }
   function gameEnde() {
     if (!G) return; const g = G; G = null;
-    const rek = store.get("game_rekord", 0), neu = g.punkte > rek; if (neu) store.set("game_rekord", g.punkte);
-    Gletzt = { punkte: g.punkte, treffer: g.treffer, swish: g.swish, rekord: neu && g.punkte > 0 };
+    const key = g.art === "dreier" ? "dreier_rekord" : "game_rekord", rek = store.get(key, 0), neu = g.punkte > rek; if (neu) store.set(key, g.punkte);
+    Gletzt = g.art === "dreier"
+      ? { titel: "Dreier-Contest", punkte: g.punkte, rekord: neu && g.punkte > 0, zeile: g.treffer + " von 15 Dreiern getroffen, davon " + (g.money || 0) + " Money Balls" }
+      : { titel: "Korbwurf", punkte: g.punkte, rekord: neu && g.punkte > 0, zeile: g.treffer + " von " + GAME_WUERFE + " Würfen getroffen, davon " + g.swish + " Swish" };
   }
   function gameInit() {
+    if (G.art === "dreier") return dreierInit();
     const cv = $("#gcv"); if (!cv || G.laeuft) return;
     const W = 400, H = 560, BODEN = 532, R = 13, GRAV = 900, RIM_V = 274, RIM_H = 340, BRETT = 346;
     const css = getComputedStyle(document.documentElement), farbe = n => css.getPropertyValue(n).trim() || "#888";
@@ -868,6 +882,171 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     }
     neuerBall(); anzeige(); requestAnimationFrame(schleife);
   }
+  /* Dreier-Contest: Blick von hinten über die Schulter des Werfers. Echte 3D-Flugbahn in Metern (Korb im Ursprung,
+     Spielfeld in +z), die Kamera steht 2,8 m hinter der jeweiligen Position und schaut zum Korb. */
+  const DREIER_POS = [["ganz außen rechts", 84], ["halb rechts", 45], ["mittig", 0], ["halb links", -45], ["ganz außen links", -84]];
+  const DR = { abst: 6.75, ringY: 3.05, ringR: 0.25, ballR: 0.12, brettZ: -0.4, grav: 9.81, winkel: 50 * Math.PI / 180, abwurfY: 2.1 };
+  // Wisch (Länge L in Spielfeld-Pixeln, Winkel err zur Senkrechten) -> Abwurf von Position p
+  function dreierWurf(p, L, err) {
+    const a = DREIER_POS[p][1] * Math.PI / 180, ux = Math.sin(a), uz = Math.cos(a), fx = -ux, fz = -uz, rx = -fz, rz = fx;
+    const yaw = Math.max(-0.5, Math.min(0.5, err * 0.3)), dx = fx * Math.cos(yaw) + rx * Math.sin(yaw), dz = fz * Math.cos(yaw) + rz * Math.sin(yaw);
+    const v = 7.7 + Math.min(L, 320) / 320 * 1.8, h = v * Math.cos(DR.winkel);
+    return { x: ux * (DR.abst - 0.25), y: DR.abwurfY, z: uz * (DR.abst - 0.25), vx: dx * h, vy: v * Math.sin(DR.winkel), vz: dz * h, t: 0, ring: false, brett: false, drin: false, kreuz: null };
+  }
+  function dreierSchritt(b, dt) {
+    const vy0 = b.y, vz0 = b.z; b.t += dt; b.vy -= DR.grav * dt; b.x += b.vx * dt; b.y += b.vy * dt; b.z += b.vz * dt;
+    // Ring als Kreis (Torus): nächsten Punkt auf dem Ring suchen und abprallen
+    const hd = Math.hypot(b.x, b.z);
+    if (hd > 0.001 && Math.abs(b.y - DR.ringY) < 0.3) {
+      const qx = b.x / hd * DR.ringR, qz = b.z / hd * DR.ringR, nx = b.x - qx, ny = b.y - DR.ringY, nz = b.z - qz, d = Math.hypot(nx, ny, nz);
+      if (d < DR.ballR && d > 0) {
+        const ex = nx / d, ey = ny / d, ez = nz / d; b.x = qx + ex * DR.ballR; b.y = DR.ringY + ey * DR.ballR; b.z = qz + ez * DR.ballR;
+        const vn = b.vx * ex + b.vy * ey + b.vz * ez;
+        if (vn < 0) { b.vx -= 1.5 * vn * ex; b.vy -= 1.5 * vn * ey; b.vz -= 1.5 * vn * ez; b.vx *= 0.85; b.vy *= 0.85; b.vz *= 0.85; }
+        b.ring = true;
+      }
+    }
+    // Brett
+    if (b.vz < 0 && b.z - DR.ballR < DR.brettZ && vz0 - DR.ballR >= DR.brettZ && Math.abs(b.x) < 0.9 && b.y > 2.9 - DR.ballR && b.y < 3.95 + DR.ballR) { b.z = DR.brettZ + DR.ballR; b.vz *= -0.75; b.brett = true; }
+    // Durch die Ringebene nach unten
+    if (vy0 >= DR.ringY && b.y < DR.ringY && b.vy < 0) {
+      if (!b.kreuz) b.kreuz = { x: b.x, z: b.z };
+      if (!b.drin && Math.hypot(b.x, b.z) < DR.ringR - 0.03) b.drin = true;
+    }
+    if (b.y < DR.ballR) { b.y = DR.ballR; b.vy *= -0.55; b.vx *= 0.8; b.vz *= 0.8; }
+    return b.t > 3.5 || (b.drin && b.y < 1.6) || (b.kreuz && b.y < 1.2) || (b.t > 0.6 && b.vy < 0 && b.y < 1.2);
+  }
+  function dreierInit() {
+    const cv = $("#gcv"); if (!cv || G.laeuft) return;
+    const W = 400, H = 560, F = 520, HZ = 270, KAM_H = 2.4, KAM_HINTEN = 2.8;
+    const css = getComputedStyle(document.documentElement), farbe = n => css.getPropertyValue(n).trim() || "#888";
+    const dpr = Math.min(window.devicePixelRatio || 1, 3); cv.width = W * dpr; cv.height = H * dpr;
+    const c = cv.getContext("2d"); c.setTransform(dpr, 0, 0, dpr, 0, 0);
+    const g = G; g.laeuft = true; g.pos = 0; g.nr = 0; g.money = 0; g.erg = DREIER_POS.map(() => []); g.letzteKraft = null;
+    let ball = null, zieh = null, text = "", textT = 0, pause = 0, kam, letzte = performance.now();
+    function kamera() {
+      const a = DREIER_POS[g.pos][1] * Math.PI / 180, ux = Math.sin(a), uz = Math.cos(a);
+      kam = { cx: ux * (DR.abst + KAM_HINTEN), cz: uz * (DR.abst + KAM_HINTEN), fx: -ux, fz: -uz, rx: uz, rz: -ux };
+    }
+    function proj(x, y, z) {
+      const dx = x - kam.cx, dz = z - kam.cz, tiefe = dx * kam.fx + dz * kam.fz;
+      if (tiefe < 0.3) return null;
+      return { x: W / 2 + F * (dx * kam.rx + dz * kam.rz) / tiefe, y: HZ - F * (y - KAM_H) / tiefe, s: F / tiefe, t: tiefe };
+    }
+    function neuerBall() { ball = null; pause = 0; const e = $("#g-tipp"); if (e && !g.wurf) e.textContent = "Wisch nach oben Richtung Korb!"; }
+    function anzeige() { const w = $("#g-wurf"), p = $("#g-pkt"); if (w) w.textContent = Math.min(g.pos + 1, 5) + "/5"; if (p) p.textContent = g.punkte; }
+    function zeige(t) { text = t; textT = 1.3; const e = $("#g-tipp"); if (e) e.textContent = ""; }
+    function wurfVorbei() {
+      const b = ball, money = g.nr === 2;
+      if (b.drin) { const p = money ? 2 : 1; g.punkte += p; g.treffer++; if (money) g.money++; zeige(money ? "Money Ball! +2" : b.ring || b.brett ? "Drin! +1" : "Swish! +1"); }
+      else if (!b.kreuz) zeige("Zu kurz");
+      else {
+        const lat = b.kreuz.x * kam.rx + b.kreuz.z * kam.rz, tief = b.kreuz.x * kam.fx + b.kreuz.z * kam.fz;
+        zeige(Math.abs(lat) > Math.abs(tief) ? (lat > 0 ? "Rechts vorbei" : "Links vorbei") : tief > 0 ? "Zu weit" : "Zu kurz");
+      }
+      g.erg[g.pos].push(b.drin); g.wurf++; g.nr++; pause = 1.1;
+      if (g.nr === 3) { g.nr = 0; g.pos++; if (g.pos < 5) setTimeout(() => { if (G === g) { zeige("Nächste Position: " + DREIER_POS[g.pos][0]); } }, 1000); }
+      anzeige();
+      if (g.pos >= 5) setTimeout(() => { if (G === g) { gameEnde(); render(); } }, 1500);
+    }
+    function punkt(e) { const r = cv.getBoundingClientRect(); return { x: (e.clientX - r.left) * W / r.width, y: (e.clientY - r.top) * H / r.height }; }
+    const bereit = () => !ball && pause <= 0 && g.pos < 5;
+    cv.addEventListener("pointerdown", e => { if (!bereit()) return; try { cv.setPointerCapture(e.pointerId); } catch (x) {} zieh = { a: punkt(e), b: punkt(e) }; });
+    cv.addEventListener("pointermove", e => { if (zieh) zieh.b = punkt(e); });
+    cv.addEventListener("pointerup", () => {
+      if (!zieh || !bereit()) { zieh = null; return; }
+      const sx = zieh.b.x - zieh.a.x, sy = zieh.b.y - zieh.a.y; zieh = null;
+      if (sy > -20) { const e = $("#g-tipp"); if (e) e.textContent = "Wisch nach oben!"; return; }
+      const L = Math.hypot(sx, sy); g.letzteKraft = Math.min(L, 320) / 320;
+      ball = dreierWurf(g.pos, L, Math.atan2(sx, -sy)); ball.money = g.nr === 2;
+      const e = $("#g-tipp"); if (e) e.textContent = "";
+    });
+    function schritt(dt) {
+      if (textT > 0) textT -= dt;
+      if (pause > 0) { pause -= dt; if (ball) dreierSchritt(ball, dt); if (pause <= 0 && g.pos < 5) { kamera(); neuerBall(); } return; }
+      if (ball && !ball.fertig && dreierSchritt(ball, dt)) { ball.fertig = true; wurfVorbei(); }
+    }
+    function linie(pts) { // Weltpunkte auf dem Boden, abgeschnitten, wo sie hinter der Kamera liegen
+      c.beginPath(); let an = false;
+      pts.forEach(p => { const q = proj(p[0], 0, p[1]); if (!q) { an = false; return; } if (an) c.lineTo(q.x, q.y); else { c.moveTo(q.x, q.y); an = true; } });
+      c.stroke();
+    }
+    const strecke = (x0, z0, x1, z1, n = 30) => Array.from({ length: n + 1 }, (_, i) => [x0 + (x1 - x0) * i / n, z0 + (z1 - z0) * i / n]);
+    const bogen = (mx, mz, r, w0, w1, n = 60) => Array.from({ length: n + 1 }, (_, i) => { const w = w0 + (w1 - w0) * i / n; return [mx + r * Math.sin(w), mz + r * Math.cos(w)]; });
+    function zeichneBall(x, y, z, money, schatten) {
+      const q = proj(x, y, z); if (!q) return;
+      if (schatten) { const s = proj(x, 0, z); if (s) { c.fillStyle = "rgba(0,0,0,.18)"; c.beginPath(); c.ellipse(s.x, s.y, DR.ballR * s.s, DR.ballR * s.s * 0.35, 0, 0, Math.PI * 2); c.fill(); } }
+      const r = DR.ballR * q.s; c.save(); c.translate(q.x, q.y);
+      c.fillStyle = money ? "#2F6FD6" : "#FF6A13"; c.strokeStyle = "#12203A"; c.lineWidth = Math.max(1, r * 0.08);
+      c.beginPath(); c.arc(0, 0, r, 0, Math.PI * 2); c.fill(); c.stroke();
+      if (money) { c.fillStyle = "#fff"; c.beginPath(); c.arc(0, 0, r, -0.5, 0.5); c.arc(0, 0, r, Math.PI - 0.5, Math.PI + 0.5); c.fill(); c.fillStyle = "#E23B3B"; c.beginPath(); c.arc(0, 0, r * 0.55, 0, Math.PI * 2); c.fill(); }
+      c.beginPath(); c.moveTo(-r, 0); c.lineTo(r, 0); c.moveTo(0, -r); c.lineTo(0, r); c.moveTo(-r * .65, -r * .76); c.quadraticCurveTo(-r * .1, 0, -r * .65, r * .76); c.moveTo(r * .65, -r * .76); c.quadraticCurveTo(r * .1, 0, r * .65, r * .76); c.stroke(); c.restore();
+    }
+    function zeichne() {
+      c.clearRect(0, 0, W, H);
+      const hg = c.createLinearGradient(0, 0, 0, HZ); hg.addColorStop(0, farbe("--surface")); hg.addColorStop(1, farbe("--surface-2")); c.fillStyle = hg; c.fillRect(0, 0, W, HZ);
+      c.fillStyle = farbe("--line"); for (let i = 0; i < 3; i++) c.fillRect(0, HZ - 60 + i * 18, W, 8); // Tribünenreihen
+      const bg = c.createLinearGradient(0, HZ, 0, H); bg.addColorStop(0, farbe("--court")); bg.addColorStop(1, "#E8954A"); c.fillStyle = bg; c.fillRect(0, HZ, W, H - HZ);
+      // Zone (Rechteck unter dem Korb) einfärben
+      const zone = [[-2.45, -1.575], [2.45, -1.575], [2.45, 4.225], [-2.45, 4.225]].map(p => proj(p[0], 0, p[1]));
+      if (zone.every(Boolean)) { c.fillStyle = "rgba(201,74,0,.28)"; c.beginPath(); zone.forEach((q, i) => i ? c.lineTo(q.x, q.y) : c.moveTo(q.x, q.y)); c.closePath(); c.fill(); }
+      c.strokeStyle = "rgba(255,255,255,.85)"; c.lineWidth = 2.5;
+      const eck = Math.sqrt(DR.abst * DR.abst - 6.6 * 6.6);
+      linie(strecke(-7.5, -1.575, 7.5, -1.575)); linie(strecke(-7.5, -1.575, -7.5, 14)); linie(strecke(7.5, -1.575, 7.5, 14));
+      linie(strecke(-6.6, -1.575, -6.6, eck, 10)); linie(strecke(6.6, -1.575, 6.6, eck, 10));
+      linie(bogen(0, 0, DR.abst, -Math.asin(6.6 / DR.abst), Math.asin(6.6 / DR.abst), 90));
+      linie(strecke(-2.45, -1.575, -2.45, 4.225)); linie(strecke(2.45, -1.575, 2.45, 4.225)); linie(strecke(-2.45, 4.225, 2.45, 4.225));
+      linie(bogen(0, 4.225, 1.8, -Math.PI / 2, Math.PI / 2)); linie(bogen(0, 0, 1.25, -Math.PI / 2, Math.PI / 2));
+      // Wurfpositionen als Punkte auf der Linie
+      DREIER_POS.forEach((p, i) => { const a = p[1] * Math.PI / 180, q = proj(Math.sin(a) * DR.abst, 0, Math.cos(a) * DR.abst); if (!q) return; c.fillStyle = i === g.pos ? farbe("--orange") : "rgba(255,255,255,.7)"; c.beginPath(); c.ellipse(q.x, q.y, 0.3 * q.s, 0.1 * q.s, 0, 0, Math.PI * 2); c.fill(); });
+      // Halterung, Brett, Ring und Netz
+      const p1 = proj(0, 3.4, -0.4), p2 = proj(0, 3.4, -1.8), p3 = proj(0, 0, -1.8);
+      if (p1 && p2 && p3) { c.strokeStyle = farbe("--ink-soft"); c.lineWidth = Math.max(2, 0.12 * p2.s); c.beginPath(); c.moveTo(p1.x, p1.y); c.lineTo(p2.x, p2.y); c.lineTo(p3.x, p3.y); c.stroke(); }
+      const brett = [[-0.9, 3.95], [0.9, 3.95], [0.9, 2.9], [-0.9, 2.9]].map(p => proj(p[0], p[1], DR.brettZ)), feld = [[-0.295, 3.5], [0.295, 3.5], [0.295, 3.05], [-0.295, 3.05]].map(p => proj(p[0], p[1], DR.brettZ + 0.01));
+      if (brett.every(Boolean)) {
+        c.fillStyle = "rgba(255,255,255,.88)"; c.strokeStyle = farbe("--ink"); c.lineWidth = 2; c.beginPath(); brett.forEach((q, i) => i ? c.lineTo(q.x, q.y) : c.moveTo(q.x, q.y)); c.closePath(); c.fill(); c.stroke();
+        c.strokeStyle = "#E8650F"; c.beginPath(); feld.forEach((q, i) => i ? c.lineTo(q.x, q.y) : c.moveTo(q.x, q.y)); c.closePath(); c.stroke();
+      }
+      const mitte = proj(0, DR.ringY, 0), ringPkt = n => Array.from({ length: n + 1 }, (_, i) => { const w = i / n * Math.PI * 2; return [Math.sin(w) * DR.ringR, Math.cos(w) * DR.ringR]; });
+      const ringHaelfte = vorne => { c.strokeStyle = "#E8650F"; c.lineWidth = Math.max(2, 0.03 * mitte.s); c.beginPath(); let an = false; ringPkt(48).forEach(p => { const q = proj(p[0], DR.ringY, p[1]); const v = q.t < mitte.t; if (v !== vorne) { an = false; return; } if (an) c.lineTo(q.x, q.y); else { c.moveTo(q.x, q.y); an = true; } }); c.stroke(); };
+      const netz = () => { c.strokeStyle = "rgba(255,255,255,.95)"; c.lineWidth = 1.2; c.beginPath(); ringPkt(12).forEach(p => { const o = proj(p[0], DR.ringY, p[1]), u = proj(p[0] * 0.6, DR.ringY - 0.42, p[1] * 0.6); c.moveTo(o.x, o.y); c.lineTo(u.x, u.y); }); let an = false; ringPkt(24).forEach(p => { const u = proj(p[0] * 0.6, DR.ringY - 0.42, p[1] * 0.6); if (an) c.lineTo(u.x, u.y); else { c.moveTo(u.x, u.y); an = true; } }); c.stroke(); };
+      const fliegt = ball, bq = fliegt && proj(ball.x, ball.y, ball.z), dahinter = bq && bq.t > mitte.t;
+      ringHaelfte(false);
+      if (dahinter) zeichneBall(ball.x, ball.y, ball.z, ball.money, true);
+      netz(); ringHaelfte(true);
+      if (fliegt && !dahinter) zeichneBall(ball.x, ball.y, ball.z, ball.money, true);
+      // Ball in der Hand vor dem Wurf
+      if (!ball && pause <= 0 && g.pos < 5) {
+        const a = DREIER_POS[g.pos][1] * Math.PI / 180; zeichneBall(Math.sin(a) * (DR.abst - 0.25), DR.abwurfY, Math.cos(a) * (DR.abst - 0.25), g.nr === 2, false);
+        if (zieh) { const sx = zieh.b.x - zieh.a.x, sy = zieh.b.y - zieh.a.y, l = Math.hypot(sx, sy);
+          if (sy < -20) { const q = proj(Math.sin(a) * (DR.abst - 0.25), DR.abwurfY, Math.cos(a) * (DR.abst - 0.25)), w = Math.atan2(sx, -sy);
+            c.strokeStyle = farbe("--ink"); c.lineWidth = 3; c.setLineDash([6, 7]); c.beginPath(); c.moveTo(q.x, q.y - 26); c.lineTo(q.x + Math.sin(w) * 90, q.y - 26 - Math.cos(w) * 90); c.stroke(); c.setLineDash([]); }
+          kraft(Math.min(l, 320) / 320); }
+        else kraft(0);
+      } else kraft(0);
+      // Ballständer der aktuellen Position: unten links, Treffer grün, daneben rot
+      if (g.pos < 5) for (let i = 0; i < 3; i++) { const x = 26 + i * 30, y = H - 26, e = g.erg[g.pos][i]; c.fillStyle = e == null ? (i === 2 ? "#2F6FD6" : "#FF6A13") : e ? farbe("--good") : farbe("--bad"); c.globalAlpha = e == null && i < g.nr ? 0.3 : 1; c.beginPath(); c.arc(x, y, 11, 0, Math.PI * 2); c.fill(); c.globalAlpha = 1; }
+      // Übersicht oben links: die 5 Positionen auf einem kleinen Dreierbogen
+      c.strokeStyle = farbe("--ink-soft"); c.lineWidth = 1.5; c.beginPath(); c.arc(50, 22, 34, 0.1, Math.PI - 0.1); c.stroke();
+      DREIER_POS.forEach((p, i) => { const a = p[1] * Math.PI / 180, x = 50 - Math.sin(a) * 34 * -1, y = 22 + Math.cos(a) * 34, t = g.erg[i].filter(Boolean).length;
+        c.fillStyle = i === g.pos ? farbe("--orange") : i < g.pos ? farbe("--good") : farbe("--surface"); c.strokeStyle = farbe("--ink-soft"); c.beginPath(); c.arc(x, y, 7, 0, Math.PI * 2); c.fill(); c.stroke();
+        if (i < g.pos) { c.fillStyle = "#fff"; c.font = "800 10px sans-serif"; c.textAlign = "center"; c.fillText(t, x, y + 3.5); } });
+      if (g.pos < 5) { c.fillStyle = farbe("--ink"); c.font = "800 15px sans-serif"; c.textAlign = "right"; c.fillText(DREIER_POS[g.pos][0], W - 14, 26); c.font = "700 13px sans-serif"; c.fillStyle = farbe("--ink-soft"); c.fillText("Ball " + (g.nr + 1) + " von 3" + (g.nr === 2 ? " · Money Ball" : ""), W - 14, 44); }
+      if (textT > 0) { c.globalAlpha = Math.min(1, textT * 1.5); c.fillStyle = farbe("--orange-ink"); c.font = "italic 800 38px 'Barlow Condensed', 'Arial Narrow', sans-serif"; c.textAlign = "center"; c.fillText(text, W / 2, 110); c.globalAlpha = 1; }
+    }
+    function kraft(k) { // Kraftanzeige rechts unten, Strich = Kraft des letzten Wurfs
+      const x = W - 26, y0 = H - 30, h = 170; c.fillStyle = farbe("--surface"); c.globalAlpha = 0.8; c.fillRect(x, y0 - h, 12, h); c.globalAlpha = 1;
+      c.fillStyle = farbe("--orange"); c.fillRect(x, y0 - h * k, 12, h * k); c.strokeStyle = farbe("--ink-soft"); c.lineWidth = 1; c.strokeRect(x, y0 - h, 12, h);
+      if (g.letzteKraft != null) { c.strokeStyle = farbe("--ink"); c.lineWidth = 3; c.beginPath(); c.moveTo(x - 5, y0 - h * g.letzteKraft); c.lineTo(x + 17, y0 - h * g.letzteKraft); c.stroke(); }
+    }
+    function schleife(jetzt) {
+      if (G !== g || !document.body.contains(cv)) return;
+      let dt = Math.min(0.05, (jetzt - letzte) / 1000); letzte = jetzt;
+      while (dt > 0) { const s = Math.min(dt, 1 / 240); schritt(s); dt -= s; }
+      zeichne(); requestAnimationFrame(schleife);
+    }
+    kamera(); neuerBall(); anzeige(); requestAnimationFrame(schleife);
+  }
   const VIEWS = { heute: vHeute, ergebnisse: vErgebnisse, upcoming: vUpcoming, tabellen: vTabellen, training: vTraining, quiz: vQuiz, game: vGame, statistik: vStatistik, liga: vLiga };
 
   function render() {
@@ -931,7 +1110,7 @@ tr.fav td { background: color-mix(in srgb, var(--yellow) 22%, transparent); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
-    else if (b.hasAttribute("data-gstart")) gameStart();
+    else if (b.hasAttribute("data-gstart")) gameStart(b.dataset.gstart);
     else if (b.hasAttribute("data-close")) closeNews();
     else if (b.dataset.t) showTerm(b.dataset.t);
     else if (b.hasAttribute("data-sheet-close")) b.closest(".sheet").remove();
