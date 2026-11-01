@@ -179,6 +179,7 @@ main { max-width: 1100px; margin: 0 auto; padding-left: max(16px, env(safe-area-
 .team-liste button:hover, .team-liste button[aria-pressed="true"] { background: var(--surface-2); }
 .team-liste button:disabled { opacity: .45; cursor: default; }
 .team-liste small { margin-left: auto; font-weight: 600; color: var(--ink-soft); white-space: nowrap; }
+.mehr-spiele { margin-top: 16px; }
 .team-leer { margin: 0; padding: 12px 14px; color: var(--ink-soft); }
 .seg button { border: 2px solid var(--line); background: var(--surface); padding: 6px 14px; border-radius: 999px; font-weight: 800; font-size: 15px; }
 .seg button[aria-pressed="true"] { background: var(--ink); color: var(--bg); border-color: var(--ink); }
@@ -451,7 +452,16 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   const ST_SHORT = ["sp", "min", "pkt", "reb", "ast", "stl", "blk", "tpm", "fgp", "tpp", "ftp", "eff"];
   const ST_SORT = [["pkt", "Punkte"], ["reb", "Rebounds"], ["ast", "Assists"], ["stl", "Steals"], ["blk", "Blocks"], ["tpm", "Dreier"], ["fgp", "Wurfquote"], ["min", "Minuten"], ["eff", "Effizienz"]];
   let D = null, A = [], S = null, current = "heute", ligaSel = "ALLE", resFilter = "ALLE", upFilter = "ALLE", tblFilter = null;
-  let upTeam = "", upQ = "", upOffen = false; // Team-Suche unter Upcoming
+  let upTeam = "", upQ = "", upOffen = false, upMax = 150; // Team-Suche und Länge der Liste unter Upcoming
+  /* Upcoming zeigt 3 Monate: data.json → spielplan (nahe Spiele mit TV/Info, hat Vorrang) plus spielplan-lang.json
+     (alle Spiele der nächsten 3 Monate, NBA und EL automatisch per werkzeuge/spielplan.py). */
+  let LANG = [], SPP = null;
+  function spielplanAlle() {
+    if (SPP && SPP.d === D.spielplan && SPP.l === LANG) return SPP.alle;
+    const k = g => g.liga + "|" + g.heim + "|" + g.gast + "|" + String(g.zeit).slice(0, 10), da = new Set((D.spielplan || []).map(k));
+    const alle = (D.spielplan || []).concat(LANG.filter(g => !da.has(k(g))));
+    SPP = { d: D.spielplan, l: LANG, alle }; return alle;
+  }
   let stSort = "pkt", stDir = -1, stAll = false, stFilter = "alle", stQuery = "", stLimit = 50;
   // Vergangene Saisons: Liste aus nba-stats-saisons.json, Daten je Saison erst beim Antippen laden
   let SX = [], SC = {}, stSaison = "";
@@ -628,17 +638,19 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
   /* Upcoming: alle kommenden Spiele aller Ligen, nach Tagen in deutscher Zeit gruppiert */
   function vUpcoming() {
     const all = upFilter === "ALLE", order = Object.keys(LIGA), now = Date.now();
-    const basis = (D.spielplan || []).filter(g => (all || g.liga === upFilter) && new Date(g.zeit).getTime() > now - 3 * 3600e3);
+    const basis = spielplanAlle().filter(g => (all || g.liga === upFilter) && new Date(g.zeit).getTime() > now - 3 * 3600e3);
     // Teams der gewählten Liga(en) für die Suche; ein gewähltes Team ohne Spiel in der neuen Liga fällt weg
     const anz = {}; basis.forEach(g => { anz[g.heim] = (anz[g.heim] || 0) + 1; anz[g.gast] = (anz[g.gast] || 0) + 1; });
     if (upTeam && !anz[upTeam]) upTeam = "";
-    const list = basis.filter(g => !upTeam || g.heim === upTeam || g.gast === upTeam)
+    const alleSpiele = basis.filter(g => !upTeam || g.heim === upTeam || g.gast === upTeam)
       .sort((a, b) => new Date(a.zeit) - new Date(b.zeit) || order.indexOf(a.liga) - order.indexOf(b.liga));
+    // Ohne gewähltes Team wird die lange Liste schrittweise gezeigt, mit Team immer komplett
+    const list = upTeam ? alleSpiele : alleSpiele.slice(0, upMax);
     const dayKey = iso => { const d = new Date(iso); return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0"); };
     const today = dayKey(new Date(now)), tomorrow = dayKey(new Date(now + 864e5));
     const days = {};
     list.forEach(g => { (days[dayKey(g.zeit)] = days[dayKey(g.zeit)] || []).push(g); });
-    const cnt = l => (D.spielplan || []).filter(g => g.liga === l && new Date(g.zeit).getTime() > now - 3 * 3600e3).length;
+    const cnt = l => spielplanAlle().filter(g => g.liga === l && new Date(g.zeit).getTime() > now - 3 * 3600e3).length;
     const segs = ["ALLE"].concat(order).map(l => '<button data-up="' + l + '" aria-pressed="' + (l === upFilter) + '">' + (l === "ALLE" ? "Alle" : LIGA[l][1] + " (" + cnt(l) + ")") + "</button>").join("");
     const row = g => '<div class="card sched-row' + ((isFav(g.heim) || isFav(g.gast)) ? " game fav" : "") + '"><div class="t">' + (g.ohneZeit ? "offen<small>Uhrzeit folgt</small>" : fmtDate(g.zeit, true).split(", ")[1]) + '</div><div class="vs">' + badge(g.gast, true) + esc(team(g.gast).name) + ' <span class="at">bei</span> ' + badge(g.heim, true) + esc(team(g.heim).name) + "</div><div>" + (all ? ligaPill(g.liga) + " " : "") + (g.info ? '<span class="pill">' + esc(g.info) + "</span>" : "") + tvLogo(g.tv) + "</div></div>";
     // Suchliste: zuerst die Teams mit Stern, dann alle anderen alphabetisch
@@ -650,8 +662,9 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       (!sterne.length && !rest.length ? '<p class="team-leer">Kein Team gefunden.</p>' : "") + "</div>" : "";
     const suche = '<div class="team-such"><input class="search" id="upq" type="search" autocomplete="off" placeholder="' + (upTeam ? esc(team(upTeam).name) : "Team suchen …") + '" value="' + esc(upOffen ? upQ : upTeam ? team(upTeam).name : "") + '" aria-label="Team suchen">' +
       (upTeam ? '<button class="team-x" data-up-team="" aria-label="Team-Auswahl löschen">×</button>' : "") + liste + "</div>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>' + list.length + " kommende Spiele" + (upTeam ? " von " + esc(team(upTeam).name) : "") + " · alle Zeiten in deutscher Uhrzeit</p></div>" + '<div class="seg">' + segs + "</div>" + suche +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Upcoming</h2><p>' + alleSpiele.length + " kommende Spiele" + (upTeam ? " von " + esc(team(upTeam).name) : "") + " · alle Zeiten in deutscher Uhrzeit</p></div>" + '<div class="seg">' + segs + "</div>" + suche +
       (list.length ? Object.keys(days).map(k => '<div class="day-h">' + (k === today ? "Heute · " : k === tomorrow ? "Morgen · " : "") + fmtDate(k + "T12:00:00") + '</div><div class="sched">' + days[k].map(row).join("") + "</div>").join("") : '<div class="card empty">Noch keine Termine eingetragen.</div>') +
+      (list.length < alleSpiele.length ? '<button class="btn mehr-spiele" data-up-mehr>Weitere Spiele anzeigen (' + (alleSpiele.length - list.length) + ")</button>" : "") +
       "</section></div>";
   }
   function vTabellen() {
@@ -1206,7 +1219,8 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.liga) { ligaSel = b.dataset.liga; go("liga"); }
     else if (b.dataset.gotoRes) { resFilter = b.dataset.gotoRes; go("ergebnisse"); }
     else if (b.dataset.gotoUp) { upFilter = b.dataset.gotoUp; go("upcoming"); }
-    else if (b.dataset.up) { upFilter = b.dataset.up; render(); }
+    else if (b.dataset.up) { upFilter = b.dataset.up; upMax = 150; render(); }
+    else if (b.hasAttribute("data-up-mehr")) { upMax += 150; render(); }
     else if (b.dataset.upTeam != null) { upTeam = b.dataset.upTeam; upQ = ""; upOffen = false; render(); }
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
@@ -1270,6 +1284,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     $("#stamp").innerHTML = "<strong>" + esc(d.ausgabe || "Aktuelle Ausgabe") + "</strong>Stand: " + fmtDate(d.aktualisiert, true);
     render();
     // Das Archiv ist optional: fehlt es, zeigt die App einfach nur die aktuellen Artikel.
+    fetch("spielplan-lang.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(j => { if (j && Array.isArray(j.spiele)) { LANG = j.spiele; if (current === "upcoming") render(); } }).catch(() => {});
     fetch("archiv.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(a => { if (a && Array.isArray(a.news)) { A = a.news; render(); } }).catch(() => {});
     fetch("nba-stats.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(s => { if (s && Array.isArray(s.spieler)) { S = s; if (["statistik", "ergebnisse"].includes(current)) render(); } }).catch(() => {});
     fetch("nba-stats-saisons.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(x => { if (x && Array.isArray(x.vergangen)) { SX = x.vergangen; if (current === "statistik") render(); } }).catch(() => {});
