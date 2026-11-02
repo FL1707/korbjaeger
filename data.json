@@ -1,7 +1,7 @@
 {
-  "aktualisiert": "2026-11-02T06:22:39+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-02",
-  "gruss": "Guten Morgen und einen guten Start in die Woche! In der Bundesliga hat es am Sonntag gekracht: Rostock hat dem FC Bayern die erste Niederlage beigebracht, und ALBA verlor den Klassiker in Bonn. In der NBA glänzte Warriors-Rookie Yaxel Lendeborg mit 37 Punkten. Heute Nacht spielt OKC mit Isaiah Hartenstein in Cleveland, Franz Wagner und Tristan da Silva empfangen mit Orlando Washington.",
+  "aktualisiert": "2026-11-02T16:17:41+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-02",
+  "gruss": "Hallo und schönen Nachmittag! Heute Nacht ist in der NBA viel los: OKC mit Isaiah Hartenstein spielt in Cleveland, Moritz Wagner trifft mit Brooklyn auf die New York Knicks, Franz Wagner und Tristan da Silva empfangen mit Orlando Washington, und Dennis Schröder und Hannes Steinbach bekommen es mit Charlotte gegen Detroit zu tun. Am Dienstagabend holt der FC Bayern sein Bundesliga-Spiel gegen Braunschweig nach.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
@@ -411,6 +411,54 @@
         "Julius Randle",
         "Day'Ron Sharpe",
         "Andrew Nembhard"
+      ]
+    },
+    {
+      "id": "2026-11-02-nba-vorschau-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Heute Nacht: Spitzenspiel in Cleveland und vier deutsche Duelle",
+      "teaser": "OKC muss nach zwei Niederlagen in Cleveland ran. Dazu sind Moritz Wagner, Franz Wagner, Tristan da Silva, Dennis Schröder und Hannes Steinbach im Einsatz.",
+      "text": [
+        "In der Nacht auf Dienstag stehen in der NBA 15 Spiele auf dem Plan. Das erste beginnt um 1 Uhr deutscher Zeit: Die Cleveland Cavaliers empfangen Oklahoma City.",
+        "Beide Teams haben bisher 4 Siege und 2 Niederlagen. OKC hat aber die letzten zwei Spiele verloren, zuletzt deutlich mit 98:119 in Houston. Isaiah Hartenstein holt in dieser Saison im Schnitt über 9 Rebounds pro Spiel. Bei Cleveland ist Donovan Mitchell der beste Werfer.",
+        "Um 1:30 Uhr geht es gleich viermal mit deutscher Beteiligung los. Moritz Wagner und die Brooklyn Nets spielen bei den New York Knicks. Brooklyn hat am Sonntag in Indiana den ersten Saisonsieg gefeiert. Franz Wagner und Tristan da Silva empfangen mit Orlando die Washington Wizards.",
+        "Dennis Schröder und Hannes Steinbach treffen mit Charlotte auf Detroit. Das wird schwer: Die Pistons haben 5 von 6 Spielen gewonnen. Charlotte hat dagegen die letzten drei Spiele verloren.",
+        "Noch ein Blick nach Texas: Die Sacramento Kings haben als einziges Team der Liga noch kein Spiel gewonnen. Heute Nacht versuchen sie es in Dallas."
+      ],
+      "fakten": [
+        "Cleveland gegen OKC: 1 Uhr deutscher Zeit",
+        "Beide Teams: 4 Siege, 2 Niederlagen",
+        "Detroit: 5 Siege, 1 Niederlage",
+        "Sacramento: 0 Siege, 6 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "CLE",
+        "OKC",
+        "NYK",
+        "BKN",
+        "ORL",
+        "WAS",
+        "CHA",
+        "DET",
+        "DAL",
+        "SAC",
+        "HOU"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Donovan Mitchell",
+        "Moritz Wagner",
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Dennis Schröder",
+        "Hannes Steinbach"
       ]
     },
     {
@@ -2798,10 +2846,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 5,
-        "pkt": 20.8,
-        "reb": 6.8,
-        "ast": 7.0
+        "spiele": 6,
+        "pkt": 19.7,
+        "reb": 6.7,
+        "ast": 7.8
       },
       "notiz": "Gegen Boston gab er 12 Assists – so viele wie noch nie in seiner NBA-Karriere."
     },
@@ -2812,10 +2860,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 5,
-        "pkt": 11.4,
-        "reb": 3.8,
-        "ast": 1.4
+        "spiele": 6,
+        "pkt": 11.8,
+        "reb": 4.2,
+        "ast": 1.2
       },
       "notiz": "14 Punkte beim ersten Saisonsieg der Brooklyn Nets in Indiana."
     },
@@ -2854,10 +2902,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 5,
-        "pkt": 13.2,
-        "reb": 2.0,
-        "ast": 1.4
+        "spiele": 6,
+        "pkt": 14.8,
+        "reb": 3.3,
+        "ast": 1.5
       },
       "notiz": "Gegen Boston machte er 23 Punkte und 10 Rebounds, dazu 5 Dreier."
     },
@@ -2906,10 +2954,10 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 5,
-        "pkt": 36.2,
-        "reb": 6.8,
-        "ast": 7.6
+        "spiele": 6,
+        "pkt": 37.7,
+        "reb": 8.2,
+        "ast": 7.3
       },
       "notiz": "45 Punkte, 15 Rebounds und 5 Steals gegen Toronto – Spieler der Woche!"
     },
@@ -3936,6 +3984,16 @@
       "newsId": "2026-11-02-luka-45"
     },
     {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-10-31",
+      "titel": "Darius Acuff Jr.",
+      "team": "SAC",
+      "wert": "9 Dreier",
+      "grund": "Der 19-Jährige machte in Memphis 38 Punkte und traf 9 von 14 Dreiern. Sacramento verlor trotzdem 105:136 und wartet weiter auf den ersten Sieg.",
+      "newsId": "2026-11-01-grizzlies-6-0"
+    },
+    {
       "art": "spiel",
       "liga": "BBL",
       "datum": "2026-11-01",
@@ -3954,16 +4012,6 @@
       "wert": "12 Assists",
       "grund": "So viele Vorlagen hat er in der NBA noch nie in einem Spiel gegeben. Orlando verlor trotzdem gegen Boston.",
       "newsId": "2026-11-02-magic-nets"
-    },
-    {
-      "art": "spieler",
-      "liga": "BBL",
-      "datum": "2026-11-01",
-      "titel": "Collin Welp",
-      "team": "MBC",
-      "wert": "1000 Punkte",
-      "grund": "Beim 109:89 in Hamburg machte er 10 Punkte und knackte damit die Marke von 1000 Punkten in seiner Bundesliga-Karriere.",
-      "newsId": "2026-11-02-rostock-bayern"
     }
   ],
   "legacyGestellt": [
