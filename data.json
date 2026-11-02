@@ -1,238 +1,418 @@
 {
-  "aktualisiert": "2026-11-01T16:18:36+01:00",
-  "ausgabe": "Nachmittagsausgabe",
-  "gruss": "Hallo am Sonntagnachmittag! Gerade spielt der FC Bayern in Rostock, um 18 Uhr ist ALBA in Bonn dran. Am Abend um 21:30 Uhr treffen Franz Wagner und Tristan da Silva mit Orlando auf Boston, um 23 Uhr spielt Moritz Wagner mit Brooklyn in Indiana. Und in der Nacht empfangen Stephen Curry und die Warriors die Clippers.",
+  "aktualisiert": "2026-11-02T06:22:39+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-02",
+  "gruss": "Guten Morgen und einen guten Start in die Woche! In der Bundesliga hat es am Sonntag gekracht: Rostock hat dem FC Bayern die erste Niederlage beigebracht, und ALBA verlor den Klassiker in Bonn. In der NBA glänzte Warriors-Rookie Yaxel Lendeborg mit 37 Punkten. Heute Nacht spielt OKC mit Isaiah Hartenstein in Cleveland, Franz Wagner und Tristan da Silva empfangen mit Orlando Washington.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
-  "quizId": "2026-11-01",
+  "quizId": "2026-11-02",
   "zahlDesTages": {
-    "zahl": "23",
-    "text": "So viele Punkte lagen die Golden State Warriors gegen die Lakers schon zurück – und haben trotzdem noch mit 112:95 gewonnen."
+    "zahl": "37",
+    "text": "So viele Punkte machte Warriors-Rookie Yaxel Lendeborg gegen die Clippers – so viele wie kein Warriors-Rookie seit Stephen Curry im Jahr 2010."
   },
   "spielerDerWoche": {
-    "name": "Brandon Angel",
-    "team": "ALBA",
-    "text": "Beim 103:100 von ALBA gegen Bilbao traf er alle 10 Würfe aus dem Feld und machte 24 Punkte. Perfekter geht es kaum!",
+    "name": "Luka Dončić",
+    "team": "LAL",
+    "text": "Er hat viermal hintereinander mindestens 37 Punkte gemacht. Gegen Toronto kam er auf 45 Punkte, 15 Rebounds und 5 Steals.",
     "profil": {
-      "geboren": "2001-10-27",
-      "geburtsort": "San Diego (USA)",
-      "nation": "USA",
-      "groesse": "2,06 m",
-      "position": "Flügelspieler (Forward)",
-      "nummer": 21,
+      "geboren": "1999-02-28",
+      "geburtsort": "Ljubljana (Slowenien)",
+      "nation": "Slowenien",
+      "position": "Aufbau- und Flügelspieler (Guard)",
+      "nummer": 77,
       "stationen": [
         {
-          "zeit": "bis 2020",
-          "team": "Torrey Pines High School",
-          "info": "Schule in San Diego"
+          "zeit": "2012–2018",
+          "team": "Real Madrid",
+          "info": "Jugend und ab 2015 Profi in Spanien"
         },
         {
-          "zeit": "2020–2024",
-          "team": "Stanford University",
-          "info": "College in den USA"
+          "zeit": "2018–2025",
+          "team": "Dallas Mavericks",
+          "info": "NBA"
         },
         {
-          "zeit": "2024–2025",
-          "team": "University of Oregon",
-          "info": "College in den USA"
-        },
-        {
-          "zeit": "2025–2026",
-          "team": "Hapoel Be'er Sheva",
-          "info": "Israel, erste Profi-Saison"
-        },
-        {
-          "zeit": "seit 2026",
-          "team": "ALBA Berlin",
-          "info": "Bundesliga und Champions League"
+          "zeit": "seit 2025",
+          "team": "Los Angeles Lakers",
+          "info": "NBA"
         }
       ],
       "saisons": [
         {
           "saison": "2026/27",
-          "team": "ALBA Berlin",
-          "liga": "Bundesliga",
-          "live": "bbl",
-          "sp": 6,
-          "pkt": 12.7,
-          "fgp": 53.7,
-          "tpp": 23.5,
-          "reb": 5.5,
-          "ast": 1.8
-        },
-        {
-          "saison": "2026/27",
-          "team": "ALBA Berlin",
-          "liga": "Champions League",
-          "sp": 3,
-          "pkt": 16.3,
-          "fgp": 79.2,
-          "tpp": 66.7,
-          "reb": 4.3,
-          "ast": 2.0
+          "team": "Los Angeles Lakers",
+          "liga": "NBA",
+          "live": "nba",
+          "sp": 5,
+          "pkt": 36.2,
+          "fgp": 47.5,
+          "tpp": 39.1,
+          "reb": 6.8,
+          "ast": 7.6
         },
         {
           "saison": "2025/26",
-          "team": "Hapoel Be'er Sheva",
-          "liga": "Israel",
-          "sp": 17,
-          "pkt": 16.9,
-          "fgp": 51.6,
-          "tpp": 42.6,
-          "reb": 7.9,
-          "ast": 2.3
-        },
-        {
-          "saison": "2024/25",
-          "team": "Oregon",
-          "liga": "College (NCAA)",
-          "sp": 35,
-          "pkt": 8.3,
-          "fgp": 53.6,
-          "tpp": 36.8,
-          "reb": 3.8,
-          "ast": 1.1
+          "team": "Los Angeles Lakers",
+          "liga": "NBA",
+          "sp": 64,
+          "pkt": 33.5,
+          "fgp": 47.6,
+          "tpp": 36.6,
+          "reb": 7.7,
+          "ast": 8.3
         }
       ],
       "fakten": [
-        "Er war fünf Jahre am College: vier bei Stanford, eins bei Oregon.",
-        "Beim NBA-Draft 2025 wurde er nicht ausgewählt. Danach ging er als Profi nach Israel.",
-        "Im Sommer spielte er bei der NBA Summer League mit: 2025 für Phoenix, 2026 für Toronto.",
-        "In Israel traf er 43 Prozent seiner Dreier. Bei ALBA trägt er die Nummer 21."
+        "Schon mit 16 Jahren spielte er bei Real Madrid in der ersten Mannschaft.",
+        "2018 gewann er mit Real Madrid die Euroleague und wurde zum besten Spieler der Saison gewählt.",
+        "2017 wurde er mit Slowenien Europameister.",
+        "In der NBA wurde er 2019 Rookie des Jahres. Im Januar 2024 machte er für Dallas 73 Punkte in einem Spiel."
       ],
-      "bild": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/2026-10-03_ALBA_Berlin_gegen_Bamberg_Baskets_%28Basketball-Bundesliga_2026-27%29_by_Sandro_Halank%E2%80%93150.jpg/500px-2026-10-03_ALBA_Berlin_gegen_Bamberg_Baskets_%28Basketball-Bundesliga_2026-27%29_by_Sandro_Halank%E2%80%93150.jpg",
-        "seite": "https://commons.wikimedia.org/wiki/File:2026-10-03_ALBA_Berlin_gegen_Bamberg_Baskets_(Basketball-Bundesliga_2026-27)_by_Sandro_Halank%E2%80%93150.jpg",
-        "autor": "Sandro Halank",
-        "lizenz": "CC BY-SA 4.0",
-        "lizenzUrl": "https://creativecommons.org/licenses/by-sa/4.0/deed.de"
-      },
       "quellen": [
-        "RealGM",
-        "easycredit-bbl.de",
-        "Wikimedia Commons"
+        "ESPN",
+        "nba.com",
+        "nba-stats.json (ESPN)"
       ]
     }
   },
   "comic": {
     "datum": "2026-11-01",
-    "liga": "NBA",
-    "heim": "SAS",
-    "gast": "MIN",
-    "newsId": "2026-11-01-wemby-43",
-    "titel": "Wembys 43-Punkte-Show",
-    "untertitel": "San Antonio Spurs gegen Minnesota Timberwolves · Samstag, 31. Oktober",
+    "liga": "BBL",
+    "heim": "ROS",
+    "gast": "FCB",
+    "newsId": "2026-11-02-rostock-bayern",
+    "titel": "Rostock stoppt den Tabellenführer",
+    "untertitel": "Rostock Seawolves gegen FC Bayern München · Sonntag, 1. November",
     "bilder": [
       {
         "szene": "halle",
         "breit": true,
-        "text": "Samstagabend in San Antonio. Die Spurs empfangen die Minnesota Timberwolves.",
+        "text": "Sonntagnachmittag in Rostock. Zu Gast ist der FC Bayern – der Tabellenführer, der in der Bundesliga noch nie verloren hat.",
         "anzeige": {
-          "info": "GLEICH GEHT'S LOS"
+          "info": "ROSTOCK – MÜNCHEN"
         }
       },
       {
         "szene": "lauf",
         "spieler": {
-          "name": "Minnesota",
-          "team": "MIN"
+          "name": "Seawolves",
+          "team": "ROS"
         },
-        "text": "Minnesota fehlen zwei Stars. Trotzdem legen die Timberwolves im zweiten Viertel richtig los …",
-        "sfx": "16:0!"
+        "gegner": "FCB",
+        "text": "Die Seawolves legen los wie die Feuerwehr!",
+        "sfx": "ZACK!"
       },
       {
         "szene": "anzeige",
-        "text": "… mit einem 16:0-Lauf! Plötzlich führt Minnesota.",
+        "text": "Nach dem ersten Viertel führt Rostock mit 24:15.",
         "anzeige": {
-          "info": "2. VIERTEL · MIN FÜHRT"
+          "heim": 24,
+          "gast": 15,
+          "info": "1. VIERTEL"
         }
       },
       {
         "szene": "wurf",
         "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": 1
+          "name": "Duane Washington Jr.",
+          "team": "FCB"
         },
-        "text": "Aber die Spurs haben Victor Wembanyama. 2,24 Meter groß – und heute nicht zu stoppen.",
+        "text": "Doch dann drehen die Bayern auf. Duane Washington Jr. trifft und trifft.",
         "sfx": "SWISH!"
       },
       {
-        "szene": "block",
-        "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": 1
-        },
-        "text": "Auch hinten ist er überall: Ein Gegner wirft einen Dreier – Wemby blockt ihn!",
-        "sfx": "ZACK!"
+        "szene": "anzeige",
+        "text": "Im dritten Viertel führt München plötzlich zweistellig. Ist das Spiel schon entschieden?",
+        "anzeige": {
+          "info": "3. VIERTEL · MÜNCHEN FÜHRT"
+        }
       },
       {
         "szene": "dribbel",
         "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": 1
+          "name": "DeAndre Lansdowne",
+          "team": "ROS"
         },
-        "gegner": "MIN",
-        "text": "Er schnappt sich den Ball und rennt übers ganze Feld …"
-      },
-      {
-        "szene": "dunk",
-        "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": 1
-        },
-        "text": "… und stopft ihn mit voller Wucht in den Korb!",
-        "sfx": "BAMM!"
+        "gegner": "FCB",
+        "text": "Nein! Rostocks erfahrener DeAndre Lansdowne treibt sein Team im letzten Viertel nach vorn."
       },
       {
         "szene": "jubel",
-        "breit": true,
         "spieler": {
-          "name": "Spurs",
-          "team": "SAS"
+          "name": "Seawolves",
+          "team": "ROS"
         },
-        "text": "Nach der Pause ziehen die Spurs davon. Auch Dylan Harper (25 Punkte) und De'Aaron Fox (22) treffen.",
+        "text": "Die Halle tobt. Rostock holt Punkt um Punkt auf und geht in Führung.",
         "sprech": {
           "wer": "Fans",
-          "text": "WEM-BY! WEM-BY!"
+          "text": "AUF GEHT'S, SEAWOLVES!"
         }
       },
       {
-        "szene": "zahl",
-        "zahl": 43,
-        "label": "PUNKTE",
+        "szene": "wurf",
+        "breit": true,
         "spieler": {
-          "team": "SAS"
+          "name": "Tobias Jensen",
+          "team": "FCB"
         },
-        "text": "Wembys Bilanz: 43 Punkte, 7 Rebounds und 6 Blocks. Sein bester Wert in dieser Saison!"
+        "text": "Ganz am Ende die letzte Chance für Bayern: Tobias Jensen wirft einen Dreier zum Sieg …",
+        "sprech": {
+          "wer": "Kommentator",
+          "text": "Der könnte alles entscheiden!"
+        }
+      },
+      {
+        "szene": "jubel",
+        "spieler": {
+          "name": "Seawolves",
+          "team": "ROS"
+        },
+        "text": "… daneben! Die Seawolves jubeln.",
+        "sfx": "KLONK!"
       },
       {
         "szene": "zahl",
-        "zahl": 34,
-        "label": "WÜRFE",
+        "zahl": 22,
+        "label": "PUNKTE",
         "spieler": {
-          "team": "SAS"
+          "team": "FCB"
         },
-        "text": "34 Würfe hat er genommen – so viele wie noch nie in einem Spiel."
+        "text": "Bester Werfer war Münchens Duane Washington Jr. mit 22 Punkten. Geholfen hat es diesmal nicht."
       },
       {
         "szene": "anzeige",
         "breit": true,
-        "text": "Endstand 121:111 für San Antonio. Der vierte Sieg in Folge!",
+        "text": "Endstand 69:67 für Rostock! Die erste Niederlage des FC Bayern in dieser Bundesliga-Saison.",
         "anzeige": {
-          "heim": 121,
-          "gast": 111,
+          "heim": 69,
+          "gast": 67,
           "info": "ENDSTAND"
         }
       }
     ]
   },
   "news": [
+    {
+      "id": "2026-11-02-bonn-alba",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "ALBA verliert den Klassiker in Bonn",
+      "teaser": "Lange führt ALBA in Bonn. Doch kurz vor Schluss drehen die Telekom Baskets das Spiel und gewinnen 95:88.",
+      "text": [
+        "Bonn gegen Berlin – dieses Duell gibt es schon seit über 20 Jahren. Die Halle in Bonn war ausverkauft. Am Ende jubelten die Gastgeber: Die Telekom Baskets gewannen mit 95:88.",
+        "Im ersten Viertel warfen beide Teams mehr Dreier als Zweier. ALBA lag nach zehn Minuten mit 26:21 vorne und führte auch zur Pause mit 45:42. Jordan Ford traf vor der Pause drei Dreier.",
+        "Nach der Pause kam Bonn zurück. John-Michael Wright machte allein im dritten Viertel neun Punkte. Kurz vor Schluss führte ALBA trotzdem noch mit 83:79. Dann gelang Bonn ein 11:1-Lauf. Alijah Comithier machte mit einem Korb und einem Freiwurf das 90:84.",
+        "Jordan Ford und Brandon Angel machten für ALBA je 19 Punkte – so viele wie noch nie in dieser Saison. Bester Werfer des Spiels war Bonns John-Michael Wright mit 22 Punkten. Er kam von der Bank.",
+        "ALBA hat in der Bundesliga jetzt 3 Siege und 4 Niederlagen. In der Champions League sind die Berliner dagegen noch ungeschlagen. Am Freitag um 20 Uhr kommt Hagen nach Berlin."
+      ],
+      "fakten": [
+        "Endstand: Bonn 95, ALBA 88",
+        "Ford und Angel (ALBA): je 19 Punkte",
+        "Wright (Bonn): 22 Punkte",
+        "Grayson Murphy (Bonn): 10 Assists",
+        "Entscheidend: 11:1-Lauf von Bonn"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "BON",
+        "ALBA",
+        "HAG"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-02-rostock-bayern",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Rostock stoppt die Bayern",
+      "teaser": "Der Tabellenführer verliert zum ersten Mal: 67:69 in Rostock. Außerdem gewinnt der MBC in Hamburg, und Bamberg feiert den ersten Heimsieg.",
+      "text": [
+        "Der FC Bayern hatte in der Bundesliga noch kein Spiel verloren. In Rostock war es jetzt so weit: Die Seawolves gewannen mit 69:67.",
+        "Rostock startete stark und führte nach dem ersten Viertel mit 24:15. Dann drehte München auf und lag im dritten Viertel sogar zweistellig vorne. Doch im letzten Viertel kämpfte sich Rostock zurück. Angeführt wurden die Seawolves vom erfahrenen DeAndre Lansdowne.",
+        "Ganz am Ende hatte Bayern noch eine Chance: Tobias Jensen warf einen Dreier zum möglichen Sieg. Der Ball ging aber nicht rein. Bester Werfer des Spiels war Münchens Duane Washington Jr. mit 22 Punkten. Für die Bayern war es das dritte Spiel in sechs Tagen. Tabellenführer bleiben sie trotzdem.",
+        "Außerdem am Sonntag: Der MBC gewann in Hamburg mit 109:89. Spencer Reaves machte 25 Punkte, Jure Planinic schaffte ein Double-Double mit 22 Punkten und 11 Rebounds. Collin Welp knackte die Marke von 1000 Punkten in der Bundesliga.",
+        "Bamberg schlug Jena mit 88:78 und feierte den ersten Heimsieg der Saison. Den Ausschlag gab ein 12:0-Lauf zu Beginn des letzten Viertels."
+      ],
+      "fakten": [
+        "Endstand: Rostock 69, FC Bayern 67",
+        "Washington Jr. (München): 22 Punkte",
+        "Todd Withers (Rostock): 12 Punkte, 10 Rebounds",
+        "Hamburg 89, MBC 109",
+        "Bamberg 88, Jena 78"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "ROS",
+        "FCB",
+        "HAM",
+        "MBC",
+        "BAM",
+        "JEN"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-02-lendeborg-37",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Rookie Lendeborg trifft wie einst Curry",
+      "teaser": "Ohne Stephen Curry gewinnen die Warriors gegen die Clippers. Der Held ist Rookie Yaxel Lendeborg mit 37 Punkten.",
+      "text": [
+        "Stephen Curry und Draymond Green bekamen eine Pause, denn die Warriors spielen schon am nächsten Abend wieder. Ohne die beiden Stars gewann Golden State trotzdem: 124:112 gegen die Los Angeles Clippers.",
+        "Der Held war ein Rookie: Yaxel Lendeborg machte 37 Punkte. So viele hat er in der NBA noch nie erzielt. Er traf 13 von 19 Würfen, darunter 6 Dreier, und gab dazu 6 Assists.",
+        "Eine besondere Zahl: So viele Punkte hat kein Rookie der Warriors mehr gemacht, seit Stephen Curry im April 2010 42 Punkte gegen Portland erzielte. Außerdem hat Lendeborg schon zweimal 30 oder mehr Punkte in seinen ersten sieben Spielen gemacht. Das haben bei den Warriors sonst nur die Legenden Wilt Chamberlain und Rick Barry geschafft.",
+        "De'Anthony Melton traf 6 von 8 Dreiern und kam auf 21 Punkte. Bei den Clippers holte sich Kris Dunn 7 Steals. Golden State hat jetzt viermal in Folge gewonnen, nachdem die Saison mit drei Niederlagen begonnen hatte."
+      ],
+      "fakten": [
+        "Endstand: Warriors 124, Clippers 112",
+        "Lendeborg: 37 Punkte (Karrierebestwert)",
+        "Melton: 21 Punkte, 6 von 8 Dreiern",
+        "Hachimura (Clippers): 24 Punkte",
+        "Warriors: 4 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "LAC"
+      ],
+      "spieler": [
+        "Yaxel Lendeborg",
+        "Stephen Curry",
+        "Draymond Green",
+        "De'Anthony Melton",
+        "Brandin Podziemski",
+        "Brandon Williams",
+        "Rui Hachimura",
+        "Kris Dunn",
+        "Kobe Sanders"
+      ]
+    },
+    {
+      "id": "2026-11-02-luka-45",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Luka scores 45 points",
+      "teaser": "Luka Dončić scores 45 points and gets 15 rebounds. The Lakers beat Toronto 131-125.",
+      "text": [
+        "Luka Dončić plays for the Los Angeles Lakers. On Sunday they played against the Toronto Raptors. Luka scored 45 points and got 15 rebounds. He also made 5 steals.",
+        "He made 8 three-pointers. In the first quarter alone he scored 16 points. It was his fourth game in a row with 37 points or more.",
+        "The Lakers were ahead by 26 points. But at the end Toronto came back, and the score was only 125-120. Luka and his teammates had to come back on the court. They won 131-125."
+      ],
+      "fakten": [
+        "Endstand: Lakers 131, Raptors 125",
+        "Dončić: 45 Punkte, 15 Rebounds, 5 Steals",
+        "Walker Kessler: 16 Punkte, 15 Rebounds",
+        "Scottie Barnes (Toronto): 29 Punkte"
+      ],
+      "vokabeln": [
+        {
+          "en": "steal",
+          "de": "Ballgewinn"
+        },
+        {
+          "en": "three-pointer",
+          "de": "Dreier"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        },
+        {
+          "en": "to be ahead",
+          "de": "vorne liegen, führen"
+        },
+        {
+          "en": "teammate",
+          "de": "Mitspieler"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "LAL",
+        "TOR"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Scottie Barnes",
+        "RJ Barrett",
+        "Jamison Battle"
+      ]
+    },
+    {
+      "id": "2026-11-02-magic-nets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Bestwert für Franz Wagner, erster Sieg für Moritz Wagner",
+      "teaser": "Orlando verliert gegen Boston, obwohl Tristan da Silva 23 Punkte macht und Franz Wagner 12 Assists gibt. Moritz Wagner und die Nets feiern ihren ersten Saisonsieg.",
+      "text": [
+        "Orlando verlor zu Hause gegen die Boston Celtics mit 97:108. Dabei spielten die deutschen Magic-Profis gut. Tristan da Silva machte 23 Punkte und 10 Rebounds, also ein Double-Double. Er traf 5 Dreier.",
+        "Franz Wagner gab 12 Assists – so viele wie noch nie in seiner NBA-Karriere. Dazu machte er 14 Punkte. Boston deckte ihn sehr eng, weil bei Orlando Paolo Banchero fehlte.",
+        "Nach der Pause lag Orlando schon mit 15 Punkten hinten. Mit einem 12:0-Lauf kam die Magic auf 74:77 heran und glich im letzten Viertel sogar zum 79:79 aus. Dann zog Boston wieder davon. Jayson Tatum machte 32 Punkte, 15 davon von der Freiwurflinie.",
+        "Bessere Nachrichten gab es für Moritz Wagner. Die Brooklyn Nets gewannen in Indiana mit 98:90. Es war ihr erster Sieg in dieser Saison nach fünf Niederlagen. Moritz Wagner machte 14 Punkte und 6 Rebounds und traf 4 von 6 Würfen.",
+        "Schon in der Nacht zu Dienstag geht es weiter: Orlando empfängt Washington, Brooklyn spielt bei den New York Knicks."
+      ],
+      "fakten": [
+        "Orlando 97, Boston 108",
+        "Da Silva: 23 Punkte, 10 Rebounds",
+        "F. Wagner: 14 Punkte, 12 Assists (Karrierebestwert)",
+        "Indiana 90, Brooklyn 98",
+        "M. Wagner: 14 Punkte, 6 Rebounds"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "BOS",
+        "BKN",
+        "IND",
+        "WAS",
+        "NYK"
+      ],
+      "spieler": [
+        "Tristan da Silva",
+        "Franz Wagner",
+        "Moritz Wagner",
+        "Jayson Tatum",
+        "Paul George",
+        "Anthony Black",
+        "Desmond Bane",
+        "Paolo Banchero",
+        "Michael Porter Jr.",
+        "Julius Randle",
+        "Day'Ron Sharpe",
+        "Andrew Nembhard"
+      ]
+    },
     {
       "id": "2026-11-01-thunder-rockets",
       "liga": "NBA",
@@ -498,172 +678,6 @@
       ]
     },
     {
-      "id": "2026-10-31-warriors-lakers",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-31",
-      "tags": [],
-      "titel": "Curry und die Warriors drehen ein 15:38",
-      "teaser": "Nach dem ersten Viertel lag Golden State gegen die Lakers mit 23 Punkten hinten. Am Ende gewannen die Warriors klar mit 112:95.",
-      "text": [
-        "Das erste Viertel war für Golden State ein Albtraum. Die Lakers führten nach zwölf Minuten mit 38:15. Luka Dončić traf fast alles.",
-        "Dann kam die große Wende. Im zweiten Viertel holten die Warriors 38 Punkte und erlaubten nur 15. Zur Pause stand es 53:53.",
-        "Stephen Curry war der Anführer. Er machte 31 Punkte und traf 8 Dreier. Brandin Podziemski kam auf 21 Punkte, Draymond Green verteilte 9 Assists.",
-        "Dončić war mit 37 Punkten der beste Werfer des Abends. Doch nach der Pause fanden die Lakers kaum noch Lücken. Golden State hat jetzt 3 Siege und 3 Niederlagen."
-      ],
-      "fakten": [
-        "Endstand: Golden State 112, Lakers 95",
-        "Nach dem 1. Viertel: 15:38",
-        "Curry: 31 Punkte, 8 von 14 Dreiern",
-        "Dončić: 37 Punkte"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "GSW",
-        "LAL"
-      ],
-      "spieler": [
-        "Stephen Curry",
-        "Brandin Podziemski",
-        "Draymond Green",
-        "Luka Dončić",
-        "Austin Reaves",
-        "Walker Kessler"
-      ]
-    },
-    {
-      "id": "2026-10-31-magic-raptors",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "ball",
-      "datum": "2026-10-31",
-      "tags": [],
-      "titel": "Franz Wagner führt Orlando zum Sieg in Toronto",
-      "teaser": "26 Punkte und 11 Assists: Franz Wagner schafft ein Double-Double. Gegen Scottie Barnes und seine 41 Punkte gewinnt Orlando 121:114.",
-      "text": [
-        "Zwei Tage vorher hatte Orlando in Toronto noch mit 99:129 verloren. Diesmal sah es ganz anders aus.",
-        "Franz Wagner machte 26 Punkte und gab 11 Assists. Das ist ein Double-Double. Desmond Bane traf 6 Dreier und kam auf 28 Punkte. Auch Anthony Black schaffte ein Double-Double mit 17 Punkten und 10 Assists.",
-        "Tristan da Silva steuerte 8 Punkte bei. Er traf 2 von 3 Dreiern.",
-        "Bei Toronto spielte Scottie Barnes groß auf. Er machte 41 Punkte. Am Ende reichte das aber nicht. Orlando hat jetzt 2 Siege und 3 Niederlagen."
-      ],
-      "fakten": [
-        "Endstand: Toronto 114, Orlando 121",
-        "F. Wagner: 26 Punkte, 11 Assists",
-        "Bane: 28 Punkte",
-        "Barnes (Toronto): 41 Punkte"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "ORL",
-        "TOR"
-      ],
-      "spieler": [
-        "Franz Wagner",
-        "Desmond Bane",
-        "Anthony Black",
-        "Tristan da Silva",
-        "Wendell Carter Jr.",
-        "Scottie Barnes"
-      ]
-    },
-    {
-      "id": "2026-10-31-deutsche-nacht",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-10-31",
-      "tags": [],
-      "titel": "Schröder verliert, Moritz Wagner trifft stark",
-      "teaser": "Charlotte kommt in Washington nicht in Fahrt. Moritz Wagner ist bester Werfer der Nets, doch Brooklyn wartet weiter auf den ersten Sieg.",
-      "text": [
-        "Dennis Schröder und die Charlotte Hornets verloren in Washington mit 79:95. Schröder verteilte 8 Assists und machte 8 Punkte. Charlotte traf aber insgesamt viel zu wenig.",
-        "Für Washington war Anthony Davis mit 25 Punkten und 13 Rebounds der Beste. Trae Young kam auf 21 Punkte und 9 Assists.",
-        "Moritz Wagner war bei den Brooklyn Nets der beste Werfer. Er machte 16 Punkte und traf 7 von 10 Würfen. Trotzdem verlor Brooklyn gegen Detroit mit 94:110.",
-        "Die Nets haben nach fünf Spielen noch keinen Sieg. Detroit dagegen hat schon fünf Siege gesammelt. Am Samstag spielt Schröder mit Charlotte gegen Philadelphia."
-      ],
-      "fakten": [
-        "Washington 95, Charlotte 79",
-        "Schröder: 8 Punkte, 8 Assists",
-        "Brooklyn 94, Detroit 110",
-        "M. Wagner: 16 Punkte, 7 von 10 Würfen"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "CHA",
-        "WAS",
-        "BKN",
-        "DET"
-      ],
-      "spieler": [
-        "Dennis Schröder",
-        "Brandon Miller",
-        "Anthony Davis",
-        "Trae Young",
-        "Moritz Wagner",
-        "Cade Cunningham"
-      ]
-    },
-    {
-      "id": "2026-10-31-giannis-triple-double",
-      "liga": "NBA",
-      "lang": "en",
-      "motiv": "zahlen",
-      "datum": "2026-10-31",
-      "tags": [],
-      "titel": "Giannis gets a triple-double for Miami",
-      "teaser": "Giannis Antetokounmpo had 31 points, 18 rebounds and 10 assists. Miami scored 145 points against Indiana.",
-      "text": [
-        "Giannis Antetokounmpo played a great game for the Miami Heat. He scored 31 points, got 18 rebounds and gave 10 assists. That is a triple-double.",
-        "He only needed 31 minutes. He made 13 of his 19 shots.",
-        "Miami beat the Indiana Pacers 145 to 125. Bam Adebayo scored 27 points. Klay Thompson made 7 three-pointers.",
-        "Both teams now have 2 wins and 4 losses."
-      ],
-      "fakten": [
-        "Final score: Heat 145, Pacers 125",
-        "Giannis: 31 points, 18 rebounds, 10 assists",
-        "Klay Thompson: 7 three-pointers"
-      ],
-      "vokabeln": [
-        {
-          "en": "triple-double",
-          "de": "Triple-Double (dreimal mindestens 10)"
-        },
-        {
-          "en": "shot",
-          "de": "Wurf"
-        },
-        {
-          "en": "to beat",
-          "de": "besiegen"
-        },
-        {
-          "en": "loss",
-          "de": "Niederlage"
-        }
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "MIA",
-        "IND"
-      ],
-      "spieler": [
-        "Giannis Antetokounmpo",
-        "Bam Adebayo",
-        "Klay Thompson",
-        "Pelle Larsson",
-        "Andrew Nembhard"
-      ]
-    },
-    {
       "id": "2026-10-31-euroleague-runde9",
       "liga": "EL",
       "lang": "de",
@@ -703,39 +717,6 @@
       "spieler": []
     },
     {
-      "id": "2026-10-31-bbl-freitag",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "ball",
-      "datum": "2026-10-31",
-      "tags": [],
-      "titel": "Frankfurt gewinnt in Jena, Vechta siegt in Hagen",
-      "teaser": "Zwei Spiele am Freitagabend in der Bundesliga: Die Skyliners klettern auf Platz 3, Vechta schafft 100 Punkte.",
-      "text": [
-        "Im Nachholspiel in Jena gewannen die SKYLINERS Frankfurt mit 93:82. Lange sah es nicht danach aus: Jena führte zur Pause mit 53:50.",
-        "Im dritten Viertel machte Jena aber nur 8 Punkte. Frankfurt übernahm die Führung und gewann am Ende mit 11 Punkten Vorsprung. Die Skyliners haben jetzt 4 Siege und 1 Niederlage und stehen auf Platz 3.",
-        "RASTA Vechta gewann deutlich in Hagen mit 100:74. Nach dem ersten Viertel stand es noch 25:25. Danach zog Vechta davon. Für Vechta war es der zweite Sieg der Saison.",
-        "Am Samstag und Sonntag geht der 7. Spieltag weiter. ALBA spielt am Sonntag um 18 Uhr in Bonn."
-      ],
-      "fakten": [
-        "Jena 82, Frankfurt 93",
-        "Jena im 3. Viertel: nur 8 Punkte",
-        "Hagen 74, Vechta 100"
-      ],
-      "quellen": [
-        "easyCredit BBL"
-      ],
-      "teams": [
-        "JEN",
-        "FRA",
-        "HAG",
-        "VEC",
-        "ALBA",
-        "BON"
-      ],
-      "spieler": []
-    },
-    {
       "id": "2026-10-29-damen-ungarn",
       "liga": "DBB",
       "lang": "de",
@@ -765,45 +746,192 @@
       "spieler": [
         "Leonie Fiebich"
       ]
-    },
-    {
-      "id": "dbb-november",
-      "liga": "DBB",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Weltmeister auf WM-Kurs",
-      "teaser": "Im November spielt die Nationalmannschaft in Riga und Frankfurt um das Ticket für die WM 2027.",
-      "text": [
-        "Deutschland ist amtierender Basketball-Weltmeister. Damit das Team die nächste WM 2027 in Katar spielen darf, muss es sich aber qualifizieren.",
-        "In der Gruppe K haben Deutschland, Kroatien und Polen alle 7 Siege und 1 Niederlage. Die besten drei Teams der Gruppe fahren zur WM.",
-        "Am 27. November spielt Deutschland in Riga gegen Lettland. Am 30. November kommt Polen nach Frankfurt. NBA-Spieler wie Franz Wagner oder Dennis Schröder sind diesmal nicht dabei, weil die NBA-Saison weiterläuft.",
-        "Bundestrainer ist Àlex Mumbrú aus Spanien. Kapitän der Mannschaft ist Dennis Schröder."
-      ],
-      "fakten": [
-        "27.11.: Lettland gegen Deutschland",
-        "30.11.: Deutschland gegen Polen in Frankfurt",
-        "Bundestrainer: Àlex Mumbrú"
-      ],
-      "quellen": [
-        "sport1.de",
-        "sportschau.de",
-        "basketball-bund.de"
-      ],
-      "teams": [
-        "GER",
-        "LAT",
-        "POL",
-        "CRO"
-      ],
-      "spieler": [
-        "Franz Wagner",
-        "Dennis Schröder"
-      ]
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-01",
+      "runde": "NBA",
+      "heim": "LAL",
+      "gast": "TOR",
+      "heimPkt": 131,
+      "gastPkt": 125,
+      "info": "Dončić (LAL) 45 Punkte",
+      "bericht": {
+        "text": [
+          "Luka Dončić machte schon im ersten Viertel 16 Punkte. Im dritten Viertel führten die Lakers mit 102:76.",
+          "Ganz am Ende kam Toronto noch auf 120:125 heran. Die Lakers-Stars mussten zurück aufs Feld und brachten den Sieg nach Hause."
+        ],
+        "highlights": [
+          "Luka Dončić: 45 Punkte, 15 Rebounds, 5 Steals",
+          "Walker Kessler: 16 Punkte, 15 Rebounds, 6 von 6 Würfen",
+          "Scottie Barnes (TOR): 29 Punkte",
+          "Cameron Carr (LAL): erstes NBA-Spiel"
+        ]
+      },
+      "newsId": "2026-11-02-luka-45"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-01",
+      "runde": "NBA",
+      "heim": "GSW",
+      "gast": "LAC",
+      "heimPkt": 124,
+      "gastPkt": 112,
+      "info": "Lendeborg (GSW) 37 Punkte",
+      "bericht": {
+        "text": [
+          "Golden State spielte ohne Stephen Curry und Draymond Green, die eine Pause bekamen. Die Clippers gewannen das erste Viertel mit 37:29.",
+          "Danach übernahm Rookie Yaxel Lendeborg. Die Warriors gewannen zum vierten Mal in Folge, die Clippers verloren zum fünften Mal nacheinander."
+        ],
+        "highlights": [
+          "Yaxel Lendeborg: 37 Punkte (Karrierebestwert)",
+          "De'Anthony Melton: 21 Punkte, 6 von 8 Dreiern",
+          "Rui Hachimura (LAC): 24 Punkte",
+          "Kris Dunn (LAC): 7 Steals"
+        ]
+      },
+      "newsId": "2026-11-02-lendeborg-37"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-01",
+      "runde": "NBA",
+      "heim": "ORL",
+      "gast": "BOS",
+      "heimPkt": 97,
+      "gastPkt": 108,
+      "info": "Tatum (BOS) 32 Punkte",
+      "bericht": {
+        "text": [
+          "Boston führte nach der Pause schon mit 15 Punkten. Orlando kam mit einem 12:0-Lauf auf 74:77 heran und glich im letzten Viertel zum 79:79 aus.",
+          "Dann zog Boston wieder davon. Paul George traf 92 Sekunden vor Schluss einen Dreier zur 11-Punkte-Führung."
+        ],
+        "highlights": [
+          "Jayson Tatum: 32 Punkte, 15 von 17 Freiwürfen",
+          "Tristan da Silva: 23 Punkte, 10 Rebounds",
+          "Franz Wagner: 14 Punkte, 12 Assists (Karrierebestwert)",
+          "Anthony Black: 23 Punkte"
+        ]
+      },
+      "newsId": "2026-11-02-magic-nets"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-01",
+      "runde": "NBA",
+      "heim": "IND",
+      "gast": "BKN",
+      "heimPkt": 90,
+      "gastPkt": 98,
+      "info": "Porter Jr. (BKN) 23 Punkte",
+      "bericht": {
+        "text": [
+          "Die Nets führten zur Pause mit 43:40 und im dritten Viertel dreimal mit 12 Punkten.",
+          "Indiana kam im letzten Viertel auf 72:75 heran, näher aber nicht. Für Brooklyn war es der erste Sieg der Saison."
+        ],
+        "highlights": [
+          "Michael Porter Jr.: 23 Punkte",
+          "Julius Randle: 20 Punkte",
+          "Day'Ron Sharpe: 15 Punkte, 13 Rebounds",
+          "Moritz Wagner: 14 Punkte, 6 Rebounds"
+        ]
+      },
+      "newsId": "2026-11-02-magic-nets"
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-01",
+      "runde": "BBL · 7. Spieltag",
+      "heim": "BON",
+      "gast": "ALBA",
+      "heimPkt": 95,
+      "gastPkt": 88,
+      "info": "Wright (BON) 22 Punkte",
+      "bericht": {
+        "text": [
+          "ALBA führte zur Pause mit 45:42. Im dritten Viertel holte Bonn auf, John-Michael Wright machte allein neun Punkte.",
+          "Kurz vor Schluss lag ALBA noch mit 83:79 vorne. Dann gelang Bonn ein 11:1-Lauf, und die Gastgeber gewannen 95:88."
+        ],
+        "highlights": [
+          "John-Michael Wright (Bonn): 22 Punkte",
+          "Jordan Ford und Brandon Angel (ALBA): je 19 Punkte",
+          "Grayson Murphy (Bonn): 10 Assists",
+          "Entscheidend: 11:1-Lauf von Bonn"
+        ]
+      },
+      "newsId": "2026-11-02-bonn-alba"
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-01",
+      "runde": "BBL · 3. Spieltag (Nachholspiel)",
+      "heim": "ROS",
+      "gast": "FCB",
+      "heimPkt": 69,
+      "gastPkt": 67,
+      "info": "Washington Jr. (FCB) 22 Punkte",
+      "bericht": {
+        "text": [
+          "Rostock führte nach dem ersten Viertel mit 24:15. Danach drehte der FC Bayern das Spiel und lag im dritten Viertel zweistellig vorne.",
+          "Im Schlussviertel kam Rostock zurück. Ein letzter Dreier von Tobias Jensen zum möglichen Münchner Sieg ging daneben."
+        ],
+        "highlights": [
+          "Duane Washington Jr. (München): 22 Punkte",
+          "Johnathan Stove (Rostock): 15 Punkte",
+          "Todd Withers (Rostock): 12 Punkte, 10 Rebounds",
+          "Erste BBL-Niederlage der Bayern in dieser Saison"
+        ]
+      },
+      "newsId": "2026-11-02-rostock-bayern"
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-01",
+      "runde": "BBL · 7. Spieltag",
+      "heim": "HAM",
+      "gast": "MBC",
+      "heimPkt": 89,
+      "gastPkt": 109,
+      "info": "Reaves (MBC) 25 Punkte",
+      "bericht": {
+        "text": [
+          "Zur Pause war es beim 49:54 noch spannend. Nach dem Seitenwechsel zog der MBC schnell auf 73:55 davon.",
+          "Im dritten Viertel holte Hamburg keinen einzigen Rebound. Für den MBC war es der vierte Ligasieg in Folge."
+        ],
+        "highlights": [
+          "Spencer Reaves (MBC): 25 Punkte",
+          "Jure Planinic (MBC): 22 Punkte, 11 Rebounds",
+          "Collin Welp (MBC): 1000. Punkt in der BBL",
+          "Mathys Kangudia (Hamburg): 22 Punkte"
+        ]
+      },
+      "newsId": "2026-11-02-rostock-bayern"
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-01",
+      "runde": "BBL · 7. Spieltag",
+      "heim": "BAM",
+      "gast": "JEN",
+      "heimPkt": 88,
+      "gastPkt": 78,
+      "info": "Perrantes (JEN) 20 Punkte",
+      "bericht": {
+        "text": [
+          "Lange war das Spiel ausgeglichen. Nach drei Vierteln führte Bamberg nur mit 69:66.",
+          "Dann startete Bamberg mit einem 12:0-Lauf ins letzte Viertel und feierte den ersten Heimsieg der Saison."
+        ],
+        "highlights": [
+          "Richard Balint (Bamberg): 18 Punkte",
+          "Trevon Scott (Bamberg): 17 Punkte, 6 Rebounds",
+          "London Perrantes (Jena): 20 Punkte"
+        ]
+      },
+      "newsId": "2026-11-02-rostock-bayern"
+    },
     {
       "liga": "NBA",
       "datum": "2026-10-31",
@@ -1381,62 +1509,6 @@
   ],
   "spielplan": [
     {
-      "liga": "BBL",
-      "zeit": "2026-11-01T15:00:00+01:00",
-      "heim": "BAM",
-      "gast": "JEN",
-      "tv": "DYN"
-    },
-    {
-      "liga": "BBL",
-      "zeit": "2026-11-01T15:00:00+01:00",
-      "heim": "ROS",
-      "gast": "FCB",
-      "tv": "DYN",
-      "info": "Nachholspiel"
-    },
-    {
-      "liga": "BBL",
-      "zeit": "2026-11-01T16:30:00+01:00",
-      "heim": "HAM",
-      "gast": "MBC",
-      "tv": "DYN"
-    },
-    {
-      "liga": "BBL",
-      "zeit": "2026-11-01T18:00:00+01:00",
-      "heim": "BON",
-      "gast": "ALBA",
-      "tv": "DYN"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-01T21:30:00+01:00",
-      "heim": "ORL",
-      "gast": "BOS",
-      "info": "mit F. Wagner und da Silva"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-01T23:00:00+01:00",
-      "heim": "IND",
-      "gast": "BKN",
-      "info": "mit M. Wagner"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-02T02:30:00+01:00",
-      "heim": "GSW",
-      "gast": "LAC",
-      "info": "mit Curry"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-02T03:00:00+01:00",
-      "heim": "LAL",
-      "gast": "TOR"
-    },
-    {
       "liga": "NBA",
       "zeit": "2026-11-03T01:00:00+01:00",
       "heim": "CLE",
@@ -1932,6 +2004,43 @@
       "gast": "PHI"
     },
     {
+      "liga": "NBA",
+      "zeit": "2026-11-09T00:00:00+01:00",
+      "heim": "DET",
+      "gast": "LAL"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-09T01:00:00+01:00",
+      "heim": "MIN",
+      "gast": "UTA"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-09T01:30:00+01:00",
+      "heim": "DAL",
+      "gast": "BKN",
+      "info": "mit M. Wagner"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-09T02:00:00+01:00",
+      "heim": "MIL",
+      "gast": "BOS"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-09T03:00:00+01:00",
+      "heim": "LAC",
+      "gast": "NOP"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-09T03:00:00+01:00",
+      "heim": "SAC",
+      "gast": "MIA"
+    },
+    {
       "liga": "DBB",
       "zeit": "2026-11-11T19:00:00+01:00",
       "heim": "GER",
@@ -1957,7 +2066,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: nach den Spielen vom 31.10.",
+      "stand": "Stand: nach den Spielen vom 01.11.",
       "zonen": [
         {
           "von": 1,
@@ -1991,7 +2100,7 @@
         },
         {
           "team": "LAL",
-          "s": 4,
+          "s": 5,
           "n": 2
         },
         {
@@ -2015,13 +2124,13 @@
           "n": 2
         },
         {
-          "team": "MIN",
+          "team": "GSW",
           "s": 4,
           "n": 3
         },
         {
-          "team": "GSW",
-          "s": 3,
+          "team": "MIN",
+          "s": 4,
           "n": 3
         },
         {
@@ -2037,7 +2146,7 @@
         {
           "team": "LAC",
           "s": 1,
-          "n": 4
+          "n": 5
         },
         {
           "team": "UTA",
@@ -2053,7 +2162,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: nach den Spielen vom 31.10.",
+      "stand": "Stand: nach den Spielen vom 01.11.",
       "zonen": [
         {
           "von": 1,
@@ -2082,7 +2191,7 @@
         },
         {
           "team": "BOS",
-          "s": 4,
+          "s": 5,
           "n": 1
         },
         {
@@ -2093,7 +2202,7 @@
         {
           "team": "TOR",
           "s": 3,
-          "n": 2
+          "n": 3
         },
         {
           "team": "WAS",
@@ -2113,7 +2222,7 @@
         {
           "team": "ORL",
           "s": 2,
-          "n": 3
+          "n": 4
         },
         {
           "team": "MIA",
@@ -2128,7 +2237,7 @@
         {
           "team": "IND",
           "s": 2,
-          "n": 4
+          "n": 5
         },
         {
           "team": "CHI",
@@ -2142,14 +2251,14 @@
         },
         {
           "team": "BKN",
-          "s": 0,
+          "s": 1,
           "n": 5
         }
       ]
     },
     "bbl": {
       "name": "BBL",
-      "stand": "Stand: nach den Spielen vom 31.10. (7. Spieltag läuft)",
+      "stand": "Stand: nach dem 7. Spieltag (01.11.) · München und Braunschweig mit einem Spiel weniger",
       "zonen": [
         {
           "von": 1,
@@ -2175,7 +2284,7 @@
         {
           "team": "FCB",
           "s": 5,
-          "n": 0
+          "n": 1
         },
         {
           "team": "TRI",
@@ -2183,14 +2292,14 @@
           "n": 1
         },
         {
+          "team": "MBC",
+          "s": 5,
+          "n": 2
+        },
+        {
           "team": "FRA",
           "s": 4,
           "n": 1
-        },
-        {
-          "team": "MBC",
-          "s": 4,
-          "n": 2
         },
         {
           "team": "WUE",
@@ -2203,8 +2312,18 @@
           "n": 3
         },
         {
+          "team": "ROS",
+          "s": 4,
+          "n": 3
+        },
+        {
           "team": "BAM",
-          "s": 3,
+          "s": 4,
+          "n": 3
+        },
+        {
+          "team": "BON",
+          "s": 4,
           "n": 3
         },
         {
@@ -2213,19 +2332,9 @@
           "n": 3
         },
         {
-          "team": "BON",
-          "s": 3,
-          "n": 3
-        },
-        {
-          "team": "ROS",
-          "s": 3,
-          "n": 3
-        },
-        {
           "team": "ALBA",
           "s": 3,
-          "n": 3
+          "n": 4
         },
         {
           "team": "ULM",
@@ -2240,7 +2349,7 @@
         {
           "team": "JEN",
           "s": 2,
-          "n": 4
+          "n": 5
         },
         {
           "team": "VEC",
@@ -2260,7 +2369,7 @@
         {
           "team": "HAM",
           "s": 1,
-          "n": 5
+          "n": 6
         }
       ]
     },
@@ -2679,7 +2788,7 @@
         "reb": 3.8,
         "ast": 4.0
       },
-      "notiz": "Der beste Dreierschütze der Geschichte. Gerade erst 44 Punkte gegen Minnesota."
+      "notiz": "Der beste Dreierschütze der Geschichte. Gegen die Clippers bekam er eine Pause – Rookie Yaxel Lendeborg sprang mit 37 Punkten ein."
     },
     {
       "name": "Franz Wagner",
@@ -2694,7 +2803,7 @@
         "reb": 6.8,
         "ast": 7.0
       },
-      "notiz": "Kommt aus Berlin und hat früher bei ALBA gespielt."
+      "notiz": "Gegen Boston gab er 12 Assists – so viele wie noch nie in seiner NBA-Karriere."
     },
     {
       "name": "Moritz Wagner",
@@ -2708,7 +2817,7 @@
         "reb": 3.8,
         "ast": 1.4
       },
-      "notiz": "Der große Bruder von Franz. Seit Juli spielt er für die Brooklyn Nets."
+      "notiz": "14 Punkte beim ersten Saisonsieg der Brooklyn Nets in Indiana."
     },
     {
       "name": "Dennis Schröder",
@@ -2750,7 +2859,7 @@
         "reb": 2.0,
         "ast": 1.4
       },
-      "notiz": "Teamkollege von Franz Wagner in Orlando."
+      "notiz": "Gegen Boston machte er 23 Punkte und 10 Rebounds, dazu 5 Dreier."
     },
     {
       "name": "Hannes Steinbach",
@@ -2802,7 +2911,7 @@
         "reb": 6.8,
         "ast": 7.6
       },
-      "notiz": "Macht im Moment die meisten Punkte pro Spiel in der ganzen NBA."
+      "notiz": "45 Punkte, 15 Rebounds und 5 Steals gegen Toronto – Spieler der Woche!"
     },
     {
       "name": "Anthony Edwards",
@@ -2881,124 +2990,132 @@
   ],
   "quiz": [
     {
-      "frage": "Wie viele Punkte machte Victor Wembanyama beim Sieg der Spurs gegen Minnesota?",
+      "liga": "NBA",
+      "frage": "Wie viele Punkte machte Warriors-Rookie Yaxel Lendeborg gegen die Clippers?",
       "antworten": [
         "29",
-        "36",
-        "43",
-        "51"
+        "33",
+        "37",
+        "45"
       ],
       "richtig": 2,
-      "erklaerung": "Wemby machte 43 Punkte und blockte dazu 6 Würfe. San Antonio gewann 121:111."
+      "erklaerung": "Lendeborg machte 37 Punkte – sein Karrierebestwert. Golden State gewann ohne Stephen Curry mit 124:112."
     },
     {
-      "frage": "Welches NBA-Team hat als einziges noch kein Spiel verloren?",
+      "liga": "BBL",
+      "frage": "Welches Team brachte dem FC Bayern die erste Bundesliga-Niederlage der Saison bei?",
       "antworten": [
-        "Houston Rockets",
-        "Memphis Grizzlies",
-        "Philadelphia 76ers",
-        "Oklahoma City Thunder"
+        "ALBA BERLIN",
+        "Rostock Seawolves",
+        "Telekom Baskets Bonn",
+        "Würzburg Baskets"
       ],
       "richtig": 1,
-      "erklaerung": "Memphis hat 6 Siege und 0 Niederlagen. Houston verlor am Freitag in Dallas."
+      "erklaerung": "Rostock gewann am Sonntag mit 69:67. Ein letzter Bayern-Dreier ging daneben."
     },
     {
-      "frage": "Wer war mit 30 Punkten bester Werfer beim Sieg der Rockets gegen OKC?",
+      "liga": "NBA",
+      "art": "legacy",
+      "jahr": "1950er",
+      "frage": "In welcher Stadt spielten die Lakers, bevor sie 1960 nach Los Angeles umzogen?",
       "antworten": [
-        "Kevin Durant",
-        "Alperen Sengun",
-        "Marcus Smart",
-        "Jabari Smith Jr."
+        "Chicago",
+        "Minneapolis",
+        "Boston",
+        "Seattle"
       ],
-      "richtig": 3,
-      "erklaerung": "Jabari Smith Jr. machte 30 Punkte und traf 6 Dreier. Marcus Smart kam auf 24 Punkte."
+      "richtig": 1,
+      "erklaerung": "Die Lakers kommen aus Minneapolis. Dort gibt es viele Seen – daher der Name 'Lakers'. Mit Star George Mikan gewannen sie dort mehrere Titel."
     },
     {
-      "frage": "Wie viele Punkte machten die Cleveland Cavaliers im zweiten Viertel gegen Milwaukee?",
+      "liga": "BBL",
+      "art": "legacy",
+      "jahr": "1995",
+      "frage": "Welchen Europapokal gewann ALBA BERLIN im Jahr 1995?",
       "antworten": [
-        "48",
-        "38",
-        "28",
-        "58"
+        "Euroleague",
+        "Saporta-Cup",
+        "Korać-Cup",
+        "Champions League"
+      ],
+      "richtig": 2,
+      "erklaerung": "ALBA gewann 1995 den Korać-Cup. Es war der erste Europapokal-Sieg einer deutschen Basketball-Vereinsmannschaft."
+    },
+    {
+      "liga": "NBA",
+      "frage": "Wie viele Assists gab Franz Wagner gegen Boston – so viele wie noch nie in seiner NBA-Karriere?",
+      "antworten": [
+        "12",
+        "8",
+        "10",
+        "15"
       ],
       "richtig": 0,
-      "erklaerung": "48 Punkte in nur 12 Minuten! Zur Pause führte Cleveland mit 72:46."
+      "erklaerung": "Franz Wagner gab 12 Assists und machte 14 Punkte. Orlando verlor trotzdem mit 97:108."
     },
     {
-      "frage": "Welches Team hat in der Bundesliga nach dem Samstag noch kein Spiel verloren?",
+      "liga": "BBL",
+      "frage": "Welcher MBC-Spieler knackte in Hamburg die Marke von 1000 Punkten in der Bundesliga?",
       "antworten": [
-        "ALBA Berlin",
-        "Würzburg",
-        "FC Bayern München",
-        "Ulm"
+        "Spencer Reaves",
+        "Jure Planinic",
+        "Kostja Mushidi",
+        "Collin Welp"
       ],
-      "richtig": 2,
-      "erklaerung": "Der FC Bayern hat 5 Siege und 0 Niederlagen. Heute spielt er in Rostock."
+      "richtig": 3,
+      "erklaerung": "Collin Welp machte beim 109:89 in Hamburg 10 Punkte und kam damit auf über 1000 BBL-Punkte."
     },
     {
+      "liga": "NBA",
       "art": "legacy",
-      "jahr": "1954",
-      "frage": "Welche Regel wurde 1954 in der NBA eingeführt, damit die Spiele schneller werden?",
+      "jahr": "2016",
+      "frage": "Welcher Star holte 2016 mit Cleveland den Titel, obwohl sein Team in den Finals schon 1:3 hinten lag?",
       "antworten": [
-        "Die Dreierlinie",
-        "Die 24-Sekunden-Uhr",
-        "Der Freiwurf",
-        "Das Goaltending-Verbot"
+        "LeBron James",
+        "Kevin Durant",
+        "Stephen Curry",
+        "Kawhi Leonard"
       ],
-      "richtig": 1,
-      "erklaerung": "Seit 1954 hat ein Team nur 24 Sekunden Zeit für einen Wurf. Vorher konnten Teams den Ball ewig festhalten, und manche Spiele waren sehr langweilig."
+      "richtig": 0,
+      "erklaerung": "LeBron James und die Cavaliers gewannen die letzten drei Spiele gegen Golden State. Noch nie hatte ein Team in den Finals ein 1:3 aufgeholt."
     },
     {
+      "liga": "BBL",
       "art": "legacy",
       "jahr": "1970er",
-      "frage": "Für welchen Wurf wurde Kareem Abdul-Jabbar berühmt?",
+      "frage": "Welcher Verein ist mit 14 Titeln deutscher Rekordmeister im Basketball?",
       "antworten": [
-        "Den Skyhook",
-        "Den Fadeaway",
-        "Den Floater",
-        "Den Alley-oop"
-      ],
-      "richtig": 0,
-      "erklaerung": "Beim Skyhook wirft man den Ball mit ausgestrecktem Arm in hohem Bogen über den Kopf. Kareem war so groß, dass ihn dabei kaum jemand blocken konnte."
-    },
-    {
-      "art": "legacy",
-      "jahr": "1994",
-      "frage": "Mit welchem Team wurde Hakeem Olajuwon 1994 und 1995 NBA-Meister?",
-      "antworten": [
-        "Chicago Bulls",
-        "San Antonio Spurs",
-        "Houston Rockets",
-        "New York Knicks"
-      ],
-      "richtig": 2,
-      "erklaerung": "Hakeem 'The Dream' Olajuwon führte die Houston Rockets zu zwei Titeln hintereinander. Er war ein Center mit unglaublicher Fußarbeit."
-    },
-    {
-      "art": "legacy",
-      "jahr": "2007",
-      "frage": "Welcher deutsche Spieler wurde 2007 als wertvollster Spieler (MVP) der NBA-Saison ausgezeichnet?",
-      "antworten": [
-        "Detlef Schrempf",
-        "Dirk Nowitzki",
-        "Dennis Schröder",
-        "Chris Kaman"
-      ],
-      "richtig": 1,
-      "erklaerung": "Dirk Nowitzki von den Dallas Mavericks wurde 2007 MVP. Er war der erste Europäer, der diese Auszeichnung bekam."
-    },
-    {
-      "art": "legacy",
-      "jahr": "2019",
-      "frage": "Welches Team gewann 2019 als erstes Team aus Kanada die NBA-Meisterschaft?",
-      "antworten": [
-        "Vancouver Grizzlies",
-        "Montreal Royals",
-        "Ottawa Stars",
-        "Toronto Raptors"
+        "ALBA BERLIN",
+        "Brose Bamberg",
+        "FC Bayern München",
+        "Bayer Leverkusen"
       ],
       "richtig": 3,
-      "erklaerung": "Die Toronto Raptors schlugen im Finale die Golden State Warriors. Ihr Star war Kawhi Leonard."
+      "erklaerung": "Bayer Leverkusen wurde zwischen 1970 und 1996 vierzehnmal Meister. ALBA BERLIN folgt dahinter."
+    },
+    {
+      "liga": "BBL",
+      "frage": "Wer war mit 22 Punkten bester Werfer beim 95:88 von Bonn gegen ALBA?",
+      "antworten": [
+        "Jordan Ford",
+        "John-Michael Wright",
+        "Brandon Angel",
+        "Grayson Murphy"
+      ],
+      "richtig": 1,
+      "erklaerung": "John-Michael Wright kam von der Bank und machte 22 Punkte. Ford und Angel hatten für ALBA je 19."
+    },
+    {
+      "liga": "NBA",
+      "frage": "Wie viele Steals holte sich Luka Dončić beim Sieg der Lakers gegen Toronto?",
+      "antworten": [
+        "8",
+        "2",
+        "10",
+        "5"
+      ],
+      "richtig": 3,
+      "erklaerung": "Luka hatte 5 Steals – dazu 45 Punkte und 15 Rebounds. Die Lakers gewannen 131:125."
     }
   ],
   "lexikon": [
@@ -3161,6 +3278,16 @@
       "begriff": "Zone",
       "en": "paint",
       "erklaerung": "Das farbige Rechteck unter dem Korb. Auf Englisch heißt es 'paint', weil es oft bunt angemalt ist."
+    },
+    {
+      "begriff": "Karrierebestwert",
+      "en": "career high",
+      "erklaerung": "Der beste Wert, den ein Spieler in seiner ganzen Profi-Karriere in einem Spiel geschafft hat, zum Beispiel die meisten Punkte."
+    },
+    {
+      "begriff": "Offensivfoul",
+      "en": "charging",
+      "erklaerung": "Ein Foul des Angreifers, zum Beispiel wenn er einen Verteidiger umrennt, der schon richtig steht. Dann bekommt der Gegner den Ball."
     }
   ],
   "teams": {
@@ -3779,67 +3906,71 @@
   },
   "auffaellig": [
     {
-      "art": "spiel",
-      "liga": "EL",
-      "datum": "2026-10-30",
-      "heim": "VIR",
-      "gast": "BES",
-      "wert": "Nur 2 Punkte!",
-      "grund": "Beşiktaş machte im letzten Viertel 33 Punkte und gewann in Bologna mit 103:101 – eine Aufholjagd bis zum Schluss.",
-      "newsId": "2026-10-31-euroleague-runde9"
-    },
-    {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-10-31",
-      "titel": "Victor Wembanyama",
-      "team": "SAS",
-      "wert": "43 Punkte",
-      "grund": "Sein bester Wert in dieser Saison – dazu 6 Blocks gegen Minnesota.",
-      "newsId": "2026-11-01-wemby-43"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-10-30",
-      "heim": "GSW",
-      "gast": "LAL",
-      "wert": "23 Punkte aufgeholt",
-      "grund": "Golden State lag gegen die Lakers schon mit 23 Punkten hinten. Dann drehten Stephen Curry und Co. das Spiel und gewannen noch klar mit 112:95.",
-      "newsId": "2026-10-31-warriors-lakers"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-10-30",
-      "titel": "Giannis Antetokounmpo",
-      "team": "MIA",
-      "wert": "31-18-10",
-      "grund": "Ein Triple-Double: 31 Punkte, 18 Rebounds und 10 Assists beim 145:125 von Miami gegen Indiana.",
-      "newsId": "2026-10-31-giannis-triple-double"
+      "datum": "2026-11-01",
+      "titel": "Yaxel Lendeborg",
+      "team": "GSW",
+      "wert": "37 Punkte",
+      "grund": "Karrierebestwert für den Rookie. So viele Punkte hat kein Warriors-Rookie mehr gemacht, seit Stephen Curry 2010 42 Punkte erzielte.",
+      "newsId": "2026-11-02-lendeborg-37"
     },
     {
       "art": "spiel",
       "liga": "BBL",
-      "datum": "2026-10-31",
-      "heim": "BRA",
-      "gast": "WUE",
-      "wert": "+24 auswärts",
-      "grund": "Würzburg gewann in Braunschweig mit 96:72. Ein Auswärtssieg mit 24 Punkten Vorsprung – so deutlich gewinnt man in fremder Halle selten.",
-      "newsId": "2026-11-01-bbl-samstag"
+      "datum": "2026-11-01",
+      "heim": "ROS",
+      "gast": "FCB",
+      "wert": "Nur 2 Punkte!",
+      "grund": "Der FC Bayern war in der Bundesliga noch ungeschlagen. In Rostock ging ganz am Ende ein Dreier zum Sieg daneben – 67:69, die erste Niederlage.",
+      "newsId": "2026-11-02-rostock-bayern"
     },
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-10-30",
-      "titel": "Moritz Wagner",
-      "team": "BKN",
-      "wert": "7 von 10",
-      "grund": "Der Deutsche traf 7 seiner 10 Würfe und kam auf 16 Punkte und 8 Rebounds. Den Sieg holte trotzdem Detroit.",
-      "newsId": "2026-10-31-deutsche-nacht"
+      "datum": "2026-11-01",
+      "titel": "Luka Dončić",
+      "team": "LAL",
+      "wert": "45-15-5",
+      "grund": "45 Punkte, 15 Rebounds und 5 Steals in einem Spiel. Außer Luka hat das bei den Lakers seit der Saison 1982/83 niemand geschafft – er jetzt schon zum zweiten Mal.",
+      "newsId": "2026-11-02-luka-45"
+    },
+    {
+      "art": "spiel",
+      "liga": "BBL",
+      "datum": "2026-11-01",
+      "heim": "BON",
+      "gast": "ALBA",
+      "wert": "11:1-Lauf",
+      "grund": "ALBA führte kurz vor Schluss noch mit 83:79. Dann machte Bonn 11 Punkte, ALBA nur einen – und Bonn gewann 95:88.",
+      "newsId": "2026-11-02-bonn-alba"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-01",
+      "titel": "Franz Wagner",
+      "team": "ORL",
+      "wert": "12 Assists",
+      "grund": "So viele Vorlagen hat er in der NBA noch nie in einem Spiel gegeben. Orlando verlor trotzdem gegen Boston.",
+      "newsId": "2026-11-02-magic-nets"
+    },
+    {
+      "art": "spieler",
+      "liga": "BBL",
+      "datum": "2026-11-01",
+      "titel": "Collin Welp",
+      "team": "MBC",
+      "wert": "1000 Punkte",
+      "grund": "Beim 109:89 in Hamburg machte er 10 Punkte und knackte damit die Marke von 1000 Punkten in seiner Bundesliga-Karriere.",
+      "newsId": "2026-11-02-rostock-bayern"
     }
   ],
   "legacyGestellt": [
+    "Lakers aus Minneapolis (1950er)",
+    "LeBron Titel mit Cleveland nach 1:3 (2016)",
+    "ALBA Korać-Cup (1995)",
+    "Bayer Leverkusen Rekordmeister (14 Titel)",
     "Einführung 24-Sekunden-Uhr (1954)",
     "Kareem Abdul-Jabbar Skyhook (1970er)",
     "Hakeem Olajuwon Titel mit Houston (1994/95)",
@@ -3861,6 +3992,69 @@
     "LeBron James überholt Kareem (2023)"
   ],
   "training": [
+    {
+      "id": "2026-11-02-slides",
+      "titel": "Verteidigen wie ein Profi: Stellung und Slides",
+      "ziel": "Du lernst die richtige Verteidigungsstellung und wie du seitlich mitgehst, ohne die Füße zu kreuzen. So bleibst du immer zwischen Gegner und Korb.",
+      "ort": "Zuhause oder in der Halle",
+      "dauer": "10–15 Minuten",
+      "material": "Zwei Markierungen (z. B. Hütchen oder Schuhe)",
+      "schritte": [
+        "Stell die Füße etwas weiter als schulterbreit auseinander. Beuge die Knie, als würdest du dich auf einen unsichtbaren Stuhl setzen. Der Rücken bleibt gerade.",
+        "Arme seitlich ausstrecken, Handflächen nach oben. Der Blick geht nach vorn, nicht auf den Boden.",
+        "Lege zwei Markierungen etwa vier große Schritte auseinander. Mach einen Seitschritt (Slide): Der Fuß in Laufrichtung geht zuerst, der andere zieht nach.",
+        "Wichtig: Die Füße berühren sich nie und kreuzen sich nie. Bleib die ganze Zeit tief in den Knien.",
+        "Slide von einer Markierung zur anderen, tippe sie mit der Hand an und slide zurück. 20 Sekunden lang, dann 40 Sekunden Pause. 5 Durchgänge."
+      ],
+      "stufen": {
+        "leicht": "Langsam sliden und auf die Fußarbeit achten. 3 Durchgänge à 20 Sekunden.",
+        "mittel": "So schnell wie möglich, aber ohne die Füße zu kreuzen. 5 Durchgänge à 20 Sekunden.",
+        "schwer": "Mit Partner: Er dribbelt langsam hin und her, du bleibst vor ihm, ohne nach dem Ball zu greifen."
+      },
+      "fehler": [
+        "Aufrecht stehen: Bleib tief in den Knien, sonst bist du zu langsam.",
+        "Füße kreuzen oder hüpfen: Schieb dich mit flachen Schritten über den Boden.",
+        "Nur auf den Ball schauen: Schau auf die Hüfte des Gegners – die verrät, wohin er läuft."
+      ],
+      "profi": {
+        "text": "Kris Dunn von den Clippers holte sich gegen Golden State 7 Steals. Gute Verteidigung beginnt immer mit den Füßen.",
+        "newsId": "2026-11-02-lendeborg-37"
+      },
+      "skizze": {
+        "spieler": [
+          {
+            "x": 50,
+            "y": 55,
+            "team": "b",
+            "label": "Du"
+          }
+        ],
+        "pfeile": [
+          {
+            "von": [
+              48,
+              55
+            ],
+            "nach": [
+              30,
+              55
+            ],
+            "art": "lauf"
+          },
+          {
+            "von": [
+              52,
+              55
+            ],
+            "nach": [
+              70,
+              55
+            ],
+            "art": "lauf"
+          }
+        ]
+      }
+    },
     {
       "id": "2026-10-29-korbleger",
       "titel": "Der Korbleger im Rechts-Links-Rhythmus",
@@ -3929,67 +4123,56 @@
     }
   ],
   "schiri": {
-    "id": "2026-11-01",
-    "titel": "Zu lange in der Zone",
+    "id": "2026-11-02",
+    "titel": "Umgerannt!",
     "regel": "beide",
-    "situation": "Team Blau greift an. Die Nummer 15 stellt sich unter den Korb in die Zone und wartet dort auf einen Pass. Ihre Mitspieler passen sich den Ball draußen zu. Die Nummer 15 bleibt die ganze Zeit in der Zone stehen – schon mehr als drei Sekunden lang.",
+    "situation": "Die Nummer 9 von Team Blau dribbelt schnell zum Korb. Ein Verteidiger von Team Rot steht schon vorher mit beiden Füßen fest auf seinem Platz, das Gesicht zum Angreifer. Er steht außerhalb des Halbkreises unter dem Korb. Die Nummer 9 rennt ihn mit der Schulter um.",
     "frage": "Was pfeifst du?",
     "antworten": [
-      "Nichts – sie hat den Ball ja nicht",
-      "Drei-Sekunden-Regel – Ballbesitz für Team Rot",
-      "Foul an der Nummer 15",
-      "Freiwurf für Team Blau"
+      "Foul des Verteidigers – Freiwürfe für Blau",
+      "Offensivfoul der Nummer 9 – Ball für Team Rot",
+      "Nichts – weiterspielen",
+      "Sprungball"
     ],
     "richtig": 1,
-    "erklaerung": "Ein Angreifer darf nicht länger als drei Sekunden am Stück in der Zone unter dem gegnerischen Korb stehen, solange sein Team den Ball in der Angriffshälfte hat. Das gilt auch, wenn er selbst den Ball gar nicht hat. Strafe: Der Gegner bekommt den Ball.",
-    "unterschied": "Für Angreifer ist die Regel in der NBA und bei FIBA gleich. In der NBA gibt es zusätzlich eine Drei-Sekunden-Regel für Verteidiger: Sie dürfen nicht länger als drei Sekunden in der Zone stehen, ohne einen Gegner eng zu decken. Bei FIBA gibt es das nicht.",
+    "erklaerung": "Wer zuerst eine richtige Verteidigungsposition hat – beide Füße auf dem Boden, Gesicht zum Gegner –, darf dort stehen bleiben. Rennt der Angreifer ihn trotzdem um, ist das ein Offensivfoul (auf Englisch 'Charging'). Es gibt keine Freiwürfe, sondern der Ball wechselt zu Team Rot.",
+    "unterschied": "Bei FIBA und in der NBA gibt es unter dem Korb einen Halbkreis. Steht der Verteidiger darin, gibt es für das Umrennen kein Offensivfoul. In der NBA heißt dieser Bereich 'Restricted Area'.",
     "skizze": {
       "spieler": [
         {
           "x": 50,
-          "y": 20,
+          "y": 60,
           "team": "a",
-          "label": "15"
+          "label": "9"
         },
         {
-          "x": 20,
-          "y": 50,
-          "team": "a",
-          "label": "4"
-        },
-        {
-          "x": 80,
-          "y": 50,
-          "team": "a",
-          "label": "7"
-        },
-        {
-          "x": 52,
-          "y": 27,
+          "x": 50,
+          "y": 26,
           "team": "b",
           "label": "V"
         }
       ],
       "ball": {
-        "x": 20,
-        "y": 50
+        "x": 53,
+        "y": 58
       },
       "pfeile": [
         {
           "von": [
-            20,
-            50
+            50,
+            58
           ],
           "nach": [
-            80,
-            50
+            50,
+            30
           ],
-          "art": "pass"
+          "art": "dribbel"
         }
       ]
     }
   },
   "schiriGestellt": [
+    "Angreifer rennt stehenden Verteidiger um (Offensivfoul)",
     "Angreifer zu lange in der Zone (3 Sekunden)",
     "Ball auf dem Weg nach unten weggeschlagen (Goaltending)",
     "Zurückdribbeln über die Mittellinie (Rückspiel)",

@@ -2,6 +2,205 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-10-31-warriors-lakers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Curry und die Warriors drehen ein 15:38",
+      "teaser": "Nach dem ersten Viertel lag Golden State gegen die Lakers mit 23 Punkten hinten. Am Ende gewannen die Warriors klar mit 112:95.",
+      "text": [
+        "Das erste Viertel war für Golden State ein Albtraum. Die Lakers führten nach zwölf Minuten mit 38:15. Luka Dončić traf fast alles.",
+        "Dann kam die große Wende. Im zweiten Viertel holten die Warriors 38 Punkte und erlaubten nur 15. Zur Pause stand es 53:53.",
+        "Stephen Curry war der Anführer. Er machte 31 Punkte und traf 8 Dreier. Brandin Podziemski kam auf 21 Punkte, Draymond Green verteilte 9 Assists.",
+        "Dončić war mit 37 Punkten der beste Werfer des Abends. Doch nach der Pause fanden die Lakers kaum noch Lücken. Golden State hat jetzt 3 Siege und 3 Niederlagen."
+      ],
+      "fakten": [
+        "Endstand: Golden State 112, Lakers 95",
+        "Nach dem 1. Viertel: 15:38",
+        "Curry: 31 Punkte, 8 von 14 Dreiern",
+        "Dončić: 37 Punkte"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "GSW",
+        "LAL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Brandin Podziemski",
+        "Draymond Green",
+        "Luka Dončić",
+        "Austin Reaves",
+        "Walker Kessler"
+      ]
+    },
+    {
+      "id": "2026-10-31-magic-raptors",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Franz Wagner führt Orlando zum Sieg in Toronto",
+      "teaser": "26 Punkte und 11 Assists: Franz Wagner schafft ein Double-Double. Gegen Scottie Barnes und seine 41 Punkte gewinnt Orlando 121:114.",
+      "text": [
+        "Zwei Tage vorher hatte Orlando in Toronto noch mit 99:129 verloren. Diesmal sah es ganz anders aus.",
+        "Franz Wagner machte 26 Punkte und gab 11 Assists. Das ist ein Double-Double. Desmond Bane traf 6 Dreier und kam auf 28 Punkte. Auch Anthony Black schaffte ein Double-Double mit 17 Punkten und 10 Assists.",
+        "Tristan da Silva steuerte 8 Punkte bei. Er traf 2 von 3 Dreiern.",
+        "Bei Toronto spielte Scottie Barnes groß auf. Er machte 41 Punkte. Am Ende reichte das aber nicht. Orlando hat jetzt 2 Siege und 3 Niederlagen."
+      ],
+      "fakten": [
+        "Endstand: Toronto 114, Orlando 121",
+        "F. Wagner: 26 Punkte, 11 Assists",
+        "Bane: 28 Punkte",
+        "Barnes (Toronto): 41 Punkte"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "ORL",
+        "TOR"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Desmond Bane",
+        "Anthony Black",
+        "Tristan da Silva",
+        "Wendell Carter Jr.",
+        "Scottie Barnes"
+      ]
+    },
+    {
+      "id": "2026-10-31-deutsche-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Schröder verliert, Moritz Wagner trifft stark",
+      "teaser": "Charlotte kommt in Washington nicht in Fahrt. Moritz Wagner ist bester Werfer der Nets, doch Brooklyn wartet weiter auf den ersten Sieg.",
+      "text": [
+        "Dennis Schröder und die Charlotte Hornets verloren in Washington mit 79:95. Schröder verteilte 8 Assists und machte 8 Punkte. Charlotte traf aber insgesamt viel zu wenig.",
+        "Für Washington war Anthony Davis mit 25 Punkten und 13 Rebounds der Beste. Trae Young kam auf 21 Punkte und 9 Assists.",
+        "Moritz Wagner war bei den Brooklyn Nets der beste Werfer. Er machte 16 Punkte und traf 7 von 10 Würfen. Trotzdem verlor Brooklyn gegen Detroit mit 94:110.",
+        "Die Nets haben nach fünf Spielen noch keinen Sieg. Detroit dagegen hat schon fünf Siege gesammelt. Am Samstag spielt Schröder mit Charlotte gegen Philadelphia."
+      ],
+      "fakten": [
+        "Washington 95, Charlotte 79",
+        "Schröder: 8 Punkte, 8 Assists",
+        "Brooklyn 94, Detroit 110",
+        "M. Wagner: 16 Punkte, 7 von 10 Würfen"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "CHA",
+        "WAS",
+        "BKN",
+        "DET"
+      ],
+      "spieler": [
+        "Dennis Schröder",
+        "Brandon Miller",
+        "Anthony Davis",
+        "Trae Young",
+        "Moritz Wagner",
+        "Cade Cunningham"
+      ]
+    },
+    {
+      "id": "2026-10-31-giannis-triple-double",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Giannis gets a triple-double for Miami",
+      "teaser": "Giannis Antetokounmpo had 31 points, 18 rebounds and 10 assists. Miami scored 145 points against Indiana.",
+      "text": [
+        "Giannis Antetokounmpo played a great game for the Miami Heat. He scored 31 points, got 18 rebounds and gave 10 assists. That is a triple-double.",
+        "He only needed 31 minutes. He made 13 of his 19 shots.",
+        "Miami beat the Indiana Pacers 145 to 125. Bam Adebayo scored 27 points. Klay Thompson made 7 three-pointers.",
+        "Both teams now have 2 wins and 4 losses."
+      ],
+      "fakten": [
+        "Final score: Heat 145, Pacers 125",
+        "Giannis: 31 points, 18 rebounds, 10 assists",
+        "Klay Thompson: 7 three-pointers"
+      ],
+      "vokabeln": [
+        {
+          "en": "triple-double",
+          "de": "Triple-Double (dreimal mindestens 10)"
+        },
+        {
+          "en": "shot",
+          "de": "Wurf"
+        },
+        {
+          "en": "to beat",
+          "de": "besiegen"
+        },
+        {
+          "en": "loss",
+          "de": "Niederlage"
+        }
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "MIA",
+        "IND"
+      ],
+      "spieler": [
+        "Giannis Antetokounmpo",
+        "Bam Adebayo",
+        "Klay Thompson",
+        "Pelle Larsson",
+        "Andrew Nembhard"
+      ]
+    },
+    {
+      "id": "2026-10-31-bbl-freitag",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Frankfurt gewinnt in Jena, Vechta siegt in Hagen",
+      "teaser": "Zwei Spiele am Freitagabend in der Bundesliga: Die Skyliners klettern auf Platz 3, Vechta schafft 100 Punkte.",
+      "text": [
+        "Im Nachholspiel in Jena gewannen die SKYLINERS Frankfurt mit 93:82. Lange sah es nicht danach aus: Jena führte zur Pause mit 53:50.",
+        "Im dritten Viertel machte Jena aber nur 8 Punkte. Frankfurt übernahm die Führung und gewann am Ende mit 11 Punkten Vorsprung. Die Skyliners haben jetzt 4 Siege und 1 Niederlage und stehen auf Platz 3.",
+        "RASTA Vechta gewann deutlich in Hagen mit 100:74. Nach dem ersten Viertel stand es noch 25:25. Danach zog Vechta davon. Für Vechta war es der zweite Sieg der Saison.",
+        "Am Samstag und Sonntag geht der 7. Spieltag weiter. ALBA spielt am Sonntag um 18 Uhr in Bonn."
+      ],
+      "fakten": [
+        "Jena 82, Frankfurt 93",
+        "Jena im 3. Viertel: nur 8 Punkte",
+        "Hagen 74, Vechta 100"
+      ],
+      "quellen": [
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "JEN",
+        "FRA",
+        "HAG",
+        "VEC",
+        "ALBA",
+        "BON"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-10-31-mavs-rockets",
       "liga": "NBA",
       "lang": "en",
@@ -307,6 +506,42 @@
         "Stephen Curry",
         "Luka Dončić",
         "Austin Reaves"
+      ]
+    },
+    {
+      "id": "dbb-november",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Weltmeister auf WM-Kurs",
+      "teaser": "Im November spielt die Nationalmannschaft in Riga und Frankfurt um das Ticket für die WM 2027.",
+      "text": [
+        "Deutschland ist amtierender Basketball-Weltmeister. Damit das Team die nächste WM 2027 in Katar spielen darf, muss es sich aber qualifizieren.",
+        "In der Gruppe K haben Deutschland, Kroatien und Polen alle 7 Siege und 1 Niederlage. Die besten drei Teams der Gruppe fahren zur WM.",
+        "Am 27. November spielt Deutschland in Riga gegen Lettland. Am 30. November kommt Polen nach Frankfurt. NBA-Spieler wie Franz Wagner oder Dennis Schröder sind diesmal nicht dabei, weil die NBA-Saison weiterläuft.",
+        "Bundestrainer ist Àlex Mumbrú aus Spanien. Kapitän der Mannschaft ist Dennis Schröder."
+      ],
+      "fakten": [
+        "27.11.: Lettland gegen Deutschland",
+        "30.11.: Deutschland gegen Polen in Frankfurt",
+        "Bundestrainer: Àlex Mumbrú"
+      ],
+      "quellen": [
+        "sport1.de",
+        "sportschau.de",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "POL",
+        "CRO"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Dennis Schröder"
       ]
     },
     {

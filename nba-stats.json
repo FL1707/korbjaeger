@@ -1,4 +1,4 @@
-{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-01T16:16:42+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
+{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-02T06:14:27+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
 ["Luka Dončić", "LAL", 27, 5, null, null, 35.8, 36.2, 11.2, 23.6, 47.5, 5.4, 13.8, 39.1, 8.4, 9.6, 87.5, null, null, 6.8, 7.6, 5.2, 1.2, 0.8, 2.4, 1, 0, null],
 ["Anthony Edwards", "MIN", 25, 4, null, null, 33.8, 33.3, 12.5, 26.0, 48.1, 4.5, 11.3, 40.0, 3.8, 5.0, 75.0, null, null, 4.8, 3.5, 3.5, 2.0, 0.8, 2.0, 1, 0, null],
 ["Tyrese Maxey", "PHI", 25, 7, null, null, 37.6, 29.6, 10.3, 21.1, 48.6, 2.7, 7.7, 35.2, 6.3, 7.6, 83.0, null, null, 4.1, 4.4, 2.3, 1.7, 0.7, 2.6, 0, 0, null],
