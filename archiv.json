@@ -2,6 +2,357 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-02-nba-vorschau-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Heute Nacht: Spitzenspiel in Cleveland und vier deutsche Duelle",
+      "teaser": "OKC muss nach zwei Niederlagen in Cleveland ran. Dazu sind Moritz Wagner, Franz Wagner, Tristan da Silva, Dennis Schröder und Hannes Steinbach im Einsatz.",
+      "text": [
+        "In der Nacht auf Dienstag stehen in der NBA 15 Spiele auf dem Plan. Das erste beginnt um 1 Uhr deutscher Zeit: Die Cleveland Cavaliers empfangen Oklahoma City.",
+        "Beide Teams haben bisher 4 Siege und 2 Niederlagen. OKC hat aber die letzten zwei Spiele verloren, zuletzt deutlich mit 98:119 in Houston. Isaiah Hartenstein holt in dieser Saison im Schnitt über 9 Rebounds pro Spiel. Bei Cleveland ist Donovan Mitchell der beste Werfer.",
+        "Um 1:30 Uhr geht es gleich viermal mit deutscher Beteiligung los. Moritz Wagner und die Brooklyn Nets spielen bei den New York Knicks. Brooklyn hat am Sonntag in Indiana den ersten Saisonsieg gefeiert. Franz Wagner und Tristan da Silva empfangen mit Orlando die Washington Wizards.",
+        "Dennis Schröder und Hannes Steinbach treffen mit Charlotte auf Detroit. Das wird schwer: Die Pistons haben 5 von 6 Spielen gewonnen. Charlotte hat dagegen die letzten drei Spiele verloren.",
+        "Noch ein Blick nach Texas: Die Sacramento Kings haben als einziges Team der Liga noch kein Spiel gewonnen. Heute Nacht versuchen sie es in Dallas."
+      ],
+      "fakten": [
+        "Cleveland gegen OKC: 1 Uhr deutscher Zeit",
+        "Beide Teams: 4 Siege, 2 Niederlagen",
+        "Detroit: 5 Siege, 1 Niederlage",
+        "Sacramento: 0 Siege, 6 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "CLE",
+        "OKC",
+        "NYK",
+        "BKN",
+        "ORL",
+        "WAS",
+        "CHA",
+        "DET",
+        "DAL",
+        "SAC",
+        "HOU"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Donovan Mitchell",
+        "Moritz Wagner",
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Dennis Schröder",
+        "Hannes Steinbach"
+      ]
+    },
+    {
+      "id": "2026-11-01-wemby-43",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "Wemby scores 43 points",
+      "teaser": "Victor Wembanyama scores 43 points and blocks 6 shots. The Spurs beat Minnesota 121-111.",
+      "text": [
+        "Victor Wembanyama is very tall and very good. On Saturday he played against the Minnesota Timberwolves. He scored 43 points. That is his best game of the season.",
+        "Wemby took 34 shots. He never took so many shots in one game before. He also blocked 6 shots. Once he blocked a three-pointer, ran down the court and made a big dunk.",
+        "Dylan Harper scored 25 points and De'Aaron Fox scored 22. San Antonio has won four games in a row. Minnesota played without Anthony Edwards."
+      ],
+      "fakten": [
+        "Final score: Spurs 121, Timberwolves 111",
+        "Wembanyama: 43 Punkte, 7 Rebounds, 6 Blocks",
+        "34 Würfe – so viele wie noch nie",
+        "Spurs: 4 Siege in Folge"
+      ],
+      "vokabeln": [
+        {
+          "en": "tall",
+          "de": "groß"
+        },
+        {
+          "en": "shot",
+          "de": "Wurf"
+        },
+        {
+          "en": "to block",
+          "de": "blocken, einen Wurf abwehren"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "MIN"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Dylan Harper",
+        "De'Aaron Fox",
+        "Ayo Dosunmu",
+        "Jonathan Kuminga",
+        "LaMelo Ball",
+        "Anthony Edwards"
+      ]
+    },
+    {
+      "id": "2026-11-01-wochenvorschau",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "Die Woche: Bayern dreimal gefordert, deutsches Duell in Brooklyn",
+      "teaser": "Der FC Bayern spielt in einer Woche in drei Wettbewerben, OKC trifft zweimal auf Cleveland und Moritz Wagner auf Dennis Schröder.",
+      "text": [
+        "Für den FC Bayern wird die neue Woche anstrengend. Am Dienstag um 20 Uhr kommt Braunschweig zu einem Nachholspiel der Bundesliga nach München. Am Donnerstag geht es in der Euroleague nach Villeurbanne in Frankreich. Und am Sonntag um 18 Uhr spielen die Bayern in Würzburg.",
+        "ALBA Berlin hat am Freitag um 20 Uhr ein Heimspiel gegen Hagen. Die Telekom Baskets Bonn spielen am Mittwoch in der Champions League gegen Bnei Herzliya aus Israel.",
+        "In der NBA treffen die Oklahoma City Thunder mit Isaiah Hartenstein gleich zweimal hintereinander auf die Cleveland Cavaliers: erst in Cleveland, dann zu Hause in Oklahoma City. Zweimal kurz hintereinander gegen denselben Gegner – da kann man gleich zeigen, was man aus dem ersten Spiel gelernt hat.",
+        "In der Nacht zu Donnerstag gibt es ein deutsches Duell: Moritz Wagner und die Brooklyn Nets empfangen Charlotte mit Dennis Schröder und Hannes Steinbach. Anwurf ist um 1:30 Uhr deutscher Zeit."
+      ],
+      "fakten": [
+        "Di 3.11., 20 Uhr: FC Bayern – Braunschweig (BBL)",
+        "Do 5.11., 20 Uhr: Villeurbanne – FC Bayern (Euroleague)",
+        "Fr 6.11., 20 Uhr: ALBA – Hagen (BBL)",
+        "Do 5.11., 1:30 Uhr: Brooklyn – Charlotte (NBA)"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "euroleaguebasketball.net",
+        "espn.com"
+      ],
+      "teams": [
+        "FCB",
+        "BRA",
+        "ASV",
+        "WUE",
+        "ALBA",
+        "HAG",
+        "BON",
+        "HRZ",
+        "OKC",
+        "CLE",
+        "BKN",
+        "CHA"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Moritz Wagner",
+        "Dennis Schröder",
+        "Hannes Steinbach"
+      ]
+    },
+    {
+      "id": "2026-11-01-bbl-samstag",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "Würzburg feiert, Ulm und Chemnitz siegen",
+      "teaser": "Würzburg gewinnt in Braunschweig mit 96:72. Heute spielt ALBA in Bonn und der FC Bayern in Rostock.",
+      "text": [
+        "Am Samstag gab es drei Spiele in der Bundesliga. Den höchsten Sieg holte Würzburg: Die Baskets gewannen in Braunschweig mit 96:72. Schon zur Pause führte Würzburg mit 58:30. Sam Griffin war mit 19 Punkten bester Werfer.",
+        "Ulm schlug Oldenburg mit 81:65. Michael Rataj machte für Ulm 23 Punkte. Im zweiten Viertel ließ Ulm nur 12 Punkte zu.",
+        "Chemnitz besiegte Ludwigsburg mit 94:78. Zur Pause lag Chemnitz noch mit 43:48 hinten. Doch im dritten Viertel ließen die NINERS nur 10 Punkte zu.",
+        "Heute geht es weiter: Der FC Bayern spielt um 15 Uhr in Rostock. ALBA Berlin tritt um 18 Uhr in Bonn an. Beide Spiele laufen bei DYN."
+      ],
+      "fakten": [
+        "Braunschweig – Würzburg 72:96",
+        "Ulm – Oldenburg 81:65",
+        "Chemnitz – Ludwigsburg 94:78",
+        "Sonntag: Rostock – Bayern (15 Uhr), Bonn – ALBA (18 Uhr)"
+      ],
+      "quellen": [
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "BRA",
+        "WUE",
+        "ULM",
+        "OLD",
+        "CHE",
+        "LUD",
+        "FCB",
+        "ROS",
+        "ALBA",
+        "BON"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-01-hornets-sixers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "Schröder und Charlotte verlieren knapp",
+      "teaser": "Die Hornets führten lange gegen die 76ers. Am Ende gewann Philadelphia trotzdem mit 109:104 – sogar ohne LeBron James und Joel Embiid.",
+      "text": [
+        "Philadelphia ließ LeBron James und Joel Embiid in Charlotte ausruhen. Die beiden hatten am Abend vorher gegen die Knicks gespielt. Trotzdem gewannen die 76ers mit 109:104.",
+        "Die Hornets sahen fünf Minuten vor Schluss wie der Sieger aus. Brandon Miller blockte einen Korbleger und legte dann den Ball zu Moussa Diabaté vor. Der dunkte zum 97:90. Doch danach traf Charlotte kaum noch.",
+        "Tyrese Maxey war nicht zu stoppen. Er machte 38 Punkte und brachte Philadelphia mit zwei Freiwürfen 82 Sekunden vor Schluss in Führung. Anfernee Simons kam von der Bank auf 19 Punkte.",
+        "Dennis Schröder verteilte 7 Assists, traf aber nur 1 von 11 Würfen. Bester Hornet war Grayson Allen mit 27 Punkten und 7 Dreiern. Brandon Miller machte 24 Punkte."
+      ],
+      "fakten": [
+        "Endstand: Charlotte 104, Philadelphia 109",
+        "Maxey: 38 Punkte",
+        "Grayson Allen: 7 von 10 Dreiern",
+        "Schröder: 4 Punkte, 7 Assists"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "CHA",
+        "PHI"
+      ],
+      "spieler": [
+        "Dennis Schröder",
+        "Brandon Miller",
+        "Grayson Allen",
+        "Moussa Diabaté",
+        "Tyrese Maxey",
+        "Anfernee Simons",
+        "Jaylen Brown",
+        "LeBron James",
+        "Joel Embiid",
+        "VJ Edgecombe"
+      ]
+    },
+    {
+      "id": "2026-11-01-grizzlies-6-0",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "Memphis bleibt ohne Niederlage",
+      "teaser": "Die Grizzlies schlagen Sacramento mit 136:105. Sechs Siege zum Start – das gab es in Memphis bisher nur einmal.",
+      "text": [
+        "Die Memphis Grizzlies sind das einzige NBA-Team ohne Niederlage. Gegen die Sacramento Kings gewannen sie deutlich mit 136:105.",
+        "Rookie Cameron Boozer war wieder stark. Er machte 27 Punkte und holte 9 Rebounds. Isaiah Stewart traf 8 von 9 Würfen und kam auf 24 Punkte. GG Jackson traf alle 5 Dreier, die er versuchte. Cam Spencer verteilte 13 Assists.",
+        "Mit 6 Siegen in 6 Spielen stellt Memphis den besten Saisonstart der Vereinsgeschichte ein. Genauso gut lief es nur in der Saison 2014/15.",
+        "Bei Sacramento zeigte ein anderer Rookie, was er kann: Darius Acuff Jr. machte 38 Punkte und traf 9 Dreier. Trotzdem haben die Kings noch kein Spiel gewonnen."
+      ],
+      "fakten": [
+        "Endstand: Memphis 136, Sacramento 105",
+        "Memphis: 6 Siege, 0 Niederlagen",
+        "Boozer: 27 Punkte, 9 Rebounds",
+        "Acuff Jr.: 38 Punkte, 9 von 14 Dreiern"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MEM",
+        "SAC"
+      ],
+      "spieler": [
+        "Cameron Boozer",
+        "Isaiah Stewart",
+        "GG Jackson",
+        "Cam Spencer",
+        "Darius Acuff Jr.",
+        "Domantas Sabonis",
+        "De'Andre Hunter"
+      ]
+    },
+    {
+      "id": "2026-11-01-thunder-rockets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-01",
+      "tags": [],
+      "titel": "OKC verliert das Spitzenspiel in Houston",
+      "teaser": "Die Thunder verlieren bei den Rockets mit 98:119. Es ist schon die zweite Niederlage in Folge. Und Chet Holmgren fällt länger aus.",
+      "text": [
+        "Das Duell der Top-Teams im Westen ging klar an Houston. Die Rockets gewannen gegen Oklahoma City mit 119:98.",
+        "Im zweiten Viertel machte Houston einen 18:4-Lauf und führte plötzlich mit 21 Punkten. OKC kam vor der Pause noch einmal auf 51:62 heran. Doch nach der Pause zog Houston sofort wieder davon.",
+        "Jabari Smith Jr. war der beste Werfer des Abends. Er machte 30 Punkte und traf 6 Dreier. Marcus Smart versenkte sogar 7 von 10 Dreiern und kam auf 24 Punkte. Alperen Sengun verpasste mit 16 Punkten, 10 Assists und 9 Rebounds nur knapp ein Triple-Double.",
+        "Bei OKC machte Shai Gilgeous-Alexander 26 Punkte. Isaiah Hartenstein kam auf 10 Punkte, 7 Rebounds und 3 Steals. Die Thunder müssen jetzt mindestens zwei Monate ohne Chet Holmgren auskommen, er fällt verletzt aus. Nach vier Siegen zum Start hat OKC nun zweimal hintereinander verloren."
+      ],
+      "fakten": [
+        "Endstand: Houston 119, Oklahoma City 98",
+        "Jabari Smith Jr.: 30 Punkte, 9 Rebounds",
+        "Marcus Smart: 7 von 10 Dreiern",
+        "Gilgeous-Alexander: 26 Punkte",
+        "OKC-Bilanz: 4 Siege, 2 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "HOU"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Chet Holmgren",
+        "Jabari Smith",
+        "Marcus Smart",
+        "Alperen Sengun",
+        "Kevin Durant",
+        "Kenrich Williams",
+        "Bennett Stirtz"
+      ]
+    },
+    {
+      "id": "2026-10-31-euroleague-runde9",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-10-31",
+      "tags": [],
+      "titel": "Euroleague: Krimi in Bologna, Bayern weiter unten",
+      "teaser": "Beşiktaş gewinnt mit 103:101 bei Virtus Bologna. Panathinaikos und Olympiakos führen die Tabelle an.",
+      "text": [
+        "Die 9. Runde der Euroleague ist vorbei. Das spannendste Spiel gab es in Bologna. Beşiktaş Istanbul gewann dort mit 103:101. Nach drei Vierteln stand es noch 74:70 für Virtus. Im letzten Viertel machte Beşiktaş 33 Punkte.",
+        "Der FC Barcelona schlug Valencia mit 98:94. Olympiakos gewann gegen Olimpia Mailand 84:78. Anadolu Efes besiegte sogar Tabellenführer Panathinaikos mit 83:68.",
+        "An der Spitze stehen jetzt Panathinaikos und Olympiakos mit je 7 Siegen und 2 Niederlagen.",
+        "Für den FC Bayern läuft es noch nicht gut. Nach dem 73:103 in Belgrad haben die Münchner 2 Siege und 7 Niederlagen. Am Donnerstag, 5. November, spielt Bayern bei ASVEL Villeurbanne in Frankreich. Vorher wartet am Sonntag in der Bundesliga Rostock."
+      ],
+      "fakten": [
+        "Virtus Bologna 101, Beşiktaş 103",
+        "Barcelona 98, Valencia 94",
+        "Efes 83, Panathinaikos 68",
+        "Bayern: 2 Siege, 7 Niederlagen"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "VIR",
+        "BES",
+        "BAR",
+        "VAL",
+        "OLY",
+        "EA7",
+        "EFS",
+        "PAO",
+        "FCB",
+        "ASV",
+        "CZV"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-10-31-warriors-lakers",
       "liga": "NBA",
       "lang": "de",
@@ -506,6 +857,37 @@
         "Stephen Curry",
         "Luka Dončić",
         "Austin Reaves"
+      ]
+    },
+    {
+      "id": "2026-10-29-damen-ungarn",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-10-29",
+      "tags": [],
+      "titel": "Die WM-Heldinnen sind zurück",
+      "teaser": "Am 11. November spielen die deutschen Basketballerinnen in Hamburg gegen Ungarn.",
+      "text": [
+        "Im Sommer fand die Basketball-WM der Frauen in Berlin statt. Die deutsche Mannschaft spielte richtig stark und wurde am Ende Vierte.",
+        "Ein Höhepunkt war das Viertelfinale: Deutschland schlug Europameister Belgien mit 93:74. Mehr als 10.000 Fans waren in der Halle. Leonie Fiebich wurde danach ins All-Star-Team der WM gewählt. Dort stehen die fünf besten Spielerinnen des Turniers.",
+        "Jetzt geht es um die Qualifikation für die Europameisterschaft 2027. Die Gegner heißen Ungarn, Portugal und Dänemark.",
+        "Los geht es am Mittwoch, 11. November, um 19 Uhr in Hamburg gegen Ungarn. Leicht wird das nicht: Auch Ungarn stand bei der WM im Viertelfinale. Bundestrainer der Damen ist Olaf Lange."
+      ],
+      "fakten": [
+        "11.11., 19 Uhr: Deutschland gegen Ungarn in Hamburg",
+        "Gruppengegner: Ungarn, Portugal, Dänemark",
+        "WM 2026 in Berlin: Platz 4"
+      ],
+      "quellen": [
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "GER",
+        "HUN"
+      ],
+      "spieler": [
+        "Leonie Fiebich"
       ]
     },
     {
