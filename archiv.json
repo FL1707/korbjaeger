@@ -2,6 +2,226 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-02-bonn-alba",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "ALBA verliert den Klassiker in Bonn",
+      "teaser": "Lange führt ALBA in Bonn. Doch kurz vor Schluss drehen die Telekom Baskets das Spiel und gewinnen 95:88.",
+      "text": [
+        "Bonn gegen Berlin – dieses Duell gibt es schon seit über 20 Jahren. Die Halle in Bonn war ausverkauft. Am Ende jubelten die Gastgeber: Die Telekom Baskets gewannen mit 95:88.",
+        "Im ersten Viertel warfen beide Teams mehr Dreier als Zweier. ALBA lag nach zehn Minuten mit 26:21 vorne und führte auch zur Pause mit 45:42. Jordan Ford traf vor der Pause drei Dreier.",
+        "Nach der Pause kam Bonn zurück. John-Michael Wright machte allein im dritten Viertel neun Punkte. Kurz vor Schluss führte ALBA trotzdem noch mit 83:79. Dann gelang Bonn ein 11:1-Lauf. Alijah Comithier machte mit einem Korb und einem Freiwurf das 90:84.",
+        "Jordan Ford und Brandon Angel machten für ALBA je 19 Punkte – so viele wie noch nie in dieser Saison. Bester Werfer des Spiels war Bonns John-Michael Wright mit 22 Punkten. Er kam von der Bank.",
+        "ALBA hat in der Bundesliga jetzt 3 Siege und 4 Niederlagen. In der Champions League sind die Berliner dagegen noch ungeschlagen. Am Freitag um 20 Uhr kommt Hagen nach Berlin."
+      ],
+      "fakten": [
+        "Endstand: Bonn 95, ALBA 88",
+        "Ford und Angel (ALBA): je 19 Punkte",
+        "Wright (Bonn): 22 Punkte",
+        "Grayson Murphy (Bonn): 10 Assists",
+        "Entscheidend: 11:1-Lauf von Bonn"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "BON",
+        "ALBA",
+        "HAG"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-02-rostock-bayern",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Rostock stoppt die Bayern",
+      "teaser": "Der Tabellenführer verliert zum ersten Mal: 67:69 in Rostock. Außerdem gewinnt der MBC in Hamburg, und Bamberg feiert den ersten Heimsieg.",
+      "text": [
+        "Der FC Bayern hatte in der Bundesliga noch kein Spiel verloren. In Rostock war es jetzt so weit: Die Seawolves gewannen mit 69:67.",
+        "Rostock startete stark und führte nach dem ersten Viertel mit 24:15. Dann drehte München auf und lag im dritten Viertel sogar zweistellig vorne. Doch im letzten Viertel kämpfte sich Rostock zurück. Angeführt wurden die Seawolves vom erfahrenen DeAndre Lansdowne.",
+        "Ganz am Ende hatte Bayern noch eine Chance: Tobias Jensen warf einen Dreier zum möglichen Sieg. Der Ball ging aber nicht rein. Bester Werfer des Spiels war Münchens Duane Washington Jr. mit 22 Punkten. Für die Bayern war es das dritte Spiel in sechs Tagen. Tabellenführer bleiben sie trotzdem.",
+        "Außerdem am Sonntag: Der MBC gewann in Hamburg mit 109:89. Spencer Reaves machte 25 Punkte, Jure Planinic schaffte ein Double-Double mit 22 Punkten und 11 Rebounds. Collin Welp knackte die Marke von 1000 Punkten in der Bundesliga.",
+        "Bamberg schlug Jena mit 88:78 und feierte den ersten Heimsieg der Saison. Den Ausschlag gab ein 12:0-Lauf zu Beginn des letzten Viertels."
+      ],
+      "fakten": [
+        "Endstand: Rostock 69, FC Bayern 67",
+        "Washington Jr. (München): 22 Punkte",
+        "Todd Withers (Rostock): 12 Punkte, 10 Rebounds",
+        "Hamburg 89, MBC 109",
+        "Bamberg 88, Jena 78"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "ROS",
+        "FCB",
+        "HAM",
+        "MBC",
+        "BAM",
+        "JEN"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-02-lendeborg-37",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Rookie Lendeborg trifft wie einst Curry",
+      "teaser": "Ohne Stephen Curry gewinnen die Warriors gegen die Clippers. Der Held ist Rookie Yaxel Lendeborg mit 37 Punkten.",
+      "text": [
+        "Stephen Curry und Draymond Green bekamen eine Pause, denn die Warriors spielen schon am nächsten Abend wieder. Ohne die beiden Stars gewann Golden State trotzdem: 124:112 gegen die Los Angeles Clippers.",
+        "Der Held war ein Rookie: Yaxel Lendeborg machte 37 Punkte. So viele hat er in der NBA noch nie erzielt. Er traf 13 von 19 Würfen, darunter 6 Dreier, und gab dazu 6 Assists.",
+        "Eine besondere Zahl: So viele Punkte hat kein Rookie der Warriors mehr gemacht, seit Stephen Curry im April 2010 42 Punkte gegen Portland erzielte. Außerdem hat Lendeborg schon zweimal 30 oder mehr Punkte in seinen ersten sieben Spielen gemacht. Das haben bei den Warriors sonst nur die Legenden Wilt Chamberlain und Rick Barry geschafft.",
+        "De'Anthony Melton traf 6 von 8 Dreiern und kam auf 21 Punkte. Bei den Clippers holte sich Kris Dunn 7 Steals. Golden State hat jetzt viermal in Folge gewonnen, nachdem die Saison mit drei Niederlagen begonnen hatte."
+      ],
+      "fakten": [
+        "Endstand: Warriors 124, Clippers 112",
+        "Lendeborg: 37 Punkte (Karrierebestwert)",
+        "Melton: 21 Punkte, 6 von 8 Dreiern",
+        "Hachimura (Clippers): 24 Punkte",
+        "Warriors: 4 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "LAC"
+      ],
+      "spieler": [
+        "Yaxel Lendeborg",
+        "Stephen Curry",
+        "Draymond Green",
+        "De'Anthony Melton",
+        "Brandin Podziemski",
+        "Brandon Williams",
+        "Rui Hachimura",
+        "Kris Dunn",
+        "Kobe Sanders"
+      ]
+    },
+    {
+      "id": "2026-11-02-luka-45",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Luka scores 45 points",
+      "teaser": "Luka Dončić scores 45 points and gets 15 rebounds. The Lakers beat Toronto 131-125.",
+      "text": [
+        "Luka Dončić plays for the Los Angeles Lakers. On Sunday they played against the Toronto Raptors. Luka scored 45 points and got 15 rebounds. He also made 5 steals.",
+        "He made 8 three-pointers. In the first quarter alone he scored 16 points. It was his fourth game in a row with 37 points or more.",
+        "The Lakers were ahead by 26 points. But at the end Toronto came back, and the score was only 125-120. Luka and his teammates had to come back on the court. They won 131-125."
+      ],
+      "fakten": [
+        "Endstand: Lakers 131, Raptors 125",
+        "Dončić: 45 Punkte, 15 Rebounds, 5 Steals",
+        "Walker Kessler: 16 Punkte, 15 Rebounds",
+        "Scottie Barnes (Toronto): 29 Punkte"
+      ],
+      "vokabeln": [
+        {
+          "en": "steal",
+          "de": "Ballgewinn"
+        },
+        {
+          "en": "three-pointer",
+          "de": "Dreier"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        },
+        {
+          "en": "to be ahead",
+          "de": "vorne liegen, führen"
+        },
+        {
+          "en": "teammate",
+          "de": "Mitspieler"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "LAL",
+        "TOR"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Scottie Barnes",
+        "RJ Barrett",
+        "Jamison Battle"
+      ]
+    },
+    {
+      "id": "2026-11-02-magic-nets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-02",
+      "tags": [],
+      "titel": "Bestwert für Franz Wagner, erster Sieg für Moritz Wagner",
+      "teaser": "Orlando verliert gegen Boston, obwohl Tristan da Silva 23 Punkte macht und Franz Wagner 12 Assists gibt. Moritz Wagner und die Nets feiern ihren ersten Saisonsieg.",
+      "text": [
+        "Orlando verlor zu Hause gegen die Boston Celtics mit 97:108. Dabei spielten die deutschen Magic-Profis gut. Tristan da Silva machte 23 Punkte und 10 Rebounds, also ein Double-Double. Er traf 5 Dreier.",
+        "Franz Wagner gab 12 Assists – so viele wie noch nie in seiner NBA-Karriere. Dazu machte er 14 Punkte. Boston deckte ihn sehr eng, weil bei Orlando Paolo Banchero fehlte.",
+        "Nach der Pause lag Orlando schon mit 15 Punkten hinten. Mit einem 12:0-Lauf kam die Magic auf 74:77 heran und glich im letzten Viertel sogar zum 79:79 aus. Dann zog Boston wieder davon. Jayson Tatum machte 32 Punkte, 15 davon von der Freiwurflinie.",
+        "Bessere Nachrichten gab es für Moritz Wagner. Die Brooklyn Nets gewannen in Indiana mit 98:90. Es war ihr erster Sieg in dieser Saison nach fünf Niederlagen. Moritz Wagner machte 14 Punkte und 6 Rebounds und traf 4 von 6 Würfen.",
+        "Schon in der Nacht zu Dienstag geht es weiter: Orlando empfängt Washington, Brooklyn spielt bei den New York Knicks."
+      ],
+      "fakten": [
+        "Orlando 97, Boston 108",
+        "Da Silva: 23 Punkte, 10 Rebounds",
+        "F. Wagner: 14 Punkte, 12 Assists (Karrierebestwert)",
+        "Indiana 90, Brooklyn 98",
+        "M. Wagner: 14 Punkte, 6 Rebounds"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "BOS",
+        "BKN",
+        "IND",
+        "WAS",
+        "NYK"
+      ],
+      "spieler": [
+        "Tristan da Silva",
+        "Franz Wagner",
+        "Moritz Wagner",
+        "Jayson Tatum",
+        "Paul George",
+        "Anthony Black",
+        "Desmond Bane",
+        "Paolo Banchero",
+        "Michael Porter Jr.",
+        "Julius Randle",
+        "Day'Ron Sharpe",
+        "Andrew Nembhard"
+      ]
+    },
+    {
       "id": "2026-11-02-nba-vorschau-nacht",
       "liga": "NBA",
       "lang": "de",
