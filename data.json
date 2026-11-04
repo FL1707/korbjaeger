@@ -1,7 +1,7 @@
 {
-  "aktualisiert": "2026-11-04T06:22:59+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-04",
-  "gruss": "Guten Morgen! In der NBA war am Dienstag Pause – heute Nacht geht es mit 14 Spielen weiter, auch OKC und Cleveland treffen gleich noch einmal aufeinander. Der FC Bayern hat Braunschweig mit 108:66 geschlagen und steht allein an der Spitze der Bundesliga. In der Champions League traf Unicaja 19 Dreier, und heute Abend spielen die Telekom Baskets Bonn gegen Herzliya.",
+  "aktualisiert": "2026-11-04T16:30:00+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-04",
+  "gruss": "Hallo am Nachmittag! Heute Abend wird es spannend: Um 20 Uhr spielen die Telekom Baskets Bonn in der Champions League gegen Herzliya, danach empfängt Real Madrid in der Euroleague Panathinaikos. In der Nacht geht die NBA mit 14 Spielen weiter – mit dem Spitzenspiel Detroit gegen Philadelphia und dem nächsten Duell von OKC gegen Cleveland.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
@@ -386,6 +386,43 @@
         "UCAM"
       ],
       "spieler": []
+    },
+    {
+      "id": "2026-11-04-phi-det-spitzenspiel",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "Erster gegen Zweiter im Osten",
+      "teaser": "Heute Nacht treffen die Philadelphia 76ers (7 Siege, 1 Niederlage) und die Detroit Pistons (6:1) aufeinander. Es ist das Spitzenspiel im Osten.",
+      "text": [
+        "In der Ostkonferenz der NBA stehen gerade zwei Teams ganz oben: die Philadelphia 76ers mit 7 Siegen und nur 1 Niederlage und die Detroit Pistons mit 6 Siegen und 1 Niederlage.",
+        "Heute Nacht spielen genau diese beiden gegeneinander. Anwurf in Detroit ist um 1 Uhr deutscher Zeit.",
+        "Bei Philadelphia ist Tyrese Maxey der beste Werfer. Er macht im Schnitt 29,1 Punkte pro Spiel. Dazu kommen Jaylen Brown, Joel Embiid und der 41 Jahre alte LeBron James.",
+        "Detroit setzt auf Cade Cunningham. Der Spielmacher kommt auf 23,7 Punkte pro Spiel. Wer gewinnt, steht morgen früh allein an der Spitze des Ostens – oder Detroit zieht mit Philadelphia gleich."
+      ],
+      "fakten": [
+        "76ers: 7 Siege, 1 Niederlage (Platz 1 im Osten)",
+        "Pistons: 6 Siege, 1 Niederlage (Platz 2 im Osten)",
+        "Tyrese Maxey: 29,1 Punkte pro Spiel",
+        "Cade Cunningham: 23,7 Punkte pro Spiel",
+        "Anwurf: Donnerstag, 1 Uhr deutscher Zeit"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "PHI",
+        "DET"
+      ],
+      "spieler": [
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "LeBron James",
+        "Cade Cunningham"
+      ]
     },
     {
       "id": "2026-11-03-sga-43",
@@ -1474,7 +1511,8 @@
       "liga": "NBA",
       "zeit": "2026-11-05T01:00:00+01:00",
       "heim": "DET",
-      "gast": "PHI"
+      "gast": "PHI",
+      "info": "Top-Spiel: Erster gegen Zweiter"
     },
     {
       "liga": "NBA",
