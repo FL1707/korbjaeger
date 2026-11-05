@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-05T06:23:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-05",
-  "gruss": "Guten Morgen! Shai Gilgeous-Alexander hat Cleveland schon wieder geschlagen – diesmal mit 42 Punkten. LeBron James hat als erster NBA-Spieler 16.000 Feldkörbe getroffen, und Bonn feierte sein 1500. Spiel mit 101 Punkten. Heute Abend um 20 Uhr spielt der FC Bayern in der Euroleague bei ASVEL, am Freitag empfängt ALBA Phoenix Hagen.",
+  "aktualisiert": "2026-11-05T16:19:00+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-05",
+  "gruss": "Hallo am Nachmittag! In der Nacht gab es noch drei späte Spiele: Victor Wembanyama machte 52 Punkte und 24 Rebounds, und Klay Thompson traf für Miami eine Sekunde vor Schluss den Siegerdreier. Heute Abend um 20 Uhr spielt der FC Bayern in der Euroleague bei ASVEL, am Freitag um 20 Uhr empfängt ALBA Phoenix Hagen.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-05",
   "zahlDesTages": {
-    "zahl": "16.000",
-    "text": "So viele Feldkörbe hat LeBron James jetzt in der NBA getroffen – als erster Spieler überhaupt. Kareem Abdul-Jabbar kam in seiner Karriere auf 15.837."
+    "zahl": "52",
+    "text": "So viele Punkte machte Victor Wembanyama beim 112:111 gegen Dallas – dazu 24 Rebounds. Beides war Karrierebestwert für den Franzosen."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -193,6 +193,94 @@
     ]
   },
   "news": [
+    {
+      "id": "2026-11-05-wembanyama-52",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "block",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "52 Punkte, 24 Rebounds: Wembanyamas Riesen-Nacht",
+      "teaser": "Victor Wembanyama stellt zwei Karrierebestwerte auf einmal auf. Die Spurs schlagen Dallas mit einem Punkt Vorsprung.",
+      "text": [
+        "In der Nacht auf Donnerstag war Victor Wembanyama für Dallas einfach zu groß. Der Franzose machte 52 Punkte und holte 24 Rebounds. Beides hatte er in der NBA noch nie geschafft – zwei Karrierebestwerte in einem Spiel!",
+        "Dazu blockte er 8 Würfe. Einmal blockte er sogar dreimal in 13 Sekunden – im selben Angriff der Mavericks. Schon zur Halbzeit hatte er 29 Punkte, 15 Rebounds und 5 Blocks. Seit die NBA 1996 anfing, jede Spielszene genau aufzuschreiben, hat das kein Spieler in einer Halbzeit geschafft.",
+        "Trotzdem wurde es ganz eng. Wembanyama traf am Ende nur einen von zwei Freiwürfen zum 112:111. Dann hatte Dallas noch eine Chance: Kyrie Irving warf drei Sekunden vor Schluss aus gut vier Metern – daneben. Dylan Harper holte den Rebound, und San Antonio jubelte.",
+        "Für die Spurs war es der sechste Sieg in Folge. Mit Wembanyama auf dem Feld waren sie 23 Punkte besser als Dallas. Saß er auf der Bank, lagen sie 22 Punkte hinten. Das zeigt, wie wichtig er ist."
+      ],
+      "fakten": [
+        "Endstand: San Antonio 112, Dallas 111",
+        "Victor Wembanyama: 52 Punkte, 24 Rebounds, 8 Blocks",
+        "Er traf 16 von 28 Würfen und 19 von 23 Freiwürfen",
+        "Dylan Harper (SAS): 21 Punkte",
+        "Kyrie Irving (DAL): 29 Punkte, Cooper Flagg: 19 Punkte",
+        "San Antonio hat 6 Spiele in Folge gewonnen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "DAL"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Dylan Harper",
+        "Stephon Castle",
+        "Kyrie Irving",
+        "Cooper Flagg",
+        "P.J. Washington",
+        "Naji Marshall"
+      ]
+    },
+    {
+      "id": "2026-11-05-klay-siegerdreier",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Klay trifft eine Sekunde vor Schluss – und Luka macht wieder 40",
+      "teaser": "Miami holt gegen die Clippers einen 20-Punkte-Rückstand auf. In Sacramento schreibt Luka Dončić an einer Bestenliste mit Michael Jordan.",
+      "text": [
+        "Das letzte Spiel der Nacht war das spannendste. Miami lag bei den Los Angeles Clippers im zweiten Viertel mit 20 Punkten hinten. Doch die Heat gaben nicht auf und retteten sich in die Verlängerung.",
+        "Dort führten die Clippers 116:112. Bam Adebayo verkürzte. Dann holte Giannis Antetokounmpo 3,8 Sekunden vor Schluss den Rebound. Nach einer Auszeit passte er den Ball von der Seitenlinie zu Klay Thompson in die Ecke. Thompson warf – und traf den Dreier zum 117:116, eine Sekunde vor dem Ende!",
+        "Thompson traf in diesem Spiel 8 Dreier und kam auf 30 Punkte. Adebayo machte 35 Punkte, so viele wie noch nie in dieser Saison. Für die Clippers war es die siebte Niederlage in Folge.",
+        "Etwas früher spielten die Lakers in Sacramento. Luka Dončić machte 40 Punkte, und die Lakers gewannen 116:103. Es war sein sechstes Spiel hintereinander mit mindestens 35 Punkten. In seinen ersten acht Spielen der Saison hat er jetzt 308 Punkte gesammelt. Mehr als 300 hatte zuletzt Michael Jordan in der Saison 1988/89 geschafft."
+      ],
+      "fakten": [
+        "Clippers 116, Miami 117 (nach Verlängerung)",
+        "Klay Thompson (MIA): 30 Punkte, 8 von 17 Dreiern",
+        "Bam Adebayo (MIA): 35 Punkte, 10 Rebounds",
+        "Giannis Antetokounmpo (MIA): 27 Punkte, 14 Rebounds",
+        "Sacramento 103, Lakers 116 – Luka Dončić: 40 Punkte, 9 Rebounds, 7 Assists",
+        "Dončić: 308 Punkte in seinen ersten 8 Saisonspielen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIA",
+        "LAC",
+        "LAL",
+        "SAC"
+      ],
+      "spieler": [
+        "Klay Thompson",
+        "Bam Adebayo",
+        "Giannis Antetokounmpo",
+        "Darius Garland",
+        "Rui Hachimura",
+        "Brook Lopez",
+        "Luka Dončić",
+        "Austin Reaves",
+        "Darius Acuff Jr.",
+        "Zach LaVine",
+        "Domantas Sabonis"
+      ]
+    },
     {
       "id": "2026-11-05-okc-cleveland-zweiter-sieg",
       "liga": "NBA",
@@ -607,88 +695,6 @@
       "spieler": []
     },
     {
-      "id": "2026-11-03-sga-43",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "zahlen",
-      "datum": "2026-11-03",
-      "tags": [],
-      "titel": "Shai trifft den Dreier zum Sieg",
-      "teaser": "43 Punkte und der wichtigste Wurf des Abends: Shai Gilgeous-Alexander führt OKC in Cleveland zum 117:112.",
-      "text": [
-        "Die Thunder hatten zuletzt zweimal hoch verloren. Drei Stammspieler fehlen dem Team gerade. In Cleveland zeigte OKC aber wieder, wie stark es kämpfen kann.",
-        "Kurz vor der Pause gelang den Thunder ein 16:6-Lauf. Zur Halbzeit stand es 59:48 für OKC. Doch Cleveland kam zurück: Im dritten Viertel trafen die Cavaliers 9 von 17 Dreiern.",
-        "Das letzte Viertel war ein Krimi. Achtmal stand es unentschieden, achtmal wechselte die Führung. 32,6 Sekunden vor Schluss traf Shai Gilgeous-Alexander einen Dreier zur Führung. Danach verwandelte Ajay Mitchell zwei Freiwürfe – das war die Entscheidung.",
-        "Shai machte 43 Punkte, so viele wie noch nie in dieser Saison. Von der Freiwurflinie traf er 11 von 12 Würfen. Isaiah Hartenstein holte 14 Rebounds, Ajay Mitchell machte 20 Punkte.",
-        "Schon am Mittwoch spielen beide Teams wieder gegeneinander – dann in Oklahoma City."
-      ],
-      "fakten": [
-        "Endstand: Cleveland 112, OKC 117",
-        "Shai Gilgeous-Alexander: 43 Punkte (Saisonbestwert)",
-        "Isaiah Hartenstein: 14 Rebounds",
-        "Ajay Mitchell: 20 Punkte",
-        "Donovan Mitchell (CLE): 17 Punkte, 11 Assists"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "OKC",
-        "CLE"
-      ],
-      "spieler": [
-        "Shai Gilgeous-Alexander",
-        "Isaiah Hartenstein",
-        "Ajay Mitchell",
-        "Kenrich Williams",
-        "Donovan Mitchell",
-        "Evan Mobley",
-        "Meleek Thomas",
-        "Sam Merrill"
-      ]
-    },
-    {
-      "id": "2026-11-03-grizzlies-erste-niederlage",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-11-03",
-      "tags": [],
-      "titel": "Ein Punkt beendet die Grizzlies-Serie",
-      "teaser": "Memphis war das letzte ungeschlagene Team der NBA. In der Verlängerung gewinnen die Pelicans 135:134.",
-      "text": [
-        "Memphis hatte die ersten sechs Spiele der Saison alle gewonnen. Das war der beste Start der Vereinsgeschichte. Gegen New Orleans riss die Serie – und zwar ganz knapp.",
-        "Ty Jerome war der Held von Memphis. In den letzten 1:43 Minuten machte er neun Punkte am Stück und rettete sein Team so in die Verlängerung. Am Ende hatte er 40 Punkte.",
-        "In der Verlängerung drehte Zion Williamson auf. Er machte allein dort neun seiner 25 Punkte. 7,3 Sekunden vor Schluss traf Jeremiah Fears zwei Freiwürfe zum 135:134. Jeromes letzter Wurf ging daneben.",
-        "Für die Pelicans war es der dritte Sieg in Folge. Karlo Matković machte 25 Punkte – so viele wie noch nie in seiner Karriere."
-      ],
-      "fakten": [
-        "Endstand: Memphis 134, New Orleans 135 (nach Verlängerung)",
-        "Ty Jerome (MEM): 40 Punkte",
-        "Zion Williamson (NOP): 25 Punkte, 11 Rebounds",
-        "Karlo Matković (NOP): 25 Punkte (Karrierebestwert)",
-        "Memphis hat jetzt 6 Siege und 1 Niederlage"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "MEM",
-        "NOP"
-      ],
-      "spieler": [
-        "Ty Jerome",
-        "Zion Williamson",
-        "Karlo Matković",
-        "Jeremiah Fears",
-        "Derik Queen",
-        "Cameron Boozer",
-        "Jaylen Wells"
-      ]
-    },
-    {
       "id": "2026-11-03-damen-kader",
       "liga": "DBB",
       "lang": "de",
@@ -723,6 +729,75 @@
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-04",
+      "runde": "NBA",
+      "heim": "SAS",
+      "gast": "DAL",
+      "heimPkt": 112,
+      "gastPkt": 111,
+      "info": "Wembanyama (SAS) 52 Punkte, 24 Rebounds",
+      "newsId": "2026-11-05-wembanyama-52",
+      "bericht": {
+        "text": [
+          "Victor Wembanyama spielte das Spiel seines Lebens: 52 Punkte und 24 Rebounds, beides Karrierebestwerte. Schon zur Pause hatte er 29 Punkte.",
+          "Dallas blieb trotzdem dran. Kyrie Irving hatte drei Sekunden vor Schluss den Siegwurf in der Hand, traf aber nicht. San Antonio gewann zum sechsten Mal in Folge."
+        ],
+        "highlights": [
+          "Victor Wembanyama (SAS): 52 Punkte, 24 Rebounds, 8 Blocks",
+          "Dylan Harper (SAS): 21 Punkte",
+          "Kyrie Irving (DAL): 29 Punkte",
+          "Nur 1 Punkt Unterschied"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-04",
+      "runde": "NBA",
+      "heim": "SAC",
+      "gast": "LAL",
+      "heimPkt": 103,
+      "gastPkt": 116,
+      "info": "Dončić (LAL) 40 Punkte",
+      "newsId": "2026-11-05-klay-siegerdreier",
+      "bericht": {
+        "text": [
+          "Luka Dončić traf 6 Dreier und 12 von 13 Freiwürfen. Mit 40 Punkten führte er die Lakers zum siebten Sieg im neunten Spiel.",
+          "Für Sacramento machte Rookie Darius Acuff Jr. 22 Punkte und verteilte 12 Assists. Die Kings haben erst einmal gewonnen."
+        ],
+        "highlights": [
+          "Luka Dončić (LAL): 40 Punkte, 9 Rebounds, 7 Assists",
+          "Sechstes Spiel in Folge mit mindestens 35 Punkten",
+          "Austin Reaves (LAL): 21 Punkte",
+          "Domantas Sabonis (SAC): 16 Punkte, 17 Rebounds"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-04",
+      "runde": "NBA",
+      "heim": "LAC",
+      "gast": "MIA",
+      "heimPkt": 116,
+      "gastPkt": 117,
+      "info": "Verlängerung · Thompson (MIA) Siegtreffer",
+      "newsId": "2026-11-05-klay-siegerdreier",
+      "bericht": {
+        "text": [
+          "Die Clippers führten im zweiten Viertel schon mit 20 Punkten. Doch Miami kämpfte sich zurück und erzwang die Verlängerung.",
+          "Dort lag Miami 112:116 hinten. Bam Adebayo verkürzte, und eine Sekunde vor Schluss traf Klay Thompson nach einem Pass von Giannis Antetokounmpo den Dreier zum Sieg."
+        ],
+        "highlights": [
+          "Klay Thompson (MIA): 30 Punkte, 8 Dreier, Siegtreffer",
+          "Bam Adebayo (MIA): 35 Punkte, 10 Rebounds",
+          "Darius Garland (LAC): 26 Punkte",
+          "Clippers verlieren zum 7. Mal in Folge"
+        ]
+      }
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-04",
@@ -1166,349 +1241,6 @@
       }
     },
     {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "CLE",
-      "gast": "OKC",
-      "heimPkt": 112,
-      "gastPkt": 117,
-      "info": "Gilgeous-Alexander (OKC) 43 Punkte",
-      "bericht": {
-        "text": [
-          "OKC führte zur Pause mit 59:48. Cleveland kam mit vielen Dreiern zurück, und im letzten Viertel stand es achtmal unentschieden.",
-          "32,6 Sekunden vor Schluss traf Shai Gilgeous-Alexander den Dreier zur Führung. Ajay Mitchell machte mit zwei Freiwürfen alles klar."
-        ],
-        "highlights": [
-          "Shai Gilgeous-Alexander: 43 Punkte (Saisonbestwert)",
-          "Isaiah Hartenstein: 14 Rebounds",
-          "Ajay Mitchell: 20 Punkte",
-          "Donovan Mitchell (CLE): 17 Punkte, 11 Assists"
-        ]
-      },
-      "newsId": "2026-11-03-sga-43"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "CHA",
-      "gast": "DET",
-      "heimPkt": 91,
-      "gastPkt": 124,
-      "info": "Cunningham (DET) 33 Punkte",
-      "bericht": {
-        "text": [
-          "Detroit führte fast das ganze Spiel. Nach drei Vierteln stand es schon 98:75 für die Pistons.",
-          "Cade Cunningham machte 33 Punkte in nur drei Vierteln. Charlotte fand nie richtig ins Spiel."
-        ],
-        "highlights": [
-          "Cade Cunningham: 33 Punkte, 5 Steals",
-          "Duncan Robinson: 24 Punkte, 6 Dreier",
-          "Brandon Miller (CHA): 17 Punkte",
-          "Dennis Schröder: 5 Punkte, Hannes Steinbach: 2 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-deutsche-nba-nacht"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "IND",
-      "gast": "ATL",
-      "heimPkt": 104,
-      "gastPkt": 108,
-      "info": "Alexander-Walker (ATL) 34 Punkte",
-      "bericht": {
-        "text": [
-          "Indiana hatte nur sechs einsatzbereite Spieler. Trotzdem kamen die Pacers 1:36 Minuten vor Schluss auf 104:106 heran.",
-          "Ein Dreier zur Führung ging daneben, dann traf Atlantas Onyeka Okongwu zum 108:104."
-        ],
-        "highlights": [
-          "Nickeil Alexander-Walker (ATL): 34 Punkte, 9 Dreier",
-          "Jay Huff (IND): 22 Punkte",
-          "Braden Smith (IND): 19 Punkte, 10 Assists",
-          "CJ McCollum (ATL): 12 Assists"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "NYK",
-      "gast": "BKN",
-      "heimPkt": 103,
-      "gastPkt": 90,
-      "info": "Shamet (NYK) 22 Punkte",
-      "bericht": {
-        "text": [
-          "Brooklyn führte nach drei Vierteln mit 79:75. Dann gewannen die Knicks den Anfang des letzten Viertels mit 25:5.",
-          "Es war der 15. Sieg der Knicks in Folge gegen ihren Nachbarn aus Brooklyn."
-        ],
-        "highlights": [
-          "Landry Shamet (NYK): 22 Punkte",
-          "Karl-Anthony Towns (NYK): 16 Rebounds",
-          "Julius Randle (BKN): 21 Punkte, 11 Rebounds",
-          "Moritz Wagner: 6 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-deutsche-nba-nacht"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "ORL",
-      "gast": "WAS",
-      "heimPkt": 94,
-      "gastPkt": 103,
-      "info": "F. Wagner (ORL) 24 Punkte",
-      "bericht": {
-        "text": [
-          "Orlando führte im zweiten Viertel mit neun Punkten. Dann machte Washington einen 13:2-Lauf und lag nach drei Vierteln mit 79:68 vorne.",
-          "Franz Wagner war Orlandos bester Werfer. Die Magic trafen aber nur 11 von 39 Dreiern."
-        ],
-        "highlights": [
-          "Franz Wagner: 24 Punkte, 6 Assists",
-          "Tristan da Silva: 10 Punkte",
-          "Anthony Davis (WAS): 27 Punkte, 12 von 17 Würfen",
-          "AJ Dybantsa (WAS): 21 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-deutsche-nba-nacht"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "PHI",
-      "gast": "CHI",
-      "heimPkt": 126,
-      "gastPkt": 107,
-      "info": "Maxey (PHI) 26 Punkte",
-      "bericht": {
-        "text": [
-          "Philadelphia spielte zum ersten Mal seit Tagen mit allen fünf Startern. Im dritten Viertel zogen die 76ers auf 17 Punkte davon.",
-          "Tyrese Maxey machte 15 seiner 26 Punkte im letzten Viertel."
-        ],
-        "highlights": [
-          "Tyrese Maxey: 26 Punkte, 11 Assists",
-          "Jaylen Brown: 25 Punkte, 11 Rebounds",
-          "LeBron James: 15 Punkte, 9 Assists",
-          "Caleb Wilson (CHI): 24 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-nba-rundschau"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "DAL",
-      "gast": "SAC",
-      "heimPkt": 100,
-      "gastPkt": 115,
-      "info": "Acuff Jr. (SAC) 25 Punkte",
-      "bericht": {
-        "text": [
-          "Sacramento war das letzte Team ohne Sieg. Im siebten Spiel klappte es endlich.",
-          "Zur Pause stand es nur 54:53 für die Kings. Im letzten Viertel zogen sie davon."
-        ],
-        "highlights": [
-          "Darius Acuff Jr. (SAC): 25 Punkte",
-          "Malik Monk (SAC): 24 Punkte",
-          "Daniel Gafford (DAL): 20 Punkte, 9 von 10 Würfen",
-          "Cooper Flagg (DAL): 11 von 11 Freiwürfen"
-        ]
-      },
-      "newsId": "2026-11-03-nba-rundschau"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "MEM",
-      "gast": "NOP",
-      "heimPkt": 134,
-      "gastPkt": 135,
-      "info": "Verlängerung · Jerome (MEM) 40 Punkte",
-      "bericht": {
-        "text": [
-          "Ty Jerome machte in den letzten 1:43 Minuten neun Punkte am Stück und rettete Memphis in die Verlängerung.",
-          "Dort machte Zion Williamson neun Punkte. Jeremiah Fears traf 7,3 Sekunden vor Schluss zwei Freiwürfe zum 135:134."
-        ],
-        "highlights": [
-          "Ty Jerome (MEM): 40 Punkte",
-          "Zion Williamson: 25 Punkte, 11 Rebounds",
-          "Karlo Matković: 25 Punkte (Karrierebestwert)",
-          "Erste Niederlage für Memphis nach 6 Siegen"
-        ]
-      },
-      "newsId": "2026-11-03-grizzlies-erste-niederlage"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "MIN",
-      "gast": "MIL",
-      "heimPkt": 112,
-      "gastPkt": 100,
-      "info": "Ball (MIN) 34 Punkte",
-      "bericht": {
-        "text": [
-          "LaMelo Ball machte 24 Punkte schon in der ersten Halbzeit. Mit seinem dritten Dreier erreichte er 1.000 Dreier in der NBA.",
-          "Zu Beginn des letzten Viertels zog Minnesota mit einem 11:3-Lauf davon."
-        ],
-        "highlights": [
-          "LaMelo Ball: 34 Punkte, 6 Dreier",
-          "1.000 Dreier in 311 Spielen – so schnell wie noch keiner",
-          "Ayo Dosunmu: 19 Punkte, 12 Rebounds",
-          "Tyler Herro (MIL): 21 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-lamelo-1000-dreier"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "HOU",
-      "gast": "BOS",
-      "heimPkt": 109,
-      "gastPkt": 93,
-      "info": "Sengun (HOU) 26 Punkte",
-      "bericht": {
-        "text": [
-          "Houston lag das ganze Spiel nie zurück. Die Rockets machten 18 Punkte nach schnellen Gegenangriffen, Boston nur 2.",
-          "Mit 7 Siegen und 1 Niederlage stehen die Rockets jetzt an der Spitze im Westen."
-        ],
-        "highlights": [
-          "Alperen Sengun: 26 Punkte, 10 Assists",
-          "Kevin Durant: 12 Punkte, 5 von 6 Würfen",
-          "Jayson Tatum (BOS): 19 Punkte",
-          "Neemias Queta (BOS): 16 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-nba-rundschau"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "SAS",
-      "gast": "UTA",
-      "heimPkt": 119,
-      "gastPkt": 97,
-      "info": "Harper (SAS) 17 Punkte",
-      "bericht": {
-        "text": [
-          "San Antonio lag nur in der ersten Minute zurück. Im dritten Viertel bauten die Spurs die Führung auf 25 Punkte aus.",
-          "Sieben Spurs-Spieler machten zehn Punkte oder mehr. Es war der fünfte Sieg in Folge."
-        ],
-        "highlights": [
-          "Dylan Harper: 17 Punkte, 8 Assists",
-          "Victor Wembanyama: 12 Punkte, 11 Rebounds, 3 Blocks",
-          "Lauri Markkanen (UTA): 22 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-nba-rundschau"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "DEN",
-      "gast": "POR",
-      "heimPkt": 110,
-      "gastPkt": 118,
-      "info": "Avdija (POR) 28 Punkte",
-      "bericht": {
-        "text": [
-          "Denver führte lange. Erst Ende des dritten Viertels ging Portland zum ersten Mal in Führung.",
-          "Im letzten Viertel machte Deni Avdija neun Punkte. Portland hat auswärts nun 4 von 4 Spielen gewonnen."
-        ],
-        "highlights": [
-          "Deni Avdija: 28 Punkte",
-          "Donovan Clingan: 17 Punkte, 18 Rebounds",
-          "Jrue Holiday: 17 Punkte, 10 Assists",
-          "Jamal Murray (DEN): 35 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-nba-rundschau"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "GSW",
-      "gast": "PHX",
-      "heimPkt": 116,
-      "gastPkt": 113,
-      "info": "Curry (GSW) 34 Punkte",
-      "bericht": {
-        "text": [
-          "Phoenix führte im zweiten Viertel schon mit 55:39. Dann gelang Golden State ein 12:0-Lauf, zur Pause stand es nur noch 51:57.",
-          "Im dritten Viertel holte Golden State auf, nach drei Vierteln stand es 93:93. Am Ende war es knapp, aber die Warriors gewannen zum fünften Mal in Folge."
-        ],
-        "highlights": [
-          "Stephen Curry: 34 Punkte, 7 Assists, 11 von 12 Freiwürfen",
-          "Charles Bassey: 19 Punkte (Karrierebestwert)",
-          "Brandin Podziemski: 20 Punkte",
-          "Devin Booker (PHX): 26 Punkte"
-        ]
-      },
-      "newsId": "2026-11-03-westkueste-nacht"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "LAC",
-      "gast": "TOR",
-      "heimPkt": 118,
-      "gastPkt": 125,
-      "info": "Quickley (TOR) 27 Punkte",
-      "bericht": {
-        "text": [
-          "Die Clippers führten vor dem letzten Viertel mit 91:78. Dann gewann Toronto das Schlussviertel mit 47:27.",
-          "Scottie Barnes brachte die Raptors 2:08 Minuten vor Schluss zum ersten Mal in Führung. Für die Clippers war es die sechste Niederlage in Folge."
-        ],
-        "highlights": [
-          "Scottie Barnes: 22 Punkte (15 im letzten Viertel), 15 Rebounds, 8 Assists",
-          "Immanuel Quickley: 27 Punkte",
-          "RJ Barrett: 26 Punkte",
-          "Kobe Sanders (LAC): 26 Punkte (Karrierebestwert)"
-        ]
-      },
-      "newsId": "2026-11-03-westkueste-nacht"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-02",
-      "runde": "NBA",
-      "heim": "LAL",
-      "gast": "MIA",
-      "heimPkt": 138,
-      "gastPkt": 117,
-      "info": "Dončić (LAL) 42 Punkte",
-      "bericht": {
-        "text": [
-          "Luka Dončić hatte schon zur Pause 24 Punkte. Nach der Pause bauten die Lakers ihre Führung auf 93:74 aus.",
-          "Miami kam danach nicht mehr richtig heran. Für Dončić war es das fünfte Spiel in Folge mit mindestens 37 Punkten."
-        ],
-        "highlights": [
-          "Luka Dončić: 42 Punkte, 13 Assists, 6 Dreier",
-          "Austin Reaves: 27 Punkte",
-          "Walker Kessler: 15 Punkte, 15 Rebounds",
-          "Giannis Antetokounmpo (MIA): 30 Punkte, 12 Rebounds"
-        ]
-      },
-      "newsId": "2026-11-03-westkueste-nacht"
-    },
-    {
       "liga": "DBB",
       "datum": "2026-08-30",
       "runde": "WM-Quali · Verlängerung",
@@ -1528,24 +1260,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-05T03:30:00+01:00",
-      "heim": "SAS",
-      "gast": "DAL"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-05T04:00:00+01:00",
-      "heim": "SAC",
-      "gast": "LAL"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-05T04:30:00+01:00",
-      "heim": "LAC",
-      "gast": "MIA"
-    },
     {
       "liga": "EL",
       "zeit": "2026-11-05T18:15:00+01:00",
@@ -2132,7 +1846,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 05.11., 6:30 Uhr · drei Spiele vom 04.11. liefen noch",
+      "stand": "Stand: 05.11., 16:20 Uhr · nach allen Spielen vom 04.11.",
       "zonen": [
         {
           "von": 1,
@@ -2155,18 +1869,13 @@
           "n": 1
         },
         {
-          "team": "HOU",
+          "team": "LAL",
           "s": 7,
           "n": 2
         },
         {
-          "team": "LAL",
-          "s": 6,
-          "n": 2
-        },
-        {
-          "team": "MEM",
-          "s": 6,
+          "team": "HOU",
+          "s": 7,
           "n": 2
         },
         {
@@ -2176,7 +1885,12 @@
         },
         {
           "team": "SAS",
-          "s": 5,
+          "s": 6,
+          "n": 2
+        },
+        {
+          "team": "MEM",
+          "s": 6,
           "n": 2
         },
         {
@@ -2195,12 +1909,12 @@
           "n": 3
         },
         {
-          "team": "DAL",
+          "team": "NOP",
           "s": 4,
-          "n": 3
+          "n": 4
         },
         {
-          "team": "NOP",
+          "team": "DAL",
           "s": 4,
           "n": 4
         },
@@ -2212,15 +1926,15 @@
         {
           "team": "LAC",
           "s": 1,
-          "n": 6
-        },
-        {
-          "team": "SAC",
-          "s": 1,
-          "n": 6
+          "n": 7
         },
         {
           "team": "UTA",
+          "s": 1,
+          "n": 7
+        },
+        {
+          "team": "SAC",
           "s": 1,
           "n": 7
         }
@@ -2228,7 +1942,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 05.11., 6:30 Uhr · drei Spiele vom 04.11. liefen noch",
+      "stand": "Stand: 05.11., 16:20 Uhr · nach allen Spielen vom 04.11.",
       "zonen": [
         {
           "von": 1,
@@ -2286,6 +2000,11 @@
           "n": 4
         },
         {
+          "team": "MIA",
+          "s": 3,
+          "n": 5
+        },
+        {
           "team": "CHA",
           "s": 3,
           "n": 6
@@ -2294,11 +2013,6 @@
           "team": "IND",
           "s": 3,
           "n": 6
-        },
-        {
-          "team": "MIA",
-          "s": 2,
-          "n": 5
         },
         {
           "team": "ORL",
@@ -2835,10 +2549,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 7,
-        "pkt": 28.4,
+        "spiele": 8,
+        "pkt": 30.1,
         "reb": 4.3,
-        "ast": 4.0
+        "ast": 4.5
       },
       "notiz": "Der Superstar der Thunder. Gegen Cleveland machte er erst 43 und zwei Tage später 42 Punkte – OKC gewann beide Spiele."
     },
@@ -2878,10 +2592,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 7,
-        "pkt": 11.0,
-        "reb": 3.7,
-        "ast": 1.3
+        "spiele": 8,
+        "pkt": 10.4,
+        "reb": 3.4,
+        "ast": 1.1
       },
       "notiz": "Beim 114:104 gegen Charlotte traf er 3 von 4 Würfen – der zweite Saisonsieg der Nets."
     },
@@ -2892,10 +2606,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 10.9,
-        "reb": 3.4,
-        "ast": 5.0
+        "spiele": 9,
+        "pkt": 10.2,
+        "reb": 3.6,
+        "ast": 4.9
       },
       "notiz": "Kapitän der Nationalmannschaft. Charlotte ist sein zwölftes NBA-Team. Gegen Brooklyn: 5 Punkte, 5 Rebounds, 4 Assists."
     },
@@ -2906,10 +2620,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 7,
-        "pkt": 8.9,
-        "reb": 9.9,
-        "ast": 2.3
+        "spiele": 8,
+        "pkt": 8.1,
+        "reb": 10.1,
+        "ast": 2.5
       },
       "notiz": "Der deutsche Center der Oklahoma City Thunder. Beim 124:116 gegen Cleveland holte er 12 Rebounds."
     },
@@ -2946,10 +2660,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 6,
-        "pkt": 16.2,
-        "reb": 7.0,
-        "ast": 7.3
+        "spiele": 7,
+        "pkt": 15.7,
+        "reb": 7.4,
+        "ast": 7.4
       },
       "notiz": "Der beste Punktesammler der NBA-Geschichte spielt jetzt für Philadelphia. In Detroit traf er als erster Spieler seinen 16.000. Feldkorb."
     },
@@ -2959,10 +2673,10 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 7,
-        "pkt": 24.6,
-        "reb": 2.7,
-        "ast": 5.3
+        "spiele": 8,
+        "pkt": 25.6,
+        "reb": 2.6,
+        "ast": 5.1
       },
       "notiz": "Der Anführer der Knicks. Gegen Chicago machte er 33 Punkte, 22 davon schon im ersten Viertel."
     },
@@ -2972,12 +2686,12 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 7,
-        "pkt": 38.3,
-        "reb": 8.0,
-        "ast": 8.1
+        "spiele": 8,
+        "pkt": 38.5,
+        "reb": 8.1,
+        "ast": 8.0
       },
-      "notiz": "45 Punkte, 15 Rebounds und 5 Steals gegen Toronto – Spieler der Woche!"
+      "notiz": "Der Slowene trifft für die Lakers wie verrückt: sechs Spiele in Folge mit mindestens 35 Punkten."
     },
     {
       "name": "Anthony Edwards",
@@ -2998,10 +2712,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 6,
-        "pkt": 22.0,
+        "spiele": 7,
+        "pkt": 23.4,
         "reb": 9.7,
-        "ast": 9.0
+        "ast": 9.3
       },
       "notiz": "Gegen Toronto schaffte er mit 32 Punkten, 10 Rebounds und 11 Assists sein drittes Triple-Double der Saison."
     },
@@ -3011,12 +2725,12 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 7,
-        "pkt": 25.7,
-        "reb": 10.7,
-        "ast": 3.3
+        "spiele": 8,
+        "pkt": 29.0,
+        "reb": 12.4,
+        "ast": 3.1
       },
-      "notiz": "Der riesige Franzose machte gegen Minnesota 43 Punkte und 6 Blocks."
+      "notiz": "Der riesige Franzose der Spurs. Gegen Dallas schaffte er 52 Punkte und 24 Rebounds – beides Karrierebestwerte."
     },
     {
       "name": "Damian Lillard",
@@ -3024,10 +2738,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 6,
-        "pkt": 19.3,
-        "reb": 4.3,
-        "ast": 4.0
+        "spiele": 7,
+        "pkt": 20.1,
+        "reb": 4.1,
+        "ast": 4.1
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -3384,6 +3098,11 @@
       "begriff": "Wechselpfeil",
       "en": "possession arrow",
       "erklaerung": "Ein Pfeil am Kampfgericht. Wenn zwei Spieler den Ball gleichzeitig festhalten, bekommt nach FIBA-Regeln das Team den Ball, für das der Pfeil zeigt. Danach dreht er sich um."
+    },
+    {
+      "begriff": "Siegtreffer",
+      "en": "game-winner",
+      "erklaerung": "Der Korb ganz am Ende, der das Spiel entscheidet. Danach kann der Gegner nicht mehr ausgleichen."
     }
   ],
   "teams": {
@@ -4017,30 +3736,41 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-04",
-      "titel": "Shai Gilgeous-Alexander",
-      "team": "OKC",
-      "wert": "42 Punkte",
-      "grund": "Zwei Tage nach seinen 43 Punkten in Cleveland legte er gegen dasselbe Team 42 nach – OKC gewann beide Spiele.",
-      "newsId": "2026-11-05-okc-cleveland-zweiter-sieg"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-04",
-      "titel": "Nikola Jokić",
-      "team": "DEN",
-      "wert": "Triple-Double",
-      "grund": "32 Punkte, 10 Rebounds und 11 Assists – schon sein drittes Triple-Double in dieser Saison. Dabei traf er 13 von 19 Würfen.",
-      "newsId": "2026-11-05-two-triple-doubles"
+      "titel": "Victor Wembanyama",
+      "team": "SAS",
+      "wert": "52 Punkte, 24 Rebounds",
+      "grund": "Zwei Karrierebestwerte in einem Spiel – dazu 8 Blocks. Nach der ersten Halbzeit hatte er schon 29 Punkte, 15 Rebounds und 5 Blocks; das gab es seit Beginn der genauen Spielaufzeichnung 1996 noch nie.",
+      "newsId": "2026-11-05-wembanyama-52"
     },
     {
       "art": "spiel",
       "liga": "NBA",
       "datum": "2026-11-04",
-      "heim": "NYK",
-      "gast": "CHI",
-      "wert": "84 Punkte zur Pause",
-      "grund": "So viele Punkte in einer ersten Hälfte hatten die Knicks zuletzt 1988 geschafft – Vereinsrekord eingestellt. Am Ende stand es 135:105."
+      "heim": "LAC",
+      "gast": "MIA",
+      "wert": "Siegtreffer nach 20 Punkten Rückstand",
+      "grund": "Miami lag schon 20 Punkte hinten. In der Verlängerung traf Klay Thompson eine Sekunde vor Schluss den Dreier zum 117:116.",
+      "newsId": "2026-11-05-klay-siegerdreier"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-04",
+      "titel": "Luka Dončić",
+      "team": "LAL",
+      "wert": "6-mal 35+",
+      "grund": "40 Punkte in Sacramento – sein sechstes Spiel in Folge mit mindestens 35 Punkten. Über 300 Punkte in den ersten acht Spielen hatte zuletzt Michael Jordan 1988/89.",
+      "newsId": "2026-11-05-klay-siegerdreier"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-04",
+      "titel": "Shai Gilgeous-Alexander",
+      "team": "OKC",
+      "wert": "42 Punkte",
+      "grund": "Zwei Tage nach seinen 43 Punkten in Cleveland legte er gegen dasselbe Team 42 nach – OKC gewann beide Spiele.",
+      "newsId": "2026-11-05-okc-cleveland-zweiter-sieg"
     },
     {
       "art": "spiel",
@@ -4051,15 +3781,6 @@
       "wert": "Verlängerung",
       "grund": "Nach 40 Minuten stand es 101:101. In der Verlängerung gewann Panathinaikos 115:112 – ein Wiedersehen der beiden Finalisten der letzten Saison.",
       "newsId": "2026-11-05-panathinaikos-real-verlaengerung"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-04",
-      "heim": "NOP",
-      "gast": "UTA",
-      "wert": "14:0 in der Verlängerung",
-      "grund": "Utah führte in der Verlängerung 110:104. Dann machten die Pelicans 14 Punkte am Stück und gewannen 120:113 – trotz 39 Punkten von Utahs Keyonte George."
     },
     {
       "art": "spiel",

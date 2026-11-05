@@ -111,6 +111,88 @@
       ]
     },
     {
+      "id": "2026-11-03-sga-43",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Shai trifft den Dreier zum Sieg",
+      "teaser": "43 Punkte und der wichtigste Wurf des Abends: Shai Gilgeous-Alexander führt OKC in Cleveland zum 117:112.",
+      "text": [
+        "Die Thunder hatten zuletzt zweimal hoch verloren. Drei Stammspieler fehlen dem Team gerade. In Cleveland zeigte OKC aber wieder, wie stark es kämpfen kann.",
+        "Kurz vor der Pause gelang den Thunder ein 16:6-Lauf. Zur Halbzeit stand es 59:48 für OKC. Doch Cleveland kam zurück: Im dritten Viertel trafen die Cavaliers 9 von 17 Dreiern.",
+        "Das letzte Viertel war ein Krimi. Achtmal stand es unentschieden, achtmal wechselte die Führung. 32,6 Sekunden vor Schluss traf Shai Gilgeous-Alexander einen Dreier zur Führung. Danach verwandelte Ajay Mitchell zwei Freiwürfe – das war die Entscheidung.",
+        "Shai machte 43 Punkte, so viele wie noch nie in dieser Saison. Von der Freiwurflinie traf er 11 von 12 Würfen. Isaiah Hartenstein holte 14 Rebounds, Ajay Mitchell machte 20 Punkte.",
+        "Schon am Mittwoch spielen beide Teams wieder gegeneinander – dann in Oklahoma City."
+      ],
+      "fakten": [
+        "Endstand: Cleveland 112, OKC 117",
+        "Shai Gilgeous-Alexander: 43 Punkte (Saisonbestwert)",
+        "Isaiah Hartenstein: 14 Rebounds",
+        "Ajay Mitchell: 20 Punkte",
+        "Donovan Mitchell (CLE): 17 Punkte, 11 Assists"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "CLE"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Ajay Mitchell",
+        "Kenrich Williams",
+        "Donovan Mitchell",
+        "Evan Mobley",
+        "Meleek Thomas",
+        "Sam Merrill"
+      ]
+    },
+    {
+      "id": "2026-11-03-grizzlies-erste-niederlage",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Ein Punkt beendet die Grizzlies-Serie",
+      "teaser": "Memphis war das letzte ungeschlagene Team der NBA. In der Verlängerung gewinnen die Pelicans 135:134.",
+      "text": [
+        "Memphis hatte die ersten sechs Spiele der Saison alle gewonnen. Das war der beste Start der Vereinsgeschichte. Gegen New Orleans riss die Serie – und zwar ganz knapp.",
+        "Ty Jerome war der Held von Memphis. In den letzten 1:43 Minuten machte er neun Punkte am Stück und rettete sein Team so in die Verlängerung. Am Ende hatte er 40 Punkte.",
+        "In der Verlängerung drehte Zion Williamson auf. Er machte allein dort neun seiner 25 Punkte. 7,3 Sekunden vor Schluss traf Jeremiah Fears zwei Freiwürfe zum 135:134. Jeromes letzter Wurf ging daneben.",
+        "Für die Pelicans war es der dritte Sieg in Folge. Karlo Matković machte 25 Punkte – so viele wie noch nie in seiner Karriere."
+      ],
+      "fakten": [
+        "Endstand: Memphis 134, New Orleans 135 (nach Verlängerung)",
+        "Ty Jerome (MEM): 40 Punkte",
+        "Zion Williamson (NOP): 25 Punkte, 11 Rebounds",
+        "Karlo Matković (NOP): 25 Punkte (Karrierebestwert)",
+        "Memphis hat jetzt 6 Siege und 1 Niederlage"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MEM",
+        "NOP"
+      ],
+      "spieler": [
+        "Ty Jerome",
+        "Zion Williamson",
+        "Karlo Matković",
+        "Jeremiah Fears",
+        "Derik Queen",
+        "Cameron Boozer",
+        "Jaylen Wells"
+      ]
+    },
+    {
       "id": "2026-11-03-deutsche-nba-nacht",
       "liga": "NBA",
       "lang": "de",
