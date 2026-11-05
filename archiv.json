@@ -2,6 +2,375 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-04-okc-cle-wiedersehen",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "OKC gegen Cleveland – schon wieder",
+      "teaser": "Heute Nacht treffen die Thunder erneut auf die Cavaliers, diesmal in Oklahoma City. Dazu kommt ein neuer Spieler ins Team.",
+      "text": [
+        "Am Montag hat Oklahoma City in Cleveland mit 117:112 gewonnen. Shai Gilgeous-Alexander machte 43 Punkte und traf kurz vor Schluss den wichtigen Dreier.",
+        "Heute Nacht um 2 Uhr deutscher Zeit spielen die beiden Teams gleich noch einmal gegeneinander. Diesmal hat OKC Heimspiel.",
+        "Die Thunder haben gerade viele Sorgen: Chet Holmgren, Jalen Williams und Cason Wallace fallen verletzt aus. Deshalb holt OKC einen neuen Spieler: Dalen Terry. Er spielte vorher bei den Chicago Bulls und den Philadelphia 76ers.",
+        "Isaiah Hartenstein ist mit fast 10 Rebounds pro Spiel gerade einer der wichtigsten Spieler unter dem Korb. In der NBA-Nacht gab es am Dienstag übrigens kein einziges Spiel – heute geht es mit 14 Partien weiter."
+      ],
+      "fakten": [
+        "Montag: Cleveland 112, OKC 117",
+        "Heute, 2 Uhr: OKC – Cleveland",
+        "Neu bei OKC: Dalen Terry",
+        "Hartenstein: 9,9 Rebounds pro Spiel"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "OKC",
+        "CLE"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Chet Holmgren",
+        "Jalen Williams",
+        "Cason Wallace"
+      ]
+    },
+    {
+      "id": "2026-11-04-bcl-bonn-alba",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "Bonn heute, ALBA nächste Woche in Bilbao",
+      "teaser": "Die Telekom Baskets Bonn brauchen gegen Herzliya einen Sieg. ALBA reist am Dienstag zum Spitzenspiel nach Spanien.",
+      "text": [
+        "In der Champions League spielen in dieser Saison vier deutsche Teams: Bonn, ALBA, Bamberg und Vechta.",
+        "Heute um 20 Uhr empfangen die Telekom Baskets Bonn in Gruppe H Bnei Herzliya aus Israel. Bonn hat bisher einmal gewonnen und einmal verloren. Herzliya hat noch kein Spiel gewonnen.",
+        "ALBA ist in Gruppe G ungeschlagen: drei Spiele, drei Siege. Am Dienstag, 10. November, geht es um 20 Uhr zu Surne Bilbao. Die Spanier sind Zweiter. Wer gewinnt, hat beste Chancen auf Platz 1 – und nur der Gruppenerste kommt direkt ins Achtelfinale.",
+        "Auch Vechta (in Holon) und Bamberg (in Murcia) spielen nächste Woche. Beide warten in der Champions League noch auf den ersten Sieg."
+      ],
+      "fakten": [
+        "Heute, 20 Uhr: Bonn – Herzliya (Gruppe H)",
+        "Di., 10.11., 20 Uhr: Bilbao – ALBA (Gruppe G)",
+        "ALBA: 3 Siege, 0 Niederlagen",
+        "Bamberg und Vechta: je 0 Siege, 3 Niederlagen"
+      ],
+      "quellen": [
+        "championsleague.basketball"
+      ],
+      "teams": [
+        "BON",
+        "HRZ",
+        "ALBA",
+        "BIL",
+        "VEC",
+        "HOL",
+        "BAM",
+        "UCAM"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-04-phi-det-spitzenspiel",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "Erster gegen Zweiter im Osten",
+      "teaser": "Heute Nacht treffen die Philadelphia 76ers (7 Siege, 1 Niederlage) und die Detroit Pistons (6:1) aufeinander. Es ist das Spitzenspiel im Osten.",
+      "text": [
+        "In der Ostkonferenz der NBA stehen gerade zwei Teams ganz oben: die Philadelphia 76ers mit 7 Siegen und nur 1 Niederlage und die Detroit Pistons mit 6 Siegen und 1 Niederlage.",
+        "Heute Nacht spielen genau diese beiden gegeneinander. Anwurf in Detroit ist um 1 Uhr deutscher Zeit.",
+        "Bei Philadelphia ist Tyrese Maxey der beste Werfer. Er macht im Schnitt 29,1 Punkte pro Spiel. Dazu kommen Jaylen Brown, Joel Embiid und der 41 Jahre alte LeBron James.",
+        "Detroit setzt auf Cade Cunningham. Der Spielmacher kommt auf 23,7 Punkte pro Spiel. Wer gewinnt, steht morgen früh allein an der Spitze des Ostens – oder Detroit zieht mit Philadelphia gleich."
+      ],
+      "fakten": [
+        "76ers: 7 Siege, 1 Niederlage (Platz 1 im Osten)",
+        "Pistons: 6 Siege, 1 Niederlage (Platz 2 im Osten)",
+        "Tyrese Maxey: 29,1 Punkte pro Spiel",
+        "Cade Cunningham: 23,7 Punkte pro Spiel",
+        "Anwurf: Donnerstag, 1 Uhr deutscher Zeit"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "PHI",
+        "DET"
+      ],
+      "spieler": [
+        "Tyrese Maxey",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "LeBron James",
+        "Cade Cunningham"
+      ]
+    },
+    {
+      "id": "2026-11-03-deutsche-nba-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Schwere Nacht für die deutschen NBA-Profis",
+      "teaser": "Franz Wagner macht 24 Punkte, doch Orlando verliert. Auch Brooklyn mit Moritz Wagner und Charlotte mit Dennis Schröder gehen leer aus.",
+      "text": [
+        "Franz Wagner war in Orlando der beste Werfer seines Teams. Er machte 24 Punkte und gab 6 Assists. Tristan da Silva kam auf 10 Punkte. Trotzdem gewann Washington mit 103:94.",
+        "Die Wizards machten im zweiten Viertel einen 13:2-Lauf. Anthony Davis traf 12 von 17 Würfen. Rookie AJ Dybantsa machte in seinem dritten NBA-Spiel 21 Punkte. Orlando verlor zum vierten Mal hintereinander zu Hause.",
+        "Brooklyn führte gegen die New York Knicks nach drei Vierteln noch mit 79:75. Dann starteten die Knicks einen 25:5-Lauf und gewannen 103:90. Moritz Wagner machte 6 Punkte. Es war der 15. Knicks-Sieg in Folge gegen die Nets.",
+        "Charlotte verlor zu Hause klar mit 91:124 gegen Detroit. Cade Cunningham machte 33 Punkte, obwohl er im letzten Viertel gar nicht mehr spielte. Dennis Schröder kam auf 5 Punkte, Hannes Steinbach auf 2."
+      ],
+      "fakten": [
+        "Orlando – Washington 94:103",
+        "Franz Wagner: 24 Punkte, 6 Assists",
+        "Knicks – Nets 103:90 (M. Wagner 6 Punkte)",
+        "Charlotte – Detroit 91:124 (Schröder 5, Steinbach 2 Punkte)"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "WAS",
+        "BKN",
+        "NYK",
+        "CHA",
+        "DET"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Desmond Bane",
+        "Anthony Davis",
+        "AJ Dybantsa",
+        "Kyshawn George",
+        "Trae Young",
+        "Moritz Wagner",
+        "Julius Randle",
+        "Michael Porter Jr.",
+        "Nolan Traore",
+        "Jalen Brunson",
+        "Landry Shamet",
+        "OG Anunoby",
+        "Karl-Anthony Towns",
+        "Dennis Schröder",
+        "Hannes Steinbach",
+        "Cade Cunningham",
+        "Duncan Robinson",
+        "Brandon Miller"
+      ]
+    },
+    {
+      "id": "2026-11-03-westkueste-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Curry, Luka und eine Aufholjagd",
+      "teaser": "Die drei späten Spiele an der Westküste: Golden State gewinnt knapp, Luka Dončić macht wieder über 40 Punkte, und Toronto dreht ein verlorenes Spiel.",
+      "text": [
+        "Während in Deutschland die meisten schliefen, liefen noch drei Spiele an der Westküste der USA. Alle drei hatten etwas Besonderes.",
+        "Golden State schlug Phoenix mit 116:113. Die Warriors lagen im zweiten Viertel schon mit 16 Punkten hinten. Dann gelang ihnen ein 12:0-Lauf. Stephen Curry machte 34 Punkte und traf 11 von 12 Freiwürfen. Center Charles Bassey kam auf 19 Punkte – so viele wie noch nie in seiner Karriere. Für Golden State war es der fünfte Sieg in Folge.",
+        "Luka Dončić hat bei den Lakers gerade einen richtigen Lauf. Gegen Miami machte er 42 Punkte und 13 Assists. Das war schon das fünfte Spiel hintereinander mit mindestens 37 Punkten. Die Lakers gewannen 138:117. Für Miami machte Giannis Antetokounmpo 30 Punkte und 12 Rebounds.",
+        "Die größte Aufholjagd gab es in Los Angeles: Toronto lag vor dem letzten Viertel mit 13 Punkten hinten. Dann drehte Scottie Barnes auf. Er machte 15 seiner 22 Punkte im Schlussviertel. 2:08 Minuten vor dem Ende brachte er die Raptors zum ersten Mal in Führung. Toronto gewann 125:118. Für die Clippers war es schon die sechste Niederlage in Folge."
+      ],
+      "fakten": [
+        "Golden State 116, Phoenix 113 – Curry 34 Punkte",
+        "Lakers 138, Miami 117 – Dončić 42 Punkte, 13 Assists",
+        "Clippers 118, Toronto 125 – Barnes 15 Punkte im letzten Viertel",
+        "Golden State: 5 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "PHX",
+        "LAL",
+        "MIA",
+        "TOR",
+        "LAC"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Charles Bassey",
+        "Brandin Podziemski",
+        "Devin Booker",
+        "Luka Dončić",
+        "Austin Reaves",
+        "Giannis Antetokounmpo",
+        "Scottie Barnes",
+        "Immanuel Quickley",
+        "RJ Barrett",
+        "Kobe Sanders"
+      ]
+    },
+    {
+      "id": "2026-11-03-lamelo-1000-dreier",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "LaMelo Ball: 1,000 threes, faster than anyone",
+      "teaser": "LaMelo Ball makes his 1,000th three-pointer. No NBA player did it in fewer games.",
+      "text": [
+        "LaMelo Ball plays for the Minnesota Timberwolves. On Monday they played against the Milwaukee Bucks.",
+        "In the first half LaMelo made his third three-pointer of the game. It was the 1,000th three-pointer of his career. He needed only 311 games. That is a new NBA record – nobody was faster.",
+        "LaMelo scored 34 points. That is his best game this season. He made 6 three-pointers. Minnesota won 112-100."
+      ],
+      "fakten": [
+        "Endstand: Timberwolves 112, Bucks 100",
+        "LaMelo Ball: 34 Punkte, 6 Dreier",
+        "1.000 Dreier in nur 311 Spielen – NBA-Rekord",
+        "Ayo Dosunmu: 19 Punkte, 12 Rebounds"
+      ],
+      "vokabeln": [
+        {
+          "en": "three-pointer",
+          "de": "Dreier"
+        },
+        {
+          "en": "first half",
+          "de": "erste Halbzeit"
+        },
+        {
+          "en": "career",
+          "de": "Karriere, Laufbahn"
+        },
+        {
+          "en": "record",
+          "de": "Rekord"
+        },
+        {
+          "en": "faster",
+          "de": "schneller"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIN",
+        "MIL"
+      ],
+      "spieler": [
+        "LaMelo Ball",
+        "Ayo Dosunmu",
+        "Jaden McDaniels",
+        "Tyler Herro",
+        "Jaime Jaquez Jr."
+      ]
+    },
+    {
+      "id": "2026-11-03-nba-rundschau",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Kings jubeln endlich – Rockets ganz oben",
+      "teaser": "Sacramento gewinnt im siebten Spiel zum ersten Mal. Houston und Philadelphia stehen mit 7 Siegen an der Spitze.",
+      "text": [
+        "Sacramento war das letzte NBA-Team ohne Sieg. In Dallas klappte es endlich: Die Kings gewannen 115:100. Rookie Darius Acuff Jr. machte 25 Punkte.",
+        "Houston schlug Boston mit 109:93 und führt jetzt den Westen an. Alperen Sengun machte 26 Punkte und 10 Assists. Mit 7 Siegen und 1 Niederlage sind die Rockets so gut gestartet wie seit 2014 nicht mehr.",
+        "Im Osten steht Philadelphia vorne. Die 76ers gewannen 126:107 gegen Chicago, ihr vierter Sieg in Folge. Tyrese Maxey machte 26 Punkte, 15 davon im letzten Viertel.",
+        "San Antonio gewann zum fünften Mal hintereinander, 119:97 gegen Utah. Portland gewann in Denver 118:110 und hat auswärts noch kein Spiel verloren. Deni Avdija machte 28 Punkte."
+      ],
+      "fakten": [
+        "Dallas – Sacramento 100:115",
+        "Houston – Boston 109:93 (Sengun 26 Punkte, 10 Assists)",
+        "Philadelphia – Chicago 126:107",
+        "San Antonio – Utah 119:97",
+        "Denver – Portland 110:118"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAC",
+        "DAL",
+        "HOU",
+        "BOS",
+        "PHI",
+        "CHI",
+        "SAS",
+        "UTA",
+        "POR",
+        "DEN"
+      ],
+      "spieler": [
+        "Darius Acuff Jr.",
+        "Malik Monk",
+        "Zach LaVine",
+        "Cooper Flagg",
+        "Alperen Sengun",
+        "Kevin Durant",
+        "Jayson Tatum",
+        "Tyrese Maxey",
+        "LeBron James",
+        "Jaylen Brown",
+        "Joel Embiid",
+        "Caleb Wilson",
+        "Dylan Harper",
+        "Victor Wembanyama",
+        "Lauri Markkanen",
+        "Deni Avdija",
+        "Jrue Holiday",
+        "Jamal Murray",
+        "Nikola Jokić",
+        "Damian Lillard",
+        "Donovan Clingan"
+      ]
+    },
+    {
+      "id": "2026-11-03-bayern-woche",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Bayern-Woche: drei Spiele in sechs Tagen",
+      "teaser": "Nach der ersten Niederlage in Rostock geht es für den FC Bayern Schlag auf Schlag – los geht es heute gegen Braunschweig.",
+      "text": [
+        "Am Sonntag hat der FC Bayern in Rostock zum ersten Mal in dieser Bundesliga-Saison verloren. Viel Zeit zum Ärgern bleibt nicht.",
+        "Heute Abend um 20 Uhr empfangen die Münchner die Basketball Löwen Braunschweig. Das Spiel wird nachgeholt. Braunschweig hat zuletzt dreimal hintereinander verloren.",
+        "Am Donnerstag reist Bayern in der Euroleague nach Frankreich zu ASVEL Villeurbanne. Am Sonntag um 18 Uhr geht es in der Bundesliga nach Würzburg.",
+        "Auch ALBA hat bald wieder ein Heimspiel: Am Freitag um 20 Uhr kommt Phoenix Hagen nach Berlin. Und die Telekom Baskets Bonn spielen am Mittwoch in der Champions League gegen Bnei Herzliya."
+      ],
+      "fakten": [
+        "Di., 20 Uhr: FC Bayern – Braunschweig",
+        "Do., 20 Uhr: ASVEL – FC Bayern (Euroleague)",
+        "Fr., 20 Uhr: ALBA – Hagen",
+        "So., 18 Uhr: Würzburg – FC Bayern"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "FCB",
+        "BRA",
+        "ASV",
+        "WUE",
+        "ALBA",
+        "HAG",
+        "BON",
+        "HRZ"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-02-bonn-alba",
       "liga": "BBL",
       "lang": "de",
