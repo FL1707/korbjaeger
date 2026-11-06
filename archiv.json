@@ -2,6 +2,169 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-05-bayern-alba-vorschau",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Bayern heute in Frankreich, ALBA am Freitag gegen Hagen",
+      "teaser": "Der FC Bayern spielt am Donnerstagabend in der Euroleague bei ASVEL. ALBA empfängt am Freitag in der Bundesliga Phoenix Hagen.",
+      "text": [
+        "Für den FC Bayern geht die anstrengende Woche weiter. Am Dienstag gab es den 108:66-Sieg gegen Braunschweig. Heute um 20 Uhr wartet in der Euroleague ASVEL Villeurbanne. Der Klub kommt aus einem Vorort von Lyon in Frankreich.",
+        "In der Euroleague läuft es für Bayern noch nicht gut. Die Münchner haben erst 2 von 9 Spielen gewonnen. ASVEL hat 4 Siege. Ein Sieg in Frankreich wäre also sehr wichtig. Am Sonntag spielt Bayern dann in der Bundesliga in Würzburg.",
+        "ALBA Berlin hat in dieser Woche spielfrei in Europa. Am Freitag um 20 Uhr kommt Phoenix Hagen in die Berliner Halle. Am Sonntag hatte ALBA in Bonn 88:95 verloren – jetzt soll wieder ein Sieg her.",
+        "In der Champions League steht ALBA nach drei Spielen ungeschlagen an der Spitze von Gruppe G. Am nächsten Dienstag geht es nach Spanien zu Surne Bilbao, dem Tabellenzweiten der Gruppe."
+      ],
+      "fakten": [
+        "Donnerstag, 20 Uhr: ASVEL – FC Bayern (Euroleague)",
+        "Freitag, 20 Uhr: ALBA – Phoenix Hagen (Bundesliga)",
+        "Sonntag, 18 Uhr: Würzburg – FC Bayern (Bundesliga)",
+        "Dienstag, 20 Uhr: Bilbao – ALBA (Champions League)"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "euroleaguebasketball.net",
+        "championsleague.basketball"
+      ],
+      "teams": [
+        "FCB",
+        "ASV",
+        "ALBA",
+        "HAG",
+        "WUE",
+        "BIL",
+        "BON"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-04-bayern-braunschweig",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "Bayern antwortet mit 108 Punkten",
+      "teaser": "Zwei Tage nach der ersten Niederlage schlägt der FC Bayern Braunschweig mit 108:66. Alle zwölf Münchner treffen.",
+      "text": [
+        "Am Sonntag hatte der FC Bayern in Rostock zum ersten Mal in dieser Saison verloren. Am Dienstagabend zeigten die Münchner gegen die Basketball Löwen Braunschweig, dass sie das schnell abhaken wollen.",
+        "Fast das ganze erste Viertel hielt Braunschweig noch mit. In der 9. Minute stand es nur 18:17. Danach zog Bayern davon. Zur Pause führten die Münchner schon mit 57:38.",
+        "Am Ende stand es 108:66. Den 100. Punkt machte Austin Wiley in der 37. Minute. Er kam auf 17 Punkte und 10 Rebounds – ein Double-Double. Viele seiner Punkte machte er mit Dunks.",
+        "Besonders schön für Bayern: Alle zwölf Spieler, die auf dem Feld standen, machten Punkte. Justinian Jessup traf seinen 200. Dreier in der Bundesliga.",
+        "Mit 6 Siegen und 1 Niederlage steht Bayern jetzt allein an der Tabellenspitze. Für Braunschweig war es die vierte Niederlage in Folge. Schon am Donnerstag geht es für Bayern weiter: in der Euroleague bei ASVEL in Frankreich."
+      ],
+      "fakten": [
+        "Endstand: FC Bayern 108, Braunschweig 66",
+        "Austin Wiley: 17 Punkte, 10 Rebounds",
+        "Justinian Jessup: 17 Punkte, 200. Bundesliga-Dreier",
+        "Alle 12 Bayern-Spieler punkteten",
+        "Zaba Bangala (Braunschweig): 14 Punkte, 7 Rebounds"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "FCB",
+        "BRA",
+        "ASV"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-04-bcl-dienstag",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "Champions League: Rekorde und eine Verlängerung",
+      "teaser": "Fünf Spiele am Dienstagabend – mit einem Dreier-Rekord für Unicaja, einem historischen Sieg in Finnland und einem Krimi in Litauen.",
+      "text": [
+        "In der Basketball Champions League ging es am Dienstag in vier Gruppen weiter. Fast jedes Spiel hatte eine besondere Geschichte.",
+        "Salon Vilpas aus Finnland schlug in Gruppe C die Antwerp Giants mit 77:69. Es war das erste Champions-League-Heimspiel des Klubs – und noch nie hatte ein finnisches Team sein erstes Heimspiel in diesem Wettbewerb gewonnen. Antwerpen hatte vorher alle acht Spiele der Saison gewonnen.",
+        "In Gruppe E trafen die Spieler von Unicaja Málaga beim 99:94 gegen Reggiana 19 Dreier. So viele hatte Unicaja in der Champions League noch nie in einem Spiel geschafft. Amine Noua machte 27 Punkte.",
+        "Ebenfalls in Gruppe E gewann Juventus Utena in Litauen gegen Pardubice mit 98:95 nach Verlängerung. Zwölfmal stand es unentschieden! Joventut Badalona siegte beim FC Porto deutlich mit 81:64, Nicolás Laprovittola traf sechs Dreier. Und Straßburg schlug Cibona Zagreb mit 95:70.",
+        "Heute Abend spielen die Telekom Baskets Bonn zu Hause gegen Bnei Herzliya."
+      ],
+      "fakten": [
+        "Vilpas – Antwerpen 77:69 (Gruppe C)",
+        "Unicaja – Reggiana 99:94, 19 Dreier (Klubrekord)",
+        "Juventus – Pardubice 98:95 nach Verlängerung",
+        "Porto – Joventut 64:81",
+        "Straßburg – Cibona 95:70"
+      ],
+      "quellen": [
+        "championsleague.basketball"
+      ],
+      "teams": [
+        "VLP",
+        "WGA",
+        "UNI",
+        "REG",
+        "JUV",
+        "PCE",
+        "FCP",
+        "AJB",
+        "SIG",
+        "CIB",
+        "BON",
+        "HRZ"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-04-unicaja-19-threes",
+      "liga": "BCL",
+      "lang": "en",
+      "motiv": "korb",
+      "datum": "2026-11-04",
+      "tags": [],
+      "titel": "Unicaja makes 19 threes",
+      "teaser": "Unicaja Málaga beats Reggiana 99-94. The team makes 19 three-pointers – a club record.",
+      "text": [
+        "Unicaja Málaga is a team from Spain. On Tuesday they played at home against Reggiana from Italy.",
+        "Unicaja made 19 three-pointers. That is their best number in a Champions League game. The record for all teams is 21.",
+        "Amine Noua was the best player. He scored 27 points and made 5 of 7 three-pointers. Unicaja won 99-94. They have won all three games in their group."
+      ],
+      "fakten": [
+        "Endstand: Unicaja 99, Reggiana 94",
+        "19 Dreier – Klubrekord in der Champions League",
+        "Amine Noua: 27 Punkte, 5 von 7 Dreiern",
+        "Jaylen Barford (Reggiana): 22 Punkte"
+      ],
+      "vokabeln": [
+        {
+          "en": "three-pointer",
+          "de": "Dreier"
+        },
+        {
+          "en": "at home",
+          "de": "zu Hause"
+        },
+        {
+          "en": "best player",
+          "de": "bester Spieler"
+        },
+        {
+          "en": "club record",
+          "de": "Vereinsrekord"
+        },
+        {
+          "en": "group",
+          "de": "Gruppe"
+        }
+      ],
+      "quellen": [
+        "championsleague.basketball"
+      ],
+      "teams": [
+        "UNI",
+        "REG"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-04-okc-cle-wiedersehen",
       "liga": "NBA",
       "lang": "de",

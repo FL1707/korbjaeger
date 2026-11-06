@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-05T16:19:00+01:00",
-  "ausgabe": "Nachmittagsausgabe 2026-11-05",
-  "gruss": "Hallo am Nachmittag! In der Nacht gab es noch drei späte Spiele: Victor Wembanyama machte 52 Punkte und 24 Rebounds, und Klay Thompson traf für Miami eine Sekunde vor Schluss den Siegerdreier. Heute Abend um 20 Uhr spielt der FC Bayern in der Euroleague bei ASVEL, am Freitag um 20 Uhr empfängt ALBA Phoenix Hagen.",
+  "aktualisiert": "2026-11-06T06:21:00+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-06",
+  "gruss": "Guten Morgen! Der FC Bayern hat in der Euroleague ein Krimi-Spiel in Frankreich gewonnen: Vladimir Lučić drehte die Partie kurz vor Schluss. Franz Wagner verteilte in Phoenix 15 Assists, Orlando verlor aber. Heute um 20 Uhr spielt ALBA in Berlin gegen Phoenix Hagen.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
-  "quizId": "2026-11-05",
+  "quizId": "2026-11-06",
   "zahlDesTages": {
-    "zahl": "52",
-    "text": "So viele Punkte machte Victor Wembanyama beim 112:111 gegen Dallas – dazu 24 Rebounds. Beides war Karrierebestwert für den Franzosen."
+    "zahl": "25",
+    "text": "So oft verloren die Orlando Magic in Phoenix den Ball. Die Suns machten aus diesen Ballverlusten 36 Punkte und gewannen 117:104."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -77,122 +77,304 @@
     }
   },
   "comic": {
-    "datum": "2026-11-04",
-    "liga": "NBA",
-    "heim": "OKC",
-    "gast": "CLE",
-    "newsId": "2026-11-05-okc-cleveland-zweiter-sieg",
-    "titel": "Shai schlägt doppelt zu",
-    "untertitel": "Oklahoma City Thunder gegen Cleveland Cavaliers · Mittwoch, 4. November",
+    "datum": "2026-11-05",
+    "liga": "EL",
+    "heim": "ASV",
+    "gast": "FCB",
+    "newsId": "2026-11-06-bayern-asvel",
+    "titel": "Lučić dreht den Krimi",
+    "untertitel": "ASVEL Villeurbanne gegen FC Bayern · Donnerstag, 5. November",
     "bilder": [
       {
         "szene": "halle",
         "breit": true,
-        "text": "Rückspiel in Oklahoma City! Zwei Tage vorher hat OKC in Cleveland gewonnen. Jetzt wollen die Cavaliers Revanche.",
+        "text": "Euroleague in Frankreich! Der FC Bayern spielt bei ASVEL, ganz in der Nähe von Lyon. Die Münchner brauchen dringend einen Sieg.",
         "anzeige": {
-          "info": "OKC – CLEVELAND"
+          "info": "ASVEL – FC BAYERN"
         }
       },
       {
-        "szene": "lauf",
+        "szene": "wurf",
         "spieler": {
-          "name": "Shai Gilgeous-Alexander",
-          "team": "OKC",
-          "nr": "2"
+          "name": "Austin Wiley",
+          "team": "FCB"
         },
-        "gegner": "CLE",
-        "text": "OKC startet wie ein Blitz. Shai ist kaum zu halten.",
+        "gegner": "ASV",
+        "text": "Austin Wiley ist unter dem Korb kaum zu stoppen. Er macht an diesem Abend 22 Punkte.",
         "sfx": "ZACK!"
       },
       {
         "szene": "anzeige",
-        "text": "Im zweiten Viertel führt OKC schon mit 25 Punkten!",
+        "text": "Nach drei Vierteln führt Bayern mit 73:66.",
         "anzeige": {
-          "info": "2. VIERTEL · OKC +25"
+          "heim": 66,
+          "gast": 73,
+          "info": "NACH 3 VIERTELN"
+        }
+      },
+      {
+        "szene": "wurf",
+        "spieler": {
+          "name": "Justinian Jessup",
+          "team": "FCB"
+        },
+        "text": "Justinian Jessup trifft einen Dreier zum 78:72. Kurz danach liegt Bayern sogar neun Punkte vorne.",
+        "sfx": "SWISH!"
+      },
+      {
+        "szene": "wurf",
+        "spieler": {
+          "name": "Patty Mills",
+          "team": "ASV"
+        },
+        "text": "Doch ASVEL gibt nicht auf. Patty Mills trifft zwei Dreier hintereinander!",
+        "sfx": "WOOSH!",
+        "sprech": {
+          "wer": "Fans",
+          "text": "Allez ASVEL!"
         }
       },
       {
         "szene": "anzeige",
-        "text": "Zur Halbzeit steht es 60:44. Alles klar? Von wegen!",
+        "breit": true,
+        "text": "Knapp zwei Minuten vor Schluss: ASVEL führt plötzlich 92:89. Wird das jetzt doch noch nichts für Bayern?",
         "anzeige": {
-          "heim": 60,
-          "gast": 44,
-          "info": "HALBZEIT"
+          "heim": 92,
+          "gast": 89,
+          "info": "4. VIERTEL · 1:53"
         }
       },
       {
-        "szene": "dribbel",
+        "szene": "wurf",
         "spieler": {
-          "name": "James Harden",
-          "team": "CLE"
+          "name": "Vladimir Lučić",
+          "team": "FCB"
         },
-        "gegner": "OKC",
-        "text": "Nach der Pause macht Cleveland neun Punkte am Stück. Sieben davon James Harden.",
-        "sfx": "9:0!"
+        "text": "Jetzt kommt Vladimir Lučić. Zwei Freiwürfe – beide drin!",
+        "sfx": "SWISH!"
       },
       {
-        "szene": "wurf",
-        "breit": true,
+        "szene": "lauf",
         "spieler": {
-          "name": "Bennett Stirtz",
-          "team": "OKC"
+          "name": "Vladimir Lučić",
+          "team": "FCB"
         },
-        "text": "Jetzt braucht OKC einen Helden. Rookie Bennett Stirtz trifft den Dreier zum 87:74 – insgesamt trifft er 4 Dreier.",
-        "sfx": "SWISH!",
+        "gegner": "ASV",
+        "text": "Und gleich danach trifft er den Zweier zum 93:92. Bayern führt wieder!",
+        "sfx": "WUSCH!",
         "sprech": {
           "wer": "Kommentator",
-          "text": "Der Rookie hat Nerven aus Stahl!"
-        }
-      },
-      {
-        "szene": "jubel",
-        "spieler": {
-          "name": "Thunder",
-          "team": "OKC"
-        },
-        "text": "Die Fans in Oklahoma City sind wieder voll da."
-      },
-      {
-        "szene": "anzeige",
-        "text": "1:47 Minuten vor Schluss führt OKC 115:102.",
-        "anzeige": {
-          "heim": 115,
-          "gast": 102,
-          "info": "4. VIERTEL · 1:47"
-        }
-      },
-      {
-        "szene": "wurf",
-        "spieler": {
-          "name": "Donovan Mitchell",
-          "team": "CLE"
-        },
-        "text": "Doch Donovan Mitchell trifft drei Dreier hintereinander! Nur noch 117:111.",
-        "sfx": "PLOPP!",
-        "sprech": {
-          "wer": "Fan",
-          "text": "Oh nein, nicht schon wieder!"
+          "text": "Was für eine Antwort!"
         }
       },
       {
         "szene": "zahl",
-        "zahl": "42",
-        "label": "PUNKTE",
-        "text": "Am Ende hat Shai 42 Punkte gemacht – 15 davon an der Freiwurflinie."
+        "zahl": "6/6",
+        "label": "FREIWÜRFE LUČIĆ",
+        "text": "Lučić trifft an diesem Abend alle seine sechs Freiwürfe. Am Ende kommt er auf 18 Punkte und 8 Assists."
       },
       {
-        "szene": "halle",
+        "szene": "wurf",
+        "spieler": {
+          "name": "Rokas Jokubaitis",
+          "team": "FCB"
+        },
+        "text": "Sieben Sekunden vor Schluss trifft Rokas Jokubaitis noch zwei Freiwürfe. Jetzt ist alles klar.",
+        "sfx": "99!"
+      },
+      {
+        "szene": "jubel",
         "breit": true,
-        "text": "Endstand 124:116! OKC schlägt Cleveland zum zweiten Mal in drei Nächten.",
+        "spieler": {
+          "name": "FC Bayern",
+          "team": "FCB"
+        },
+        "text": "Geschafft! Bayern gewinnt 99:95 – der dritte Sieg in der Euroleague.",
         "anzeige": {
-          "heim": 124,
-          "gast": 116,
+          "heim": 95,
+          "gast": 99,
           "info": "ENDSTAND"
+        },
+        "sprech": {
+          "wer": "Bayern-Fans",
+          "text": "Auswärtssieg!"
         }
       }
     ]
   },
   "news": [
+    {
+      "id": "2026-11-06-bayern-asvel",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "Lučić dreht das Spiel: Bayern gewinnt in Frankreich",
+      "teaser": "Der FC Bayern lag kurz vor Schluss hinten. Dann drehte Vladimir Lučić mit vier Punkten in Folge das Spiel – München siegte 99:95 bei ASVEL.",
+      "text": [
+        "Der FC Bayern hat in der Euroleague endlich wieder gewonnen. Bei ASVEL Villeurbanne, einem Klub aus der Nähe von Lyon, siegten die Münchner am Donnerstagabend mit 99:95.",
+        "Lange sah es gut aus. Nach dem dritten Viertel führte Bayern 73:66, Mitte des letzten Viertels sogar mit neun Punkten. Doch dann traf ASVEL-Routinier Patty Mills zwei Dreier hintereinander. Knapp zwei Minuten vor Schluss lag plötzlich ASVEL mit 92:89 vorne.",
+        "Jetzt war Vladimir Lučić da. Der erfahrene Serbe traf zwei Freiwürfe und kurz danach einen Zweier zum 93:92. Bayern führte wieder! Am Ende verwandelten Austin Wiley, Lučić und Rokas Jokubaitis ihre Freiwürfe sicher.",
+        "Wiley war mit 22 Punkten und 9 Rebounds der beste Werfer. Lučić kam auf 18 Punkte und 8 Assists – er verfehlte nur einen von sieben Würfen aus dem Feld. Für Bayern war es der dritte Sieg in der Euroleague. Schon am Sonntag geht es in der Bundesliga in Würzburg weiter."
+      ],
+      "fakten": [
+        "Endstand: ASVEL 95, FC Bayern 99",
+        "Austin Wiley (FCB): 22 Punkte, 9 Rebounds",
+        "Vladimir Lučić (FCB): 18 Punkte, 8 Assists, alle 6 Freiwürfe getroffen",
+        "Patty Mills (ASV): 22 Punkte",
+        "Bayern hat jetzt 3 Siege und 7 Niederlagen"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "FCB",
+        "ASV",
+        "WUE"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-06-magic-suns-wagner-15-assists",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "15 Vorlagen von Franz Wagner – Orlando verliert trotzdem",
+      "teaser": "Franz Wagner verteilt in Phoenix 15 Assists, Tristan da Silva macht 18 Punkte. Doch die Suns gewinnen 117:104.",
+      "text": [
+        "Für die Orlando Magic läuft es gerade nicht rund. In der Nacht auf Freitag verloren sie bei den Phoenix Suns mit 104:117. Es war die dritte Niederlage in Folge.",
+        "Franz Wagner zeigte trotzdem, wie gut er seine Mitspieler sieht. Der Berliner gab 15 Assists und machte 15 Punkte – ein Double-Double. Dazu holte er 8 Rebounds. Tristan da Silva, ebenfalls Nationalspieler, kam von der Bank und traf 4 Dreier. Er machte 18 Punkte.",
+        "Das größte Problem für Orlando waren die Ballverluste. 25-mal verloren die Magic den Ball. Phoenix machte daraus 36 Punkte. Die Suns trafen außerdem 17 Dreier.",
+        "Bester Werfer war Devin Booker mit 30 Punkten. Phoenix lag im letzten Viertel sogar mit 30 Punkten vorne. Für Orlando spielte Wendell Carter Jr. stark: 27 Punkte und 13 Rebounds. Am Samstag spielt Orlando in Golden State – gegen Stephen Curry."
+      ],
+      "fakten": [
+        "Endstand: Phoenix 117, Orlando 104",
+        "Franz Wagner (ORL): 15 Punkte, 15 Assists, 8 Rebounds",
+        "Tristan da Silva (ORL): 18 Punkte, 4 Dreier",
+        "Devin Booker (PHX): 30 Punkte",
+        "Orlando: 25 Ballverluste"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "PHX",
+        "GSW"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Wendell Carter Jr.",
+        "Devin Booker",
+        "Dillon Brooks",
+        "Miles Bridges",
+        "Collin Gillespie",
+        "Stephen Curry"
+      ]
+    },
+    {
+      "id": "2026-11-06-euroleague-paris-valencia",
+      "liga": "EL",
+      "lang": "en",
+      "motiv": "korb",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "Paris and Valencia win on the road",
+      "teaser": "Two big comebacks in the EuroLeague on Thursday: Paris won in Istanbul, and Valencia won in Milan.",
+      "text": [
+        "On Thursday night, five EuroLeague games were played. Two teams came back and won away from home.",
+        "Paris Basketball played at Anadolu Efes in Istanbul. After three quarters, Paris was behind 66 to 70. But in the last quarter Paris scored 29 points. Paris won 95 to 90. Nadir Hifi was the star: 28 points and 9 assists. Cameron Payne made 7 threes for Efes, but it was not enough.",
+        "Valencia was behind 51 to 59 in Milan after three quarters. Then Valencia won the last quarter 33 to 14! The final score was 84 to 73. Milan has now lost nine of ten games.",
+        "Also on Thursday: Fenerbahçe beat Baskonia 84 to 65, and FC Barcelona won 93 to 90 at Hapoel Tel Aviv."
+      ],
+      "fakten": [
+        "Efes 90, Paris 95 – Nadir Hifi: 28 points",
+        "Milan 73, Valencia 84",
+        "Fenerbahçe 84, Baskonia 65",
+        "Hapoel Tel Aviv 90, Barcelona 93"
+      ],
+      "vokabeln": [
+        {
+          "en": "away from home",
+          "de": "auswärts"
+        },
+        {
+          "en": "to be behind",
+          "de": "hinten liegen"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        },
+        {
+          "en": "comeback",
+          "de": "Aufholjagd"
+        },
+        {
+          "en": "not enough",
+          "de": "nicht genug"
+        }
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "PBB",
+        "EFS",
+        "VAL",
+        "EA7",
+        "FEN",
+        "BAS",
+        "BAR",
+        "HTA"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-06-alba-hagen-wochenende",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "ALBA heute gegen Hagen – Bayern am Sonntag in Würzburg",
+      "teaser": "Der 8. Spieltag der Bundesliga beginnt am Freitagabend in Berlin. Am Sonntag muss der Tabellenführer aus München nach Würzburg.",
+      "text": [
+        "Heute um 20 Uhr eröffnet ALBA Berlin den 8. Spieltag der Bundesliga. Zu Gast ist Phoenix Hagen. ALBA hat bisher 3 Siege und 4 Niederlagen. Am Sonntag hatte ALBA in Bonn 88:95 verloren.",
+        "Hagen steht mit 2 Siegen und 5 Niederlagen weiter unten in der Tabelle. Zuletzt verlor Hagen zu Hause gegen Vechta mit 74:100. Für ALBA ist das also eine gute Chance, wieder zu gewinnen.",
+        "Spannend wird es am Sonntag um 18 Uhr: Der FC Bayern spielt in Würzburg. Bayern führt die Tabelle an, Würzburg ist Fünfter. Die Münchner kommen mit Rückenwind: Am Donnerstag gewannen sie in der Euroleague in Frankreich.",
+        "Am Dienstag geht es für ALBA dann in der Champions League weiter. In Spanien wartet Surne Bilbao. ALBA führt Gruppe G ungeschlagen an. Und am Mittwoch spielen die deutschen Damen in Hamburg gegen Ungarn – das erste Spiel der EM-Qualifikation."
+      ],
+      "fakten": [
+        "Freitag, 20 Uhr: ALBA – Phoenix Hagen",
+        "Sonntag, 18 Uhr: Würzburg – FC Bayern",
+        "Dienstag, 20 Uhr: Bilbao – ALBA (Champions League)",
+        "Mittwoch, 19 Uhr: Deutschland – Ungarn (Damen, EM-Quali in Hamburg)",
+        "Alle Bundesliga-Spiele laufen bei DYN"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "championsleague.basketball",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "ALBA",
+        "HAG",
+        "FCB",
+        "WUE",
+        "BON",
+        "VEC",
+        "BIL",
+        "GER",
+        "HUN"
+      ],
+      "spieler": []
+    },
     {
       "id": "2026-11-05-wembanyama-52",
       "liga": "NBA",
@@ -532,169 +714,6 @@
       ]
     },
     {
-      "id": "2026-11-05-bayern-alba-vorschau",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "ball",
-      "datum": "2026-11-05",
-      "tags": [],
-      "titel": "Bayern heute in Frankreich, ALBA am Freitag gegen Hagen",
-      "teaser": "Der FC Bayern spielt am Donnerstagabend in der Euroleague bei ASVEL. ALBA empfängt am Freitag in der Bundesliga Phoenix Hagen.",
-      "text": [
-        "Für den FC Bayern geht die anstrengende Woche weiter. Am Dienstag gab es den 108:66-Sieg gegen Braunschweig. Heute um 20 Uhr wartet in der Euroleague ASVEL Villeurbanne. Der Klub kommt aus einem Vorort von Lyon in Frankreich.",
-        "In der Euroleague läuft es für Bayern noch nicht gut. Die Münchner haben erst 2 von 9 Spielen gewonnen. ASVEL hat 4 Siege. Ein Sieg in Frankreich wäre also sehr wichtig. Am Sonntag spielt Bayern dann in der Bundesliga in Würzburg.",
-        "ALBA Berlin hat in dieser Woche spielfrei in Europa. Am Freitag um 20 Uhr kommt Phoenix Hagen in die Berliner Halle. Am Sonntag hatte ALBA in Bonn 88:95 verloren – jetzt soll wieder ein Sieg her.",
-        "In der Champions League steht ALBA nach drei Spielen ungeschlagen an der Spitze von Gruppe G. Am nächsten Dienstag geht es nach Spanien zu Surne Bilbao, dem Tabellenzweiten der Gruppe."
-      ],
-      "fakten": [
-        "Donnerstag, 20 Uhr: ASVEL – FC Bayern (Euroleague)",
-        "Freitag, 20 Uhr: ALBA – Phoenix Hagen (Bundesliga)",
-        "Sonntag, 18 Uhr: Würzburg – FC Bayern (Bundesliga)",
-        "Dienstag, 20 Uhr: Bilbao – ALBA (Champions League)"
-      ],
-      "quellen": [
-        "easycredit-bbl.de",
-        "euroleaguebasketball.net",
-        "championsleague.basketball"
-      ],
-      "teams": [
-        "FCB",
-        "ASV",
-        "ALBA",
-        "HAG",
-        "WUE",
-        "BIL",
-        "BON"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-04-bayern-braunschweig",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-11-04",
-      "tags": [],
-      "titel": "Bayern antwortet mit 108 Punkten",
-      "teaser": "Zwei Tage nach der ersten Niederlage schlägt der FC Bayern Braunschweig mit 108:66. Alle zwölf Münchner treffen.",
-      "text": [
-        "Am Sonntag hatte der FC Bayern in Rostock zum ersten Mal in dieser Saison verloren. Am Dienstagabend zeigten die Münchner gegen die Basketball Löwen Braunschweig, dass sie das schnell abhaken wollen.",
-        "Fast das ganze erste Viertel hielt Braunschweig noch mit. In der 9. Minute stand es nur 18:17. Danach zog Bayern davon. Zur Pause führten die Münchner schon mit 57:38.",
-        "Am Ende stand es 108:66. Den 100. Punkt machte Austin Wiley in der 37. Minute. Er kam auf 17 Punkte und 10 Rebounds – ein Double-Double. Viele seiner Punkte machte er mit Dunks.",
-        "Besonders schön für Bayern: Alle zwölf Spieler, die auf dem Feld standen, machten Punkte. Justinian Jessup traf seinen 200. Dreier in der Bundesliga.",
-        "Mit 6 Siegen und 1 Niederlage steht Bayern jetzt allein an der Tabellenspitze. Für Braunschweig war es die vierte Niederlage in Folge. Schon am Donnerstag geht es für Bayern weiter: in der Euroleague bei ASVEL in Frankreich."
-      ],
-      "fakten": [
-        "Endstand: FC Bayern 108, Braunschweig 66",
-        "Austin Wiley: 17 Punkte, 10 Rebounds",
-        "Justinian Jessup: 17 Punkte, 200. Bundesliga-Dreier",
-        "Alle 12 Bayern-Spieler punkteten",
-        "Zaba Bangala (Braunschweig): 14 Punkte, 7 Rebounds"
-      ],
-      "quellen": [
-        "easycredit-bbl.de"
-      ],
-      "teams": [
-        "FCB",
-        "BRA",
-        "ASV"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-04-bcl-dienstag",
-      "liga": "BCL",
-      "lang": "de",
-      "motiv": "zahlen",
-      "datum": "2026-11-04",
-      "tags": [],
-      "titel": "Champions League: Rekorde und eine Verlängerung",
-      "teaser": "Fünf Spiele am Dienstagabend – mit einem Dreier-Rekord für Unicaja, einem historischen Sieg in Finnland und einem Krimi in Litauen.",
-      "text": [
-        "In der Basketball Champions League ging es am Dienstag in vier Gruppen weiter. Fast jedes Spiel hatte eine besondere Geschichte.",
-        "Salon Vilpas aus Finnland schlug in Gruppe C die Antwerp Giants mit 77:69. Es war das erste Champions-League-Heimspiel des Klubs – und noch nie hatte ein finnisches Team sein erstes Heimspiel in diesem Wettbewerb gewonnen. Antwerpen hatte vorher alle acht Spiele der Saison gewonnen.",
-        "In Gruppe E trafen die Spieler von Unicaja Málaga beim 99:94 gegen Reggiana 19 Dreier. So viele hatte Unicaja in der Champions League noch nie in einem Spiel geschafft. Amine Noua machte 27 Punkte.",
-        "Ebenfalls in Gruppe E gewann Juventus Utena in Litauen gegen Pardubice mit 98:95 nach Verlängerung. Zwölfmal stand es unentschieden! Joventut Badalona siegte beim FC Porto deutlich mit 81:64, Nicolás Laprovittola traf sechs Dreier. Und Straßburg schlug Cibona Zagreb mit 95:70.",
-        "Heute Abend spielen die Telekom Baskets Bonn zu Hause gegen Bnei Herzliya."
-      ],
-      "fakten": [
-        "Vilpas – Antwerpen 77:69 (Gruppe C)",
-        "Unicaja – Reggiana 99:94, 19 Dreier (Klubrekord)",
-        "Juventus – Pardubice 98:95 nach Verlängerung",
-        "Porto – Joventut 64:81",
-        "Straßburg – Cibona 95:70"
-      ],
-      "quellen": [
-        "championsleague.basketball"
-      ],
-      "teams": [
-        "VLP",
-        "WGA",
-        "UNI",
-        "REG",
-        "JUV",
-        "PCE",
-        "FCP",
-        "AJB",
-        "SIG",
-        "CIB",
-        "BON",
-        "HRZ"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-04-unicaja-19-threes",
-      "liga": "BCL",
-      "lang": "en",
-      "motiv": "korb",
-      "datum": "2026-11-04",
-      "tags": [],
-      "titel": "Unicaja makes 19 threes",
-      "teaser": "Unicaja Málaga beats Reggiana 99-94. The team makes 19 three-pointers – a club record.",
-      "text": [
-        "Unicaja Málaga is a team from Spain. On Tuesday they played at home against Reggiana from Italy.",
-        "Unicaja made 19 three-pointers. That is their best number in a Champions League game. The record for all teams is 21.",
-        "Amine Noua was the best player. He scored 27 points and made 5 of 7 three-pointers. Unicaja won 99-94. They have won all three games in their group."
-      ],
-      "fakten": [
-        "Endstand: Unicaja 99, Reggiana 94",
-        "19 Dreier – Klubrekord in der Champions League",
-        "Amine Noua: 27 Punkte, 5 von 7 Dreiern",
-        "Jaylen Barford (Reggiana): 22 Punkte"
-      ],
-      "vokabeln": [
-        {
-          "en": "three-pointer",
-          "de": "Dreier"
-        },
-        {
-          "en": "at home",
-          "de": "zu Hause"
-        },
-        {
-          "en": "best player",
-          "de": "bester Spieler"
-        },
-        {
-          "en": "club record",
-          "de": "Vereinsrekord"
-        },
-        {
-          "en": "group",
-          "de": "Gruppe"
-        }
-      ],
-      "quellen": [
-        "championsleague.basketball"
-      ],
-      "teams": [
-        "UNI",
-        "REG"
-      ],
-      "spieler": []
-    },
-    {
       "id": "2026-11-03-damen-kader",
       "liga": "DBB",
       "lang": "de",
@@ -729,6 +748,136 @@
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-05",
+      "runde": "NBA",
+      "heim": "PHX",
+      "gast": "ORL",
+      "heimPkt": 117,
+      "gastPkt": 104,
+      "info": "F. Wagner (ORL) 15 Assists",
+      "newsId": "2026-11-06-magic-suns-wagner-15-assists",
+      "bericht": {
+        "text": [
+          "Phoenix führte fast das ganze Spiel. Devin Booker traf schon in der ersten Halbzeit 23 Punkte, kurz vor der Pause sogar mit der Sirene einen Dreier zum 63:51.",
+          "Orlando verlor 25-mal den Ball, Phoenix machte daraus 36 Punkte. Franz Wagner verteilte 15 Assists, Tristan da Silva machte 18 Punkte von der Bank. Für Orlando war es die dritte Niederlage in Folge."
+        ],
+        "highlights": [
+          "Devin Booker (PHX): 30 Punkte",
+          "Franz Wagner (ORL): 15 Punkte, 15 Assists",
+          "Tristan da Silva (ORL): 18 Punkte, 4 Dreier",
+          "Wendell Carter Jr. (ORL): 27 Punkte, 13 Rebounds"
+        ]
+      }
+    },
+    {
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "runde": "Euroleague · 10. Runde",
+      "heim": "ASV",
+      "gast": "FCB",
+      "heimPkt": 95,
+      "gastPkt": 99,
+      "info": "Wiley (FCB) 22 Punkte",
+      "newsId": "2026-11-06-bayern-asvel",
+      "bericht": {
+        "text": [
+          "Bayern führte nach drei Vierteln 73:66 und Mitte des letzten Viertels sogar mit neun Punkten. Dann holte ASVEL auf: Patty Mills traf zwei Dreier hintereinander, knapp zwei Minuten vor Schluss stand es 92:89 für die Franzosen.",
+          "Vladimir Lučić drehte das Spiel mit zwei Freiwürfen und einem Zweier zum 93:92. Danach trafen die Münchner ihre Freiwürfe sicher und gewannen 99:95."
+        ],
+        "highlights": [
+          "Austin Wiley (FCB): 22 Punkte, 9 Rebounds",
+          "Vladimir Lučić (FCB): 18 Punkte, 8 Assists",
+          "Patty Mills (ASV): 22 Punkte",
+          "Bayern beendet das Spiel mit einem 10:3-Lauf"
+        ]
+      }
+    },
+    {
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "runde": "Euroleague · 10. Runde",
+      "heim": "EFS",
+      "gast": "PBB",
+      "heimPkt": 90,
+      "gastPkt": 95,
+      "info": "Hifi (PBB) 28 Punkte",
+      "newsId": "2026-11-06-euroleague-paris-valencia",
+      "bericht": {
+        "text": [
+          "Efes führte nach drei Vierteln mit 70:66. Im letzten Viertel drehte Paris auf und gewann es 29:20.",
+          "Nadir Hifi war der beste Spieler auf dem Feld. Bei Efes traf Cameron Payne 7 Dreier – das reichte aber nicht."
+        ],
+        "highlights": [
+          "Nadir Hifi (PBB): 28 Punkte, 9 Assists",
+          "Cameron Payne (EFS): 33 Punkte, 7 Dreier",
+          "Letztes Viertel: 29:20 für Paris"
+        ]
+      }
+    },
+    {
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "runde": "Euroleague · 10. Runde",
+      "heim": "FEN",
+      "gast": "BAS",
+      "heimPkt": 84,
+      "gastPkt": 65,
+      "info": "Horton-Tucker (FEN) 19 Punkte",
+      "bericht": {
+        "text": [
+          "Fenerbahçe legte los wie die Feuerwehr: Das erste Viertel ging 33:18 an die Gastgeber. Danach war das Spiel schon fast entschieden. Baskonia hat erst einen Sieg in dieser Saison."
+        ],
+        "highlights": [
+          "Talen Horton-Tucker (FEN): 19 Punkte",
+          "Kenneth Faried (BAS): 10 Punkte, 15 Rebounds",
+          "Erstes Viertel: 33:18"
+        ]
+      }
+    },
+    {
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "runde": "Euroleague · 10. Runde",
+      "heim": "HTA",
+      "gast": "BAR",
+      "heimPkt": 90,
+      "gastPkt": 93,
+      "info": "Brizuela (BAR) 22 Punkte",
+      "bericht": {
+        "text": [
+          "Ein enges Spiel in Tel Aviv. Barcelona gewann das zweite und dritte Viertel und rettete am Ende einen knappen Vorsprung ins Ziel."
+        ],
+        "highlights": [
+          "Darío Brizuela (BAR): 22 Punkte",
+          "Justin Robinson (BAR): 20 Punkte",
+          "Elijah Bryant (HTA): 25 Punkte"
+        ]
+      }
+    },
+    {
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "runde": "Euroleague · 10. Runde",
+      "heim": "EA7",
+      "gast": "VAL",
+      "heimPkt": 73,
+      "gastPkt": 84,
+      "info": "Letztes Viertel 33:14",
+      "newsId": "2026-11-06-euroleague-paris-valencia",
+      "bericht": {
+        "text": [
+          "Mailand führte nach drei Vierteln 59:51. Dann kam Valencia zurück: Das letzte Viertel gewannen die Spanier 33:14.",
+          "Für Mailand war es schon die neunte Niederlage im zehnten Spiel."
+        ],
+        "highlights": [
+          "Kameron Taylor (VAL): 17 Punkte",
+          "Armoni Brooks (VAL): 16 Punkte, 4 Dreier",
+          "Letztes Viertel: 33:14 für Valencia"
+        ]
+      }
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-04",
@@ -1261,48 +1410,6 @@
   ],
   "spielplan": [
     {
-      "liga": "EL",
-      "zeit": "2026-11-05T18:15:00+01:00",
-      "heim": "EFS",
-      "gast": "PBB",
-      "info": "10. Runde"
-    },
-    {
-      "liga": "EL",
-      "zeit": "2026-11-05T19:00:00+01:00",
-      "heim": "FEN",
-      "gast": "BAS",
-      "info": "10. Runde"
-    },
-    {
-      "liga": "EL",
-      "zeit": "2026-11-05T19:45:00+01:00",
-      "heim": "HTA",
-      "gast": "BAR",
-      "info": "10. Runde"
-    },
-    {
-      "liga": "EL",
-      "zeit": "2026-11-05T20:00:00+01:00",
-      "heim": "ASV",
-      "gast": "FCB",
-      "info": "10. Runde · mit Bayern"
-    },
-    {
-      "liga": "EL",
-      "zeit": "2026-11-05T20:30:00+01:00",
-      "heim": "EA7",
-      "gast": "VAL",
-      "info": "10. Runde"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-06T03:00:00+01:00",
-      "heim": "PHX",
-      "gast": "ORL",
-      "info": "mit F. Wagner und da Silva"
-    },
-    {
       "liga": "NBA",
       "zeit": "2026-11-06T04:00:00+01:00",
       "heim": "GSW",
@@ -1614,16 +1721,16 @@
     {
       "liga": "BCL",
       "zeit": "2026-11-10T20:00:00+01:00",
-      "heim": "SPA",
-      "gast": "CHO",
-      "info": "Gruppe F"
+      "heim": "BIL",
+      "gast": "ALBA",
+      "info": "Gruppe G · mit ALBA"
     },
     {
       "liga": "BCL",
       "zeit": "2026-11-10T20:00:00+01:00",
-      "heim": "BIL",
-      "gast": "ALBA",
-      "info": "Gruppe G · mit ALBA"
+      "heim": "SPA",
+      "gast": "CHO",
+      "info": "Gruppe F"
     },
     {
       "liga": "NBA",
@@ -1673,16 +1780,16 @@
     {
       "liga": "BCL",
       "zeit": "2026-11-11T18:30:00+01:00",
-      "heim": "RYT",
-      "gast": "NTR",
-      "info": "Gruppe A"
+      "heim": "PERI",
+      "gast": "VAR",
+      "info": "Gruppe D"
     },
     {
       "liga": "BCL",
       "zeit": "2026-11-11T18:30:00+01:00",
-      "heim": "PERI",
-      "gast": "VAR",
-      "info": "Gruppe D"
+      "heim": "RYT",
+      "gast": "NTR",
+      "info": "Gruppe A"
     },
     {
       "liga": "DBB",
@@ -1812,6 +1919,59 @@
       "info": "11. Runde"
     },
     {
+      "liga": "NBA",
+      "zeit": "2026-11-13T01:00:00+01:00",
+      "heim": "PHI",
+      "gast": "TOR"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-13T01:00:00+01:00",
+      "heim": "WAS",
+      "gast": "DET"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-13T02:00:00+01:00",
+      "heim": "MIN",
+      "gast": "DAL"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-13T03:00:00+01:00",
+      "heim": "PHX",
+      "gast": "CHA",
+      "info": "mit Schröder und Steinbach"
+    },
+    {
+      "liga": "EL",
+      "zeit": "2026-11-13T18:30:00+01:00",
+      "heim": "EFS",
+      "gast": "VIR",
+      "info": "11. Runde"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-11-13T20:00:00+01:00",
+      "heim": "HAG",
+      "gast": "LUD",
+      "tv": "DYN"
+    },
+    {
+      "liga": "EL",
+      "zeit": "2026-11-13T20:15:00+01:00",
+      "heim": "PAO",
+      "gast": "BAR",
+      "info": "11. Runde"
+    },
+    {
+      "liga": "EL",
+      "zeit": "2026-11-13T20:30:00+01:00",
+      "heim": "ASV",
+      "gast": "BES",
+      "info": "11. Runde"
+    },
+    {
       "liga": "DBB",
       "zeit": "2026-11-14T12:00:00+01:00",
       "ohneZeit": true,
@@ -1846,7 +2006,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 05.11., 16:20 Uhr · nach allen Spielen vom 04.11.",
+      "stand": "Stand: 06.11., 06:21 Uhr · nach den Spielen vom 05.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -1920,7 +2080,7 @@
         },
         {
           "team": "PHX",
-          "s": 1,
+          "s": 2,
           "n": 5
         },
         {
@@ -1942,7 +2102,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 05.11., 16:20 Uhr · nach allen Spielen vom 04.11.",
+      "stand": "Stand: 06.11., 06:21 Uhr · nach den Spielen vom 05.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2017,7 +2177,7 @@
         {
           "team": "ORL",
           "s": 2,
-          "n": 5
+          "n": 6
         },
         {
           "team": "BKN",
@@ -2155,7 +2315,7 @@
     },
     "euroleague": {
       "name": "Euroleague",
-      "stand": "Stand: 10. Runde läuft · nach Real – Panathinaikos (4.11.)",
+      "stand": "Stand: 10. Runde läuft · nach den Spielen vom 05.11.",
       "zonen": [
         {
           "von": 1,
@@ -2183,27 +2343,22 @@
           "n": 2
         },
         {
-          "team": "CZV",
-          "s": 6,
-          "n": 3
-        },
-        {
           "team": "VAL",
-          "s": 6,
-          "n": 3
-        },
-        {
-          "team": "HTA",
-          "s": 6,
+          "s": 7,
           "n": 3
         },
         {
           "team": "FEN",
-          "s": 6,
+          "s": 7,
           "n": 3
         },
         {
           "team": "BAR",
+          "s": 7,
+          "n": 3
+        },
+        {
+          "team": "CZV",
           "s": 6,
           "n": 3
         },
@@ -2214,6 +2369,11 @@
         },
         {
           "team": "RMA",
+          "s": 6,
+          "n": 4
+        },
+        {
+          "team": "HTA",
           "s": 6,
           "n": 4
         },
@@ -2240,17 +2400,22 @@
         {
           "team": "EFS",
           "s": 4,
-          "n": 5
+          "n": 6
+        },
+        {
+          "team": "PBB",
+          "s": 4,
+          "n": 6
         },
         {
           "team": "ASV",
           "s": 4,
-          "n": 5
+          "n": 6
         },
         {
-          "team": "PBB",
+          "team": "FCB",
           "s": 3,
-          "n": 6
+          "n": 7
         },
         {
           "team": "MTA",
@@ -2258,19 +2423,14 @@
           "n": 7
         },
         {
-          "team": "FCB",
-          "s": 2,
-          "n": 7
-        },
-        {
           "team": "EA7",
           "s": 1,
-          "n": 8
+          "n": 9
         },
         {
           "team": "BAS",
           "s": 1,
-          "n": 8
+          "n": 9
         }
       ]
     },
@@ -2583,7 +2743,7 @@
         "reb": 6.1,
         "ast": 7.6
       },
-      "notiz": "Orlandos Allrounder. Gegen Washington machte er 24 Punkte – Orlando verlor trotzdem."
+      "notiz": "Orlandos Allrounder. In Phoenix verteilte er 15 Assists und machte 15 Punkte – Orlando verlor aber 104:117."
     },
     {
       "name": "Moritz Wagner",
@@ -2639,7 +2799,7 @@
         "reb": 3.4,
         "ast": 1.7
       },
-      "notiz": "Gegen Boston machte er 23 Punkte und 10 Rebounds, dazu 5 Dreier."
+      "notiz": "Kommt oft von der Bank. In Phoenix traf er 4 Dreier und machte 18 Punkte."
     },
     {
       "name": "Hannes Steinbach",
@@ -2770,132 +2930,132 @@
   ],
   "quiz": [
     {
-      "liga": "NBA",
-      "frage": "Wie viele Punkte machte Shai Gilgeous-Alexander beim 124:116 von OKC gegen Cleveland?",
+      "liga": "BBL",
+      "frage": "Wer machte beim 99:95-Sieg des FC Bayern bei ASVEL die meisten Punkte für München?",
       "antworten": [
-        "28",
-        "35",
-        "42",
-        "51"
+        "Vladimir Lučić",
+        "Austin Wiley",
+        "Rokas Jokubaitis",
+        "Justinian Jessup"
       ],
-      "richtig": 2,
-      "erklaerung": "Shai machte 42 Punkte. Zwei Tage vorher hatte er gegen Cleveland sogar 43 Punkte gemacht."
+      "richtig": 1,
+      "erklaerung": "Austin Wiley machte 22 Punkte und holte 9 Rebounds. Vladimir Lučić kam auf 18 Punkte."
     },
     {
-      "liga": "BBL",
-      "frage": "Ein besonderes Jubiläum: Das wievielte Pflichtspiel ihrer Geschichte bestritten die Telekom Baskets Bonn gegen Herzliya?",
+      "liga": "NBA",
+      "frage": "Wie viele Assists gab Franz Wagner beim Spiel in Phoenix?",
       "antworten": [
-        "Das 100.",
-        "Das 500.",
-        "Das 1000.",
-        "Das 1500."
+        "5",
+        "9",
+        "12",
+        "15"
       ],
       "richtig": 3,
-      "erklaerung": "Es war das 1500. Pflichtspiel. Bonn feierte es mit einem 101:89-Sieg in der Champions League."
+      "erklaerung": "Franz Wagner gab 15 Assists und machte 15 Punkte. Das ist ein Double-Double."
     },
     {
       "liga": "NBA",
       "art": "legacy",
-      "jahr": "1971",
-      "frage": "Kareem Abdul-Jabbar hatte am Anfang seiner NBA-Karriere einen anderen Namen. Wie hieß er?",
+      "jahr": "1962",
+      "frage": "Wer schaffte in der Saison 1961/62 als Erster im Schnitt ein Triple-Double – also mehr als 10 Punkte, Rebounds und Assists pro Spiel?",
       "antworten": [
-        "Lew Alcindor",
-        "Bill Walton",
-        "Wes Unseld",
-        "Willis Reed"
+        "Bill Russell",
+        "Wilt Chamberlain",
+        "Oscar Robertson",
+        "Jerry West"
       ],
-      "richtig": 0,
-      "erklaerung": "Er hieß Lew Alcindor. 1971 nahm er den Namen Kareem Abdul-Jabbar an. Lange war er der beste Punktesammler der NBA-Geschichte."
+      "richtig": 2,
+      "erklaerung": "Oscar Robertson schaffte für die Cincinnati Royals im Schnitt 30,8 Punkte, 12,5 Rebounds und 11,4 Assists. Erst Russell Westbrook gelang das 2017 wieder."
     },
     {
       "liga": "BBL",
       "art": "legacy",
       "jahr": "2023",
-      "frage": "Welcher Bundesliga-Klub gewann 2023 die Basketball Champions League?",
+      "frage": "Welcher Klub wurde 2023 zum ersten Mal Deutscher Meister?",
       "antworten": [
-        "ALBA Berlin",
-        "Telekom Baskets Bonn",
         "ratiopharm ulm",
-        "Bamberg"
-      ],
-      "richtig": 1,
-      "erklaerung": "Die Telekom Baskets Bonn gewannen 2023 das Finale in Málaga. Es war ein großer Erfolg für den deutschen Basketball."
-    },
-    {
-      "liga": "NBA",
-      "frage": "Welchen Rekord stellte LeBron James beim Sieg der 76ers in Detroit auf?",
-      "antworten": [
-        "Als Erster 16.000 Feldkörbe",
-        "Die meisten Dreier in einem Spiel",
-        "Die meisten Blocks in einem Spiel",
-        "Der jüngste Spieler mit 1000 Punkten"
+        "MHP Riesen Ludwigsburg",
+        "Niners Chemnitz",
+        "Rostock Seawolves"
       ],
       "richtig": 0,
-      "erklaerung": "LeBron traf als erster NBA-Spieler 16.000 Feldkörbe. Ein Feldkorb ist jeder Treffer aus dem Spiel – also kein Freiwurf."
-    },
-    {
-      "liga": "BBL",
-      "frage": "Gegen welches Team spielt der FC Bayern am Donnerstagabend in der Euroleague?",
-      "antworten": [
-        "Real Madrid",
-        "ASVEL Villeurbanne",
-        "Fenerbahce",
-        "Panathinaikos"
-      ],
-      "richtig": 1,
-      "erklaerung": "Bayern spielt bei ASVEL Villeurbanne. Der Klub kommt aus der Nähe von Lyon in Frankreich."
+      "erklaerung": "ratiopharm ulm gewann 2023 die erste Meisterschaft der Vereinsgeschichte."
     },
     {
       "liga": "NBA",
-      "art": "legacy",
-      "jahr": "1992",
-      "frage": "Welches Team wählte Shaquille O'Neal 1992 im Draft an Nummer 1?",
+      "frage": "Welches Team steht in der NBA-Westtabelle ganz oben?",
       "antworten": [
+        "Oklahoma City Thunder",
         "Los Angeles Lakers",
-        "Miami Heat",
-        "Orlando Magic",
-        "Boston Celtics"
+        "Portland Trail Blazers",
+        "San Antonio Spurs"
       ],
       "richtig": 2,
-      "erklaerung": "Shaq kam 1992 als Nummer 1 zu den Orlando Magic. Erst später wechselte er zu den Lakers und gewann dort drei Titel in Folge."
+      "erklaerung": "Portland hat 6 Siege und nur 1 Niederlage und ist damit Tabellenführer im Westen."
     },
     {
       "liga": "BBL",
-      "frage": "Welches Team steht in Gruppe G der Champions League nach drei Spielen ungeschlagen ganz oben?",
+      "frage": "Gegen welches Team spielt ALBA Berlin am Freitagabend in der Bundesliga?",
       "antworten": [
-        "Surne Bilbao",
-        "Igokea",
-        "ALBA Berlin",
-        "Slavia Prag"
+        "Phoenix Hagen",
+        "Telekom Baskets Bonn",
+        "FC Bayern München",
+        "Rasta Vechta"
+      ],
+      "richtig": 0,
+      "erklaerung": "ALBA empfängt Phoenix Hagen um 20 Uhr in Berlin."
+    },
+    {
+      "liga": "NBA",
+      "art": "legacy",
+      "jahr": "1998",
+      "frage": "Dirk Nowitzki kam 1998 in die NBA. Welches Team wählte ihn im Draft aus, bevor er sofort nach Dallas getauscht wurde?",
+      "antworten": [
+        "Boston Celtics",
+        "Milwaukee Bucks",
+        "Chicago Bulls",
+        "Orlando Magic"
+      ],
+      "richtig": 1,
+      "erklaerung": "Milwaukee wählte Dirk an Nummer 9 und gab ihn noch am selben Abend per Tausch nach Dallas. Dort spielte er dann 21 Jahre lang."
+    },
+    {
+      "liga": "BBL",
+      "frage": "Was bekommt der Gegner nach einem unsportlichen Foul (FIBA-Regeln)?",
+      "antworten": [
+        "Nichts, das Spiel geht weiter",
+        "Nur einen Einwurf",
+        "Freiwürfe und danach den Ball",
+        "Einen Sprungball"
       ],
       "richtig": 2,
-      "erklaerung": "ALBA Berlin hat alle drei Gruppenspiele gewonnen. Am Dienstag geht es nach Bilbao zum Tabellenzweiten."
+      "erklaerung": "Nach einem unsportlichen Foul gibt es Freiwürfe und danach auch noch Ballbesitz. Die Strafe ist also doppelt."
     },
     {
       "liga": "BBL",
       "art": "legacy",
-      "jahr": "2010er",
-      "frage": "Welcher Klub wurde von 2010 bis 2013 viermal hintereinander deutscher Meister?",
+      "jahr": "2009",
+      "frage": "Welcher Klub wurde 2009 zum ersten Mal Deutscher Meister?",
       "antworten": [
-        "Bamberg",
-        "Bayer Leverkusen",
-        "FC Bayern",
-        "Oldenburg"
+        "Brose Bamberg",
+        "EWE Baskets Oldenburg",
+        "Skyliners Frankfurt",
+        "Telekom Baskets Bonn"
       ],
-      "richtig": 0,
-      "erklaerung": "Bamberg holte die Meisterschaft 2010, 2011, 2012 und 2013. Die Fans nennen ihre Stadt deshalb gern \"Freak City\"."
+      "richtig": 1,
+      "erklaerung": "Die EWE Baskets Oldenburg gewannen 2009 ihren ersten Meistertitel."
     },
     {
       "liga": "NBA",
-      "frage": "Was ist ein Triple-Double, wie es Nikola Jokić gegen Toronto schaffte?",
+      "frage": "Wie oft verloren die Orlando Magic gegen Phoenix den Ball?",
       "antworten": [
-        "Drei Dreier in Folge",
-        "Mindestens 10 in drei verschiedenen Statistiken",
-        "Dreimal hintereinander gewonnen",
-        "Drei Dunks in einem Viertel"
+        "8-mal",
+        "14-mal",
+        "25-mal",
+        "40-mal"
       ],
-      "richtig": 1,
-      "erklaerung": "Jokić hatte 32 Punkte, 10 Rebounds und 11 Assists – also in drei Werten mindestens 10. Das ist ein Triple-Double."
+      "richtig": 2,
+      "erklaerung": "25 Ballverluste sind sehr viele. Phoenix machte daraus 36 Punkte."
     }
   ],
   "lexikon": [
@@ -3103,6 +3263,16 @@
       "begriff": "Siegtreffer",
       "en": "game-winner",
       "erklaerung": "Der Korb ganz am Ende, der das Spiel entscheidet. Danach kann der Gegner nicht mehr ausgleichen."
+    },
+    {
+      "begriff": "Unsportliches Foul",
+      "en": "unsportsmanlike foul",
+      "erklaerung": "Ein Foul, bei dem der Verteidiger gar nicht versucht, den Ball zu spielen, oder sehr hart foult. Der Gegner bekommt Freiwürfe und danach auch noch den Ball."
+    },
+    {
+      "begriff": "Ballverlust",
+      "en": "turnover",
+      "erklaerung": "Wenn ein Team den Ball verliert, ohne zu werfen – zum Beispiel durch einen schlechten Pass oder einen Schrittfehler."
     }
   ],
   "teams": {
@@ -3734,66 +3904,60 @@
   "auffaellig": [
     {
       "art": "spieler",
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "titel": "Vladimir Lučić",
+      "team": "FCB",
+      "wert": "Die Wende",
+      "grund": "Bayern lag knapp zwei Minuten vor Schluss 89:92 hinten. Lučić traf zwei Freiwürfe und einen Zweier zur Führung – am Ende gewann Bayern 99:95.",
+      "newsId": "2026-11-06-bayern-asvel"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-05",
+      "titel": "Franz Wagner",
+      "team": "ORL",
+      "wert": "15 Assists",
+      "grund": "So viele Vorlagen gibt sonst meistens ein Spielmacher. Mit 15 Punkten und 15 Assists schaffte Franz Wagner ein Double-Double – Orlando verlor aber in Phoenix.",
+      "newsId": "2026-11-06-magic-suns-wagner-15-assists"
+    },
+    {
+      "art": "spiel",
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "heim": "EA7",
+      "gast": "VAL",
+      "wert": "33:14 im letzten Viertel",
+      "grund": "Valencia lag in Mailand nach drei Vierteln 8 Punkte hinten. Dann gewannen die Spanier das Schlussviertel mit 19 Punkten Unterschied – eine richtige Aufholjagd.",
+      "newsId": "2026-11-06-euroleague-paris-valencia"
+    },
+    {
+      "art": "spieler",
+      "liga": "EL",
+      "datum": "2026-11-05",
+      "titel": "Nadir Hifi",
+      "team": "PBB",
+      "wert": "28 Punkte, 9 Assists",
+      "grund": "Der Franzose führte Paris zum Auswärtssieg in Istanbul. Paris lag vor dem letzten Viertel noch hinten.",
+      "newsId": "2026-11-06-euroleague-paris-valencia"
+    },
+    {
+      "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-04",
       "titel": "Victor Wembanyama",
       "team": "SAS",
       "wert": "52 Punkte, 24 Rebounds",
-      "grund": "Zwei Karrierebestwerte in einem Spiel – dazu 8 Blocks. Nach der ersten Halbzeit hatte er schon 29 Punkte, 15 Rebounds und 5 Blocks; das gab es seit Beginn der genauen Spielaufzeichnung 1996 noch nie.",
+      "grund": "Zwei Karrierebestwerte in einem Spiel – dazu 8 Blocks. San Antonio gewann gegen Dallas mit nur einem Punkt Vorsprung.",
       "newsId": "2026-11-05-wembanyama-52"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-04",
-      "heim": "LAC",
-      "gast": "MIA",
-      "wert": "Siegtreffer nach 20 Punkten Rückstand",
-      "grund": "Miami lag schon 20 Punkte hinten. In der Verlängerung traf Klay Thompson eine Sekunde vor Schluss den Dreier zum 117:116.",
-      "newsId": "2026-11-05-klay-siegerdreier"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-04",
-      "titel": "Luka Dončić",
-      "team": "LAL",
-      "wert": "6-mal 35+",
-      "grund": "40 Punkte in Sacramento – sein sechstes Spiel in Folge mit mindestens 35 Punkten. Über 300 Punkte in den ersten acht Spielen hatte zuletzt Michael Jordan 1988/89.",
-      "newsId": "2026-11-05-klay-siegerdreier"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-04",
-      "titel": "Shai Gilgeous-Alexander",
-      "team": "OKC",
-      "wert": "42 Punkte",
-      "grund": "Zwei Tage nach seinen 43 Punkten in Cleveland legte er gegen dasselbe Team 42 nach – OKC gewann beide Spiele.",
-      "newsId": "2026-11-05-okc-cleveland-zweiter-sieg"
-    },
-    {
-      "art": "spiel",
-      "liga": "EL",
-      "datum": "2026-11-04",
-      "heim": "RMA",
-      "gast": "PAO",
-      "wert": "Verlängerung",
-      "grund": "Nach 40 Minuten stand es 101:101. In der Verlängerung gewann Panathinaikos 115:112 – ein Wiedersehen der beiden Finalisten der letzten Saison.",
-      "newsId": "2026-11-05-panathinaikos-real-verlaengerung"
-    },
-    {
-      "art": "spiel",
-      "liga": "BCL",
-      "datum": "2026-11-04",
-      "heim": "BON",
-      "gast": "HRZ",
-      "wert": "Spiel Nr. 1500",
-      "grund": "Die Telekom Baskets Bonn feierten ihr 1500. Pflichtspiel mit einem 101:89-Sieg. 101 Punkte hatte Bonn in der Champions League erst einmal übertroffen.",
-      "newsId": "2026-11-05-bonn-1500-spiel"
     }
   ],
   "legacyGestellt": [
+    "Oscar Robertson Triple-Double-Saison (1961/62)",
+    "Ulm erster Meistertitel (2023)",
+    "Dirk Nowitzki Draft Nr. 9 Milwaukee (1998)",
+    "Oldenburg erster Meistertitel (2009)",
     "Kareem Abdul-Jabbar hieß Lew Alcindor (1971)",
     "Bonn Champions-League-Sieg (2023)",
     "Shaquille O'Neal Draft Nr. 1 Orlando (1992)",
@@ -3962,22 +4126,67 @@
     }
   ],
   "schiri": {
-    "id": "2026-11-05",
-    "titel": "Beide halten den Ball fest",
+    "id": "2026-11-06",
+    "titel": "Festhalten beim Schnellangriff",
     "regel": "FIBA",
-    "situation": "Mia von Team Blau will einen Rebound fangen. Gleichzeitig packt Lena von Team Rot den Ball. Beide halten ihn mit beiden Händen fest und lassen nicht los. Keine kann den Ball ohne Gewalt bekommen.",
+    "situation": "Die Nummer 7 von Team Blau klaut den Ball und läuft allein zum Korb. Kein Verteidiger ist vor ihr. Die Nummer 4 von Team Rot rennt hinterher und hält sie von hinten am Trikot fest. Sie versucht gar nicht, den Ball zu spielen.",
     "frage": "Was pfeifst du?",
     "antworten": [
-      "Foul von Team Rot",
-      "Halteball – den Ball bekommt das Team, für das der Wechselpfeil zeigt",
-      "Sprungball am Mittelkreis",
-      "Weiterspielen, bis eine loslässt"
+      "Normales Foul – Einwurf für Blau",
+      "Unsportliches Foul – zwei Freiwürfe und danach Ball für Blau",
+      "Kein Foul, weil sie nicht geworfen hat",
+      "Technisches Foul gegen Team Blau"
     ],
     "richtig": 1,
-    "erklaerung": "Halten zwei Spielerinnen den Ball gleichzeitig fest, ist das ein Halteball. Nach FIBA-Regeln gibt es dann keinen Sprungball mehr: Der Wechselpfeil am Kampfgericht zeigt, welches Team den Ball zum Einwurf bekommt. Danach dreht sich der Pfeil um.",
-    "unterschied": "In der NBA gibt es bei einem Halteball einen Sprungball zwischen den beiden Spielern am nächsten Kreis. In der Bundesliga und in Europa (FIBA) entscheidet der Wechselpfeil."
+    "erklaerung": "Wer einen Gegner von hinten festhält, ohne den Ball spielen zu wollen, begeht ein unsportliches Foul. Blau bekommt zwei Freiwürfe und danach noch einmal den Ball. So lohnt sich Festhalten nie.",
+    "unterschied": "In der NBA heißt so ein Foul ‚Flagrant Foul' oder bei einem freien Weg zum Korb ‚Clear-Path-Foul'. Auch dort gibt es Freiwürfe und danach Ballbesitz.",
+    "skizze": {
+      "spieler": [
+        {
+          "x": 50,
+          "y": 40,
+          "team": "a",
+          "label": "7"
+        },
+        {
+          "x": 50,
+          "y": 52,
+          "team": "b",
+          "label": "4"
+        }
+      ],
+      "ball": {
+        "x": 51,
+        "y": 39
+      },
+      "pfeile": [
+        {
+          "von": [
+            50,
+            70
+          ],
+          "nach": [
+            50,
+            40
+          ],
+          "art": "dribbel"
+        },
+        {
+          "von": [
+            50,
+            80
+          ],
+          "nach": [
+            50,
+            52
+          ],
+          "art": "lauf"
+        }
+      ]
+    }
   },
   "schiriGestellt": [
+    "Festhalten von hinten beim Schnellangriff (unsportliches Foul)",
     "Beide halten den Ball (Halteball und Wechselpfeil)",
     "Ball zu lange in der eigenen Hälfte (8 Sekunden)",
     "Dribbling beendet und wieder losgedribbelt (Doppeldribbling)",
