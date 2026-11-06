@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-06T06:21:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-06",
-  "gruss": "Guten Morgen! Der FC Bayern hat in der Euroleague ein Krimi-Spiel in Frankreich gewonnen: Vladimir Lučić drehte die Partie kurz vor Schluss. Franz Wagner verteilte in Phoenix 15 Assists, Orlando verlor aber. Heute um 20 Uhr spielt ALBA in Berlin gegen Phoenix Hagen.",
+  "aktualisiert": "2026-11-06T16:18:00+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-06",
+  "gruss": "Hallo am Nachmittag! Stephen Curry hat in der Nacht 29 Punkte gegen Miami gemacht und ist jetzt Nummer 17 der ewigen Punkteliste der NBA. Golden State hat sechsmal in Folge gewonnen. Heute um 20 Uhr spielt ALBA in Berlin gegen Phoenix Hagen. In der Euroleague stehen heute Abend vier weitere Spiele an.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-06",
   "zahlDesTages": {
-    "zahl": "25",
-    "text": "So oft verloren die Orlando Magic in Phoenix den Ball. Die Suns machten aus diesen Ballverlusten 36 Punkte und gewannen 117:104."
+    "zahl": "6",
+    "text": "So viele Spiele haben die Golden State Warriors hintereinander gewonnen – nachdem sie die ersten drei Spiele der Saison verloren hatten."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -203,6 +203,51 @@
     ]
   },
   "news": [
+    {
+      "id": "2026-11-06-curry-warriors-sechs-siege",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "Curry überholt Oscar Robertson – sechster Sieg in Folge",
+      "teaser": "Golden State schlägt Miami 120:100. Stephen Curry macht 29 Punkte und klettert in der ewigen Punkteliste der NBA nach oben.",
+      "text": [
+        "Die Golden State Warriors sind nicht zu stoppen. In der Nacht auf Freitag gewannen sie zu Hause gegen die Miami Heat mit 120:100. Es war der sechste Sieg hintereinander. Dabei hatten die Warriors die ersten drei Spiele der Saison alle verloren.",
+        "Stephen Curry startete schlecht. Zur Pause hatte er nur 2 von 10 Würfen getroffen. Im dritten Viertel kam er dann richtig in Fahrt. Am Ende standen 29 Punkte und 6 Dreier auf seinem Konto. Golden State gewann das dritte Viertel 38:23 und setzte sich ab.",
+        "Schon im ersten Viertel gab es einen besonderen Moment: Mit einem Dreier zog Curry in der ewigen Punkteliste der NBA an der Legende Oscar Robertson vorbei. Jetzt ist er auf Platz 17.",
+        "Für Miami spielte Klay Thompson in seiner alten Halle. Er war jahrelang Currys Partner bei den Warriors. Die Fans begrüßten ihn mit viel Applaus. Thompson machte 11 Punkte. Am Samstag spielt Golden State gegen Orlando – mit Franz Wagner und Tristan da Silva."
+      ],
+      "fakten": [
+        "Endstand: Golden State 120, Miami 100",
+        "Stephen Curry (GSW): 29 Punkte, 6 Dreier",
+        "Draymond Green (GSW): 11 Assists",
+        "Giannis Antetokounmpo (MIA): 20 Punkte, 14 Rebounds",
+        "Golden State: 6 Siege in Folge nach 0:3-Start"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "MIA",
+        "ORL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Draymond Green",
+        "Yaxel Lendeborg",
+        "Georges Niang",
+        "Klay Thompson",
+        "Giannis Antetokounmpo",
+        "Davion Mitchell",
+        "Bam Adebayo",
+        "Andrew Wiggins",
+        "Franz Wagner",
+        "Tristan da Silva"
+      ]
+    },
     {
       "id": "2026-11-06-bayern-asvel",
       "liga": "EL",
@@ -712,42 +757,32 @@
         "Julius Randle",
         "Naz Reid"
       ]
-    },
-    {
-      "id": "2026-11-03-damen-kader",
-      "liga": "DBB",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-11-03",
-      "tags": [],
-      "titel": "Sieben WM-Heldinnen sind wieder dabei",
-      "teaser": "Bundestrainer Olaf Lange hat 13 Spielerinnen für den Start der EM-Qualifikation ausgewählt. Los geht es am 11. November in Hamburg.",
-      "text": [
-        "Im Sommer wurde die deutsche Damen-Mannschaft bei der WM in Berlin Vierte. Jetzt beginnt die Qualifikation für die Europameisterschaft 2027.",
-        "Bundestrainer Olaf Lange hat 13 Spielerinnen nominiert. Sieben davon waren schon bei der WM dabei. Mit dabei ist zum Beispiel Leonie Fiebich, die in der WNBA in New York spielt. Auch zwei Spielerinnen von ALBA BERLIN stehen im Kader: Alina Hartmann und Nina Rosemeyer.",
-        "Drei Spiele stehen an: Am 11. November gegen Ungarn in Hamburg, am 14. November in Dänemark und am 17. November in Portugal.",
-        "Die Europameisterschaft findet im Juni 2027 in vier Ländern statt: Belgien, Finnland, Schweden und Litauen."
-      ],
-      "fakten": [
-        "13 Spielerinnen nominiert, 7 davon aus dem WM-Kader",
-        "11.11.: Deutschland – Ungarn in Hamburg",
-        "14.11.: in Dänemark, 17.11.: in Portugal",
-        "EM 2027: 16. bis 27. Juni"
-      ],
-      "quellen": [
-        "basketball-bund.de"
-      ],
-      "teams": [
-        "GER",
-        "HUN",
-        "DNK",
-        "PRT",
-        "ALBA"
-      ],
-      "spieler": []
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-05",
+      "runde": "NBA",
+      "heim": "GSW",
+      "gast": "MIA",
+      "heimPkt": 120,
+      "gastPkt": 100,
+      "info": "Curry (GSW) 29 Punkte",
+      "newsId": "2026-11-06-curry-warriors-sechs-siege",
+      "bericht": {
+        "text": [
+          "Stephen Curry traf zur Pause nur 2 von 10 Würfen, Miami blieb lange dran. Im dritten Viertel drehte Golden State auf: Mit einem 26:9-Lauf und 38:23 im Viertel zogen die Warriors davon.",
+          "Curry beendete das Spiel mit 29 Punkten und 6 Dreiern. Draymond Green verteilte 11 Assists. Für Golden State war es der sechste Sieg in Folge."
+        ],
+        "highlights": [
+          "Stephen Curry (GSW): 29 Punkte, 6 Dreier",
+          "Yaxel Lendeborg (GSW): 17 Punkte, 8 Rebounds",
+          "Giannis Antetokounmpo (MIA): 20 Punkte, 14 Rebounds",
+          "Curry überholt Oscar Robertson: Platz 17 der ewigen Punkteliste"
+        ]
+      }
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-05",
@@ -1410,13 +1445,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-06T04:00:00+01:00",
-      "heim": "GSW",
-      "gast": "MIA",
-      "info": "mit Curry"
-    },
-    {
       "liga": "EL",
       "zeit": "2026-11-06T18:00:00+01:00",
       "heim": "BES",
@@ -2006,7 +2034,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 06.11., 06:21 Uhr · nach den Spielen vom 05.11. (US-Zeit)",
+      "stand": "Stand: 06.11., 16:18 Uhr · nach den Spielen vom 05.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2054,13 +2082,13 @@
           "n": 2
         },
         {
-          "team": "MIN",
+          "team": "GSW",
           "s": 6,
           "n": 3
         },
         {
-          "team": "GSW",
-          "s": 5,
+          "team": "MIN",
+          "s": 6,
           "n": 3
         },
         {
@@ -2102,7 +2130,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 06.11., 06:21 Uhr · nach den Spielen vom 05.11. (US-Zeit)",
+      "stand": "Stand: 06.11., 16:18 Uhr · nach den Spielen vom 05.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2160,12 +2188,12 @@
           "n": 4
         },
         {
-          "team": "MIA",
+          "team": "CHA",
           "s": 3,
-          "n": 5
+          "n": 6
         },
         {
-          "team": "CHA",
+          "team": "MIA",
           "s": 3,
           "n": 6
         },
@@ -2723,10 +2751,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 6,
-        "pkt": 30.0,
-        "reb": 4.2,
-        "ast": 4.5
+        "spiele": 7,
+        "pkt": 29.9,
+        "reb": 3.7,
+        "ast": 4.4
       },
       "notiz": "Der beste Dreierschütze der Geschichte. Gegen Phoenix machte er 34 Punkte – Golden State hat jetzt fünfmal in Folge gewonnen."
     },
@@ -2738,10 +2766,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 7,
-        "pkt": 20.3,
-        "reb": 6.1,
-        "ast": 7.6
+        "spiele": 8,
+        "pkt": 19.6,
+        "reb": 6.4,
+        "ast": 8.5
       },
       "notiz": "Orlandos Allrounder. In Phoenix verteilte er 15 Assists und machte 15 Punkte – Orlando verlor aber 104:117."
     },
@@ -2794,10 +2822,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 7,
-        "pkt": 14.1,
-        "reb": 3.4,
-        "ast": 1.7
+        "spiele": 8,
+        "pkt": 14.6,
+        "reb": 3.3,
+        "ast": 1.6
       },
       "notiz": "Kommt oft von der Bank. In Phoenix traf er 4 Dreier und machte 18 Punkte."
     },
@@ -3904,6 +3932,16 @@
   "auffaellig": [
     {
       "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-05",
+      "titel": "Stephen Curry",
+      "team": "GSW",
+      "wert": "Platz 17",
+      "grund": "Mit einem Dreier überholte Curry die Legende Oscar Robertson in der ewigen Punkteliste der NBA. Am Ende hatte er 29 Punkte – Golden State gewann zum sechsten Mal in Folge.",
+      "newsId": "2026-11-06-curry-warriors-sechs-siege"
+    },
+    {
+      "art": "spieler",
       "liga": "EL",
       "datum": "2026-11-05",
       "titel": "Vladimir Lučić",
@@ -3930,16 +3968,6 @@
       "gast": "VAL",
       "wert": "33:14 im letzten Viertel",
       "grund": "Valencia lag in Mailand nach drei Vierteln 8 Punkte hinten. Dann gewannen die Spanier das Schlussviertel mit 19 Punkten Unterschied – eine richtige Aufholjagd.",
-      "newsId": "2026-11-06-euroleague-paris-valencia"
-    },
-    {
-      "art": "spieler",
-      "liga": "EL",
-      "datum": "2026-11-05",
-      "titel": "Nadir Hifi",
-      "team": "PBB",
-      "wert": "28 Punkte, 9 Assists",
-      "grund": "Der Franzose führte Paris zum Auswärtssieg in Istanbul. Paris lag vor dem letzten Viertel noch hinten.",
       "newsId": "2026-11-06-euroleague-paris-valencia"
     },
     {

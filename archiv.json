@@ -274,6 +274,39 @@
       ]
     },
     {
+      "id": "2026-11-03-damen-kader",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-03",
+      "tags": [],
+      "titel": "Sieben WM-Heldinnen sind wieder dabei",
+      "teaser": "Bundestrainer Olaf Lange hat 13 Spielerinnen für den Start der EM-Qualifikation ausgewählt. Los geht es am 11. November in Hamburg.",
+      "text": [
+        "Im Sommer wurde die deutsche Damen-Mannschaft bei der WM in Berlin Vierte. Jetzt beginnt die Qualifikation für die Europameisterschaft 2027.",
+        "Bundestrainer Olaf Lange hat 13 Spielerinnen nominiert. Sieben davon waren schon bei der WM dabei. Mit dabei ist zum Beispiel Leonie Fiebich, die in der WNBA in New York spielt. Auch zwei Spielerinnen von ALBA BERLIN stehen im Kader: Alina Hartmann und Nina Rosemeyer.",
+        "Drei Spiele stehen an: Am 11. November gegen Ungarn in Hamburg, am 14. November in Dänemark und am 17. November in Portugal.",
+        "Die Europameisterschaft findet im Juni 2027 in vier Ländern statt: Belgien, Finnland, Schweden und Litauen."
+      ],
+      "fakten": [
+        "13 Spielerinnen nominiert, 7 davon aus dem WM-Kader",
+        "11.11.: Deutschland – Ungarn in Hamburg",
+        "14.11.: in Dänemark, 17.11.: in Portugal",
+        "EM 2027: 16. bis 27. Juni"
+      ],
+      "quellen": [
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "GER",
+        "HUN",
+        "DNK",
+        "PRT",
+        "ALBA"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-03-sga-43",
       "liga": "NBA",
       "lang": "de",
