@@ -172,6 +172,132 @@
       }
     ]
   },
+  "werIst": {
+    "id": "2026-11-07",
+    "fragen": [
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Kein Spieler der NBA-Geschichte hat mehr Dreier getroffen als er.",
+          "Sein Spitzname ist „Chef Curry“.",
+          "Nach wichtigen Treffern legt er die Hände an die Wange, als würde er schlafen: „Gute Nacht!“"
+        ],
+        "antworten": [
+          "Klay Thompson",
+          "Stephen Curry",
+          "Damian Lillard"
+        ],
+        "richtig": 1,
+        "erklaerung": "Stephen Curry von den Golden State Warriors hat die Art verändert, wie Basketball gespielt wird – Dreier von ganz weit draußen."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Sein berühmtester Wurf: auf einem Bein nach hinten springend, der „Fadeaway“.",
+          "Er spielte 21 Jahre lang für dasselbe Team, die Dallas Mavericks.",
+          "2011 wurde er NBA-Meister und bester Spieler der Finals. Er kommt aus Würzburg."
+        ],
+        "antworten": [
+          "Dirk Nowitzki",
+          "Detlef Schrempf",
+          "Dennis Schröder"
+        ],
+        "richtig": 0,
+        "erklaerung": "Dirk Nowitzki ist der erfolgreichste deutsche Basketballer aller Zeiten."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Sein Spitzname ist „King James“.",
+          "Vor Spielen warf er Puder in die Luft, das war sein Ritual.",
+          "Er hat in der NBA mehr Punkte erzielt als jeder andere Spieler."
+        ],
+        "antworten": [
+          "Kevin Durant",
+          "Giannis Antetokounmpo",
+          "LeBron James"
+        ],
+        "richtig": 2,
+        "erklaerung": "LeBron James hat Kareem Abdul-Jabbars Punkterekord geknackt und ist seitdem der beste Werfer der NBA-Geschichte."
+      },
+      {
+        "liga": "Deutschland",
+        "hinweise": [
+          "Er ist ein schneller Aufbauspieler aus Braunschweig.",
+          "Als Kapitän führte er Deutschland 2023 zum WM-Titel.",
+          "Bei dieser WM wurde er zum besten Spieler des ganzen Turniers gewählt."
+        ],
+        "antworten": [
+          "Franz Wagner",
+          "Dennis Schröder",
+          "Daniel Theis"
+        ],
+        "richtig": 1,
+        "erklaerung": "Dennis Schröder war der wertvollste Spieler (MVP) der Weltmeisterschaft 2023."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Sein Spitzname ist „Greek Freak“ – der griechische Wahnsinn.",
+          "Er ist in Athen aufgewachsen.",
+          "2021 wurde er mit den Milwaukee Bucks Meister und war der beste Spieler der Finals."
+        ],
+        "antworten": [
+          "Giannis Antetokounmpo",
+          "Luka Dončić",
+          "Nikola Jokić"
+        ],
+        "richtig": 0,
+        "erklaerung": "Giannis Antetokounmpo ist riesig, schnell und kann mit wenigen Schritten übers halbe Feld laufen."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er ist Center und kommt aus Serbien.",
+          "Für einen so großen Spieler ist er ein unglaublicher Passgeber.",
+          "Sein Spitzname ist „Joker“, und er liebt Pferde."
+        ],
+        "antworten": [
+          "Joel Embiid",
+          "Victor Wembanyama",
+          "Nikola Jokić"
+        ],
+        "richtig": 2,
+        "erklaerung": "Nikola Jokić von den Denver Nuggets wurde mehrmals zum besten Spieler der NBA gewählt (MVP)."
+      },
+      {
+        "liga": "NBA-Legende",
+        "hinweise": [
+          "Sein Markenzeichen war der „Skyhook“, ein Hakenwurf hoch über dem Kopf.",
+          "Er spielte oft mit einer Schutzbrille.",
+          "Fast 39 Jahre lang hatte er den Rekord für die meisten NBA-Punkte."
+        ],
+        "antworten": [
+          "Kareem Abdul-Jabbar",
+          "Wilt Chamberlain",
+          "Bill Russell"
+        ],
+        "richtig": 0,
+        "erklaerung": "Kareem Abdul-Jabbar gewann sechs NBA-Titel. Seinen Skyhook konnte kaum jemand blocken."
+      },
+      {
+        "liga": "NBA-Legende",
+        "hinweise": [
+          "Sein Spitzname ist „Shaq“.",
+          "Er war so groß und stark, dass er bei Dunks schon Körbe kaputt gemacht hat.",
+          "Freiwürfe waren seine Schwäche – Gegner foulten ihn deshalb manchmal mit Absicht."
+        ],
+        "antworten": [
+          "Hakeem Olajuwon",
+          "Shaquille O'Neal",
+          "Dwight Howard"
+        ],
+        "richtig": 1,
+        "erklaerung": "Shaquille O'Neal gewann vier NBA-Titel, drei davon mit den Los Angeles Lakers."
+      }
+    ]
+  },
+  "werGestellt": ["Stephen Curry", "Dirk Nowitzki", "LeBron James", "Dennis Schröder", "Giannis Antetokounmpo", "Nikola Jokić", "Kareem Abdul-Jabbar", "Shaquille O'Neal"],
   "news": [
     {
       "id": "2026-11-07-okc-ajay-mitchell-35",

@@ -440,6 +440,8 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
 .game-wahl p { margin: 0; }
 .game-rek { font-weight: 800; color: var(--ink-soft); }
 .game-rek b { color: var(--orange-ink); font-size: 18px; }
+.wer-hinweise { margin: 0; padding-left: 22px; display: grid; gap: 6px; font-weight: 700; font-size: 17px; }
+.wer-hinweise li::marker { color: var(--orange-ink); font-weight: 800; }
 .quiz .plus { color: var(--good); font-weight: 800; }
 
 .empty { padding: 40px 20px; text-align: center; color: var(--ink-soft); font-weight: 700; }
@@ -836,7 +838,24 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       '<div class="answers">' + s.antworten.map((a, i) => '<button data-schiri="' + i + '"' + (done ? " disabled" : "") + ' class="' + (done ? (i === s.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
       (done ? '<p class="expl">' + (pick === s.richtig ? "Richtig gepfiffen! " : "Knapp daneben. ") + esc(s.erklaerung || "") + "</p>" + (s.unterschied ? '<p class="teaser"><b>NBA oder FIBA?</b> ' + esc(s.unterschied) + "</p>" : "") : "") + "</div></section>";
   }
-  function vQuiz() { return '<div class="view">' + quizSec() + schiriSec() + "</div>"; }
+  // „Who is it?“: Markenzeichen bekannter Spieler, 3 Antworten; zählt wie das Tagesquiz fürs Game-Guthaben
+  function werSec() {
+    const W = D.werIst || {}, F = W.fragen || [];
+    if (!F.length) return "";
+    const key = "wer_" + (W.id || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
+    const kopf = '<div class="sec-h"><h2>Who is it?</h2><p>' + (st.i < F.length ? "Frage " + (st.i + 1) + " von " + F.length + " · " : "") + "Drei Hinweise, drei Namen – wer ist gemeint?</p></div>";
+    const prog = '<div class="prog">' + F.map((q, i) => '<i class="' + (i < st.picks.length ? (st.picks[i] === q.richtig ? "ok" : "no") : i === st.i ? "cur" : "") + '"></i>').join("") + "</div>";
+    if (st.i >= F.length) {
+      const pts = st.picks.filter((p, i) => p === F[i].richtig).length;
+      return '<section class="sec">' + kopf + '<div class="card quiz wer">' + prog + '<span class="score">' + pts + " von " + F.length + '</span><p style="margin:0;font-weight:800">' + (pts === F.length ? "Alle erkannt! Du kennst die Stars." : pts >= F.length / 2 ? "Stark – du hast die meisten erkannt!" : "Gut gemacht! Morgen gibt es neue Spieler.") + '</p><button class="btn" data-wer="reset">Nochmal spielen</button></div></section>';
+    }
+    const q = F[st.i], answered = st.picks.length > st.i, pick = st.picks[st.i];
+    return '<section class="sec">' + kopf + '<div class="card quiz wer">' + prog + (q.liga ? '<span class="pill">' + esc(q.liga) + "</span>" : "") +
+      '<ol class="wer-hinweise">' + (q.hinweise || []).map(h => "<li>" + linkTerms(h) + "</li>").join("") + '</ol><div class="answers">' +
+      q.antworten.map((a, i) => '<button data-wer-ans="' + i + '"' + (answered ? " disabled" : "") + ' class="' + (answered ? (i === q.richtig ? "ok" : i === pick ? "no" : "") : "") + '">' + esc(a) + "</button>").join("") + "</div>" +
+      (answered ? '<p class="expl">' + (pick === q.richtig ? "Richtig! " : "Leider falsch – es ist " + esc(q.antworten[q.richtig]) + ". ") + esc(q.erklaerung || "") + (pick === q.richtig && !st.wdh ? ' <span class="plus">' + (gameRichtig() % 2 ? "🏀 +1 Spiel im Game-Tab" : "🏀 Die nächste richtige Antwort bringt ein neues Spiel") + "</span>" : "") + '</p><button class="btn" data-wer="next">' + (st.i + 1 < F.length ? "Nächster Spieler" : "Ergebnis zeigen") + "</button>" : "") + "</div></section>";
+  }
+  function vQuiz() { return '<div class="view">' + quizSec() + werSec() + schiriSec() + "</div>"; }
   function quizSec() {
     const Q = D.quiz || [];
     const key = "quiz_" + (D.quizId || D.aktualisiert);
@@ -932,7 +951,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       Object.keys(groups).map(k => '<section class="sec"><div class="sec-h"><h2>' + esc(k) + '</h2><p>aus dem Archiv</p></div><div class="grid">' + groups[k].map(n => newsCard(n)).join("") + "</div></section>").join("") + "</div>";
   }
   /* ---------- Game: Korbwurf-Spiel ----------
-     Guthaben: 1 Spiel je 2 Quizfragen, die beim ERSTEN Versuch richtig beantwortet wurden, aufgerundet
+     Guthaben: 1 Spiel je 2 Fragen (Tagesquiz und „Who is it?“ zusammen), die beim ERSTEN Versuch richtig beantwortet wurden, aufgerundet
      (game_erst: {quizId: {Frage: true/false}}), minus gespielte Spiele (game_gespielt). Alles nur auf diesem Gerät gespeichert; Guthaben verfällt nicht. */
   const GAME_WUERFE = 10;
   let G = null, Gletzt = null;
@@ -947,7 +966,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     if (G) return '<div class="view"><div class="game-top"><span>Wurf<b id="g-wurf">1/' + GAME_WUERFE + '</b></span><span>Punkte<b id="g-pkt">0</b></span><span>Rekord<b>' + rek + '</b></span></div><div class="card game-feld"><canvas id="gcv" width="400" height="560" aria-label="Wurfspiel: vom Ball wegziehen und loslassen"></canvas><p class="game-tipp" id="g-tipp">Zieh vom Ball weg und lass los!</p></div></div>';
     const gut = gameGuthaben();
     const karte = (art, titel, text, r) => '<div class="card game-wahl"><h3>' + titel + "</h3><p>" + text + '</p><span class="game-rek">Dein Rekord: <b>' + r + "</b></span>" + (gut ? '<button class="btn" data-gstart="' + art + '">Spielen</button>' : "") + "</div>";
-    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Korbjäger-Game</h2><p>Für je zwei Quizfragen, die du beim ersten Versuch richtig beantwortest, bekommst du ein Spiel. Schon die erste richtige Antwort bringt ein Spiel.</p></div>' +
+    return '<div class="view"><section class="sec"><div class="sec-h"><h2>Korbjäger-Game</h2><p>Jede richtige Antwort im Tagesquiz und bei „Who is it?“ zählt einen halben Punkt – beim ersten Versuch. Zwei richtige Antworten sind ein Spiel, schon die erste bringt ein Spiel.</p></div>' +
       (Gletzt ? '<div class="card game-ergebnis"><span>Letztes Spiel · ' + Gletzt.titel + "</span><b>" + Gletzt.punkte + " Punkte" + (Gletzt.rekord ? " – neuer Rekord! 🏆" : "") + "</b><span>" + Gletzt.zeile + "</span></div>" : "") +
       '<div class="card game-start"><div class="game-zahlen"><div><b>' + gut + "</b><span>" + (gut === 1 ? "Spiel übrig" : "Spiele übrig") + "</span></div></div>" +
       (gut ? '<p style="margin:0;font-weight:700">Jedes Spiel kostet eins davon. Such dir aus, was du spielen willst:</p>' : '<p style="margin:0;font-weight:700">Gerade hast du keine Spiele. Beantworte Fragen im Quiz, dann geht es los!</p><button class="btn" data-tab="quiz">Zum Quiz</button>') + "</div>" +
@@ -1467,6 +1486,13 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.schiri != null) {
       const key = "schiri_" + ((D.schiri || {}).id || D.aktualisiert);
       if (store.get(key, null) == null) { store.set(key, Number(b.dataset.schiri)); render(); }
+    }
+    else if (b.dataset.werAns != null || b.dataset.wer) {
+      const W = D.werIst || {}, key = "wer_" + (W.id || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
+      if (b.dataset.werAns != null && st.picks.length === st.i) { st.picks.push(Number(b.dataset.werAns)); gameErst(key, st.i, Number(b.dataset.werAns) === ((W.fragen || [])[st.i] || {}).richtig); }
+      else if (b.dataset.wer === "next") st.i++;
+      else if (b.dataset.wer === "reset") { st.i = 0; st.picks = []; st.wdh = true; } // Wiederholung: bringt kein neues Spiel-Guthaben
+      store.set(key, st); render();
     }
     else if (b.dataset.ans != null || b.dataset.quiz) {
       const key = "quiz_" + (D.quizId || D.aktualisiert), st = store.get(key, { i: 0, picks: [] });
