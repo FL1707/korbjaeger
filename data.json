@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-07T06:45:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-07",
-  "gruss": "Guten Morgen! Ajay Mitchell hat für Oklahoma City 35 Punkte gemacht – so viele wie noch nie. OKC gewann in Memphis 128:97. ALBA schlug Phoenix Hagen nach starker zweiter Halbzeit 102:72. In der Nacht auf Sonntag trifft Stephen Curry mit Golden State auf Franz Wagner und Tristan da Silva.",
+  "aktualisiert": "2026-11-07T16:16:00+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-07",
+  "gruss": "Hallo am Nachmittag! Luka Dončić hat in der Nacht 53 Punkte gemacht und die Lakers zum Sieg gegen Portland geführt. Victor Wembanyama legte für San Antonio 30 Punkte und 14 Rebounds nach. Heute Abend ist Bundesliga-Spieltag, und in der Nacht trifft Stephen Curry mit Golden State auf Franz Wagner und Tristan da Silva.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-07",
   "zahlDesTages": {
-    "zahl": "16",
-    "text": "So viele Spiele hintereinander hat Oklahoma City gegen die Memphis Grizzlies gewonnen – zuletzt 128:97 in der Nacht auf Samstag."
+    "zahl": "53",
+    "text": "So viele Punkte machte Luka Dončić beim 124:118 der Lakers gegen Portland – sein 11. Spiel mit mindestens 50 Punkten in der NBA."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -201,7 +201,16 @@
       }
     ]
   },
-  "werGestellt": ["Stephen Curry", "Dirk Nowitzki", "LeBron James", "Dennis Schröder", "Giannis Antetokounmpo", "Nikola Jokić", "Kareem Abdul-Jabbar", "Shaquille O'Neal"],
+  "werGestellt": [
+    "Stephen Curry",
+    "Dirk Nowitzki",
+    "LeBron James",
+    "Dennis Schröder",
+    "Giannis Antetokounmpo",
+    "Nikola Jokić",
+    "Kareem Abdul-Jabbar",
+    "Shaquille O'Neal"
+  ],
   "bild": {
     "datum": "2026-11-07",
     "liga": "BBL",
@@ -221,6 +230,87 @@
     "erklaerung": "Beim 102:72 gegen Phoenix Hagen hat ALBA-Neuzugang Jordan Ford alle drei Dreier getroffen, die er versucht hat. Mit 19 Punkten war er der beste Werfer des Abends. Nach der Pause verteidigte ALBA viel aggressiver und gewann allein das dritte Viertel mit 27:11."
   },
   "news": [
+    {
+      "id": "2026-11-07-luka-53-lakers-blazers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "53 Punkte! Luka Dončić rettet den Lakers den Sieg",
+      "teaser": "Die Lakers schlagen Portland 124:118. Luka Dončić macht 53 Punkte und trifft kurz vor Schluss den wichtigsten Wurf.",
+      "text": [
+        "Luka Dončić hört einfach nicht auf zu treffen. In der Nacht auf Samstag machte er beim 124:118 der Los Angeles Lakers gegen die Portland Trail Blazers 53 Punkte. Es war schon sein 11. Spiel in der NBA mit mindestens 50 Punkten – vier davon für die Lakers.",
+        "Dabei sah es lange nicht gut aus. Im zweiten Viertel lagen die Lakers mit 16 Punkten hinten. Dann drehte Dončić auf: Allein im dritten Viertel machte er 20 Punkte. Mit einem 32:11-Lauf gingen die Lakers selbst mit 16 Punkten in Führung.",
+        "Portland kam am Ende noch einmal auf vier Punkte heran. 28 Sekunden vor Schluss traf Dončić einen wichtigen Wurf aus der Zone, dann machten er und Austin Reaves an der Freiwurflinie alles klar. Reaves kam auf 25 Punkte, Walker Kessler auf 16 Punkte und 12 Rebounds.",
+        "Dončić hat jetzt viermal hintereinander mindestens 40 Punkte gemacht. Das haben bei den Lakers vor ihm nur Elgin Baylor, Kobe Bryant und George Mikan geschafft. Die Lakers (8 Siege, 2 Niederlagen) stehen damit ganz oben im Westen. In der Nacht auf Montag (0 Uhr) spielen sie in Detroit."
+      ],
+      "fakten": [
+        "Endstand: Lakers 124, Portland 118",
+        "Luka Dončić (LAL): 53 Punkte, 17 von 33 Würfen",
+        "Austin Reaves (LAL): 25 Punkte",
+        "Deni Avdija (POR): 22 Punkte, 11 Assists, 9 Rebounds",
+        "Damian Lillard (POR): 22 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "LAL",
+        "POR",
+        "DET"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Deni Avdija",
+        "Damian Lillard",
+        "Donovan Clingan",
+        "Toumani Camara"
+      ]
+    },
+    {
+      "id": "2026-11-07-spurs-kings-wembanyama",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Wembanyama legt nach: Spurs siegen in Sacramento",
+      "teaser": "Zwei Tage nach seinen 52 Punkten macht Victor Wembanyama 30 Punkte und holt 14 Rebounds. San Antonio gewinnt 124:109.",
+      "text": [
+        "Victor Wembanyama ist weiter in Topform. Beim 124:109-Sieg der San Antonio Spurs in Sacramento machte er 30 Punkte und holte 14 Rebounds. Zwei Tage vorher hatte er gegen Dallas 52 Punkte und 24 Rebounds geschafft.",
+        "Die Spurs legten schon in der ersten Halbzeit 75 Punkte auf und führten zur Pause mit 19 Punkten. Wembanyama machte im zweiten Viertel 12 Punkte am Stück. Stephon Castle, Devin Vassell und Dylan Harper kamen jeweils auf 19 Punkte.",
+        "Bei den Kings war Rookie Darius Acuff Jr. mit 22 Punkten und 8 Assists der Beste. Sacramento hat erst ein Spiel gewonnen und acht verloren. Die Spurs (7 Siege, 2 Niederlagen) spielen schon in der Nacht auf Sonntag (4 Uhr) in Portland."
+      ],
+      "fakten": [
+        "Endstand: Sacramento 109, San Antonio 124",
+        "Victor Wembanyama (SAS): 30 Punkte, 14 Rebounds",
+        "Castle, Vassell und Harper (SAS): je 19 Punkte",
+        "Darius Acuff Jr. (SAC): 22 Punkte, 8 Assists",
+        "Spurs: 33 von 42 Freiwürfen getroffen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "SAC",
+        "POR"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Stephon Castle",
+        "Devin Vassell",
+        "Dylan Harper",
+        "Harrison Barnes",
+        "Darius Acuff Jr.",
+        "Domantas Sabonis"
+      ]
+    },
     {
       "id": "2026-11-07-okc-ajay-mitchell-35",
       "liga": "NBA",
@@ -712,47 +802,6 @@
       "spieler": []
     },
     {
-      "id": "2026-11-05-wembanyama-52",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "block",
-      "datum": "2026-11-05",
-      "tags": [],
-      "titel": "52 Punkte, 24 Rebounds: Wembanyamas Riesen-Nacht",
-      "teaser": "Victor Wembanyama stellt zwei Karrierebestwerte auf einmal auf. Die Spurs schlagen Dallas mit einem Punkt Vorsprung.",
-      "text": [
-        "In der Nacht auf Donnerstag war Victor Wembanyama für Dallas einfach zu groß. Der Franzose machte 52 Punkte und holte 24 Rebounds. Beides hatte er in der NBA noch nie geschafft – zwei Karrierebestwerte in einem Spiel!",
-        "Dazu blockte er 8 Würfe. Einmal blockte er sogar dreimal in 13 Sekunden – im selben Angriff der Mavericks. Schon zur Halbzeit hatte er 29 Punkte, 15 Rebounds und 5 Blocks. Seit die NBA 1996 anfing, jede Spielszene genau aufzuschreiben, hat das kein Spieler in einer Halbzeit geschafft.",
-        "Trotzdem wurde es ganz eng. Wembanyama traf am Ende nur einen von zwei Freiwürfen zum 112:111. Dann hatte Dallas noch eine Chance: Kyrie Irving warf drei Sekunden vor Schluss aus gut vier Metern – daneben. Dylan Harper holte den Rebound, und San Antonio jubelte.",
-        "Für die Spurs war es der sechste Sieg in Folge. Mit Wembanyama auf dem Feld waren sie 23 Punkte besser als Dallas. Saß er auf der Bank, lagen sie 22 Punkte hinten. Das zeigt, wie wichtig er ist."
-      ],
-      "fakten": [
-        "Endstand: San Antonio 112, Dallas 111",
-        "Victor Wembanyama: 52 Punkte, 24 Rebounds, 8 Blocks",
-        "Er traf 16 von 28 Würfen und 19 von 23 Freiwürfen",
-        "Dylan Harper (SAS): 21 Punkte",
-        "Kyrie Irving (DAL): 29 Punkte, Cooper Flagg: 19 Punkte",
-        "San Antonio hat 6 Spiele in Folge gewonnen"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "SAS",
-        "DAL"
-      ],
-      "spieler": [
-        "Victor Wembanyama",
-        "Dylan Harper",
-        "Stephon Castle",
-        "Kyrie Irving",
-        "Cooper Flagg",
-        "P.J. Washington",
-        "Naji Marshall"
-      ]
-    },
-    {
       "id": "2026-11-05-nets-hornets",
       "liga": "NBA",
       "lang": "de",
@@ -950,6 +999,51 @@
           "Jaden McDaniels (MIN): 23 Punkte",
           "LaMelo Ball (MIN): 22 Punkte, 8 Assists",
           "Jeremiah Fears (NOP): 24 Punkte"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-06",
+      "runde": "NBA · NBA Cup",
+      "heim": "LAL",
+      "gast": "POR",
+      "heimPkt": 124,
+      "gastPkt": 118,
+      "info": "Dončić (LAL) 53 Punkte",
+      "newsId": "2026-11-07-luka-53-lakers-blazers",
+      "bericht": {
+        "text": [
+          "Die Lakers lagen im zweiten Viertel mit 16 Punkten hinten. Dann machte Luka Dončić allein im dritten Viertel 20 Punkte, und ein 32:11-Lauf brachte die Lakers vorn.",
+          "Portland kam am Ende auf vier Punkte heran, doch Dončić traf 28 Sekunden vor Schluss einen wichtigen Wurf."
+        ],
+        "highlights": [
+          "Luka Dončić (LAL): 53 Punkte – sein 11. Spiel mit 50+",
+          "Austin Reaves (LAL): 25 Punkte",
+          "Deni Avdija (POR): 22 Punkte, 11 Assists",
+          "Lakers: 4. Sieg in Folge"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-06",
+      "runde": "NBA · NBA Cup",
+      "heim": "SAC",
+      "gast": "SAS",
+      "heimPkt": 109,
+      "gastPkt": 124,
+      "info": "Wembanyama (SAS) 30 Pkt., 14 Reb.",
+      "newsId": "2026-11-07-spurs-kings-wembanyama",
+      "bericht": {
+        "text": [
+          "San Antonio machte in der ersten Halbzeit 75 Punkte und führte zur Pause mit 19 Punkten. Danach ließen die Spurs nichts mehr anbrennen.",
+          "Victor Wembanyama war mit 30 Punkten und 14 Rebounds wieder der Beste auf dem Feld."
+        ],
+        "highlights": [
+          "Victor Wembanyama (SAS): 30 Punkte, 14 Rebounds",
+          "Castle, Vassell, Harper (SAS): je 19 Punkte",
+          "Darius Acuff Jr. (SAC): 22 Punkte"
         ]
       }
     },
@@ -1606,19 +1700,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-07T04:00:00+01:00",
-      "heim": "LAL",
-      "gast": "POR",
-      "tv": "PRIME"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-07T04:00:00+01:00",
-      "heim": "SAC",
-      "gast": "SAS"
-    },
-    {
       "liga": "BBL",
       "zeit": "2026-11-07T18:30:00+01:00",
       "heim": "ROS",
@@ -2203,7 +2284,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 07.11., 06:45 Uhr · nach den Spielen vom 06.11. (US-Zeit), ohne Lakers–Portland und Sacramento–San Antonio (liefen noch)",
+      "stand": "Stand: 07.11., 16:15 Uhr · nach allen Spielen vom 06.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2221,13 +2302,8 @@
       "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
       "zeilen": [
         {
-          "team": "POR",
-          "s": 6,
-          "n": 1
-        },
-        {
           "team": "LAL",
-          "s": 7,
+          "s": 8,
           "n": 2
         },
         {
@@ -2242,6 +2318,11 @@
         },
         {
           "team": "SAS",
+          "s": 7,
+          "n": 2
+        },
+        {
+          "team": "POR",
           "s": 6,
           "n": 2
         },
@@ -2286,12 +2367,12 @@
           "n": 7
         },
         {
-          "team": "SAC",
+          "team": "UTA",
           "s": 1,
-          "n": 7
+          "n": 8
         },
         {
-          "team": "UTA",
+          "team": "SAC",
           "s": 1,
           "n": 8
         }
@@ -2299,7 +2380,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 07.11., 06:45 Uhr · nach den Spielen vom 06.11. (US-Zeit), ohne Lakers–Portland und Sacramento–San Antonio (liefen noch)",
+      "stand": "Stand: 07.11., 16:15 Uhr · nach allen Spielen vom 06.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2906,10 +2987,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 30.1,
-        "reb": 4.3,
-        "ast": 4.5
+        "spiele": 9,
+        "pkt": 29.9,
+        "reb": 4.1,
+        "ast": 4.4
       },
       "notiz": "Der Superstar der Thunder. Gegen Cleveland machte er erst 43 und zwei Tage später 42 Punkte – OKC gewann beide Spiele."
     },
@@ -2977,10 +3058,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 8.1,
-        "reb": 10.1,
-        "ast": 2.5
+        "spiele": 9,
+        "pkt": 7.4,
+        "reb": 9.7,
+        "ast": 3.0
       },
       "notiz": "Der deutsche Center der Oklahoma City Thunder. Beim 124:116 gegen Cleveland holte er 12 Rebounds."
     },
@@ -3004,10 +3085,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 3,
-        "pkt": 2.7,
-        "reb": 2.3,
-        "ast": 0.3
+        "spiele": 4,
+        "pkt": 3.0,
+        "reb": 4.5,
+        "ast": 0.5
       },
       "notiz": "Rookie aus Würzburg. Er wurde im Draft an Nummer 14 ausgewählt."
     },
@@ -3017,10 +3098,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 7,
-        "pkt": 15.7,
+        "spiele": 8,
+        "pkt": 14.8,
         "reb": 7.4,
-        "ast": 7.4
+        "ast": 6.9
       },
       "notiz": "Der beste Punktesammler der NBA-Geschichte spielt jetzt für Philadelphia. In Detroit traf er als erster Spieler seinen 16.000. Feldkorb."
     },
@@ -3043,12 +3124,12 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 8,
-        "pkt": 38.5,
-        "reb": 8.1,
-        "ast": 8.0
+        "spiele": 9,
+        "pkt": 40.1,
+        "reb": 7.8,
+        "ast": 7.7
       },
-      "notiz": "Der Slowene trifft für die Lakers wie verrückt: sechs Spiele in Folge mit mindestens 35 Punkten."
+      "notiz": "Der Slowene trifft für die Lakers wie verrückt: Gegen Portland machte er 53 Punkte – sein viertes Spiel in Folge mit mindestens 40."
     },
     {
       "name": "Anthony Edwards",
@@ -3082,12 +3163,12 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 8,
-        "pkt": 29.0,
-        "reb": 12.4,
-        "ast": 3.1
+        "spiele": 9,
+        "pkt": 29.1,
+        "reb": 12.6,
+        "ast": 3.0
       },
-      "notiz": "Der riesige Franzose der Spurs. Gegen Dallas schaffte er 52 Punkte und 24 Rebounds – beides Karrierebestwerte."
+      "notiz": "Der riesige Franzose der Spurs. Gegen Dallas schaffte er 52 Punkte und 24 Rebounds, danach 30 Punkte und 14 Rebounds in Sacramento."
     },
     {
       "name": "Damian Lillard",
@@ -3095,9 +3176,9 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 7,
-        "pkt": 20.1,
-        "reb": 4.1,
+        "spiele": 8,
+        "pkt": 20.4,
+        "reb": 3.6,
         "ast": 4.1
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
@@ -4108,6 +4189,16 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-06",
+      "titel": "Luka Dončić",
+      "team": "LAL",
+      "wert": "53 Punkte",
+      "grund": "Sein viertes Spiel in Folge mit mindestens 40 Punkten – das schafften bei den Lakers vorher nur Elgin Baylor, Kobe Bryant und George Mikan.",
+      "newsId": "2026-11-07-luka-53-lakers-blazers"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-06",
       "titel": "Ajay Mitchell",
       "team": "OKC",
       "wert": "35 Punkte",
@@ -4115,14 +4206,14 @@
       "newsId": "2026-11-07-okc-ajay-mitchell-35"
     },
     {
-      "art": "spieler",
+      "art": "spiel",
       "liga": "NBA",
       "datum": "2026-11-06",
-      "titel": "Alijah Martin",
-      "team": "TOR",
-      "wert": "6 von 7 Dreiern",
-      "grund": "In 30 NBA-Spielen hatte Martin nie mehr als 9 Punkte gemacht. Jetzt kam er auf 27 Punkte – und Toronto gewann in Milwaukee.",
-      "newsId": "2026-11-07-raptors-alijah-martin"
+      "heim": "LAL",
+      "gast": "POR",
+      "wert": "Erst −16, dann +16",
+      "grund": "Die Lakers lagen im zweiten Viertel mit 16 Punkten hinten und führten im letzten Viertel plötzlich selbst mit 16. Am Ende gewannen sie 124:118.",
+      "newsId": "2026-11-07-luka-53-lakers-blazers"
     },
     {
       "art": "spiel",
@@ -4135,16 +4226,6 @@
       "newsId": "2026-11-07-celtics-hornets-steinbach"
     },
     {
-      "art": "spiel",
-      "liga": "EL",
-      "datum": "2026-11-06",
-      "heim": "OLY",
-      "gast": "CZV",
-      "wert": "Nur 119 Punkte",
-      "grund": "In Piräus fielen zusammen nur 119 Punkte – sehr wenig für ein Euroleague-Spiel. Crvena zvezda gewann 62:57, obwohl Vezenkov allein 27 Punkte für Olympiakos machte.",
-      "newsId": "2026-11-07-euroleague-zvezda-piraeus"
-    },
-    {
       "art": "spieler",
       "liga": "BBL",
       "datum": "2026-11-06",
@@ -4153,6 +4234,16 @@
       "wert": "3 von 3 Dreiern",
       "grund": "Der Neuzugang traf jeden seiner Dreier und war mit 19 Punkten bester Werfer beim 102:72 von ALBA gegen Hagen.",
       "newsId": "2026-11-07-alba-hagen-102-72"
+    },
+    {
+      "art": "spiel",
+      "liga": "EL",
+      "datum": "2026-11-06",
+      "heim": "OLY",
+      "gast": "CZV",
+      "wert": "Nur 119 Punkte",
+      "grund": "In Piräus fielen zusammen nur 119 Punkte – sehr wenig für ein Euroleague-Spiel. Crvena zvezda gewann 62:57, obwohl Vezenkov allein 27 Punkte für Olympiakos machte.",
+      "newsId": "2026-11-07-euroleague-zvezda-piraeus"
     }
   ],
   "legacyGestellt": [

@@ -42,6 +42,47 @@
       "spieler": []
     },
     {
+      "id": "2026-11-05-wembanyama-52",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "block",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "52 Punkte, 24 Rebounds: Wembanyamas Riesen-Nacht",
+      "teaser": "Victor Wembanyama stellt zwei Karrierebestwerte auf einmal auf. Die Spurs schlagen Dallas mit einem Punkt Vorsprung.",
+      "text": [
+        "In der Nacht auf Donnerstag war Victor Wembanyama für Dallas einfach zu groß. Der Franzose machte 52 Punkte und holte 24 Rebounds. Beides hatte er in der NBA noch nie geschafft – zwei Karrierebestwerte in einem Spiel!",
+        "Dazu blockte er 8 Würfe. Einmal blockte er sogar dreimal in 13 Sekunden – im selben Angriff der Mavericks. Schon zur Halbzeit hatte er 29 Punkte, 15 Rebounds und 5 Blocks. Seit die NBA 1996 anfing, jede Spielszene genau aufzuschreiben, hat das kein Spieler in einer Halbzeit geschafft.",
+        "Trotzdem wurde es ganz eng. Wembanyama traf am Ende nur einen von zwei Freiwürfen zum 112:111. Dann hatte Dallas noch eine Chance: Kyrie Irving warf drei Sekunden vor Schluss aus gut vier Metern – daneben. Dylan Harper holte den Rebound, und San Antonio jubelte.",
+        "Für die Spurs war es der sechste Sieg in Folge. Mit Wembanyama auf dem Feld waren sie 23 Punkte besser als Dallas. Saß er auf der Bank, lagen sie 22 Punkte hinten. Das zeigt, wie wichtig er ist."
+      ],
+      "fakten": [
+        "Endstand: San Antonio 112, Dallas 111",
+        "Victor Wembanyama: 52 Punkte, 24 Rebounds, 8 Blocks",
+        "Er traf 16 von 28 Würfen und 19 von 23 Freiwürfen",
+        "Dylan Harper (SAS): 21 Punkte",
+        "Kyrie Irving (DAL): 29 Punkte, Cooper Flagg: 19 Punkte",
+        "San Antonio hat 6 Spiele in Folge gewonnen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "DAL"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Dylan Harper",
+        "Stephon Castle",
+        "Kyrie Irving",
+        "Cooper Flagg",
+        "P.J. Washington",
+        "Naji Marshall"
+      ]
+    },
+    {
       "id": "2026-11-05-klay-siegerdreier",
       "liga": "NBA",
       "lang": "de",
