@@ -228,34 +228,21 @@ button.game { text-align: left; border: 0; width: 100%; }
 /* Spielfeld-Skizze */
 .feld { margin: 4px 0; max-width: 420px; }
 .feld svg { width: 100%; height: auto; display: block; border-radius: 14px; }
-.comic-btn { display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: center; width: 100%; margin: 12px 0 4px; padding: 12px 16px; text-align: left; font: inherit; color: #1A1A1A; cursor: pointer;
-  background: radial-gradient(circle, rgba(226,59,59,.35) 1.2px, transparent 1.5px) 0 0 / 7px 7px, #FFD54F; border: 3px solid #1A1A1A; border-radius: 14px; box-shadow: 5px 5px 0 #1A1A1A; }
-.comic-btn:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 #1A1A1A; }
-.comic-btn b { display: block; font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 26px; line-height: 1; text-transform: uppercase; }
-.comic-btn em { display: block; font-style: normal; font-weight: 700; font-size: 15px; margin-top: 2px; }
-.comic-btn .pos-pfeil { color: #1A1A1A; }
-.comic-btn-bum { font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 22px; color: #fff; background: #E23B3B; border: 3px solid #1A1A1A; padding: 8px 6px; transform: rotate(-8deg); clip-path: polygon(50% 0, 62% 18%, 85% 8%, 80% 32%, 100% 42%, 82% 58%, 94% 82%, 68% 76%, 56% 100%, 44% 78%, 18% 92%, 22% 66%, 0 52%, 20% 38%, 10% 12%, 36% 20%); }
-.comic-leser { background: #FFF6E0; color: #1A1A1A; }
-.comic-leser .reader-bar { background: #1A1A1A; }
-.comic-leser article { max-width: 880px; }
-.comic-leser .src { color: #5B5B5B; }
-.c-titel { position: relative; padding: 18px 16px 16px; margin-bottom: 14px; border: 3px solid #1A1A1A; box-shadow: 5px 5px 0 #1A1A1A; background: radial-gradient(circle, rgba(255,122,26,.45) 1.3px, transparent 1.6px) 0 0 / 7px 7px, #FFD54F; }
-.c-titel h1 { font-size: clamp(34px, 9vw, 54px); font-style: italic; font-weight: 800; text-transform: uppercase; color: #1A1A1A; -webkit-text-stroke: 0; text-shadow: 3px 3px 0 #fff; margin: 4px 0; }
-.c-titel p { margin: 0; font-weight: 800; }
-.c-marke { display: inline-block; background: #E23B3B; color: #fff; font-weight: 800; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 8px; border: 2px solid #1A1A1A; transform: rotate(-2deg); }
-.c-teams { display: flex; align-items: center; gap: 10px; margin-top: 10px; }
-.c-teams b { font-family: var(--font-display); font-style: italic; font-size: 22px; }
-.c-heft { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-@media (min-width: 760px) { .c-heft { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; } }
-.c-bild { margin: 0; position: relative; background: #fff; border: 3px solid #1A1A1A; display: flex; flex-direction: column; }
-.c-bild.breit { grid-column: 1 / -1; }
-.c-bild svg { display: block; width: 100%; height: auto; font-family: var(--font-body, system-ui), sans-serif; }
-.c-bild.breit svg { max-height: 320px; }
-.c-text { background: #FFD54F; border-bottom: 3px solid #1A1A1A; padding: 6px 8px; font-size: 13.5px; font-weight: 700; line-height: 1.3; color: #1A1A1A; }
-.c-wer { position: absolute; right: 6px; bottom: 4px; font-size: 10px; font-weight: 800; color: #1A1A1A; background: #fff; padding: 0 4px; border: 1.5px solid #1A1A1A; }
-.c-sfx { font-family: var(--font-display); font-style: italic; font-weight: 800; fill: #FFD54F; stroke: #1A1A1A; stroke-width: 1.6px; paint-order: stroke; letter-spacing: .5px; }
-.c-zahl { font-family: var(--font-display); font-style: italic; font-weight: 800; fill: #fff; stroke: #1A1A1A; stroke-width: 2.4px; paint-order: stroke; }
-.c-led { font-family: var(--font-display); font-weight: 800; fill: #FF7A1A; }
+.bild-kachel { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 14px; align-items: center; width: 100%; padding: 10px; text-align: left; font: inherit; color: var(--ink); cursor: pointer; border: 3px solid #14161F; box-shadow: 5px 5px 0 #14161F; }
+.bild-kachel:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 #14161F; }
+.bild-mini svg { display: block; width: 100%; height: auto; }
+.bild-info { display: grid; gap: 4px; }
+.bild-info b { font-family: var(--font-display); font-style: italic; font-weight: 800; font-size: 24px; line-height: 1.05; }
+.bild-info em { font-style: normal; font-size: 13px; font-weight: 700; color: var(--ink-soft); }
+.bild-marke, .bild-pill { justify-self: start; background: #E23B3B; color: #fff; font-weight: 800; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 8px; border: 2px solid #14161F; transform: rotate(-2deg); }
+@media (max-width: 520px) { .bild-kachel { grid-template-columns: 1fr; } }
+.bild-gross { margin: 12px 0 16px; }
+.bild-gross svg { display: block; width: 100%; height: auto; box-shadow: 6px 6px 0 #14161F; }
+.b-sfx { font-family: var(--font-display); font-style: italic; font-weight: 800; letter-spacing: 1px; }
+.b-nr { font-family: var(--font-display); font-weight: 800; }
+.b-text { font: 700 12.5px system-ui, sans-serif; fill: #14161F; }
+.b-schild { font: 800 12px system-ui, sans-serif; fill: #14161F; letter-spacing: .8px; }
+.b-tafel { font-family: var(--font-display); font-weight: 800; font-size: 17px; fill: #FF8A1A; letter-spacing: .5px; }
 .pos-karte { padding: 14px; display: grid; gap: 12px; grid-template-columns: minmax(0, 1fr); }
 @media (min-width: 760px) { .pos-karte { grid-template-columns: 300px 1fr; align-items: start; } }
 .pos-karte .feld { margin: 0 auto; width: 100%; max-width: 250px; }
@@ -608,7 +595,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (favT.length ? '<div class="card fav-list">' + favT.map(k => '<div class="fav-team">' + badge(k, true) + "<span>" + esc(team(k).name) + "</span>" + starBtn("data-fav-team", k, true, team(k).name) + "</div>").join("") + "</div>" : '<div class="card next-card">Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.</div>') + "</div></div>" +
       (potw ? '<section class="sec"><button class="card potw" data-potw><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + '</p>' + (potw.profil ? '<span class="potw-mehr">Mehr über ' + esc(potw.name.split(" ")[0]) + " →</span>" : "") + "</div></button></section>" : "") +
       ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
-      (D.comic && (D.comic.bilder || []).length ? '<section class="sec"><button class="comic-btn" data-comic><span class="comic-btn-bum">POW!</span><span><b>Comic des Tages</b><em>' + esc(D.comic.titel) + '</em></span><span class="pos-pfeil">›</span></button></section>' : "") +
+      bildKachel() +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
       (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div>" +
       (alt ? '<button class="card archiv-btn" data-liga="ALLE"><span><b>Ältere Artikel</b><small>' + alt + (alt === 1 ? " Geschichte" : " Geschichten") + " aus den letzten 4 Wochen.</small></span><span class=\"pfeil\" aria-hidden=\"true\">›</span></button>" : "") + "</section>" +
@@ -1320,122 +1307,165 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     document.body.style.overflow = "hidden";
     $("[data-close]").focus();
   }
-  /* Comic des Tages – eigener Stil „Korbjäger-Comic“: Spieler als Silhouetten in Vereinsfarben (keine echten Gesichter),
-     dicke Tusche-Konturen, Rasterpunkte, Speed-Lines, gelbe Erzählkästen und Lautwörter. Die Update-Routine liefert nur
-     die Geschichte als Daten (data.json → comic), gezeichnet wird alles hier.
-     comic = { datum, titel, untertitel, liga, heim, gast, newsId?, bilder: [{ szene, text, sfx?, sprech?: { wer, text },
-       spieler?: { name, team, nr? }, gegner?: Team-Schlüssel, zahl?, label?, anzeige?: { heim?, gast?, info }, breit? }] }
-     Szenen: titel, halle, anzeige, wurf, dunk, block, lauf, jubel, zahl */
-  const TUSCHE = "#1A1A1A", PAPIER = "#FFF6E0";
-  function comicFigur(x, y, s, pose, c1, c2, nr, spiegeln) {
-    // Gelenkpunkte relativ zu den Füßen (y nach oben negativ); pro Pose Arme [Schulter→Hand] und Beine [Hüfte→Fuß]
-    const P = {
-      stehen: { h: 0, a: [[-5, -29, -7, -17], [5, -29, 7, -17]], b: [[-3, -16, -4, 0], [3, -16, 4, 0]] },
-      wurf: { h: -5, a: [[-4, -29, -2, -44], [4, -29, 3, -45]], b: [[-3, -16, -3, 0], [3, -16, 3, 0]], ball: [1, -49] },
-      dunk: { h: -16, a: [[-4, -29, -10, -21], [4, -29, 9, -46]], b: [[-3, -16, -7, -5], [3, -16, 6, -3]], ball: [10, -49] },
-      lauf: { h: 0, a: [[-4, -29, -11, -23], [4, -29, 9, -35]], b: [[-3, -16, -10, -2], [3, -16, 8, -1]] },
-      dribbel: { h: 0, a: [[-4, -29, -11, -23], [4, -29, 10, -17]], b: [[-3, -16, -10, -2], [3, -16, 8, -1]], ball: [12, -6] },
-      block: { h: -7, a: [[-4, -29, -8, -19], [4, -29, 12, -45]], b: [[-3, -16, -6, -1], [3, -16, 5, 0]] },
-      jubel: { h: -4, a: [[-4, -29, -12, -43], [4, -29, 12, -43]], b: [[-3, -16, -7, 0], [3, -16, 7, 0]] }
-    }[pose] || null;
-    const p = P || { h: 0, a: [], b: [] }, glied = (l, w) => l.map(g => '<line x1="' + g[0] + '" y1="' + (g[1] + p.h) + '" x2="' + g[2] + '" y2="' + (g[3] + p.h) + '" stroke-width="' + w + '"/>').join("");
-    return '<g transform="translate(' + x + " " + y + ") scale(" + (spiegeln ? -s : s) + " " + s + ')" stroke-linecap="round">' +
-      '<g stroke="' + TUSCHE + '">' + glied(p.b, 6) + glied(p.a, 5.6) + "</g>" + '<g stroke="' + c1 + '">' + glied(p.b, 3.8) + glied(p.a, 3.4) + "</g>" +
-      '<rect x="-6" y="' + (-31 + p.h) + '" width="12" height="17" rx="3" fill="' + c1 + '" stroke="' + TUSCHE + '" stroke-width="1.4"/>' +
-      '<circle cx="0" cy="' + (-36.5 + p.h) + '" r="4.8" fill="' + c1 + '" stroke="' + TUSCHE + '" stroke-width="1.4"/>' +
-      (nr != null ? '<text x="0" y="' + (-19.5 + p.h) + '" font-size="8" text-anchor="middle" fill="' + c2 + '" font-weight="800"' + (spiegeln ? ' transform="scale(-1 1)"' : "") + ">" + esc(String(nr)) + "</text>" : "") +
-      (p.ball ? comicBall(p.ball[0], p.ball[1] + p.h, 3.6) : "") + "</g>";
+  /* Bild des Tages: eine Szene aus den News als große Comic-Grafik. Die Update-Routine wählt nur Szene, Spieler, Teams und Texte
+     (data.json → bild), gezeichnet wird alles hier aus einem Bausatz: Figuren mit Skelett und Posen, Halle, Korb, Licht und Effekte.
+     Spieler sind Comic-Figuren im Gegenlicht (Gesicht im Schatten, kein Porträt), mit Trikot in Vereinsfarben, Nummer und Namen.
+     bild = { datum, szene: "dreier"|"dunk"|"block"|"duell"|"jubel", titel, text, erklaerung?, sfx?, spieler: { name, team, nr? },
+              gegner?: Team-Schlüssel, tafel?: "<z. B. ALBA 102 : 72 HAGEN>", newsId?, liga? } */
+  const BT = "#14161F"; // Tusche
+  // Posen: Gelenke relativ zu den Füßen (Höhe etwa 100, Blick nach rechts); L = abgewandte Seite, R = vordere Seite
+  const BPOSE = {
+    stehen: { kopf: [0, -90], hals: [0, -81], shL: [-12, -78], shR: [12, -78], elL: [-15, -60], elR: [15, -60], haL: [-16, -43], haR: [16, -43], huL: [-7, -45], huR: [7, -45], knL: [-8, -23], knR: [8, -23], fuL: [-9, 0], fuR: [9, 0] },
+    wurf: { kopf: [1, -101], hals: [1, -92], shL: [-9, -89], shR: [9, -89], elL: [-12, -106], elR: [17, -107], haL: [-6, -117], haR: [24, -124], huL: [-6, -56], huR: [6, -56], knL: [-7, -33], knR: [8, -34], fuL: [-6, -9], fuR: [10, -11], ball: [26, -132] },
+    dunk: { kopf: [8, -121], hals: [6, -112], shL: [-4, -107], shR: [14, -108], elL: [-15, -96], elR: [24, -128], haL: [-21, -84], haR: [30, -146], huL: [-6, -77], huR: [6, -77], knL: [-19, -62], knR: [15, -57], fuL: [-27, -40], fuR: [4, -36], ball: [33, -151] },
+    block: { kopf: [5, -109], hals: [3, -100], shL: [-8, -97], shR: [12, -98], elL: [-15, -81], elR: [24, -115], haL: [-19, -65], haR: [34, -131], huL: [-6, -64], huR: [6, -64], knL: [-13, -41], knR: [8, -39], fuL: [-17, -21], fuR: [6, -17] },
+    jubel: { kopf: [0, -91], hals: [0, -82], shL: [-12, -79], shR: [12, -79], elL: [-23, -96], elR: [23, -96], haL: [-31, -114], haR: [31, -114], huL: [-8, -46], huR: [8, -46], knL: [-12, -23], knR: [12, -23], fuL: [-17, 0], fuR: [17, 0] },
+    drive: { kopf: [15, -85], hals: [12, -77], shL: [1, -75], shR: [19, -73], elL: [-8, -61], elR: [27, -57], haL: [-15, -49], haR: [32, -41], huL: [-2, -45], huR: [8, -45], knL: [-15, -27], knR: [22, -31], fuL: [-25, -5], fuR: [27, -2], ball: [35, -13] },
+    verteidigen: { kopf: [0, -82], hals: [0, -74], shL: [-12, -71], shR: [12, -71], elL: [-24, -62], elR: [24, -62], haL: [-33, -70], haR: [33, -70], huL: [-9, -42], huR: [9, -42], knL: [-17, -22], knR: [17, -22], fuL: [-21, 0], fuR: [21, 0] }
+  };
+  const bf = v => v.toFixed(1);
+  function bKapsel(a, b, wa, wb) { // Glied als Kapsel von a nach b
+    const dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy) || 1, nx = -dy / l, ny = dx / l;
+    return "M" + bf(a[0] + nx * wa) + " " + bf(a[1] + ny * wa) + "L" + bf(b[0] + nx * wb) + " " + bf(b[1] + ny * wb) + "A" + wb + " " + wb + " 0 0 0 " + bf(b[0] - nx * wb) + " " + bf(b[1] - ny * wb) +
+      "L" + bf(a[0] - nx * wa) + " " + bf(a[1] - ny * wa) + "A" + wa + " " + wa + " 0 0 0 " + bf(a[0] + nx * wa) + " " + bf(a[1] + ny * wa) + "Z";
   }
-  const comicBall = (x, y, r) => '<g><circle cx="' + x + '" cy="' + y + '" r="' + r + '" fill="#FF7A1A" stroke="' + TUSCHE + '" stroke-width="1.1"/><path d="M' + (x - r) + " " + y + "H" + (x + r) + "M" + x + " " + (y - r) + "V" + (y + r) + '" stroke="' + TUSCHE + '" stroke-width=".7"/></g>';
-  function comicKorb(x, y, s) { // Brett mit Ring; (x, y) = Ringmitte
-    return '<g transform="translate(' + x + " " + y + ") scale(" + s + ')"><rect x="-2" y="-22" width="22" height="16" fill="#fff" stroke="' + TUSCHE + '" stroke-width="1.6" transform="translate(-9 0)"/>' +
-      '<rect x="-4" y="-15" width="8" height="7" fill="none" stroke="#E8650F" stroke-width="1.2"/><path d="M-7 0L-5 11H5L7 0" fill="none" stroke="' + TUSCHE + '" stroke-width=".8"/><path d="M-6 4H6M-5.5 8H5.5M-3 0L-2 11M3 0L2 11" stroke="' + TUSCHE + '" stroke-width=".6"/>' +
-      '<ellipse cx="0" cy="0" rx="8" ry="2.2" fill="none" stroke="#E8650F" stroke-width="2"/></g>';
+  function bLicht(a, b, w) { // Streiflicht auf der Seite, die zum Licht (oben rechts) zeigt
+    const dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy) || 1; let nx = -dy / l, ny = dx / l; if (nx - ny < 0) { nx = -nx; ny = -ny; }
+    return '<path d="M' + bf(a[0] + nx * w * .62) + " " + bf(a[1] + ny * w * .62) + "L" + bf(b[0] + nx * w * .62) + " " + bf(b[1] + ny * w * .62) + '" stroke="#FFE7A3" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>';
   }
-  function comicBurst(cx, cy, farbe, n = 18) { // Strahlenkranz hinter der Action
-    let d = ""; for (let i = 0; i < n; i++) { const w0 = i / n * Math.PI * 2, w1 = (i + 0.5) / n * Math.PI * 2; d += "M" + cx + " " + cy + "L" + (cx + Math.cos(w0) * 160).toFixed(1) + " " + (cy + Math.sin(w0) * 160).toFixed(1) + "L" + (cx + Math.cos(w1) * 160).toFixed(1) + " " + (cy + Math.sin(w1) * 160).toFixed(1) + "Z"; }
-    return '<path d="' + d + '" fill="' + farbe + '" opacity=".35"/>';
+  function bBall(x, y, r, id) {
+    return '<g><circle cx="' + bf(x) + '" cy="' + bf(y) + '" r="' + r + '" fill="url(#bg-ball' + id + ')" stroke="' + BT + '" stroke-width="2"/>' +
+      '<path d="M' + bf(x - r) + " " + bf(y) + "Q" + bf(x) + " " + bf(y - r * .25) + " " + bf(x + r) + " " + bf(y) + "M" + bf(x) + " " + bf(y - r) + "Q" + bf(x - r * .25) + " " + bf(y) + " " + bf(x) + " " + bf(y + r) +
+      "M" + bf(x - r * .7) + " " + bf(y - r * .7) + "Q" + bf(x - r * .15) + " " + bf(y) + " " + bf(x - r * .7) + " " + bf(y + r * .7) + "M" + bf(x + r * .7) + " " + bf(y - r * .7) + "Q" + bf(x + r * .15) + " " + bf(y) + " " + bf(x + r * .7) + " " + bf(y + r * .7) +
+      '" fill="none" stroke="' + BT + '" stroke-width="1.3"/></g>';
   }
-  const comicSpeed = (y0, y1, x0) => Array.from({ length: 7 }, (_, i) => { const y = y0 + (y1 - y0) * i / 6, l = 12 + (i * 37 % 19); return '<line x1="' + (x0 - l) + '" y1="' + y + '" x2="' + x0 + '" y2="' + y + '" stroke="' + TUSCHE + '" stroke-width="1" stroke-linecap="round"/>'; }).join("");
-  function comicSfx(text, x, y, gr, dreh) {
-    return '<text x="' + x + '" y="' + y + '" transform="rotate(' + (dreh || -8) + " " + x + " " + y + ')" text-anchor="middle" class="c-sfx" font-size="' + (gr || 20) + '">' + esc(text) + "</text>";
+  function bFigur(pose, o) { // o = { x, y, s, flip, c1, c2, nr, ball }
+    const P = BPOSE[pose] || BPOSE.stehen, sx = (o.flip ? -1 : 1) * o.s;
+    const J = k => [o.x + P[k][0] * sx, o.y + P[k][1] * o.s], s = o.s;
+    const HAUT_V = "#2B3352", HAUT_H = "#1A1F33", kap = (a, b, wa, wb, f) => '<path d="' + bKapsel(J(a), J(b), wa * s, wb * s) + '" fill="' + f + '" stroke="' + BT + '" stroke-width="' + bf(2 * Math.min(s, 1.6)) + '"/>';
+    const arm = (L, f, licht) => kap("sh" + L, "el" + L, 4.6, 3.9, f) + kap("el" + L, "ha" + L, 3.9, 3.1, f) + '<circle cx="' + bf(J("ha" + L)[0]) + '" cy="' + bf(J("ha" + L)[1]) + '" r="' + bf(3.7 * s) + '" fill="' + f + '" stroke="' + BT + '" stroke-width="' + bf(1.8 * Math.min(s, 1.6)) + '"/>' + (licht ? bLicht(J("sh" + L), J("el" + L), 4.6 * s) + bLicht(J("el" + L), J("ha" + L), 3.9 * s) : "");
+    const schuh = L => { const f = J("fu" + L), k = J("kn" + L), w = Math.atan2(f[1] - k[1], f[0] - k[0]) * 180 / Math.PI - 90 + (o.flip ? 180 : 0);
+      return '<g transform="translate(' + bf(f[0]) + " " + bf(f[1]) + ") rotate(" + bf(w) + ')"><path d="M' + bf(-5 * s) + " " + bf(-3 * s) + "L" + bf(9 * s) + " " + bf(-3 * s) + "Q" + bf(13 * s) + " " + bf(-2 * s) + " " + bf(12 * s) + " " + bf(2.5 * s) + "L" + bf(-6 * s) + " " + bf(2.5 * s) + 'Z" fill="#F4F4F4" stroke="' + BT + '" stroke-width="' + bf(1.8 * Math.min(s, 1.6)) + '"/><path d="M' + bf(-5 * s) + " " + bf(1 * s) + "H" + bf(11 * s) + '" stroke="' + o.c2 + '" stroke-width="' + bf(1.6 * s) + '"/></g>'; };
+    const bein = (L, f, licht) => kap("hu" + L, "kn" + L, 6.6, 5, f) + kap("kn" + L, "fu" + L, 5, 3.4, f) + (licht ? bLicht(J("kn" + L), J("fu" + L), 5 * s) : "") + schuh(L) +
+      '<path d="' + bKapsel(J("hu" + L), [J("hu" + L)[0] + (J("kn" + L)[0] - J("hu" + L)[0]) * .52, J("hu" + L)[1] + (J("kn" + L)[1] - J("hu" + L)[1]) * .52], 7.6 * s, 6.8 * s) + '" fill="' + o.c1 + '" stroke="' + BT + '" stroke-width="' + bf(2 * Math.min(s, 1.6)) + '"/>';
+    // Trikot: Viereck von Schultern zu Hüften, leicht tailliert; Schattenseite abgedunkelt
+    const sL = J("shL"), sR = J("shR"), hL = J("huL"), hR = J("huR"), aus = (p, q, f) => [p[0] + (p[0] - q[0]) * f, p[1] + (p[1] - q[1]) * f];
+    const t1 = aus(sL, sR, .1), t2 = aus(sR, sL, .1), t3 = aus(hR, hL, .08), t4 = aus(hL, hR, .08), mO = [(sL[0] + sR[0]) / 2, (sL[1] + sR[1]) / 2], mU = [(hL[0] + hR[0]) / 2, (hL[1] + hR[1]) / 2];
+    const poly = pts => pts.map((p, i) => (i ? "L" : "M") + bf(p[0]) + " " + bf(p[1])).join("") + "Z";
+    const winkel = Math.atan2(mU[0] - mO[0], mO[1] - mU[1]) * -180 / Math.PI, mitte = [(mO[0] + mU[0]) / 2, (mO[1] + mU[1]) / 2 + 2 * s];
+    const trikot = '<path d="' + poly([t1, t2, t3, t4]) + '" fill="' + o.c1 + '" stroke="' + BT + '" stroke-width="' + bf(2.2 * Math.min(s, 1.6)) + '" stroke-linejoin="round"/>' +
+      '<path d="' + poly([t1, mO, mU, t4]) + '" fill="#000" opacity=".2"/>' +
+      '<path d="M' + bf(t1[0] + (mO[0] - t1[0]) * .45) + " " + bf(t1[1] + (mO[1] - t1[1]) * .45) + "Q" + bf(mO[0]) + " " + bf(mO[1] + 7 * s) + " " + bf(t2[0] + (mO[0] - t2[0]) * .45) + " " + bf(t2[1] + (mO[1] - t2[1]) * .45) + '" fill="none" stroke="' + o.c2 + '" stroke-width="' + bf(2 * s) + '"/>' +
+      '<path d="M' + bf(t4[0]) + " " + bf(t4[1]) + "L" + bf(t3[0]) + " " + bf(t3[1]) + '" stroke="' + o.c2 + '" stroke-width="' + bf(2.4 * s) + '"/>' +
+      (o.nr != null ? '<text x="' + bf(mitte[0]) + '" y="' + bf(mitte[1] + 6 * s) + '" transform="rotate(' + bf(winkel) + " " + bf(mitte[0]) + " " + bf(mitte[1]) + ')" text-anchor="middle" class="b-nr" font-size="' + bf(17 * s) + '" fill="' + o.c2 + '">' + esc(String(o.nr)) + "</text>" : "");
+    const k = J("kopf"), r = 8.4 * s;
+    const kopf = kap("hals", "kopf", 3.6, 3.6, HAUT_V) + '<ellipse cx="' + bf(k[0]) + '" cy="' + bf(k[1]) + '" rx="' + bf(r * .92) + '" ry="' + bf(r) + '" fill="' + HAUT_H + '" stroke="' + BT + '" stroke-width="' + bf(2 * Math.min(s, 1.6)) + '"/>' +
+      '<path d="M' + bf(k[0] - r * .92) + " " + bf(k[1] - r * .1) + "A" + bf(r * .92) + " " + bf(r) + " 0 0 1 " + bf(k[0] + r * .92) + " " + bf(k[1] - r * .1) + "Q" + bf(k[0]) + " " + bf(k[1] - r * .55) + " " + bf(k[0] - r * .92) + " " + bf(k[1] - r * .1) + 'Z" fill="#07080D"/>' +
+      '<path d="M' + bf(k[0] + (o.flip ? -1 : 1) * r * .55) + " " + bf(k[1] - r * .75) + "A" + bf(r * .92) + " " + bf(r) + " 0 0 " + (o.flip ? 0 : 1) + " " + bf(k[0] + (o.flip ? -1 : 1) * r * .7) + " " + bf(k[1] + r * .6) + '" fill="none" stroke="#FFE7A3" stroke-width="' + bf(1.6 * s) + '" stroke-linecap="round"/>';
+    return '<g class="b-figur">' + arm("L", HAUT_H, false) + bein("L", HAUT_H, false) + bein("R", HAUT_V, true) + trikot + kopf + arm("R", HAUT_V, true) +
+      (o.ball && P.ball ? bBall(J("ball")[0], J("ball")[1], 8.5 * s, o.id) : "") + "</g>";
   }
-  function comicBlase(text, x, y, b, links) { // Sprechblase mit Zeilenumbruch nach ca. 16 Zeichen
-    const worte = String(text).split(" "), zeilen = [""]; worte.forEach(w => { if ((zeilen[zeilen.length - 1] + " " + w).trim().length > 16) zeilen.push(w); else zeilen[zeilen.length - 1] = (zeilen[zeilen.length - 1] + " " + w).trim(); });
-    const h = 6 + zeilen.length * 7, w = Math.max(b || 46, Math.max(...zeilen.map(z => z.length)) * 4.1 + 12), tx = links ? x + 6 : x + w - 6;
-    return '<g><path d="M' + tx + " " + (y + h - 1) + "L" + (tx + (links ? -4 : 4)) + " " + (y + h + 7) + "L" + (tx + (links ? 5 : -5)) + " " + (y + h - 1) + 'Z" fill="#fff" stroke="' + TUSCHE + '" stroke-width="1.2"/>' +
-      '<rect x="' + x + '" y="' + y + '" width="' + w + '" height="' + h + '" rx="9" fill="#fff" stroke="' + TUSCHE + '" stroke-width="1.2"/>' +
-      zeilen.map((z, i) => '<text x="' + (x + w / 2) + '" y="' + (y + 8.5 + i * 7) + '" text-anchor="middle" font-size="6.2" font-weight="800" fill="' + TUSCHE + '">' + esc(z) + "</text>").join("") + "</g>";
+  function bKorb(x, y, s, id) { // (x, y) = Mitte des Rings; Brett steht rechts dahinter
+    const S = v => bf(v * s);
+    let netz = ""; for (let i = 0; i <= 8; i++) { const a = -14 + i * 3.5, b = -9 + i * 2.25; netz += "M" + bf(x + a * s) + " " + bf(y) + "L" + bf(x + b * s) + " " + bf(y + 24 * s); }
+    for (let j = 1; j <= 3; j++) { const w = 14 - j * 1.6; netz += "M" + bf(x - w * s) + " " + bf(y + j * 7 * s) + "Q" + bf(x) + " " + bf(y + j * 7 * s + 3 * s) + " " + bf(x + w * s) + " " + bf(y + j * 7 * s); }
+    return '<g><path d="M' + bf(x + 26 * s) + " " + bf(y - 6 * s) + "L" + bf(x + 60 * s) + " " + bf(y - 30 * s) + "V" + bf(y + 140 * s) + '" fill="none" stroke="#3B4256" stroke-width="' + S(7) + '"/>' +
+      '<rect x="' + bf(x + 14 * s) + '" y="' + bf(y - 52 * s) + '" width="' + S(12) + '" height="' + S(70) + '" fill="rgba(220,235,255,.55)" stroke="' + BT + '" stroke-width="' + S(2.5) + '"/>' +
+      '<rect x="' + bf(x + 16 * s) + '" y="' + bf(y - 26 * s) + '" width="' + S(8) + '" height="' + S(20) + '" fill="none" stroke="#E8650F" stroke-width="' + S(2) + '"/>' +
+      '<path d="M' + bf(x + 14 * s) + " " + bf(y) + "H" + bf(x + 4 * s) + '" stroke="#E8650F" stroke-width="' + S(3) + '"/>' +
+      '<path d="' + netz + '" fill="none" stroke="#F4F4F4" stroke-width="' + S(1.3) + '"/>' +
+      '<ellipse cx="' + bf(x) + '" cy="' + bf(y) + '" rx="' + S(14) + '" ry="' + S(3.6) + '" fill="none" stroke="' + BT + '" stroke-width="' + S(5.2) + '"/>' +
+      '<ellipse cx="' + bf(x) + '" cy="' + bf(y) + '" rx="' + S(14) + '" ry="' + S(3.6) + '" fill="none" stroke="#FF6A13" stroke-width="' + S(3) + '"/></g>';
   }
-  function comicMenge(y0, n) { // Zuschauer als bunte Rasterköpfe
-    const f = ["#E23B3B", "#2F6FD6", "#FFD54F", "#3DD07E", "#FF7A1A", "#9B59B6", "#C4CED4"]; let o = "";
-    for (let r = 0; r < 3; r++) for (let i = 0; i < n; i++) { const x = 4 + i * (112 / (n - 1)) + (r % 2) * 3, y = y0 + r * 7; o += '<circle cx="' + x.toFixed(1) + '" cy="' + y + '" r="2.6" fill="' + f[(i * 3 + r * 5) % f.length] + '" stroke="' + TUSCHE + '" stroke-width=".5"/>'; }
-    return o;
+  function bHalle(id, akzent) { // Hintergrund: Halle mit Scheinwerfern, Publikum, Blitzlichtern und Parkett
+    let menge = ""; const farben = ["#2A2440", "#33284A", "#1E2238", "#3A2F52"];
+    for (let r = 0; r < 5; r++) for (let i = 0; i < 34; i++) { const x = i * 12 + (r % 2) * 6 - 4, y = 118 + r * 11 - Math.abs(200 - x) * .04; menge += '<circle cx="' + bf(x) + '" cy="' + bf(y) + '" r="' + (5.2 - r * .3) + '" fill="' + farben[(i * 7 + r * 3) % 4] + '"/>'; }
+    let blitze = ""; for (let i = 0; i < 16; i++) { const x = (i * 71) % 390 + 6, y = 112 + (i * 37) % 48; blitze += '<path d="M' + x + " " + (y - 5) + "L" + (x + 1.2) + " " + (y - 1.2) + "L" + (x + 5) + " " + y + "L" + (x + 1.2) + " " + (y + 1.2) + "L" + x + " " + (y + 5) + "L" + (x - 1.2) + " " + (y + 1.2) + "L" + (x - 5) + " " + y + "L" + (x - 1.2) + " " + (y - 1.2) + 'Z" fill="#FFFBE6" opacity="' + (.5 + (i % 3) * .2) + '"/>'; }
+    return '<rect width="400" height="300" fill="url(#bg-himmel' + id + ')"/>' +
+      '<path d="M60 0L10 175H130Z M200 0L150 175H260Z M340 0L280 175H395Z" fill="url(#bg-strahl' + id + ')"/>' +
+      menge + blitze + '<rect y="160" width="400" height="12" fill="' + akzent + '" opacity=".9"/><rect y="160" width="400" height="12" fill="url(#bg-raster' + id + ')"/>' +
+      '<path d="M0 172H400V300H0Z" fill="url(#bg-boden' + id + ')"/>' + '<path d="M-40 300Q200 196 440 300" fill="none" stroke="#fff" stroke-width="3" opacity=".75"/><path d="M0 214H400" stroke="#fff" stroke-width="2" opacity=".35"/>' +
+      '<rect width="400" height="300" fill="url(#bg-vignette' + id + ')"/>';
   }
-  function comicBild(b, c, i) {
-    const T = k => team(k || c.heim), sp = b.spieler || {}, st = T(sp.team), gg = T(b.gegner || (sp.team === c.heim ? c.gast : c.heim));
-    const schild = (x, y) => sp.name ? '<g><rect x="' + (x - 24) + '" y="' + y + '" width="48" height="9" rx="2" fill="' + TUSCHE + '"/><text x="' + x + '" y="' + (y + 6.7) + '" text-anchor="middle" font-size="6" font-weight="800" fill="#fff" letter-spacing=".4">' + esc(String(sp.name).split(" ").slice(-1)[0].toUpperCase()) + "</text></g>" : "";
-    const raster = '<pattern id="ras' + i + '" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".9" fill="' + (st.c1 === "#111111" ? "#9AA4AD" : st.c1) + '" opacity=".55"/></pattern>';
-    let inhalt = "";
-    const boden = '<path d="M0 74H120V90H0Z" fill="#E8A35A"/><path d="M0 74H120" stroke="' + TUSCHE + '" stroke-width="1.2"/>';
+  function bStrahlen(cx, cy, n, farbe, dicke) {
+    let d = ""; for (let i = 0; i < n; i++) { const w = i / n * Math.PI * 2 + (i % 2) * .05, r0 = 60 + (i * 53) % 40, r1 = 420; d += "M" + bf(cx + Math.cos(w) * r0) + " " + bf(cy + Math.sin(w) * r0) + "L" + bf(cx + Math.cos(w) * r1) + " " + bf(cy + Math.sin(w) * r1); }
+    return '<path d="' + d + '" stroke="' + farbe + '" stroke-width="' + (dicke || 1.4) + '" opacity=".55"/>';
+  }
+  function bSfx(text, x, y, gr, dreh) {
+    return '<g transform="rotate(' + (dreh || -10) + " " + x + " " + y + ')"><text x="' + (x + 5) + '" y="' + (y + 5) + '" text-anchor="middle" class="b-sfx" font-size="' + gr + '" fill="' + BT + '" stroke="' + BT + '" stroke-width="9">' + esc(text) + "</text>" +
+      '<text x="' + x + '" y="' + y + '" text-anchor="middle" class="b-sfx" font-size="' + gr + '" fill="url(#bg-sfx)" stroke="' + BT + '" stroke-width="6" paint-order="stroke">' + esc(text) + "</text></g>";
+  }
+  function bText(text, x, y, breite) { // Erzählkasten oben links
+    const w = String(text || "").split(" "), z = [""]; w.forEach(x0 => { if ((z[z.length - 1] + " " + x0).trim().length > (breite || 34)) z.push(x0); else z[z.length - 1] = (z[z.length - 1] + " " + x0).trim(); });
+    const h = 10 + z.length * 15;
+    return '<g><rect x="' + (x + 4) + '" y="' + (y + 4) + '" width="' + ((breite || 34) * 6.6 + 16) + '" height="' + h + '" fill="' + BT + '"/><rect x="' + x + '" y="' + y + '" width="' + ((breite || 34) * 6.6 + 16) + '" height="' + h + '" fill="#FFD54F" stroke="' + BT + '" stroke-width="2.5"/>' +
+      z.map((t, i) => '<text x="' + (x + 9) + '" y="' + (y + 19 + i * 15) + '" class="b-text">' + esc(t) + "</text>").join("") + "</g>";
+  }
+  function bSchild(name, nr, x, y) {
+    const t = String(name || "").toUpperCase() + (nr != null ? "  #" + nr : ""), w = t.length * 7.4 + 18;
+    return '<g transform="rotate(-3 ' + x + " " + y + ')"><rect x="' + bf(x - w / 2 + 3) + '" y="' + (y + 3) + '" width="' + bf(w) + '" height="20" fill="' + BT + '"/><rect x="' + bf(x - w / 2) + '" y="' + y + '" width="' + bf(w) + '" height="20" fill="#fff" stroke="' + BT + '" stroke-width="2.2"/>' +
+      '<text x="' + x + '" y="' + (y + 14.5) + '" text-anchor="middle" class="b-schild">' + esc(t) + "</text></g>";
+  }
+  function bildSvg(b, id) {
+    const T = k => team(k), sp = b.spieler || {}, st = T(sp.team || b.heim), gg = T(b.gegner || (sp.team === b.heim ? b.gast : b.heim));
+    const rgb = h => [1, 3, 5].map(i => parseInt(String(h).slice(i, i + 2), 16) || 0), nah = (a, c) => { const x = rgb(a), y = rgb(c); return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2]) < 140; };
+    const ich = { c1: st.c1, c2: st.c2, nr: sp.nr, id }, er = nah(st.c1, gg.c1) ? { c1: gg.c2, c2: gg.c1, id } : { c1: gg.c1, c2: gg.c2, id };
+    let szene = "", fx = "";
     switch (b.szene) {
-      case "halle": {
-        const a = b.anzeige || {};
-        inhalt = '<rect width="120" height="90" fill="#2B3B5C"/>' + comicMenge(30, 16) + '<path d="M0 54L120 54L120 90L0 90Z" fill="#E8A35A" stroke="' + TUSCHE + '" stroke-width="1.2"/><path d="M60 54V90M20 90L35 54M100 90L85 54" stroke="#fff" stroke-width="1" opacity=".8"/><ellipse cx="60" cy="72" rx="12" ry="5" fill="none" stroke="#fff" stroke-width="1"/>' +
-          '<rect x="36" y="4" width="48" height="18" rx="2" fill="' + TUSCHE + '" stroke="#555" stroke-width="1"/><text x="60" y="12" text-anchor="middle" font-size="6" font-weight="800" fill="#FFD54F">' + esc(T(c.heim).kurz + "  –  " + T(c.gast).kurz) + '</text><text x="60" y="19" text-anchor="middle" font-size="5" font-weight="800" fill="#FF7A1A">' + esc(a.info || "GLEICH GEHT'S LOS") + "</text>";
-        break;
-      }
-      case "anzeige": {
-        const a = b.anzeige || {}, z = v => v == null ? "–" : String(v);
-        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + comicBurst(60, 45, "#FFD54F") + '<rect x="14" y="14" width="92" height="56" rx="5" fill="' + TUSCHE + '" stroke="#555" stroke-width="2"/>' +
-          '<text x="37" y="30" text-anchor="middle" font-size="9" font-weight="800" fill="#fff">' + esc(T(c.heim).kurz) + '</text><text x="83" y="30" text-anchor="middle" font-size="9" font-weight="800" fill="#fff">' + esc(T(c.gast).kurz) + "</text>" +
-          '<text x="37" y="51" text-anchor="middle" class="c-led" font-size="20">' + esc(z(a.heim)) + '</text><text x="83" y="51" text-anchor="middle" class="c-led" font-size="20">' + esc(z(a.gast)) + "</text>" +
-          '<text x="60" y="64" text-anchor="middle" font-size="6.5" font-weight="800" fill="#FFD54F">' + esc(a.info || "") + "</text>";
-        break;
-      }
-      case "wurf":
-        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + boden + comicKorb(96, 26, 1) + '<path d="M38 26Q66 -6 94 24" fill="none" stroke="' + TUSCHE + '" stroke-width="1" stroke-dasharray="2 2.5"/>' + comicFigur(32, 74, 1, "wurf", st.c1, st.c2, sp.nr) + schild(32, 78);
-        break;
       case "dunk":
-        inhalt = '<rect width="120" height="90" fill="#FFD54F"/>' + comicBurst(78, 30, "#FF7A1A", 22) + boden + comicKorb(80, 30, 1.25) + comicFigur(66, 76, 1.1, "dunk", st.c1, st.c2, sp.nr) + schild(60, 79);
+        fx = bStrahlen(292, 104, 46, "#FFFBE6", 2.2);
+        szene = bKorb(292, 104, 1.6, id) + bFigur("dunk", Object.assign({ x: 245, y: 326, s: 1.48, ball: true }, ich));
+        szene += bSfx(b.sfx || "BAMM!", 110, 110, 64, -12) + bSchild(sp.name, sp.nr, 200, 266);
         break;
       case "block":
-        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + comicBurst(60, 26, "#E23B3B", 16) + boden + comicFigur(42, 74, 1, "wurf", gg.c1, gg.c2, null) + comicFigur(76, 74, 1.08, "block", st.c1, st.c2, sp.nr, true) +
-          '<path d="M52 20l6 4-1 -7 5 5 1-7 3 6" fill="none" stroke="' + TUSCHE + '" stroke-width="1"/>' + schild(76, 78);
+        fx = bStrahlen(205, 88, 40, "#FFFBE6", 2);
+        szene = bKorb(352, 70, 1, id) + bFigur("wurf", Object.assign({ x: 150, y: 278, s: 1.45, ball: true }, er)) + bFigur("block", Object.assign({ x: 262, y: 290, s: 1.5, flip: true }, ich)) +
+          '<path d="M205 62L212 80L230 76L216 90L228 104L210 98L204 116L198 98L180 104L192 90L178 76L196 80Z" fill="#FFFBE6" stroke="' + BT + '" stroke-width="2"/>';
+        szene += bSfx(b.sfx || "ZACK!", 92, 92, 58, -14) + bSchild(sp.name, sp.nr, 275, 262);
         break;
-      case "lauf": case "dribbel":
-        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + boden + comicSpeed(28, 66, 40) + comicFigur(64, 74, 1.05, sp.name || b.mitBall ? "dribbel" : "lauf", st.c1, st.c2, sp.nr) +
-          (b.gegner ? comicFigur(18, 74, .8, "lauf", gg.c1, gg.c2, null) : "") + schild(64, 78);
+      case "duell":
+        fx = '<g opacity=".6">' + Array.from({ length: 12 }, (_, i) => '<path d="M' + (20 + (i * 37) % 60) + " " + (150 + i * 10) + "H" + (110 + (i * 29) % 40) + '" stroke="#FFFBE6" stroke-width="2.4" stroke-linecap="round"/>').join("") + "</g>";
+        szene = bKorb(362, 92, .9, id) + bFigur("verteidigen", Object.assign({ x: 292, y: 280, s: 1.45, flip: true }, er)) + bFigur("drive", Object.assign({ x: 180, y: 284, s: 1.6, ball: true }, ich));
+        szene += bSfx(b.sfx || "ZOOM!", 300, 72, 52, -8) + bSchild(sp.name, sp.nr, 170, 268);
         break;
       case "jubel":
-        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + comicMenge(8, 16) + boden +
-          [[30, .9], [60, 1.05], [90, .9]].map((f, k) => comicFigur(f[0], 74, f[1], "jubel", st.c1, st.c2, k === 1 ? sp.nr : null, k === 2)).join("") +
-          Array.from({ length: 14 }, (_, k) => '<rect x="' + (8 + k * 8) + '" y="' + (20 + (k * 17) % 30) + '" width="2.4" height="1.4" fill="' + ["#E23B3B", "#2F6FD6", "#FFD54F", "#3DD07E"][k % 4] + '" transform="rotate(' + (k * 33) + " " + (8 + k * 8) + " " + (20 + (k * 17) % 30) + ')"/>').join("") + schild(60, 78);
+        fx = bStrahlen(200, 120, 52, "#FFFBE6", 1.8) + Array.from({ length: 34 }, (_, i) => { const x = (i * 83) % 392 + 4, y = (i * 47) % 150 + 10; return '<rect x="' + x + '" y="' + y + '" width="7" height="4" fill="' + ["#FF4D6D", "#4D9BFF", "#FFD54F", "#3DD07E", "#fff"][i % 5] + '" stroke="' + BT + '" stroke-width=".8" transform="rotate(' + (i * 41) + " " + x + " " + y + ')"/>'; }).join("");
+        szene = bFigur("jubel", Object.assign({ x: 95, y: 276, s: 1.15 }, ich, { nr: null })) + bFigur("jubel", Object.assign({ x: 310, y: 278, s: 1.15, flip: true }, ich, { nr: null })) + bFigur("jubel", Object.assign({ x: 200, y: 292, s: 1.7 }, ich));
+        szene += bSfx(b.sfx || "JAAA!", 315, 92, 56, 8) + bSchild(sp.name, sp.nr, 200, 270);
         break;
-      case "zahl":
-        inhalt = '<rect width="120" height="90" fill="' + (st.c1 === "#111111" ? "#2B3B5C" : st.c1) + '"/>' + comicBurst(60, 42, "#FFD54F", 24) +
-          '<text x="60" y="56" text-anchor="middle" class="c-zahl" font-size="44">' + esc(String(b.zahl == null ? "" : b.zahl)) + "</text>" +
-          (b.label ? '<rect x="30" y="64" width="60" height="12" rx="2" fill="' + TUSCHE + '"/><text x="60" y="72.6" text-anchor="middle" font-size="7.5" font-weight="800" fill="#FFD54F" letter-spacing=".8">' + esc(b.label) + "</text>" : "");
-        break;
-      default:
-        inhalt = '<rect width="120" height="90" fill="url(#ras' + i + ')"/>' + boden + comicFigur(60, 74, 1, "stehen", st.c1, st.c2, sp.nr) + schild(60, 78);
+      default: { // dreier: Wurf von außen, Ball im Flug mit Spur, Gegner springt zu spät
+        const bahn = t => [168 + (334 - 168) * t, 78 - 150 * t * (1 - t) * 1.4 + (100 - 78) * t];
+        let spur = ""; [.42, .52, .62, .72].forEach((t, i) => { const p = bahn(t); spur += '<circle cx="' + bf(p[0]) + '" cy="' + bf(p[1]) + '" r="' + (7 + i * .8) + '" fill="#FF7A1A" opacity="' + (.15 + i * .12) + '"/>'; });
+        const p = bahn(.82);
+        fx = bStrahlen(334, 100, 36, "#FFFBE6", 1.6) + '<path d="M168 78Q251 -27 334 100" fill="none" stroke="#FFFBE6" stroke-width="2.5" stroke-dasharray="3 7" stroke-linecap="round" opacity=".9"/>';
+        szene = bKorb(334, 104, 1.25, id) + bFigur("wurf", Object.assign({ x: 128, y: 282, s: 1.55 }, ich)) + bFigur("block", Object.assign({ x: 232, y: 292, s: 1.32, flip: true }, er)) + spur + bBall(p[0], p[1], 12, id);
+        szene += bSfx(b.sfx || "SWISH!", 318, 196, 54, -8) + bSchild(sp.name, sp.nr, 120, 268);
+      }
     }
-    const sfx = b.sfx ? comicSfx(b.sfx, b.szene === "dunk" ? 34 : b.szene === "block" ? 30 : 88, b.szene === "dunk" ? 24 : 18, b.szene === "dunk" ? 24 : 18) : "";
-    const blase = b.sprech && b.sprech.text ? comicBlase(b.sprech.text, b.szene === "jubel" ? 6 : 62, 4, 52, b.szene === "jubel") : "";
-    return '<figure class="c-bild' + (b.breit ? " breit" : "") + '">' + (b.text ? '<figcaption class="c-text">' + esc(b.text) + "</figcaption>" : "") +
-      '<svg viewBox="0 0 120 90" role="img" aria-label="' + esc(b.text || b.szene) + '"><defs>' + raster + "</defs>" + inhalt + sfx + blase + "</svg>" +
-      (b.sprech && b.sprech.wer ? '<span class="c-wer">' + esc(b.sprech.wer) + "</span>" : "") + "</figure>";
+    const defs = '<defs><linearGradient id="bg-himmel' + id + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#0B1030"/><stop offset=".55" stop-color="#2A1B4A"/><stop offset="1" stop-color="#4A2357"/></linearGradient>' +
+      '<linearGradient id="bg-strahl' + id + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF6D0" stop-opacity=".45"/><stop offset="1" stop-color="#FFF6D0" stop-opacity="0"/></linearGradient>' +
+      '<linearGradient id="bg-boden' + id + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C77A3A"/><stop offset="1" stop-color="#E9A35F"/></linearGradient>' +
+      '<radialGradient id="bg-vignette' + id + '" cx=".5" cy=".45" r=".75"><stop offset=".6" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".55"/></radialGradient>' +
+      '<radialGradient id="bg-ball' + id + '" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFB15C"/><stop offset=".6" stop-color="#F06A10"/><stop offset="1" stop-color="#B8460A"/></radialGradient>' +
+      '<linearGradient id="bg-sfx" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF27A"/><stop offset="1" stop-color="#FF8A1A"/></linearGradient>' +
+      '<pattern id="bg-raster' + id + '" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.1" fill="#000" opacity=".35"/></pattern></defs>';
+    const tafel = b.tafel ? '<g><rect x="262" y="8" width="130" height="30" rx="4" fill="' + BT + '" stroke="#555" stroke-width="2"/><text x="327" y="28" text-anchor="middle" class="b-tafel">' + esc(b.tafel) + "</text></g>" : "";
+    return '<svg viewBox="0 0 400 300" role="img" aria-label="' + esc(b.titel || "Bild des Tages") + '">' + defs + bHalle(id, st.c1) + fx + szene + '<rect width="400" height="300" fill="url(#bg-raster' + id + ')" opacity=".18"/>' +
+      (b.text ? bText(b.text, 10, 10, 30) : "") + tafel + '<rect x="2" y="2" width="396" height="296" fill="none" stroke="' + BT + '" stroke-width="4"/></svg>';
   }
-  function openComic(modus) {
-    const c = D.comic; if (!c || !(c.bilder || []).length) return;
-    if (modus !== "zurueck") merken({ ov: { comic: 1 } });
-    const titel = '<div class="c-titel"><span class="c-marke">Comic des Tages</span><h1>' + esc(c.titel) + "</h1>" + (c.untertitel ? "<p>" + esc(c.untertitel) + "</p>" : "") +
-      '<div class="c-teams">' + badge(c.heim) + '<b>vs</b>' + badge(c.gast) + "</div></div>";
-    const n = c.newsId && allNews().find(x => x.id === c.newsId);
-    $("#overlay").innerHTML = '<div class="reader comic-leser" role="dialog" aria-modal="true" aria-label="Comic des Tages"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
-      titel + '<div class="c-heft">' + c.bilder.map((b, i) => comicBild(b, c, i)).join("") + "</div>" +
-      '<p class="src">Gezeichnet im Korbjäger-Comic-Stil nach dem echten Spiel. Die Figuren sind Silhouetten, keine Porträts. Sprechblasen gibt es nur für Fans, nie erfundene Zitate echter Spieler.</p>' +
-      (n ? '<button class="btn" data-news="' + esc(n.id) + '">Den Artikel zum Spiel lesen</button>' : "") + "</article></div>";
+  function bildKachel() {
+    const b = D.bild; if (!b || !b.szene) return "";
+    return '<section class="sec"><button class="card bild-kachel" data-bild><span class="bild-mini">' + bildSvg(Object.assign({}, b, { text: "" }), "k") + '</span><span class="bild-info"><span class="bild-marke">Bild des Tages</span><b>' + esc(b.titel) + "</b><em>Tippen zum Vergrößern</em></span></button></section>";
+  }
+  function openBild(modus) {
+    const b = D.bild; if (!b || !b.szene) return;
+    if (modus !== "zurueck") merken({ ov: { bild: 1 } });
+    const n = b.newsId && allNews().find(x => x.id === b.newsId);
+    $("#overlay").innerHTML = '<div class="reader bild-leser" role="dialog" aria-modal="true" aria-label="Bild des Tages"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      '<div class="meta"><span class="pill bild-pill">Bild des Tages</span>' + (b.liga ? ligaPill(b.liga) : "") + (b.datum ? "<span>" + fmtDate(b.datum + "T12:00:00") + "</span>" : "") + "</div><h1>" + esc(b.titel) + "</h1>" +
+      '<figure class="bild-gross">' + bildSvg(b, "g") + "</figure>" + (b.erklaerung ? '<div class="body"><p>' + linkTerms(b.erklaerung) + "</p></div>" : "") +
+      (n ? '<button class="btn" data-news="' + esc(n.id) + '">Den Artikel dazu lesen</button>' : "") +
+      '<p class="src">Gezeichnet im Korbjäger-Comic-Stil nach einer echten Szene aus den News. Die Figuren sind Comic-Figuren im Gegenlicht, keine Porträts der Spieler.</p></article></div>';
     document.body.style.overflow = "hidden";
     const r = $(".reader"); if (r) r.scrollTop = 0;
     $("[data-close]").focus();
@@ -1468,7 +1498,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.gotoTbl) { tblFilter = b.dataset.gotoTbl; go("tabellen"); }
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.hasAttribute("data-potw")) openPotw();
-    else if (b.hasAttribute("data-comic")) openComic();
+    else if (b.hasAttribute("data-bild")) openBild();
     else if (b.dataset.pos != null) openPos(Number(b.dataset.pos), b.hasAttribute("data-pos-ersetzen") ? "ersetzen" : undefined);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
     else if (b.hasAttribute("data-gstart")) gameStart(b.dataset.gstart);
@@ -1524,7 +1554,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const s = $(".sheet"); if (s) s.remove();
     if (!st.ov) overlayZu();
     if (st.tab !== current || st.liga !== ligaSel) { ligaSel = st.liga || ligaSel; go(st.tab, "zurueck"); }
-    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); else if (st.ov.comic) openComic("zurueck"); }
+    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); else if (st.ov.bild) openBild("zurueck"); }
     else window.scrollTo(0, st.y || 0);
   });
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";

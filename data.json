@@ -76,102 +76,6 @@
       ]
     }
   },
-  "comic": {
-    "datum": "2026-11-06",
-    "liga": "NBA",
-    "heim": "MEM",
-    "gast": "OKC",
-    "newsId": "2026-11-07-okc-ajay-mitchell-35",
-    "titel": "Ajay Mitchells 35-Punkte-Nacht",
-    "untertitel": "Memphis Grizzlies gegen Oklahoma City Thunder · Freitag, 6. November",
-    "bilder": [
-      {
-        "szene": "halle",
-        "breit": true,
-        "text": "NBA-Cup-Abend in Memphis! Oklahoma City hat die letzten 15 Spiele gegen die Grizzlies alle gewonnen. Hält die Serie?",
-        "anzeige": {
-          "info": "MEMPHIS – OKC"
-        }
-      },
-      {
-        "szene": "lauf",
-        "spieler": {
-          "name": "Ajay Mitchell",
-          "team": "OKC"
-        },
-        "gegner": "MEM",
-        "text": "Ajay Mitchell legt los. Er ist schnell und nicht zu bremsen.",
-        "sfx": "WUSCH!"
-      },
-      {
-        "szene": "wurf",
-        "spieler": {
-          "name": "Shai Gilgeous-Alexander",
-          "team": "OKC"
-        },
-        "gegner": "MEM",
-        "text": "Auch Shai Gilgeous-Alexander trifft. Er macht an diesem Abend 28 Punkte.",
-        "sfx": "SWISH!"
-      },
-      {
-        "szene": "anzeige",
-        "text": "OKC trifft fast alles. Zur Pause steht es 71:49 für die Thunder.",
-        "anzeige": {
-          "heim": 49,
-          "gast": 71,
-          "info": "HALBZEIT"
-        }
-      },
-      {
-        "szene": "dribbel",
-        "spieler": {
-          "name": "Isaiah Hartenstein",
-          "team": "OKC"
-        },
-        "text": "Isaiah Hartenstein verteilt die Bälle. Am Ende hat er 7 Assists.",
-        "sprech": {
-          "wer": "Kommentator",
-          "text": "Was für ein Pass!"
-        }
-      },
-      {
-        "szene": "jubel",
-        "breit": true,
-        "text": "Nach der Pause legt OKC einen 12:0-Lauf hin. Der Vorsprung wächst auf 32 Punkte!",
-        "sfx": "12:0!"
-      },
-      {
-        "szene": "wurf",
-        "spieler": {
-          "name": "Ajay Mitchell",
-          "team": "OKC"
-        },
-        "gegner": "MEM",
-        "text": "Mitchell trifft 14 von 20 Würfen – davon 4 Dreier.",
-        "sfx": "ZACK!"
-      },
-      {
-        "szene": "zahl",
-        "zahl": "35",
-        "label": "PUNKTE",
-        "text": "35 Punkte für Ajay Mitchell! So viele hat er noch nie in einem NBA-Spiel gemacht.",
-        "sprech": {
-          "wer": "Fans",
-          "text": "A-JAY! A-JAY!"
-        }
-      },
-      {
-        "szene": "halle",
-        "breit": true,
-        "text": "Endstand 128:97! Oklahoma City gewinnt zum 16. Mal hintereinander gegen Memphis.",
-        "anzeige": {
-          "heim": 97,
-          "gast": 128,
-          "info": "ENDSTAND"
-        }
-      }
-    ]
-  },
   "werIst": {
     "id": "2026-11-07",
     "fragen": [
@@ -298,6 +202,24 @@
     ]
   },
   "werGestellt": ["Stephen Curry", "Dirk Nowitzki", "LeBron James", "Dennis Schröder", "Giannis Antetokounmpo", "Nikola Jokić", "Kareem Abdul-Jabbar", "Shaquille O'Neal"],
+  "bild": {
+    "datum": "2026-11-07",
+    "liga": "BBL",
+    "heim": "ALBA",
+    "gast": "HAG",
+    "newsId": "2026-11-07-alba-hagen-102-72",
+    "szene": "dreier",
+    "titel": "Drei Würfe, drei Treffer",
+    "sfx": "SWISH!",
+    "spieler": {
+      "name": "Jordan Ford",
+      "team": "ALBA"
+    },
+    "gegner": "HAG",
+    "tafel": "ALBA 102 : 72 HAGEN",
+    "text": "Jordan Ford steigt hoch – auch sein dritter Dreier fliegt rein!",
+    "erklaerung": "Beim 102:72 gegen Phoenix Hagen hat ALBA-Neuzugang Jordan Ford alle drei Dreier getroffen, die er versucht hat. Mit 19 Punkten war er der beste Werfer des Abends. Nach der Pause verteidigte ALBA viel aggressiver und gewann allein das dritte Viertel mit 27:11."
+  },
   "news": [
     {
       "id": "2026-11-07-okc-ajay-mitchell-35",
