@@ -2,6 +2,303 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-06-alba-hagen-wochenende",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "ALBA heute gegen Hagen – Bayern am Sonntag in Würzburg",
+      "teaser": "Der 8. Spieltag der Bundesliga beginnt am Freitagabend in Berlin. Am Sonntag muss der Tabellenführer aus München nach Würzburg.",
+      "text": [
+        "Heute um 20 Uhr eröffnet ALBA Berlin den 8. Spieltag der Bundesliga. Zu Gast ist Phoenix Hagen. ALBA hat bisher 3 Siege und 4 Niederlagen. Am Sonntag hatte ALBA in Bonn 88:95 verloren.",
+        "Hagen steht mit 2 Siegen und 5 Niederlagen weiter unten in der Tabelle. Zuletzt verlor Hagen zu Hause gegen Vechta mit 74:100. Für ALBA ist das also eine gute Chance, wieder zu gewinnen.",
+        "Spannend wird es am Sonntag um 18 Uhr: Der FC Bayern spielt in Würzburg. Bayern führt die Tabelle an, Würzburg ist Fünfter. Die Münchner kommen mit Rückenwind: Am Donnerstag gewannen sie in der Euroleague in Frankreich.",
+        "Am Dienstag geht es für ALBA dann in der Champions League weiter. In Spanien wartet Surne Bilbao. ALBA führt Gruppe G ungeschlagen an. Und am Mittwoch spielen die deutschen Damen in Hamburg gegen Ungarn – das erste Spiel der EM-Qualifikation."
+      ],
+      "fakten": [
+        "Freitag, 20 Uhr: ALBA – Phoenix Hagen",
+        "Sonntag, 18 Uhr: Würzburg – FC Bayern",
+        "Dienstag, 20 Uhr: Bilbao – ALBA (Champions League)",
+        "Mittwoch, 19 Uhr: Deutschland – Ungarn (Damen, EM-Quali in Hamburg)",
+        "Alle Bundesliga-Spiele laufen bei DYN"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "championsleague.basketball",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "ALBA",
+        "HAG",
+        "FCB",
+        "WUE",
+        "BON",
+        "VEC",
+        "BIL",
+        "GER",
+        "HUN"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-05-klay-siegerdreier",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Klay trifft eine Sekunde vor Schluss – und Luka macht wieder 40",
+      "teaser": "Miami holt gegen die Clippers einen 20-Punkte-Rückstand auf. In Sacramento schreibt Luka Dončić an einer Bestenliste mit Michael Jordan.",
+      "text": [
+        "Das letzte Spiel der Nacht war das spannendste. Miami lag bei den Los Angeles Clippers im zweiten Viertel mit 20 Punkten hinten. Doch die Heat gaben nicht auf und retteten sich in die Verlängerung.",
+        "Dort führten die Clippers 116:112. Bam Adebayo verkürzte. Dann holte Giannis Antetokounmpo 3,8 Sekunden vor Schluss den Rebound. Nach einer Auszeit passte er den Ball von der Seitenlinie zu Klay Thompson in die Ecke. Thompson warf – und traf den Dreier zum 117:116, eine Sekunde vor dem Ende!",
+        "Thompson traf in diesem Spiel 8 Dreier und kam auf 30 Punkte. Adebayo machte 35 Punkte, so viele wie noch nie in dieser Saison. Für die Clippers war es die siebte Niederlage in Folge.",
+        "Etwas früher spielten die Lakers in Sacramento. Luka Dončić machte 40 Punkte, und die Lakers gewannen 116:103. Es war sein sechstes Spiel hintereinander mit mindestens 35 Punkten. In seinen ersten acht Spielen der Saison hat er jetzt 308 Punkte gesammelt. Mehr als 300 hatte zuletzt Michael Jordan in der Saison 1988/89 geschafft."
+      ],
+      "fakten": [
+        "Clippers 116, Miami 117 (nach Verlängerung)",
+        "Klay Thompson (MIA): 30 Punkte, 8 von 17 Dreiern",
+        "Bam Adebayo (MIA): 35 Punkte, 10 Rebounds",
+        "Giannis Antetokounmpo (MIA): 27 Punkte, 14 Rebounds",
+        "Sacramento 103, Lakers 116 – Luka Dončić: 40 Punkte, 9 Rebounds, 7 Assists",
+        "Dončić: 308 Punkte in seinen ersten 8 Saisonspielen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIA",
+        "LAC",
+        "LAL",
+        "SAC"
+      ],
+      "spieler": [
+        "Klay Thompson",
+        "Bam Adebayo",
+        "Giannis Antetokounmpo",
+        "Darius Garland",
+        "Rui Hachimura",
+        "Brook Lopez",
+        "Luka Dončić",
+        "Austin Reaves",
+        "Darius Acuff Jr.",
+        "Zach LaVine",
+        "Domantas Sabonis"
+      ]
+    },
+    {
+      "id": "2026-11-05-okc-cleveland-zweiter-sieg",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Zweimal Cleveland, zweimal Sieg für OKC",
+      "teaser": "Shai Gilgeous-Alexander macht 42 Punkte. Oklahoma City schlägt Cleveland 124:116 – zum zweiten Mal in drei Nächten.",
+      "text": [
+        "Am Montag hatte Oklahoma City in Cleveland gewonnen. In der Nacht auf Donnerstag kam Cleveland zum Rückspiel nach Oklahoma City. Und wieder jubelte am Ende OKC: 124:116.",
+        "Der Thunder legte einen Blitzstart hin. Im zweiten Viertel führte OKC schon mit 25 Punkten. Zur Pause stand es 60:44. Doch Cleveland kam zurück. Die ersten neun Punkte nach der Halbzeit machten die Gäste, sieben davon James Harden. Plötzlich stand es nur noch 60:53.",
+        "Dann half ein Rookie: Bennett Stirtz traf 4 von 7 Dreiern und kam auf 16 Punkte. Sein Dreier zum 87:74 brachte OKC wieder in Ruhe. Ajay Mitchell machte 23 Punkte. Isaiah Hartenstein holte 12 Rebounds und verteilte 4 Assists.",
+        "Der Star war aber wieder Shai Gilgeous-Alexander. Er machte 42 Punkte und verteilte 8 Assists. 15 seiner Punkte holte er an der Freiwurflinie. Spannend wurde es noch einmal ganz am Ende: Clevelands Donovan Mitchell traf drei Dreier hintereinander. Aus 115:102 wurde 117:111. Mehr ging für Cleveland aber nicht.",
+        "OKC hat jetzt 6 Siege und 2 Niederlagen. Das ist stark, denn mehrere wichtige Spieler fallen gerade verletzt aus. Weiter geht es in der Nacht auf Samstag in Memphis."
+      ],
+      "fakten": [
+        "Endstand: OKC 124, Cleveland 116",
+        "Shai Gilgeous-Alexander: 42 Punkte, 8 Assists, 15 von 19 Freiwürfen",
+        "Ajay Mitchell: 23 Punkte",
+        "Bennett Stirtz: 16 Punkte, 4 Dreier",
+        "Isaiah Hartenstein: 3 Punkte, 12 Rebounds, 4 Assists",
+        "Donovan Mitchell (CLE): 27 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "CLE",
+        "MEM"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Ajay Mitchell",
+        "Bennett Stirtz",
+        "Isaiah Hartenstein",
+        "Donovan Mitchell",
+        "James Harden",
+        "Evan Mobley"
+      ]
+    },
+    {
+      "id": "2026-11-05-sixers-lebron-16000",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Sixers gewinnen das Spitzenspiel – LeBron schafft 16.000",
+      "teaser": "Philadelphia gewinnt in Detroit 112:106. Jaylen Brown blockt den wichtigsten Wurf. Und LeBron James stellt einen neuen Rekord auf.",
+      "text": [
+        "Erster gegen Zweiter im Osten: Die Philadelphia 76ers spielten in Detroit. Die Sixers gewannen 112:106 und haben jetzt 8 Siege und nur 1 Niederlage. Diese eine Niederlage gab es übrigens – gegen Detroit.",
+        "Jaylen Brown machte 30 Punkte, so viele wie noch nie in dieser Saison. Joel Embiid kam auf 26 Punkte und 15 Rebounds. Philadelphia führte schon mit 17 Punkten. Doch Detroit kämpfte sich auf sechs Punkte heran.",
+        "37 Sekunden vor Schluss wollte Cade Cunningham einen Dreier werfen. Hätte er getroffen, wäre es wieder spannend geworden. Aber Jaylen Brown sprang hoch und blockte den Wurf. Damit war das Spiel entschieden.",
+        "Und dann war da noch LeBron James. Der 41-Jährige traf im zweiten Viertel mit der linken Hand. Es war sein 16.000. Feldkorb in der NBA. Das hat vor ihm noch niemand geschafft! Der Zweite in dieser Liste ist Kareem Abdul-Jabbar mit 15.837 Feldkörben. LeBron kam am Ende auf 13 Punkte, 10 Rebounds und 8 Assists.",
+        "Bei Detroit traf Duncan Robinson 7 Dreier und machte 27 Punkte. Cade Cunningham hatte 26 Punkte und 11 Assists."
+      ],
+      "fakten": [
+        "Endstand: Detroit 106, Philadelphia 112",
+        "Jaylen Brown: 30 Punkte (Saisonbestwert) und der Block zum Sieg",
+        "LeBron James: als Erster 16.000 Feldkörbe in der NBA",
+        "Joel Embiid: 26 Punkte, 15 Rebounds",
+        "Duncan Robinson (DET): 27 Punkte, 7 Dreier"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "PHI",
+        "DET"
+      ],
+      "spieler": [
+        "Jaylen Brown",
+        "LeBron James",
+        "Joel Embiid",
+        "Tyrese Maxey",
+        "Cade Cunningham",
+        "Duncan Robinson"
+      ]
+    },
+    {
+      "id": "2026-11-05-panathinaikos-real-verlaengerung",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Krimi in Madrid: Panathinaikos gewinnt nach Verlängerung",
+      "teaser": "101:101 nach 40 Minuten, 115:112 nach der Verlängerung. Der Euroleague-Meister Panathinaikos ist jetzt allein Tabellenführer.",
+      "text": [
+        "Real Madrid gegen Panathinaikos Athen – das ist das Duell der beiden Teams, die sich im letzten Euroleague-Finale gegenüberstanden. Am Mittwochabend trafen sie sich in Madrid wieder. Und es wurde ein echter Krimi.",
+        "Nach 40 Minuten stand es 101:101. Also ging es in die Verlängerung. Dort war Panathinaikos etwas besser und gewann die fünf Extra-Minuten mit 14:11. Endstand: 115:112 für die Griechen.",
+        "Der beste Werfer war Kendrick Nunn mit 33 Punkten. Mathias Lessort kam auf 20 Punkte und 9 Rebounds. Mit dabei war auch der deutsche Nationalspieler Isaac Bonga: Er machte 10 Punkte und traf beide Dreier, die er warf.",
+        "Bei Real Madrid traf Andrés Feliz 27 Punkte, Alberto Abalde machte 23. Mehr als 10.000 Fans sahen das Spiel. Panathinaikos hat jetzt 8 Siege und 2 Niederlagen und steht allein an der Spitze der Euroleague."
+      ],
+      "fakten": [
+        "Endstand: Real Madrid 112, Panathinaikos 115 (nach Verlängerung)",
+        "Nach 40 Minuten: 101:101",
+        "Kendrick Nunn: 33 Punkte",
+        "Isaac Bonga: 10 Punkte, 2 von 2 Dreiern",
+        "Andrés Feliz (Real): 27 Punkte"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "RMA",
+        "PAO"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-05-bonn-1500-spiel",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Bonn feiert Spiel Nummer 1500 mit 101 Punkten",
+      "teaser": "Die Telekom Baskets Bonn schlagen Herzliya in der Champions League 101:89. Es war das 1500. Pflichtspiel der Vereinsgeschichte.",
+      "text": [
+        "Für die Telekom Baskets Bonn war Mittwoch ein besonderer Abend. Gegen Bnei Herzliya aus Israel bestritten sie ihr 1500. Pflichtspiel. So viele Spiele hat der Verein in Liga, Pokal und Europa schon gemacht.",
+        "Das Spiel war lange eng. Bonn führte im ersten Viertel schon 23:12, doch Herzliya kam zurück. Zur Halbzeit stand es 48:48. Den Ausgleich hatte John-Michael Wright kurz vor der Pause mit einem Dreier geschafft. Insgesamt wechselte die Führung zwölfmal.",
+        "Im letzten Viertel zog Bonn davon. Grayson Murphy traf zwei Dreier hintereinander und verteilte im ganzen Spiel 11 Assists. Marcus Foster machte mit einem Dreier die 100 Punkte voll. Bester Werfer war Joel Aminu – so viele Punkte hatte er in der Champions League noch nie gemacht.",
+        "In Gruppe H hat Bonn jetzt 2 Siege und 1 Niederlage und steht auf Platz 2 hinter Joventut Badalona. Am Samstag geht es in der Bundesliga gegen Braunschweig weiter."
+      ],
+      "fakten": [
+        "Endstand: Bonn 101, Herzliya 89",
+        "1500. Pflichtspiel der Bonner Vereinsgeschichte",
+        "Halbzeit: 48:48",
+        "Joel Aminu: bester Werfer, Karrierebestwert in der Champions League",
+        "Grayson Murphy: 11 Assists",
+        "12 Führungswechsel"
+      ],
+      "quellen": [
+        "telekom-baskets-bonn.de",
+        "championsleague.basketball"
+      ],
+      "teams": [
+        "BON",
+        "HRZ",
+        "AJB",
+        "BRA"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-05-two-triple-doubles",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Two big men, two triple-doubles",
+      "teaser": "Nikola Jokić and Alperen Sengun both got a triple-double on Wednesday night. But only one of them won.",
+      "text": [
+        "A triple-double means: ten or more in three different stats. On Wednesday night, two centers did it.",
+        "Nikola Jokić of the Denver Nuggets had 32 points, 10 rebounds and 11 assists. It was his third triple-double this season. Denver beat the Toronto Raptors 128 to 109. In the third quarter, Denver scored 41 points and Toronto only 15!",
+        "Alperen Sengun of the Houston Rockets had 17 points, 12 rebounds and 10 assists. It was the 13th triple-double of his career. But Houston lost at home to the Minnesota Timberwolves, 107 to 117. Jonathan Kuminga made two big three-pointers at the end for Minnesota.",
+        "Fun fact: Denver rookie Bryce Hopkins came off the bench and scored 18 points. That is a new career high for him."
+      ],
+      "fakten": [
+        "Jokić: 32 points, 10 rebounds, 11 assists",
+        "Sengun: 17 points, 12 rebounds, 10 assists",
+        "Denver 128, Toronto 109",
+        "Houston 107, Minnesota 117"
+      ],
+      "vokabeln": [
+        {
+          "en": "center",
+          "de": "Center (großer Spieler unter dem Korb)"
+        },
+        {
+          "en": "to beat",
+          "de": "besiegen"
+        },
+        {
+          "en": "to lose",
+          "de": "verlieren"
+        },
+        {
+          "en": "career high",
+          "de": "Karrierebestwert"
+        },
+        {
+          "en": "off the bench",
+          "de": "von der Bank"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "DEN",
+        "TOR",
+        "HOU",
+        "MIN"
+      ],
+      "spieler": [
+        "Nikola Jokić",
+        "Alperen Sengun",
+        "Bryce Hopkins",
+        "Jonathan Kuminga",
+        "Kevin Durant"
+      ]
+    },
+    {
       "id": "2026-11-05-bayern-alba-vorschau",
       "liga": "EL",
       "lang": "de",
