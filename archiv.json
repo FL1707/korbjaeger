@@ -2,6 +2,281 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-07-lebron-trae-rueckkehr",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Zurück in der alten Halle: LeBron und Trae Young verlieren",
+      "teaser": "LeBron James spielte mit Philadelphia in Cleveland, Trae Young mit Washington in Atlanta. Beide gingen als Verlierer vom Feld.",
+      "text": [
+        "Am Freitag kehrten zwei Stars in ihre alten Hallen zurück. LeBron James spielt jetzt für die Philadelphia 76ers. Er war in Cleveland. Dort ist er aufgewachsen und hat lange für die Cavaliers gespielt.",
+        "Für LeBron lief es nicht gut. Er traf nur 3 von 12 Würfen und machte 8 Punkte. In seiner langen Karriere hat er in der Hauptrunde erst zehnmal weniger als 10 Punkte gemacht. Cleveland gewann 119:95. Donovan Mitchell machte 23 Punkte, Evan Mobley 22. Joel Embiid traf keinen seiner 9 Würfe aus dem Feld.",
+        "Trae Young spielte jahrelang für die Atlanta Hawks. Jetzt trägt er das Trikot der Washington Wizards. In Atlanta machte er 23 Punkte und 10 Assists. Gewonnen hat aber Atlanta: 139:132. Nickeil Alexander-Walker machte 28 Punkte für die Hawks, Kyshawn George 33 für Washington.",
+        "Philadelphia bleibt trotz der Niederlage Erster im Osten."
+      ],
+      "fakten": [
+        "Cleveland 119, Philadelphia 95",
+        "LeBron James (PHI): 8 Punkte, 3 von 12 Würfen",
+        "Atlanta 139, Washington 132",
+        "Trae Young (WAS): 23 Punkte, 10 Assists",
+        "Kyshawn George (WAS): 33 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "PHI",
+        "CLE",
+        "WAS",
+        "ATL"
+      ],
+      "spieler": [
+        "LeBron James",
+        "Joel Embiid",
+        "Jaylen Brown",
+        "Tyrese Maxey",
+        "VJ Edgecombe",
+        "Donovan Mitchell",
+        "Evan Mobley",
+        "James Harden",
+        "Trae Young",
+        "Kyshawn George",
+        "AJ Dybantsa",
+        "Nickeil Alexander-Walker",
+        "Luguentz Dort",
+        "Dyson Daniels"
+      ]
+    },
+    {
+      "id": "2026-11-07-wochenende-vorschau",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Curry gegen die Wagners – das bringt das Wochenende",
+      "teaser": "In der Nacht trifft Golden State auf Orlando. In der Bundesliga spielt der FC Bayern in Würzburg. Und die deutschen Damen stehen vor zwei Länderspielen.",
+      "text": [
+        "In der Nacht auf Sonntag (2:30 Uhr) spielen die Golden State Warriors zu Hause gegen die Orlando Magic. Stephen Curry trifft dann auf Franz Wagner und Tristan da Silva. Golden State hat sechsmal in Folge gewonnen. Orlando hat erst zwei Siege.",
+        "Schon um 2 Uhr spielt Oklahoma City gegen Washington. Bei den Wizards spielt AJ Dybantsa, der Nummer-1-Pick im Draft. Moritz Wagner ist mit Brooklyn um 1:30 Uhr in Atlanta gefordert.",
+        "In der Bundesliga geht der 8. Spieltag weiter. Am Sonntag um 18 Uhr spielt Würzburg gegen Tabellenführer FC Bayern. ALBA hat am nächsten Samstag in Oldenburg das nächste Ligaspiel.",
+        "Die deutsche Damen-Nationalmannschaft spielt am Mittwoch in Hamburg gegen Ungarn. Am Samstag darauf geht es in Dänemark weiter. Es geht um die Qualifikation für die EM 2027."
+      ],
+      "fakten": [
+        "Golden State – Orlando: Sonntag, 2:30 Uhr",
+        "Oklahoma City – Washington: Sonntag, 2 Uhr",
+        "Würzburg – FC Bayern: Sonntag, 18 Uhr",
+        "Deutschland – Ungarn (Damen): Mittwoch, 19 Uhr in Hamburg"
+      ],
+      "quellen": [
+        "NBA.com",
+        "easycredit-bbl.de",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "GSW",
+        "ORL",
+        "OKC",
+        "WAS",
+        "BKN",
+        "ATL",
+        "WUE",
+        "FCB",
+        "ALBA",
+        "OLD",
+        "GER",
+        "HUN",
+        "DNK"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Franz Wagner",
+        "Tristan da Silva",
+        "AJ Dybantsa",
+        "Moritz Wagner"
+      ]
+    },
+    {
+      "id": "2026-11-06-curry-warriors-sechs-siege",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "Curry überholt Oscar Robertson – sechster Sieg in Folge",
+      "teaser": "Golden State schlägt Miami 120:100. Stephen Curry macht 29 Punkte und klettert in der ewigen Punkteliste der NBA nach oben.",
+      "text": [
+        "Die Golden State Warriors sind nicht zu stoppen. In der Nacht auf Freitag gewannen sie zu Hause gegen die Miami Heat mit 120:100. Es war der sechste Sieg hintereinander. Dabei hatten die Warriors die ersten drei Spiele der Saison alle verloren.",
+        "Stephen Curry startete schlecht. Zur Pause hatte er nur 2 von 10 Würfen getroffen. Im dritten Viertel kam er dann richtig in Fahrt. Am Ende standen 29 Punkte und 6 Dreier auf seinem Konto. Golden State gewann das dritte Viertel 38:23 und setzte sich ab.",
+        "Schon im ersten Viertel gab es einen besonderen Moment: Mit einem Dreier zog Curry in der ewigen Punkteliste der NBA an der Legende Oscar Robertson vorbei. Jetzt ist er auf Platz 17.",
+        "Für Miami spielte Klay Thompson in seiner alten Halle. Er war jahrelang Currys Partner bei den Warriors. Die Fans begrüßten ihn mit viel Applaus. Thompson machte 11 Punkte. Am Samstag spielt Golden State gegen Orlando – mit Franz Wagner und Tristan da Silva."
+      ],
+      "fakten": [
+        "Endstand: Golden State 120, Miami 100",
+        "Stephen Curry (GSW): 29 Punkte, 6 Dreier",
+        "Draymond Green (GSW): 11 Assists",
+        "Giannis Antetokounmpo (MIA): 20 Punkte, 14 Rebounds",
+        "Golden State: 6 Siege in Folge nach 0:3-Start"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "MIA",
+        "ORL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Draymond Green",
+        "Yaxel Lendeborg",
+        "Georges Niang",
+        "Klay Thompson",
+        "Giannis Antetokounmpo",
+        "Davion Mitchell",
+        "Bam Adebayo",
+        "Andrew Wiggins",
+        "Franz Wagner",
+        "Tristan da Silva"
+      ]
+    },
+    {
+      "id": "2026-11-06-bayern-asvel",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "Lučić dreht das Spiel: Bayern gewinnt in Frankreich",
+      "teaser": "Der FC Bayern lag kurz vor Schluss hinten. Dann drehte Vladimir Lučić mit vier Punkten in Folge das Spiel – München siegte 99:95 bei ASVEL.",
+      "text": [
+        "Der FC Bayern hat in der Euroleague endlich wieder gewonnen. Bei ASVEL Villeurbanne, einem Klub aus der Nähe von Lyon, siegten die Münchner am Donnerstagabend mit 99:95.",
+        "Lange sah es gut aus. Nach dem dritten Viertel führte Bayern 73:66, Mitte des letzten Viertels sogar mit neun Punkten. Doch dann traf ASVEL-Routinier Patty Mills zwei Dreier hintereinander. Knapp zwei Minuten vor Schluss lag plötzlich ASVEL mit 92:89 vorne.",
+        "Jetzt war Vladimir Lučić da. Der erfahrene Serbe traf zwei Freiwürfe und kurz danach einen Zweier zum 93:92. Bayern führte wieder! Am Ende verwandelten Austin Wiley, Lučić und Rokas Jokubaitis ihre Freiwürfe sicher.",
+        "Wiley war mit 22 Punkten und 9 Rebounds der beste Werfer. Lučić kam auf 18 Punkte und 8 Assists – er verfehlte nur einen von sieben Würfen aus dem Feld. Für Bayern war es der dritte Sieg in der Euroleague. Schon am Sonntag geht es in der Bundesliga in Würzburg weiter."
+      ],
+      "fakten": [
+        "Endstand: ASVEL 95, FC Bayern 99",
+        "Austin Wiley (FCB): 22 Punkte, 9 Rebounds",
+        "Vladimir Lučić (FCB): 18 Punkte, 8 Assists, alle 6 Freiwürfe getroffen",
+        "Patty Mills (ASV): 22 Punkte",
+        "Bayern hat jetzt 3 Siege und 7 Niederlagen"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "FCB",
+        "ASV",
+        "WUE"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-06-magic-suns-wagner-15-assists",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "15 Vorlagen von Franz Wagner – Orlando verliert trotzdem",
+      "teaser": "Franz Wagner verteilt in Phoenix 15 Assists, Tristan da Silva macht 18 Punkte. Doch die Suns gewinnen 117:104.",
+      "text": [
+        "Für die Orlando Magic läuft es gerade nicht rund. In der Nacht auf Freitag verloren sie bei den Phoenix Suns mit 104:117. Es war die dritte Niederlage in Folge.",
+        "Franz Wagner zeigte trotzdem, wie gut er seine Mitspieler sieht. Der Berliner gab 15 Assists und machte 15 Punkte – ein Double-Double. Dazu holte er 8 Rebounds. Tristan da Silva, ebenfalls Nationalspieler, kam von der Bank und traf 4 Dreier. Er machte 18 Punkte.",
+        "Das größte Problem für Orlando waren die Ballverluste. 25-mal verloren die Magic den Ball. Phoenix machte daraus 36 Punkte. Die Suns trafen außerdem 17 Dreier.",
+        "Bester Werfer war Devin Booker mit 30 Punkten. Phoenix lag im letzten Viertel sogar mit 30 Punkten vorne. Für Orlando spielte Wendell Carter Jr. stark: 27 Punkte und 13 Rebounds. Am Samstag spielt Orlando in Golden State – gegen Stephen Curry."
+      ],
+      "fakten": [
+        "Endstand: Phoenix 117, Orlando 104",
+        "Franz Wagner (ORL): 15 Punkte, 15 Assists, 8 Rebounds",
+        "Tristan da Silva (ORL): 18 Punkte, 4 Dreier",
+        "Devin Booker (PHX): 30 Punkte",
+        "Orlando: 25 Ballverluste"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "PHX",
+        "GSW"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Wendell Carter Jr.",
+        "Devin Booker",
+        "Dillon Brooks",
+        "Miles Bridges",
+        "Collin Gillespie",
+        "Stephen Curry"
+      ]
+    },
+    {
+      "id": "2026-11-06-euroleague-paris-valencia",
+      "liga": "EL",
+      "lang": "en",
+      "motiv": "korb",
+      "datum": "2026-11-06",
+      "tags": [],
+      "titel": "Paris and Valencia win on the road",
+      "teaser": "Two big comebacks in the EuroLeague on Thursday: Paris won in Istanbul, and Valencia won in Milan.",
+      "text": [
+        "On Thursday night, five EuroLeague games were played. Two teams came back and won away from home.",
+        "Paris Basketball played at Anadolu Efes in Istanbul. After three quarters, Paris was behind 66 to 70. But in the last quarter Paris scored 29 points. Paris won 95 to 90. Nadir Hifi was the star: 28 points and 9 assists. Cameron Payne made 7 threes for Efes, but it was not enough.",
+        "Valencia was behind 51 to 59 in Milan after three quarters. Then Valencia won the last quarter 33 to 14! The final score was 84 to 73. Milan has now lost nine of ten games.",
+        "Also on Thursday: Fenerbahçe beat Baskonia 84 to 65, and FC Barcelona won 93 to 90 at Hapoel Tel Aviv."
+      ],
+      "fakten": [
+        "Efes 90, Paris 95 – Nadir Hifi: 28 points",
+        "Milan 73, Valencia 84",
+        "Fenerbahçe 84, Baskonia 65",
+        "Hapoel Tel Aviv 90, Barcelona 93"
+      ],
+      "vokabeln": [
+        {
+          "en": "away from home",
+          "de": "auswärts"
+        },
+        {
+          "en": "to be behind",
+          "de": "hinten liegen"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        },
+        {
+          "en": "comeback",
+          "de": "Aufholjagd"
+        },
+        {
+          "en": "not enough",
+          "de": "nicht genug"
+        }
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "PBB",
+        "EFS",
+        "VAL",
+        "EA7",
+        "FEN",
+        "BAS",
+        "BAR",
+        "HTA"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-06-alba-hagen-wochenende",
       "liga": "BBL",
       "lang": "de",
@@ -40,6 +315,46 @@
         "HUN"
       ],
       "spieler": []
+    },
+    {
+      "id": "2026-11-05-nets-hornets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-05",
+      "tags": [],
+      "titel": "Deutsches Duell: Wagners Nets schlagen Schröders Hornets",
+      "teaser": "Brooklyn gewinnt gegen Charlotte 114:104. Für die Hornets ist es schon die fünfte Niederlage in Folge.",
+      "text": [
+        "In Brooklyn trafen sich zwei Teams mit deutschen Spielern: Moritz Wagner spielt für die Nets, Dennis Schröder und Hannes Steinbach für die Charlotte Hornets.",
+        "Zur Halbzeit führte Charlotte noch mit sieben Punkten. Danach drehte Brooklyn das Spiel und gewann 114:104. Michael Porter Jr. machte 26 Punkte und 10 Rebounds, Julius Randle 22 Punkte. Für die Nets war es erst der zweite Saisonsieg.",
+        "Moritz Wagner kam in 20 Minuten auf 6 Punkte und traf 3 seiner 4 Würfe. Dennis Schröder machte 5 Punkte, 5 Rebounds und 4 Assists. Rookie Hannes Steinbach kam diesmal nicht zum Einsatz.",
+        "Bester Werfer bei Charlotte war Naz Reid mit 28 Punkten. Kon Knueppel spielte zum ersten Mal in dieser Saison, musste aber im ersten Viertel wieder raus. Die Hornets haben nach einem guten Start mit 3 Siegen jetzt fünfmal hintereinander verloren. Am Freitag kommt Boston nach Charlotte."
+      ],
+      "fakten": [
+        "Endstand: Brooklyn 114, Charlotte 104",
+        "Moritz Wagner: 6 Punkte (3 von 4 Würfen)",
+        "Dennis Schröder: 5 Punkte, 5 Rebounds, 4 Assists",
+        "Michael Porter Jr.: 26 Punkte, 10 Rebounds",
+        "Naz Reid (CHA): 28 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "BKN",
+        "CHA",
+        "BOS"
+      ],
+      "spieler": [
+        "Moritz Wagner",
+        "Dennis Schröder",
+        "Hannes Steinbach",
+        "Michael Porter Jr.",
+        "Julius Randle",
+        "Naz Reid"
+      ]
     },
     {
       "id": "2026-11-05-wembanyama-52",
