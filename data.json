@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-08T06:21:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-08",
-  "gruss": "Guten Morgen! Stephen Curry hat in der Nacht 41 Punkte gemacht und Golden State nach Verlängerung zum Sieg gegen Franz Wagner und Tristan da Silva geführt. Oklahoma City ließ Washington nur 75 Punkte. In der Bundesliga gewannen Trier und Rostock, heute Abend spielt der FC Bayern in Würzburg.",
+  "aktualisiert": "2026-11-08T16:16:46+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo! In der Nacht hat Victor Wembanyama in nur 24 Minuten 29 Punkte gemacht – San Antonio gewann klar in Portland. Stephen Curry glänzte mit 41 Punkten gegen Franz Wagner. In der Bundesliga laufen heute die Spiele in Weißenfels und Ludwigsburg, um 18 Uhr spielt der FC Bayern in Würzburg.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-08",
   "zahlDesTages": {
-    "zahl": "16",
-    "text": "So viele Spiele mit mindestens 40 Punkten hat Stephen Curry nach seinem 35. Geburtstag gemacht – NBA-Rekord. Das 16. gelang ihm beim 126:119 gegen Orlando."
+    "zahl": "24",
+    "text": "So viele Minuten brauchte Victor Wembanyama für 29 Punkte beim 125:103 der Spurs in Portland. Er traf 9 von 13 Würfen."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -433,6 +433,54 @@
         "Nolan Traore",
         "Mikel Brown Jr.",
         "Julius Randle"
+      ]
+    },
+    {
+      "id": "2026-11-08-spurs-blazers-wembanyama",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "29 Punkte in 24 Minuten: Wembanyama und die Spurs siegen in Portland",
+      "teaser": "San Antonio gewinnt bei den Portland Trail Blazers deutlich mit 125:103. Victor Wembanyama braucht nur 13 Würfe für 29 Punkte.",
+      "text": [
+        "Die San Antonio Spurs sind weiter in Topform. In der Nacht gewannen sie bei den Portland Trail Blazers mit 125:103. Es war das Spitzenspiel zweier Teams aus dem Westen, die beide gut in die Saison gestartet waren.",
+        "Victor Wembanyama spielte nur 24 Minuten. Trotzdem machte er 29 Punkte. Er traf 9 von 13 Würfen, dazu 3 von 6 Dreiern und 8 von 9 Freiwürfen. Weil die Spurs so hoch führten, durfte er sich am Ende ausruhen.",
+        "Auch die Mitspieler trafen gut: Devin Vassell kam auf 15 Punkte, Stephon Castle und Julian Champagnie auf je 14, Rookie Dylan Harper auf 13. Bei Portland war Deni Avdija mit 15 Punkten der Beste. Der junge Center Yang Hansen schaffte mit 12 Punkten und 10 Rebounds sein erstes Double-Double in der NBA.",
+        "San Antonio hat jetzt 8 Siege und 2 Niederlagen – genauso viele wie Oklahoma City und die Lakers. Am Montag spielen die Spurs in Phoenix. Portland empfängt am Dienstag und Mittwoch zweimal OKC."
+      ],
+      "fakten": [
+        "Endstand: Portland 103, San Antonio 125",
+        "Victor Wembanyama (SAS): 29 Punkte in 24 Minuten, 9 von 13 Würfen",
+        "Devin Vassell (SAS): 15 Punkte",
+        "Deni Avdija (POR): 15 Punkte",
+        "Yang Hansen (POR): 12 Punkte, 10 Rebounds – erstes Double-Double",
+        "Spurs: 8 Siege, 2 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "POR",
+        "OKC",
+        "LAL",
+        "PHX"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Devin Vassell",
+        "Stephon Castle",
+        "Julian Champagnie",
+        "Dylan Harper",
+        "De'Aaron Fox",
+        "Deni Avdija",
+        "Scoot Henderson",
+        "Damian Lillard",
+        "Jrue Holiday",
+        "Yang Hansen"
       ]
     },
     {
@@ -946,6 +994,28 @@
           "Devin Booker (PHX): 24 Punkte",
           "Kevin Durant (HOU): 21 Punkte, 10 Rebounds",
           "Phoenix: erster Sieg gegen Houston nach acht Niederlagen"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-07",
+      "runde": "NBA",
+      "heim": "POR",
+      "gast": "SAS",
+      "heimPkt": 103,
+      "gastPkt": 125,
+      "info": "Wembanyama (SAS) 29 Punkte",
+      "newsId": "2026-11-08-spurs-blazers-wembanyama",
+      "bericht": {
+        "text": [
+          "San Antonio war in Portland klar besser und gewann deutlich. Victor Wembanyama machte 29 Punkte, obwohl er nur 24 Minuten spielte – am Ende durfte er sich ausruhen."
+        ],
+        "highlights": [
+          "Victor Wembanyama (SAS): 29 Punkte, 9 von 13 Würfen",
+          "Devin Vassell (SAS): 15 Punkte",
+          "Deni Avdija (POR): 15 Punkte",
+          "Yang Hansen (POR): erstes Double-Double (12 Punkte, 10 Rebounds)"
         ]
       }
     },
@@ -1507,18 +1577,12 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-08T04:00:00+01:00",
-      "heim": "POR",
-      "gast": "SAS",
-      "info": "lief bei Redaktionsschluss noch"
-    },
-    {
       "liga": "BBL",
       "zeit": "2026-11-08T15:00:00+01:00",
       "heim": "MBC",
       "gast": "FRA",
-      "tv": "DYN"
+      "tv": "DYN",
+      "info": "läuft gerade"
     },
     {
       "liga": "BBL",
@@ -2141,7 +2205,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 08.11., 06:15 Uhr · nach den Spielen vom 07.11. (US-Zeit), Portland – San Antonio lief noch",
+      "stand": "Stand: 08.11., 16:16 Uhr · nach allen Spielen vom 07.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2159,23 +2223,18 @@
       "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
       "zeilen": [
         {
-          "team": "LAL",
-          "s": 8,
-          "n": 2
-        },
-        {
           "team": "OKC",
           "s": 8,
           "n": 2
         },
         {
           "team": "SAS",
-          "s": 7,
+          "s": 8,
           "n": 2
         },
         {
-          "team": "POR",
-          "s": 6,
+          "team": "LAL",
+          "s": 8,
           "n": 2
         },
         {
@@ -2195,6 +2254,11 @@
         },
         {
           "team": "MEM",
+          "s": 6,
+          "n": 3
+        },
+        {
+          "team": "POR",
           "s": 6,
           "n": 3
         },
@@ -2237,7 +2301,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 08.11., 06:15 Uhr · nach den Spielen vom 07.11. (US-Zeit), Portland – San Antonio lief noch",
+      "stand": "Stand: 08.11., 16:16 Uhr · nach allen Spielen vom 07.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2844,10 +2908,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 9,
+        "spiele": 10,
         "pkt": 29.9,
-        "reb": 4.1,
-        "ast": 4.4
+        "reb": 3.9,
+        "ast": 4.9
       },
       "notiz": "Der Superstar der Thunder. Gegen Cleveland machte er erst 43 und zwei Tage später 42 Punkte – OKC gewann beide Spiele."
     },
@@ -2858,10 +2922,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 7,
-        "pkt": 29.9,
-        "reb": 3.7,
-        "ast": 4.4
+        "spiele": 8,
+        "pkt": 31.3,
+        "reb": 4.0,
+        "ast": 4.6
       },
       "notiz": "Mit 38 Jahren noch ein Superstar: Gegen Orlando machte er 41 Punkte – sein 16. Spiel mit 40 Punkten nach dem 35. Geburtstag, NBA-Rekord."
     },
@@ -2873,10 +2937,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 19.6,
-        "reb": 6.4,
-        "ast": 8.5
+        "spiele": 9,
+        "pkt": 20.8,
+        "reb": 6.3,
+        "ast": 8.8
       },
       "notiz": "Der Star der Orlando Magic. Gegen Golden State machte er 30 Punkte und 11 Assists, verlor aber nach Verlängerung."
     },
@@ -2887,10 +2951,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 10.4,
-        "reb": 3.4,
-        "ast": 1.1
+        "spiele": 9,
+        "pkt": 10.2,
+        "reb": 3.2,
+        "ast": 1.0
       },
       "notiz": "Beim 114:104 gegen Charlotte traf er 3 von 4 Würfen – der zweite Saisonsieg der Nets."
     },
@@ -2915,10 +2979,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 9,
-        "pkt": 7.4,
-        "reb": 9.7,
-        "ast": 3.0
+        "spiele": 10,
+        "pkt": 6.9,
+        "reb": 10.1,
+        "ast": 3.3
       },
       "notiz": "Der deutsche Center der Oklahoma City Thunder. Beim 124:116 gegen Cleveland holte er 12 Rebounds."
     },
@@ -2929,10 +2993,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 14.6,
-        "reb": 3.3,
-        "ast": 1.6
+        "spiele": 9,
+        "pkt": 15.1,
+        "reb": 3.7,
+        "ast": 1.7
       },
       "notiz": "Kommt oft von der Bank. In Phoenix traf er 4 Dreier und machte 18 Punkte."
     },
@@ -2968,10 +3032,10 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 8,
-        "pkt": 25.6,
-        "reb": 2.6,
-        "ast": 5.1
+        "spiele": 9,
+        "pkt": 26.2,
+        "reb": 3.0,
+        "ast": 5.6
       },
       "notiz": "Der Anführer der Knicks. Gegen Chicago machte er 33 Punkte, 22 davon schon im ersten Viertel."
     },
@@ -3007,10 +3071,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 7,
-        "pkt": 23.4,
-        "reb": 9.7,
-        "ast": 9.3
+        "spiele": 8,
+        "pkt": 22.9,
+        "reb": 10.1,
+        "ast": 9.1
       },
       "notiz": "Gegen Toronto schaffte er mit 32 Punkten, 10 Rebounds und 11 Assists sein drittes Triple-Double der Saison."
     },
@@ -3020,9 +3084,9 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 9,
+        "spiele": 10,
         "pkt": 29.1,
-        "reb": 12.6,
+        "reb": 12.0,
         "ast": 3.0
       },
       "notiz": "Der riesige Franzose der Spurs. Gegen Dallas schaffte er 52 Punkte und 24 Rebounds, danach 30 Punkte und 14 Rebounds in Sacramento."
@@ -3033,10 +3097,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 8,
-        "pkt": 20.4,
-        "reb": 3.6,
-        "ast": 4.1
+        "spiele": 9,
+        "pkt": 19.4,
+        "reb": 3.2,
+        "ast": 4.4
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -4046,6 +4110,16 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-07",
+      "titel": "Victor Wembanyama",
+      "team": "SAS",
+      "wert": "29 Punkte in 24 Minuten",
+      "grund": "Er brauchte nur 13 Würfe und traf 9 davon. Weil San Antonio in Portland so hoch führte, saß er am Ende auf der Bank.",
+      "newsId": "2026-11-08-spurs-blazers-wembanyama"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-07",
       "titel": "Stephen Curry",
       "team": "GSW",
       "wert": "41 Punkte",
@@ -4066,21 +4140,11 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-07",
-      "titel": "Jalen Brunson",
-      "team": "NYK",
-      "wert": "18 Punkte am Stück",
-      "grund": "Im zweiten Viertel machte Brunson 18 Punkte hintereinander, ohne dass ein Mitspieler punktete. So drehte er das Spiel in Cleveland.",
-      "newsId": "2026-11-08-knicks-cavs-brunson"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-07",
-      "titel": "Day'Ron Sharpe",
-      "team": "BKN",
-      "wert": "Triple-Double",
-      "grund": "12 Punkte, 10 Rebounds und 13 Assists – sein erstes Triple-Double in der NBA. 13 Vorlagen sind für einen Center sehr viele.",
-      "newsId": "2026-11-08-hawks-nets-aufholjagd"
+      "titel": "Yang Hansen",
+      "team": "POR",
+      "wert": "Erstes Double-Double",
+      "grund": "Der junge Center aus China holte gegen San Antonio 12 Punkte und 10 Rebounds – zum ersten Mal in seiner NBA-Karriere zweistellig in zwei Kategorien.",
+      "newsId": "2026-11-08-spurs-blazers-wembanyama"
     },
     {
       "art": "spiel",
