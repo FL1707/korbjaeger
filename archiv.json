@@ -2,6 +2,39 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-07-alba-hagen-102-72",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "ALBA dreht nach der Pause auf – 102:72 gegen Hagen",
+      "teaser": "Lange war es ein enges Spiel. Dann zog ALBA in der zweiten Halbzeit davon. Jordan Ford traf alle drei Dreier.",
+      "text": [
+        "ALBA BERLIN hat in der Bundesliga einen deutlichen Heimsieg gefeiert. Am Freitagabend gewannen die Berliner in der Uber Arena mit 102:72 gegen Phoenix Hagen.",
+        "Am Anfang war Hagen gut dabei. Nach dem ersten Viertel stand es 26:26. Die beiden Neuzugänge Julius Böhmer und Jordan Ford machten in dieser Zeit zusammen 13 Punkte für ALBA. Zur Pause führte Berlin mit 56:47.",
+        "Nach der Pause verteidigte ALBA viel aggressiver. Hagen machte viele Ballverluste. Das dritte Viertel gewann ALBA 27:11. Vor dem Schlussviertel stand es schon 83:58.",
+        "Bester Werfer war Jordan Ford mit 19 Punkten – er traf alle drei Dreier. Für Hagen machte Trenton Gibson 19 Punkte. ALBA hat jetzt 4 Siege und 4 Niederlagen. Am Dienstag spielen die Berliner in der Champions League in Bilbao. Am 13. Dezember treffen sie im Pokal-Viertelfinale wieder auf Hagen – dann in Hagen."
+      ],
+      "fakten": [
+        "Endstand: ALBA 102, Hagen 72",
+        "Jordan Ford (ALBA): 19 Punkte, 3 von 3 Dreiern",
+        "Joe Wieskamp (ALBA): 16 Punkte",
+        "Trenton Gibson (Hagen): 19 Punkte",
+        "Drittes Viertel: 27:11 für ALBA"
+      ],
+      "quellen": [
+        "albaberlin.de",
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "ALBA",
+        "HAG",
+        "BIL"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-07-luka-53-lakers-blazers",
       "liga": "NBA",
       "lang": "de",

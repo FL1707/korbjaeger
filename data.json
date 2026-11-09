@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-09T06:22:56+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen und einen guten Start in die Woche! Ohne Luka Dončić hat Austin Reaves den Lakers mit 43 Punkten den Sieg in Detroit geschenkt. LeBron James hat einen neuen Rekord gegen Chicago, und der FC Bayern bleibt Tabellenführer der Bundesliga. Am Dienstag spielt ALBA in der Champions League in Bilbao. Neu: Victor Wembanyama ist Spieler der Woche, und im Training übst du deine Freiwurf-Routine.",
+  "aktualisiert": "2026-11-09T16:21:29+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo und willkommen zur Nachmittagsausgabe! Die San Antonio Spurs haben achtmal hintereinander gewonnen, die Golden State Warriors siebenmal – heute Nacht können beide nachlegen. Am Abend spielt Jena gegen Hamburg in der Bundesliga, und morgen ist ALBA in der Champions League in Bilbao gefordert. Quiz, Who is it? und die Schiri-Situation von heute Morgen warten noch auf dich.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-09",
   "zahlDesTages": {
-    "zahl": "11 von 11",
-    "text": "So viele Freiwürfe traf Austin Reaves beim 121:116 der Lakers in Detroit – jeden einzelnen. Insgesamt machte er 43 Punkte."
+    "zahl": "8",
+    "text": "So viele Spiele haben die San Antonio Spurs hintereinander gewonnen – die längste Siegesserie, die es gerade in der NBA gibt."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -260,6 +260,45 @@
     "erklaerung": "In der letzten Minute führten die Lakers in Detroit nur noch 109:104. Kurz bevor die Wurfuhr ablief, warf Austin Reaves auf einem Bein und aus dem Gleichgewicht einen Dreier – und traf. Damit war das Spiel entschieden. Er selbst nannte es danach einen Glückswurf."
   },
   "news": [
+    {
+      "id": "2026-11-09-serien-spurs-warriors",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "Heiße Serien: Spurs 8 Siege am Stück, Warriors 7",
+      "teaser": "In der NBA laufen gerade zwei Teams aus dem Westen richtig heiß. Heute Nacht können beide ihre Serie verlängern.",
+      "text": [
+        "San Antonio hat die ersten beiden Spiele der Saison verloren. Seitdem haben die Spurs achtmal hintereinander gewonnen. Das ist im Moment die längste Siegesserie der ganzen NBA.",
+        "Der wichtigste Mann ist Victor Wembanyama. Er macht im Schnitt 29,1 Punkte und holt 12 Rebounds pro Spiel. Dazu blockt er fast vier Würfe in jedem Spiel – so viele wie kein anderer.",
+        "Fast genauso heiß sind die Golden State Warriors: sieben Siege in Folge. Stephen Curry trifft fast fünf Dreier pro Spiel und macht 31,3 Punkte im Schnitt.",
+        "Oben im Westen ist es richtig eng. Die Lakers führen mit 9 Siegen und 2 Niederlagen. Dahinter liegen OKC und San Antonio mit je 8:2 nur ein halbes Spiel zurück. Heute Nacht spielen die Spurs in Phoenix (3 Uhr) und die Warriors gegen New Orleans (4 Uhr)."
+      ],
+      "fakten": [
+        "San Antonio: 8 Siege in Folge (8:2)",
+        "Golden State: 7 Siege in Folge (7:3)",
+        "Victor Wembanyama: 29,1 Punkte, 12,0 Rebounds, 3,9 Blocks",
+        "Stephen Curry: 31,3 Punkte, 4,8 Dreier pro Spiel",
+        "Nacht auf Dienstag: Phoenix – San Antonio, Golden State – New Orleans"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "SAS",
+        "GSW",
+        "LAL",
+        "OKC",
+        "PHX",
+        "NOP"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Stephen Curry"
+      ]
+    },
     {
       "id": "2026-11-09-reaves-43-lakers-pistons",
       "liga": "NBA",
@@ -817,39 +856,6 @@
         "DNK",
         "VAL",
         "OLD"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-07-alba-hagen-102-72",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "jubel",
-      "datum": "2026-11-07",
-      "tags": [],
-      "titel": "ALBA dreht nach der Pause auf – 102:72 gegen Hagen",
-      "teaser": "Lange war es ein enges Spiel. Dann zog ALBA in der zweiten Halbzeit davon. Jordan Ford traf alle drei Dreier.",
-      "text": [
-        "ALBA BERLIN hat in der Bundesliga einen deutlichen Heimsieg gefeiert. Am Freitagabend gewannen die Berliner in der Uber Arena mit 102:72 gegen Phoenix Hagen.",
-        "Am Anfang war Hagen gut dabei. Nach dem ersten Viertel stand es 26:26. Die beiden Neuzugänge Julius Böhmer und Jordan Ford machten in dieser Zeit zusammen 13 Punkte für ALBA. Zur Pause führte Berlin mit 56:47.",
-        "Nach der Pause verteidigte ALBA viel aggressiver. Hagen machte viele Ballverluste. Das dritte Viertel gewann ALBA 27:11. Vor dem Schlussviertel stand es schon 83:58.",
-        "Bester Werfer war Jordan Ford mit 19 Punkten – er traf alle drei Dreier. Für Hagen machte Trenton Gibson 19 Punkte. ALBA hat jetzt 4 Siege und 4 Niederlagen. Am Dienstag spielen die Berliner in der Champions League in Bilbao. Am 13. Dezember treffen sie im Pokal-Viertelfinale wieder auf Hagen – dann in Hagen."
-      ],
-      "fakten": [
-        "Endstand: ALBA 102, Hagen 72",
-        "Jordan Ford (ALBA): 19 Punkte, 3 von 3 Dreiern",
-        "Joe Wieskamp (ALBA): 16 Punkte",
-        "Trenton Gibson (Hagen): 19 Punkte",
-        "Drittes Viertel: 27:11 für ALBA"
-      ],
-      "quellen": [
-        "albaberlin.de",
-        "easycredit-bbl.de"
-      ],
-      "teams": [
-        "ALBA",
-        "HAG",
-        "BIL"
       ],
       "spieler": []
     }
@@ -2193,7 +2199,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 09.11., 06:22 Uhr · nach allen Spielen vom 08.11. (US-Zeit)",
+      "stand": "Stand: 09.11., 16:21 Uhr · nach allen Spielen vom 08.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2289,7 +2295,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 09.11., 06:22 Uhr · nach allen Spielen vom 08.11. (US-Zeit)",
+      "stand": "Stand: 09.11., 16:21 Uhr · nach allen Spielen vom 08.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -4135,6 +4141,16 @@
       "newsId": "2026-11-09-flagg-mavs-nets-wagner"
     },
     {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-08",
+      "titel": "Daniss Jenkins",
+      "team": "DET",
+      "wert": "8 Dreier",
+      "grund": "Detroit lag gegen die Lakers schon 26 Punkte hinten. Jenkins traf acht Dreier, machte 31 Punkte und brachte die Pistons fast noch zurück.",
+      "newsId": "2026-11-09-reaves-43-lakers-pistons"
+    },
+    {
       "art": "spiel",
       "liga": "BBL",
       "datum": "2026-11-08",
@@ -4153,16 +4169,6 @@
       "wert": "Viertel 33:7",
       "grund": "Im dritten Viertel ließ Bayern Würzburg nur 7 Punkte machen. So wurde aus einem engen Spiel ein klarer 94:73-Sieg.",
       "newsId": "2026-11-09-bbl-sonntag-bayern-wuerzburg"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-07",
-      "heim": "GSW",
-      "gast": "ORL",
-      "wert": "Verlängerung",
-      "grund": "Orlando holte 16 Punkte Rückstand auf und rettete sich zwei Sekunden vor Schluss in die Verlängerung. Dort entschied Stephen Curry das Spiel.",
-      "newsId": "2026-11-08-curry-41-warriors-magic"
     }
   ],
   "legacyGestellt": [
