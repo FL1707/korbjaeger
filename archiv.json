@@ -2,6 +2,269 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-07-luka-53-lakers-blazers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "53 Punkte! Luka Dončić rettet den Lakers den Sieg",
+      "teaser": "Die Lakers schlagen Portland 124:118. Luka Dončić macht 53 Punkte und trifft kurz vor Schluss den wichtigsten Wurf.",
+      "text": [
+        "Luka Dončić hört einfach nicht auf zu treffen. In der Nacht auf Samstag machte er beim 124:118 der Los Angeles Lakers gegen die Portland Trail Blazers 53 Punkte. Es war schon sein 11. Spiel in der NBA mit mindestens 50 Punkten – vier davon für die Lakers.",
+        "Dabei sah es lange nicht gut aus. Im zweiten Viertel lagen die Lakers mit 16 Punkten hinten. Dann drehte Dončić auf: Allein im dritten Viertel machte er 20 Punkte. Mit einem 32:11-Lauf gingen die Lakers selbst mit 16 Punkten in Führung.",
+        "Portland kam am Ende noch einmal auf vier Punkte heran. 28 Sekunden vor Schluss traf Dončić einen wichtigen Wurf aus der Zone, dann machten er und Austin Reaves an der Freiwurflinie alles klar. Reaves kam auf 25 Punkte, Walker Kessler auf 16 Punkte und 12 Rebounds.",
+        "Dončić hat jetzt viermal hintereinander mindestens 40 Punkte gemacht. Das haben bei den Lakers vor ihm nur Elgin Baylor, Kobe Bryant und George Mikan geschafft. Die Lakers (8 Siege, 2 Niederlagen) stehen damit ganz oben im Westen. In der Nacht auf Montag (0 Uhr) spielen sie in Detroit."
+      ],
+      "fakten": [
+        "Endstand: Lakers 124, Portland 118",
+        "Luka Dončić (LAL): 53 Punkte, 17 von 33 Würfen",
+        "Austin Reaves (LAL): 25 Punkte",
+        "Deni Avdija (POR): 22 Punkte, 11 Assists, 9 Rebounds",
+        "Damian Lillard (POR): 22 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "LAL",
+        "POR",
+        "DET"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Austin Reaves",
+        "Walker Kessler",
+        "Deni Avdija",
+        "Damian Lillard",
+        "Donovan Clingan",
+        "Toumani Camara"
+      ]
+    },
+    {
+      "id": "2026-11-07-spurs-kings-wembanyama",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Wembanyama legt nach: Spurs siegen in Sacramento",
+      "teaser": "Zwei Tage nach seinen 52 Punkten macht Victor Wembanyama 30 Punkte und holt 14 Rebounds. San Antonio gewinnt 124:109.",
+      "text": [
+        "Victor Wembanyama ist weiter in Topform. Beim 124:109-Sieg der San Antonio Spurs in Sacramento machte er 30 Punkte und holte 14 Rebounds. Zwei Tage vorher hatte er gegen Dallas 52 Punkte und 24 Rebounds geschafft.",
+        "Die Spurs legten schon in der ersten Halbzeit 75 Punkte auf und führten zur Pause mit 19 Punkten. Wembanyama machte im zweiten Viertel 12 Punkte am Stück. Stephon Castle, Devin Vassell und Dylan Harper kamen jeweils auf 19 Punkte.",
+        "Bei den Kings war Rookie Darius Acuff Jr. mit 22 Punkten und 8 Assists der Beste. Sacramento hat erst ein Spiel gewonnen und acht verloren. Die Spurs (7 Siege, 2 Niederlagen) spielen schon in der Nacht auf Sonntag (4 Uhr) in Portland."
+      ],
+      "fakten": [
+        "Endstand: Sacramento 109, San Antonio 124",
+        "Victor Wembanyama (SAS): 30 Punkte, 14 Rebounds",
+        "Castle, Vassell und Harper (SAS): je 19 Punkte",
+        "Darius Acuff Jr. (SAC): 22 Punkte, 8 Assists",
+        "Spurs: 33 von 42 Freiwürfen getroffen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "SAC",
+        "POR"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Stephon Castle",
+        "Devin Vassell",
+        "Dylan Harper",
+        "Harrison Barnes",
+        "Darius Acuff Jr.",
+        "Domantas Sabonis"
+      ]
+    },
+    {
+      "id": "2026-11-07-okc-ajay-mitchell-35",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Ajay Mitchell mit 35 Punkten – OKC fegt Memphis weg",
+      "teaser": "Oklahoma City gewinnt in Memphis 128:97. Ajay Mitchell macht so viele Punkte wie noch nie in seiner Karriere.",
+      "text": [
+        "Die Oklahoma City Thunder haben in Memphis ein Ausrufezeichen gesetzt. In der Nacht auf Samstag gewannen sie bei den Grizzlies mit 128:97. Es war schon der 16. Sieg in Folge gegen Memphis.",
+        "Der Star des Abends war Ajay Mitchell. Er traf 14 von 20 Würfen und kam auf 35 Punkte. Das ist sein Karrierebestwert. In den fünf Spielen davor hatte er schon im Schnitt fast 22 Punkte gemacht.",
+        "Shai Gilgeous-Alexander steuerte 28 Punkte bei, Jared McCain 21. Isaiah Hartenstein machte nur 2 Punkte, verteilte aber 7 Assists und holte 6 Rebounds. Zur Pause führte OKC schon mit 71:49.",
+        "Auch die Verteidigung war stark: OKC erzwang 18 Ballverluste und machte daraus 30 Punkte. In der Nacht auf Sonntag (2 Uhr) spielt Oklahoma City zu Hause gegen die Washington Wizards."
+      ],
+      "fakten": [
+        "Endstand: Memphis 97, Oklahoma City 128",
+        "Ajay Mitchell (OKC): 35 Punkte – Karrierebestwert",
+        "Shai Gilgeous-Alexander (OKC): 28 Punkte",
+        "Jared McCain (OKC): 21 Punkte",
+        "OKC: 16 Siege in Folge gegen Memphis"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "MEM",
+        "WAS"
+      ],
+      "spieler": [
+        "Ajay Mitchell",
+        "Shai Gilgeous-Alexander",
+        "Jared McCain",
+        "Isaiah Hartenstein",
+        "Ty Jerome",
+        "Zach Edey",
+        "Cameron Boozer"
+      ]
+    },
+    {
+      "id": "2026-11-07-celtics-hornets-steinbach",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "block",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "17 Dreier in einer Hälfte: Boston überrollt Charlotte",
+      "teaser": "Die Celtics gewinnen in Charlotte 119:80. Jayson Tatum macht 34 Punkte. Hannes Steinbach holt 11 Rebounds.",
+      "text": [
+        "Die Boston Celtics haben die Charlotte Hornets im NBA Cup klar geschlagen. Am Ende stand es 119:80 für Boston. Für die Celtics war es der siebte Sieg in den letzten acht Spielen.",
+        "Schon im ersten Viertel machte Jayson Tatum 18 Punkte. Boston führte nach zehn Minuten 40:20. In der ersten Halbzeit trafen die Celtics 17 Dreier bei 31 Versuchen. Tatum beendete das Spiel mit 34 Punkten, 9 Assists und 8 Rebounds.",
+        "Für Charlotte lief fast nichts. Die Hornets trafen in der ersten Halbzeit nur 28 Prozent ihrer Würfe. Es war die sechste Niederlage in Folge. Einige Stammspieler fehlten verletzt.",
+        "Ein Lichtblick war der deutsche Rookie Hannes Steinbach. Er holte 11 Rebounds und blockte 3 Würfe. Am Montag spielt Charlotte zu Hause gegen Cleveland."
+      ],
+      "fakten": [
+        "Endstand: Charlotte 80, Boston 119",
+        "Jayson Tatum (BOS): 34 Punkte, 9 Assists, 8 Rebounds",
+        "Boston: 17 von 31 Dreiern in der ersten Halbzeit",
+        "Hannes Steinbach (CHA): 4 Punkte, 11 Rebounds, 3 Blocks"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "BOS",
+        "CHA",
+        "CLE"
+      ],
+      "spieler": [
+        "Jayson Tatum",
+        "Derrick White",
+        "Payton Pritchard",
+        "Hannes Steinbach",
+        "Naz Reid",
+        "Brandon Miller"
+      ]
+    },
+    {
+      "id": "2026-11-07-raptors-alijah-martin",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Alijah Martin: from 9 points to 27 points",
+      "teaser": "Toronto's Alijah Martin had the best game of his life. He made 6 of 7 threes in Milwaukee.",
+      "text": [
+        "Alijah Martin plays for the Toronto Raptors. Before Friday, he never scored more than 9 points in an NBA game. Then he scored 27 points in Milwaukee!",
+        "Martin made 9 of his 11 shots. From the 3-point line he made 6 of 7. Toronto won 121 to 107. RJ Barrett also scored 27 points.",
+        "Toronto was behind by 15 points. But in the second half the Raptors played great. They won the second half 70 to 47. Jamal Shead had 16 assists – also his best ever.",
+        "Many Toronto stars could not play. So the young players had to help. And they did!"
+      ],
+      "fakten": [
+        "Milwaukee 107, Toronto 121",
+        "Alijah Martin (TOR): 27 points, 6 of 7 threes – career high",
+        "RJ Barrett (TOR): 27 points",
+        "Jamal Shead (TOR): 16 assists – career high",
+        "Tyler Herro (MIL): 23 points, 10 assists"
+      ],
+      "vokabeln": [
+        {
+          "en": "to score",
+          "de": "Punkte machen"
+        },
+        {
+          "en": "career high",
+          "de": "Karrierebestwert"
+        },
+        {
+          "en": "shot",
+          "de": "Wurf"
+        },
+        {
+          "en": "second half",
+          "de": "zweite Halbzeit"
+        },
+        {
+          "en": "to help",
+          "de": "helfen"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "TOR",
+        "MIL"
+      ],
+      "spieler": [
+        "Alijah Martin",
+        "RJ Barrett",
+        "Jamal Shead",
+        "Collin Murray-Boyles",
+        "Jakob Poeltl",
+        "Tyler Herro",
+        "Brayden Burries"
+      ]
+    },
+    {
+      "id": "2026-11-07-euroleague-zvezda-piraeus",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-07",
+      "tags": [],
+      "titel": "Abwehrschlacht in Piräus – Crvena zvezda gewinnt 62:57",
+      "teaser": "Am Freitag gab es vier Spiele in der Euroleague. In Piräus fielen ganz wenige Punkte. Dubai gewinnt deutlich in Bologna.",
+      "text": [
+        "Die 10. Runde der Euroleague ist vorbei. Am Freitag fand das Spiel mit den wenigsten Punkten statt: Crvena zvezda Belgrad gewann bei Olympiakos Piräus mit 62:57. Zur Pause führte Belgrad sogar 40:22.",
+        "Olympiakos kam im zweiten Teil noch einmal heran. Sasha Vezenkov machte 27 Punkte – fast die Hälfte aller Punkte seines Teams. Für Belgrad holte Jordan Nwora 18 Punkte und 13 Rebounds.",
+        "Dubai Basketball gewann in Bologna bei Virtus mit 93:75. Partizan Belgrad besiegte Maccabi Tel Aviv 88:67. Beim Verlierer war der deutsche Center Daniel Theis mit 11 Punkten bester Werfer. Žalgiris Kaunas gewann in Istanbul bei Beşiktaş 83:67.",
+        "Panathinaikos führt die Tabelle mit 8 Siegen an. Dahinter haben gleich sechs Teams 7 Siege. Der FC Bayern steht mit 3 Siegen auf Platz 17. Am Donnerstag spielen die Münchner in Valencia."
+      ],
+      "fakten": [
+        "Olympiakos 57, Crvena zvezda 62",
+        "Sasha Vezenkov (OLY): 27 Punkte",
+        "Virtus Bologna 75, Dubai 93",
+        "Partizan 88, Maccabi Tel Aviv 67",
+        "Beşiktaş 67, Žalgiris 83"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net"
+      ],
+      "teams": [
+        "CZV",
+        "OLY",
+        "DUB",
+        "VIR",
+        "PAR",
+        "MTA",
+        "ZAL",
+        "BES",
+        "PAO",
+        "FCB",
+        "VAL"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-07-lebron-trae-rueckkehr",
       "liga": "NBA",
       "lang": "de",
