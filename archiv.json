@@ -2,6 +2,244 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-09-serien-spurs-warriors",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "Heiße Serien: Spurs 8 Siege am Stück, Warriors 7",
+      "teaser": "In der NBA laufen gerade zwei Teams aus dem Westen richtig heiß. Heute Nacht können beide ihre Serie verlängern.",
+      "text": [
+        "San Antonio hat die ersten beiden Spiele der Saison verloren. Seitdem haben die Spurs achtmal hintereinander gewonnen. Das ist im Moment die längste Siegesserie der ganzen NBA.",
+        "Der wichtigste Mann ist Victor Wembanyama. Er macht im Schnitt 29,1 Punkte und holt 12 Rebounds pro Spiel. Dazu blockt er fast vier Würfe in jedem Spiel – so viele wie kein anderer.",
+        "Fast genauso heiß sind die Golden State Warriors: sieben Siege in Folge. Stephen Curry trifft fast fünf Dreier pro Spiel und macht 31,3 Punkte im Schnitt.",
+        "Oben im Westen ist es richtig eng. Die Lakers führen mit 9 Siegen und 2 Niederlagen. Dahinter liegen OKC und San Antonio mit je 8:2 nur ein halbes Spiel zurück. Heute Nacht spielen die Spurs in Phoenix (3 Uhr) und die Warriors gegen New Orleans (4 Uhr)."
+      ],
+      "fakten": [
+        "San Antonio: 8 Siege in Folge (8:2)",
+        "Golden State: 7 Siege in Folge (7:3)",
+        "Victor Wembanyama: 29,1 Punkte, 12,0 Rebounds, 3,9 Blocks",
+        "Stephen Curry: 31,3 Punkte, 4,8 Dreier pro Spiel",
+        "Nacht auf Dienstag: Phoenix – San Antonio, Golden State – New Orleans"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "SAS",
+        "GSW",
+        "LAL",
+        "OKC",
+        "PHX",
+        "NOP"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Stephen Curry"
+      ]
+    },
+    {
+      "id": "2026-11-08-knicks-cavs-brunson",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "18 points in a row: Brunson wins in Cleveland",
+      "teaser": "The New York Knicks beat the Cleveland Cavaliers 109 to 97. Jalen Brunson scored 31 points.",
+      "text": [
+        "The New York Knicks are the NBA champions. On Saturday they played in Cleveland. Last season, the Knicks beat the Cavaliers in the playoffs.",
+        "In the second quarter, Jalen Brunson was on fire. He scored 18 points in a row for his team! After that, the Knicks were ahead.",
+        "Brunson finished with 31 points and 9 assists. Karl-Anthony Towns had 29 points and 13 rebounds. Donovan Mitchell scored 37 points for Cleveland – 21 of them in the last quarter. But it was not enough. New York won 109 to 97."
+      ],
+      "fakten": [
+        "Cleveland 97, New York 109",
+        "Jalen Brunson (NYK): 31 points, 9 assists",
+        "Karl-Anthony Towns (NYK): 29 points, 13 rebounds",
+        "Donovan Mitchell (CLE): 37 points – season high"
+      ],
+      "vokabeln": [
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        },
+        {
+          "en": "on fire",
+          "de": "nicht zu stoppen, heiß"
+        },
+        {
+          "en": "ahead",
+          "de": "vorne"
+        },
+        {
+          "en": "behind",
+          "de": "hinten"
+        },
+        {
+          "en": "season high",
+          "de": "Saisonbestwert"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "NYK",
+        "CLE"
+      ],
+      "spieler": [
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "OG Anunoby",
+        "Landry Shamet",
+        "Donovan Mitchell",
+        "Evan Mobley",
+        "James Harden"
+      ]
+    },
+    {
+      "id": "2026-11-08-hawks-nets-aufholjagd",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "17 Punkte hinten – Atlanta dreht das Spiel gegen Moritz Wagners Nets",
+      "teaser": "Die Hawks gewinnen 124:121 gegen Brooklyn. Day'Ron Sharpe schafft für die Nets sein erstes Triple-Double.",
+      "text": [
+        "Die Brooklyn Nets um Moritz Wagner starteten in Atlanta super. Im ersten Viertel führten sie schon mit 31:14. Doch die Atlanta Hawks gaben nicht auf und gewannen am Ende mit 124:121.",
+        "Lange lag Brooklyn vorne. Erst 1:26 Minuten vor Schluss ging Atlanta zum ersten Mal in Führung: Nickeil Alexander-Walker traf zwei Freiwürfe. Jalen Johnson war mit 30 Punkten bester Werfer der Hawks.",
+        "Für Brooklyn traf Danny Wolf 1,5 Sekunden vor Schluss noch einen Dreier – aber es reichte nicht mehr. Day'Ron Sharpe hatte 12 Punkte, 10 Rebounds und 13 Assists. Das war sein erstes Triple-Double in der NBA. Michael Porter Jr. machte 25 Punkte, Moritz Wagner 9 Punkte.",
+        "Am Sonntag spielen die Nets in Dallas (Anwurf in der Nacht auf Montag um 1:30 Uhr)."
+      ],
+      "fakten": [
+        "Endstand: Atlanta 124, Brooklyn 121",
+        "Jalen Johnson (ATL): 30 Punkte",
+        "Michael Porter Jr. (BKN): 25 Punkte",
+        "Day'Ron Sharpe (BKN): 12 Punkte, 10 Rebounds, 13 Assists – erstes Triple-Double",
+        "Moritz Wagner (BKN): 9 Punkte",
+        "Atlanta: 4 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ATL",
+        "BKN",
+        "DAL"
+      ],
+      "spieler": [
+        "Jalen Johnson",
+        "Nickeil Alexander-Walker",
+        "Aaron Wiggins",
+        "Onyeka Okongwu",
+        "Michael Porter Jr.",
+        "Day'Ron Sharpe",
+        "Moritz Wagner",
+        "Danny Wolf",
+        "Nolan Traore",
+        "Mikel Brown Jr.",
+        "Julius Randle"
+      ]
+    },
+    {
+      "id": "2026-11-08-spurs-blazers-wembanyama",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "29 Punkte in 24 Minuten: Wembanyama und die Spurs siegen in Portland",
+      "teaser": "San Antonio gewinnt bei den Portland Trail Blazers deutlich mit 125:103. Victor Wembanyama braucht nur 13 Würfe für 29 Punkte.",
+      "text": [
+        "Die San Antonio Spurs sind weiter in Topform. In der Nacht gewannen sie bei den Portland Trail Blazers mit 125:103. Es war das Spitzenspiel zweier Teams aus dem Westen, die beide gut in die Saison gestartet waren.",
+        "Victor Wembanyama spielte nur 24 Minuten. Trotzdem machte er 29 Punkte. Er traf 9 von 13 Würfen, dazu 3 von 6 Dreiern und 8 von 9 Freiwürfen. Weil die Spurs so hoch führten, durfte er sich am Ende ausruhen.",
+        "Auch die Mitspieler trafen gut: Devin Vassell kam auf 15 Punkte, Stephon Castle und Julian Champagnie auf je 14, Rookie Dylan Harper auf 13. Bei Portland war Deni Avdija mit 15 Punkten der Beste. Der junge Center Yang Hansen schaffte mit 12 Punkten und 10 Rebounds sein erstes Double-Double in der NBA.",
+        "San Antonio hat jetzt 8 Siege und 2 Niederlagen – genauso viele wie Oklahoma City und die Lakers. Am Montag spielen die Spurs in Phoenix. Portland empfängt am Dienstag und Mittwoch zweimal OKC."
+      ],
+      "fakten": [
+        "Endstand: Portland 103, San Antonio 125",
+        "Victor Wembanyama (SAS): 29 Punkte in 24 Minuten, 9 von 13 Würfen",
+        "Devin Vassell (SAS): 15 Punkte",
+        "Deni Avdija (POR): 15 Punkte",
+        "Yang Hansen (POR): 12 Punkte, 10 Rebounds – erstes Double-Double",
+        "Spurs: 8 Siege, 2 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "POR",
+        "OKC",
+        "LAL",
+        "PHX"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Devin Vassell",
+        "Stephon Castle",
+        "Julian Champagnie",
+        "Dylan Harper",
+        "De'Aaron Fox",
+        "Deni Avdija",
+        "Scoot Henderson",
+        "Damian Lillard",
+        "Jrue Holiday",
+        "Yang Hansen"
+      ]
+    },
+    {
+      "id": "2026-11-08-vorschau-woche",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "Bilbao, Valencia, Oldenburg: Das bringt die neue Woche",
+      "teaser": "ALBA spielt in Spanien, der FC Bayern auch, und die deutschen Damen haben ein Heimspiel in Hamburg.",
+      "text": [
+        "Heute (18 Uhr) muss der FC Bayern in der Bundesliga in Würzburg ran. Würzburg hat erst zwei Spiele verloren – ein schweres Spiel für den Tabellenführer.",
+        "Am Dienstag (20 Uhr) spielt ALBA Berlin in der Champions League bei Bilbao Basket in Spanien. Es ist ein Spiel in Gruppe G. Am Mittwoch ist Bamberg in Murcia zu Gast, Vechta spielt schon am Dienstag in Holon in Israel.",
+        "Am Mittwoch (19 Uhr) spielen die deutschen Basketball-Damen in Hamburg gegen Ungarn. Es geht um die Qualifikation für die Europameisterschaft 2027. Am Samstag spielen sie dann in Dänemark.",
+        "Der FC Bayern ist am Donnerstag (20:30 Uhr) in der Euroleague in Valencia zu Gast. Und am Samstag (20 Uhr) spielt ALBA in der Bundesliga in Oldenburg."
+      ],
+      "fakten": [
+        "So., 18:00: Würzburg – FC Bayern (BBL)",
+        "Di., 20:00: Bilbao – ALBA (Champions League)",
+        "Mi., 19:00: Deutschland – Ungarn (Damen, EM-Quali)",
+        "Do., 20:30: Valencia – FC Bayern (Euroleague)",
+        "Sa., 20:00: Oldenburg – ALBA (BBL)"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "championsleague.basketball",
+        "euroleaguebasketball.net",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "FCB",
+        "WUE",
+        "ALBA",
+        "BIL",
+        "BAM",
+        "UCAM",
+        "VEC",
+        "HOL",
+        "GER",
+        "HUN",
+        "DNK",
+        "VAL",
+        "OLD"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-07-alba-hagen-102-72",
       "liga": "BBL",
       "lang": "de",
