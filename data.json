@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-10T06:21:10+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen und willkommen zur Morgenausgabe! Victor Wembanyama hat in Phoenix 40 Punkte gemacht und 9 Würfe geblockt – die Spurs haben jetzt neunmal in Folge gewonnen. Cooper Flagg schaffte 43 Punkte, und in der Bundesliga jubelt Hamburg nach dem Sieg in Jena. Heute Abend spielt ALBA in der Champions League in Bilbao. Neues Quiz, Who is it? und eine Schiri-Situation warten auf dich.",
+  "aktualisiert": "2026-11-10T16:17:21+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo und willkommen zur Nachmittagsausgabe! In der Nacht haben die Golden State Warriors New Orleans mit 138:87 überrollt – Stephen Curry ist jetzt Nummer 16 der besten Punktesammler der NBA-Geschichte. Heute Abend spielt ALBA in der Champions League in Bilbao, und morgen sind die deutschen Damen in Hamburg gegen Ungarn dran. Quiz, Who is it? und die Schiri-Situation von heute Morgen warten noch auf dich.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-10",
   "zahlDesTages": {
-    "zahl": "9",
-    "text": "So viele Würfe blockte Victor Wembanyama in Phoenix – in nur 25 Minuten. Und die Spurs haben jetzt auch 9 Spiele in Folge gewonnen."
+    "zahl": "51",
+    "text": "Mit so vielen Punkten Vorsprung gewannen die Golden State Warriors gegen New Orleans (138:87). Es war ihr achter Sieg in Folge."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -269,6 +269,42 @@
     "erklaerung": "In Phoenix blockte Victor Wembanyama neun Würfe – fünf davon schon in der ersten Halbzeit. Dazu machte er 40 Punkte und holte 11 Rebounds, obwohl er nur 25 Minuten spielte. Die Spurs gewannen 122:96 und haben jetzt neunmal hintereinander gewonnen."
   },
   "news": [
+    {
+      "id": "2026-11-10-warriors-138-87-pelicans",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "51 Punkte Vorsprung: Warriors feiern achten Sieg in Folge",
+      "teaser": "Golden State hat New Orleans mit 138:87 überrollt. Stephen Curry machte 25 Punkte und überholte in der ewigen Bestenliste DeMar DeRozan.",
+      "text": [
+        "Die Golden State Warriors sind nicht zu bremsen. Gegen die New Orleans Pelicans gewannen sie zu Hause 138:87. Das war schon der achte Sieg hintereinander.",
+        "Das Spiel war früh entschieden. Nach dem ersten Viertel stand es 35:20, zur Halbzeit sogar 72:43. Die Pelicans trafen am Anfang fast keinen Dreier.",
+        "Stephen Curry machte 25 Punkte, obwohl er nur etwa 21 Minuten spielte. Alle 9 Freiwürfe gingen rein. Damit ist er jetzt auf Platz 16 der besten Punktesammler der NBA-Geschichte – er überholte DeMar DeRozan.",
+        "Auch Brandin Podziemski kam auf 25 Punkte. Neuling Yaxel Lendeborg traf 8 von 10 Würfen und machte 23 Punkte. Die Warriors spielten super zusammen: 37 Assists! Im Westen sind sie jetzt 8:3."
+      ],
+      "fakten": [
+        "Endstand: Golden State – New Orleans 138:87",
+        "Curry 25 Punkte, 9 von 9 Freiwürfen",
+        "Podziemski 25, Lendeborg 23 Punkte",
+        "37 Assists für Golden State",
+        "Warriors: 8 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "NOP"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Brandin Podziemski",
+        "Yaxel Lendeborg"
+      ]
+    },
     {
       "id": "2026-11-10-wembanyama-40-9-blocks",
       "liga": "NBA",
@@ -1010,6 +1046,29 @@
       }
     },
     {
+      "liga": "NBA",
+      "datum": "2026-11-09",
+      "runde": "NBA",
+      "heim": "GSW",
+      "gast": "NOP",
+      "heimPkt": 138,
+      "gastPkt": 87,
+      "info": "Curry und Podziemski (GSW) je 25 Punkte",
+      "newsId": "2026-11-10-warriors-138-87-pelicans",
+      "bericht": {
+        "text": [
+          "Golden State war von Anfang an viel besser. Schon zur Halbzeit führten die Warriors mit 72:43.",
+          "Stephen Curry, Brandin Podziemski und Yaxel Lendeborg machten zusammen 73 Punkte. Am Ende gewann Golden State mit 51 Punkten Vorsprung – der achte Sieg in Folge."
+        ],
+        "highlights": [
+          "Stephen Curry (GSW): 25 Punkte, 9 von 9 Freiwürfen",
+          "Brandin Podziemski (GSW): 25 Punkte, 5 Dreier",
+          "Yaxel Lendeborg (GSW): 23 Punkte, 8 von 10 Würfen",
+          "Derik Queen (NOP): 16 Punkte"
+        ]
+      }
+    },
+    {
       "liga": "BBL",
       "datum": "2026-11-09",
       "runde": "BBL · 8. Spieltag",
@@ -1503,13 +1562,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-10T04:00:00+01:00",
-      "heim": "GSW",
-      "gast": "NOP",
-      "info": "mit Curry"
-    },
     {
       "liga": "BCL",
       "zeit": "2026-11-10T17:00:00+01:00",
@@ -2158,7 +2210,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 10.11., 06:21 Uhr · nach allen Spielen vom 09.11. (US-Zeit), ohne Golden State – New Orleans",
+      "stand": "Stand: 10.11., 16:17 Uhr · nach allen Spielen vom 09.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2191,6 +2243,11 @@
           "n": 2
         },
         {
+          "team": "GSW",
+          "s": 8,
+          "n": 3
+        },
+        {
           "team": "MIN",
           "s": 8,
           "n": 3
@@ -2202,11 +2259,6 @@
         },
         {
           "team": "MEM",
-          "s": 7,
-          "n": 3
-        },
-        {
-          "team": "GSW",
           "s": 7,
           "n": 3
         },
@@ -2228,7 +2280,7 @@
         {
           "team": "NOP",
           "s": 4,
-          "n": 6
+          "n": 7
         },
         {
           "team": "PHX",
@@ -2254,7 +2306,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 10.11., 06:21 Uhr · nach allen Spielen vom 09.11. (US-Zeit), ohne Golden State – New Orleans",
+      "stand": "Stand: 10.11., 16:17 Uhr · nach allen Spielen vom 09.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2875,12 +2927,12 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 8,
-        "pkt": 31.3,
-        "reb": 4.0,
-        "ast": 4.6
+        "spiele": 9,
+        "pkt": 30.6,
+        "reb": 4.1,
+        "ast": 4.3
       },
-      "notiz": "Mit 38 Jahren noch ein Superstar: Gegen Orlando machte er 41 Punkte – sein 16. Spiel mit 40 Punkten nach dem 35. Geburtstag, NBA-Rekord."
+      "notiz": "Mit 38 Jahren noch ein Superstar: Gegen New Orleans überholte er DeMar DeRozan und ist jetzt Nummer 16 der besten Punktesammler der NBA-Geschichte."
     },
     {
       "name": "Franz Wagner",
@@ -2959,10 +3011,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 4,
-        "pkt": 3.0,
-        "reb": 4.5,
-        "ast": 0.5
+        "spiele": 5,
+        "pkt": 2.8,
+        "reb": 4.2,
+        "ast": 0.4
       },
       "notiz": "Rookie aus Würzburg, im Draft an Nummer 14 ausgewählt. Beim Sieg gegen Cleveland holte er in 13 Minuten 3 Rebounds."
     },
@@ -2998,10 +3050,10 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 9,
-        "pkt": 40.1,
+        "spiele": 10,
+        "pkt": 39.3,
         "reb": 7.8,
-        "ast": 7.7
+        "ast": 7.9
       },
       "notiz": "Der Slowene trifft für die Lakers wie verrückt: Gegen Portland machte er 53 Punkte – sein viertes Spiel in Folge mit mindestens 40."
     },
@@ -3024,9 +3076,9 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 8,
-        "pkt": 22.9,
-        "reb": 10.1,
+        "spiele": 9,
+        "pkt": 23.1,
+        "reb": 10.8,
         "ast": 9.1
       },
       "notiz": "Gegen Toronto schaffte er mit 32 Punkten, 10 Rebounds und 11 Assists sein drittes Triple-Double der Saison."
@@ -3037,9 +3089,9 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 10,
-        "pkt": 29.1,
-        "reb": 12.0,
+        "spiele": 11,
+        "pkt": 30.1,
+        "reb": 11.9,
         "ast": 3.0
       },
       "notiz": "Der riesige Franzose der Spurs. In Phoenix machte er 40 Punkte und blockte 9 Würfe – in nur 25 Minuten."
@@ -4088,6 +4140,16 @@
       "wert": "40 Punkte, 9 Blocks",
       "grund": "Dafür brauchte er nur 25 Minuten und traf 15 von 19 Würfen. Neun Blocks in einem Spiel schaffen nur ganz wenige Spieler.",
       "newsId": "2026-11-10-wembanyama-40-9-blocks"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-09",
+      "heim": "GSW",
+      "gast": "NOP",
+      "wert": "51 Punkte Vorsprung",
+      "grund": "Golden State gewann 138:87 – so hoch siegt man in der NBA nur selten. Es war der achte Sieg der Warriors in Folge.",
+      "newsId": "2026-11-10-warriors-138-87-pelicans"
     },
     {
       "art": "spieler",
