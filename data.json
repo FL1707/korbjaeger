@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-11T06:23:22+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen und willkommen zur Morgenausgabe! ALBA Berlin hat in Bilbao zum ersten Mal in der Champions League verloren – dafür feierte Kapitän Jonas Mattisseck sein 500. Spiel. In der NBA traf Paul George sechs Dreier beim klaren Sieg der Boston Celtics in Philadelphia. Heute Abend um 19 Uhr starten die deutschen Damen in Hamburg gegen Ungarn in die EM-Quali. Neues Quiz, neues „Who is it?“ und eine knifflige Schiri-Situation warten auf dich!",
+  "aktualisiert": "2026-11-11T16:17:53+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo und willkommen zur Nachmittagsausgabe! Franz Wagner hat in Sacramento 33 Punkte gemacht und Orlando endlich wieder zu einem Sieg geführt. Die Oklahoma City Thunder verloren dagegen in Portland – Damian Lillard traf sogar von der Mittellinie. Heute Nacht gibt es schon die Revanche. Und um 19 Uhr starten die deutschen Damen in Hamburg gegen Ungarn in die EM-Quali!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-11",
   "zahlDesTages": {
-    "zahl": "500",
-    "text": "So viele Spiele hat Jonas Mattisseck jetzt für ALBA Berlin gemacht. Nur Henrik Rödl hat noch mehr."
+    "zahl": "10 von 10",
+    "text": "So viele Freiwürfe traf Franz Wagner beim 107:100 der Orlando Magic in Sacramento – jeder einzelne war drin."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -275,6 +275,86 @@
     "erklaerung": "In Philadelphia traf Paul George 6 von 11 Dreiern. Insgesamt machte er 36 Punkte. Boston gewann das Duell der beiden besten Teams im Osten klar mit 123:101."
   },
   "news": [
+    {
+      "id": "2026-11-11-franz-wagner-33-magic-kings",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "33 Punkte! Franz Wagner beendet Orlandos Pleitenserie",
+      "teaser": "Nach vier Niederlagen hintereinander gewann Orlando wieder: 107:100 in Sacramento. Franz Wagner machte so viele Punkte wie noch nie in dieser Saison.",
+      "text": [
+        "Die Orlando Magic hatten viermal in Folge verloren. In Sacramento klappte es endlich wieder: Orlando gewann mit 107:100.",
+        "Der beste Mann war Franz Wagner aus Berlin. Er kam auf 33 Punkte – sein Saisonbestwert. Dazu holte er 7 Rebounds und gab 7 Assists. Alle 10 Freiwürfe trafen. Schon am Samstag gegen Golden State hatte er 30 Punkte gemacht.",
+        "Im zweiten Viertel traf Wagner einen Dreier zum 52:43. Danach führte Orlando bis zum Schluss. Anthony Black half mit 26 Punkten und 4 Steals.",
+        "Bei Sacramento traf Zach LaVine 31 Punkte. Der erst 19 Jahre alte Rookie Darius Acuff Jr. machte 29 Punkte. Tristan da Silva spielte für Orlando nicht mit. Schon heute Nacht geht es für die Magic in Utah weiter."
+      ],
+      "fakten": [
+        "Endstand: Sacramento – Orlando 100:107",
+        "Franz Wagner: 33 Punkte, 7 Rebounds, 7 Assists",
+        "Wagner traf 10 von 10 Freiwürfen",
+        "Anthony Black (ORL): 26 Punkte, 4 Steals",
+        "Orlando jetzt bei 3 Siegen und 7 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "SAC"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Anthony Black",
+        "Zach LaVine",
+        "Darius Acuff Jr.",
+        "Tristan da Silva"
+      ]
+    },
+    {
+      "id": "2026-11-11-thunder-verlieren-in-portland",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "Lillard trifft von der Mittellinie – OKC verliert in Portland",
+      "teaser": "Die Oklahoma City Thunder verloren bei den Portland Trail Blazers mit 103:123. Damian Lillard war mit 25 Punkten der Topscorer.",
+      "text": [
+        "Vier Spiele hintereinander hatte Oklahoma City gewonnen. In Portland riss die Serie: Die Thunder verloren mit 103:123.",
+        "Zur Pause stand es noch 59:59. Dann drehte Damian Lillard auf. Er traf Dreier um Dreier. Kurz vor Ende des dritten Viertels warf er sogar vom Logo an der Mittellinie – und traf zum 97:80. Portland gewann das dritte Viertel mit 38:21.",
+        "Shai Gilgeous-Alexander machte 26 Punkte, traf aber nur 8 von 22 Würfen. Im letzten Viertel blieb er auf der Bank. Jared McCain kam auf 21 Punkte. Isaiah Hartenstein holte 9 Rebounds und gab 5 Assists.",
+        "Bei OKC fehlen gerade mehrere wichtige Spieler, zum Beispiel Jalen Williams und Chet Holmgren. Nique Clifford, der neu aus Sacramento kam, spielte zum ersten Mal für die Thunder. Schon heute Nacht um 4 Uhr gibt es die Revanche – wieder in Portland."
+      ],
+      "fakten": [
+        "Endstand: Portland – Oklahoma City 123:103",
+        "Damian Lillard (POR): 25 Punkte",
+        "Deni Avdija (POR): 24 Punkte, 8 Assists",
+        "Shai Gilgeous-Alexander: 26 Punkte",
+        "Isaiah Hartenstein: 7 Punkte, 9 Rebounds, 5 Assists",
+        "OKC jetzt bei 8 Siegen und 3 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "POR"
+      ],
+      "spieler": [
+        "Damian Lillard",
+        "Deni Avdija",
+        "Shai Gilgeous-Alexander",
+        "Jared McCain",
+        "Isaiah Hartenstein",
+        "Jalen Williams",
+        "Chet Holmgren",
+        "Nique Clifford"
+      ]
+    },
     {
       "id": "2026-11-11-alba-verliert-in-bilbao",
       "liga": "BCL",
@@ -689,47 +769,6 @@
       "spieler": []
     },
     {
-      "id": "2026-11-09-reaves-43-lakers-pistons",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-11-09",
-      "tags": [],
-      "titel": "Ohne Luka: Austin Reaves macht 43 Punkte in Detroit",
-      "teaser": "Die Lakers gewinnen 121:116 bei den Pistons. Weil Luka Dončić fehlt, übernimmt Austin Reaves – und trifft am Ende einen verrückten Dreier.",
-      "text": [
-        "Die Los Angeles Lakers mussten in Detroit ohne ihren besten Spieler auskommen: Luka Dončić fiel aus. Er hatte zuletzt viermal hintereinander mindestens 40 Punkte gemacht. Wer sollte jetzt die Punkte holen?",
-        "Die Antwort hieß Austin Reaves. Er traf 14 von 27 Würfen und alle 11 Freiwürfe. Am Ende hatte er 43 Punkte. Center Walker Kessler holte 16 Rebounds.",
-        "Die Lakers führten im zweiten Viertel schon mit 26 Punkten. Doch Detroit kam zurück und lag vor der letzten Minute nur noch 104:109 hinten. Dann lief die Wurfuhr fast ab. Reaves sprang auf einem Bein ab, warf aus dem Gleichgewicht – und der Dreier ging rein! Damit war das Spiel entschieden.",
-        "Reaves selbst sagte danach, das sei ein Glückswurf gewesen. Seine Mitspieler sehen das anders. Die Lakers stehen jetzt mit 9 Siegen und 2 Niederlagen ganz oben im Westen."
-      ],
-      "fakten": [
-        "Endstand: Detroit 116, LA Lakers 121",
-        "Austin Reaves (LAL): 43 Punkte, 11 von 11 Freiwürfen",
-        "Walker Kessler (LAL): 12 Punkte, 16 Rebounds",
-        "Daniss Jenkins (DET): 31 Punkte, 8 Dreier",
-        "Lakers: Platz 1 im Westen (9-2)"
-      ],
-      "quellen": [
-        "AP",
-        "ESPN"
-      ],
-      "teams": [
-        "LAL",
-        "DET"
-      ],
-      "spieler": [
-        "Austin Reaves",
-        "Luka Dončić",
-        "Walker Kessler",
-        "Ziaire Williams",
-        "Collin Sexton",
-        "Daniss Jenkins",
-        "Kevin Huerter",
-        "Cade Cunningham"
-      ]
-    },
-    {
       "id": "2026-11-09-bbl-sonntag-bayern-wuerzburg",
       "liga": "BBL",
       "lang": "de",
@@ -768,6 +807,52 @@
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-10",
+      "runde": "NBA",
+      "heim": "SAC",
+      "gast": "ORL",
+      "heimPkt": 100,
+      "gastPkt": 107,
+      "info": "F. Wagner (ORL) 33 Punkte",
+      "newsId": "2026-11-11-franz-wagner-33-magic-kings",
+      "bericht": {
+        "text": [
+          "Orlando beendete eine Serie von vier Niederlagen. Ein Dreier von Franz Wagner brachte im zweiten Viertel die Führung, die die Magic nicht mehr hergaben.",
+          "Wagner traf alle 10 Freiwürfe. Bei Sacramento glänzten Zach LaVine und Rookie Darius Acuff Jr."
+        ],
+        "highlights": [
+          "Franz Wagner (ORL): 33 Punkte, 7 Rebounds, 7 Assists – Saisonbestwert",
+          "Anthony Black (ORL): 26 Punkte, 4 Steals",
+          "Zach LaVine (SAC): 31 Punkte, 6 Dreier",
+          "Darius Acuff Jr. (SAC): 29 Punkte"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-10",
+      "runde": "NBA",
+      "heim": "POR",
+      "gast": "OKC",
+      "heimPkt": 123,
+      "gastPkt": 103,
+      "info": "Lillard (POR) 25 Punkte",
+      "newsId": "2026-11-11-thunder-verlieren-in-portland",
+      "bericht": {
+        "text": [
+          "Zur Pause stand es 59:59. Im dritten Viertel zog Portland mit 38:21 davon – Damian Lillard traf sogar einen Dreier von der Mittellinie.",
+          "Für OKC riss eine Serie von vier Siegen. Die beiden Teams spielen gleich noch einmal in Portland."
+        ],
+        "highlights": [
+          "Damian Lillard (POR): 25 Punkte",
+          "Deni Avdija (POR): 24 Punkte, 8 Assists",
+          "Shai Gilgeous-Alexander (OKC): 26 Punkte",
+          "Isaiah Hartenstein (OKC): 7 Punkte, 9 Rebounds, 5 Assists"
+        ]
+      }
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-10",
@@ -1349,20 +1434,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-11T04:00:00+01:00",
-      "heim": "SAC",
-      "gast": "ORL",
-      "info": "mit F. Wagner und da Silva"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-11T05:00:00+01:00",
-      "heim": "POR",
-      "gast": "OKC",
-      "info": "mit Hartenstein"
-    },
     {
       "liga": "BCL",
       "zeit": "2026-11-11T18:00:00+01:00",
@@ -2009,7 +2080,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 11.11., 06:23 Uhr · nach den Spielen vom 10.11. (US-Zeit) · Sacramento–Orlando und Portland–OKC liefen noch",
+      "stand": "Stand: 11.11., 16:17 Uhr · nach allen Spielen vom 10.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2037,16 +2108,6 @@
           "n": 2
         },
         {
-          "team": "OKC",
-          "s": 8,
-          "n": 2
-        },
-        {
-          "team": "GSW",
-          "s": 8,
-          "n": 3
-        },
-        {
           "team": "MIN",
           "s": 8,
           "n": 3
@@ -2057,13 +2118,23 @@
           "n": 3
         },
         {
+          "team": "GSW",
+          "s": 8,
+          "n": 3
+        },
+        {
+          "team": "OKC",
+          "s": 8,
+          "n": 3
+        },
+        {
           "team": "MEM",
           "s": 7,
           "n": 3
         },
         {
           "team": "POR",
-          "s": 6,
+          "s": 7,
           "n": 3
         },
         {
@@ -2094,7 +2165,7 @@
         {
           "team": "SAC",
           "s": 1,
-          "n": 9
+          "n": 10
         },
         {
           "team": "UTA",
@@ -2105,7 +2176,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 11.11., 06:23 Uhr · nach den Spielen vom 10.11. (US-Zeit) · Sacramento–Orlando und Portland–OKC liefen noch",
+      "stand": "Stand: 11.11., 16:17 Uhr · nach allen Spielen vom 10.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2173,14 +2244,14 @@
           "n": 7
         },
         {
+          "team": "ORL",
+          "s": 3,
+          "n": 7
+        },
+        {
           "team": "IND",
           "s": 3,
           "n": 8
-        },
-        {
-          "team": "ORL",
-          "s": 2,
-          "n": 7
         },
         {
           "team": "BKN",
@@ -2712,10 +2783,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 10,
-        "pkt": 29.9,
-        "reb": 3.9,
-        "ast": 4.9
+        "spiele": 11,
+        "pkt": 29.5,
+        "reb": 4.3,
+        "ast": 4.7
       },
       "notiz": "Der Superstar der Thunder. Gegen Cleveland machte er erst 43 und zwei Tage später 42 Punkte – OKC gewann beide Spiele."
     },
@@ -2741,12 +2812,12 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 9,
-        "pkt": 20.8,
-        "reb": 6.3,
-        "ast": 8.8
+        "spiele": 10,
+        "pkt": 22.0,
+        "reb": 6.4,
+        "ast": 8.6
       },
-      "notiz": "Der Star der Orlando Magic. Gegen Golden State machte er 30 Punkte und 11 Assists, verlor aber nach Verlängerung."
+      "notiz": "Der Star der Orlando Magic. In Sacramento machte er 33 Punkte – sein Saisonbestwert – und traf alle 10 Freiwürfe."
     },
     {
       "name": "Moritz Wagner",
@@ -2783,10 +2854,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 10,
+        "spiele": 11,
         "pkt": 6.9,
-        "reb": 10.1,
-        "ast": 3.3
+        "reb": 10.0,
+        "ast": 3.5
       },
       "notiz": "Der deutsche Center der Oklahoma City Thunder. Beim 124:116 gegen Cleveland holte er 12 Rebounds."
     },
@@ -2823,10 +2894,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 9,
-        "pkt": 15.6,
-        "reb": 7.1,
-        "ast": 6.7
+        "spiele": 10,
+        "pkt": 15.1,
+        "reb": 7.2,
+        "ast": 6.5
       },
       "notiz": "Der beste Punktesammler der NBA-Geschichte spielt jetzt für Philadelphia. In Chicago überholte er Kareem Abdul-Jabbar: Gegen die Bulls hat jetzt niemand mehr Punkte gemacht als er."
     },
@@ -2836,10 +2907,10 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 9,
-        "pkt": 26.2,
-        "reb": 3.0,
-        "ast": 5.6
+        "spiele": 10,
+        "pkt": 25.9,
+        "reb": 3.1,
+        "ast": 5.2
       },
       "notiz": "Der Anführer der Knicks. Gegen Chicago machte er 33 Punkte, 22 davon schon im ersten Viertel."
     },
@@ -2901,10 +2972,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 9,
-        "pkt": 19.4,
+        "spiele": 10,
+        "pkt": 20.0,
         "reb": 3.2,
-        "ast": 4.4
+        "ast": 4.3
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -3942,6 +4013,36 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-10",
+      "titel": "Franz Wagner",
+      "team": "ORL",
+      "wert": "33 Punkte",
+      "grund": "So viele Punkte hat er in dieser Saison noch nie gemacht. Dazu traf er alle 10 Freiwürfe und beendete mit Orlando eine Serie von vier Niederlagen.",
+      "newsId": "2026-11-11-franz-wagner-33-magic-kings"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-10",
+      "titel": "Darius Acuff Jr.",
+      "team": "SAC",
+      "wert": "288 Punkte",
+      "grund": "So viele Punkte hat kein Rookie in seinen ersten 11 NBA-Spielen gemacht, seit Michael Jordan 1984 mit 289 Punkten startete.",
+      "newsId": "2026-11-11-franz-wagner-33-magic-kings"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-10",
+      "heim": "POR",
+      "gast": "OKC",
+      "wert": "Dreier vom Logo",
+      "grund": "Damian Lillard traf von der Mittellinie zum 97:80. Portland gewann das dritte Viertel mit 38:21 und beendete OKCs Serie von vier Siegen.",
+      "newsId": "2026-11-11-thunder-verlieren-in-portland"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-10",
       "titel": "Paul George",
       "team": "BOS",
       "wert": "36 Punkte",
@@ -3967,26 +4068,6 @@
       "wert": "22 Dreier",
       "grund": "Phoenix traf die Hälfte seiner 43 Dreierversuche. Jordan Goodwin allein traf 6 von 7 – in nur 14 Minuten.",
       "newsId": "2026-11-11-nba-dienstag-suns-heat"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-10",
-      "titel": "Giannis Antetokounmpo",
-      "team": "MIA",
-      "wert": "Platz 39",
-      "grund": "Mit 30 Punkten in Utah überholte er die Legende Gary Payton in der ewigen Punkteliste der NBA.",
-      "newsId": "2026-11-11-nba-dienstag-suns-heat"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-10",
-      "heim": "NYK",
-      "gast": "MIL",
-      "wert": "32:13 im 2. Viertel",
-      "grund": "In nur zwölf Minuten zogen die Knicks den Bucks davon. Es war ihr vierter Sieg hintereinander.",
-      "newsId": "2026-11-11-knicks-four-in-a-row"
     }
   ],
   "legacyGestellt": [

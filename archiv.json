@@ -44,6 +44,47 @@
       "spieler": []
     },
     {
+      "id": "2026-11-09-reaves-43-lakers-pistons",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "Ohne Luka: Austin Reaves macht 43 Punkte in Detroit",
+      "teaser": "Die Lakers gewinnen 121:116 bei den Pistons. Weil Luka Dončić fehlt, übernimmt Austin Reaves – und trifft am Ende einen verrückten Dreier.",
+      "text": [
+        "Die Los Angeles Lakers mussten in Detroit ohne ihren besten Spieler auskommen: Luka Dončić fiel aus. Er hatte zuletzt viermal hintereinander mindestens 40 Punkte gemacht. Wer sollte jetzt die Punkte holen?",
+        "Die Antwort hieß Austin Reaves. Er traf 14 von 27 Würfen und alle 11 Freiwürfe. Am Ende hatte er 43 Punkte. Center Walker Kessler holte 16 Rebounds.",
+        "Die Lakers führten im zweiten Viertel schon mit 26 Punkten. Doch Detroit kam zurück und lag vor der letzten Minute nur noch 104:109 hinten. Dann lief die Wurfuhr fast ab. Reaves sprang auf einem Bein ab, warf aus dem Gleichgewicht – und der Dreier ging rein! Damit war das Spiel entschieden.",
+        "Reaves selbst sagte danach, das sei ein Glückswurf gewesen. Seine Mitspieler sehen das anders. Die Lakers stehen jetzt mit 9 Siegen und 2 Niederlagen ganz oben im Westen."
+      ],
+      "fakten": [
+        "Endstand: Detroit 116, LA Lakers 121",
+        "Austin Reaves (LAL): 43 Punkte, 11 von 11 Freiwürfen",
+        "Walker Kessler (LAL): 12 Punkte, 16 Rebounds",
+        "Daniss Jenkins (DET): 31 Punkte, 8 Dreier",
+        "Lakers: Platz 1 im Westen (9-2)"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "LAL",
+        "DET"
+      ],
+      "spieler": [
+        "Austin Reaves",
+        "Luka Dončić",
+        "Walker Kessler",
+        "Ziaire Williams",
+        "Collin Sexton",
+        "Daniss Jenkins",
+        "Kevin Huerter",
+        "Cade Cunningham"
+      ]
+    },
+    {
       "id": "2026-11-09-lebron-record-bulls",
       "liga": "NBA",
       "lang": "en",

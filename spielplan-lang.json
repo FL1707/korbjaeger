@@ -1,4 +1,4 @@
-{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-11T06:22:18+01:00", "bis": "2027-02-11","spiele":[
+{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-11T16:18:03+01:00", "bis": "2027-02-11","spiele":[
 {"liga": "BCL", "zeit": "2026-11-11T18:00:00+01:00", "heim": "SKS", "gast": "IGO", "info": "Gruppe G"},
 {"liga": "BCL", "zeit": "2026-11-11T18:30:00+01:00", "heim": "PERI", "gast": "VAR", "info": "Gruppe D"},
 {"liga": "BCL", "zeit": "2026-11-11T18:30:00+01:00", "heim": "RYT", "gast": "NTR", "info": "Gruppe A"},
