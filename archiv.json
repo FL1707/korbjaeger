@@ -2,6 +2,202 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-10-vorschau-alba-bilbao-europa",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "Heute Abend: ALBA will in Bilbao ungeschlagen bleiben",
+      "teaser": "In der Champions League steht ALBA ganz oben in Gruppe G. Heute kommt es zum Rückspiel in Spanien. Auch Bayern, Bamberg, Vechta und die Damen sind diese Woche gefordert.",
+      "text": [
+        "ALBA Berlin hat in der Champions League alle drei Spiele gewonnen. Gegen Bilbao siegte ALBA zu Hause knapp mit 103:100. Heute um 20 Uhr ist das Rückspiel in Bilbao. Bilbao ist mit 2 Siegen und 1 Niederlage Zweiter in der Gruppe.",
+        "Auch Vechta (18:30 Uhr in Samokov) und Bamberg (Mittwoch, 20:30 Uhr in Murcia) spielen in der Champions League. Beide Teams warten in ihren Gruppen noch auf den ersten Sieg.",
+        "Der FC Bayern hat in der Euroleague eine schwere Woche: Am Donnerstag geht es nach Valencia, am nächsten Dienstag nach Kaunas zu Žalgiris.",
+        "Und die deutschen Damen spielen am Mittwoch um 19 Uhr in Hamburg gegen Ungarn. Es geht um die Qualifikation für die EM 2027."
+      ],
+      "fakten": [
+        "Di., 20:00: Bilbao – ALBA (Gruppe G)",
+        "Di., 18:30: Samokov – Vechta (Gruppe F)",
+        "Mi., 20:30: Murcia – Bamberg (Gruppe D)",
+        "Do., 20:30: Valencia – FC Bayern (Euroleague)",
+        "Mi., 19:00: Deutschland – Ungarn (Damen, EM-Quali)"
+      ],
+      "quellen": [
+        "championsleague.basketball",
+        "euroleaguebasketball.net",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "ALBA",
+        "BIL",
+        "VEC",
+        "HOL",
+        "BAM",
+        "UCAM",
+        "FCB",
+        "VAL",
+        "ZAL",
+        "GER",
+        "HUN"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-09-lebron-record-bulls",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "A new record for LeBron: nobody scored more against Chicago",
+      "teaser": "The Philadelphia 76ers win 127 to 121 in Chicago. LeBron James scores 22 points and breaks an old record.",
+      "text": [
+        "LeBron James is 41 years old. This season he plays for the Philadelphia 76ers. On Sunday, the 76ers played in Chicago.",
+        "Early in the game, LeBron made a three-pointer. With this shot he passed Kareem Abdul-Jabbar. Now LeBron has scored more points against the Chicago Bulls than any other player: 1,897 points!",
+        "LeBron finished with 22 points – his best game for Philadelphia so far. Jaylen Brown scored 29 points and Tyrese Maxey had 27. The 76ers won 127 to 121. They have 9 wins and only 2 losses. That is the best start for the team in 26 years."
+      ],
+      "fakten": [
+        "Chicago 121, Philadelphia 127",
+        "Jaylen Brown (PHI): 29 points",
+        "Tyrese Maxey (PHI): 27 points",
+        "LeBron James (PHI): 22 points – season high",
+        "Josh Giddey (CHI): 19 points, 15 assists"
+      ],
+      "vokabeln": [
+        {
+          "en": "to pass",
+          "de": "überholen"
+        },
+        {
+          "en": "record",
+          "de": "Rekord"
+        },
+        {
+          "en": "against",
+          "de": "gegen"
+        },
+        {
+          "en": "so far",
+          "de": "bis jetzt"
+        },
+        {
+          "en": "start",
+          "de": "Start, Beginn"
+        }
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "PHI",
+        "CHI"
+      ],
+      "spieler": [
+        "LeBron James",
+        "Jaylen Brown",
+        "Tyrese Maxey",
+        "Joel Embiid",
+        "VJ Edgecombe",
+        "Josh Giddey",
+        "Matas Buzelis"
+      ]
+    },
+    {
+      "id": "2026-11-09-flagg-mavs-nets-wagner",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "12 Assists! Cooper Flagg verteilt die Bälle – Brooklyn verliert klar",
+      "teaser": "Dallas schlägt die Nets mit 130:93. Cooper Flagg schafft 25 Punkte und so viele Vorlagen wie noch nie. Moritz Wagner trifft 4 von 5 Würfen.",
+      "text": [
+        "Cooper Flagg war in der letzten Saison der beste Rookie der NBA. Gegen die Brooklyn Nets zeigte er, dass er nicht nur werfen kann: Er gab 12 Assists – so viele wie noch nie in seiner Karriere. Dazu machte er 25 Punkte. Das war sein drittes Double-Double hintereinander.",
+        "Schon im ersten Viertel traf Flagg 5 von 6 Würfen. Zur Pause führte Dallas 66:46. Kyrie Irving kam auf 21 Punkte, Daniel Gafford auf 18. Dallas traf so gut wie in keinem Spiel zuvor in dieser Saison.",
+        "Für Brooklyn war es ein schwerer Abend. Einen Tag vorher hatten die Nets schon knapp in Atlanta verloren. Michael Porter Jr. machte 19 Punkte. Moritz Wagner kam von der Bank und machte in 16 Minuten 12 Punkte – er traf 4 von 5 Würfen."
+      ],
+      "fakten": [
+        "Endstand: Dallas 130, Brooklyn 93",
+        "Cooper Flagg (DAL): 25 Punkte, 12 Assists (Karrierebestwert)",
+        "Kyrie Irving (DAL): 21 Punkte",
+        "Michael Porter Jr. (BKN): 19 Punkte, 9 Rebounds",
+        "Moritz Wagner (BKN): 12 Punkte in 16 Minuten"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "DAL",
+        "BKN"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "Kyrie Irving",
+        "Daniel Gafford",
+        "Michael Porter Jr.",
+        "Nolan Traore",
+        "Julius Randle",
+        "Moritz Wagner"
+      ]
+    },
+    {
+      "id": "2026-11-09-nba-sonntag-celtics-clippers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "schuh",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "18:0-Lauf in Milwaukee, Clippers jubeln endlich wieder",
+      "teaser": "Boston dreht in Milwaukee ein frühes 6:20. Die Clippers beenden ihre Pleitenserie, Giannis Antetokounmpo führt Miami zum Sieg. OKC holt Nique Clifford.",
+      "text": [
+        "Die Boston Celtics lagen in Milwaukee früh mit 6:20 hinten. Dann starteten Jayson Tatum und Paul George einen 18:0-Lauf. Tatum machte die letzten 10 Punkte des ersten Viertels, George die ersten 8 des zweiten. Boston gewann 117:97. George kam auf 27 Punkte, Tatum auf 21. Milwaukee hat erst einen Sieg in zehn Spielen.",
+        "Die Los Angeles Clippers hatten sieben Spiele hintereinander verloren. Gegen New Orleans klappte es endlich wieder: 139:123. Darius Garland machte 24 Punkte und 10 Assists, Brook Lopez 20 Punkte. Bei den Pelicans traf Zion Williamson alle 9 Würfe.",
+        "Giannis Antetokounmpo spielt jetzt für die Miami Heat. In Sacramento machte er 29 Punkte und holte 14 Rebounds, Klay Thompson traf 7 Dreier. Miami gewann 114:108. Minnesota schlug Utah 115:100 und hat vier Siege in Folge.",
+        "Und noch eine Nachricht für OKC-Fans: Die Thunder holen Nique Clifford aus Sacramento. Der Flügelspieler spielt in seiner zweiten NBA-Saison."
+      ],
+      "fakten": [
+        "Milwaukee 97, Boston 117 – Paul George 27 Punkte",
+        "LA Clippers 139, New Orleans 123 – Ende von 7 Niederlagen in Folge",
+        "Sacramento 108, Miami 114 – Giannis Antetokounmpo 29 Punkte, 14 Rebounds",
+        "Minnesota 115, Utah 100 – Ayo Dosunmu 26 Punkte",
+        "OKC holt Nique Clifford aus Sacramento"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "BOS",
+        "MIL",
+        "LAC",
+        "NOP",
+        "MIA",
+        "SAC",
+        "MIN",
+        "UTA",
+        "OKC"
+      ],
+      "spieler": [
+        "Jayson Tatum",
+        "Paul George",
+        "Kyle Kuzma",
+        "Darius Garland",
+        "Brook Lopez",
+        "Zion Williamson",
+        "Trey Murphy III",
+        "Giannis Antetokounmpo",
+        "Klay Thompson",
+        "Darius Acuff Jr.",
+        "Ayo Dosunmu",
+        "LaMelo Ball",
+        "Darryn Peterson",
+        "Nique Clifford"
+      ]
+    },
+    {
       "id": "2026-11-09-serien-spurs-warriors",
       "liga": "NBA",
       "lang": "de",
@@ -39,6 +235,135 @@
         "Victor Wembanyama",
         "Stephen Curry"
       ]
+    },
+    {
+      "id": "2026-11-08-curry-41-warriors-magic",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "41 Punkte! Curry gewinnt das Duell gegen Franz Wagner",
+      "teaser": "Golden State schlägt Orlando nach Verlängerung 126:119. Stephen Curry macht 41 Punkte, Franz Wagner 30 Punkte und 11 Assists.",
+      "text": [
+        "Was für ein Spiel in San Francisco! Die Golden State Warriors haben die Orlando Magic mit 126:119 besiegt – erst nach einer Verlängerung. Für Golden State war es der siebte Sieg in Folge.",
+        "Der Mann des Abends war Stephen Curry. Er traf 13 von 19 Würfen und machte 41 Punkte. In der Verlängerung traf er 1:38 Minuten vor Schluss, wurde dabei gefoult und verwandelte auch den Freiwurf. In der letzten Minute legte er noch einen Korbleger nach. Rookie Yaxel Lendeborg half mit 23 Punkten und einem wichtigen Dreier in der Verlängerung.",
+        "Orlando lag zur Pause schon 41:57 hinten, kämpfte sich aber zurück. Franz Wagner machte 30 Punkte und gab 11 Assists. Tristan da Silva kam auf 19 Punkte. Zwei Sekunden vor Ende der regulären Spielzeit tippte Jamal Cain einen Abpraller in den Korb – so ging es in die Verlängerung.",
+        "Curry ist schon 38 Jahre alt. Es war sein 16. Spiel mit mindestens 40 Punkten, seit er 35 geworden ist. Das hat noch kein NBA-Spieler geschafft – LeBron James kommt auf 15 solcher Spiele, Michael Jordan auf 12."
+      ],
+      "fakten": [
+        "Endstand: Golden State 126, Orlando 119 (nach Verlängerung)",
+        "Stephen Curry (GSW): 41 Punkte, 6 Rebounds, 6 Assists",
+        "Yaxel Lendeborg (GSW): 23 Punkte",
+        "Franz Wagner (ORL): 30 Punkte, 11 Assists",
+        "Tristan da Silva (ORL): 19 Punkte",
+        "Golden State: 7 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "ORL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Yaxel Lendeborg",
+        "Brandin Podziemski",
+        "Draymond Green",
+        "Georges Niang",
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Wendell Carter Jr.",
+        "Jamal Cain",
+        "Anthony Black",
+        "LeBron James"
+      ]
+    },
+    {
+      "id": "2026-11-08-okc-wizards-114-75",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "block",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "Nur 75 Punkte erlaubt: OKC lässt Washington keine Chance",
+      "teaser": "Oklahoma City gewinnt 114:75 gegen die Wizards. Shai Gilgeous-Alexander macht 30 Punkte – und muss im letzten Viertel gar nicht mehr spielen.",
+      "text": [
+        "Die Oklahoma City Thunder haben zu Hause die Washington Wizards mit 114:75 besiegt. 75 Punkte – so wenige hat in dieser NBA-Saison noch kein Team in einem Spiel gemacht.",
+        "Die Abwehr von OKC war überall. Washington traf nur 29 von 98 Würfen. Von der Dreierlinie fielen sogar nur 7 von 43 Versuchen. Schon zur Pause führte OKC mit 57:36.",
+        "Shai Gilgeous-Alexander machte 30 Punkte in nur drei Vierteln. Im letzten Viertel durfte er auf der Bank bleiben. Jared McCain traf 8 von 10 Würfen und kam auf 19 Punkte. Rookie Aday Mara hatte 18 Punkte und 3 Blocks. Isaiah Hartenstein sammelte 14 Rebounds und gab 6 Assists.",
+        "OKC hat jetzt 8 Siege und 2 Niederlagen. Am Dienstag spielt das Team in Portland."
+      ],
+      "fakten": [
+        "Endstand: Oklahoma City 114, Washington 75",
+        "Shai Gilgeous-Alexander (OKC): 30 Punkte, 9 Assists",
+        "Jared McCain (OKC): 19 Punkte",
+        "Aday Mara (OKC): 18 Punkte, 8 Rebounds, 3 Blocks",
+        "Isaiah Hartenstein (OKC): 14 Rebounds, 6 Assists",
+        "AJ Dybantsa (WAS): 19 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "WAS",
+        "POR"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Jared McCain",
+        "Aday Mara",
+        "Isaiah Hartenstein",
+        "Bennett Stirtz",
+        "Ajay Mitchell",
+        "AJ Dybantsa",
+        "Alex Sarr",
+        "Kyshawn George",
+        "Trae Young"
+      ]
+    },
+    {
+      "id": "2026-11-08-bbl-samstag-trier-rostock",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-08",
+      "tags": [],
+      "titel": "Trier bleibt oben dran – Rostock zu Hause weiter ungeschlagen",
+      "teaser": "Vier Spiele am Samstag in der Bundesliga: Trier, Rostock, Bonn und Vechta gewinnen. Bonn dreht ein Spiel nach schwachem Start.",
+      "text": [
+        "Die Gladiators Trier haben Bamberg mit 92:79 geschlagen. Schon zur Pause führte Trier 47:35. Fünf Trierer machten zweistellig Punkte, Jordan Roland war mit 20 Punkten bester Werfer. Trier hat jetzt 6 Siege und 1 Niederlage – genau wie Tabellenführer FC Bayern.",
+        "Die Rostock Seawolves gewannen 97:87 gegen Ulm und sind in ihrer Halle weiter ungeschlagen. Rostock führte schon zur Pause 58:45. Ulm kam noch einmal heran, aber nicht mehr vorbei. Bester Werfer war Ulms Center Armel Traore mit 25 Punkten.",
+        "Bonn lag gegen Braunschweig nach dem ersten Viertel mit 22:35 hinten. Danach spielten die Bonner viel besser und gewannen noch 97:87. Marcus Foster machte 26 Punkte. Vechta schlug Chemnitz 99:90 – im dritten Viertel ließ Vechta nur 14 Punkte zu.",
+        "Am Sonntag spielt der FC Bayern in Würzburg (18 Uhr). ALBA hat frei und spielt am Dienstag in der Champions League in Bilbao."
+      ],
+      "fakten": [
+        "Trier 92, Bamberg 79 – Jordan Roland (TRI): 20 Punkte",
+        "Rostock 97, Ulm 87 – Armel Traore (ULM): 25 Punkte",
+        "Bonn 97, Braunschweig 87 – Marcus Foster (BON): 26 Punkte",
+        "Vechta 99, Chemnitz 90 – Stefan Smith (CHE): 23 Punkte"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "TRI",
+        "BAM",
+        "ROS",
+        "ULM",
+        "BON",
+        "BRA",
+        "VEC",
+        "CHE",
+        "FCB",
+        "WUE",
+        "ALBA"
+      ],
+      "spieler": []
     },
     {
       "id": "2026-11-08-knicks-cavs-brunson",
