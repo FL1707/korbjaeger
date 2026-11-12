@@ -1,4 +1,4 @@
-{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-11T16:16:45+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
+{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-12T06:15:07+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
 ["Luka Dončić", "LAL", 27, 10, null, null, 36.3, 39.3, 12.1, 24.3, 49.8, 5.5, 13.5, 40.7, 9.6, 10.9, 88.1, null, null, 7.8, 7.9, 5.0, 2.0, 0.8, 2.5, 4, 0, null],
 ["Anthony Edwards", "MIN", 25, 4, null, null, 33.8, 33.3, 12.5, 26.0, 48.1, 4.5, 11.3, 40.0, 3.8, 5.0, 75.0, null, null, 4.8, 3.5, 3.5, 2.0, 0.8, 2.0, 1, 0, null],
 ["Stephen Curry", "GSW", 38, 9, null, null, 28.6, 30.6, 8.8, 17.4, 50.3, 4.7, 10.2, 45.7, 8.3, 8.4, 98.7, null, null, 4.1, 4.3, 1.8, 1.0, 0.1, 1.4, 0, 0, null],
@@ -430,7 +430,7 @@
 ["Chris Mañon", "LAL", 24, 2, null, null, 3.5, 1.0, 0.5, 1.5, 33.3, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, null, null, 0.5, 0.0, 0.0, 0.0, 0.0, 0.5, 0, 0, null],
 ["Justin Edwards", "PHI", 22, 5, null, null, 2.8, 1.0, 0.4, 0.8, 50.0, 0.2, 0.4, 50.0, 0.0, 0.0, 0.0, null, null, 0.6, 0.0, 0.4, 0.0, 0.0, 0.6, 0, 0, null],
 ["Rayan Rupert", "PHI", 22, 2, null, null, 4.0, 1.0, 0.5, 1.5, 33.3, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, null, null, 1.5, 0.5, 0.0, 0.5, 0.0, 0.0, 0, 0, null],
-["Carson Cooper", "MEM", 22, 1, null, null, 3.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 50.0, null, null, 2.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0, 0, null],
+["Carson Cooper", "LAL", 22, 1, null, null, 3.0, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 2.0, 50.0, null, null, 2.0, 1.0, 1.0, 0.0, 0.0, 1.0, 0, 0, null],
 ["Felix Okpara", "WAS", 22, 3, null, null, 1.7, 1.0, 0.3, 0.7, 50.0, 0.0, 0.0, 0.0, 0.3, 0.7, 50.0, null, null, 0.7, 0.0, 0.0, 0.0, 0.0, 0.3, 0, 0, null],
 ["Bogoljub Marković", "MIL", 21, 2, null, null, 4.5, 1.0, 0.5, 0.5, 100.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, null, null, 1.5, 0.5, 0.0, 0.0, 0.0, 0.0, 0, 0, null],
 ["Tolu Smith", "DET", 26, 7, null, null, 3.9, 0.9, 0.3, 0.7, 40.0, 0.0, 0.0, 0.0, 0.3, 0.9, 33.3, null, null, 1.6, 0.1, 0.3, 0.1, 0.3, 0.9, 0, 0, null],

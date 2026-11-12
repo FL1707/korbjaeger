@@ -2,6 +2,38 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-11-damen-ungarn-vorschau",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "Heute Abend: Deutschlands Damen starten gegen Ungarn in die EM-Quali",
+      "teaser": "Um 19 Uhr spielen die deutschen Basketballerinnen in Hamburg. Es geht um ein Ticket für die EM 2027.",
+      "text": [
+        "Heute wird es ernst für die deutsche Damen-Nationalmannschaft. In der Inselpark Arena in Hamburg trifft sie um 19 Uhr auf Ungarn. Es ist das erste Spiel der Qualifikation für die Europameisterschaft 2027.",
+        "In der Gruppe N spielen vier Teams: Deutschland, Ungarn, Dänemark und Portugal. Jedes Team spielt gegen jedes andere einmal zu Hause und einmal auswärts. Die beiden Besten der Gruppe fahren zur EM.",
+        "Ungarn hat zwei Spielerinnen, die schon in der amerikanischen Profiliga WNBA gespielt haben. Bundestrainer Olaf Lange muss auf Alina Hartmann verzichten.",
+        "Schon am Samstag geht es weiter: Dann spielt Deutschland in Dänemark. Am Dienstag danach geht es nach Portugal. Die EM 2027 findet im Juni in Belgien, Finnland, Litauen und Schweden statt."
+      ],
+      "fakten": [
+        "Deutschland – Ungarn: heute, 19 Uhr, Hamburg",
+        "Gruppe N: Deutschland, Ungarn, Dänemark, Portugal",
+        "Die zwei Besten kommen zur EM 2027",
+        "Nächste Spiele: 14.11. in Dänemark, 17.11. in Portugal"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "HUN",
+        "DNK",
+        "PRT"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-10-vorschau-alba-bilbao-europa",
       "liga": "BCL",
       "lang": "de",
@@ -40,6 +72,218 @@
         "ZAL",
         "GER",
         "HUN"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-10-warriors-138-87-pelicans",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "51 Punkte Vorsprung: Warriors feiern achten Sieg in Folge",
+      "teaser": "Golden State hat New Orleans mit 138:87 überrollt. Stephen Curry machte 25 Punkte und überholte in der ewigen Bestenliste DeMar DeRozan.",
+      "text": [
+        "Die Golden State Warriors sind nicht zu bremsen. Gegen die New Orleans Pelicans gewannen sie zu Hause 138:87. Das war schon der achte Sieg hintereinander.",
+        "Das Spiel war früh entschieden. Nach dem ersten Viertel stand es 35:20, zur Halbzeit sogar 72:43. Die Pelicans trafen am Anfang fast keinen Dreier.",
+        "Stephen Curry machte 25 Punkte, obwohl er nur etwa 21 Minuten spielte. Alle 9 Freiwürfe gingen rein. Damit ist er jetzt auf Platz 16 der besten Punktesammler der NBA-Geschichte – er überholte DeMar DeRozan.",
+        "Auch Brandin Podziemski kam auf 25 Punkte. Neuling Yaxel Lendeborg traf 8 von 10 Würfen und machte 23 Punkte. Die Warriors spielten super zusammen: 37 Assists! Im Westen sind sie jetzt 8:3."
+      ],
+      "fakten": [
+        "Endstand: Golden State – New Orleans 138:87",
+        "Curry 25 Punkte, 9 von 9 Freiwürfen",
+        "Podziemski 25, Lendeborg 23 Punkte",
+        "37 Assists für Golden State",
+        "Warriors: 8 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "NOP"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Brandin Podziemski",
+        "Yaxel Lendeborg"
+      ]
+    },
+    {
+      "id": "2026-11-10-wembanyama-40-9-blocks",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "block",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "40 Punkte und 9 Blocks: Wembanyama ist nicht zu stoppen",
+      "teaser": "Victor Wembanyama spielte in Phoenix nur 25 Minuten – und machte trotzdem ein Riesenspiel. San Antonio hat jetzt neunmal in Folge gewonnen.",
+      "text": [
+        "Die San Antonio Spurs sind gerade das heißeste Team der NBA. In Phoenix gewannen sie 122:96. Das war der neunte Sieg hintereinander.",
+        "Der Mann des Abends war wieder Victor Wembanyama. Er machte 40 Punkte, holte 11 Rebounds und blockte 9 Würfe. Von 19 Würfen traf er 15. Und das alles in nur 25 Minuten!",
+        "Schon zur Halbzeit hatte der Franzose 22 Punkte und 5 Blocks. Die Spurs zogen mit einem 21:2-Lauf davon. Im letzten Viertel durften die Stars dann auf der Bank ausruhen.",
+        "Erst vor ein paar Tagen hatte Wembanyama gegen Dallas 52 Punkte und 24 Rebounds geschafft – beides Karrierebestwerte. In der Tabelle des Westens sind die Spurs jetzt Zweiter hinter den Lakers."
+      ],
+      "fakten": [
+        "Endstand: Phoenix – San Antonio 96:122",
+        "Wembanyama: 40 Punkte, 11 Rebounds, 9 Blocks in 25 Minuten",
+        "15 von 19 Würfen getroffen",
+        "Spurs: 9 Siege in Folge (9:2)",
+        "Devin Booker (Phoenix): 32 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "PHX"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Devin Booker",
+        "Dylan Harper",
+        "De'Aaron Fox"
+      ]
+    },
+    {
+      "id": "2026-11-10-flagg-43-mavs-pacers",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "43 points! Cooper Flagg has his best game of the season",
+      "teaser": "The young star of the Dallas Mavericks scored 43 points. Dallas came back and beat Indiana.",
+      "text": [
+        "Cooper Flagg is only in his second NBA season. On Monday he played his best game of the season. He scored 43 points and grabbed 10 rebounds.",
+        "At halftime, Dallas was behind by 10 points. But in the fourth quarter Flagg and Kyrie Irving were great. Irving scored 35 points and made 7 three-pointers.",
+        "In the last seconds it was very exciting. Indiana had the ball, but Dallas stole the pass. The Mavericks won 125 to 122. They have now won three home games in a row."
+      ],
+      "fakten": [
+        "Final score: Dallas 125, Indiana 122",
+        "Cooper Flagg: 43 points, 10 rebounds",
+        "Kyrie Irving: 35 points, 7 three-pointers",
+        "Pascal Siakam (Indiana): 29 points"
+      ],
+      "vokabeln": [
+        {
+          "en": "season",
+          "de": "Saison"
+        },
+        {
+          "en": "to be behind",
+          "de": "hinten liegen, zurückliegen"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        },
+        {
+          "en": "to steal",
+          "de": "stehlen, klauen"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "DAL",
+        "IND"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "Kyrie Irving",
+        "Pascal Siakam"
+      ]
+    },
+    {
+      "id": "2026-11-10-nba-montag-lakers-hornets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "Lakers gewinnen zum sechsten Mal – Charlotte beendet die Pechsträhne",
+      "teaser": "Luka Dončić verpasst ein Triple-Double nur knapp. Anthony Davis macht 44 Punkte und verliert trotzdem. Und die Hornets jubeln endlich wieder.",
+      "text": [
+        "Die Los Angeles Lakers gewannen in Atlanta 124:114. Es war ihr sechster Sieg in Folge. Luka Dončić machte 32 Punkte, 10 Assists und 8 Rebounds – fast ein Triple-Double. Austin Reaves fehlte, weil er krank war.",
+        "Die Charlotte Hornets hatten sechsmal hintereinander verloren. Gegen Cleveland trafen sie plötzlich 23 Dreier und gewannen 124:112. Grayson Allen machte 27 Punkte. Der deutsche Rookie Hannes Steinbach spielte 13 Minuten und holte 3 Rebounds. Dennis Schröder fehlte.",
+        "In Detroit zeigte Anthony Davis eine Riesenleistung: 44 Punkte und 13 Rebounds für Washington. Trotzdem gewannen die Pistons 122:111, weil Davis zu wenig Hilfe bekam.",
+        "Memphis gewann 118:102 in Toronto und hat auswärts noch kein Spiel verloren – als einziges Team der NBA. Houston schlug Denver 110:100, obwohl Jamal Murray 38 Punkte machte."
+      ],
+      "fakten": [
+        "Atlanta – LA Lakers 114:124 (Dončić 32 Punkte, 10 Assists)",
+        "Charlotte – Cleveland 124:112 (Allen 27, 23 Dreier)",
+        "Detroit – Washington 122:111 (Davis 44 Punkte)",
+        "Toronto – Memphis 102:118 (Memphis auswärts 5:0)",
+        "Houston – Denver 110:100 (Murray 38 Punkte)"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "LAL",
+        "ATL",
+        "CHA",
+        "CLE",
+        "DET",
+        "WAS",
+        "TOR",
+        "MEM",
+        "HOU",
+        "DEN"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Austin Reaves",
+        "Grayson Allen",
+        "Hannes Steinbach",
+        "Dennis Schröder",
+        "Anthony Davis",
+        "John Collins",
+        "Ty Jerome",
+        "Kevin Durant",
+        "Jamal Murray",
+        "Nikola Jokić"
+      ]
+    },
+    {
+      "id": "2026-11-10-hamburg-siegt-in-jena",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-10",
+      "tags": [],
+      "titel": "Kellerduell: Hamburg gewinnt in Jena 91:87",
+      "teaser": "Nach sechs Niederlagen hintereinander jubeln die Hamburg Towers wieder. Ein später Dreier von Mathys Kangudia entscheidet das Spiel.",
+      "text": [
+        "Am Montagabend spielten in Jena zwei Teams von ganz unten in der Tabelle gegeneinander. So ein Spiel nennt man Kellerduell.",
+        "Hamburg startete stark und führte nach dem ersten Viertel schon 32:18. Jena kämpfte sich heran. Drei Minuten vor Schluss stand es nur noch 81:83.",
+        "Dann traf Mathys Kangudia einen Dreier zum 88:84 – das war die Entscheidung. Er war mit 24 Punkten der Topscorer. Spielmacher Jahvon Henry-Blair spielte zum ersten Mal für Hamburg und kam gleich auf 11 Punkte und 6 Assists.",
+        "Jena verlor den Ball 18-mal, das war am Ende zu oft. Für Hamburg war es der erste Sieg nach sechs Niederlagen. Jena hat jetzt viermal in Folge verloren."
+      ],
+      "fakten": [
+        "Endstand: Jena – Hamburg 87:91",
+        "Mathys Kangudia (Hamburg): 24 Punkte",
+        "Terrence Edwards Jr. (Jena): 19 Punkte",
+        "London Perrantes (Jena): 13 Punkte, 8 Assists",
+        "Ballverluste: Jena 18, Hamburg 11"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "JEN",
+        "HAM"
       ],
       "spieler": []
     },
@@ -276,6 +520,43 @@
         "Victor Wembanyama",
         "Stephen Curry"
       ]
+    },
+    {
+      "id": "2026-11-09-bbl-sonntag-bayern-wuerzburg",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-09",
+      "tags": [],
+      "titel": "Bayern bleibt vorne – Weißenfels dreht das Spiel gegen Frankfurt",
+      "teaser": "Der FC Bayern gewinnt 94:73 in Würzburg. Der MBC holt den fünften Sieg in Folge, Oldenburg gewinnt in Ludwigsburg mit 74:72.",
+      "text": [
+        "Der FC Bayern München ist weiter Tabellenführer der Bundesliga. In der ausverkauften Halle in Würzburg stand es zur Pause erst 49:39 für die Bayern. Im dritten Viertel zogen die Münchner dann davon: Sie gewannen es 33:7! Am Ende stand es 94:73. Sam Griffin war mit 18 Punkten bester Werfer.",
+        "Spannend war es in Weißenfels. Der Mitteldeutsche BC lag gegen die Frankfurt Skyliners nach drei Vierteln 56:64 hinten. Dann drehten die Fans auf – und die Mannschaft auch. Der MBC gewann das letzte Viertel 21:9 und das Spiel 77:73. Judah Mintz machte 18 Punkte. Es war der fünfte Sieg in Folge für den MBC.",
+        "Ganz knapp ging es in Ludwigsburg zu. Oldenburg gewann 74:72 und beendete eine Serie von fünf Niederlagen. Nate Johnson von Ludwigsburg war mit 28 Punkten der beste Werfer des Spiels. Am Montagabend spielt noch Jena gegen Hamburg, dann ist der 8. Spieltag komplett."
+      ],
+      "fakten": [
+        "Würzburg 73, FC Bayern 94 (drittes Viertel 7:33)",
+        "MBC 77, Frankfurt 73 (letztes Viertel 21:9)",
+        "Ludwigsburg 72, Oldenburg 74",
+        "Sam Griffin (FCB): 18 Punkte",
+        "Nate Johnson (LUD): 28 Punkte",
+        "Tabelle: Bayern 7-1, Trier 6-1, MBC 6-2"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "FCB",
+        "WUE",
+        "MBC",
+        "FRA",
+        "LUD",
+        "OLD",
+        "JEN",
+        "HAM"
+      ],
+      "spieler": []
     },
     {
       "id": "2026-11-08-curry-41-warriors-magic",
