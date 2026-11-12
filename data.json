@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-12T06:23:48+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen zur Morgenausgabe! Franz Wagner hat in Utah 38 Punkte gemacht – so viele wie in seinem besten NBA-Spiel überhaupt. Die San Antonio Spurs und die Boston Celtics holten jeweils 22 Punkte Rückstand auf, die Golden State Warriors verloren dagegen in Houston. Die deutschen Damen unterlagen Ungarn knapp. Heute Abend spielt der FC Bayern in Valencia.",
+  "aktualisiert": "2026-11-12T16:17:48+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo zur Nachmittagsausgabe! Isaiah Hartenstein machte in Portland 20 Punkte und 11 Rebounds, doch Oklahoma City verlor auch das zweite Spiel dort mit 108:118. Heute Abend spielt der FC Bayern in der Euroleague bei Valencia, und in der Nacht spielen Dennis Schröder und Hannes Steinbach mit Charlotte in Phoenix.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-12",
   "zahlDesTages": {
-    "zahl": "10",
-    "text": "Siege in Folge haben die San Antonio Spurs jetzt geschafft – in Chicago sogar nach 22 Punkten Rückstand."
+    "zahl": "19",
+    "text": "Dreier trafen die Portland Trail Blazers beim 118:108 gegen Oklahoma City – die Thunder nur 11."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -284,6 +284,46 @@
     "erklaerung": "Utah führte kurz mit 96:95. Dann startete Orlando einen 18:3-Lauf, bei dem Franz Wagner selbst zweimal traf. Am Ende hatte er 38 Punkte und stellte seinen Karrierebestwert ein."
   },
   "news": [
+    {
+      "id": "2026-11-12-hartenstein-20-okc-portland",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "Hartenstein mit 20 Punkten – trotzdem wieder eine Niederlage in Portland",
+      "teaser": "Oklahoma City verlor auch das zweite Spiel in Portland, diesmal mit 108:118. Isaiah Hartenstein schaffte ein Double-Double mit 20 Punkten und 11 Rebounds.",
+      "text": [
+        "Zweimal hintereinander spielten die Oklahoma City Thunder in Portland. Und zweimal gewannen die Trail Blazers. Diesmal hieß es 118:108 für Portland.",
+        "Dabei fing es gut an für OKC: Das erste Viertel gewannen die Thunder mit 32:28. Vor dem letzten Viertel lag Portland nur mit 88:85 vorne. Doch im Schlussviertel trafen die Blazers besser und gewannen es mit 30:23.",
+        "Bester Thunder-Spieler unter dem Korb war der Deutsche Isaiah Hartenstein. Er traf 10 von 14 Würfen, machte 20 Punkte, holte 11 Rebounds und gab 6 Assists. Das ist ein Double-Double. Shai Gilgeous-Alexander kam auf 31 Punkte, davon 13 von der Freiwurflinie. Von der Dreierlinie traf er aber keinen seiner 7 Versuche.",
+        "Bei Portland war Deni Avdija mit 28 Punkten der Topscorer. Jrue Holiday traf 5 von 8 Dreiern. Portland hat jetzt 8 Siege und 3 Niederlagen, OKC 8 Siege und 4 Niederlagen. Schon in der Nacht auf Samstag geht es für die Thunder bei den LA Clippers weiter."
+      ],
+      "fakten": [
+        "Endstand: Portland – Oklahoma City 118:108",
+        "Isaiah Hartenstein (OKC): 20 Punkte, 11 Rebounds, 6 Assists",
+        "Shai Gilgeous-Alexander (OKC): 31 Punkte",
+        "Deni Avdija (POR): 28 Punkte",
+        "Jrue Holiday (POR): 19 Punkte, 5 von 8 Dreiern",
+        "Portland traf 19 Dreier, OKC nur 11"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "POR"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Shai Gilgeous-Alexander",
+        "Deni Avdija",
+        "Jrue Holiday",
+        "Damian Lillard",
+        "Alex Caruso"
+      ]
+    },
     {
       "id": "2026-11-12-franz-wagner-38-magic-jazz",
       "liga": "NBA",
@@ -1025,6 +1065,29 @@
       }
     },
     {
+      "liga": "NBA",
+      "datum": "2026-11-11",
+      "runde": "NBA",
+      "heim": "POR",
+      "gast": "OKC",
+      "heimPkt": 118,
+      "gastPkt": 108,
+      "info": "Avdija (POR) 28 Punkte",
+      "newsId": "2026-11-12-hartenstein-20-okc-portland",
+      "bericht": {
+        "text": [
+          "OKC gewann das erste Viertel, vor dem Schlussviertel lag Portland nur mit 88:85 vorne. Im letzten Viertel trafen die Blazers besser und gewannen auch das zweite Spiel gegen die Thunder.",
+          "Isaiah Hartenstein schaffte mit 20 Punkten und 11 Rebounds ein Double-Double."
+        ],
+        "highlights": [
+          "Deni Avdija (POR): 28 Punkte",
+          "Shai Gilgeous-Alexander (OKC): 31 Punkte",
+          "Isaiah Hartenstein (OKC): 20 Punkte, 11 Rebounds, 6 Assists",
+          "Jrue Holiday (POR): 5 von 8 Dreiern"
+        ]
+      }
+    },
+    {
       "liga": "EL",
       "datum": "2026-11-11",
       "runde": "Euroleague · 11. Runde",
@@ -1526,13 +1589,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-12T04:00:00+01:00",
-      "heim": "POR",
-      "gast": "OKC",
-      "info": "mit Hartenstein · läuft noch"
-    },
     {
       "liga": "EL",
       "zeit": "2026-11-12T20:05:00+01:00",
@@ -2139,7 +2195,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 12.11., 06:23 Uhr · nach den Spielen vom 11.11. (US-Zeit) · Portland – OKC lief noch",
+      "stand": "Stand: 12.11., 16:20 Uhr · nach den Spielen vom 11.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2172,22 +2228,22 @@
           "n": 3
         },
         {
+          "team": "POR",
+          "s": 8,
+          "n": 3
+        },
+        {
           "team": "MIN",
           "s": 8,
           "n": 3
         },
         {
-          "team": "OKC",
-          "s": 8,
-          "n": 3
-        },
-        {
-          "team": "POR",
-          "s": 7,
-          "n": 3
-        },
-        {
           "team": "GSW",
+          "s": 8,
+          "n": 4
+        },
+        {
+          "team": "OKC",
           "s": 8,
           "n": 4
         },
@@ -2235,7 +2291,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 12.11., 06:23 Uhr · nach den Spielen vom 11.11. (US-Zeit)",
+      "stand": "Stand: 12.11., 16:20 Uhr · nach den Spielen vom 11.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2842,10 +2898,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 11,
-        "pkt": 29.5,
+        "spiele": 12,
+        "pkt": 29.7,
         "reb": 4.3,
-        "ast": 4.7
+        "ast": 4.5
       },
       "notiz": "Der Superstar der Thunder. Gegen Cleveland machte er erst 43 und zwei Tage später 42 Punkte – OKC gewann beide Spiele."
     },
@@ -2856,10 +2912,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 9,
-        "pkt": 30.6,
-        "reb": 4.1,
-        "ast": 4.3
+        "spiele": 10,
+        "pkt": 27.8,
+        "reb": 3.7,
+        "ast": 3.9
       },
       "notiz": "Mit 38 Jahren noch ein Superstar: Gegen New Orleans überholte er DeMar DeRozan und ist jetzt Nummer 16 der besten Punktesammler der NBA-Geschichte."
     },
@@ -2871,10 +2927,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 10,
-        "pkt": 22.0,
-        "reb": 6.4,
-        "ast": 8.6
+        "spiele": 11,
+        "pkt": 23.5,
+        "reb": 6.5,
+        "ast": 7.9
       },
       "notiz": "In Utah machte er 38 Punkte und stellte damit seinen Karrierebestwert ein. Zwei Tage vorher waren es schon 33 Punkte in Sacramento."
     },
@@ -2885,10 +2941,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 10,
-        "pkt": 10.4,
+        "spiele": 11,
+        "pkt": 10.9,
         "reb": 3.2,
-        "ast": 1.0
+        "ast": 1.3
       },
       "notiz": "Der Center aus Berlin spielt für Brooklyn. In Dallas machte er in nur 16 Minuten 12 Punkte und traf 4 von 5 Würfen."
     },
@@ -2913,10 +2969,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 11,
-        "pkt": 6.9,
-        "reb": 10.0,
-        "ast": 3.5
+        "spiele": 12,
+        "pkt": 8.0,
+        "reb": 10.1,
+        "ast": 3.7
       },
       "notiz": "Der deutsche Center der Oklahoma City Thunder. Beim 124:116 gegen Cleveland holte er 12 Rebounds."
     },
@@ -2966,8 +3022,8 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 10,
-        "pkt": 25.9,
+        "spiele": 11,
+        "pkt": 26.0,
         "reb": 3.1,
         "ast": 5.2
       },
@@ -2979,10 +3035,10 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 10,
-        "pkt": 39.3,
-        "reb": 7.8,
-        "ast": 7.9
+        "spiele": 11,
+        "pkt": 38.6,
+        "reb": 7.5,
+        "ast": 7.6
       },
       "notiz": "Der Slowene trifft für die Lakers wie verrückt: Gegen Portland machte er 53 Punkte – sein viertes Spiel in Folge mit mindestens 40."
     },
@@ -3005,10 +3061,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 9,
-        "pkt": 23.1,
+        "spiele": 10,
+        "pkt": 23.5,
         "reb": 10.8,
-        "ast": 9.1
+        "ast": 9.0
       },
       "notiz": "Gegen Toronto schaffte er mit 32 Punkten, 10 Rebounds und 11 Assists sein drittes Triple-Double der Saison."
     },
@@ -3018,10 +3074,10 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 11,
-        "pkt": 30.1,
-        "reb": 11.9,
-        "ast": 3.0
+        "spiele": 12,
+        "pkt": 30.3,
+        "reb": 11.7,
+        "ast": 2.8
       },
       "notiz": "Der riesige Franzose der Spurs. In Phoenix machte er 40 Punkte und blockte 9 Würfe – in nur 25 Minuten."
     },
@@ -3031,10 +3087,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 10,
-        "pkt": 20.0,
+        "spiele": 11,
+        "pkt": 19.8,
         "reb": 3.2,
-        "ast": 4.3
+        "ast": 4.2
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -4084,6 +4140,16 @@
       "newsId": "2026-11-12-franz-wagner-38-magic-jazz"
     },
     {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-11",
+      "titel": "Isaiah Hartenstein",
+      "team": "OKC",
+      "wert": "20 Punkte, 11 Rebounds",
+      "grund": "Der deutsche Center traf 10 von 14 Würfen und schaffte ein Double-Double. Dazu gab er noch 6 Assists – OKC verlor in Portland trotzdem mit 108:118.",
+      "newsId": "2026-11-12-hartenstein-20-okc-portland"
+    },
+    {
       "art": "spiel",
       "liga": "NBA",
       "datum": "2026-11-11",
@@ -4091,16 +4157,6 @@
       "gast": "SAS",
       "wert": "22 Punkte aufgeholt",
       "grund": "Die Spurs lagen in Chicago schon 42:64 hinten und gewannen trotzdem. Es war ihr zehnter Sieg in Folge.",
-      "newsId": "2026-11-12-spurs-celtics-aufholjagden"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-11",
-      "titel": "Jalen Smith",
-      "team": "CHI",
-      "wert": "5 von 5 Dreiern",
-      "grund": "Der Bulls-Spieler verfehlte keinen einzigen Dreier und traf 8 von 9 Würfen. Mit 23 Punkten stellte er seinen Karrierebestwert ein.",
       "newsId": "2026-11-12-spurs-celtics-aufholjagden"
     },
     {
@@ -4117,21 +4173,21 @@
       "art": "spiel",
       "liga": "NBA",
       "datum": "2026-11-11",
+      "heim": "POR",
+      "gast": "OKC",
+      "wert": "Zweiter Sieg in 2 Nächten",
+      "grund": "Portland schlug die Thunder zweimal hintereinander in der eigenen Halle. Die Blazers trafen dabei 19 Dreier.",
+      "newsId": "2026-11-12-hartenstein-20-okc-portland"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-11",
       "heim": "NOP",
       "gast": "BKN",
       "wert": "145 Punkte",
       "grund": "Brooklyn traf 20 Dreier, acht Spieler machten zehn oder mehr Punkte. Die Pelicans kassierten im dritten Spiel hintereinander mindestens 138 Punkte.",
       "newsId": "2026-11-12-nets-145-points-pelicans"
-    },
-    {
-      "art": "spieler",
-      "liga": "DBB",
-      "datum": "2026-11-11",
-      "titel": "Leonie Fiebich",
-      "team": "GER",
-      "wert": "19 Punkte",
-      "grund": "In ihrem 50. Länderspiel war sie die beste Werferin der deutschen Damen. Gegen Ungarn reichte es trotzdem nicht ganz.",
-      "newsId": "2026-11-12-dbb-damen-niederlage-ungarn"
     }
   ],
   "legacyGestellt": [
