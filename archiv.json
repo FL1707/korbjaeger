@@ -2,6 +2,295 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-12-europa-paris-krimi-bamberg-murcia",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "Krimi in Paris – Bamberg chancenlos in Murcia",
+      "teaser": "Paris besiegte Fenerbahçe erst in der Verlängerung mit 111:109. Die Bamberg Baskets verloren in der Champions League deutlich.",
+      "text": [
+        "In der Euroleague gab es am Mittwoch ein echtes Spektakel. Paris Basketball und Fenerbahçe Istanbul standen nach 40 Minuten 92:92. In der Verlängerung hatte Paris knapp die Nase vorn und gewann 111:109.",
+        "Partizan Belgrad besiegte Baskonia mit 80:66. Im letzten Viertel gelangen Baskonia nur 6 Punkte.",
+        "In der Champions League hatten die Bamberg Baskets keine Chance. Bei UCAM Murcia verloren sie mit 66:98. Nach vier Spielen hat Bamberg in Gruppe D noch keinen Sieg und ist Letzter. Peristeri aus Athen gewann dagegen auch sein viertes Spiel.",
+        "Heute Abend ist der FC Bayern dran: Um 20:30 Uhr spielen die Münchner in der Euroleague beim Valencia Basket."
+      ],
+      "fakten": [
+        "Euroleague: Paris – Fenerbahçe 111:109 nach Verlängerung",
+        "Euroleague: Partizan – Baskonia 80:66",
+        "Champions League: Murcia – Bamberg 98:66",
+        "Bamberg: 0 Siege, 4 Niederlagen in Gruppe D",
+        "Heute: Valencia – FC Bayern, 20:30 Uhr"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net",
+        "championsleague.basketball"
+      ],
+      "teams": [
+        "PBB",
+        "FEN",
+        "PAR",
+        "BAS",
+        "BAM",
+        "UCAM",
+        "PERI",
+        "VAR",
+        "FCB",
+        "VAL"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-11-franz-wagner-33-magic-kings",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "33 Punkte! Franz Wagner beendet Orlandos Pleitenserie",
+      "teaser": "Nach vier Niederlagen hintereinander gewann Orlando wieder: 107:100 in Sacramento. Franz Wagner machte so viele Punkte wie noch nie in dieser Saison.",
+      "text": [
+        "Die Orlando Magic hatten viermal in Folge verloren. In Sacramento klappte es endlich wieder: Orlando gewann mit 107:100.",
+        "Der beste Mann war Franz Wagner aus Berlin. Er kam auf 33 Punkte – sein Saisonbestwert. Dazu holte er 7 Rebounds und gab 7 Assists. Alle 10 Freiwürfe trafen. Schon am Samstag gegen Golden State hatte er 30 Punkte gemacht.",
+        "Im zweiten Viertel traf Wagner einen Dreier zum 52:43. Danach führte Orlando bis zum Schluss. Anthony Black half mit 26 Punkten und 4 Steals.",
+        "Bei Sacramento traf Zach LaVine 31 Punkte. Der erst 19 Jahre alte Rookie Darius Acuff Jr. machte 29 Punkte. Tristan da Silva spielte für Orlando nicht mit. Schon heute Nacht geht es für die Magic in Utah weiter."
+      ],
+      "fakten": [
+        "Endstand: Sacramento – Orlando 100:107",
+        "Franz Wagner: 33 Punkte, 7 Rebounds, 7 Assists",
+        "Wagner traf 10 von 10 Freiwürfen",
+        "Anthony Black (ORL): 26 Punkte, 4 Steals",
+        "Orlando jetzt bei 3 Siegen und 7 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "SAC"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Anthony Black",
+        "Zach LaVine",
+        "Darius Acuff Jr.",
+        "Tristan da Silva"
+      ]
+    },
+    {
+      "id": "2026-11-11-thunder-verlieren-in-portland",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "Lillard trifft von der Mittellinie – OKC verliert in Portland",
+      "teaser": "Die Oklahoma City Thunder verloren bei den Portland Trail Blazers mit 103:123. Damian Lillard war mit 25 Punkten der Topscorer.",
+      "text": [
+        "Vier Spiele hintereinander hatte Oklahoma City gewonnen. In Portland riss die Serie: Die Thunder verloren mit 103:123.",
+        "Zur Pause stand es noch 59:59. Dann drehte Damian Lillard auf. Er traf Dreier um Dreier. Kurz vor Ende des dritten Viertels warf er sogar vom Logo an der Mittellinie – und traf zum 97:80. Portland gewann das dritte Viertel mit 38:21.",
+        "Shai Gilgeous-Alexander machte 26 Punkte, traf aber nur 8 von 22 Würfen. Im letzten Viertel blieb er auf der Bank. Jared McCain kam auf 21 Punkte. Isaiah Hartenstein holte 9 Rebounds und gab 5 Assists.",
+        "Bei OKC fehlen gerade mehrere wichtige Spieler, zum Beispiel Jalen Williams und Chet Holmgren. Nique Clifford, der neu aus Sacramento kam, spielte zum ersten Mal für die Thunder. Schon heute Nacht um 4 Uhr gibt es die Revanche – wieder in Portland."
+      ],
+      "fakten": [
+        "Endstand: Portland – Oklahoma City 123:103",
+        "Damian Lillard (POR): 25 Punkte",
+        "Deni Avdija (POR): 24 Punkte, 8 Assists",
+        "Shai Gilgeous-Alexander: 26 Punkte",
+        "Isaiah Hartenstein: 7 Punkte, 9 Rebounds, 5 Assists",
+        "OKC jetzt bei 8 Siegen und 3 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "POR"
+      ],
+      "spieler": [
+        "Damian Lillard",
+        "Deni Avdija",
+        "Shai Gilgeous-Alexander",
+        "Jared McCain",
+        "Isaiah Hartenstein",
+        "Jalen Williams",
+        "Chet Holmgren",
+        "Nique Clifford"
+      ]
+    },
+    {
+      "id": "2026-11-11-alba-verliert-in-bilbao",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "Erste Niederlage: ALBA verliert in Bilbao 75:83",
+      "teaser": "ALBA kämpfte sich nach elf Punkten Rückstand zurück, verlor am Ende aber das Spitzenspiel der Gruppe G. Kapitän Jonas Mattisseck feierte dabei ein besonderes Jubiläum.",
+      "text": [
+        "In der Champions League hat ALBA Berlin zum ersten Mal in dieser Saison verloren. Beim spanischen Team Surne Bilbao hieß es am Ende 75:83.",
+        "Zur Halbzeit lag ALBA mit 39:45 hinten. Im dritten Viertel wurde der Rückstand sogar elf Punkte groß. Doch dann verteidigten die Berliner richtig stark und holten sich viele Bälle. Zu Beginn des letzten Viertels stand es wieder unentschieden, und Joe Wieskamp brachte ALBA mit einem Dreier in Führung.",
+        "In der spannenden Schlussphase, der Crunchtime, traf ALBA dann aber keinen Wurf mehr. Bilbao zog davon. Bester Werfer bei ALBA war Angel mit 19 Punkten.",
+        "Für Kapitän Jonas Mattisseck war es ein besonderer Abend: Er bestritt sein 500. Spiel im ALBA-Trikot. Nur Henrik Rödl hat noch mehr Spiele für ALBA gemacht. Weil Bilbao das Hinspiel nur mit drei Punkten verloren hatte, steht jetzt Bilbao wegen des direkten Vergleichs auf Platz 1 der Gruppe G.",
+        "Auch ein anderes deutsches Team spielte am Dienstag: RASTA Vechta gewann in Israel bei Hapoel Holon mit 90:85. Es war Vechtas erster Sieg in der Gruppenphase."
+      ],
+      "fakten": [
+        "Endstand: Bilbao – ALBA 83:75 (Halbzeit 45:39)",
+        "ALBA: Angel 19, Bean 13, Hermannsson 11, Wieskamp 11 Punkte",
+        "Jonas Mattisseck: 500. Spiel für ALBA",
+        "Gruppe G: Bilbao und ALBA je 3 Siege, 1 Niederlage",
+        "Vechta gewinnt in Holon 90:85"
+      ],
+      "quellen": [
+        "ALBA Berlin",
+        "Basketball Champions League"
+      ],
+      "teams": [
+        "ALBA",
+        "BIL",
+        "VEC",
+        "HOL"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-11-george-36-celtics-76ers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "36 Punkte! Paul George führt Boston zum Sieg gegen Philadelphia",
+      "teaser": "Die Boston Celtics gewannen das Duell im Osten klar mit 123:101. Paul George traf sechs Dreier.",
+      "text": [
+        "Zwei der besten Teams im Osten trafen aufeinander – und Boston war viel stärker. Die Celtics gewannen bei den Philadelphia 76ers mit 123:101.",
+        "Der beste Mann auf dem Feld war Paul George. Er traf 14 von 22 Würfen, darunter 6 Dreier, und kam auf 36 Punkte. Jayson Tatum machte 21 Punkte, Payton Pritchard 18.",
+        "Boston führte schon nach dem ersten Viertel 30:23 und gab die Führung nicht mehr her. Bei Philadelphia war Tyrese Maxey mit 24 Punkten bester Werfer. LeBron James kam auf 11 Punkte und 8 Rebounds.",
+        "Mit 9 Siegen und 2 Niederlagen haben die Celtics jetzt die beste Bilanz im Osten. Philadelphia steht bei 9:3."
+      ],
+      "fakten": [
+        "Endstand: Philadelphia – Boston 101:123",
+        "Paul George: 36 Punkte, 6 von 11 Dreiern",
+        "Jayson Tatum 21, Payton Pritchard 18 Punkte",
+        "Tyrese Maxey (PHI): 24 Punkte",
+        "Boston: 9 Siege, 2 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "BOS",
+        "PHI"
+      ],
+      "spieler": [
+        "Paul George",
+        "Jayson Tatum",
+        "Payton Pritchard",
+        "Tyrese Maxey",
+        "LeBron James"
+      ]
+    },
+    {
+      "id": "2026-11-11-knicks-four-in-a-row",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "Four wins in a row! The Knicks beat the Bucks 117-85",
+      "teaser": "Jalen Brunson and Karl-Anthony Towns led New York. The bench players were great, too.",
+      "text": [
+        "The New York Knicks are playing very well. On Tuesday they beat the Milwaukee Bucks 117 to 85 at home. It was their fourth win in a row.",
+        "Jalen Brunson scored 23 points. Karl-Anthony Towns had 21 points and 16 rebounds. OG Anunoby made five three-pointers and scored 19 points.",
+        "The players on the bench helped a lot. Tyler Kolek scored 12 points. In the second quarter the Knicks scored 32 points and the Bucks only 13. After that, New York was always in front.",
+        "The Knicks lost their first three games of the season. Now they have won six of their last seven games."
+      ],
+      "fakten": [
+        "Final score: New York 117, Milwaukee 85",
+        "Jalen Brunson: 23 points",
+        "Karl-Anthony Towns: 21 points, 16 rebounds",
+        "OG Anunoby: 19 points, 5 three-pointers",
+        "Second quarter: 32 to 13 for New York"
+      ],
+      "vokabeln": [
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        },
+        {
+          "en": "bench",
+          "de": "Ersatzbank"
+        },
+        {
+          "en": "to score",
+          "de": "Punkte machen, treffen"
+        },
+        {
+          "en": "in front",
+          "de": "vorne"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "NYK",
+        "MIL"
+      ],
+      "spieler": [
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "OG Anunoby",
+        "Tyler Kolek",
+        "Jaime Jaquez Jr."
+      ]
+    },
+    {
+      "id": "2026-11-11-nba-dienstag-suns-heat",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-11",
+      "tags": [],
+      "titel": "22 Dreier für Phoenix – Giannis klettert in der Bestenliste",
+      "teaser": "Die Suns trafen gegen die Clippers aus der Distanz fast nach Belieben. In Utah überholte Giannis Antetokounmpo eine NBA-Legende.",
+      "text": [
+        "Die Phoenix Suns hatten am Dienstag ein heißes Händchen. Gegen die Los Angeles Clippers trafen sie 22 von 43 Dreiern und gewannen 133:110.",
+        "Besonders stark war Jordan Goodwin. Er kam von der Bank, spielte nur 14 Minuten und traf 6 von 7 Dreiern. Am Ende hatte er 18 Punkte. Devin Booker machte 17 Punkte. Kurz vor der Halbzeit traf Collin Gillespie sogar aus etwa 12 Metern Entfernung.",
+        "Die Miami Heat gewannen in Utah mit 115:109. Giannis Antetokounmpo machte 30 Punkte und holte 11 Rebounds. Damit überholte er Gary Payton und ist jetzt Nummer 39 der besten Punktesammler der NBA-Geschichte.",
+        "Bei Utah zeigten zwei junge Spieler, was sie können: Rookie Darryn Peterson machte 25 Punkte, Ace Bailey 23."
+      ],
+      "fakten": [
+        "Phoenix – LA Clippers 133:110",
+        "Suns: 22 von 43 Dreiern",
+        "Jordan Goodwin: 6 von 7 Dreiern in 14 Minuten",
+        "Utah – Miami 109:115",
+        "Giannis Antetokounmpo: 30 Punkte, jetzt Platz 39 der ewigen Punkteliste"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "PHX",
+        "LAC",
+        "MIA",
+        "UTA"
+      ],
+      "spieler": [
+        "Jordan Goodwin",
+        "Devin Booker",
+        "Collin Gillespie",
+        "Giannis Antetokounmpo",
+        "Darryn Peterson",
+        "Ace Bailey"
+      ]
+    },
+    {
       "id": "2026-11-11-damen-ungarn-vorschau",
       "liga": "DBB",
       "lang": "de",
