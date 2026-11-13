@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-13T06:21:02+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen zur Morgenausgabe! Cade Cunningham machte in Washington 52 Punkte – Karriere-Rekord – und Detroit gewann nach zwei Verlängerungen. Der FC Bayern verlor in Valencia trotz sechs Dreiern von Andreas Obst. In der Nacht spielt Oklahoma City bei den LA Clippers, am Samstag ist ALBA in Oldenburg gefordert und die deutschen Damen spielen in Dänemark.",
+  "aktualisiert": "2026-11-13T17:04:22+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo zur Nachmittagsausgabe! Heute Abend geht es in der Euroleague weiter, und in der BBL empfängt Hagen um 20 Uhr Ludwigsburg. In der Nacht spielt Oklahoma City bei den LA Clippers, Franz Wagner und Orlando treffen auf Milwaukee und Stephen Curry ist mit Golden State in San Antonio zu Gast. Am Samstag spielen die deutschen Damen in Dänemark, und ALBA muss abends in Oldenburg ran.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-13",
   "zahlDesTages": {
-    "zahl": "52",
-    "text": "Punkte machte Cade Cunningham beim 144:140 in Washington – und keinen einzigen Ballverlust."
+    "zahl": "10",
+    "text": "Siege in Folge haben die San Antonio Spurs – in Chicago drehten sie sogar einen Rückstand von 22 Punkten."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -4148,38 +4148,48 @@
       "titel": "Cade Cunningham",
       "team": "DET",
       "wert": "52 Punkte",
-      "grund": "Neuer Karriere-Rekord – und dabei kein einziger Ballverlust. 50 Punkte, 10 Assists und null Ballverluste hat seit 1977 niemand in der NBA geschafft.",
-      "newsId": "2026-11-13-cade-52-pistons-wizards"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-12",
-      "heim": "WAS",
-      "gast": "DET",
-      "wert": "2 Verlängerungen",
-      "grund": "Washington rettete sich zweimal mit einem Wurf in letzter Sekunde in die Verlängerung. Erst in der zweiten Verlängerung setzte sich Detroit mit 144:140 durch.",
+      "grund": "Neuer Karriere-Rekord für den Spielmacher aus Detroit – und dabei verlor er kein einziges Mal den Ball. Detroit gewann nach zwei Verlängerungen.",
       "newsId": "2026-11-13-cade-52-pistons-wizards"
     },
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-12",
-      "titel": "Ausar Thompson",
-      "team": "DET",
-      "wert": "Erstes Triple-Double",
-      "grund": "17 Punkte, 11 Rebounds und 11 Assists: Zum ersten Mal in seiner NBA-Karriere hatte er in drei Wertungen zweistellige Zahlen.",
-      "newsId": "2026-11-13-cade-52-pistons-wizards"
+      "datum": "2026-11-11",
+      "titel": "Franz Wagner",
+      "team": "ORL",
+      "wert": "38 Punkte",
+      "grund": "So viele Punkte hat Franz Wagner in der NBA noch nie in einem Spiel gemacht – er stellte seinen Karrierebestwert ein. Dazu traf er 9 von 10 Freiwürfen.",
+      "newsId": "2026-11-12-franz-wagner-38-magic-jazz"
     },
     {
       "art": "spiel",
       "liga": "NBA",
-      "datum": "2026-11-12",
-      "heim": "MIN",
-      "gast": "DAL",
-      "wert": "39 Punkte Vorsprung",
-      "grund": "Minnesota schlug Dallas mit 133:94 – der höchste Sieg der Wolves in dieser Saison und ihr fünfter Sieg in Folge.",
-      "newsId": "2026-11-13-nba-thursday-wolves-sixers"
+      "datum": "2026-11-11",
+      "heim": "CHI",
+      "gast": "SAS",
+      "wert": "22 Punkte aufgeholt",
+      "grund": "Chicago führte schon mit 64:42. Trotzdem gewann San Antonio noch mit 124:119 – der zehnte Spurs-Sieg in Folge.",
+      "newsId": "2026-11-12-spurs-celtics-aufholjagden"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-11",
+      "titel": "Moritz Wagner",
+      "team": "BKN",
+      "wert": "6 von 8",
+      "grund": "Der deutsche Center brauchte nur 19 Minuten für 16 Punkte und traf fast jeden Wurf. Brooklyn gewann in New Orleans mit 145:111.",
+      "newsId": "2026-11-12-nets-145-points-pelicans"
+    },
+    {
+      "art": "spiel",
+      "liga": "EL",
+      "datum": "2026-11-11",
+      "heim": "PBB",
+      "gast": "FEN",
+      "wert": "Verlängerung",
+      "grund": "Nach 40 Minuten stand es 92:92. In der Verlängerung behielt Paris knapp die Nerven und gewann 111:109 gegen Fenerbahçe.",
+      "newsId": "2026-11-12-europa-paris-krimi-bamberg-murcia"
     },
     {
       "art": "spieler",
@@ -4188,18 +4198,8 @@
       "titel": "Jonas Valančiūnas",
       "team": "ZAL",
       "wert": "20 Rebounds",
-      "grund": "So viele Rebounds holt in der Euroleague kaum jemand in einem Spiel. Dazu machte er 17 Punkte beim knappen 86:83-Sieg von Zalgiris in Mailand.",
+      "grund": "So viele Rebounds holt in der Euroleague kaum jemand in einem Spiel. Dazu kamen 17 Punkte beim knappen 86:83-Sieg von Zalgiris in Mailand.",
       "newsId": "2026-11-13-europa-valanciunas-fournier"
-    },
-    {
-      "art": "spieler",
-      "liga": "EL",
-      "datum": "2026-11-12",
-      "titel": "Andreas Obst",
-      "team": "FCB",
-      "wert": "6 Dreier",
-      "grund": "Der deutsche Nationalspieler traf 6 von 11 Dreiern und machte 22 Punkte. Die Niederlage der Bayern in Valencia konnte er aber nicht verhindern.",
-      "newsId": "2026-11-13-bayern-verliert-valencia"
     }
   ],
   "legacyGestellt": [
