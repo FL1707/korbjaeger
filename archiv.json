@@ -2,6 +2,276 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-13-bbl-wochenende-vorschau",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-13",
+      "tags": [],
+      "titel": "Spitzenspiel in München, ALBA in Oldenburg – und die Damen in Dänemark",
+      "teaser": "Am 9. Spieltag empfängt Tabellenführer FC Bayern den Dritten MBC. ALBA spielt am Samstag in Oldenburg. Die deutschen Damen treten in der EM-Quali in Dänemark an.",
+      "text": [
+        "In der Bundesliga steht der 9. Spieltag an. Los geht es am Freitagabend um 20 Uhr mit Phoenix Hagen gegen die MHP Riesen Ludwigsburg.",
+        "ALBA Berlin muss am Samstag um 20 Uhr zu den EWE Baskets Oldenburg. Beide Teams haben 4 Siege und 4 Niederlagen. Wer gewinnt, kann in der Tabelle nach oben klettern.",
+        "Das Spitzenspiel gibt es am Sonntag um 16:30 Uhr: Tabellenführer FC Bayern (7 Siege, 1 Niederlage) empfängt den Dritten, den SYNTAINICS MBC (6 Siege, 2 Niederlagen). Der Zweite aus Trier spielt am Sonntag in Frankfurt.",
+        "Die deutsche Damen-Nationalmannschaft spielt am Samstag um 15 Uhr in der EM-Qualifikation in Dänemark. Nach der Niederlage zum Start gegen Ungarn soll jetzt der erste Sieg her."
+      ],
+      "fakten": [
+        "Fr., 20:00 Uhr: Hagen – Ludwigsburg",
+        "Sa., 20:00 Uhr: Oldenburg – ALBA",
+        "So., 16:30 Uhr: FC Bayern – MBC (Erster gegen Dritter)",
+        "So., 15:00 Uhr: Frankfurt – Trier",
+        "Sa., 15:00 Uhr: Dänemark – Deutschland (Damen, EM-Quali)",
+        "Alle BBL-Spiele laufen bei DYN"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "ALBA",
+        "OLD",
+        "FCB",
+        "MBC",
+        "TRI",
+        "FRA",
+        "HAG",
+        "LUD",
+        "GER",
+        "DNK"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-12-nba-mittwoch-harden-lakers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "Harden trifft den wichtigen Dreier – Lakers siegen zum siebten Mal",
+      "teaser": "James Harden machte in New York 32 Punkte, so viele wie noch nie in dieser Saison. Die Lakers bleiben das beste Team der NBA.",
+      "text": [
+        "Im Madison Square Garden stand es 101:101, als James Harden für Cleveland einen Dreier traf. Danach gaben die Cavaliers die Führung nicht mehr her und gewannen 115:107 bei den New York Knicks. Harden machte 32 Punkte – sein Saisonbestwert. Donovan Mitchell kam auf 23 Punkte. Für die Knicks endete eine Serie von vier Siegen.",
+        "Die Los Angeles Lakers gewannen in Milwaukee mit 123:112. Luka Dončić machte 32 Punkte, Sandro Mamukelashvili 23 und Austin Reaves 18. Es war der siebte Lakers-Sieg in Folge. Mit 11 Siegen und 2 Niederlagen haben sie die beste Bilanz der Liga. Die Bucks verloren zum achten Mal hintereinander.",
+        "Denver gewann in Memphis mit 123:118. Jamal Murray machte 30 Punkte, 17 davon im letzten Viertel. Nikola Jokić kam auf 27 Punkte, 11 Rebounds und 8 Assists.",
+        "Indiana schlug Washington mit 114:101. Pascal Siakam machte 28 Punkte und traf alle 12 Freiwürfe. Das letzte Viertel begann Indiana mit einem 14:0-Lauf."
+      ],
+      "fakten": [
+        "New York – Cleveland 107:115 (Harden 32 Punkte)",
+        "Milwaukee – L.A. Lakers 112:123 (Dončić 32)",
+        "Memphis – Denver 118:123 (Murray 30)",
+        "Indiana – Washington 114:101 (Siakam 28)",
+        "Lakers: 7 Siege in Folge, Bilanz 11:2"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "CLE",
+        "NYK",
+        "LAL",
+        "MIL",
+        "DEN",
+        "MEM",
+        "IND",
+        "WAS"
+      ],
+      "spieler": [
+        "James Harden",
+        "Donovan Mitchell",
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "Luka Dončić",
+        "Sandro Mamukelashvili",
+        "Austin Reaves",
+        "Jamal Murray",
+        "Nikola Jokić",
+        "Pascal Siakam",
+        "Ivica Zubac",
+        "Kyshawn George"
+      ]
+    },
+    {
+      "id": "2026-11-12-nets-145-points-pelicans",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "dreier",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "145 points! The Nets crush the Pelicans",
+      "teaser": "Brooklyn won 145-111 in New Orleans. Eight Nets players scored ten points or more – Moritz Wagner was one of them.",
+      "text": [
+        "The Brooklyn Nets had a great night in New Orleans. They beat the Pelicans 145 to 111.",
+        "Egor Demin came back after six games without playing. He scored 22 points. Michael Porter Jr. also had 22 points. Julius Randle scored 17.",
+        "The German center Moritz Wagner played very well, too. He made 6 of his 8 shots and scored 16 points in only 19 minutes. Eight Nets players scored in double digits.",
+        "Brooklyn made 20 three-pointers. For the Pelicans it was the fourth loss in a row. Zion Williamson scored 29 points for New Orleans."
+      ],
+      "fakten": [
+        "Final score: New Orleans 111, Brooklyn 145",
+        "Moritz Wagner: 16 points, 6 of 8 shots",
+        "Egor Demin and Michael Porter Jr.: 22 points each",
+        "Brooklyn: 20 three-pointers",
+        "Zion Williamson: 29 points"
+      ],
+      "vokabeln": [
+        {
+          "en": "to crush",
+          "de": "hoch besiegen"
+        },
+        {
+          "en": "to come back",
+          "de": "zurückkommen"
+        },
+        {
+          "en": "double digits",
+          "de": "zweistellig (10 oder mehr)"
+        },
+        {
+          "en": "shot",
+          "de": "Wurf"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "BKN",
+        "NOP"
+      ],
+      "spieler": [
+        "Moritz Wagner",
+        "Michael Porter Jr.",
+        "Julius Randle",
+        "Noah Clowney",
+        "Zion Williamson"
+      ]
+    },
+    {
+      "id": "2026-11-12-warriors-serie-reisst-houston",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "Serie gerissen: Warriors verlieren in Houston",
+      "teaser": "Nach acht Siegen hintereinander hat Golden State wieder verloren: 108:115 bei den Houston Rockets. Stephen Curry musste früh raus.",
+      "text": [
+        "Die Golden State Warriors hatten achtmal in Folge gewonnen. In Houston war diese Serie zu Ende: Die Rockets gewannen mit 115:108.",
+        "Schon im ersten Viertel gab es eine schlechte Nachricht für Golden State. Stephen Curry spielte nur sechs Minuten und fiel dann verletzt aus. Er machte 3 Punkte. Houston nutzte das und führte nach dem ersten Viertel mit 35:20.",
+        "Die Warriors gaben nicht auf. Yaxel Lendeborg machte 25 Punkte und holte 10 Rebounds – ein Double-Double. Brandin Podziemski kam auf 22 Punkte. Ganz heran kam Golden State aber nicht mehr.",
+        "Bei Houston trafen viele Spieler: Kevin Durant machte 20 Punkte, Alperen Sengun 19 Punkte, 13 Rebounds und 9 Assists, Amen Thompson ebenfalls 19 Punkte. Houston ist jetzt Dritter im Westen. Golden State spielt in der Nacht auf Samstag in San Antonio."
+      ],
+      "fakten": [
+        "Endstand: Houston – Golden State 115:108",
+        "Warriors-Serie endet nach 8 Siegen",
+        "Yaxel Lendeborg: 25 Punkte, 10 Rebounds",
+        "Alperen Sengun: 19 Punkte, 13 Rebounds, 9 Assists",
+        "Curry spielte nur 6 Minuten"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "GSW",
+        "HOU",
+        "SAS"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Yaxel Lendeborg",
+        "Brandin Podziemski",
+        "Kevin Durant",
+        "Alperen Sengun",
+        "Amen Thompson",
+        "Fred VanVleet"
+      ]
+    },
+    {
+      "id": "2026-11-12-spurs-celtics-aufholjagden",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "22 Punkte zurück – Spurs und Celtics drehen ihre Spiele",
+      "teaser": "Zweimal lag ein Team mit 22 Punkten hinten und gewann trotzdem. San Antonio feierte den zehnten Sieg in Folge, Boston den fünften.",
+      "text": [
+        "In Chicago sah es für die San Antonio Spurs lange schlecht aus. Mitten im zweiten Viertel führten die Bulls mit 64:42. Doch die Spurs kämpften sich zurück und gewannen am Ende mit 124:119.",
+        "Victor Wembanyama machte 32 Punkte, holte 9 Rebounds und blockte 5 Würfe. Rookie Dylan Harper kam auf 18 Punkte, 10 Assists und 4 Steals. Bei Chicago traf Jalen Smith alle 5 Dreierversuche. Die Spurs haben jetzt zehnmal hintereinander gewonnen. Die Bulls verloren dagegen zum achten Mal in Folge.",
+        "Auch Boston lag in Toronto mit 22 Punkten zurück. Die Celtics gaben nicht auf. 25 Sekunden vor Schluss trat Jayson Tatum an die Freiwurflinie und traf zum Ausgleich und zur Führung. Boston gewann 98:93 – der fünfte Sieg in Folge. Tatum machte 24 Punkte, Derrick White 19 Punkte und 4 Blocks.",
+        "Beide Teams stehen weit oben: San Antonio ist Zweiter im Westen, Boston Erster im Osten."
+      ],
+      "fakten": [
+        "Chicago – San Antonio 119:124",
+        "Wembanyama: 32 Punkte, 9 Rebounds, 5 Blocks",
+        "Spurs: 10 Siege in Folge",
+        "Toronto – Boston 93:98",
+        "Beide Sieger lagen mit 22 Punkten zurück"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "CHI",
+        "BOS",
+        "TOR"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Dylan Harper",
+        "De'Aaron Fox",
+        "Jalen Smith",
+        "Jayson Tatum",
+        "Derrick White",
+        "Ja'Kobe Walter"
+      ]
+    },
+    {
+      "id": "2026-11-12-franz-wagner-38-magic-jazz",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "38 Punkte! Franz Wagner stellt seinen Karriere-Rekord ein",
+      "teaser": "Orlando gewann in Utah mit 123:108. Franz Wagner machte 38 Punkte – so viele wie in seinem besten NBA-Spiel überhaupt.",
+      "text": [
+        "Franz Wagner ist gerade kaum zu bremsen. Zwei Tage nach seinen 33 Punkten in Sacramento legte er in Salt Lake City noch einmal nach: 38 Punkte! Mehr Punkte hat er in der NBA noch nie gemacht – er hat seinen Karrierebestwert eingestellt.",
+        "Lange war das Spiel eng. Utah ging nach einem Dreier von Brice Sensabaugh sogar mit 96:95 in Führung. Dann drehte Orlando auf: Mit einem 18:3-Lauf zogen die Magic davon. Wagner traf in dieser Phase selbst zweimal, verwandelte zwei Freiwürfe und bereitete einen Dreier von Desmond Bane vor.",
+        "Wagner traf 13 seiner 23 Würfe und 9 von 10 Freiwürfen. Dazu holte er 8 Rebounds. Desmond Bane machte 25 Punkte und traf dabei 7 Dreier. Anthony Black kam auf 22 Punkte und 8 Assists.",
+        "Für Orlando war es der zweite Sieg hintereinander. Utah hat dagegen schon zehnmal in Folge verloren. Tristan da Silva spielte für Orlando wieder nicht mit. Am Freitag um 1 Uhr nachts (deutsche Zeit) spielen die Magic zu Hause gegen Milwaukee."
+      ],
+      "fakten": [
+        "Endstand: Utah – Orlando 108:123",
+        "Franz Wagner: 38 Punkte, 8 Rebounds – Karrierebestwert eingestellt",
+        "Desmond Bane: 25 Punkte, 7 Dreier",
+        "Anthony Black: 22 Punkte, 8 Assists",
+        "Orlando jetzt bei 4 Siegen und 7 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "UTA"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Desmond Bane",
+        "Anthony Black",
+        "Brice Sensabaugh",
+        "Darryn Peterson",
+        "Ace Bailey",
+        "Tristan da Silva"
+      ]
+    },
+    {
       "id": "2026-11-12-europa-paris-krimi-bamberg-murcia",
       "liga": "EL",
       "lang": "de",

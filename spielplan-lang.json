@@ -1,17 +1,4 @@
-{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-13T17:03:38+01:00", "bis": "2027-02-13","spiele":[
-{"liga": "EL", "zeit": "2026-11-13T18:30:00+01:00", "heim": "EFS", "gast": "VIR"},
-{"liga": "BBL", "zeit": "2026-11-13T20:00:00+01:00", "heim": "HAG", "gast": "LUD", "tv": "DYN"},
-{"liga": "EL", "zeit": "2026-11-13T20:15:00+01:00", "heim": "PAO", "gast": "BAR"},
-{"liga": "EL", "zeit": "2026-11-13T20:30:00+01:00", "heim": "ASV", "gast": "BES"},
-{"liga": "NBA", "zeit": "2026-11-14T01:00:00+01:00", "heim": "IND", "gast": "NYK"},
-{"liga": "NBA", "zeit": "2026-11-14T01:00:00+01:00", "heim": "ORL", "gast": "MIL"},
-{"liga": "NBA", "zeit": "2026-11-14T02:00:00+01:00", "heim": "CHI", "gast": "ATL"},
-{"liga": "NBA", "zeit": "2026-11-14T02:00:00+01:00", "heim": "MIA", "gast": "CLE"},
-{"liga": "NBA", "zeit": "2026-11-14T02:00:00+01:00", "heim": "NOP", "gast": "MEM"},
-{"liga": "NBA", "zeit": "2026-11-14T02:30:00+01:00", "heim": "HOU", "gast": "UTA"},
-{"liga": "NBA", "zeit": "2026-11-14T03:30:00+01:00", "heim": "SAS", "gast": "GSW"},
-{"liga": "NBA", "zeit": "2026-11-14T04:00:00+01:00", "heim": "SAC", "gast": "POR"},
-{"liga": "NBA", "zeit": "2026-11-14T04:30:00+01:00", "heim": "LAC", "gast": "OKC"},
+{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-14T06:21:58+01:00", "bis": "2027-02-14","spiele":[
 {"liga": "DBB", "zeit": "2026-11-14T15:00:00+01:00", "heim": "DNK", "gast": "GER", "info": "Damen · EM-Quali in Gentofte"},
 {"liga": "BBL", "zeit": "2026-11-14T18:30:00+01:00", "heim": "BAM", "gast": "BON", "tv": "DYN"},
 {"liga": "BBL", "zeit": "2026-11-14T18:30:00+01:00", "heim": "ULM", "gast": "JEN", "tv": "DYN"},
@@ -950,5 +937,12 @@
 {"liga": "NBA", "zeit": "2027-02-13T02:00:00+01:00", "heim": "BOS", "gast": "MIN"},
 {"liga": "NBA", "zeit": "2027-02-13T02:00:00+01:00", "heim": "MEM", "gast": "LAC"},
 {"liga": "NBA", "zeit": "2027-02-13T02:00:00+01:00", "heim": "NOP", "gast": "HOU"},
-{"liga": "NBA", "zeit": "2027-02-13T04:30:00+01:00", "heim": "LAL", "gast": "DEN"}
+{"liga": "NBA", "zeit": "2027-02-13T04:30:00+01:00", "heim": "LAL", "gast": "DEN"},
+{"liga": "NBA", "zeit": "2027-02-13T20:00:00+01:00", "heim": "IND", "gast": "SAC"},
+{"liga": "NBA", "zeit": "2027-02-13T21:00:00+01:00", "heim": "CHA", "gast": "DAL"},
+{"liga": "NBA", "zeit": "2027-02-13T21:30:00+01:00", "heim": "POR", "gast": "DET"},
+{"liga": "NBA", "zeit": "2027-02-13T23:30:00+01:00", "heim": "OKC", "gast": "PHI"},
+{"liga": "NBA", "zeit": "2027-02-14T01:00:00+01:00", "heim": "ORL", "gast": "SAS"},
+{"liga": "NBA", "zeit": "2027-02-14T01:00:00+01:00", "heim": "WAS", "gast": "MIL"},
+{"liga": "NBA", "zeit": "2027-02-14T02:30:00+01:00", "heim": "NYK", "gast": "GSW"}
 ]}
