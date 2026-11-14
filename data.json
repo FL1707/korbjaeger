@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-14T06:21:44+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen zur Samstagsausgabe! In der Nacht machte Franz Wagner 35 Punkte für Orlando, und die San Antonio Spurs feierten gegen Golden State ihren elften Sieg in Folge. Oklahoma City spielte bei den LA Clippers noch, als diese Ausgabe fertig wurde – das Ergebnis kommt am Nachmittag. Heute um 15 Uhr spielen die deutschen Damen in Dänemark, und um 20 Uhr muss ALBA in Oldenburg ran.",
+  "aktualisiert": "2026-11-14T16:16:17+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo zur Samstag-Nachmittagsausgabe! Oklahoma City hat in der Nacht ganz knapp mit 112:113 bei den LA Clippers verloren – obwohl Shai Gilgeous-Alexander 40 Punkte machte und Isaiah Hartenstein 9 von 10 Würfen traf. Portland gewann dank Deni Avdija in Sacramento. Heute Abend um 20 Uhr spielt ALBA in Oldenburg, und die deutschen Damen sind in Dänemark gefordert.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-14",
   "zahlDesTages": {
-    "zahl": "10",
-    "text": "Spieler der Memphis Grizzlies machten beim 142:111 in New Orleans mindestens 10 Punkte."
+    "zahl": "9 von 10",
+    "text": "Würfen traf Isaiah Hartenstein beim knappen 112:113 von Oklahoma City bei den LA Clippers."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -300,6 +300,90 @@
     "erklaerung": "In der letzten Minute führte Orlando nur noch mit acht Punkten. Franz Wagner schnappte sich den Ball, lief zum Korb und legte ihn mit einem Euro-Step zum 104:94 hinein. Er beendete das Spiel mit 35 Punkten und 12 Assists."
   },
   "news": [
+    {
+      "id": "2026-11-14-thunder-verlieren-clippers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-14",
+      "tags": [],
+      "titel": "Bitter für OKC: 40 Punkte von Shai reichen nicht",
+      "teaser": "Oklahoma City verlor bei den LA Clippers mit 112:113. Isaiah Hartenstein traf 9 von 10 Würfen und holte 16 Rebounds – doch die letzten sieben Punkte machten die Clippers.",
+      "text": [
+        "Das war knapp! Oklahoma City verlor in der Nacht bei den LA Clippers mit 112:113. Es war schon die dritte Niederlage in Folge für die Thunder. So viele Pleiten hintereinander gab es in dieser Saison noch nicht.",
+        "Zur Pause lagen die Thunder mit 44:57 hinten. Von 17 Dreiern trafen sie in der ersten Hälfte nur 2. Doch im dritten Viertel kam OKC zurück und gewann es mit 40:25. Knapp drei Minuten vor Schluss führte Oklahoma City mit 112:106.",
+        "Dann trafen die Thunder nicht mehr. Brook Lopez machte zwei Körbe, und Darius Garland brachte die Clippers 50 Sekunden vor Schluss mit einem Korbleger plus Freiwurf in Führung. Shai Gilgeous-Alexander hatte mit der Schlusssirene den Sieg in der Hand – doch sein Wurf aus der Mitteldistanz ging daneben.",
+        "Shai machte 40 Punkte, Jared McCain traf 7 von 11 Dreiern. Der Deutsche Isaiah Hartenstein spielte stark: 21 Punkte, 16 Rebounds und 6 Assists. Von 10 Würfen traf er 9. OKC fehlen weiter drei Stammspieler. Am Sonntag spielen die Thunder in Sacramento."
+      ],
+      "fakten": [
+        "Endstand: LA Clippers – Oklahoma City 113:112 (NBA Cup)",
+        "Shai Gilgeous-Alexander: 40 Punkte",
+        "Isaiah Hartenstein: 21 Punkte, 16 Rebounds, 6 Assists, 9 von 10 Würfen",
+        "Jared McCain: 23 Punkte, 7 Dreier",
+        "Brook Lopez (LAC): 26 Punkte, Darius Garland (LAC): 24 Punkte",
+        "Clippers mit einem 7:0-Lauf zum Schluss"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "OKC",
+        "LAC"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Jared McCain",
+        "Aday Mara",
+        "Alex Caruso",
+        "Brook Lopez",
+        "Darius Garland",
+        "Derrick Jones Jr.",
+        "Keaton Wagler",
+        "Gradey Dick"
+      ]
+    },
+    {
+      "id": "2026-11-14-avdija-34-blazers-kings",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-14",
+      "tags": [],
+      "titel": "11 von 13: Deni Avdija trifft fast alles",
+      "teaser": "Portland gewann in Sacramento mit 120:107. Deni Avdija machte 34 Punkte und vergab kaum einen Wurf. Die Blazers stehen jetzt bei 9 Siegen und 3 Niederlagen.",
+      "text": [
+        "Die Portland Trail Blazers sind richtig gut in die Saison gestartet. In Sacramento gewannen sie mit 120:107 – es war ihr dritter Sieg in Folge.",
+        "Der Star des Abends war Deni Avdija aus Israel. Er machte 34 Punkte. Von 13 Würfen aus dem Feld traf er 11, dazu alle 9 Freiwürfe. Damian Lillard kam auf 29 Punkte, darunter 6 Dreier. Center Donovan Clingan schaffte mit 13 Punkten und 11 Rebounds ein Double-Double.",
+        "Portland hat jetzt 9 Siege und nur 3 Niederlagen. Auswärts haben die Blazers erst ein Spiel verloren. Sacramento dagegen verlor zum fünften Mal hintereinander und hat noch kein Heimspiel gewonnen. Am Sonntag kommt Oklahoma City zu den Kings."
+      ],
+      "fakten": [
+        "Endstand: Sacramento – Portland 107:120 (NBA Cup)",
+        "Deni Avdija: 34 Punkte, 11 von 13 Würfen, 9 von 9 Freiwürfen",
+        "Damian Lillard: 29 Punkte, 6 Dreier",
+        "Donovan Clingan: 13 Punkte, 11 Rebounds",
+        "De'Andre Hunter (SAC): 24 Punkte",
+        "Portland: 9 Siege, 3 Niederlagen"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "POR",
+        "SAC"
+      ],
+      "spieler": [
+        "Deni Avdija",
+        "Damian Lillard",
+        "Donovan Clingan",
+        "Toumani Camara",
+        "Jrue Holiday",
+        "De'Andre Hunter",
+        "Domantas Sabonis"
+      ]
+    },
     {
       "id": "2026-11-14-franz-wagner-35-magic-bucks",
       "liga": "NBA",
@@ -801,79 +885,6 @@
         "BAR"
       ],
       "spieler": []
-    },
-    {
-      "id": "2026-11-12-hartenstein-20-okc-portland",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-12",
-      "tags": [],
-      "titel": "Hartenstein mit 20 Punkten – trotzdem wieder eine Niederlage in Portland",
-      "teaser": "Oklahoma City verlor auch das zweite Spiel in Portland, diesmal mit 108:118. Isaiah Hartenstein schaffte ein Double-Double mit 20 Punkten und 11 Rebounds.",
-      "text": [
-        "Zweimal hintereinander spielten die Oklahoma City Thunder in Portland. Und zweimal gewannen die Trail Blazers. Diesmal hieß es 118:108 für Portland.",
-        "Dabei fing es gut an für OKC: Das erste Viertel gewannen die Thunder mit 32:28. Vor dem letzten Viertel lag Portland nur mit 88:85 vorne. Doch im Schlussviertel trafen die Blazers besser und gewannen es mit 30:23.",
-        "Bester Thunder-Spieler unter dem Korb war der Deutsche Isaiah Hartenstein. Er traf 10 von 14 Würfen, machte 20 Punkte, holte 11 Rebounds und gab 6 Assists. Das ist ein Double-Double. Shai Gilgeous-Alexander kam auf 31 Punkte, davon 13 von der Freiwurflinie. Von der Dreierlinie traf er aber keinen seiner 7 Versuche.",
-        "Bei Portland war Deni Avdija mit 28 Punkten der Topscorer. Jrue Holiday traf 5 von 8 Dreiern. Portland hat jetzt 8 Siege und 3 Niederlagen, OKC 8 Siege und 4 Niederlagen. Schon in der Nacht auf Samstag geht es für die Thunder bei den LA Clippers weiter."
-      ],
-      "fakten": [
-        "Endstand: Portland – Oklahoma City 118:108",
-        "Isaiah Hartenstein (OKC): 20 Punkte, 11 Rebounds, 6 Assists",
-        "Shai Gilgeous-Alexander (OKC): 31 Punkte",
-        "Deni Avdija (POR): 28 Punkte",
-        "Jrue Holiday (POR): 19 Punkte, 5 von 8 Dreiern",
-        "Portland traf 19 Dreier, OKC nur 11"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "OKC",
-        "POR"
-      ],
-      "spieler": [
-        "Isaiah Hartenstein",
-        "Shai Gilgeous-Alexander",
-        "Deni Avdija",
-        "Jrue Holiday",
-        "Damian Lillard",
-        "Alex Caruso"
-      ]
-    },
-    {
-      "id": "2026-11-12-dbb-damen-niederlage-ungarn",
-      "liga": "DBB",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-11-12",
-      "tags": [],
-      "titel": "EM-Quali: Deutschlands Damen verlieren zum Start gegen Ungarn",
-      "teaser": "In Hamburg unterlagen die deutschen Basketballerinnen Ungarn mit 64:70. Leonie Fiebich war mit 19 Punkten die beste Werferin.",
-      "text": [
-        "Die deutschen Damen sind mit einer Niederlage in die Qualifikation für die Europameisterschaft 2027 gestartet. In der Inselpark Arena in Hamburg verloren sie gegen Ungarn mit 64:70.",
-        "Ungarn erwischte den besseren Start und führte nach dem ersten Viertel mit 27:19. Deutschland kam zwar bis auf 28:29 heran, lag zur Pause aber mit 33:41 hinten. Im dritten und vierten Viertel kämpfte sich das Team immer wieder heran, zuletzt bis auf 60:65. Zu viele Ballverluste und vergebene Würfe verhinderten aber die Wende.",
-        "Beste Werferin war Leonie Fiebich mit 19 Punkten. Sie wurde vor dem Spiel für ihr 50. Länderspiel geehrt. Frieda Bühner machte 17 Punkte, Alexandra Wilke 11. Zwei Spielerinnen gaben ihr Debüt: Frederike Askamp und Marianna Byvatov. Askamps Mutter Marlies hat früher selbst für Deutschland gespielt.",
-        "Viel Zeit zum Ärgern bleibt nicht: Am Samstag um 15 Uhr spielen die Damen in Dänemark, am Dienstag um 20 Uhr in Portugal."
-      ],
-      "fakten": [
-        "Endstand: Deutschland – Ungarn 64:70",
-        "Viertel: 19:27, 14:14, 16:13, 15:16",
-        "Leonie Fiebich: 19 Punkte im 50. Länderspiel",
-        "Frieda Bühner: 17 Punkte",
-        "Nächstes Spiel: Samstag, 15 Uhr, in Dänemark"
-      ],
-      "quellen": [
-        "basketball-bund.de"
-      ],
-      "teams": [
-        "GER",
-        "HUN",
-        "DNK",
-        "PRT"
-      ],
-      "spieler": []
     }
   ],
   "ergebnisse": [
@@ -1027,6 +1038,52 @@
           "Aaron Nesmith: 18 Punkte",
           "Jalen Brunson (NYK): 33 Punkte",
           "Karl-Anthony Towns (NYK): 23 Punkte, 15 Rebounds"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-13",
+      "runde": "NBA Cup",
+      "heim": "LAC",
+      "gast": "OKC",
+      "heimPkt": 113,
+      "gastPkt": 112,
+      "info": "Hartenstein 21 Pkt., 16 Reb.",
+      "newsId": "2026-11-14-thunder-verlieren-clippers",
+      "bericht": {
+        "text": [
+          "Die Clippers führten zur Pause mit 57:44. Im dritten Viertel kam OKC zurück und lag knapp drei Minuten vor Schluss mit 112:106 vorne.",
+          "Dann machten die Clippers die letzten sieben Punkte. Shai Gilgeous-Alexander verfehlte mit der Schlusssirene den Siegwurf."
+        ],
+        "highlights": [
+          "Shai Gilgeous-Alexander (OKC): 40 Punkte",
+          "Isaiah Hartenstein (OKC): 21 Punkte, 16 Rebounds, 9 von 10 Würfen",
+          "Jared McCain (OKC): 7 von 11 Dreiern",
+          "Brook Lopez (LAC): 26 Punkte, Darius Garland (LAC): 24"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-13",
+      "runde": "NBA Cup",
+      "heim": "SAC",
+      "gast": "POR",
+      "heimPkt": 107,
+      "gastPkt": 120,
+      "info": "Avdija (POR) 34 Punkte",
+      "newsId": "2026-11-14-avdija-34-blazers-kings",
+      "bericht": {
+        "text": [
+          "Portland führte schon nach dem ersten Viertel mit 34:25 und gab die Führung nicht mehr ab.",
+          "Deni Avdija traf fast jeden Wurf, Damian Lillard half mit sechs Dreiern."
+        ],
+        "highlights": [
+          "Deni Avdija (POR): 34 Punkte, 11 von 13 Würfen",
+          "Damian Lillard (POR): 29 Punkte",
+          "De'Andre Hunter (SAC): 24 Punkte",
+          "Sacramento: 5. Niederlage in Folge"
         ]
       }
     },
@@ -1616,19 +1673,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-14T04:00:00+01:00",
-      "heim": "SAC",
-      "gast": "POR"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-14T04:30:00+01:00",
-      "heim": "LAC",
-      "gast": "OKC",
-      "info": "mit Hartenstein"
-    },
     {
       "liga": "DBB",
       "zeit": "2026-11-14T15:00:00+01:00",
@@ -2321,7 +2365,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 14.11., 06:30 Uhr · nach den Spielen vom 13.11. (US-Zeit), ohne LAC–OKC und SAC–POR (liefen noch)",
+      "stand": "Stand: 14.11., 16:30 Uhr · nach allen Spielen vom 13.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2354,19 +2398,14 @@
           "n": 3
         },
         {
-          "team": "MIN",
+          "team": "POR",
           "s": 9,
           "n": 3
         },
         {
-          "team": "POR",
-          "s": 8,
+          "team": "MIN",
+          "s": 9,
           "n": 3
-        },
-        {
-          "team": "OKC",
-          "s": 8,
-          "n": 4
         },
         {
           "team": "MEM",
@@ -2375,6 +2414,11 @@
         },
         {
           "team": "GSW",
+          "s": 8,
+          "n": 5
+        },
+        {
+          "team": "OKC",
           "s": 8,
           "n": 5
         },
@@ -2400,13 +2444,13 @@
         },
         {
           "team": "LAC",
-          "s": 2,
+          "s": 3,
           "n": 8
         },
         {
           "team": "SAC",
           "s": 1,
-          "n": 10
+          "n": 11
         },
         {
           "team": "UTA",
@@ -2417,7 +2461,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 14.11., 06:30 Uhr · nach den Spielen vom 13.11. (US-Zeit), ohne LAC–OKC und SAC–POR (liefen noch)",
+      "stand": "Stand: 14.11., 16:30 Uhr · nach allen Spielen vom 13.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -3024,9 +3068,9 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 12,
-        "pkt": 29.7,
-        "reb": 4.3,
+        "spiele": 13,
+        "pkt": 30.5,
+        "reb": 4.2,
         "ast": 4.5
       },
       "notiz": "Der Superstar der Thunder. Gegen Cleveland machte er erst 43 und zwei Tage später 42 Punkte – OKC gewann beide Spiele."
@@ -3053,10 +3097,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 11,
-        "pkt": 23.5,
-        "reb": 6.5,
-        "ast": 7.9
+        "spiele": 12,
+        "pkt": 24.4,
+        "reb": 6.8,
+        "ast": 8.3
       },
       "notiz": "Gegen Milwaukee machte er 35 Punkte und 12 Assists – nur ein Rebound fehlte zum ersten Triple-Double. Es war sein viertes Spiel in Folge mit mindestens 30 Punkten."
     },
@@ -3095,12 +3139,12 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 12,
-        "pkt": 8.0,
-        "reb": 10.1,
-        "ast": 3.7
+        "spiele": 13,
+        "pkt": 9.0,
+        "reb": 10.5,
+        "ast": 3.8
       },
-      "notiz": "Der deutsche Center der Oklahoma City Thunder. Beim 124:116 gegen Cleveland holte er 12 Rebounds."
+      "notiz": "Der deutsche Center der Oklahoma City Thunder. Bei den Clippers machte er 21 Punkte und holte 16 Rebounds – 9 von 10 Würfen gingen rein."
     },
     {
       "name": "Tristan da Silva",
@@ -3109,9 +3153,9 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 9,
-        "pkt": 15.1,
-        "reb": 3.7,
+        "spiele": 10,
+        "pkt": 14.8,
+        "reb": 3.9,
         "ast": 1.7
       },
       "notiz": "Ist zurück im Team: Gegen Milwaukee machte er 12 Punkte und holte 6 Rebounds."
@@ -3148,10 +3192,10 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 11,
-        "pkt": 26.0,
-        "reb": 3.1,
-        "ast": 5.2
+        "spiele": 12,
+        "pkt": 26.6,
+        "reb": 2.9,
+        "ast": 5.7
       },
       "notiz": "Der Anführer der Knicks. Gegen Chicago machte er 33 Punkte, 22 davon schon im ersten Viertel."
     },
@@ -3200,10 +3244,10 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 12,
-        "pkt": 30.3,
+        "spiele": 13,
+        "pkt": 28.8,
         "reb": 11.7,
-        "ast": 2.8
+        "ast": 3.1
       },
       "notiz": "Der riesige Franzose der Spurs. Gegen Golden State holte er 12 Punkte und 12 Rebounds – San Antonio gewann zum elften Mal in Folge."
     },
@@ -3213,10 +3257,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 11,
-        "pkt": 19.8,
-        "reb": 3.2,
-        "ast": 4.2
+        "spiele": 12,
+        "pkt": 20.6,
+        "reb": 3.1,
+        "ast": 4.3
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -4286,6 +4330,26 @@
       "newsId": "2026-11-14-franz-wagner-35-magic-bucks"
     },
     {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-13",
+      "heim": "LAC",
+      "gast": "OKC",
+      "wert": "Nur 1 Punkt!",
+      "grund": "OKC führte knapp drei Minuten vor Schluss mit sechs Punkten. Dann machten die Clippers die letzten sieben Punkte – trotz 40 Punkten von Shai Gilgeous-Alexander.",
+      "newsId": "2026-11-14-thunder-verlieren-clippers"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-13",
+      "titel": "Deni Avdija",
+      "team": "POR",
+      "wert": "11 von 13",
+      "grund": "Avdija traf beim Sieg in Sacramento 11 von 13 Würfen und alle 9 Freiwürfe. So kam er auf 34 Punkte.",
+      "newsId": "2026-11-14-avdija-34-blazers-kings"
+    },
+    {
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-13",
@@ -4304,26 +4368,6 @@
       "wert": "2 × 37 Punkte",
       "grund": "Bam Adebayo und Giannis Antetokounmpo machten beide 37 Punkte. Das gab es bei Miami erst einmal: 2013 mit LeBron James und Dwyane Wade.",
       "newsId": "2026-11-14-heat-two-players-37"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-13",
-      "heim": "NOP",
-      "gast": "MEM",
-      "wert": "10 Spieler zweistellig",
-      "grund": "Bei Memphis machten zehn verschiedene Spieler mindestens 10 Punkte. So verteilt sich die Arbeit selten auf so viele Schultern.",
-      "newsId": "2026-11-14-nba-freitag-bulls-grizzlies"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-13",
-      "heim": "CHI",
-      "gast": "ATL",
-      "wert": "Verlängerung",
-      "grund": "Nach acht Niederlagen in Folge gewannen die Bulls endlich wieder – in der Verlängerung. Josh Giddey und Atlantas Jalen Johnson schafften beide ein Triple-Double.",
-      "newsId": "2026-11-14-nba-freitag-bulls-grizzlies"
     },
     {
       "art": "spieler",

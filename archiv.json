@@ -43,6 +43,79 @@
       "spieler": []
     },
     {
+      "id": "2026-11-12-hartenstein-20-okc-portland",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "Hartenstein mit 20 Punkten – trotzdem wieder eine Niederlage in Portland",
+      "teaser": "Oklahoma City verlor auch das zweite Spiel in Portland, diesmal mit 108:118. Isaiah Hartenstein schaffte ein Double-Double mit 20 Punkten und 11 Rebounds.",
+      "text": [
+        "Zweimal hintereinander spielten die Oklahoma City Thunder in Portland. Und zweimal gewannen die Trail Blazers. Diesmal hieß es 118:108 für Portland.",
+        "Dabei fing es gut an für OKC: Das erste Viertel gewannen die Thunder mit 32:28. Vor dem letzten Viertel lag Portland nur mit 88:85 vorne. Doch im Schlussviertel trafen die Blazers besser und gewannen es mit 30:23.",
+        "Bester Thunder-Spieler unter dem Korb war der Deutsche Isaiah Hartenstein. Er traf 10 von 14 Würfen, machte 20 Punkte, holte 11 Rebounds und gab 6 Assists. Das ist ein Double-Double. Shai Gilgeous-Alexander kam auf 31 Punkte, davon 13 von der Freiwurflinie. Von der Dreierlinie traf er aber keinen seiner 7 Versuche.",
+        "Bei Portland war Deni Avdija mit 28 Punkten der Topscorer. Jrue Holiday traf 5 von 8 Dreiern. Portland hat jetzt 8 Siege und 3 Niederlagen, OKC 8 Siege und 4 Niederlagen. Schon in der Nacht auf Samstag geht es für die Thunder bei den LA Clippers weiter."
+      ],
+      "fakten": [
+        "Endstand: Portland – Oklahoma City 118:108",
+        "Isaiah Hartenstein (OKC): 20 Punkte, 11 Rebounds, 6 Assists",
+        "Shai Gilgeous-Alexander (OKC): 31 Punkte",
+        "Deni Avdija (POR): 28 Punkte",
+        "Jrue Holiday (POR): 19 Punkte, 5 von 8 Dreiern",
+        "Portland traf 19 Dreier, OKC nur 11"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "POR"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Shai Gilgeous-Alexander",
+        "Deni Avdija",
+        "Jrue Holiday",
+        "Damian Lillard",
+        "Alex Caruso"
+      ]
+    },
+    {
+      "id": "2026-11-12-dbb-damen-niederlage-ungarn",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-12",
+      "tags": [],
+      "titel": "EM-Quali: Deutschlands Damen verlieren zum Start gegen Ungarn",
+      "teaser": "In Hamburg unterlagen die deutschen Basketballerinnen Ungarn mit 64:70. Leonie Fiebich war mit 19 Punkten die beste Werferin.",
+      "text": [
+        "Die deutschen Damen sind mit einer Niederlage in die Qualifikation für die Europameisterschaft 2027 gestartet. In der Inselpark Arena in Hamburg verloren sie gegen Ungarn mit 64:70.",
+        "Ungarn erwischte den besseren Start und führte nach dem ersten Viertel mit 27:19. Deutschland kam zwar bis auf 28:29 heran, lag zur Pause aber mit 33:41 hinten. Im dritten und vierten Viertel kämpfte sich das Team immer wieder heran, zuletzt bis auf 60:65. Zu viele Ballverluste und vergebene Würfe verhinderten aber die Wende.",
+        "Beste Werferin war Leonie Fiebich mit 19 Punkten. Sie wurde vor dem Spiel für ihr 50. Länderspiel geehrt. Frieda Bühner machte 17 Punkte, Alexandra Wilke 11. Zwei Spielerinnen gaben ihr Debüt: Frederike Askamp und Marianna Byvatov. Askamps Mutter Marlies hat früher selbst für Deutschland gespielt.",
+        "Viel Zeit zum Ärgern bleibt nicht: Am Samstag um 15 Uhr spielen die Damen in Dänemark, am Dienstag um 20 Uhr in Portugal."
+      ],
+      "fakten": [
+        "Endstand: Deutschland – Ungarn 64:70",
+        "Viertel: 19:27, 14:14, 16:13, 15:16",
+        "Leonie Fiebich: 19 Punkte im 50. Länderspiel",
+        "Frieda Bühner: 17 Punkte",
+        "Nächstes Spiel: Samstag, 15 Uhr, in Dänemark"
+      ],
+      "quellen": [
+        "basketball-bund.de"
+      ],
+      "teams": [
+        "GER",
+        "HUN",
+        "DNK",
+        "PRT"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-12-nba-mittwoch-harden-lakers",
       "liga": "NBA",
       "lang": "de",

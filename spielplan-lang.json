@@ -1,4 +1,4 @@
-{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-14T06:21:58+01:00", "bis": "2027-02-14","spiele":[
+{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-14T16:15:11+01:00", "bis": "2027-02-14","spiele":[
 {"liga": "DBB", "zeit": "2026-11-14T15:00:00+01:00", "heim": "DNK", "gast": "GER", "info": "Damen · EM-Quali in Gentofte"},
 {"liga": "BBL", "zeit": "2026-11-14T18:30:00+01:00", "heim": "BAM", "gast": "BON", "tv": "DYN"},
 {"liga": "BBL", "zeit": "2026-11-14T18:30:00+01:00", "heim": "ULM", "gast": "JEN", "tv": "DYN"},
