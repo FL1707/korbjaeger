@@ -2,6 +2,266 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-14-bbl-ludwigsburg-hagen-alba",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-14",
+      "tags": [],
+      "titel": "Ludwigsburg dreht das Spiel in Hagen – heute muss ALBA nach Oldenburg",
+      "teaser": "Die MHP Riesen Ludwigsburg gewannen bei Phoenix Hagen mit 93:79. Am Samstagabend spielt ALBA Berlin in Oldenburg, am Sonntag kommt es in München zum Spitzenspiel.",
+      "text": [
+        "Zum Start des 9. Spieltags lag Phoenix Hagen gegen Ludwigsburg zur Pause noch mit 47:45 vorne. Doch nach der Pause drehten die Riesen auf. Das letzte Viertel gewannen sie mit 26:14 und siegten am Ende mit 93:79.",
+        "Bester Werfer des Abends war ausgerechnet ein Hagener: Adam Kunkel machte 25 Punkte. Für Hagen war es trotzdem schon die dritte Niederlage in Folge. Das Team ist mit 2 Siegen und 7 Niederlagen Tabellenletzter. Ludwigsburg hat jetzt 5 Siege und 4 Niederlagen.",
+        "Heute Abend um 20 Uhr ist ALBA Berlin bei den EWE Baskets Oldenburg zu Gast. Beide Teams haben bisher 4 Siege und 4 Niederlagen.",
+        "Am Sonntag um 16:30 Uhr gibt es das Spitzenspiel: Tabellenführer FC Bayern (7 Siege, 1 Niederlage) empfängt den Dritten, den SYNTAINICS MBC (6 Siege, 2 Niederlagen)."
+      ],
+      "fakten": [
+        "Endstand: Hagen – Ludwigsburg 79:93",
+        "Viertel: 18:21, 29:24, 18:22, 14:26",
+        "Adam Kunkel (Hagen): 25 Punkte",
+        "Sa., 20:00 Uhr: Oldenburg – ALBA",
+        "So., 16:30 Uhr: FC Bayern – MBC",
+        "Alle BBL-Spiele laufen bei DYN"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "HAG",
+        "LUD",
+        "ALBA",
+        "OLD",
+        "FCB",
+        "MBC"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-13-cade-52-pistons-wizards",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-13",
+      "tags": [],
+      "titel": "52 Punkte! Cade Cunningham stellt neuen Karriere-Rekord auf",
+      "teaser": "Detroit gewann in Washington nach zwei Verlängerungen mit 144:140. Cade Cunningham machte 52 Punkte – so viele wie noch nie in seiner Karriere.",
+      "text": [
+        "Was für ein Krimi in Washington! Zweimal sah es so aus, als würden die Detroit Pistons gewinnen. Und zweimal retteten sich die Wizards in letzter Sekunde in die Verlängerung.",
+        "Erst traf Trae Young mit der Schlusssirene einen Dreier. In der ersten Verlängerung traf dann Rookie AJ Dybantsa kurz vor Schluss. Also ging es in die zweite Verlängerung.",
+        "Dort zeigte Cade Cunningham, wie stark er ist. Er traf gleich einen Dreier, und Detroit gewann am Ende mit 144:140. Cunningham machte 52 Punkte und gab 11 Assists. Sein alter Rekord lag bei 46 Punkten – die hatte er vor einem Jahr auch gegen Washington gemacht.",
+        "Besonders: Cunningham hatte keinen einzigen Ballverlust. 50 Punkte, 10 Assists und kein Ballverlust – das hat seit 1977 kein NBA-Spieler geschafft. Sein Mitspieler Ausar Thompson feierte auch: Mit 17 Punkten, 11 Rebounds und 11 Assists gelang ihm sein erstes Triple-Double."
+      ],
+      "fakten": [
+        "Endstand: Washington – Detroit 140:144 nach 2 Verlängerungen",
+        "Cade Cunningham: 52 Punkte, 11 Assists, 0 Ballverluste, 17 von 18 Freiwürfen",
+        "Ausar Thompson: 17 Punkte, 11 Rebounds, 11 Assists",
+        "Trae Young (WAS): 37 Punkte, 14 Assists",
+        "Anthony Davis und Alex Sarr (WAS): je 30 Punkte",
+        "Washington hat 6 Spiele in Folge verloren"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "DET",
+        "WAS"
+      ],
+      "spieler": [
+        "Cade Cunningham",
+        "Ausar Thompson",
+        "Daniss Jenkins",
+        "Trae Young",
+        "Anthony Davis",
+        "Alex Sarr",
+        "AJ Dybantsa",
+        "Kyshawn George"
+      ]
+    },
+    {
+      "id": "2026-11-13-hornets-verlieren-phoenix",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-13",
+      "tags": [],
+      "titel": "Ohne Schröder: Charlotte verliert knapp in Phoenix",
+      "teaser": "Die Charlotte Hornets verloren bei den Phoenix Suns mit 96:101. Dennis Schröder fehlte, Devin Booker machte 30 Punkte.",
+      "text": [
+        "Die Charlotte Hornets mussten in Phoenix ohne Dennis Schröder auskommen. Auch Hannes Steinbach kam nicht zum Einsatz.",
+        "Phoenix startete besser und führte im zweiten Viertel schon mit 48:31. Doch Charlotte kämpfte sich heran. Zur Pause stand es nur noch 55:50.",
+        "Kurz vor Schluss traf Devin Booker einen Dreier zum 97:91. Royce O'Neale schaffte danach sogar ein Vier-Punkte-Spiel: Er traf einen Dreier und wurde dabei gefoult. Doch die Suns trafen ihre Freiwürfe und gewannen 101:96.",
+        "Für Miles Bridges war es ein besonderes Spiel: Er spielte sieben Jahre in Charlotte und gewann jetzt mit Phoenix gegen sein altes Team. Charlotte hat 4 Siege und 8 Niederlagen. Weiter geht es am Sonntag bei den LA Clippers."
+      ],
+      "fakten": [
+        "Endstand: Phoenix – Charlotte 101:96",
+        "Devin Booker (PHX): 30 Punkte, 7 Assists, 3 Steals",
+        "Coby White (CHA): 21 Punkte",
+        "Naz Reid (CHA): 16 Punkte",
+        "Dennis Schröder fehlte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "CHA",
+        "PHX"
+      ],
+      "spieler": [
+        "Dennis Schröder",
+        "Hannes Steinbach",
+        "Devin Booker",
+        "Miles Bridges",
+        "Dillon Brooks",
+        "Coby White",
+        "Naz Reid",
+        "Grayson Allen",
+        "Royce O'Neale"
+      ]
+    },
+    {
+      "id": "2026-11-13-nba-thursday-wolves-sixers",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "dreier",
+      "datum": "2026-11-13",
+      "tags": [],
+      "titel": "Wolves win by 39 – Sixers win without LeBron",
+      "teaser": "Minnesota beat Dallas 133-94 for its fifth win in a row. Philadelphia beat Toronto 123-112 without LeBron James.",
+      "text": [
+        "The Minnesota Timberwolves were on fire against the Dallas Mavericks. They won 133 to 94. It was their biggest win of the season and their fifth win in a row.",
+        "Bones Hyland came off the bench and scored 24 points. LaMelo Ball made six three-pointers and had 22 points and 9 assists. Dallas star Cooper Flagg only scored 12 points.",
+        "In Philadelphia, the 76ers played without LeBron James. Toronto was ahead by 16 points in the first half. But Philly came back and won 123 to 112. Tyrese Maxey scored 27 points and Joel Embiid scored 20. RJ Barrett had 31 points for Toronto."
+      ],
+      "fakten": [
+        "Minnesota 133, Dallas 94",
+        "Bones Hyland: 24 points",
+        "LaMelo Ball: 22 points, 6 three-pointers",
+        "Philadelphia 123, Toronto 112",
+        "Tyrese Maxey: 27 points",
+        "RJ Barrett (TOR): 31 points, 14 rebounds"
+      ],
+      "vokabeln": [
+        {
+          "en": "to be on fire",
+          "de": "heiß laufen, alles treffen"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander, in Folge"
+        },
+        {
+          "en": "to come off the bench",
+          "de": "eingewechselt werden"
+        },
+        {
+          "en": "to be ahead",
+          "de": "vorne liegen, führen"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIN",
+        "DAL",
+        "PHI",
+        "TOR"
+      ],
+      "spieler": [
+        "Bones Hyland",
+        "LaMelo Ball",
+        "Ayo Dosunmu",
+        "Jaden McDaniels",
+        "Jonathan Kuminga",
+        "Rudy Gobert",
+        "Cooper Flagg",
+        "Zaccharie Risacher",
+        "Kyrie Irving",
+        "Tyrese Maxey",
+        "Joel Embiid",
+        "Jaylen Brown",
+        "LeBron James",
+        "RJ Barrett",
+        "Immanuel Quickley"
+      ]
+    },
+    {
+      "id": "2026-11-13-bayern-verliert-valencia",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-13",
+      "tags": [],
+      "titel": "Obst trifft sechs Dreier – Bayern verliert trotzdem in Valencia",
+      "teaser": "Der FC Bayern verlor in der Euroleague bei Valencia Basket mit 87:102. Andreas Obst war mit 22 Punkten bester Münchner.",
+      "text": [
+        "Für den FC Bayern war in Valencia nicht viel zu holen. Die Spanier gewannen schon das erste Viertel mit 29:19 und lagen zur Pause mit 52:41 vorne.",
+        "Im dritten Viertel kamen die Münchner etwas näher heran. Doch im letzten Viertel machte Valencia 29 Punkte und gewann deutlich mit 102:87.",
+        "Bester Bayern-Spieler war der deutsche Nationalspieler Andreas Obst. Er traf 6 von 11 Dreiern und kam auf 22 Punkte. Bei Valencia verteilte TJ Shorts 10 Assists.",
+        "In der Euroleague-Tabelle stehen die Bayern mit 3 Siegen und 8 Niederlagen auf Platz 18. Am Sonntag geht es in der Bundesliga gegen den MBC weiter, am Dienstag in der Euroleague bei Zalgiris Kaunas."
+      ],
+      "fakten": [
+        "Endstand: Valencia – FC Bayern 102:87",
+        "Andreas Obst (FCB): 22 Punkte, 6 Dreier",
+        "Duane Washington (FCB): 13 Punkte",
+        "TJ Shorts (VAL): 14 Punkte, 10 Assists",
+        "Valencia ist Tabellenzweiter (8 Siege, 3 Niederlagen)"
+      ],
+      "quellen": [
+        "Euroleague",
+        "FC Bayern Basketball"
+      ],
+      "teams": [
+        "FCB",
+        "VAL"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-13-europa-valanciunas-fournier",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-13",
+      "tags": [],
+      "titel": "20 Rebounds! Valančiūnas räumt in Mailand ab",
+      "teaser": "Zalgiris Kaunas gewann in Mailand knapp mit 86:83. Olympiakos und Real Madrid siegten hoch, Maccabi gewann das Stadtduell in Tel Aviv.",
+      "text": [
+        "Jonas Valančiūnas war unter dem Korb nicht zu stoppen. Der Center aus Litauen holte für Zalgiris Kaunas 20 Rebounds und machte 17 Punkte. Zalgiris führte vor dem letzten Viertel mit 63:52.",
+        "Dann wurde es noch einmal spannend. Mailand machte im Schlussviertel 31 Punkte, Marko Guduric traf 6 Dreier. Doch Zalgiris rettete den Sieg mit 86:83.",
+        "Olympiakos Piräus gewann gegen Dubai mit 101:72. Evan Fournier traf 5 von 7 Dreiern und machte 28 Punkte. Real Madrid schlug Roter Stern Belgrad mit 105:84.",
+        "Im Stadtduell von Tel Aviv gewann Maccabi gegen Hapoel mit 80:73. Der deutsche Weltmeister Daniel Theis machte 10 Punkte für Maccabi. Am Freitag gibt es noch drei Spiele, unter anderem Panathinaikos gegen Barcelona."
+      ],
+      "fakten": [
+        "Mailand – Zalgiris 83:86",
+        "Jonas Valančiūnas (ZAL): 17 Punkte, 20 Rebounds",
+        "Olympiakos – Dubai 101:72, Evan Fournier: 28 Punkte",
+        "Real Madrid – Roter Stern 105:84",
+        "Maccabi – Hapoel 80:73, Daniel Theis: 10 Punkte",
+        "Tabellenführer: Panathinaikos (8 Siege, 2 Niederlagen)"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "ZAL",
+        "EA7",
+        "OLY",
+        "DUB",
+        "RMA",
+        "CZV",
+        "MTA",
+        "HTA",
+        "PAO",
+        "BAR"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-13-bbl-wochenende-vorschau",
       "liga": "BBL",
       "lang": "de",
