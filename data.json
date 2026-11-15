@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-15T06:21:30+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen zur Sonntag-Morgenausgabe! ALBA hat in Oldenburg deutlich mit 95:77 gewonnen, Martin Hermannsson traf alle vier Dreier. Die deutschen Damen feierten in Dänemark ihren ersten Sieg in der EM-Quali. In der NBA blockte Miami 14 Würfe, und Tyrese Proctor schaffte sein erstes Triple-Double. Heute Nacht um 3 Uhr spielt Oklahoma City in Sacramento, schon um 22:30 Uhr ist Charlotte mit Dennis Schröder bei den Clippers.",
+  "aktualisiert": "2026-11-15T16:16:00+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo zur Sonntag-Nachmittagsausgabe! In der Bundesliga läuft gerade der 9. Spieltag weiter: Um 16:30 Uhr spielt Tabellenführer FC Bayern gegen Weißenfels, um 18 Uhr Chemnitz gegen Braunschweig. In der NBA geht es um 19 Uhr los, um 22:30 Uhr spielt Charlotte mit Dennis Schröder und Hannes Steinbach bei den Clippers, und um 3 Uhr nachts ist Oklahoma City mit Isaiah Hartenstein in Sacramento. Was diese Woche sonst noch ansteht, liest du in unserer Wochenvorschau – mit dem großen Duell ALBA gegen Bayern am nächsten Sonntag!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-15",
   "zahlDesTages": {
-    "zahl": "14",
-    "text": "Würfe blockten die Miami Heat beim 137:117 gegen Detroit. Neun verschiedene Spieler hatten mindestens einen Block – Vereinsrekord!"
+    "zahl": "38,6",
+    "text": "Punkte pro Spiel macht Luka Dončić von den Lakers in dieser Saison. Kein anderer NBA-Spieler mit mindestens fünf Einsätzen hat einen höheren Schnitt. Heute Abend um 22 Uhr spielt er in Phoenix."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -552,6 +552,47 @@
         "WUE",
         "FCB",
         "MBC"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-15-wochenvorschau-alba-bayern",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "Die Woche: Bayern doppelt in Europa, dann ALBA gegen Bayern",
+      "teaser": "Eine volle Basketball-Woche steht an: zwei Euroleague-Spiele für den FC Bayern, Champions League mit Bonn, die DBB-Damen in Portugal und am Sonntag das Top-Spiel ALBA gegen Bayern.",
+      "text": [
+        "Die neue Woche hat für Basketball-Fans viel zu bieten. Hier ist unser Überblick über die wichtigsten Spiele mit deutscher Beteiligung.",
+        "Der FC Bayern hat eine Doppelwoche in der Euroleague. Am Dienstag um 19 Uhr spielen die Münchner bei Žalgiris Kaunas in Litauen. Am Donnerstag um 20 Uhr kommt Baskonia aus Spanien nach München. Zuletzt hatten die Bayern in Valencia verloren.",
+        "In der Champions League sind diese Woche die Gruppen B, C, E und H dran. Aus der Bundesliga spielen deshalb nur die Telekom Baskets Bonn: Am Dienstag um 18:30 Uhr treffen sie in Gruppe H auf Bnei Herzliya aus Israel. ALBA, Bamberg und Vechta haben in der Champions League erst im Dezember wieder Spiele.",
+        "Die deutschen Damen spielen am Dienstag um 20 Uhr in der EM-Qualifikation in Portugal. Nach dem Sieg in Dänemark wollen sie gleich nachlegen.",
+        "Am Wochenende geht es in der Bundesliga mit dem 10. Spieltag weiter. Das Highlight ist am Sonntag um 18 Uhr: ALBA empfängt in Berlin den FC Bayern. Die Münchner gehören zu den besten Teams der Liga, ALBA hat zuletzt in Oldenburg klar gewonnen."
+      ],
+      "fakten": [
+        "Di. 17.11., 18:30 Uhr: Bnei Herzliya – Telekom Baskets Bonn (Champions League, Gruppe H)",
+        "Di. 17.11., 19 Uhr: Žalgiris Kaunas – FC Bayern (Euroleague)",
+        "Di. 17.11., 20 Uhr: Portugal – Deutschland (EM-Quali der Damen)",
+        "Do. 19.11., 20 Uhr: FC Bayern – Baskonia (Euroleague)",
+        "So. 22.11., 18 Uhr: ALBA BERLIN – FC Bayern (Bundesliga)"
+      ],
+      "quellen": [
+        "easyCredit BBL",
+        "Basketball Champions League",
+        "Euroleague",
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "FCB",
+        "ALBA",
+        "BON",
+        "ZAL",
+        "BAS",
+        "GER",
+        "PRT",
+        "HRZ"
       ],
       "spieler": []
     },
@@ -1364,210 +1405,6 @@
           "Tremont Waters (ASV): 26 Punkte",
           "Scottie Wilbekin (BES): 16 Punkte, 4 Dreier",
           "David DeJulius (BES): 15 Punkte, 6 Assists"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-12",
-      "runde": "NBA · 2. Verlängerung",
-      "heim": "WAS",
-      "gast": "DET",
-      "heimPkt": 140,
-      "gastPkt": 144,
-      "newsId": "2026-11-13-cade-52-pistons-wizards",
-      "bericht": {
-        "text": [
-          "Washington rettete sich zweimal mit einem Wurf in letzter Sekunde in die Verlängerung: erst mit einem Dreier von Trae Young, dann mit einem Wurf von Rookie AJ Dybantsa.",
-          "In der zweiten Verlängerung traf Cade Cunningham sofort einen Dreier. Am Ende gewann Detroit mit 144:140."
-        ],
-        "highlights": [
-          "Cade Cunningham: 52 Punkte (Karriere-Rekord), 11 Assists, 0 Ballverluste",
-          "Ausar Thompson: erstes Triple-Double (17 Punkte, 11 Rebounds, 11 Assists)",
-          "Trae Young (WAS): 37 Punkte, 14 Assists",
-          "Alex Sarr und Anthony Davis (WAS): je 30 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-12",
-      "runde": "NBA",
-      "heim": "PHX",
-      "gast": "CHA",
-      "heimPkt": 101,
-      "gastPkt": 96,
-      "newsId": "2026-11-13-hornets-verlieren-phoenix",
-      "bericht": {
-        "text": [
-          "Phoenix führte zur Pause mit 55:50. Kurz vor Schluss traf Devin Booker einen Dreier zum 97:91.",
-          "Charlotte kam noch auf zwei Punkte heran, doch die Suns trafen ihre Freiwürfe. Dennis Schröder fehlte bei den Hornets."
-        ],
-        "highlights": [
-          "Devin Booker (PHX): 30 Punkte, 7 Assists",
-          "Coby White (CHA): 21 Punkte",
-          "Miles Bridges gewinnt gegen sein altes Team"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-12",
-      "runde": "NBA",
-      "heim": "PHI",
-      "gast": "TOR",
-      "heimPkt": 123,
-      "gastPkt": 112,
-      "newsId": "2026-11-13-nba-thursday-wolves-sixers",
-      "bericht": {
-        "text": [
-          "Toronto führte in der ersten Hälfte mit bis zu 16 Punkten. Dann drehte Philadelphia das Spiel – ohne LeBron James.",
-          "Im letzten Viertel machten die 76ers alles klar."
-        ],
-        "highlights": [
-          "Tyrese Maxey: 27 Punkte, 8 Assists",
-          "Joel Embiid: 20 Punkte",
-          "RJ Barrett (TOR): 31 Punkte, 14 Rebounds"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-12",
-      "runde": "NBA",
-      "heim": "MIN",
-      "gast": "DAL",
-      "heimPkt": 133,
-      "gastPkt": 94,
-      "newsId": "2026-11-13-nba-thursday-wolves-sixers",
-      "bericht": {
-        "text": [
-          "Minnesota traf in der ersten Hälfte 61 Prozent seiner Würfe. Das dritte Viertel gewannen die Wolves mit 36:17.",
-          "Mit 39 Punkten Unterschied war es ihr höchster Sieg der Saison – und der fünfte Sieg in Folge."
-        ],
-        "highlights": [
-          "Bones Hyland: 24 Punkte von der Bank",
-          "LaMelo Ball: 22 Punkte, 6 Dreier, 9 Assists",
-          "Zaccharie Risacher (DAL): 22 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-12",
-      "runde": "Euroleague · 11. Runde",
-      "heim": "VAL",
-      "gast": "FCB",
-      "heimPkt": 102,
-      "gastPkt": 87,
-      "newsId": "2026-11-13-bayern-verliert-valencia",
-      "bericht": {
-        "text": [
-          "Valencia startete stark und gewann das erste Viertel mit 29:19. Bayern kam im dritten Viertel etwas heran, doch Valencia blieb vorne.",
-          "Andreas Obst traf 6 Dreier und war mit 22 Punkten bester Bayern-Spieler."
-        ],
-        "highlights": [
-          "Andreas Obst (FCB): 22 Punkte, 6 Dreier",
-          "TJ Shorts (VAL): 14 Punkte, 10 Assists",
-          "Bayern hat jetzt 3 Siege und 8 Niederlagen"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-12",
-      "runde": "Euroleague · 11. Runde",
-      "heim": "EA7",
-      "gast": "ZAL",
-      "heimPkt": 83,
-      "gastPkt": 86,
-      "newsId": "2026-11-13-europa-valanciunas-fournier",
-      "bericht": {
-        "text": [
-          "Zalgiris führte vor dem letzten Viertel mit 63:52. Mailand holte im Schlussviertel 31 Punkte und kam noch heran, verlor aber knapp."
-        ],
-        "highlights": [
-          "Jonas Valančiūnas (ZAL): 17 Punkte, 20 Rebounds",
-          "Marko Guduric (EA7): 20 Punkte, 6 Dreier"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-12",
-      "runde": "Euroleague · 11. Runde",
-      "heim": "OLY",
-      "gast": "DUB",
-      "heimPkt": 101,
-      "gastPkt": 72,
-      "newsId": "2026-11-13-europa-valanciunas-fournier",
-      "bericht": {
-        "text": [
-          "Olympiakos lag nach drei Vierteln schon mit 88:56 vorne. Evan Fournier traf 5 von 7 Dreiern."
-        ],
-        "highlights": [
-          "Evan Fournier: 28 Punkte",
-          "Sasha Vezenkov: 20 Punkte",
-          "Dwayne Bacon (DUB): 20 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-12",
-      "runde": "Euroleague · 11. Runde",
-      "heim": "RMA",
-      "gast": "CZV",
-      "heimPkt": 105,
-      "gastPkt": 84,
-      "bericht": {
-        "text": [
-          "Real Madrid gewann schon das erste Viertel mit 38:20 und gab die Führung nie mehr ab."
-        ],
-        "highlights": [
-          "Timothé Luwawu-Cabarrot: 22 Punkte",
-          "Gabriele Procida: 19 Punkte",
-          "Tyson Carter (CZV): 18 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-12",
-      "runde": "Euroleague · 11. Runde",
-      "heim": "MTA",
-      "gast": "HTA",
-      "heimPkt": 80,
-      "gastPkt": 73,
-      "bericht": {
-        "text": [
-          "Im Stadtduell von Tel Aviv gewann Maccabi gegen Hapoel. Der deutsche Center Daniel Theis machte 10 Punkte für Maccabi."
-        ],
-        "highlights": [
-          "Jimmy Clark III und Bonzie Colson (MTA): je 14 Punkte",
-          "Daniel Theis (MTA): 10 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "DBB",
-      "datum": "2026-11-11",
-      "runde": "EM-Quali · Damen",
-      "heim": "GER",
-      "gast": "HUN",
-      "heimPkt": 64,
-      "gastPkt": 70,
-      "info": "Damen · in Hamburg",
-      "newsId": "2026-11-12-dbb-damen-niederlage-ungarn",
-      "bericht": {
-        "text": [
-          "Ungarn führte zur Pause mit 41:33. Deutschland kam bis auf 60:65 heran, schaffte die Wende aber nicht.",
-          "Für Leonie Fiebich war es das 50. Länderspiel."
-        ],
-        "highlights": [
-          "Leonie Fiebich: 19 Punkte",
-          "Frieda Bühner: 17 Punkte",
-          "Debüts für Frederike Askamp und Marianna Byvatov"
         ]
       }
     }
@@ -2979,10 +2816,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 11,
-        "pkt": 10.9,
-        "reb": 3.2,
-        "ast": 1.3
+        "spiele": 12,
+        "pkt": 10.8,
+        "reb": 3.4,
+        "ast": 1.5
       },
       "notiz": "Der ältere der Wagner-Brüder spielt für Brooklyn. In Memphis traf er 3 von 4 Würfen und machte in 18 Minuten 10 Punkte."
     },
@@ -3099,10 +2936,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 10,
-        "pkt": 23.5,
-        "reb": 10.8,
-        "ast": 9.0
+        "spiele": 11,
+        "pkt": 23.7,
+        "reb": 10.5,
+        "ast": 9.1
       },
       "notiz": "Gegen Toronto schaffte er mit 32 Punkten, 10 Rebounds und 11 Assists sein drittes Triple-Double der Saison."
     },
@@ -4214,6 +4051,16 @@
     },
     {
       "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-13",
+      "titel": "Franz Wagner",
+      "team": "ORL",
+      "wert": "35 Punkte, 12 Assists",
+      "grund": "Beim 107:99 gegen Milwaukee fehlte ihm nur ein Rebound zum Triple-Double. Er holte 9 Rebounds und war der beste Werfer des Spiels.",
+      "newsId": "2026-11-14-franz-wagner-35-magic-bucks"
+    },
+    {
+      "art": "spieler",
       "liga": "BBL",
       "datum": "2026-11-14",
       "titel": "Martin Hermannsson",
@@ -4233,24 +4080,14 @@
       "newsId": "2026-11-15-dbb-damen-sieg-daenemark"
     },
     {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-14",
-      "titel": "Giannis Antetokounmpo",
-      "team": "MIA",
-      "wert": "71 Punkte in 2 Tagen",
-      "grund": "Am Freitag machte er 37 Punkte gegen Cleveland, am Samstag 34 gegen Detroit. Gegen die Pistons traf er 13 von 17 Würfen.",
-      "newsId": "2026-11-15-giannis-heat-14-blocks"
-    },
-    {
       "art": "spiel",
-      "liga": "BBL",
-      "datum": "2026-11-14",
-      "heim": "HAM",
-      "gast": "WUE",
-      "wert": "Fast verspielt",
-      "grund": "Hamburg führte nach drei Vierteln mit 25 Punkten. Würzburg gewann das letzte Viertel 28:10 – am Ende fehlten nur sieben Punkte.",
-      "newsId": "2026-11-15-bbl-samstag-bonn-ulm-hamburg"
+      "liga": "NBA",
+      "datum": "2026-11-13",
+      "heim": "SAS",
+      "gast": "GSW",
+      "wert": "11 Siege in Folge",
+      "grund": "Die Spurs gewannen mit 38 Punkten Vorsprung gegen Golden State. Es war ihr elfter Sieg hintereinander – damit stehen sie auf Platz 1 im Westen.",
+      "newsId": "2026-11-14-spurs-elf-siege-warriors"
     }
   ],
   "legacyGestellt": [
