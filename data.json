@@ -1,7 +1,7 @@
 {
-  "aktualisiert": "2026-11-16T06:22:00+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen und einen guten Start in die Woche! Oklahoma City hat endlich wieder gewonnen: Shai Gilgeous-Alexander machte in Sacramento 37 Punkte – in nur drei Vierteln. Boston führte gegen Dallas nach dem ersten Viertel mit 42:9, die Spurs gewannen zum zwölften Mal in Folge. In der Bundesliga schlug der FC Bayern Weißenfels deutlich, Chemnitz traf 17 Dreier. Heute gibt es außerdem einen neuen Spieler der Woche, eine neue Trainingsübung und ein neues Quiz. Und am Dienstag spielen die DBB-Damen in Portugal!",
+  "aktualisiert": "2026-11-16T16:35:00+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo am Montagnachmittag! Heute Nacht geht es in der NBA weiter: Franz Wagner und Tristan da Silva spielen mit Orlando um 1 Uhr in Boston, Moritz Wagner trifft mit Brooklyn auf Philadelphia, und Stephen Curry ist mit Golden State in New Orleans zu Gast. Am Dienstag startet dann die Europa-Woche: Der FC Bayern spielt in der Euroleague in Kaunas, Bonn in der Champions League – und die DBB-Damen treten in Portugal an. Quiz, Spieler der Woche und neue Trainingsübung von heute Morgen warten noch auf dich!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
@@ -577,6 +577,46 @@
         "VEC"
       ],
       "spieler": []
+    },
+    {
+      "id": "2026-11-16-vorschau-nba-nacht-wagner",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "Heute Nacht: Orlando mit Wagner und da Silva in Boston",
+      "teaser": "Acht NBA-Spiele stehen in der Nacht auf Dienstag an. Das spannendste Duell: Orlando muss beim Ost-Spitzenreiter Boston antreten.",
+      "text": [
+        "In der Nacht auf Dienstag finden acht NBA-Spiele statt. Für deutsche Fans ist das Spiel um 1 Uhr besonders interessant: Franz Wagner und Tristan da Silva sind mit Orlando zu Gast bei den Boston Celtics.",
+        "Boston ist gerade richtig stark. Die Celtics haben sechs Spiele in Folge gewonnen und stehen bei 11 Siegen und nur 2 Niederlagen. Orlando hat 5 Siege und 7 Niederlagen, kommt aber mit drei Siegen in Folge nach Boston.",
+        "Um 1:30 Uhr spielt Moritz Wagner mit Brooklyn gegen Philadelphia. Die 76ers haben 11 Spiele gewonnen und nur 3 verloren. Um 2 Uhr ist Stephen Curry mit Golden State in New Orleans gefordert. Die Pelicans haben sechsmal hintereinander verloren."
+      ],
+      "fakten": [
+        "1:00 Uhr: Boston Celtics – Orlando Magic",
+        "1:30 Uhr: Brooklyn Nets – Philadelphia 76ers",
+        "2:00 Uhr: New Orleans Pelicans – Golden State Warriors",
+        "Boston: 11 Siege, 2 Niederlagen (6 Siege in Folge)",
+        "Orlando: 5 Siege, 7 Niederlagen (3 Siege in Folge)",
+        "Alle Zeiten deutsche Zeit"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "ORL",
+        "BOS",
+        "BKN",
+        "PHI",
+        "GSW",
+        "NOP"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Moritz Wagner",
+        "Stephen Curry"
+      ]
     },
     {
       "id": "2026-11-15-alba-siegt-oldenburg",
