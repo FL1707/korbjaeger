@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-17T06:20:00+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen am Dienstag! In der Nacht hat Orlando in Boston gewonnen – Franz Wagner und Tristan da Silva feierten den vierten Sieg in Folge. Joel Embiid machte 37 Punkte gegen Moritz Wagner und Brooklyn, und Golden State verlor ohne Stephen Curry in New Orleans. Heute ist Europa-Tag: Der FC Bayern spielt um 19 Uhr in Kaunas, Bonn um 18:30 Uhr gegen Bnei Herzliya, und die DBB-Damen treten um 20 Uhr in Portugal an. Neues Quiz, neues „Who is it?“ und eine neue Schiri-Situation warten auf dich!",
+  "aktualisiert": "2026-11-17T16:17:35+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo am Dienstagnachmittag! Heute Abend ist richtig viel los: Der FC Bayern spielt um 19 Uhr in der Euroleague in Kaunas, Bonn tritt um 18:30 Uhr in der Champions League bei Bnei Herzliya an, und die DBB-Damen spielen um 20 Uhr in Portugal um den nächsten Sieg in der EM-Quali. In der Nacht wollen die Lakers gegen Dennis Schröder, Hannes Steinbach und Charlotte ihren neunten Sieg in Folge. Die NBA- und BBL-Statistik ist frisch aktualisiert!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-17",
   "zahlDesTages": {
-    "zahl": "21",
-    "text": "Dreier fehlen Klay Thompson noch, dann überholt er Ray Allen. Dann wäre er die Nummer 3 der NBA-Geschichte – hinter Stephen Curry und James Harden."
+    "zahl": "8",
+    "text": "Siege in Folge haben die Los Angeles Lakers. In der Nacht zum Mittwoch können sie gegen Charlotte mit Dennis Schröder und Hannes Steinbach den neunten holen."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -2962,8 +2962,8 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 12,
-        "pkt": 24.4,
+        "spiele": 13,
+        "pkt": 24.2,
         "reb": 6.8,
         "ast": 8.3
       },
@@ -2976,9 +2976,9 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 12,
-        "pkt": 10.8,
-        "reb": 3.4,
+        "spiele": 13,
+        "pkt": 10.3,
+        "reb": 3.5,
         "ast": 1.5
       },
       "notiz": "Der ältere der Wagner-Brüder spielt für Brooklyn. Gegen Philadelphia holte er in zehn Minuten 5 Rebounds."
@@ -3018,10 +3018,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 10,
-        "pkt": 14.8,
-        "reb": 3.9,
-        "ast": 1.7
+        "spiele": 11,
+        "pkt": 14.6,
+        "reb": 4.1,
+        "ast": 1.8
       },
       "notiz": "Beim Sieg in Boston traf er 3 von 5 Dreiern und machte 13 Punkte."
     },
@@ -3096,10 +3096,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 11,
-        "pkt": 23.7,
-        "reb": 10.5,
-        "ast": 9.1
+        "spiele": 12,
+        "pkt": 24.1,
+        "reb": 10.9,
+        "ast": 8.9
       },
       "notiz": "Gegen Phoenix machte er 28 Punkte, 15 Rebounds und 7 Assists – Denver verlor trotzdem."
     },
@@ -3122,9 +3122,9 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 12,
-        "pkt": 20.6,
-        "reb": 3.1,
+        "spiele": 13,
+        "pkt": 19.7,
+        "reb": 3.0,
         "ast": 4.3
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
@@ -4208,50 +4208,59 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-16",
-      "titel": "Terrence Shannon Jr.",
-      "team": "MIN",
-      "wert": "34 Punkte",
-      "grund": "So viele Punkte hatte er in der NBA noch nie gemacht. Dazu traf er 15 von 16 Freiwürfen.",
-      "newsId": "2026-11-17-shannon-career-high-34"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-16",
-      "titel": "Jeremiah Fears",
-      "team": "NOP",
-      "wert": "Triple-Double",
-      "grund": "19 Punkte, 10 Assists und 10 Rebounds – sein erstes Triple-Double in der NBA. Damit beendeten die Pelicans eine Serie von sechs Niederlagen.",
-      "newsId": "2026-11-17-warriors-ohne-curry-pelicans"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-16",
-      "titel": "Cameron Boozer",
-      "team": "MEM",
-      "wert": "7 Dreier",
-      "grund": "Der Rookie traf 7 von 13 Dreiern und machte 29 Punkte – sein Bestwert. Im Duell gegen die Nummer 1 des Drafts, AJ Dybantsa, hatte er die Nase vorn.",
+      "titel": "Donovan Mitchell",
+      "team": "CLE",
+      "wert": "39 Punkte",
+      "grund": "Er traf 16 von 25 Würfen und führte Cleveland nach einem schwachen ersten Viertel noch zum Sieg gegen Chicago.",
       "newsId": "2026-11-17-nba-montag-boozer-mitchell"
     },
     {
       "art": "spiel",
       "liga": "NBA",
-      "datum": "2026-11-16",
+      "datum": "2026-11-15",
       "heim": "BOS",
-      "gast": "ORL",
-      "wert": "40 Punkte im 4. Viertel",
-      "grund": "Orlando lag vor dem Schlussviertel hinten und gewann dann doch – der erste Sieg in Boston seit fast vier Jahren. Für Boston war es die erste Heimniederlage der Saison.",
-      "newsId": "2026-11-17-magic-siegen-in-boston"
+      "gast": "DAL",
+      "wert": "42:9 nach Viertel 1",
+      "grund": "Boston lag nach dem ersten Viertel schon mit 33 Punkten vorne. So ein Start ist in der NBA extrem selten – am Ende stand es 131:94.",
+      "newsId": "2026-11-16-celtics-42-9-first-quarter"
     },
     {
       "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-15",
+      "titel": "Mo Bamba",
+      "team": "UTA",
+      "wert": "6 von 6 Dreiern",
+      "grund": "Ein großer Center, der jeden Dreier trifft: Bamba warf sechsmal von außen und traf sechsmal. Er kam auf 26 Punkte, Utah verlor aber gegen San Antonio."
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-16",
+      "titel": "Joel Embiid",
+      "team": "PHI",
+      "wert": "37 Punkte",
+      "grund": "So viele Punkte hatte er in dieser Saison noch in keinem Spiel. Damit gewann Philadelphia in Brooklyn gegen Moritz Wagner.",
+      "newsId": "2026-11-17-embiid-37-sixers-nets"
+    },
+    {
+      "art": "spiel",
       "liga": "BBL",
       "datum": "2026-11-15",
-      "titel": "Phlandrous Fleming",
-      "team": "CHE",
-      "wert": "14 Assists",
-      "grund": "So viele Vorlagen hat in dieser Bundesliga-Saison noch kein Spieler in einem Spiel gegeben. Der alte Bestwert lag bei 11.",
+      "heim": "FCB",
+      "gast": "MBC",
+      "wert": "30 Punkte Vorsprung",
+      "grund": "Der FC Bayern gewann 91:61 gegen Weißenfels. Die Gäste leisteten sich 23 Ballverluste – so konnten die Münchner immer wieder schnell kontern.",
+      "newsId": "2026-11-16-bayern-91-61-weissenfels"
+    },
+    {
+      "art": "spiel",
+      "liga": "BBL",
+      "datum": "2026-11-15",
+      "heim": "CHE",
+      "gast": "BRA",
+      "wert": "111 Punkte",
+      "grund": "Chemnitz knackte gegen Braunschweig die 110-Punkte-Marke und gewann mit 32 Punkten Unterschied. Phlandrous Fleming verteilte dabei 14 Assists.",
       "newsId": "2026-11-16-bbl-sonntag-chemnitz-trier"
     }
   ],
