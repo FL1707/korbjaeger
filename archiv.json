@@ -2,6 +2,294 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-16-vorschau-nba-nacht-wagner",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "Heute Nacht: Orlando mit Wagner und da Silva in Boston",
+      "teaser": "Acht NBA-Spiele stehen in der Nacht auf Dienstag an. Das spannendste Duell: Orlando muss beim Ost-Spitzenreiter Boston antreten.",
+      "text": [
+        "In der Nacht auf Dienstag finden acht NBA-Spiele statt. Für deutsche Fans ist das Spiel um 1 Uhr besonders interessant: Franz Wagner und Tristan da Silva sind mit Orlando zu Gast bei den Boston Celtics.",
+        "Boston ist gerade richtig stark. Die Celtics haben sechs Spiele in Folge gewonnen und stehen bei 11 Siegen und nur 2 Niederlagen. Orlando hat 5 Siege und 7 Niederlagen, kommt aber mit drei Siegen in Folge nach Boston.",
+        "Um 1:30 Uhr spielt Moritz Wagner mit Brooklyn gegen Philadelphia. Die 76ers haben 11 Spiele gewonnen und nur 3 verloren. Um 2 Uhr ist Stephen Curry mit Golden State in New Orleans gefordert. Die Pelicans haben sechsmal hintereinander verloren."
+      ],
+      "fakten": [
+        "1:00 Uhr: Boston Celtics – Orlando Magic",
+        "1:30 Uhr: Brooklyn Nets – Philadelphia 76ers",
+        "2:00 Uhr: New Orleans Pelicans – Golden State Warriors",
+        "Boston: 11 Siege, 2 Niederlagen (6 Siege in Folge)",
+        "Orlando: 5 Siege, 7 Niederlagen (3 Siege in Folge)",
+        "Alle Zeiten deutsche Zeit"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "ORL",
+        "BOS",
+        "BKN",
+        "PHI",
+        "GSW",
+        "NOP"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Moritz Wagner",
+        "Stephen Curry"
+      ]
+    },
+    {
+      "id": "2026-11-15-alba-siegt-oldenburg",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "4 von 4 Dreiern: ALBA gewinnt deutlich in Oldenburg",
+      "teaser": "ALBA siegte bei den EWE Baskets Oldenburg mit 95:77. Martin Hermannsson traf jeden seiner vier Dreier. Nächsten Sonntag kommt der FC Bayern nach Berlin.",
+      "text": [
+        "Starker Auftritt in Oldenburg! ALBA gewann am Samstagabend in der Bundesliga mit 95:77. Für die Berliner war es der fünfte Sieg im neunten Spiel.",
+        "Das erste Viertel war noch ausgeglichen. Danach spielte ALBA wie im Rausch. Zur Pause stand es schon 51:29 für die Berliner. Auch im dritten Viertel ging es so weiter. Zwischendurch führte ALBA sogar mit 39 Punkten.",
+        "Im letzten Viertel wurde ALBA etwas unkonzentriert. Oldenburg gewann den Abschnitt mit 31:13. Der Sieg war aber nie mehr in Gefahr. Trainer Pedro Calles sagte danach, sein Team müsse lernen, volle 40 Minuten gut zu spielen.",
+        "Bester Werfer war Jordan Ford mit 17 Punkten. Brandon Angel und Joe Wieskamp machten je 15. Martin Hermannsson kam auf 14 Punkte und 7 Assists – und traf alle vier Dreier, die er warf. ALBA fehlten Norris Agbakoko und Jack Kayil. Am nächsten Sonntag um 18 Uhr empfängt ALBA zu Hause den Tabellenführer FC Bayern."
+      ],
+      "fakten": [
+        "Endstand: EWE Baskets Oldenburg – ALBA BERLIN 77:95",
+        "Halbzeit: 29:51",
+        "Jordan Ford: 17 Punkte",
+        "Brandon Angel: 15 Punkte, 6 Rebounds",
+        "Joe Wieskamp: 15 Punkte, 6 Rebounds, 4 Assists",
+        "Martin Hermannsson: 14 Punkte, 4 von 4 Dreiern, 7 Assists",
+        "Nächstes Spiel: ALBA – FC Bayern, Sonntag 22.11., 18 Uhr"
+      ],
+      "quellen": [
+        "ALBA BERLIN",
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "ALBA",
+        "OLD",
+        "FCB"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-15-dbb-damen-sieg-daenemark",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "Erster Sieg! DBB-Damen gewinnen in Dänemark",
+      "teaser": "Die deutschen Basketballerinnen gewannen in der EM-Qualifikation mit 88:71 in Dänemark – sogar ohne ihre Anführerin Leonie Fiebich.",
+      "text": [
+        "Geschafft! Die deutschen Damen haben ihr erstes Spiel in der Qualifikation für die Europameisterschaft 2027 gewonnen. In Gentofte bei Kopenhagen siegten sie gegen Dänemark mit 88:71.",
+        "Leonie Fiebich konnte kurzfristig nicht mitspielen. Sie wurde zur Vorsicht geschont. Für sie spielte Alexandra Wilke von Anfang an – und machte ihre Sache stark.",
+        "Das erste Viertel endete 17:17. Danach verteidigte Deutschland besser und führte zur Pause mit 39:28. Im dritten Viertel kam Dänemark mit mehreren Dreiern noch einmal auf 62:57 heran. Doch Luisa Geiselsöder, Wilke und Laura Zolper sorgten im letzten Viertel für den sicheren Sieg.",
+        "Bundestrainer Olaf Lange war erleichtert. Schon am Dienstag um 20 Uhr geht es weiter: Dann spielen die Damen in Portugal."
+      ],
+      "fakten": [
+        "Endstand: Dänemark – Deutschland 71:88",
+        "Viertel: 17:17, 11:22, 27:23, 16:26 (aus Sicht Dänemarks)",
+        "Erster Sieg in der EM-Quali nach dem 64:70 gegen Ungarn",
+        "Leonie Fiebich wurde zur Vorsicht nicht eingesetzt",
+        "Nächstes Spiel: Portugal – Deutschland, Dienstag 17.11., 20 Uhr"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "DNK",
+        "PRT"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-15-giannis-heat-14-blocks",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "14 Blocks! Miami lässt Detroit kaum werfen",
+      "teaser": "Giannis Antetokounmpo machte 34 Punkte beim 137:117 gegen Detroit. Neun verschiedene Heat-Spieler blockten mindestens einen Wurf – so viele wie noch nie bei Miami.",
+      "text": [
+        "Die Miami Heat sind gerade richtig gut drauf. Gegen die Detroit Pistons gewannen sie mit 137:117. Es war der vierte Sieg in Folge.",
+        "Giannis Antetokounmpo war wieder der Chef. Er machte 34 Punkte, holte 14 Rebounds und gab 8 Assists. Von 17 Würfen traf er 13. Schon am Abend davor hatte er 37 Punkte gemacht – also 71 Punkte an zwei Tagen.",
+        "Besonders war die Verteidigung: Miami blockte 14 Würfe. Neun verschiedene Spieler hatten mindestens einen Block. Das gab es bei den Heat noch nie, der alte Rekord waren acht Spieler. Den NBA-Rekord von zehn Spielern hält Golden State.",
+        "Klay Thompson kam nach einer Pause zurück und traf 6 Dreier. Bei Detroit machte Cade Cunningham 33 Punkte. Miami hatte die ersten vier Saisonspiele verloren – jetzt haben die Heat mehr Siege als Niederlagen."
+      ],
+      "fakten": [
+        "Endstand: Miami – Detroit 137:117",
+        "Giannis Antetokounmpo: 34 Punkte, 14 Rebounds, 8 Assists, 3 Blocks",
+        "Klay Thompson: 26 Punkte, 6 Dreier",
+        "Bam Adebayo: 20 Punkte",
+        "Cade Cunningham (DET): 33 Punkte, 8 Assists",
+        "14 Blocks, 9 verschiedene Heat-Spieler mit Block (Vereinsrekord)"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "MIA",
+        "DET"
+      ],
+      "spieler": [
+        "Giannis Antetokounmpo",
+        "Klay Thompson",
+        "Bam Adebayo",
+        "Davion Mitchell",
+        "Cade Cunningham",
+        "Kevin Huerter"
+      ]
+    },
+    {
+      "id": "2026-11-15-proctor-first-triple-double",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "Tyrese Proctor gets his first triple-double",
+      "teaser": "Cleveland played without all five starters. But Tyrese Proctor had 24 points, 11 rebounds and 10 assists, and the Cavs beat Dallas 127-117.",
+      "text": [
+        "The Cleveland Cavaliers had a big problem. All five starters could not play. But the team still beat the Dallas Mavericks 127 to 117.",
+        "The hero was Tyrese Proctor. He is from Australia. He scored 24 points, grabbed 11 rebounds and had 10 assists. That is a triple-double – his first one in the NBA!",
+        "Proctor played in college with Cooper Flagg. Now Flagg plays for Dallas. After the game, the two friends hugged. Kyrie Irving scored 34 points for Dallas. He scored 20 of them in the third quarter."
+      ],
+      "fakten": [
+        "Cleveland 127, Dallas 117",
+        "Tyrese Proctor: 24 points, 11 rebounds, 10 assists",
+        "Mario Hezonja: 22 points",
+        "Meleek Thomas: 20 points",
+        "Kyrie Irving (DAL): 34 points, 7 threes",
+        "Cooper Flagg (DAL): 18 points, 8 rebounds"
+      ],
+      "vokabeln": [
+        {
+          "en": "starter",
+          "de": "Spieler der Startaufstellung"
+        },
+        {
+          "en": "hero",
+          "de": "Held"
+        },
+        {
+          "en": "to hug",
+          "de": "umarmen"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        }
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "CLE",
+        "DAL"
+      ],
+      "spieler": [
+        "Tyrese Proctor",
+        "Mario Hezonja",
+        "Meleek Thomas",
+        "Norchad Omier",
+        "Kyrie Irving",
+        "Cooper Flagg"
+      ]
+    },
+    {
+      "id": "2026-11-15-nba-samstag-wagner-jokic-bulls",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "Moritz Wagner trifft alles – die Bulls stoppen Minnesota",
+      "teaser": "Moritz Wagner traf alle Dreier, doch Brooklyn verlor in Memphis. Chicago beendete die Siegesserie der Timberwolves, und Nikola Jokić führte Denver zum Sieg.",
+      "text": [
+        "Moritz Wagner spielte für Brooklyn in Memphis nur 18 Minuten. In dieser Zeit machte er 10 Punkte, 6 Rebounds und 4 Assists. Er traf 3 von 4 Würfen, beide Dreier und beide Freiwürfe. Trotzdem verloren die Nets mit 110:129. Memphis traf am Anfang 9 der ersten 11 Dreier. Taylor Hendricks machte 22 Punkte – so viele wie noch nie in seiner Karriere.",
+        "Die Chicago Bulls gewannen in Minnesota mit 117:106. Wegen Flugproblemen in den USA kamen sie erst am Spieltag an. Die Timberwolves verfehlten ihre ersten 13 Dreier. Damit endete Minnesotas Serie von fünf Siegen. Norman Powell war mit 24 Punkten bester Bulls-Werfer.",
+        "Die Denver Nuggets gewannen in New Orleans mit 116:108. Nikola Jokić verpasste mit 26 Punkten, 8 Rebounds und 10 Assists nur knapp ein Triple-Double. Jamal Murray machte 23 Punkte und 9 Assists. Für die Pelicans war es die sechste Niederlage in Folge."
+      ],
+      "fakten": [
+        "Memphis – Brooklyn 129:110",
+        "Moritz Wagner (BKN): 10 Punkte, 6 Rebounds, 4 Assists in 18 Minuten",
+        "Taylor Hendricks (MEM): 22 Punkte (Karrierebestwert), Cedric Coward 23 Punkte, 12 Rebounds",
+        "Minnesota – Chicago 106:117, Wolves trafen nur 9 von 38 Dreiern",
+        "New Orleans – Denver 108:116, Jokić 26 Punkte, 10 Assists"
+      ],
+      "quellen": [
+        "AP",
+        "ESPN"
+      ],
+      "teams": [
+        "BKN",
+        "MEM",
+        "CHI",
+        "MIN",
+        "DEN",
+        "NOP"
+      ],
+      "spieler": [
+        "Moritz Wagner",
+        "Taylor Hendricks",
+        "Cedric Coward",
+        "Julius Randle",
+        "Norman Powell",
+        "Matas Buzelis",
+        "Ayo Dosunmu",
+        "LaMelo Ball",
+        "Nikola Jokić",
+        "Jamal Murray",
+        "Zion Williamson"
+      ]
+    },
+    {
+      "id": "2026-11-15-bbl-samstag-bonn-ulm-hamburg",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "Bonn siegt in Bamberg, Ulm startet mit 33:11",
+      "teaser": "Am 9. Spieltag gewann Bonn in Bamberg, Ulm überrollte Jena im ersten Viertel und Hamburg zitterte sich gegen Würzburg zum Sieg. Heute spielt der FC Bayern.",
+      "text": [
+        "Die Telekom Baskets Bonn gewannen in Bamberg mit 85:71. Nach dem ersten Viertel lag Bamberg noch vorne. Danach holte Bonn auf und zog im letzten Viertel davon. Bonn ist jetzt Tabellenvierter.",
+        "Ulm legte gegen Jena einen Blitzstart hin: Das erste Viertel gewann Ulm mit 33:11. Am Ende stand ein 97:78. Jaylen Sims war mit 21 Punkten der beste Werfer. Jena steht nach sieben Niederlagen am Tabellenende.",
+        "Spannend wurde es in Hamburg. Die Towers führten nach drei Vierteln mit 81:56 gegen Würzburg. Dann holte Würzburg Punkt um Punkt auf und gewann das letzte Viertel mit 28:10. Für einen Sieg reichte es aber nicht mehr – Hamburg gewann 91:84.",
+        "Heute geht der 9. Spieltag weiter. Tabellenführer FC Bayern empfängt um 16:30 Uhr den Mitteldeutschen BC."
+      ],
+      "fakten": [
+        "Bamberg – Bonn 71:85",
+        "Ulm – Jena 97:78 (erstes Viertel 33:11), Jaylen Sims 21 Punkte",
+        "Hamburg – Würzburg 91:84 (nach drei Vierteln 81:56)",
+        "Freitag: Hagen – Ludwigsburg 79:93",
+        "Sonntag: Frankfurt – Trier, Rostock – Vechta, FC Bayern – MBC, Chemnitz – Braunschweig"
+      ],
+      "quellen": [
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "BON",
+        "BAM",
+        "ULM",
+        "JEN",
+        "HAM",
+        "WUE",
+        "FCB",
+        "MBC"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-14-bbl-ludwigsburg-hagen-alba",
       "liga": "BBL",
       "lang": "de",
