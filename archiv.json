@@ -2,6 +2,316 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-17-heat-fuenf-siege-klay",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-17",
+      "tags": [],
+      "titel": "Fünf Siege in Folge: Miami stoppt Houston – Klay jagt Ray Allen",
+      "teaser": "Die Heat schlugen die Rockets mit 128:110 und lagen nie hinten. Klay Thompson traf fünf Dreier und ist jetzt nah an Platz 3 der ewigen Dreier-Liste.",
+      "text": [
+        "Miami ist in Form: Gegen Houston gewannen die Heat mit 128:110 – ihr fünfter Sieg hintereinander. Nach vier Niederlagen zum Saisonstart haben sie jetzt 8 der letzten 10 Spiele gewonnen.",
+        "Houston kam schlecht ins Spiel. In den ersten sechs Minuten machten die Rockets nur zwei Punkte. Miami führte vom Anfang bis zum Ende.",
+        "Giannis Antetokounmpo kam auf 20 Punkte und 13 Rebounds. Klay Thompson traf 5 von 8 Dreiern. Damit hat er in seiner Karriere 2.952 Dreier getroffen. Nur noch 21 fehlen ihm, dann überholt er Ray Allen und ist die Nummer 3 der NBA-Geschichte. Vor ihm lägen dann nur noch Stephen Curry und James Harden.",
+        "Bei Houston machte Alperen Sengun 23 Punkte, Kevin Durant 22. Durant fehlen jetzt noch 83 Punkte bis zu 33.000 Karrierepunkten. Das haben bisher nur vier Spieler geschafft."
+      ],
+      "fakten": [
+        "Endstand: Miami Heat – Houston Rockets 128:110",
+        "Giannis Antetokounmpo: 20 Punkte, 13 Rebounds",
+        "Klay Thompson: 17 Punkte, 5 Dreier – jetzt 2.952 in der Karriere",
+        "Ray Allen (Platz 3): 2.973 Dreier",
+        "Alperen Sengun (HOU): 23 Punkte",
+        "Kevin Durant: 32.917 Karrierepunkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIA",
+        "HOU",
+        "MIL"
+      ],
+      "spieler": [
+        "Klay Thompson",
+        "Giannis Antetokounmpo",
+        "Andrew Wiggins",
+        "Davion Mitchell",
+        "Alperen Sengun",
+        "Kevin Durant",
+        "Stephen Curry",
+        "James Harden"
+      ]
+    },
+    {
+      "id": "2026-11-16-thunder-shai-37-kings",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "37 Punkte in drei Vierteln: Shai beendet OKCs Pleiten-Serie",
+      "teaser": "Oklahoma City gewann in Sacramento mit 125:103. Shai Gilgeous-Alexander machte 37 Punkte – und durfte das letzte Viertel auf der Bank zuschauen.",
+      "text": [
+        "Endlich wieder ein Sieg! Nach drei Niederlagen in Folge gewann Oklahoma City bei den Sacramento Kings mit 125:103.",
+        "Der Mann des Abends war wieder Shai Gilgeous-Alexander. Er traf 13 von 20 Würfen, 4 von 5 Dreiern und alle 7 Freiwürfe. Schon zur Pause hatte er 21 Punkte. Am Ende waren es 37 – und das in nur drei Vierteln. Im letzten Viertel saß er auf der Bank, weil OKC weit vorne lag. Es war sein drittes Spiel in Folge mit mindestens 31 Punkten.",
+        "Sacramento kam im zweiten Viertel noch einmal heran und glich zum 47:47 aus. Dann zog OKC mit einem 15:3-Lauf bis zur Pause davon. Zu Beginn des letzten Viertels legten die Ersatzspieler einen 19:4-Lauf hin.",
+        "Rookie Aday Mara kam von der Bank und schaffte mit 16 Punkten ein Double-Double. Isaiah Hartenstein holte 11 Rebounds. Am Mittwoch spielt OKC zu Hause gegen Atlanta."
+      ],
+      "fakten": [
+        "Endstand: Sacramento Kings – Oklahoma City Thunder 103:125",
+        "Shai Gilgeous-Alexander: 37 Punkte (13 von 20 Würfen, 7 von 7 Freiwürfen)",
+        "Aday Mara: 16 Punkte, Double-Double",
+        "Isaiah Hartenstein: 11 Rebounds",
+        "Darius Acuff Jr. (SAC): 26 Punkte",
+        "OKC: 9 Siege, 5 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "SAC",
+        "ATL"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Aday Mara",
+        "Darius Acuff Jr."
+      ]
+    },
+    {
+      "id": "2026-11-16-celtics-42-9-first-quarter",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "42 to 9! Boston's best first quarter ever",
+      "teaser": "The Boston Celtics led the Dallas Mavericks 42-9 after twelve minutes. It was the biggest first-quarter lead in team history.",
+      "text": [
+        "What a start for Boston! The Celtics played the Dallas Mavericks at home on Sunday. After the first quarter, the score was 42-9.",
+        "Dallas missed 16 of 18 shots in the first quarter. They also missed all eight of their 3-pointers. Boston made seven 3-pointers in the same time. A lead of 33 points after one quarter is a new record for the Celtics.",
+        "Jayson Tatum scored 32 points. He got 21 of them in the third quarter alone. Boston won 131-94. It was their sixth win in a row."
+      ],
+      "vokabeln": [
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        },
+        {
+          "en": "lead",
+          "de": "Vorsprung, Führung"
+        },
+        {
+          "en": "to miss",
+          "de": "verfehlen, danebenwerfen"
+        },
+        {
+          "en": "record",
+          "de": "Rekord"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander, in Folge"
+        }
+      ],
+      "fakten": [
+        "Final score: Boston Celtics 131, Dallas Mavericks 94",
+        "After the 1st quarter: 42-9",
+        "Jayson Tatum: 32 points (21 in the 3rd quarter)",
+        "Zaccharie Risacher (DAL): 18 points",
+        "Cooper Flagg (DAL): 17 points"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "BOS",
+        "DAL"
+      ],
+      "spieler": [
+        "Jayson Tatum",
+        "Derrick White",
+        "Cooper Flagg",
+        "Zaccharie Risacher"
+      ]
+    },
+    {
+      "id": "2026-11-16-spurs-zwoelf-luka-43",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "Zwölf Siege in Folge für die Spurs – Luka macht 43",
+      "teaser": "San Antonio drehte in Utah ein Spiel im letzten Viertel. Die Lakers gewannen dank Luka Dončić zum achten Mal hintereinander.",
+      "text": [
+        "Die San Antonio Spurs hören nicht auf zu gewinnen. In Salt Lake City siegten sie mit 110:102 bei den Utah Jazz. Das war ihr zwölfter Sieg in Folge. Für Utah war es dagegen die zwölfte Niederlage hintereinander.",
+        "Lange sah es nach einer Überraschung aus. Mo Bamba traf für Utah alle sechs Dreier, die er warf. Im letzten Viertel lagen die Spurs hinten. Dann traf Dylan Harper zwei Dreier hintereinander zum 100:100. Stephon Castle machte mit einem Ballgewinn und einem Dunk alles klar. Harper war mit 31 Punkten bester Werfer. Victor Wembanyama kam auf 26 Punkte und blockte 5 Würfe.",
+        "Auch die Los Angeles Lakers sind nicht zu stoppen. In Phoenix gewannen sie mit 131:123 – ihr achter Sieg am Stück. Luka Dončić machte 43 Punkte. Es war schon sein sechstes Spiel mit mindestens 40 Punkten in dieser Saison. Die Lakers führten zwischendurch mit 31 Punkten. Dann holte Phoenix noch einmal auf, kam aber nicht mehr ganz heran.",
+        "In der Tabelle des Westens stehen die Spurs und die Lakers jetzt gemeinsam ganz oben: Beide haben 12 Siege und nur 2 Niederlagen."
+      ],
+      "fakten": [
+        "Utah Jazz – San Antonio Spurs 102:110",
+        "Dylan Harper: 31 Punkte, 9 Rebounds",
+        "Victor Wembanyama: 26 Punkte, 5 Blocks",
+        "Mo Bamba (UTA): 26 Punkte, 6 von 6 Dreiern",
+        "Phoenix Suns – Los Angeles Lakers 123:131",
+        "Luka Dončić: 43 Punkte, 9 Assists",
+        "Quentin Grimes (LAL): 22 Punkte, 5 von 6 Dreiern"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "UTA",
+        "LAL",
+        "PHX"
+      ],
+      "spieler": [
+        "Dylan Harper",
+        "Victor Wembanyama",
+        "Stephon Castle",
+        "Mo Bamba",
+        "Luka Dončić",
+        "Quentin Grimes",
+        "Collin Gillespie",
+        "Devin Booker"
+      ]
+    },
+    {
+      "id": "2026-11-16-nba-sonntag-knicks-rockets-hawks",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "Brunson-Dreier in der Verlängerung – Charlotte verliert bei den Clippers",
+      "teaser": "Die Knicks drehten in Toronto einen 13-Punkte-Rückstand. Houston erzielte 147 Punkte, Atlanta holte 22 Punkte Rückstand auf. Charlotte musste ohne Dennis Schröder antreten.",
+      "text": [
+        "Spannung pur in Toronto: Die Raptors führten im letzten Viertel mit 13 Punkten gegen die New York Knicks. Doch New York kam zurück. Karl-Anthony Towns traf 20 Sekunden vor Schluss einen Dreier zur Führung. Scottie Barnes glich mit einem Dreier aus – Verlängerung! Dort traf Jalen Brunson 33 Sekunden vor Ende den entscheidenden Dreier. New York gewann 112:108. Brunson und Towns machten je 28 Punkte, Towns holte außerdem 17 Rebounds.",
+        "Die Houston Rockets gewannen in Washington mit 147:119. So viele Punkte hatten sie in dieser Saison noch nie. Amen Thompson machte 26, Kevin Durant 25 Punkte. Alperen Sengun kam auf 19 Punkte, 8 Rebounds und 8 Assists.",
+        "Atlanta lag in Milwaukee im zweiten Viertel mit 22 Punkten zurück – und gewann trotzdem 113:106. Für die Bucks war es die zehnte Niederlage in Folge. Philadelphia schlug Indiana mit 131:124. Jaylen Brown machte 31 Punkte, LeBron James verteilte 11 Assists.",
+        "Charlotte verlor bei den LA Clippers mit 105:113. Dennis Schröder fehlte verletzt. Die Hornets führten im dritten Viertel mit 13 Punkten, doch die Clippers drehten das Spiel. Darius Garland machte 27 Punkte. Charlotte hat jetzt 17-mal hintereinander gegen die Clippers verloren. Am Dienstag geht es für die Hornets zu den Lakers."
+      ],
+      "fakten": [
+        "Toronto Raptors – New York Knicks 108:112 nach Verlängerung",
+        "Washington Wizards – Houston Rockets 119:147",
+        "Milwaukee Bucks – Atlanta Hawks 106:113",
+        "Philadelphia 76ers – Indiana Pacers 131:124",
+        "LA Clippers – Charlotte Hornets 113:105",
+        "Coby White (CHA): 21 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "NYK",
+        "TOR",
+        "HOU",
+        "WAS",
+        "ATL",
+        "MIL",
+        "PHI",
+        "IND",
+        "LAC",
+        "CHA"
+      ],
+      "spieler": [
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "Scottie Barnes",
+        "Amen Thompson",
+        "Kevin Durant",
+        "Alperen Sengun",
+        "Jaylen Brown",
+        "LeBron James",
+        "Darius Garland",
+        "Coby White",
+        "Dennis Schröder",
+        "Pascal Siakam"
+      ]
+    },
+    {
+      "id": "2026-11-16-bayern-91-61-weissenfels",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "Spitzenspiel klar gewonnen: Bayern schlägt Weißenfels mit 30 Punkten",
+      "teaser": "Der FC Bayern gewann gegen den Tabellenvierten SYNTAINICS MBC mit 91:61. Weißenfels leistete sich 23 Ballverluste. Nächsten Sonntag geht es nach Berlin zu ALBA.",
+      "text": [
+        "Das sollte das Spitzenspiel des Spieltags werden. Doch der FC Bayern ließ dem Überraschungsteam aus Weißenfels keine Chance und gewann mit 91:61.",
+        "Schon nach fünf Minuten lagen die Münchner zweistellig vorne. Miles Norris traf gleich drei Dreier in der Anfangsphase. Diese Führung gaben die Bayern nie wieder ab. Norris war am Ende mit 17 Punkten bester Werfer.",
+        "Eigentlich verliert Weißenfels sehr selten den Ball. Gegen die Bayern aber waren es schon zur Pause 16 Ballverluste, am Ende 23. Die deutschen Spieler Kostja Mushidi (16 Punkte), Oscar da Silva (12) und Andreas Obst (10) punkteten zweistellig.",
+        "Jetzt wird es eine anstrengende Woche: Am Dienstag spielt Bayern in der Euroleague in Kaunas, am Donnerstag zu Hause gegen Baskonia. Am Sonntag um 18 Uhr steht dann der Klassiker bei ALBA BERLIN an."
+      ],
+      "fakten": [
+        "Endstand: FC Bayern – SYNTAINICS MBC 91:61",
+        "Miles Norris: 17 Punkte",
+        "Kostja Mushidi: 16 Punkte",
+        "Oscar da Silva: 12 Punkte",
+        "Weißenfels: 23 Ballverluste",
+        "Bayern: 8 Siege, 1 Niederlage – Tabellenführer"
+      ],
+      "quellen": [
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "FCB",
+        "MBC",
+        "ALBA",
+        "ZAL",
+        "BAS"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-16-bbl-sonntag-chemnitz-trier",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-16",
+      "tags": [],
+      "titel": "17 Dreier! Chemnitz trifft wie noch nie – Trier siegt zum siebten Mal",
+      "teaser": "Chemnitz gewann gegen Braunschweig mit 111:79, Phlandrous Fleming verteilte 14 Assists. Trier siegte in Frankfurt, Rostock gegen Vechta.",
+      "text": [
+        "Die NINERS Chemnitz waren vor dem Spiel das Team, das in der Liga am schlechtesten von der Dreierlinie traf. Gegen die Basketball Löwen Braunschweig war davon nichts zu sehen. Chemnitz traf die ersten fünf Dreier und am Ende 17 von 30. Das Ergebnis: ein 111:79-Sieg.",
+        "Ein besonderer Abend war es für Jannis von Seckendorff. Der 24-Jährige machte 19 Punkte – so viele wie noch nie in der Bundesliga. Spielmacher Phlandrous Fleming verteilte 14 Assists. Das ist der Bestwert dieser Saison in der ganzen Liga. Ben Burnham war mit 21 Punkten Topscorer.",
+        "Die Gladiators Trier gewannen bei den SKYLINERS in Frankfurt mit 99:85. Im zweiten Viertel gelang ihnen ein 18:1-Lauf. Justin Simon machte 23 Punkte. Für Trier war es der siebte Sieg in Folge – die längste Serie der Liga.",
+        "Die ROSTOCK SEAWOLVES schlugen RASTA Vechta mit 86:75 und sind zu Hause weiter ungeschlagen. TJ Crockett kam von der Bank und machte 22 Punkte."
+      ],
+      "fakten": [
+        "NINERS Chemnitz – Basketball Löwen Braunschweig 111:79",
+        "Chemnitz: 17 von 30 Dreiern",
+        "Phlandrous Fleming: 14 Assists (Saison-Bestwert der Liga)",
+        "Jannis von Seckendorff: 19 Punkte (Karrierebestwert)",
+        "SKYLINERS – Gladiators Trier 85:99, Justin Simon 23 Punkte",
+        "ROSTOCK SEAWOLVES – RASTA Vechta 86:75, TJ Crockett 22 Punkte"
+      ],
+      "quellen": [
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "CHE",
+        "BRA",
+        "TRI",
+        "FRA",
+        "ROS",
+        "VEC"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-16-vorschau-nba-nacht-wagner",
       "liga": "NBA",
       "lang": "de",
@@ -40,6 +350,47 @@
         "Moritz Wagner",
         "Stephen Curry"
       ]
+    },
+    {
+      "id": "2026-11-15-wochenvorschau-alba-bayern",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-15",
+      "tags": [],
+      "titel": "Die Woche: Bayern doppelt in Europa, dann ALBA gegen Bayern",
+      "teaser": "Eine volle Basketball-Woche steht an: zwei Euroleague-Spiele für den FC Bayern, Champions League mit Bonn, die DBB-Damen in Portugal und am Sonntag das Top-Spiel ALBA gegen Bayern.",
+      "text": [
+        "Die neue Woche hat für Basketball-Fans viel zu bieten. Hier ist unser Überblick über die wichtigsten Spiele mit deutscher Beteiligung.",
+        "Der FC Bayern hat eine Doppelwoche in der Euroleague. Am Dienstag um 19 Uhr spielen die Münchner bei Žalgiris Kaunas in Litauen. Am Donnerstag um 20 Uhr kommt Baskonia aus Spanien nach München. Zuletzt hatten die Bayern in Valencia verloren.",
+        "In der Champions League sind diese Woche die Gruppen B, C, E und H dran. Aus der Bundesliga spielen deshalb nur die Telekom Baskets Bonn: Am Dienstag um 18:30 Uhr treffen sie in Gruppe H auf Bnei Herzliya aus Israel. ALBA, Bamberg und Vechta haben in der Champions League erst im Dezember wieder Spiele.",
+        "Die deutschen Damen spielen am Dienstag um 20 Uhr in der EM-Qualifikation in Portugal. Nach dem Sieg in Dänemark wollen sie gleich nachlegen.",
+        "Am Wochenende geht es in der Bundesliga mit dem 10. Spieltag weiter. Das Highlight ist am Sonntag um 18 Uhr: ALBA empfängt in Berlin den FC Bayern. Die Münchner gehören zu den besten Teams der Liga, ALBA hat zuletzt in Oldenburg klar gewonnen."
+      ],
+      "fakten": [
+        "Di. 17.11., 18:30 Uhr: Bnei Herzliya – Telekom Baskets Bonn (Champions League, Gruppe H)",
+        "Di. 17.11., 19 Uhr: Žalgiris Kaunas – FC Bayern (Euroleague)",
+        "Di. 17.11., 20 Uhr: Portugal – Deutschland (EM-Quali der Damen)",
+        "Do. 19.11., 20 Uhr: FC Bayern – Baskonia (Euroleague)",
+        "So. 22.11., 18 Uhr: ALBA BERLIN – FC Bayern (Bundesliga)"
+      ],
+      "quellen": [
+        "easyCredit BBL",
+        "Basketball Champions League",
+        "Euroleague",
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "FCB",
+        "ALBA",
+        "BON",
+        "ZAL",
+        "BAS",
+        "GER",
+        "PRT",
+        "HRZ"
+      ],
+      "spieler": []
     },
     {
       "id": "2026-11-15-alba-siegt-oldenburg",
