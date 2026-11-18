@@ -2,6 +2,53 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-17-nba-montag-boozer-mitchell",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-17",
+      "tags": [],
+      "titel": "Rookie-Duell an Boozer, 39 Punkte von Mitchell – Phoenix gewinnt endlich auswärts",
+      "teaser": "Cameron Boozer traf sieben Dreier gegen Washington. Donovan Mitchell führte Cleveland zum Sieg über Chicago. Und die Suns feierten in Denver ihren ersten Auswärtssieg.",
+      "text": [
+        "In Washington kam es zum Duell der Rookies: Cameron Boozer von Memphis gegen AJ Dybantsa, die Nummer 1 im Draft. Boozer traf 7 von 13 Dreiern und machte 29 Punkte – so viele wie noch nie in der NBA. Memphis lag zur Pause zurück, gewann dann aber das dritte Viertel mit 42:18 und siegte 136:120. Dybantsa kam auf 21 Punkte. Für die Wizards war es die achte Niederlage in Folge.",
+        "In Cleveland machte Donovan Mitchell 39 Punkte. Er traf 16 von 25 Würfen. Jarrett Allen holte 14 Rebounds. Die Cavaliers schlugen Chicago mit 126:115.",
+        "Phoenix hatte in dieser Saison noch nie auswärts gewonnen. In Denver klappte es: 117:105. Sieben Suns-Spieler machten mindestens zehn Punkte, Devin Booker 20. Nikola Jokić kam für Denver auf 28 Punkte, 15 Rebounds und 7 Assists."
+      ],
+      "fakten": [
+        "Washington – Memphis 120:136 (Boozer 29 Punkte, 7 Dreier)",
+        "Cleveland – Chicago 126:115 (Mitchell 39 Punkte)",
+        "Denver – Phoenix 105:117 (erster Auswärtssieg der Suns)",
+        "Memphis: 7 von 7 Auswärtsspielen gewonnen",
+        "Washington: 8 Niederlagen in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MEM",
+        "WAS",
+        "CLE",
+        "CHI",
+        "PHX",
+        "DEN"
+      ],
+      "spieler": [
+        "Cameron Boozer",
+        "AJ Dybantsa",
+        "Zach Edey",
+        "Anthony Davis",
+        "Trae Young",
+        "Donovan Mitchell",
+        "Jarrett Allen",
+        "Norman Powell",
+        "Devin Booker",
+        "Nikola Jokić",
+        "Jamal Murray"
+      ]
+    },
+    {
       "id": "2026-11-17-heat-fuenf-siege-klay",
       "liga": "NBA",
       "lang": "de",

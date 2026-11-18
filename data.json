@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-18T06:22:27+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen am Mittwoch! Der FC Bayern hat in Kaunas erst nach Verlängerung verloren – trotz 33 Punkten von Johannes Thiemann. Die DBB-Damen haben in Portugal klar gewonnen, und Bonn holte in der Champions League den dritten Sieg. In der NBA liefen beim Erstellen noch Lakers gegen Charlotte mit Dennis Schröder und Hannes Steinbach sowie Clippers gegen Utah – die Ergebnisse kommen in der nächsten Ausgabe. Heute Nacht spielen Orlando, Brooklyn und OKC. Neues Quiz, neues „Who is it?“ und eine neue Schiri-Situation warten auf dich!",
+  "aktualisiert": "2026-11-18T16:17:18+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo am Mittwochnachmittag! Die Lakers haben gegen Charlotte einen 13-Punkte-Rückstand aufgeholt und nach Verlängerung gewonnen – Quentin Grimes traf dabei 10 Dreier und machte 47 Punkte. Utah gewann bei den Clippers, weil Brice Sensabaugh 40 Punkte von der Bank machte. Heute Abend spielen Besiktas und Real Madrid in der Euroleague und mehrere Teams in der Champions League. In der Nacht sind Orlando mit Franz Wagner und Tristan da Silva, Brooklyn mit Moritz Wagner und OKC mit Isaiah Hartenstein dran. Am Donnerstag empfängt der FC Bayern Baskonia.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-18",
   "zahlDesTages": {
-    "zahl": "33",
-    "text": "Punkte machte Johannes Thiemann für den FC Bayern in Kaunas. Trotzdem verlor Bayern nach Verlängerung mit 114:117."
+    "zahl": "10",
+    "text": "Dreier traf Quentin Grimes beim Lakers-Sieg gegen Charlotte – bei nur 14 Versuchen. Das hatte vor ihm erst ein Lakers-Spieler geschafft."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -362,6 +362,51 @@
         "ALBA"
       ],
       "spieler": []
+    },
+    {
+      "id": "2026-11-18-grimes-47-lakers-jazz-sensabaugh",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Grimes trifft 10 Dreier – Lakers gewinnen nach Verlängerung gegen Charlotte",
+      "teaser": "Quentin Grimes machte 47 Punkte und holte mit den Lakers einen 13-Punkte-Rückstand auf. In Los Angeles schoss außerdem Brice Sensabaugh die Utah Jazz mit 40 Punkten zum Sieg bei den Clippers.",
+      "text": [
+        "Die Los Angeles Lakers haben die Charlotte Hornets mit 118:114 nach Verlängerung geschlagen. Der Held des Abends war nicht Luka Dončić, sondern Quentin Grimes. Er machte 47 Punkte und traf 10 von 14 Dreiern.",
+        "Lange sah es gar nicht gut aus für die Lakers. Charlotte führte vor dem letzten Viertel mit 94:81. Doch dann gewannen die Lakers das Schlussviertel mit 30:17. Nach 48 Minuten stand es 111:111. In der Verlängerung ließen die Lakers nur 3 Punkte zu und gewannen die fünf Extra-Minuten mit 7:3.",
+        "Zehn Dreier in einem Spiel – das hat in der Geschichte der Lakers vor Grimes nur ein einziger Spieler geschafft. Luka Dončić kam auf 36 Punkte und 7 Assists. Die Lakers haben jetzt 13 Siege und nur 2 Niederlagen und stehen ganz oben im Westen.",
+        "Bei Charlotte war Brandon Miller mit 28 Punkten der beste Werfer, Naz Reid machte 23 Punkte und 11 Rebounds. Moussa Diabaté holte 16 Rebounds. Dennis Schröder fiel verletzt aus.",
+        "Auch die Utah Jazz feierten in Los Angeles. Sie gewannen bei den Clippers mit 132:107. Brice Sensabaugh kam von der Bank und machte 40 Punkte. Er traf 16 von 21 Würfen, davon 8 Dreier. Im letzten Viertel machte Utah allein 44 Punkte. Für die Jazz war es erst der zweite Sieg der Saison."
+      ],
+      "fakten": [
+        "Lakers – Charlotte 118:114 nach Verlängerung (111:111 nach 48 Minuten)",
+        "Quentin Grimes: 47 Punkte, 10 von 14 Dreiern",
+        "Luka Dončić: 36 Punkte, 7 Assists",
+        "Brandon Miller (CHA): 28 Punkte",
+        "Lakers-Bilanz: 13 Siege, 2 Niederlagen",
+        "Clippers – Utah 107:132, Brice Sensabaugh 40 Punkte (16 von 21 Würfen)"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "LAL",
+        "CHA",
+        "UTA",
+        "LAC"
+      ],
+      "spieler": [
+        "Quentin Grimes",
+        "Luka Dončić",
+        "Brandon Miller",
+        "Naz Reid",
+        "Moussa Diabaté",
+        "Dennis Schröder",
+        "Brice Sensabaugh",
+        "Keyonte George",
+        "Brook Lopez"
+      ]
     },
     {
       "id": "2026-11-18-dbb-damen-siegen-in-portugal",
@@ -858,56 +903,53 @@
         "Deni Avdija",
         "Donovan Clingan"
       ]
-    },
-    {
-      "id": "2026-11-17-nba-montag-boozer-mitchell",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-17",
-      "tags": [],
-      "titel": "Rookie-Duell an Boozer, 39 Punkte von Mitchell – Phoenix gewinnt endlich auswärts",
-      "teaser": "Cameron Boozer traf sieben Dreier gegen Washington. Donovan Mitchell führte Cleveland zum Sieg über Chicago. Und die Suns feierten in Denver ihren ersten Auswärtssieg.",
-      "text": [
-        "In Washington kam es zum Duell der Rookies: Cameron Boozer von Memphis gegen AJ Dybantsa, die Nummer 1 im Draft. Boozer traf 7 von 13 Dreiern und machte 29 Punkte – so viele wie noch nie in der NBA. Memphis lag zur Pause zurück, gewann dann aber das dritte Viertel mit 42:18 und siegte 136:120. Dybantsa kam auf 21 Punkte. Für die Wizards war es die achte Niederlage in Folge.",
-        "In Cleveland machte Donovan Mitchell 39 Punkte. Er traf 16 von 25 Würfen. Jarrett Allen holte 14 Rebounds. Die Cavaliers schlugen Chicago mit 126:115.",
-        "Phoenix hatte in dieser Saison noch nie auswärts gewonnen. In Denver klappte es: 117:105. Sieben Suns-Spieler machten mindestens zehn Punkte, Devin Booker 20. Nikola Jokić kam für Denver auf 28 Punkte, 15 Rebounds und 7 Assists."
-      ],
-      "fakten": [
-        "Washington – Memphis 120:136 (Boozer 29 Punkte, 7 Dreier)",
-        "Cleveland – Chicago 126:115 (Mitchell 39 Punkte)",
-        "Denver – Phoenix 105:117 (erster Auswärtssieg der Suns)",
-        "Memphis: 7 von 7 Auswärtsspielen gewonnen",
-        "Washington: 8 Niederlagen in Folge"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "MEM",
-        "WAS",
-        "CLE",
-        "CHI",
-        "PHX",
-        "DEN"
-      ],
-      "spieler": [
-        "Cameron Boozer",
-        "AJ Dybantsa",
-        "Zach Edey",
-        "Anthony Davis",
-        "Trae Young",
-        "Donovan Mitchell",
-        "Jarrett Allen",
-        "Norman Powell",
-        "Devin Booker",
-        "Nikola Jokić",
-        "Jamal Murray"
-      ]
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-17",
+      "runde": "NBA · Verlängerung",
+      "heim": "LAL",
+      "gast": "CHA",
+      "heimPkt": 118,
+      "gastPkt": 114,
+      "bericht": {
+        "text": [
+          "Charlotte führte vor dem letzten Viertel mit 94:81. Dann holten die Lakers auf und gewannen das Schlussviertel mit 30:17 – Verlängerung beim Stand von 111:111.",
+          "In der Verlängerung ließen die Lakers nur 3 Punkte zu. Quentin Grimes traf 10 Dreier und machte 47 Punkte. Dennis Schröder fiel bei Charlotte verletzt aus."
+        ],
+        "highlights": [
+          "Quentin Grimes: 47 Punkte, 10 von 14 Dreiern",
+          "Luka Dončić: 36 Punkte, 7 Assists",
+          "Brandon Miller (CHA): 28 Punkte",
+          "Verlängerung 7:3 für die Lakers"
+        ]
+      },
+      "newsId": "2026-11-18-grimes-47-lakers-jazz-sensabaugh"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-17",
+      "runde": "NBA",
+      "heim": "LAC",
+      "gast": "UTA",
+      "heimPkt": 107,
+      "gastPkt": 132,
+      "bericht": {
+        "text": [
+          "Utah traf 20 von 38 Dreiern und gewann das letzte Viertel mit 44:21. So wurde aus einem engen Spiel ein klarer Sieg.",
+          "Brice Sensabaugh kam von der Bank und machte 40 Punkte. Keyonte George verteilte 11 Assists."
+        ],
+        "highlights": [
+          "Brice Sensabaugh: 40 Punkte, 8 Dreier, 11 Rebounds",
+          "Keyonte George: 30 Punkte, 11 Assists",
+          "Brook Lopez (LAC): 23 Punkte",
+          "Letztes Viertel 44:21 für Utah"
+        ]
+      },
+      "newsId": "2026-11-18-grimes-47-lakers-jazz-sensabaugh"
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-17",
@@ -1682,19 +1724,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-18T04:30:00+01:00",
-      "heim": "LAC",
-      "gast": "UTA"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-18T05:00:00+01:00",
-      "heim": "LAL",
-      "gast": "CHA",
-      "info": "mit Schröder und Steinbach"
-    },
-    {
       "liga": "BCL",
       "zeit": "2026-11-18T18:00:00+01:00",
       "heim": "AEK",
@@ -2279,7 +2308,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 18.11., 6:15 Uhr · nach den Spielen vom 17.11. (US-Zeit), ohne Lakers – Charlotte und Clippers – Utah",
+      "stand": "Stand: 18.11., 16:30 Uhr · nach allen Spielen vom 17.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2298,7 +2327,7 @@
       "zeilen": [
         {
           "team": "LAL",
-          "s": 12,
+          "s": 13,
           "n": 2
         },
         {
@@ -2359,23 +2388,23 @@
         {
           "team": "LAC",
           "s": 4,
-          "n": 8
+          "n": 9
+        },
+        {
+          "team": "UTA",
+          "s": 2,
+          "n": 13
         },
         {
           "team": "SAC",
           "s": 1,
           "n": 12
-        },
-        {
-          "team": "UTA",
-          "s": 1,
-          "n": 13
         }
       ]
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 18.11., 6:15 Uhr · nach den Spielen vom 17.11. (US-Zeit), ohne Lakers – Charlotte und Clippers – Utah",
+      "stand": "Stand: 18.11., 16:30 Uhr · nach allen Spielen vom 17.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2445,7 +2474,7 @@
         {
           "team": "CHA",
           "s": 4,
-          "n": 9
+          "n": 10
         },
         {
           "team": "WAS",
@@ -3106,9 +3135,9 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 13,
-        "pkt": 26.7,
-        "reb": 2.8,
+        "spiele": 14,
+        "pkt": 27.0,
+        "reb": 2.9,
         "ast": 5.9
       },
       "notiz": "In Toronto traf er in der Verlängerung den entscheidenden Dreier. Am Ende hatte er 28 Punkte und 9 Assists."
@@ -3119,10 +3148,10 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 12,
-        "pkt": 39.0,
+        "spiele": 13,
+        "pkt": 38.8,
         "reb": 7.2,
-        "ast": 7.8
+        "ast": 7.7
       },
       "notiz": "Der beste Punktesammler der Saison. In Phoenix machte er 43 Punkte – die Lakers gewannen zum achten Mal in Folge."
     },
@@ -3158,9 +3187,9 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 14,
-        "pkt": 28.6,
-        "reb": 11.6,
+        "spiele": 15,
+        "pkt": 28.4,
+        "reb": 12.0,
         "ast": 3.3
       },
       "notiz": "In Utah machte er 26 Punkte und blockte 5 Würfe. Die Spurs gewannen zum zwölften Mal hintereinander."
@@ -3171,10 +3200,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 13,
-        "pkt": 19.7,
+        "spiele": 14,
+        "pkt": 20.1,
         "reb": 3.0,
-        "ast": 4.3
+        "ast": 4.4
       },
       "notiz": "Ist zurück bei den Portland Trail Blazers, wo seine NBA-Karriere begonnen hat."
     }
@@ -4260,6 +4289,36 @@
   "auffaellig": [
     {
       "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-17",
+      "titel": "Quentin Grimes",
+      "team": "LAL",
+      "wert": "10 Dreier, 47 Punkte",
+      "grund": "Er traf 10 von 14 Dreiern. Vor ihm hatte in der ganzen Geschichte der Lakers erst ein Spieler 10 Dreier in einem Spiel geschafft.",
+      "newsId": "2026-11-18-grimes-47-lakers-jazz-sensabaugh"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-17",
+      "heim": "LAL",
+      "gast": "CHA",
+      "wert": "13 Punkte aufgeholt",
+      "grund": "Charlotte führte vor dem letzten Viertel mit 94:81. Die Lakers kämpften sich zurück und gewannen nach Verlängerung 118:114.",
+      "newsId": "2026-11-18-grimes-47-lakers-jazz-sensabaugh"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-17",
+      "titel": "Brice Sensabaugh",
+      "team": "UTA",
+      "wert": "40 Punkte von der Bank",
+      "grund": "Er war nicht einmal in der Startformation und traf trotzdem 16 von 21 Würfen. So holte Utah erst den zweiten Saisonsieg.",
+      "newsId": "2026-11-18-grimes-47-lakers-jazz-sensabaugh"
+    },
+    {
+      "art": "spieler",
       "liga": "EL",
       "datum": "2026-11-17",
       "titel": "Sasha Vezenkov",
@@ -4277,36 +4336,6 @@
       "wert": "Verlängerung",
       "grund": "Nach 40 Minuten stand es 101:101. Johannes Thiemann machte 33 Punkte, doch in der Verlängerung war Kaunas stärker.",
       "newsId": "2026-11-18-bayern-verlaengerung-kaunas"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-17",
-      "heim": "MIN",
-      "gast": "POR",
-      "wert": "Nur 1 Punkt!",
-      "grund": "1,3 Sekunden vor Schluss blockte Trey Lyles den Korbleger von Damian Lillard. So rettete Minnesota den 106:105-Sieg.",
-      "newsId": "2026-11-18-wolves-lyles-block-lillard"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-17",
-      "titel": "Ausar Thompson",
-      "team": "DET",
-      "wert": "12 Assists, 5 Steals",
-      "grund": "Er war beim Sieg in San Antonio überall: 14 Punkte, 9 Rebounds, 12 Assists und 5 Steals. Zum Triple-Double fehlte nur ein Rebound.",
-      "newsId": "2026-11-18-pistons-stoppen-spurs"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-17",
-      "titel": "Ja'Kobe Walter",
-      "team": "TOR",
-      "wert": "7 Dreier",
-      "grund": "Er traf 7 von 12 Dreiern und machte 25 Punkte – so viele wie kein anderer Raptor. Am Ende verlor Toronto trotzdem gegen die Knicks.",
-      "newsId": "2026-11-18-knicks-brunson-31-toronto"
     },
     {
       "art": "spiel",
