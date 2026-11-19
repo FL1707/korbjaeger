@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-19T06:24:16+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen am Donnerstag! In der Nacht holte Isaiah Hartenstein 17 Rebounds, aber OKC verlor gegen Atlanta. Franz Wagner machte 27 Punkte und 11 Assists, doch Orlando unterlag Philadelphia knapp. Die Chicago Bulls trafen 15 Dreier in einer Halbzeit – Rekord! Und Memphis gewann zum achten Mal in Folge auswärts. Heute Abend um 20 Uhr spielt der FC Bayern in der Euroleague gegen Baskonia.",
+  "aktualisiert": "2026-11-19T16:17:43+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo am Donnerstagnachmittag! Über Nacht gab es noch eine Überraschung: Die Utah Jazz stoppten die Siegesserie der Los Angeles Lakers – Keyonte George machte 30 Punkte. Heute Abend ist Euroleague-Abend: Um 20 Uhr spielt der FC Bayern zu Hause gegen Baskonia. Und in der Nacht sind Stephen Currys Warriors ohne ihn in Memphis zu Gast. Viel Spaß beim Tagesquiz!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-19",
   "zahlDesTages": {
-    "zahl": "15",
-    "text": "Dreier trafen die Chicago Bulls in Brooklyn allein in der ersten Halbzeit – so viele wie noch nie in ihrer Vereinsgeschichte."
+    "zahl": "15:0",
+    "text": "So hieß der Lauf der Utah Jazz im letzten Viertel bei den Lakers. Damit beendeten sie die Siegesserie von Los Angeles nach 9 Spielen."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -334,6 +334,66 @@
     "erklaerung": "Orlando führte fast das ganze Spiel. Dann bekam VJ Edgecombe einen Pass von LeBron James und traf den Dreier zum 114:112 für Philadelphia. Die 76ers gewannen am Ende 121:116."
   },
   "news": [
+    {
+      "id": "2026-11-19-jazz-stoppen-lakers-serie",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Surprise in Los Angeles: the Jazz stop the Lakers",
+      "teaser": "Utah won 109-97 against the Lakers. Los Angeles had won nine games in a row.",
+      "text": [
+        "The Utah Jazz beat the Los Angeles Lakers 109-97. This was a big surprise. The Lakers had won nine games in a row, and the Jazz had only three wins all season.",
+        "The game was close for a long time. Then, in the fourth quarter, Utah scored 15 points in a row. The Jazz were suddenly ahead 98-83.",
+        "Keyonte George was the best player on the court. He scored 30 points and had 10 assists. Rookie Ace Bailey added 19 points.",
+        "Luka Dončić scored 29 points for the Lakers, but he made only 2 of his 12 three-pointers. Quentin Grimes had 20 points. The Lakers now have 13 wins and 3 losses."
+      ],
+      "vokabeln": [
+        {
+          "en": "surprise",
+          "de": "Überraschung"
+        },
+        {
+          "en": "court",
+          "de": "Spielfeld"
+        },
+        {
+          "en": "ahead",
+          "de": "vorne, in Führung"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        }
+      ],
+      "fakten": [
+        "Final score: Los Angeles Lakers 97, Utah Jazz 109",
+        "The Lakers' winning streak ended after 9 games",
+        "Utah scored 15 points in a row in the fourth quarter",
+        "Keyonte George: 30 points, 10 assists",
+        "Ace Bailey: 19 points",
+        "Luka Dončić (LAL): 29 points, 2 of 12 three-pointers",
+        "Mo Bamba (UTA): 16 rebounds"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "UTA",
+        "LAL"
+      ],
+      "spieler": [
+        "Keyonte George",
+        "Ace Bailey",
+        "Mo Bamba",
+        "Svi Mykhailiuk",
+        "Luka Dončić",
+        "Quentin Grimes",
+        "Walker Kessler"
+      ]
+    },
     {
       "id": "2026-11-19-hawks-schlagen-okc",
       "liga": "NBA",
@@ -1182,6 +1242,28 @@
     },
     {
       "liga": "NBA",
+      "datum": "2026-11-18",
+      "runde": "NBA",
+      "heim": "LAL",
+      "gast": "UTA",
+      "heimPkt": 97,
+      "gastPkt": 109,
+      "newsId": "2026-11-19-jazz-stoppen-lakers-serie",
+      "bericht": {
+        "text": [
+          "Lange war das Spiel ausgeglichen. Im letzten Viertel machte Utah dann 15 Punkte hintereinander und führte plötzlich 98:83. Die Lakers kamen nicht mehr zurück.",
+          "Damit endete die Siegesserie der Lakers nach 9 Spielen. Für die Jazz war es schon der zweite Sieg in zwei Tagen in Los Angeles – am Abend davor hatten sie die Clippers geschlagen."
+        ],
+        "highlights": [
+          "Keyonte George (UTA): 30 Punkte, 10 Assists",
+          "Ace Bailey (UTA): 19 Punkte, 10 davon im letzten Viertel",
+          "Mo Bamba (UTA): 16 Rebounds",
+          "Luka Dončić (LAL): 29 Punkte, aber nur 2 von 12 Dreiern"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
       "datum": "2026-11-17",
       "runde": "NBA · Verlängerung",
       "heim": "LAL",
@@ -1712,12 +1794,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-19T04:00:00+01:00",
-      "heim": "LAL",
-      "gast": "UTA"
-    },
     {
       "liga": "EL",
       "zeit": "2026-11-19T18:15:00+01:00",
@@ -2250,7 +2326,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 19.11., 06:30 Uhr · nach den Spielen vom 18.11. (US-Zeit), ohne Lakers – Jazz (lief noch)",
+      "stand": "Stand: 19.11., 16:15 Uhr · nach allen Spielen vom 18.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2270,7 +2346,7 @@
         {
           "team": "LAL",
           "s": 13,
-          "n": 2
+          "n": 3
         },
         {
           "team": "SAS",
@@ -2334,7 +2410,7 @@
         },
         {
           "team": "UTA",
-          "s": 2,
+          "s": 3,
           "n": 13
         },
         {
@@ -2346,7 +2422,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 19.11., 06:30 Uhr · nach den Spielen vom 18.11. (US-Zeit), ohne Lakers – Jazz (lief noch)",
+      "stand": "Stand: 19.11., 16:15 Uhr · nach allen Spielen vom 18.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2953,10 +3029,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 14,
-        "pkt": 30.9,
+        "spiele": 15,
+        "pkt": 31.1,
         "reb": 4.1,
-        "ast": 4.4
+        "ast": 4.3
       },
       "notiz": "Gegen Atlanta machte er 34 Punkte, OKC verlor aber 112:117."
     },
@@ -2982,10 +3058,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 13,
-        "pkt": 24.2,
-        "reb": 6.8,
-        "ast": 8.3
+        "spiele": 14,
+        "pkt": 24.4,
+        "reb": 6.9,
+        "ast": 8.5
       },
       "notiz": "Gegen Philadelphia machte er 27 Punkte und 11 Assists – sein sechstes Spiel in Folge mit mindestens 20 Punkten."
     },
@@ -2996,10 +3072,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 13,
-        "pkt": 10.3,
-        "reb": 3.5,
-        "ast": 1.5
+        "spiele": 14,
+        "pkt": 10.4,
+        "reb": 3.4,
+        "ast": 1.6
       },
       "notiz": "Gegen Chicago traf er alle 4 Würfe und machte 11 Punkte in 20 Minuten."
     },
@@ -3024,10 +3100,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 14,
-        "pkt": 8.6,
-        "reb": 10.6,
-        "ast": 3.7
+        "spiele": 15,
+        "pkt": 8.4,
+        "reb": 11.0,
+        "ast": 3.9
       },
       "notiz": "Gegen Atlanta holte er 17 Rebounds und gab 6 Assists. OKC verlor trotzdem 112:117."
     },
@@ -3038,10 +3114,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 11,
-        "pkt": 14.6,
-        "reb": 4.1,
-        "ast": 1.8
+        "spiele": 12,
+        "pkt": 14.4,
+        "reb": 3.9,
+        "ast": 1.7
       },
       "notiz": "Gegen Philadelphia traf er 5 von 7 Würfen und machte 12 Punkte."
     },
@@ -3064,10 +3140,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 11,
-        "pkt": 15.1,
-        "reb": 7.2,
-        "ast": 6.9
+        "spiele": 12,
+        "pkt": 15.7,
+        "reb": 6.8,
+        "ast": 6.8
       },
       "notiz": "Der beste Punktesammler der NBA-Geschichte spielt jetzt für Philadelphia. In Orlando machte er 22 Punkte und bereitete den wichtigen Dreier von VJ Edgecombe vor."
     },
@@ -3090,10 +3166,10 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 13,
-        "pkt": 38.8,
-        "reb": 7.2,
-        "ast": 7.7
+        "spiele": 14,
+        "pkt": 38.1,
+        "reb": 7.0,
+        "ast": 7.6
       },
       "notiz": "Der beste Punktesammler der Saison. In Phoenix machte er 43 Punkte – die Lakers gewannen zum achten Mal in Folge."
     },
@@ -3116,9 +3192,9 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 12,
+        "spiele": 13,
         "pkt": 24.1,
-        "reb": 10.9,
+        "reb": 10.7,
         "ast": 8.9
       },
       "notiz": "Gegen Boston machte er 24 Punkte, 8 Rebounds und 9 Assists. Denver gewann 105:101."
@@ -4230,14 +4306,24 @@
   },
   "auffaellig": [
     {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-18",
+      "heim": "LAL",
+      "gast": "UTA",
+      "wert": "Serie gerissen",
+      "grund": "Die Lakers hatten 9 Spiele hintereinander gewonnen. Ausgerechnet Utah, eines der schwächsten Teams, stoppte sie mit einem 15:0-Lauf im letzten Viertel.",
+      "newsId": "2026-11-19-jazz-stoppen-lakers-serie"
+    },
+    {
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-18",
-      "titel": "Cooper Flagg",
-      "team": "DAL",
-      "wert": "33 Punkte",
-      "grund": "Er traf 11 von 15 Würfen und alle 8 Freiwürfe – dazu kamen noch 9 Assists. Dallas schlug Golden State deutlich.",
-      "newsId": "2026-11-19-flagg-33-mavs-warriors"
+      "titel": "Keyonte George",
+      "team": "UTA",
+      "wert": "30 Punkte, 10 Assists",
+      "grund": "Er führte die Jazz zum Überraschungssieg bei den Lakers – 9 seiner Punkte machte er im letzten Viertel.",
+      "newsId": "2026-11-19-jazz-stoppen-lakers-serie"
     },
     {
       "art": "spieler",
@@ -4258,16 +4344,6 @@
       "wert": "Neuer Rekord",
       "grund": "Memphis gewann zum achten Mal hintereinander auswärts. Das hatten die Grizzlies noch nie geschafft. Die Führung wechselte 22 Mal!",
       "newsId": "2026-11-19-grizzlies-road-record"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "heim": "BKN",
-      "gast": "CHI",
-      "wert": "15 Dreier",
-      "grund": "So viele Dreier trafen die Bulls in der ersten Halbzeit – mehr als je zuvor in der Vereinsgeschichte.",
-      "newsId": "2026-11-19-bulls-dreier-rekord-nets"
     },
     {
       "art": "spiel",
