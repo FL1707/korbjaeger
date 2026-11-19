@@ -2,6 +2,373 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-18-euroleague-vezenkov-37",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Euroleague: 37 Punkte von Vezenkov – Paris siegt in Barcelona",
+      "teaser": "Am Dienstag gab es in der Euroleague zwei Verlängerungen. Olympiakos gewann in Tel Aviv, Valencia bleibt Tabellenführer.",
+      "text": [
+        "Neun Spiele, zwei Verlängerungen: Der Dienstag in der Euroleague hatte es in sich. Neben dem FC Bayern in Kaunas musste auch Olympiakos Piräus in die Extra-Zeit.",
+        "Bei Maccabi Tel Aviv gewann Olympiakos mit 97:95 nach Verlängerung. Sasha Vezenkov war nicht zu stoppen: Er machte 37 Punkte und holte 9 Rebounds.",
+        "Paris Basketball gewann beim FC Barcelona mit 89:86. Nadir Hifi war mit 25 Punkten der beste Werfer. Valencia siegte 76:64 bei Partizan Belgrad und bleibt mit 9 Siegen Tabellenführer, gemeinsam mit Olympiakos.",
+        "Außerdem: Fenerbahçe schlug ASVEL deutlich mit 115:81. Dubai gewann 80:75 gegen Anadolu Efes, Mfiondu Kabengele kam auf 18 Punkte und 18 Rebounds. Mailand siegte 91:77 gegen Roter Stern, Hapoel Tel Aviv 85:82 in Baskonia und Bologna 84:79 gegen Panathinaikos. Am Mittwoch spielt noch Beşiktaş gegen Real Madrid."
+      ],
+      "fakten": [
+        "Maccabi Tel Aviv – Olympiakos 95:97 n. V. (Vezenkov 37 Punkte)",
+        "FC Barcelona – Paris 86:89 (Hifi 25 Punkte)",
+        "Partizan – Valencia 64:76",
+        "Fenerbahçe – ASVEL 115:81",
+        "Dubai – Anadolu Efes 80:75",
+        "Mailand – Roter Stern 91:77",
+        "Baskonia – Hapoel Tel Aviv 82:85",
+        "Virtus Bologna – Panathinaikos 84:79"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "OLY",
+        "MTA",
+        "PBB",
+        "BAR",
+        "VAL",
+        "PAR",
+        "FEN",
+        "ASV",
+        "DUB",
+        "EFS",
+        "EA7",
+        "CZV",
+        "BAS",
+        "HTA",
+        "VIR",
+        "PAO",
+        "BES",
+        "RMA"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-18-knicks-brunson-31-toronto",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "zahlen",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Starkes Schlussviertel: Brunson führt die Knicks zum Sieg in Toronto",
+      "teaser": "Die Knicks gewannen in Toronto mit 111:102. Jalen Brunson machte 31 Punkte, Karl-Anthony Towns holte 16 Rebounds.",
+      "text": [
+        "Die New York Knicks haben bei den Toronto Raptors mit 111:102 gewonnen. Lange sah es nicht danach aus.",
+        "Toronto führte nach dem ersten Viertel und auch vor dem letzten Viertel mit 83:80. Dann drehten die Knicks auf: Sie gewannen das Schlussviertel mit 31:19.",
+        "Jalen Brunson machte 31 Punkte. Karl-Anthony Towns traf 7 von 9 Würfen, kam auf 16 Punkte, 16 Rebounds und 8 Assists. Mikal Bridges steuerte 17 Punkte bei, OG Anunoby 16.",
+        "Bei Toronto glänzte Ja'Kobe Walter mit 25 Punkten. Er traf 7 von 12 Dreiern. RJ Barrett machte 22 Punkte, Scottie Barnes 20. Die Knicks spielen als Nächstes in Minnesota, Toronto empfängt Washington."
+      ],
+      "fakten": [
+        "Endstand: Toronto Raptors – New York Knicks 102:111",
+        "Letztes Viertel: 31:19 für New York",
+        "Jalen Brunson: 31 Punkte",
+        "Karl-Anthony Towns: 16 Punkte, 16 Rebounds, 8 Assists",
+        "Ja'Kobe Walter (TOR): 25 Punkte, 7 von 12 Dreiern",
+        "Knicks: 8 Siege, 6 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "NYK",
+        "TOR",
+        "MIN",
+        "WAS"
+      ],
+      "spieler": [
+        "Jalen Brunson",
+        "Karl-Anthony Towns",
+        "Mikal Bridges",
+        "OG Anunoby",
+        "Ja'Kobe Walter",
+        "RJ Barrett",
+        "Scottie Barnes",
+        "Immanuel Quickley",
+        "Jakob Poeltl"
+      ]
+    },
+    {
+      "id": "2026-11-18-pistons-stoppen-spurs",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Detroit gewinnt in San Antonio – Ausar Thompson verteilt 12 Assists",
+      "teaser": "Die Pistons haben die Spurs mit 105:93 geschlagen. Cade Cunningham machte 27 Punkte, Ausar Thompson war fast überall auf dem Feld zu finden.",
+      "text": [
+        "Die Detroit Pistons haben bei den San Antonio Spurs mit 105:93 gewonnen. Für die Spurs war es erst die dritte Niederlage der Saison.",
+        "San Antonio startete stark und führte nach dem ersten Viertel mit 33:26. Doch Detroit holte auf und lag zur Pause schon knapp vorne. Im letzten Viertel machten die Pistons alles klar: Daniss Jenkins traf einen Dreier zum 103:93, danach dunkte Ausar Thompson zum Endstand.",
+        "Cade Cunningham war mit 27 Punkten der Topscorer, Jenkins kam auf 25. Ausar Thompson machte 14 Punkte, holte 9 Rebounds, verteilte 12 Assists und schnappte sich 5 Steals. Zum Triple-Double fehlte nur ein einziger Rebound.",
+        "Victor Wembanyama machte 25 Punkte und holte 18 Rebounds. Von der Dreierlinie traf er aber nur einmal bei acht Versuchen. Spurs-Rookie Dylan Harper kam auf 20 Punkte. Im Westen sind jetzt die Lakers knapp vor San Antonio."
+      ],
+      "fakten": [
+        "Endstand: San Antonio Spurs – Detroit Pistons 93:105",
+        "Cade Cunningham: 27 Punkte",
+        "Daniss Jenkins: 25 Punkte",
+        "Ausar Thompson: 14 Punkte, 9 Rebounds, 12 Assists, 5 Steals",
+        "Victor Wembanyama: 25 Punkte, 18 Rebounds, 1 von 8 Dreiern",
+        "Dylan Harper (SAS): 20 Punkte",
+        "Spurs: 12 Siege, 3 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "DET",
+        "SAS",
+        "LAL"
+      ],
+      "spieler": [
+        "Ausar Thompson",
+        "Cade Cunningham",
+        "Daniss Jenkins",
+        "Victor Wembanyama",
+        "Dylan Harper",
+        "Stephon Castle",
+        "Devin Vassell",
+        "Paul Reed"
+      ]
+    },
+    {
+      "id": "2026-11-18-grimes-47-lakers-jazz-sensabaugh",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Grimes trifft 10 Dreier – Lakers gewinnen nach Verlängerung gegen Charlotte",
+      "teaser": "Quentin Grimes machte 47 Punkte und holte mit den Lakers einen 13-Punkte-Rückstand auf. In Los Angeles schoss außerdem Brice Sensabaugh die Utah Jazz mit 40 Punkten zum Sieg bei den Clippers.",
+      "text": [
+        "Die Los Angeles Lakers haben die Charlotte Hornets mit 118:114 nach Verlängerung geschlagen. Der Held des Abends war nicht Luka Dončić, sondern Quentin Grimes. Er machte 47 Punkte und traf 10 von 14 Dreiern.",
+        "Lange sah es gar nicht gut aus für die Lakers. Charlotte führte vor dem letzten Viertel mit 94:81. Doch dann gewannen die Lakers das Schlussviertel mit 30:17. Nach 48 Minuten stand es 111:111. In der Verlängerung ließen die Lakers nur 3 Punkte zu und gewannen die fünf Extra-Minuten mit 7:3.",
+        "Zehn Dreier in einem Spiel – das hat in der Geschichte der Lakers vor Grimes nur ein einziger Spieler geschafft. Luka Dončić kam auf 36 Punkte und 7 Assists. Die Lakers haben jetzt 13 Siege und nur 2 Niederlagen und stehen ganz oben im Westen.",
+        "Bei Charlotte war Brandon Miller mit 28 Punkten der beste Werfer, Naz Reid machte 23 Punkte und 11 Rebounds. Moussa Diabaté holte 16 Rebounds. Dennis Schröder fiel verletzt aus.",
+        "Auch die Utah Jazz feierten in Los Angeles. Sie gewannen bei den Clippers mit 132:107. Brice Sensabaugh kam von der Bank und machte 40 Punkte. Er traf 16 von 21 Würfen, davon 8 Dreier. Im letzten Viertel machte Utah allein 44 Punkte. Für die Jazz war es erst der zweite Sieg der Saison."
+      ],
+      "fakten": [
+        "Lakers – Charlotte 118:114 nach Verlängerung (111:111 nach 48 Minuten)",
+        "Quentin Grimes: 47 Punkte, 10 von 14 Dreiern",
+        "Luka Dončić: 36 Punkte, 7 Assists",
+        "Brandon Miller (CHA): 28 Punkte",
+        "Lakers-Bilanz: 13 Siege, 2 Niederlagen",
+        "Clippers – Utah 107:132, Brice Sensabaugh 40 Punkte (16 von 21 Würfen)"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "LAL",
+        "CHA",
+        "UTA",
+        "LAC"
+      ],
+      "spieler": [
+        "Quentin Grimes",
+        "Luka Dončić",
+        "Brandon Miller",
+        "Naz Reid",
+        "Moussa Diabaté",
+        "Dennis Schröder",
+        "Brice Sensabaugh",
+        "Keyonte George",
+        "Brook Lopez"
+      ]
+    },
+    {
+      "id": "2026-11-17-shannon-career-high-34",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "zahlen",
+      "datum": "2026-11-17",
+      "tags": [],
+      "titel": "Terrence Shannon Jr. scores 34 – a new career high",
+      "teaser": "Minnesota beat Portland 106-98. Terrence Shannon Jr. scored more points than ever before in the NBA.",
+      "text": [
+        "The Minnesota Timberwolves beat the Portland Trail Blazers 106-98.",
+        "The star of the night was Terrence Shannon Jr. He scored 34 points. That is his career high. He made 15 of 16 free throws.",
+        "Portland started well and was ahead by 10 points in the first half. Then Shannon scored 12 points in the second quarter. At halftime, Minnesota was ahead 59-51.",
+        "Rudy Gobert had 18 points and 15 rebounds. For Portland, Deni Avdija scored 27 points. The two teams play again on Tuesday night in Minneapolis."
+      ],
+      "vokabeln": [
+        {
+          "en": "career high",
+          "de": "Karrierebestwert"
+        },
+        {
+          "en": "free throw",
+          "de": "Freiwurf"
+        },
+        {
+          "en": "to be ahead",
+          "de": "vorne liegen, führen"
+        },
+        {
+          "en": "to take the lead",
+          "de": "in Führung gehen"
+        }
+      ],
+      "fakten": [
+        "Final score: Minnesota Timberwolves 106, Portland Trail Blazers 98",
+        "Terrence Shannon Jr.: 34 points (career high), 15 of 16 free throws",
+        "Rudy Gobert: 18 points, 15 rebounds",
+        "Deni Avdija (POR): 27 points",
+        "Minnesota: 10 wins, 4 losses"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIN",
+        "POR"
+      ],
+      "spieler": [
+        "Terrence Shannon Jr",
+        "Rudy Gobert",
+        "Deni Avdija",
+        "Donovan Clingan"
+      ]
+    },
+    {
+      "id": "2026-11-17-warriors-ohne-curry-pelicans",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-17",
+      "tags": [],
+      "titel": "Ohne Curry: Golden State verliert deutlich in New Orleans",
+      "teaser": "Die Warriors verloren mit 94:115 bei den Pelicans. Schon nach dem ersten Viertel lagen sie mit 11:35 hinten. Jeremiah Fears schaffte sein erstes Triple-Double.",
+      "text": [
+        "Für Golden State läuft es gerade gar nicht. In New Orleans verloren die Warriors mit 94:115. Es war die dritte Niederlage hintereinander.",
+        "Stephen Curry fällt mindestens zwei Wochen verletzt aus. Ohne ihren Superstar fanden die Warriors keinen Rhythmus. Das erste Viertel ging mit 11:35 verloren. Golden State traf nur 11 von 46 Dreiern.",
+        "Bester Werfer der Warriors war Yaxel Lendeborg mit 28 Punkten. Brandin Podziemski kam auf 15 Punkte.",
+        "Bei New Orleans feierte Jeremiah Fears ein besonderes Spiel: Mit 19 Punkten, 10 Assists und 10 Rebounds gelang ihm sein erstes Triple-Double in der NBA. Als er im dritten Viertel seinen zehnten Rebound holte, jubelten die Fans laut. Für die Pelicans war es nach sechs Niederlagen endlich wieder ein Sieg. Golden State spielt am Mittwoch in Dallas."
+      ],
+      "fakten": [
+        "Endstand: New Orleans Pelicans – Golden State Warriors 115:94",
+        "Erstes Viertel: 35:11 für New Orleans",
+        "Jeremiah Fears: 19 Punkte, 10 Assists, 10 Rebounds – erstes Triple-Double",
+        "Saddiq Bey (NOP): 23 Punkte, 5 Dreier",
+        "Yaxel Lendeborg (GSW): 28 Punkte",
+        "Golden State: nur 11 von 46 Dreiern",
+        "Stephen Curry fällt mindestens zwei Wochen aus"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "NOP",
+        "DAL"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Jeremiah Fears",
+        "Saddiq Bey",
+        "Zion Williamson",
+        "Derik Queen",
+        "Yaxel Lendeborg",
+        "Brandin Podziemski"
+      ]
+    },
+    {
+      "id": "2026-11-17-embiid-37-sixers-nets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-17",
+      "tags": [],
+      "titel": "Embiid mit 37 Punkten – Philadelphia gewinnt auch ohne LeBron",
+      "teaser": "Die 76ers siegten in Brooklyn mit 135:123. Joel Embiid stellte einen Saisonbestwert auf. Moritz Wagner spielte zehn Minuten für die Nets.",
+      "text": [
+        "Philadelphia bleibt Erster im Osten. In Brooklyn gewannen die 76ers mit 135:123. LeBron James durfte sich nach dem Spiel am Vortag ausruhen. Ohne ihn hat Philadelphia jetzt alle vier Spiele gewonnen.",
+        "Joel Embiid war nicht zu stoppen. Schon zur Pause hatte er 24 Punkte, am Ende 37 – so viele wie noch nie in dieser Saison. Jaylen Brown kam auf 31 Punkte und 13 Rebounds, Tyrese Maxey auf 24 Punkte.",
+        "Im zweiten Viertel trafen die 76ers neun ihrer ersten elf Würfe und gingen mit 78:59 in die Pause. Doch die Nets gaben nicht auf und kamen im letzten Viertel bis auf vier Punkte heran. Dann traf Embiid 51 Sekunden vor Schluss einen Dreier – das war die Entscheidung.",
+        "Bei Brooklyn machte Julius Randle 33 Punkte. Moritz Wagner kam in zehn Minuten auf 4 Punkte und 5 Rebounds. Für die Nets war es die zehnte Niederlage im 13. Spiel."
+      ],
+      "fakten": [
+        "Endstand: Brooklyn Nets – Philadelphia 76ers 123:135",
+        "Joel Embiid: 37 Punkte (Saisonbestwert)",
+        "Jaylen Brown: 31 Punkte, 13 Rebounds",
+        "Tyrese Maxey: 24 Punkte, 9 Assists",
+        "Julius Randle (BKN): 33 Punkte",
+        "Moritz Wagner: 4 Punkte, 5 Rebounds in 10 Minuten",
+        "Philadelphia: 12 Siege, 3 Niederlagen – Platz 1 im Osten"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "PHI",
+        "BKN"
+      ],
+      "spieler": [
+        "Joel Embiid",
+        "Jaylen Brown",
+        "Tyrese Maxey",
+        "LeBron James",
+        "Julius Randle",
+        "Moritz Wagner",
+        "Michael Porter Jr.",
+        "Nolan Traore"
+      ]
+    },
+    {
+      "id": "2026-11-17-magic-siegen-in-boston",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-17",
+      "tags": [],
+      "titel": "Vierter Sieg in Folge: Orlando gewinnt endlich wieder in Boston",
+      "teaser": "Mit einem starken letzten Viertel siegte Orlando bei den Celtics mit 115:105. Franz Wagner war fast überall beteiligt, Tristan da Silva traf drei Dreier.",
+      "text": [
+        "Seit Dezember 2022 hatte Orlando in Boston nicht mehr gewonnen. In der Nacht war es endlich so weit: Die Magic siegten bei den Celtics mit 115:105. Es war ihr vierter Sieg hintereinander. Für Boston war es die erste Heimniederlage der Saison.",
+        "Am Anfang trafen beide Teams kaum. Orlando führte zur Pause trotzdem mit 50:41. Im dritten Viertel kam Boston mit Jayson Tatum zurück und lag vor dem letzten Viertel mit 77:75 vorne. Dann drehte Orlando auf und gewann das Schlussviertel mit 40:28.",
+        "Franz Wagner machte 21 Punkte, verteilte 9 Assists und holte 8 Rebounds. Kurz vor Schluss spielte er einen hohen Pass zum Korb, den Wendell Carter Jr. per Alley-oop verwandelte. Danach traf Desmond Bane zum 110:99 – das Spiel war entschieden. Bane war mit 24 Punkten der Topscorer.",
+        "Tristan da Silva kam auf 13 Punkte. Er traf 3 von 5 Dreiern und holte 3 Steals. Schon am Mittwoch geht es für Orlando weiter: Dann kommt Philadelphia."
+      ],
+      "fakten": [
+        "Endstand: Boston Celtics – Orlando Magic 105:115",
+        "Letztes Viertel: 40:28 für Orlando",
+        "Franz Wagner: 21 Punkte, 9 Assists, 8 Rebounds",
+        "Tristan da Silva: 13 Punkte, 3 von 5 Dreiern, 3 Steals",
+        "Desmond Bane: 24 Punkte",
+        "Jayson Tatum (BOS): 24 Punkte, 12 Rebounds",
+        "Erster Magic-Sieg in Boston seit Dezember 2022"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "BOS",
+        "PHI"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Desmond Bane",
+        "Wendell Carter Jr.",
+        "Anthony Black",
+        "Jayson Tatum",
+        "Paul George",
+        "Payton Pritchard"
+      ]
+    },
+    {
       "id": "2026-11-17-nba-montag-boozer-mitchell",
       "liga": "NBA",
       "lang": "de",

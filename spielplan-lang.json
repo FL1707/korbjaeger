@@ -1,21 +1,4 @@
-{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-18T16:16:18+01:00", "bis": "2027-02-18","spiele":[
-{"liga": "BCL", "zeit": "2026-11-18T18:00:00+01:00", "heim": "AEK", "gast": "FAL", "info": "Gruppe C"},
-{"liga": "BCL", "zeit": "2026-11-18T18:00:00+01:00", "heim": "GSM", "gast": "LEG", "info": "Gruppe B"},
-{"liga": "EL", "zeit": "2026-11-18T18:00:00+01:00", "heim": "BES", "gast": "RMA"},
-{"liga": "BCL", "zeit": "2026-11-18T20:00:00+01:00", "heim": "CIB", "gast": "SIG", "info": "Gruppe B"},
-{"liga": "BCL", "zeit": "2026-11-18T20:30:00+01:00", "heim": "UNI", "gast": "PCE", "info": "Gruppe E"},
-{"liga": "NBA", "zeit": "2026-11-19T01:00:00+01:00", "heim": "CLE", "gast": "MEM"},
-{"liga": "NBA", "zeit": "2026-11-19T01:00:00+01:00", "heim": "IND", "gast": "HOU"},
-{"liga": "NBA", "zeit": "2026-11-19T01:00:00+01:00", "heim": "MIA", "gast": "MIL"},
-{"liga": "NBA", "zeit": "2026-11-19T01:00:00+01:00", "heim": "ORL", "gast": "PHI"},
-{"liga": "NBA", "zeit": "2026-11-19T01:30:00+01:00", "heim": "BKN", "gast": "CHI"},
-{"liga": "NBA", "zeit": "2026-11-19T01:30:00+01:00", "heim": "TOR", "gast": "WAS"},
-{"liga": "NBA", "zeit": "2026-11-19T02:00:00+01:00", "heim": "DAL", "gast": "GSW"},
-{"liga": "NBA", "zeit": "2026-11-19T02:00:00+01:00", "heim": "NOP", "gast": "DET"},
-{"liga": "NBA", "zeit": "2026-11-19T02:00:00+01:00", "heim": "OKC", "gast": "ATL"},
-{"liga": "NBA", "zeit": "2026-11-19T03:30:00+01:00", "heim": "DEN", "gast": "BOS"},
-{"liga": "NBA", "zeit": "2026-11-19T04:00:00+01:00", "heim": "LAL", "gast": "UTA"},
-{"liga": "NBA", "zeit": "2026-11-19T04:00:00+01:00", "heim": "SAC", "gast": "PHX"},
+{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-19T06:17:42+01:00", "bis": "2027-02-19","spiele":[
 {"liga": "EL", "zeit": "2026-11-19T18:15:00+01:00", "heim": "MTA", "gast": "DUB"},
 {"liga": "EL", "zeit": "2026-11-19T19:00:00+01:00", "heim": "ZAL", "gast": "PAO"},
 {"liga": "EL", "zeit": "2026-11-19T20:00:00+01:00", "heim": "FCB", "gast": "BAS"},
@@ -927,5 +910,9 @@
 {"liga": "NBA", "zeit": "2027-02-18T03:30:00+01:00", "heim": "OKC", "gast": "BOS"},
 {"liga": "NBA", "zeit": "2027-02-18T04:00:00+01:00", "heim": "GSW", "gast": "NOP"},
 {"liga": "NBA", "zeit": "2027-02-18T04:00:00+01:00", "heim": "SAC", "gast": "IND"},
-{"liga": "NBA", "zeit": "2027-02-18T04:30:00+01:00", "heim": "LAC", "gast": "CHI"}
+{"liga": "NBA", "zeit": "2027-02-18T04:30:00+01:00", "heim": "LAC", "gast": "CHI"},
+{"liga": "NBA", "zeit": "2027-02-19T01:30:00+01:00", "heim": "MIN", "gast": "SAS"},
+{"liga": "NBA", "zeit": "2027-02-19T02:00:00+01:00", "heim": "MEM", "gast": "BOS"},
+{"liga": "NBA", "zeit": "2027-02-19T04:00:00+01:00", "heim": "LAL", "gast": "HOU"},
+{"liga": "NBA", "zeit": "2027-02-19T04:00:00+01:00", "heim": "POR", "gast": "IND"}
 ]}
