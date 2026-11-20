@@ -2,6 +2,356 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-19-grizzlies-road-record",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Eight in a row: Memphis sets a new road record",
+      "teaser": "The Grizzlies won 124-121 in Cleveland. It was their eighth road win in a row – a new team record.",
+      "text": [
+        "The Memphis Grizzlies beat the Cleveland Cavaliers 124-121. Memphis has now won eight road games in a row. That is a new record for the team. The old record was seven, from 2010.",
+        "It was a very exciting game. The lead changed 22 times. With 2.3 seconds left, Taylor Hendricks made two free throws for the final score.",
+        "Cam Spencer was the top scorer for Memphis with 26 points. He made 9 of his 11 shots. Rookie Cameron Boozer had 18 points.",
+        "Donovan Mitchell scored 34 points for Cleveland, but it was not enough. Memphis now has 11 wins and 4 losses."
+      ],
+      "vokabeln": [
+        {
+          "en": "road game",
+          "de": "Auswärtsspiel"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        },
+        {
+          "en": "record",
+          "de": "Rekord"
+        },
+        {
+          "en": "the lead changed",
+          "de": "die Führung wechselte"
+        }
+      ],
+      "fakten": [
+        "Final score: Cleveland Cavaliers 121, Memphis Grizzlies 124",
+        "8 road wins in a row – new Grizzlies record",
+        "22 lead changes",
+        "Cam Spencer: 26 points (9 of 11)",
+        "Cameron Boozer: 18 points",
+        "Donovan Mitchell (CLE): 34 points"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MEM",
+        "CLE"
+      ],
+      "spieler": [
+        "Cam Spencer",
+        "Cameron Boozer",
+        "Taylor Hendricks",
+        "Donovan Mitchell",
+        "Jarrett Allen"
+      ]
+    },
+    {
+      "id": "2026-11-19-bulls-dreier-rekord-nets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "15 Dreier in einer Halbzeit: Bulls stellen Rekord auf – Nets chancenlos",
+      "teaser": "Chicago gewinnt 137:107 in Brooklyn. Moritz Wagner trifft alle seine vier Würfe.",
+      "text": [
+        "Die Chicago Bulls haben in Brooklyn eine Dreier-Show gezeigt. In der ersten Halbzeit trafen sie 15 Dreier – so viele hatten die Bulls noch nie in einer Hälfte geschafft. Zur Pause stand es schon 76:51.",
+        "Am Ende gewann Chicago 137:107 und traf insgesamt 21 Dreier. Zwischendurch führten die Bulls sogar mit 37 Punkten. Matas Buzelis war mit 25 Punkten der Topscorer, so viele hatte er in dieser Saison noch nie gemacht. Josh Giddey schaffte 18 Punkte, 14 Rebounds und 9 Assists.",
+        "Bei den Nets war Moritz Wagner einer der wenigen Lichtblicke. Der Deutsche traf alle 4 Würfe, darunter 2 Dreier, und machte 11 Punkte in 20 Minuten. Bester Werfer der Nets war Egor Dëmin mit 22 Punkten.",
+        "Für die Bulls war es der erste Sieg in Brooklyn seit November 2022. Die Nets haben dagegen drei Spiele in Folge verloren. Am Freitag kommt Orlando mit Franz Wagner nach Brooklyn – dann treffen die Wagner-Brüder aufeinander."
+      ],
+      "fakten": [
+        "Endstand: Brooklyn Nets – Chicago Bulls 107:137",
+        "Bulls: 15 Dreier in der ersten Halbzeit – Vereinsrekord",
+        "Bulls: 21 Dreier im ganzen Spiel",
+        "Matas Buzelis: 25 Punkte",
+        "Josh Giddey: 18 Punkte, 14 Rebounds, 9 Assists",
+        "Moritz Wagner (BKN): 11 Punkte, 4 von 4 Würfen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "BKN",
+        "CHI",
+        "ORL"
+      ],
+      "spieler": [
+        "Moritz Wagner",
+        "Egor Dëmin",
+        "Matas Buzelis",
+        "Josh Giddey",
+        "Norman Powell",
+        "Nic Claxton",
+        "Franz Wagner"
+      ]
+    },
+    {
+      "id": "2026-11-19-giannis-heat-bucks",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Giannis gegen sein altes Team: Miami gewinnt zum sechsten Mal in Folge",
+      "teaser": "Giannis Antetokounmpo spielte zum ersten Mal gegen Milwaukee. Er hatte fast ein Triple-Double, Miami gewann 137:130.",
+      "text": [
+        "Viele Jahre war Giannis Antetokounmpo der Star der Milwaukee Bucks. Mit ihnen wurde er 2021 Meister. Jetzt spielt er für Miami – und traf zum ersten Mal auf sein altes Team.",
+        "Giannis machte 27 Punkte, 14 Rebounds und 9 Assists. Zum Triple-Double fehlte ihm nur ein Assist. Bam Adebayo kam auf 26 Punkte, Davion Mitchell traf 6 von 7 Dreiern und machte 24 Punkte. Miami traf im ganzen Spiel 22 Dreier.",
+        "Die Heat führten zwischendurch mit 30 Punkten. In den letzten sechseinhalb Minuten holte Milwaukee noch mächtig auf, aber es reichte nicht mehr. Miami gewann 137:130.",
+        "Für Miami war es der sechste Sieg in Folge. Nach vier Niederlagen zum Start haben sie jetzt 9 von 11 Spielen gewonnen. Bei den Bucks läuft es dagegen gar nicht: Sie verloren zum elften Mal hintereinander und haben erst einen Sieg in 15 Spielen. So schlecht sind sie noch nie in eine Saison gestartet."
+      ],
+      "fakten": [
+        "Endstand: Miami Heat – Milwaukee Bucks 137:130",
+        "Giannis Antetokounmpo: 27 Punkte, 14 Rebounds, 9 Assists",
+        "Bam Adebayo: 26 Punkte",
+        "Davion Mitchell: 24 Punkte, 6 von 7 Dreiern",
+        "Miami: 6 Siege in Folge",
+        "Milwaukee: 11 Niederlagen in Folge, Bilanz 1:14"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "MIA",
+        "MIL"
+      ],
+      "spieler": [
+        "Giannis Antetokounmpo",
+        "Bam Adebayo",
+        "Davion Mitchell",
+        "Klay Thompson",
+        "Kyle Kuzma",
+        "Brayden Burries"
+      ]
+    },
+    {
+      "id": "2026-11-18-bayern-verlaengerung-kaunas",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "33 Punkte von Thiemann – trotzdem verliert Bayern in Kaunas nach Verlängerung",
+      "teaser": "Der FC Bayern lag in Litauen lange vorne und musste in die Verlängerung. Dort gewann Žalgiris Kaunas mit 117:114. Johannes Thiemann machte 33 Punkte.",
+      "text": [
+        "Was für ein Krimi in der Euroleague! Der FC Bayern hat bei Žalgiris Kaunas mit 114:117 nach Verlängerung verloren. Nach 40 Minuten stand es 101:101.",
+        "Die Bayern starteten richtig gut. Nach dem ersten Viertel führten sie mit 25:19, zur Pause mit 57:50. Danach kam Kaunas zurück. Vor dem letzten Viertel lag München nur noch mit einem Punkt vorne. Im Schlussviertel ging es hin und her, keiner konnte sich absetzen.",
+        "In der Verlängerung hatte Kaunas mehr Kraft und gewann die fünf Extra-Minuten mit 16:13. Bester Werfer der Gastgeber war Carsen Edwards mit 32 Punkten. Er spielte früher selbst für den FC Bayern.",
+        "Bei den Bayern war Johannes Thiemann der Topscorer. Der Nationalspieler machte 33 Punkte und traf 4 von 6 Dreiern. Duane Washington kam auf 27 Punkte, Oscar da Silva auf 16 Punkte und 12 Rebounds.",
+        "Viel Zeit zum Ärgern bleibt nicht: Schon am Donnerstag um 20 Uhr spielt Bayern zu Hause gegen Baskonia. Und am Sonntag wartet in der Bundesliga das Top-Spiel bei ALBA Berlin."
+      ],
+      "fakten": [
+        "Endstand: Žalgiris Kaunas – FC Bayern 117:114 nach Verlängerung",
+        "Nach 40 Minuten: 101:101",
+        "Johannes Thiemann: 33 Punkte, 4 von 6 Dreiern",
+        "Duane Washington: 27 Punkte",
+        "Oscar da Silva: 16 Punkte, 12 Rebounds",
+        "Carsen Edwards (Kaunas): 32 Punkte",
+        "Bayern-Bilanz in der Euroleague: 3 Siege, 9 Niederlagen"
+      ],
+      "quellen": [
+        "Euroleague",
+        "FC Bayern Basketball"
+      ],
+      "teams": [
+        "FCB",
+        "ZAL",
+        "BAS",
+        "ALBA"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-18-dbb-damen-siegen-in-portugal",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Klarer Sieg in Portugal: DBB-Damen gewinnen 73:52",
+      "teaser": "Die deutschen Basketballerinnen haben in der EM-Qualifikation in Portugal deutlich gewonnen. Frieda Bühner war mit 15 Punkten die beste Werferin.",
+      "text": [
+        "Die deutsche Damen-Nationalmannschaft hat ihr Auswärtsspiel in Portugal mit 73:52 gewonnen. Gespielt wurde in Odivelas, einer Stadt direkt neben Lissabon.",
+        "Deutschland gewann alle vier Viertel. Zur Pause stand es 37:27, nach dem dritten Viertel schon 55:41. Bundestrainer Olaf Lange war vor allem mit der Verteidigung zufrieden: Portugal kam nur auf 52 Punkte.",
+        "Frieda Bühner machte 15 Punkte. Emma Eichmeyer kam auf 14, Luisa Geiselsöder auf 13 und Alexandra Wilke auf 12 Punkte. Emily Bessoir fehlte, Leonie Fiebich bekam eine Pause.",
+        "Für das deutsche Team war es der zweite Sieg in der Qualifikation, nach dem Erfolg in Dänemark am Samstag. Weiter geht es erst im Februar 2027 – dann gegen Ungarn, Dänemark und noch einmal Portugal. Die besten zwei der Gruppe fahren zur EM 2027."
+      ],
+      "fakten": [
+        "Endstand: Portugal – Deutschland 52:73",
+        "Viertel: 21:14, 16:13, 18:14, 18:11 für Deutschland",
+        "Frieda Bühner: 15 Punkte",
+        "Emma Eichmeyer: 14 Punkte",
+        "Luisa Geiselsöder: 13 Punkte",
+        "Alexandra Wilke: 12 Punkte",
+        "Nächste Spiele: Februar 2027"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "PRT",
+        "HUN",
+        "DNK"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-18-bonn-siegt-in-herzliya",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "Bonn dreht das Spiel gegen Herzliya – dritter Sieg in der Champions League",
+      "teaser": "Die Telekom Baskets Bonn lagen nach dem ersten Viertel hinten und gewannen am Ende mit 85:79. In Gruppe H ist Bonn jetzt Zweiter.",
+      "text": [
+        "Die Telekom Baskets Bonn haben in der Basketball Champions League ihren dritten Sieg geholt. Gegen Bnei Herzliya aus Israel gewann Bonn mit 85:79.",
+        "Der Start ging daneben: Nach dem ersten Viertel lag Bonn mit 15:21 hinten. Im zweiten Viertel kämpften sich die Baskets heran, zur Pause stand es nur noch 41:42. Nach der Pause übernahm Bonn die Führung und gab sie nicht mehr her.",
+        "In Gruppe H hat Bonn jetzt 3 Siege und 1 Niederlage. Nur Joventut Badalona ist noch ungeschlagen. Die Spanier gewannen knapp mit 74:70 gegen den FC Porto. Herzliya hat nach vier Spielen noch keinen Sieg.",
+        "Auch in den anderen Gruppen ging es am Dienstag spannend zu: Reggiana gewann 102:95 bei Juventus Utena, und Vilpas Vikings siegten 104:95 in Antwerpen. Für Bonn geht es am Sonntag in der Bundesliga weiter: Dann kommt Ulm."
+      ],
+      "fakten": [
+        "Endstand: Bnei Herzliya – Telekom Baskets Bonn 79:85",
+        "Viertel aus Bonner Sicht: 15:21, 26:21, 20:14, 24:23",
+        "Gruppe H: Joventut 4-0, Bonn 3-1, Porto 1-3, Herzliya 0-4",
+        "Joventut – Porto 74:70",
+        "Juventus Utena – Reggiana 95:102",
+        "Antwerpen – Vilpas 95:104"
+      ],
+      "quellen": [
+        "Basketball Champions League",
+        "Telekom Baskets Bonn"
+      ],
+      "teams": [
+        "BON",
+        "HRZ",
+        "AJB",
+        "FCP",
+        "REG",
+        "JUV",
+        "VLP",
+        "WGA",
+        "ULM"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-18-wolves-lyles-block-lillard",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "duell",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "One point, one block: Minnesota beats Portland again",
+      "teaser": "Minnesota won 106-105. Trey Lyles blocked Damian Lillard with 1.3 seconds left.",
+      "text": [
+        "The Minnesota Timberwolves beat the Portland Trail Blazers 106-105. It was a very close game.",
+        "With 1.3 seconds left, Damian Lillard drove to the basket. But Trey Lyles jumped and blocked his layup. Portland got the ball back, but Toumani Camara missed the last shot.",
+        "Ayo Dosunmu was the top scorer with 30 points. He made 7 of 11 three-pointers. Jaden McDaniels scored 22 points.",
+        "For Portland, Lillard had 25 points and Jrue Holiday had 23. The two teams also played the night before. Minnesota won both games and now has 11 wins and 4 losses."
+      ],
+      "vokabeln": [
+        {
+          "en": "close game",
+          "de": "knappes Spiel"
+        },
+        {
+          "en": "to block a shot",
+          "de": "einen Wurf blocken"
+        },
+        {
+          "en": "layup",
+          "de": "Korbleger"
+        },
+        {
+          "en": "to miss",
+          "de": "verfehlen, danebenwerfen"
+        }
+      ],
+      "fakten": [
+        "Final score: Minnesota Timberwolves 106, Portland Trail Blazers 105",
+        "Trey Lyles blocked Damian Lillard with 1.3 seconds left",
+        "Ayo Dosunmu: 30 points, 7 of 11 threes",
+        "Jaden McDaniels: 22 points",
+        "Damian Lillard (POR): 25 points",
+        "Jrue Holiday (POR): 23 points"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "MIN",
+        "POR"
+      ],
+      "spieler": [
+        "Trey Lyles",
+        "Damian Lillard",
+        "Ayo Dosunmu",
+        "Jaden McDaniels",
+        "Jrue Holiday",
+        "Toumani Camara",
+        "LaMelo Ball",
+        "Donovan Clingan"
+      ]
+    },
+    {
+      "id": "2026-11-18-dbb-kader-wm-quali-lettland-polen",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-18",
+      "tags": [],
+      "titel": "WM-Quali: Bundestrainer Mumbrú nominiert 16 Spieler für Lettland und Polen",
+      "teaser": "Ende November geht es für die Herren-Nationalmannschaft um viel. Ein Sieg fehlt noch für die WM 2027. Der Kader steht.",
+      "text": [
+        "Die deutschen Basketballer stehen kurz vor der WM 2027 in Katar. Laut DBB fehlt nur noch ein Sieg. In der Gruppe K haben Deutschland, Kroatien und Polen je 7 Siege und 1 Niederlage.",
+        "Bundestrainer Álex Mumbrú hat dafür 16 Spieler nominiert. Vom FC Bayern sind Oscar da Silva, Justus Hollatz und Andreas Obst dabei, von ALBA Berlin Malte Delow, Jack Kayil und Jonas Mattisseck. Auch Michael Kessens aus Bonn und Michael Rataj aus Ulm stehen im Kader.",
+        "Das Team trifft sich am Montag, 23. November, in Frankfurt. Am Freitag, 27. November, spielt Deutschland um 18:30 Uhr in Riga gegen Lettland. Am Montag, 30. November, kommt Polen nach Frankfurt, Anwurf ist um 19:30 Uhr.",
+        "Beide Spiele laufen live bei MagentaSport. Die NBA-Spieler wie Dennis Schröder oder Franz Wagner sind nicht dabei, weil in der NBA zur selben Zeit gespielt wird."
+      ],
+      "fakten": [
+        "Lettland – Deutschland: Freitag, 27.11., 18:30 Uhr in Riga",
+        "Deutschland – Polen: Montag, 30.11., 19:30 Uhr in Frankfurt",
+        "Gruppe K: Deutschland, Kroatien und Polen je 7-1, Lettland 4-4",
+        "16 Spieler im Kader, u. a. Obst, da Silva, Hollatz, Mattisseck, Delow",
+        "Vorbereitung ab 23.11. in Frankfurt"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "POL",
+        "CRO",
+        "FCB",
+        "ALBA",
+        "BON",
+        "ULM"
+      ],
+      "spieler": [
+        "Dennis Schröder",
+        "Franz Wagner"
+      ]
+    },
+    {
       "id": "2026-11-18-euroleague-vezenkov-37",
       "liga": "EL",
       "lang": "de",
