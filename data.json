@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-20T06:22:01+01:00",
-  "ausgabe": "Morgenausgabe",
-  "gruss": "Guten Morgen und schönen Freitag! Der FC Bayern hat Baskonia mit 100:81 geschlagen – Duane Washington machte 23 Punkte. In Paris entschied ein Dreier von Nadir Hifi 16 Sekunden vor Schluss das Spiel. In der Nacht verloren Stephen Currys Warriors ohne ihn auch in Memphis. Heute Nacht kommt es im NBA Cup zum Bruderduell: Moritz Wagner mit Brooklyn gegen Franz Wagner mit Orlando. Viel Spaß beim neuen Tagesquiz!",
+  "aktualisiert": "2026-11-20T16:17:10+01:00",
+  "ausgabe": "Nachmittagsausgabe",
+  "gruss": "Hallo und schönen Freitagnachmittag! Heute Abend geht es in der Euroleague weiter, und in Würzburg spielt die Bundesliga. Heute Nacht wird es im NBA Cup spannend: Moritz Wagner trifft mit Brooklyn auf seinen Bruder Franz Wagner und Orlando, Dennis Schröder spielt mit Charlotte in Atlanta und Isaiah Hartenstein mit OKC gegen New Orleans. Am Sonntag wartet dann das große Bundesliga-Duell ALBA Berlin gegen FC Bayern. Hast du das Tagesquiz schon geschafft?",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-20",
   "zahlDesTages": {
-    "zahl": "12",
-    "text": "So viele Spiele haben die Milwaukee Bucks hintereinander verloren. Nur 1996 war eine Pleitenserie der Bucks noch länger – damals waren es 15 Niederlagen."
+    "zahl": "98,7",
+    "text": "So viel Prozent seiner Freiwürfe hat Stephen Curry in dieser Saison getroffen. Von der Linie geht bei ihm fast jeder Wurf rein."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -3092,8 +3092,8 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 14,
-        "pkt": 27.0,
+        "spiele": 15,
+        "pkt": 26.6,
         "reb": 2.9,
         "ast": 5.9
       },
@@ -3144,9 +3144,9 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 15,
-        "pkt": 28.4,
-        "reb": 12.0,
+        "spiele": 16,
+        "pkt": 28.6,
+        "reb": 11.9,
         "ast": 3.3
       },
       "notiz": "Gegen die Clippers machte er 32 Punkte und 11 Rebounds – schon sein siebtes Spiel mit mindestens 30 Punkten."
@@ -3157,10 +3157,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 14,
-        "pkt": 20.1,
-        "reb": 3.0,
-        "ast": 4.4
+        "spiele": 15,
+        "pkt": 20.9,
+        "reb": 3.2,
+        "ast": 4.1
       },
       "notiz": "Bei seiner Rückkehr nach Milwaukee machte er 33 Punkte, so viele wie noch nie in dieser Saison."
     }
