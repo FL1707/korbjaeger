@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-21T06:22:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-21",
-  "gruss": "Guten Morgen und schönes Wochenende! In der Nacht gab es das erste Bruder-Duell der Wagners: Franz Wagner traf 2,4 Sekunden vor Schluss zum Sieg für Orlando gegen Moritz Wagner und Brooklyn. James Harden machte 51 Punkte, und OKC holte mit 40 Punkten von Shai Gilgeous-Alexander einen großen Rückstand auf. Heute und morgen läuft der 10. Spieltag der Bundesliga – am Sonntag um 18 Uhr spielt ALBA Berlin gegen den FC Bayern. Viel Spaß beim neuen Quiz!",
+  "aktualisiert": "2026-11-21T16:30:00+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-21",
+  "gruss": "Hallo und schönen Samstag! In der Nacht haben die Los Angeles Lakers einen Krimi gegen Sacramento mit 106:104 gewonnen – sie sind jetzt das Team mit den meisten Siegen in der NBA. Denver drehte das Spiel gegen Houston. Heute Abend geht der 10. Spieltag der Bundesliga weiter, und am Sonntag um 18 Uhr spielt ALBA Berlin gegen den FC Bayern. Das Quiz von heute Morgen wartet noch auf dich!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-21",
   "zahlDesTages": {
-    "zahl": "26",
-    "text": "So viele Spiele mit mindestens 50 Punkten hat James Harden jetzt. Nur zwei Spieler in der NBA-Geschichte haben das öfter geschafft."
+    "zahl": "14",
+    "text": "So viele Siege haben die Los Angeles Lakers schon – bei nur 3 Niederlagen. Kein anderes NBA-Team hat gerade mehr Siege."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -584,6 +584,53 @@
       "spieler": []
     },
     {
+      "id": "2026-11-21-lakers-kings-nuggets-rockets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-21",
+      "tags": [],
+      "titel": "Lakers gewinnen Krimi gegen Sacramento – Denver dreht das Spiel gegen Houston",
+      "teaser": "Quentin Grimes trifft 57 Sekunden vor Schluss einen wichtigen Dreier. Die Lakers haben jetzt 14 Siege – mehr als jedes andere Team.",
+      "text": [
+        "In der Nacht auf Samstag gab es im Westen der USA noch zwei spannende Spiele im NBA Cup.",
+        "Die Los Angeles Lakers gewannen gegen die Sacramento Kings nur knapp mit 106:104. Lange war das Spiel ausgeglichen. 1:56 Minuten vor dem Ende stand es 103:103. Dann traf Quentin Grimes mit einem Step-back-Dreier zum 106:103. Die Kings hatten am Ende noch eine Chance, doch Zach LaVine verfehlte kurz vor der Schlusssirene einen weiten Dreier.",
+        "Bester Werfer war De'Andre Hunter von den Kings mit 30 Punkten. Er traf 12 von 16 Würfen. Für die Lakers machte Luka Dončić 25 Punkte und 8 Assists. Die Lakers haben jetzt 14 Siege und nur 3 Niederlagen – das ist die beste Bilanz der ganzen NBA. Sacramento hat erst ein Spiel gewonnen.",
+        "Auch Denver feierte einen Sieg. Die Nuggets lagen gegen die Houston Rockets nach drei Vierteln noch mit 99:102 hinten. Im letzten Viertel drehten sie auf und gewannen es 34:22. Am Ende hieß es 133:124. Nikola Jokić kam auf 26 Punkte und 11 Assists. Bei Houston schaffte Alperen Sengun ein Triple-Double: 28 Punkte, 11 Rebounds und 10 Assists."
+      ],
+      "fakten": [
+        "Endstand: Los Angeles Lakers – Sacramento Kings 106:104",
+        "De'Andre Hunter (Kings): 30 Punkte, 12 von 16 Würfen",
+        "Luka Dončić (Lakers): 25 Punkte, 8 Assists",
+        "Endstand: Denver Nuggets – Houston Rockets 133:124",
+        "Nikola Jokić (Nuggets): 26 Punkte, 11 Assists, 7 Rebounds",
+        "Alperen Sengun (Rockets): 28 Punkte, 11 Rebounds, 10 Assists"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "LAL",
+        "SAC",
+        "DEN",
+        "HOU"
+      ],
+      "spieler": [
+        "Quentin Grimes",
+        "Zach LaVine",
+        "De'Andre Hunter",
+        "Luka Dončić",
+        "Domantas Sabonis",
+        "Nikola Jokić",
+        "Alperen Sengun",
+        "Amen Thompson",
+        "Fred VanVleet",
+        "Kevin Durant",
+        "Christian Braun",
+        "Aaron Gordon"
+      ]
+    },
+    {
       "id": "2026-11-20-bayern-schlaegt-baskonia",
       "liga": "EL",
       "lang": "de",
@@ -1038,6 +1085,50 @@
       }
     },
     {
+      "liga": "NBA",
+      "datum": "2026-11-20",
+      "runde": "NBA Cup",
+      "heim": "DEN",
+      "gast": "HOU",
+      "heimPkt": 133,
+      "gastPkt": 124,
+      "newsId": "2026-11-21-lakers-kings-nuggets-rockets",
+      "bericht": {
+        "text": [
+          "Houston führte nach drei Vierteln mit 102:99. Doch dann spielte Denver ein starkes letztes Viertel und gewann es 34:22.",
+          "Bei den Nuggets machten sieben Spieler mindestens 10 Punkte. Nikola Jokić verteilte 11 Assists."
+        ],
+        "highlights": [
+          "Nikola Jokić (DEN): 26 Punkte, 11 Assists",
+          "Alperen Sengun (HOU): Triple-Double mit 28 Punkten, 11 Rebounds, 10 Assists",
+          "Amen Thompson (HOU): 22 Punkte, 10 von 12 Würfen",
+          "Letztes Viertel: 34:22 für Denver"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-20",
+      "runde": "NBA Cup",
+      "heim": "LAL",
+      "gast": "SAC",
+      "heimPkt": 106,
+      "gastPkt": 104,
+      "newsId": "2026-11-21-lakers-kings-nuggets-rockets",
+      "bericht": {
+        "text": [
+          "Ein ganz enges Spiel: 1:56 Minuten vor Schluss stand es 103:103. Quentin Grimes traf 57 Sekunden vor dem Ende einen Step-back-Dreier zum 106:103.",
+          "Sacramento kam nur noch auf zwei Punkte heran. Zach LaVine verfehlte kurz vor Schluss einen weiten Dreier. Die Lakers haben nun die beste Bilanz der NBA."
+        ],
+        "highlights": [
+          "De'Andre Hunter (SAC): 30 Punkte, 12 von 16 Würfen",
+          "Luka Dončić (LAL): 25 Punkte, 8 Assists",
+          "Quentin Grimes (LAL): wichtiger Dreier zum 106:103",
+          "Lakers: 14 Siege, 3 Niederlagen"
+        ]
+      }
+    },
+    {
       "liga": "EL",
       "datum": "2026-11-20",
       "runde": "Euroleague · 13. Runde",
@@ -1343,317 +1434,6 @@
         "highlights": [
           "Dwayne Bacon (DUB): 18 Punkte",
           "Yam Madar (MTA): 17 Punkte, 5 Assists"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "OKC",
-      "gast": "ATL",
-      "heimPkt": 112,
-      "gastPkt": 117,
-      "newsId": "2026-11-19-hawks-schlagen-okc",
-      "bericht": {
-        "text": [
-          "Atlanta führte zur Pause mit 64:51. OKC kam im dritten Viertel zurück und glich zum 83:83 aus, doch im Schlussviertel trafen die Hawks wieder ihre Dreier.",
-          "Isaiah Hartenstein holte 17 Rebounds. Luguentz Dort und Aaron Wiggins, die 2025 mit OKC Meister wurden, gewannen bei ihrer Rückkehr."
-        ],
-        "highlights": [
-          "Shai Gilgeous-Alexander: 34 Punkte",
-          "Isaiah Hartenstein: 17 Rebounds, 6 Assists",
-          "Onyeka Okongwu (ATL): 28 Punkte",
-          "Jalen Johnson (ATL): 16 Punkte, 12 Rebounds, 11 Assists"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "ORL",
-      "gast": "PHI",
-      "heimPkt": 116,
-      "gastPkt": 121,
-      "newsId": "2026-11-19-franz-wagner-magic-sixers",
-      "bericht": {
-        "text": [
-          "Orlando führte am Anfang mit 17 Punkten und lag 41 Minuten vorne. Am Ende drehte Philadelphia das Spiel: VJ Edgecombe traf 1:36 Minuten vor Schluss einen Dreier zum 114:112.",
-          "Damit endete Orlandos Serie von vier Siegen. Franz Wagner war mit 27 Punkten und 11 Assists der beste Magic-Spieler."
-        ],
-        "highlights": [
-          "Franz Wagner: 27 Punkte, 8 Rebounds, 11 Assists",
-          "Tristan da Silva: 12 Punkte",
-          "Joel Embiid (PHI): 26 Punkte",
-          "VJ Edgecombe (PHI): 24 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "DAL",
-      "gast": "GSW",
-      "heimPkt": 116,
-      "gastPkt": 94,
-      "newsId": "2026-11-19-flagg-33-mavs-warriors",
-      "bericht": {
-        "text": [
-          "Dallas führte zwischendurch mit 29 Punkten. Golden State fehlte weiter Stephen Curry und blieb zum dritten Mal in Folge unter 100 Punkten.",
-          "Cooper Flagg traf 11 von 15 Würfen und alle 8 Freiwürfe."
-        ],
-        "highlights": [
-          "Cooper Flagg: 33 Punkte, 9 Assists",
-          "P.J. Washington: 21 Punkte, 5 Dreier",
-          "Will Richard (GSW): 20 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "CLE",
-      "gast": "MEM",
-      "heimPkt": 121,
-      "gastPkt": 124,
-      "newsId": "2026-11-19-grizzlies-road-record",
-      "bericht": {
-        "text": [
-          "Ein Krimi mit 22 Führungswechseln. Memphis machte am Ende die letzten 8 Punkte zu 2 und gewann.",
-          "Für die Grizzlies war es der achte Auswärtssieg in Folge – Vereinsrekord."
-        ],
-        "highlights": [
-          "Cam Spencer: 26 Punkte, 9 von 11 Würfen",
-          "Cameron Boozer: 18 Punkte",
-          "Donovan Mitchell (CLE): 34 Punkte",
-          "8. Auswärtssieg in Folge: Rekord für Memphis"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "BKN",
-      "gast": "CHI",
-      "heimPkt": 107,
-      "gastPkt": 137,
-      "newsId": "2026-11-19-bulls-dreier-rekord-nets",
-      "bericht": {
-        "text": [
-          "Chicago traf in der ersten Halbzeit 15 Dreier – Vereinsrekord – und führte zur Pause 76:51.",
-          "Moritz Wagner traf alle 4 Würfe und machte 11 Punkte."
-        ],
-        "highlights": [
-          "Matas Buzelis: 25 Punkte",
-          "Josh Giddey: 18 Punkte, 14 Rebounds, 9 Assists",
-          "Moritz Wagner (BKN): 11 Punkte in 20 Minuten",
-          "Egor Dëmin (BKN): 22 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "MIA",
-      "gast": "MIL",
-      "heimPkt": 137,
-      "gastPkt": 130,
-      "newsId": "2026-11-19-giannis-heat-bucks",
-      "bericht": {
-        "text": [
-          "Giannis Antetokounmpo spielte zum ersten Mal gegen sein altes Team. Miami führte mit 30 Punkten, dann holte Milwaukee am Ende noch auf.",
-          "Miami gewann zum sechsten Mal in Folge, die Bucks verloren zum elften Mal hintereinander."
-        ],
-        "highlights": [
-          "Giannis Antetokounmpo: 27 Punkte, 14 Rebounds, 9 Assists",
-          "Bam Adebayo: 26 Punkte",
-          "Davion Mitchell: 24 Punkte, 6 von 7 Dreiern",
-          "Kyle Kuzma (MIL): 26 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "IND",
-      "gast": "HOU",
-      "heimPkt": 104,
-      "gastPkt": 119,
-      "bericht": {
-        "text": [
-          "Houston startete mit einem 15:0-Lauf und führte früh mit 27:10. Danach kam Indiana nie näher als 9 Punkte heran.",
-          "Die Rockets trafen 19 Dreier und gewannen zum fünften Mal in sechs Spielen."
-        ],
-        "highlights": [
-          "Kevin Durant: 21 Punkte",
-          "Reed Sheppard: 20 Punkte, 6 von 7 Dreiern",
-          "Pascal Siakam (IND): 24 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "TOR",
-      "gast": "WAS",
-      "heimPkt": 99,
-      "gastPkt": 103,
-      "bericht": {
-        "text": [
-          "Washington beendete eine Serie von acht Niederlagen. Ein 11:0-Lauf im letzten Viertel brachte die Wizards mit 91:82 nach vorne.",
-          "Toronto verlor zum sechsten Mal in Folge."
-        ],
-        "highlights": [
-          "Anthony Davis: 25 Punkte, 14 Rebounds",
-          "AJ Dybantsa: 23 Punkte, 12 Rebounds",
-          "Immanuel Quickley (TOR): 24 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "NOP",
-      "gast": "DET",
-      "heimPkt": 109,
-      "gastPkt": 122,
-      "bericht": {
-        "text": [
-          "Detroit traf 17 Dreier und hatte sieben Spieler mit mindestens 10 Punkten. Die Pistons gewannen ohne Cade Cunningham.",
-          "Es war Detroits fünfter Sieg in sechs Spielen."
-        ],
-        "highlights": [
-          "John Collins: 20 Punkte, 4 Dreier",
-          "Daniss Jenkins: 17 Punkte, 9 Assists",
-          "Zion Williamson (NOP): 24 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "DEN",
-      "gast": "BOS",
-      "heimPkt": 105,
-      "gastPkt": 101,
-      "bericht": {
-        "text": [
-          "Boston führte zur Pause mit 61:49. Im dritten Viertel holte Denver mit 31:19 auf und gewann das Spiel im Schlussviertel."
-        ],
-        "highlights": [
-          "Nikola Jokić: 24 Punkte, 8 Rebounds, 9 Assists",
-          "Jamal Murray: 21 Punkte",
-          "Jayson Tatum (BOS): 24 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-18",
-      "runde": "Euroleague · 12. Runde",
-      "heim": "BES",
-      "gast": "RMA",
-      "heimPkt": 83,
-      "gastPkt": 79,
-      "newsId": "2026-11-19-besiktas-schlaegt-real",
-      "bericht": {
-        "text": [
-          "Beşiktaş führte zur Pause 45:37 und vor dem letzten Viertel 64:54. Real Madrid kam am Ende noch heran, aber Beşiktaş gewann."
-        ],
-        "highlights": [
-          "Daquan Jeffries: 20 Punkte, 4 Dreier",
-          "Scottie Wilbekin und Lonnie Walker: je 15 Punkte",
-          "Théo Maledon (Real): 22 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-11-18",
-      "runde": "Champions League · Gruppe C",
-      "heim": "AEK",
-      "gast": "FAL",
-      "heimPkt": 90,
-      "gastPkt": 89,
-      "newsId": "2026-11-19-bcl-aek-krimi-cibona"
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-11-18",
-      "runde": "Champions League · Gruppe B",
-      "heim": "GSM",
-      "gast": "LEG",
-      "heimPkt": 88,
-      "gastPkt": 81,
-      "newsId": "2026-11-19-bcl-aek-krimi-cibona"
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-11-18",
-      "runde": "Champions League · Gruppe B",
-      "heim": "CIB",
-      "gast": "SIG",
-      "heimPkt": 101,
-      "gastPkt": 79,
-      "newsId": "2026-11-19-bcl-aek-krimi-cibona"
-    },
-    {
-      "liga": "BCL",
-      "datum": "2026-11-18",
-      "runde": "Champions League · Gruppe E",
-      "heim": "UNI",
-      "gast": "PCE",
-      "heimPkt": 94,
-      "gastPkt": 66,
-      "newsId": "2026-11-19-bcl-aek-krimi-cibona"
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "SAC",
-      "gast": "PHX",
-      "heimPkt": 107,
-      "gastPkt": 128,
-      "bericht": {
-        "text": [
-          "Phoenix gewann deutlich in Sacramento. Bei den Kings war Rookie Darius Acuff Jr. mit 36 Punkten der beste Werfer."
-        ],
-        "highlights": [
-          "Dillon Brooks (PHX): 29 Punkte",
-          "Darius Acuff Jr. (SAC): 36 Punkte",
-          "Domantas Sabonis (SAC): 13 Rebounds"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-18",
-      "runde": "NBA",
-      "heim": "LAL",
-      "gast": "UTA",
-      "heimPkt": 97,
-      "gastPkt": 109,
-      "newsId": "2026-11-19-jazz-stoppen-lakers-serie",
-      "bericht": {
-        "text": [
-          "Lange war das Spiel ausgeglichen. Im letzten Viertel machte Utah dann 15 Punkte hintereinander und führte plötzlich 98:83. Die Lakers kamen nicht mehr zurück.",
-          "Damit endete die Siegesserie der Lakers nach 9 Spielen. Für die Jazz war es schon der zweite Sieg in zwei Tagen in Los Angeles – am Abend davor hatten sie die Clippers geschlagen."
-        ],
-        "highlights": [
-          "Keyonte George (UTA): 30 Punkte, 10 Assists",
-          "Ace Bailey (UTA): 19 Punkte, 10 davon im letzten Viertel",
-          "Mo Bamba (UTA): 16 Rebounds",
-          "Luka Dončić (LAL): 29 Punkte, aber nur 2 von 12 Dreiern"
         ]
       }
     },
@@ -2147,7 +1927,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 21.11., 6:30 Uhr · nach den Spielen vom 20.11. (US-Zeit), ohne Denver – Houston und Lakers – Sacramento",
+      "stand": "Stand: 21.11., 16:30 Uhr · nach allen Spielen vom 20.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2165,24 +1945,24 @@
       "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
       "zeilen": [
         {
+          "team": "LAL",
+          "s": 14,
+          "n": 3
+        },
+        {
           "team": "SAS",
           "s": 13,
           "n": 3
         },
         {
-          "team": "LAL",
-          "s": 13,
-          "n": 3
+          "team": "MEM",
+          "s": 12,
+          "n": 4
         },
         {
           "team": "HOU",
           "s": 12,
-          "n": 4
-        },
-        {
-          "team": "MEM",
-          "s": 12,
-          "n": 4
+          "n": 5
         },
         {
           "team": "MIN",
@@ -2195,14 +1975,14 @@
           "n": 5
         },
         {
+          "team": "DEN",
+          "s": 9,
+          "n": 5
+        },
+        {
           "team": "OKC",
           "s": 10,
           "n": 6
-        },
-        {
-          "team": "DEN",
-          "s": 8,
-          "n": 5
         },
         {
           "team": "PHX",
@@ -2237,13 +2017,13 @@
         {
           "team": "SAC",
           "s": 1,
-          "n": 13
+          "n": 14
         }
       ]
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 21.11., 6:30 Uhr · nach den Spielen vom 20.11. (US-Zeit), ohne Denver – Houston und Lakers – Sacramento",
+      "stand": "Stand: 21.11., 16:30 Uhr · nach allen Spielen vom 20.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2850,10 +2630,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 15,
-        "pkt": 31.1,
+        "spiele": 16,
+        "pkt": 31.7,
         "reb": 4.1,
-        "ast": 4.3
+        "ast": 4.5
       },
       "notiz": "Gegen New Orleans machte er 40 Punkte. OKC holte dabei einen Rückstand von 16 Punkten auf und gewann 126:120."
     },
@@ -2879,10 +2659,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 14,
-        "pkt": 24.4,
-        "reb": 6.9,
-        "ast": 8.5
+        "spiele": 15,
+        "pkt": 25.1,
+        "reb": 6.8,
+        "ast": 8.4
       },
       "notiz": "Im ersten Duell gegen seinen Bruder Moritz machte er 35 Punkte und traf 2,4 Sekunden vor Schluss zum 113:111-Sieg in Brooklyn."
     },
@@ -2893,9 +2673,9 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 14,
-        "pkt": 10.4,
-        "reb": 3.4,
+        "spiele": 15,
+        "pkt": 9.9,
+        "reb": 3.5,
         "ast": 1.6
       },
       "notiz": "Gegen seinen Bruder Franz und sein altes Team Orlando holte er 3 Punkte, 5 Rebounds und 2 Steals. Brooklyn verlor knapp 111:113."
@@ -2921,9 +2701,9 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 15,
-        "pkt": 8.4,
-        "reb": 11.0,
+        "spiele": 16,
+        "pkt": 8.2,
+        "reb": 10.8,
         "ast": 3.9
       },
       "notiz": "Beim 126:120 gegen New Orleans brachte er OKC im letzten Viertel mit einem Korb zum 108:102 in Führung."
@@ -2935,9 +2715,9 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 12,
-        "pkt": 14.4,
-        "reb": 3.9,
+        "spiele": 13,
+        "pkt": 13.8,
+        "reb": 3.7,
         "ast": 1.7
       },
       "notiz": "Beim 113:111 in Brooklyn machte er 6 Punkte und traf 2 Dreier."
@@ -2987,12 +2767,12 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 14,
-        "pkt": 38.1,
-        "reb": 7.0,
-        "ast": 7.6
+        "spiele": 15,
+        "pkt": 37.2,
+        "reb": 6.8,
+        "ast": 7.7
       },
-      "notiz": "Der beste Punktesammler der Saison. In Phoenix machte er 43 Punkte – die Lakers gewannen zum achten Mal in Folge."
+      "notiz": "Mit 25 Punkten und 8 Assists half er beim knappen 106:104 gegen Sacramento. Die Lakers haben die beste Bilanz der NBA."
     },
     {
       "name": "Anthony Edwards",
@@ -3013,12 +2793,12 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 13,
-        "pkt": 24.1,
-        "reb": 10.7,
-        "ast": 8.9
+        "spiele": 14,
+        "pkt": 24.2,
+        "reb": 10.4,
+        "ast": 9.1
       },
-      "notiz": "Gegen Boston machte er 24 Punkte, 8 Rebounds und 9 Assists. Denver gewann 105:101."
+      "notiz": "Gegen Houston kam er auf 26 Punkte und 11 Assists. Denver drehte das Spiel im letzten Viertel."
     },
     {
       "name": "Victor Wembanyama",
@@ -4165,6 +3945,16 @@
       "wert": "16 Punkte aufgeholt",
       "grund": "OKC lag im dritten Viertel weit hinten und gewann trotzdem. Shai Gilgeous-Alexander machte 40 Punkte.",
       "newsId": "2026-11-21-sga-40-okc-aufholjagd"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-20",
+      "titel": "Alperen Sengun",
+      "team": "HOU",
+      "wert": "Triple-Double",
+      "grund": "Mit 28 Punkten, 11 Rebounds und 10 Assists hatte er in drei Wertungen zweistellige Zahlen. Houston verlor trotzdem in Denver.",
+      "newsId": "2026-11-21-lakers-kings-nuggets-rockets"
     },
     {
       "art": "spieler",
