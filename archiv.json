@@ -2,6 +2,271 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-20-towns-knicks-wolves",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "Towns ärgert sein altes Team – Knicks zittern sich zum Sieg",
+      "teaser": "New York gewinnt 102:99 in Minnesota. Am Ende fehlte den Timberwolves nur ein Dreier.",
+      "text": [
+        "Karl-Anthony Towns spielte neun Jahre lang für die Minnesota Timberwolves. Jetzt kam er mit den New York Knicks zurück – und war wieder einer der Besten. Er machte 22 Punkte und holte 12 Rebounds. 17 seiner Punkte gelangen ihm schon in der ersten Halbzeit.",
+        "Im dritten Viertel führten die Knicks mit 19 Punkten. Doch Minnesota kam zurück. In den letzten 3 Minuten und 26 Sekunden machte New York keinen einzigen Punkt mehr.",
+        "Spannend wurde es auch wegen der Wurfuhr: Ein Dreier von Ayo Dosunmu zählte nicht, weil die Schiris zu früh gepfiffen hatten. Beim Videobeweis sah man, dass der Wurf davor doch den Ring berührt hatte. 9,9 Sekunden vor Schluss verwarf LaMelo Ball dann den Dreier zum Ausgleich.",
+        "Jalen Brunson machte 21 Punkte für die Knicks. Bei Minnesota war Jonathan Kuminga mit 23 Punkten bester Werfer."
+      ],
+      "fakten": [
+        "Endstand: Minnesota Timberwolves – New York Knicks 99:102",
+        "Karl-Anthony Towns: 22 Punkte, 12 Rebounds",
+        "Jalen Brunson: 21 Punkte, 7 Assists",
+        "Jonathan Kuminga (MIN): 23 Punkte",
+        "Knicks: 3. Sieg in Folge, Bilanz 9:6"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "NYK",
+        "MIN"
+      ],
+      "spieler": [
+        "Karl-Anthony Towns",
+        "Jalen Brunson",
+        "OG Anunoby",
+        "Jonathan Kuminga",
+        "LaMelo Ball",
+        "Ayo Dosunmu",
+        "Jaden McDaniels"
+      ]
+    },
+    {
+      "id": "2026-11-19-jazz-stoppen-lakers-serie",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Surprise in Los Angeles: the Jazz stop the Lakers",
+      "teaser": "Utah won 109-97 against the Lakers. Los Angeles had won nine games in a row.",
+      "text": [
+        "The Utah Jazz beat the Los Angeles Lakers 109-97. This was a big surprise. The Lakers had won nine games in a row, and the Jazz had only three wins all season.",
+        "The game was close for a long time. Then, in the fourth quarter, Utah scored 15 points in a row. The Jazz were suddenly ahead 98-83.",
+        "Keyonte George was the best player on the court. He scored 30 points and had 10 assists. Rookie Ace Bailey added 19 points.",
+        "Luka Dončić scored 29 points for the Lakers, but he made only 2 of his 12 three-pointers. Quentin Grimes had 20 points. The Lakers now have 13 wins and 3 losses."
+      ],
+      "vokabeln": [
+        {
+          "en": "surprise",
+          "de": "Überraschung"
+        },
+        {
+          "en": "court",
+          "de": "Spielfeld"
+        },
+        {
+          "en": "ahead",
+          "de": "vorne, in Führung"
+        },
+        {
+          "en": "quarter",
+          "de": "Viertel"
+        }
+      ],
+      "fakten": [
+        "Final score: Los Angeles Lakers 97, Utah Jazz 109",
+        "The Lakers' winning streak ended after 9 games",
+        "Utah scored 15 points in a row in the fourth quarter",
+        "Keyonte George: 30 points, 10 assists",
+        "Ace Bailey: 19 points",
+        "Luka Dončić (LAL): 29 points, 2 of 12 three-pointers",
+        "Mo Bamba (UTA): 16 rebounds"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "UTA",
+        "LAL"
+      ],
+      "spieler": [
+        "Keyonte George",
+        "Ace Bailey",
+        "Mo Bamba",
+        "Svi Mykhailiuk",
+        "Luka Dončić",
+        "Quentin Grimes",
+        "Walker Kessler"
+      ]
+    },
+    {
+      "id": "2026-11-19-hawks-schlagen-okc",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Hartenstein holt 17 Rebounds – trotzdem verliert OKC gegen Atlanta",
+      "teaser": "Die Thunder verlieren zu Hause 112:117 gegen die Hawks. Shai Gilgeous-Alexander macht 34 Punkte, Isaiah Hartenstein sammelt 17 Rebounds.",
+      "text": [
+        "Oklahoma City hat ein Heimspiel gegen die Atlanta Hawks mit 112:117 verloren. Für die Thunder war es die vierte Niederlage in den letzten fünf Spielen.",
+        "Atlanta startete stark und führte zur Pause mit 64:51. Im dritten Viertel kämpfte sich OKC zurück. Ajay Mitchell glich mit einem Korbleger 1,4 Sekunden vor Ende des Viertels zum 83:83 aus.",
+        "Im Schlussviertel trafen die Hawks dann wieder ihre Dreier. Atlanta traf im ganzen Spiel 20 Dreier, Onyeka Okongwu war mit 28 Punkten der Topscorer. Jalen Johnson schaffte ein Triple-Double mit 16 Punkten, 12 Rebounds und 11 Assists.",
+        "Besonders war der Abend für Luguentz Dort und Aaron Wiggins. Beide wurden 2025 mit OKC Meister und spielen jetzt für Atlanta. Die Fans in Oklahoma City begrüßten sie mit viel Applaus – und die beiden machten zusammen 30 Punkte.",
+        "Bei OKC machte Shai Gilgeous-Alexander 34 Punkte. Isaiah Hartenstein holte 17 Rebounds und gab 6 Assists. Die Thunder spielen weiter ohne Jalen Williams, Chet Holmgren und Cason Wallace, die verletzt fehlen. Am Freitag kommt New Orleans."
+      ],
+      "fakten": [
+        "Endstand: Oklahoma City Thunder – Atlanta Hawks 112:117",
+        "Shai Gilgeous-Alexander: 34 Punkte",
+        "Isaiah Hartenstein: 6 Punkte, 17 Rebounds, 6 Assists",
+        "Onyeka Okongwu (ATL): 28 Punkte",
+        "Jalen Johnson (ATL): Triple-Double mit 16 Punkten, 12 Rebounds, 11 Assists",
+        "Bilanz OKC: 9 Siege, 6 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "OKC",
+        "ATL",
+        "NOP"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Ajay Mitchell",
+        "Jared McCain",
+        "Onyeka Okongwu",
+        "Jalen Johnson",
+        "Luguentz Dort",
+        "Aaron Wiggins",
+        "Jalen Williams",
+        "Chet Holmgren"
+      ]
+    },
+    {
+      "id": "2026-11-19-franz-wagner-magic-sixers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Franz Wagner mit 27 Punkten und 11 Assists – aber Orlandos Serie reißt",
+      "teaser": "Orlando führte gegen Philadelphia 41 Minuten lang, verlor aber 116:121. Franz Wagner war der beste Magic-Spieler, Tristan da Silva machte 12 Punkte.",
+      "text": [
+        "Vier Spiele in Folge hatte Orlando gewonnen. Gegen die Philadelphia 76ers war Schluss: Die Magic verloren zu Hause 116:121.",
+        "Dabei sah es lange gut aus. Orlando lag am Anfang mit 17 Punkten vorne und führte insgesamt 41 Minuten lang. Erst ganz am Ende drehte Philadelphia das Spiel. 1:36 Minuten vor Schluss traf VJ Edgecombe nach einem Pass von LeBron James einen Dreier zum 114:112. Kurz vor dem Ende machte Anfernee Simons mit einem weiten Wurf alles klar.",
+        "Franz Wagner zeigte wieder ein starkes Spiel: 27 Punkte, 8 Rebounds und 11 Assists. Es war sein sechstes Spiel in Folge mit mindestens 20 Punkten. Tristan da Silva traf 5 von 7 Würfen und kam auf 12 Punkte.",
+        "Bei Philadelphia machte Joel Embiid 26 Punkte, Edgecombe 24 und LeBron James 22. Die 76ers haben jetzt 13 Siege und nur 3 Niederlagen – so gut waren sie seit 26 Jahren nicht mehr gestartet. Für Orlando geht es am Freitag in Brooklyn gegen Moritz Wagner weiter."
+      ],
+      "fakten": [
+        "Endstand: Orlando Magic – Philadelphia 76ers 116:121",
+        "Franz Wagner: 27 Punkte, 8 Rebounds, 11 Assists",
+        "Tristan da Silva: 12 Punkte (5 von 7 Würfen)",
+        "Joel Embiid (PHI): 26 Punkte",
+        "VJ Edgecombe (PHI): 24 Punkte, Saisonbestwert",
+        "LeBron James (PHI): 22 Punkte",
+        "Philadelphia: 13 Siege, 3 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "ORL",
+        "PHI",
+        "BKN"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Jalen Suggs",
+        "Joel Embiid",
+        "VJ Edgecombe",
+        "LeBron James",
+        "Anfernee Simons",
+        "Moritz Wagner"
+      ]
+    },
+    {
+      "id": "2026-11-19-flagg-33-mavs-warriors",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Cooper Flagg trifft fast alles – Golden State verliert auch in Dallas",
+      "teaser": "Die Warriors verlieren 94:116 in Dallas. Cooper Flagg macht 33 Punkte und verfehlt nur 4 Würfe.",
+      "text": [
+        "Ohne Stephen Curry tun sich die Golden State Warriors weiter schwer. In Dallas verloren sie mit 94:116. Es war schon die vierte Niederlage auf ihrer Reise mit fünf Auswärtsspielen.",
+        "Der Star des Abends war Cooper Flagg. Der junge Mavericks-Spieler traf 11 von 15 Würfen und alle 8 Freiwürfe. Am Ende hatte er 33 Punkte, 9 Assists und 5 Rebounds. P.J. Washington traf 5 von 7 Dreiern und machte 21 Punkte.",
+        "Dallas führte zwischendurch mit 29 Punkten. Die Warriors trafen nur wenige Dreier. Zum dritten Mal hintereinander blieben sie unter 100 Punkten – das war ihnen fast fünf Jahre lang nicht passiert.",
+        "Bester Werfer bei Golden State war Will Richard mit 20 Punkten. Rookie Yaxel Lendeborg kam auf 13 Punkte. Curry fällt verletzt aus und wird voraussichtlich noch mindestens eine Woche fehlen. Am Donnerstag spielen die Warriors in Memphis."
+      ],
+      "fakten": [
+        "Endstand: Dallas Mavericks – Golden State Warriors 116:94",
+        "Cooper Flagg: 33 Punkte, 11 von 15 Würfen, 8 von 8 Freiwürfen, 9 Assists",
+        "P.J. Washington: 21 Punkte, 5 von 7 Dreiern",
+        "Will Richard (GSW): 20 Punkte",
+        "Golden State: 3. Spiel in Folge unter 100 Punkten"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "DAL",
+        "MEM"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "P.J. Washington",
+        "Kyrie Irving",
+        "Will Richard",
+        "Yaxel Lendeborg",
+        "Stephen Curry"
+      ]
+    },
+    {
+      "id": "2026-11-19-besiktas-schlaegt-real",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Beşiktaş ärgert Real Madrid – und heute Abend ist Bayern dran",
+      "teaser": "Beşiktaş Istanbul gewinnt in der Euroleague 83:79 gegen Real Madrid. Am Donnerstag empfängt der FC Bayern Baskonia.",
+      "text": [
+        "Zum Abschluss der 12. Runde gab es in Istanbul eine Überraschung: Beşiktaş besiegte Real Madrid mit 83:79.",
+        "Beşiktaş führte zur Pause mit 45:37 und vor dem letzten Viertel mit 64:54. Im Schlussviertel kam Real noch einmal heran, aber die Gastgeber hielten den Vorsprung. Bester Werfer von Beşiktaş war Daquan Jeffries mit 20 Punkten und 4 Dreiern. Bei Real machte Théo Maledon 22 Punkte.",
+        "Beşiktaş hat jetzt 6 Siege und 6 Niederlagen. Real Madrid steht bei 7 Siegen und 5 Niederlagen. Ganz oben liegen Valencia und Olympiakos mit je 9 Siegen.",
+        "Schon am Donnerstag beginnt die 13. Runde. Um 20 Uhr spielt der FC Bayern zu Hause gegen Baskonia. Die Spanier sind Tabellenletzter und haben erst einmal gewonnen. Für die Bayern (3 Siege, 9 Niederlagen) ist es eine große Chance nach der knappen Niederlage in Kaunas."
+      ],
+      "fakten": [
+        "Endstand: Beşiktaş Istanbul – Real Madrid 83:79",
+        "Daquan Jeffries (Beşiktaş): 20 Punkte",
+        "Théo Maledon (Real): 22 Punkte",
+        "Bayern – Baskonia: Donnerstag, 20 Uhr",
+        "Baskonia: 1 Sieg, 11 Niederlagen"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "BES",
+        "RMA",
+        "FCB",
+        "BAS",
+        "VAL",
+        "OLY"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-19-grizzlies-road-record",
       "liga": "NBA",
       "lang": "en",
