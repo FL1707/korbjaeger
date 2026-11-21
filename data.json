@@ -331,25 +331,6 @@
     "Kareem Abdul-Jabbar",
     "Shaquille O'Neal"
   ],
-  "bild": {
-    "datum": "2026-11-20",
-    "liga": "NBA",
-    "heim": "BKN",
-    "gast": "ORL",
-    "newsId": "2026-11-21-franz-wagner-siegwurf-gegen-moritz",
-    "szene": "jubel",
-    "titel": "Sieg im Bruder-Duell",
-    "text": "2,4 Sekunden vor Schluss: Franz trifft zum 113:111!",
-    "sfx": "YES!",
-    "spieler": {
-      "name": "Franz Wagner",
-      "team": "ORL",
-      "nr": "22"
-    },
-    "gegner": "BKN",
-    "tafel": "NETS 111 : 113 MAGIC",
-    "erklaerung": "Beim Stand von 111:111 hatte Franz Wagner den Ball. Er machte einen Schritt nach hinten und traf aus der Mitteldistanz. Brooklyns letzter Wurf ging daneben – Orlando gewann gegen das Team von Bruder Moritz."
-  },
   "news": [
     {
       "id": "2026-11-21-franz-wagner-siegwurf-gegen-moritz",
@@ -4657,5 +4638,79 @@
     "Ball auf dem Weg nach unten weggeschlagen (Goaltending)",
     "Zurückdribbeln über die Mittellinie (Rückspiel)",
     "Zwei Schritte nach dem Fangen (Schrittfehler)"
-  ]
+  ],
+  "comic": {
+    "datum": "2026-11-20",
+    "liga": "NBA",
+    "heim": "BKN",
+    "gast": "ORL",
+    "newsId": "2026-11-21-franz-wagner-siegwurf-gegen-moritz",
+    "titel": "Das Bruder-Duell",
+    "untertitel": "Brooklyn Nets – Orlando Magic · NBA Cup · Donnerstag, 20. November",
+    "bilder": [
+      {
+        "szene": "ankunft",
+        "text": "Brooklyn. Zum ersten Mal spielt Franz Wagner in der NBA gegen seinen Bruder Moritz.",
+        "spieler": {
+          "name": "Franz Wagner",
+          "team": "ORL",
+          "nr": "22"
+        }
+      },
+      {
+        "szene": "halle",
+        "text": "Fünf Jahre spielten die Brüder zusammen in Orlando. Seit dem Sommer ist Moritz bei den Nets.",
+        "spieler": {
+          "name": "Moritz Wagner",
+          "team": "BKN"
+        },
+        "label": "LET'S GO NETS"
+      },
+      {
+        "szene": "anzeige",
+        "text": "31 Sekunden vor Schluss gleicht Brooklyn aus.",
+        "tafel": "NETS 111 : 111 MAGIC",
+        "label": "NOCH 31 SEKUNDEN",
+        "spieler": {
+          "name": "Franz Wagner",
+          "team": "ORL",
+          "nr": "22"
+        },
+        "gegner": "BKN"
+      },
+      {
+        "szene": "wurf",
+        "text": "Franz macht einen Schritt zurück – und trifft! Noch 2,4 Sekunden.",
+        "sfx": "SWISH!",
+        "spieler": {
+          "name": "Franz Wagner",
+          "team": "ORL",
+          "nr": "22"
+        },
+        "gegner": "BKN"
+      },
+      {
+        "szene": "jubel",
+        "text": "Brooklyns letzter Dreier geht daneben. Orlando gewinnt 113:111!",
+        "sfx": "YES!",
+        "spieler": {
+          "name": "Franz Wagner",
+          "team": "ORL",
+          "nr": "22"
+        }
+      },
+      {
+        "szene": "zahl",
+        "zahl": "35",
+        "label": "Punkte für Franz",
+        "text": "Dazu 7 Assists – der beste Werfer des Abends.",
+        "spieler": {
+          "name": "Franz Wagner",
+          "team": "ORL",
+          "nr": "22"
+        }
+      }
+    ],
+    "erklaerung": "Beim Stand von 111:111 hatte Franz Wagner den Ball. Er machte einen Schritt nach hinten und traf aus der Mitteldistanz, 2,4 Sekunden vor dem Ende. Brooklyns letzter Wurf ging daneben – Orlando gewann 113:111 gegen das Team von Bruder Moritz."
+  }
 }

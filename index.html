@@ -237,6 +237,27 @@ button.game { text-align: left; border: 0; width: 100%; }
 .bild-marke, .bild-pill { justify-self: start; background: #E23B3B; color: #fff; font-weight: 800; font-size: 12px; letter-spacing: 1px; text-transform: uppercase; padding: 3px 8px; border: 2px solid #14161F; transform: rotate(-2deg); }
 @media (max-width: 520px) { .bild-kachel { grid-template-columns: 1fr; } }
 .bild-gross { margin: 12px 0 16px; }
+/* Comic des Tages: Magazin-Seite mit farbigem Rand, weißen Zwischenräumen und Bildern in Tusche-Rahmen */
+.comic-seite { background: #2D6FD8; padding: 8px; border-radius: 4px; box-shadow: 6px 6px 0 #14161F; }
+.comic-raster { display: grid; grid-template-columns: 43fr 57fr; gap: 6px; background: #FBF7EE; padding: 6px; }
+.cpanel { position: relative; overflow: hidden; border: 3px solid #14161F; background: #FFF3C4; min-height: 0; display: flex; flex-direction: column; container-type: inline-size; }
+.cbild { position: relative; flex: 1 1 auto; min-height: 0; background: #14161F; }
+.cbild svg { position: absolute; inset: 0; display: block; width: 100%; height: 100%; }
+.cpanel:not(.cp0):not(.cp3) .cbild { aspect-ratio: 4 / 3; }
+.cp0 { grid-row: 1 / span 2; }
+.comic-raster.sechs .cp5 { grid-column: 1 / -1; }
+.comic-raster.sechs .cp5 .cbild { aspect-ratio: 16 / 7; }
+.cap { position: absolute; left: 6px; top: 6px; max-width: 72%; background: #FFF3C4; color: #14161F; border: 2px solid #14161F; box-shadow: 2px 2px 0 #14161F;
+  font: 700 12.5px/1.25 system-ui, sans-serif; padding: 3px 6px; }
+.cp0 .cap { top: auto; bottom: 6px; left: 6px; right: auto; max-width: 62%; font-size: 11.5px; }
+@container (max-width: 330px) { .cap, .cp0 .cap { position: static; max-width: none; border: 0; border-top: 2px solid #14161F; box-shadow: none; font-size: 11px; padding: 4px 6px; } }
+.comic-kachel { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 14px; align-items: center; width: 100%; padding: 10px; text-align: left; font: inherit; color: var(--ink); cursor: pointer; border: 3px solid #14161F; box-shadow: 5px 5px 0 #14161F; }
+.comic-kachel:active { transform: translate(3px, 3px); box-shadow: 2px 2px 0 #14161F; }
+.comic-mini .cap { display: none; }
+.comic-mini .comic-seite { box-shadow: none; }
+@media (max-width: 520px) { .comic-kachel { grid-template-columns: 1fr; } .comic-gross .cap { font-size: 10.5px; } }
+.comic-gross { margin: 12px 0 16px; }
+.comic-unter { margin: 4px 0 0; color: var(--ink-soft); font-weight: 700; }
 .bild-gross svg { display: block; width: 100%; height: auto; box-shadow: 6px 6px 0 #14161F; }
 .b-sfx { font-family: var(--font-display); font-style: italic; font-weight: 800; letter-spacing: 1px; }
 .b-nr { font-family: var(--font-display); font-weight: 800; }
@@ -595,7 +616,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       '<div class="next"><div class="sec-h"><h2>Deine Teams</h2></div>' + (favT.length ? '<div class="card fav-list">' + favT.map(k => '<div class="fav-team">' + badge(k, true) + "<span>" + esc(team(k).name) + "</span>" + starBtn("data-fav-team", k, true, team(k).name) + "</div>").join("") + "</div>" : '<div class="card next-card">Noch kein Lieblingsteam? Tippe unter <button class="link" data-tab="tabellen">Tabellen</button> auf den Stern ☆ neben deinem Team.</div>') + "</div></div>" +
       (potw ? '<section class="sec"><button class="card potw" data-potw><svg class="medal" viewBox="0 0 100 100" aria-hidden="true"><path d="M30 0h16l10 30H40zM70 0H54L44 30h16z" fill="#00A99B"/><circle cx="50" cy="62" r="34" fill="#FFCF33" stroke="#fff" stroke-width="4"/><path d="M50 42l6 13 14 2-10 10 2 14-12-7-12 7 2-14-10-10 14-2z" fill="#12203A"/></svg><div><div class="lbl">Spieler der Woche</div><h3>' + esc(potw.name) + '</h3><p>' + esc(potw.text) + '</p>' + (potw.profil ? '<span class="potw-mehr">Mehr über ' + esc(potw.name.split(" ")[0]) + " →</span>" : "") + "</div></button></section>" : "") +
       ((D.auffaellig || []).length ? '<section class="sec"><div class="sec-h"><h2>Aufgefallen</h2><p>Besondere Spieler und Spiele der letzten Tage</p></div><div class="grid">' + D.auffaellig.map(hlCard).join("") + "</div></section>" : "") +
-      bildKachel() +
+      (D.comic && D.comic.bilder ? comicKachel() : bildKachel()) +
       '<section class="sec"><div class="sec-h"><h2>Neuigkeiten</h2><p>' + news.length + " Geschichten für dich</p></div>" +
       (news[0] ? newsCard(news[0], true) : "") + '<div class="grid">' + news.slice(1).map(n => newsCard(n)).join("") + "</div>" +
       (alt ? '<button class="card archiv-btn" data-liga="ALLE"><span><b>Ältere Artikel</b><small>' + alt + (alt === 1 ? " Geschichte" : " Geschichten") + " aus den letzten 4 Wochen.</small></span><span class=\"pfeil\" aria-hidden=\"true\">›</span></button>" : "") + "</section>" +
@@ -1319,6 +1340,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     wurf: { kopf: [1, -101], hals: [1, -92], shL: [-9, -89], shR: [9, -89], elL: [-12, -106], elR: [17, -107], haL: [-6, -117], haR: [24, -124], huL: [-6, -56], huR: [6, -56], knL: [-7, -33], knR: [8, -34], fuL: [-6, -9], fuR: [10, -11], ball: [26, -132] },
     dunk: { kopf: [8, -121], hals: [6, -112], shL: [-4, -107], shR: [14, -108], elL: [-15, -96], elR: [24, -128], haL: [-21, -84], haR: [30, -146], huL: [-6, -77], huR: [6, -77], knL: [-19, -62], knR: [15, -57], fuL: [-27, -40], fuR: [4, -36], ball: [33, -151] },
     block: { kopf: [5, -109], hals: [3, -100], shL: [-8, -97], shR: [12, -98], elL: [-15, -81], elR: [24, -115], haL: [-19, -65], haR: [34, -131], huL: [-6, -64], huR: [6, -64], knL: [-13, -41], knR: [8, -39], fuL: [-17, -21], fuR: [6, -17] },
+    gehen: { front: 1, kopf: [1, -91], hals: [1, -82], shL: [-12, -79], shR: [13, -79], elL: [-16, -61], elR: [17, -61], haL: [-15, -44], haR: [19, -44], huL: [-7, -46], huR: [7, -46], knL: [-6, -24], knR: [9, -23], fuL: [-7, -3], fuR: [10, 1] },
     jubel: { kopf: [0, -91], hals: [0, -82], shL: [-12, -79], shR: [12, -79], elL: [-23, -96], elR: [23, -96], haL: [-31, -114], haR: [31, -114], huL: [-8, -46], huR: [8, -46], knL: [-12, -23], knR: [12, -23], fuL: [-17, 0], fuR: [17, 0] },
     drive: { kopf: [15, -85], hals: [12, -77], shL: [1, -75], shR: [19, -73], elL: [-8, -61], elR: [27, -57], haL: [-15, -49], haR: [32, -41], huL: [-2, -45], huR: [8, -45], knL: [-15, -27], knR: [22, -31], fuL: [-25, -5], fuR: [27, -2], ball: [35, -13] },
     verteidigen: { kopf: [0, -82], hals: [0, -74], shL: [-12, -71], shR: [12, -71], elL: [-24, -62], elR: [24, -62], haL: [-33, -70], haR: [33, -70], huL: [-9, -42], huR: [9, -42], knL: [-17, -22], knR: [17, -22], fuL: [-21, 0], fuR: [21, 0] }
@@ -1339,31 +1361,116 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       "M" + bf(x - r * .7) + " " + bf(y - r * .7) + "Q" + bf(x - r * .15) + " " + bf(y) + " " + bf(x - r * .7) + " " + bf(y + r * .7) + "M" + bf(x + r * .7) + " " + bf(y - r * .7) + "Q" + bf(x + r * .15) + " " + bf(y) + " " + bf(x + r * .7) + " " + bf(y + r * .7) +
       '" fill="none" stroke="' + BT + '" stroke-width="1.3"/></g>';
   }
-  function bFigur(pose, o) { // o = { x, y, s, flip, c1, c2, nr, ball }
-    const P = BPOSE[pose] || BPOSE.stehen, sx = (o.flip ? -1 : 1) * o.s;
-    const J = k => [o.x + P[k][0] * sx, o.y + P[k][1] * o.s], s = o.s;
-    const HAUT_V = "#2B3352", HAUT_H = "#1A1F33", kap = (a, b, wa, wb, f) => '<path d="' + bKapsel(J(a), J(b), wa * s, wb * s) + '" fill="' + f + '" stroke="' + BT + '" stroke-width="' + bf(2 * Math.min(s, 1.6)) + '"/>';
-    const arm = (L, f, licht) => kap("sh" + L, "el" + L, 4.6, 3.9, f) + kap("el" + L, "ha" + L, 3.9, 3.1, f) + '<circle cx="' + bf(J("ha" + L)[0]) + '" cy="' + bf(J("ha" + L)[1]) + '" r="' + bf(3.7 * s) + '" fill="' + f + '" stroke="' + BT + '" stroke-width="' + bf(1.8 * Math.min(s, 1.6)) + '"/>' + (licht ? bLicht(J("sh" + L), J("el" + L), 4.6 * s) + bLicht(J("el" + L), J("ha" + L), 3.9 * s) : "");
-    const schuh = L => { const f = J("fu" + L), k = J("kn" + L), w = Math.atan2(f[1] - k[1], f[0] - k[0]) * 180 / Math.PI - 90 + (o.flip ? 180 : 0);
-      return '<g transform="translate(' + bf(f[0]) + " " + bf(f[1]) + ") rotate(" + bf(w) + ')"><path d="M' + bf(-5 * s) + " " + bf(-3 * s) + "L" + bf(9 * s) + " " + bf(-3 * s) + "Q" + bf(13 * s) + " " + bf(-2 * s) + " " + bf(12 * s) + " " + bf(2.5 * s) + "L" + bf(-6 * s) + " " + bf(2.5 * s) + 'Z" fill="#F4F4F4" stroke="' + BT + '" stroke-width="' + bf(1.8 * Math.min(s, 1.6)) + '"/><path d="M' + bf(-5 * s) + " " + bf(1 * s) + "H" + bf(11 * s) + '" stroke="' + o.c2 + '" stroke-width="' + bf(1.6 * s) + '"/></g>'; };
-    const bein = (L, f, licht) => kap("hu" + L, "kn" + L, 6.6, 5, f) + kap("kn" + L, "fu" + L, 5, 3.4, f) + (licht ? bLicht(J("kn" + L), J("fu" + L), 5 * s) : "") + schuh(L) +
-      '<path d="' + bKapsel(J("hu" + L), [J("hu" + L)[0] + (J("kn" + L)[0] - J("hu" + L)[0]) * .52, J("hu" + L)[1] + (J("kn" + L)[1] - J("hu" + L)[1]) * .52], 7.6 * s, 6.8 * s) + '" fill="' + o.c1 + '" stroke="' + BT + '" stroke-width="' + bf(2 * Math.min(s, 1.6)) + '"/>';
-    // Trikot: Viereck von Schultern zu Hüften, leicht tailliert; Schattenseite abgedunkelt
-    const sL = J("shL"), sR = J("shR"), hL = J("huL"), hR = J("huR"), aus = (p, q, f) => [p[0] + (p[0] - q[0]) * f, p[1] + (p[1] - q[1]) * f];
-    const t1 = aus(sL, sR, .1), t2 = aus(sR, sL, .1), t3 = aus(hR, hL, .08), t4 = aus(hL, hR, .08), mO = [(sL[0] + sR[0]) / 2, (sL[1] + sR[1]) / 2], mU = [(hL[0] + hR[0]) / 2, (hL[1] + hR[1]) / 2];
-    const poly = pts => pts.map((p, i) => (i ? "L" : "M") + bf(p[0]) + " " + bf(p[1])).join("") + "Z";
-    const winkel = Math.atan2(mU[0] - mO[0], mO[1] - mU[1]) * -180 / Math.PI, mitte = [(mO[0] + mU[0]) / 2, (mO[1] + mU[1]) / 2 + 2 * s];
-    const trikot = '<path d="' + poly([t1, t2, t3, t4]) + '" fill="' + o.c1 + '" stroke="' + BT + '" stroke-width="' + bf(2.2 * Math.min(s, 1.6)) + '" stroke-linejoin="round"/>' +
-      '<path d="' + poly([t1, mO, mU, t4]) + '" fill="#000" opacity=".2"/>' +
-      '<path d="M' + bf(t1[0] + (mO[0] - t1[0]) * .45) + " " + bf(t1[1] + (mO[1] - t1[1]) * .45) + "Q" + bf(mO[0]) + " " + bf(mO[1] + 7 * s) + " " + bf(t2[0] + (mO[0] - t2[0]) * .45) + " " + bf(t2[1] + (mO[1] - t2[1]) * .45) + '" fill="none" stroke="' + o.c2 + '" stroke-width="' + bf(2 * s) + '"/>' +
-      '<path d="M' + bf(t4[0]) + " " + bf(t4[1]) + "L" + bf(t3[0]) + " " + bf(t3[1]) + '" stroke="' + o.c2 + '" stroke-width="' + bf(2.4 * s) + '"/>' +
-      (o.nr != null ? '<text x="' + bf(mitte[0]) + '" y="' + bf(mitte[1] + 6 * s) + '" transform="rotate(' + bf(winkel) + " " + bf(mitte[0]) + " " + bf(mitte[1]) + ')" text-anchor="middle" class="b-nr" font-size="' + bf(17 * s) + '" fill="' + o.c2 + '">' + esc(String(o.nr)) + "</text>" : "");
-    const k = J("kopf"), r = 8.4 * s;
-    const kopf = kap("hals", "kopf", 3.6, 3.6, HAUT_V) + '<ellipse cx="' + bf(k[0]) + '" cy="' + bf(k[1]) + '" rx="' + bf(r * .92) + '" ry="' + bf(r) + '" fill="' + HAUT_H + '" stroke="' + BT + '" stroke-width="' + bf(2 * Math.min(s, 1.6)) + '"/>' +
-      '<path d="M' + bf(k[0] - r * .92) + " " + bf(k[1] - r * .1) + "A" + bf(r * .92) + " " + bf(r) + " 0 0 1 " + bf(k[0] + r * .92) + " " + bf(k[1] - r * .1) + "Q" + bf(k[0]) + " " + bf(k[1] - r * .55) + " " + bf(k[0] - r * .92) + " " + bf(k[1] - r * .1) + 'Z" fill="#07080D"/>' +
-      '<path d="M' + bf(k[0] + (o.flip ? -1 : 1) * r * .55) + " " + bf(k[1] - r * .75) + "A" + bf(r * .92) + " " + bf(r) + " 0 0 " + (o.flip ? 0 : 1) + " " + bf(k[0] + (o.flip ? -1 : 1) * r * .7) + " " + bf(k[1] + r * .6) + '" fill="none" stroke="#FFE7A3" stroke-width="' + bf(1.6 * s) + '" stroke-linecap="round"/>';
-    return '<g class="b-figur">' + arm("L", HAUT_H, false) + bein("L", HAUT_H, false) + bein("R", HAUT_V, true) + trikot + kopf + arm("R", HAUT_V, true) +
-      (o.ball && P.ball ? bBall(J("ball")[0], J("ball")[1], 8.5 * s, o.id) : "") + "</g>";
+  /* Realistische Figur im Gegenlicht: anatomische Glieder mit Muskelformen, Schattierung per Verlauf, warmes Streiflicht von oben rechts,
+     Trikot mit tiefen Armausschnitten, lange Shorts, Socken und High-Top-Sneaker. Gesichter bleiben im Schatten (keine Porträts). */
+  let bGid = 0;
+  function bMix(h, z, t) { const a = [1, 3, 5].map(i => parseInt(String(h).slice(i, i + 2), 16) || 0), b = [1, 3, 5].map(i => parseInt(String(z).slice(i, i + 2), 16) || 0);
+    return "#" + a.map((v, i) => Math.round(v + (b[i] - v) * t).toString(16).padStart(2, "0")).join(""); }
+  const B_LICHT = [.62, -.78]; // Richtung zum Licht (oben rechts)
+  function bForm(pts, w) { // glatter Umriss um eine Mittellinie pts mit Breiten w (Halbbreiten)
+    const L = [], R = [];
+    for (let i = 0; i < pts.length; i++) {
+      const p0 = pts[Math.max(0, i - 1)], p1 = pts[Math.min(pts.length - 1, i + 1)], dx = p1[0] - p0[0], dy = p1[1] - p0[1], l = Math.hypot(dx, dy) || 1, nx = -dy / l, ny = dx / l;
+      L.push([pts[i][0] + nx * w[i], pts[i][1] + ny * w[i]]); R.push([pts[i][0] - nx * w[i], pts[i][1] - ny * w[i]]);
+    }
+    const ring = L.concat(R.reverse());
+    let d = "M" + bf((ring[0][0] + ring[ring.length - 1][0]) / 2) + " " + bf((ring[0][1] + ring[ring.length - 1][1]) / 2);
+    for (let i = 0; i < ring.length; i++) { const q = ring[i], n = ring[(i + 1) % ring.length]; d += "Q" + bf(q[0]) + " " + bf(q[1]) + " " + bf((q[0] + n[0]) / 2) + " " + bf((q[1] + n[1]) / 2); }
+    return { d: d + "Z", L, R: R.reverse() };
+  }
+  function bVerlauf(a, b, w, hell, dunkel, rand) { // Verlauf quer zum Glied: Schattenseite -> Lichtseite mit Streiflicht
+    const dx = b[0] - a[0], dy = b[1] - a[1], l = Math.hypot(dx, dy) || 1; let nx = -dy / l, ny = dx / l;
+    if (nx * B_LICHT[0] + ny * B_LICHT[1] < 0) { nx = -nx; ny = -ny; }
+    const m = [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2], id = "bv" + (++bGid);
+    return { id, def: '<linearGradient id="' + id + '" gradientUnits="userSpaceOnUse" x1="' + bf(m[0] - nx * w) + '" y1="' + bf(m[1] - ny * w) + '" x2="' + bf(m[0] + nx * w) + '" y2="' + bf(m[1] + ny * w) + '">' +
+      '<stop offset="0" stop-color="' + dunkel + '"/><stop offset=".62" stop-color="' + hell + '"/><stop offset=".86" stop-color="' + hell + '"/><stop offset="1" stop-color="' + rand + '"/></linearGradient>' };
+  }
+  function bFigur(pose, o) { // o = { x, y, s, flip, c1, c2, nr, ball, kleid?, tasche? }
+    const P = BPOSE[pose] || BPOSE.stehen, sx = (o.flip ? -1 : 1) * o.s, s = o.s, lw = bf(1.5 * Math.min(s, 2));
+    const J = k => [o.x + P[k][0] * sx, o.y + P[k][1] * o.s], lerp = (p, q, t) => [p[0] + (q[0] - p[0]) * t, p[1] + (q[1] - p[1]) * t];
+    const K = o.kleid, HAUT = "#3E302B", HAUT_D = "#231A17", RAND = "#F6C98E";
+    let defs = "";
+    const glied = (pts, w, hell, dunkel, rand) => { const f = bForm(pts, w), v = bVerlauf(pts[0], pts[pts.length - 1], Math.max.apply(null, w), hell, dunkel, rand); defs += v.def;
+      return '<path d="' + f.d + '" fill="url(#' + v.id + ')" stroke="' + BT + '" stroke-width="' + lw + '" stroke-linejoin="round"/>'; };
+    const seg = (a, b, n) => Array.from({ length: n }, (_, i) => lerp(a, b, i / (n - 1)));
+    // Arme: Oberarm mit Bizeps, Unterarm mit Muskelbauch
+    const arm = (L, vorne) => {
+      const sh = J("sh" + L), el = J("el" + L), ha = J("ha" + L), hell = vorne ? HAUT : HAUT_D, dunkel = HAUT_D, rand = vorne ? RAND : bMix(RAND, HAUT_D, .55);
+      const aO = K ? K.oben : null, aU = K ? K.oben2 || K.oben : null;
+      const wk = K ? 1.18 : 1;
+      let g = glied([sh, lerp(sh, el, .45), el, lerp(el, ha, .4), ha], [5.6 * s * wk, 4.9 * s * wk, 3.6 * s * wk, 3.9 * s * wk, 2.5 * s * (K ? 1.3 : 1)], aO || hell, aO ? bMix(aO, "#000000", .5) : dunkel, aO ? bMix(aO, "#FFFFFF", .35) : rand);
+      const d = [ha[0] - el[0], ha[1] - el[1]], l = Math.hypot(d[0], d[1]) || 1, hd = [ha[0] + d[0] / l * 3.2 * s, ha[1] + d[1] / l * 3.2 * s];
+      g += '<ellipse cx="' + bf(hd[0]) + '" cy="' + bf(hd[1]) + '" rx="' + bf(3.4 * s) + '" ry="' + bf(4.4 * s) + '" transform="rotate(' + bf(Math.atan2(d[1], d[0]) * 180 / Math.PI - 90) + " " + bf(hd[0]) + " " + bf(hd[1]) + ')" fill="' + (vorne ? HAUT : HAUT_D) + '" stroke="' + BT + '" stroke-width="' + lw + '"/>';
+      return g;
+    };
+    // Beine: Oberschenkel, Wade mit Muskel, Socke, Sneaker
+    const bein = (L, vorne) => {
+      const hu = J("hu" + L), kn = J("kn" + L), fu = J("fu" + L), hell = vorne ? HAUT : HAUT_D, rand = vorne ? RAND : bMix(RAND, HAUT_D, .55);
+      const bO = K ? (vorne ? K.unten : K.unten2 || K.unten) : null;
+      const wb = K ? 1.08 : 1;
+      let g = glied([hu, lerp(hu, kn, .5), kn, lerp(kn, fu, .3), lerp(kn, fu, .7), fu], [7.4 * s * wb, 6.4 * s * wb, 4.5 * s * wb, 5.3 * s * wb, 3.4 * s * wb, 2.8 * s * wb], bO || hell, bO ? bMix(bO, "#000000", .5) : HAUT_D, bO ? bMix(bO, "#FFFFFF", .3) : rand);
+      if (!K) g += glied([lerp(kn, fu, .7), lerp(kn, fu, .85), fu], [3.5 * s, 3.2 * s, 3 * s], vorne ? "#EDEDED" : "#BDBDBD", "#8E8E8E", "#FFFFFF");
+      // Sneaker entlang der Fußrichtung (Blick nach vorn)
+      const dir = o.flip ? -1 : 1, w = Math.atan2(fu[1] - kn[1], fu[0] - kn[0]) * 180 / Math.PI - 90;
+      g += '<g transform="translate(' + bf(fu[0]) + " " + bf(fu[1]) + ") rotate(" + bf(w) + ") scale(" + dir + ' 1)">' +
+        '<path d="M' + bf(-5 * s) + " " + bf(-5 * s) + "Q" + bf(-3 * s) + " " + bf(-8 * s) + " " + bf(3 * s) + " " + bf(-7 * s) + "L" + bf(7 * s) + " " + bf(-3 * s) + "Q" + bf(13 * s) + " " + bf(-2 * s) + " " + bf(13.5 * s) + " " + bf(1 * s) + "L" + bf(-6.5 * s) + " " + bf(1.5 * s) + 'Z" fill="' + (vorne ? "#F2F2F2" : "#C9C9C9") + '" stroke="' + BT + '" stroke-width="' + lw + '"/>' +
+        '<path d="M' + bf(-6.5 * s) + " " + bf(.2 * s) + "H" + bf(13.6 * s) + "V" + bf(2.6 * s) + "H" + bf(-6.5 * s) + 'Z" fill="' + BT + '"/>' +
+        '<path d="M' + bf(-1 * s) + " " + bf(-6 * s) + "L" + bf(5 * s) + " " + bf(-3.5 * s) + "M" + bf(1 * s) + " " + bf(-7 * s) + "L" + bf(7 * s) + " " + bf(-4.5 * s) + '" stroke="' + (o.c1 || BT) + '" stroke-width="' + bf(1.1 * s) + '"/>' +
+        '<path d="M' + bf(-4 * s) + " " + bf(-2 * s) + "Q" + bf(4 * s) + " " + bf(-1 * s) + " " + bf(12 * s) + " " + bf(-.5 * s) + '" fill="none" stroke="' + (o.c1 || "#888") + '" stroke-width="' + bf(1.4 * s) + '"/></g>';
+      return g;
+    };
+    const sL = J("shL"), sR = J("shR"), hL = J("huL"), hR = J("huR"), N = J("hals"), mU = lerp(hL, hR, .5);
+    const c1 = o.c1 || "#444444", c2 = o.c2 || "#FFFFFF", c1d = bMix(c1, "#000000", .45), c1h = bMix(c1, "#FFFFFF", .28);
+    const poly = pts => pts.map((q, i) => (i ? "L" : "M") + bf(q[0]) + " " + bf(q[1])).join("") + "Z";
+    const glatt = pts => { let d = "M" + bf((pts[0][0] + pts[pts.length - 1][0]) / 2) + " " + bf((pts[0][1] + pts[pts.length - 1][1]) / 2);
+      for (let i = 0; i < pts.length; i++) { const q = pts[i], n = pts[(i + 1) % pts.length]; d += "Q" + bf(q[0]) + " " + bf(q[1]) + " " + bf((q[0] + n[0]) / 2) + " " + bf((q[1] + n[1]) / 2); } return d + "Z"; };
+    const aus = (p, q, f) => [p[0] + (p[0] - q[0]) * f, p[1] + (p[1] - q[1]) * f];
+    // Oberkörper (Haut: Schultern/Deltamuskeln), darüber Trikot
+    const oL = aus(sL, sR, K ? .2 : .22), oR = aus(sR, sL, K ? .2 : .22), tv = bVerlauf(lerp(N, sL, .5), lerp(mU, hR, .5), 18 * s, K ? K.oben : HAUT, K ? bMix(K.oben, "#000000", .5) : HAUT_D, K ? bMix(K.oben, "#FFFFFF", .3) : RAND); defs += tv.def;
+    const rumpf = '<path d="' + glatt([oL, lerp(sL, hL, .35), lerp(lerp(sL, hL, .72), mU, K ? -.05 : .1), K ? aus(hL, hR, .12) : lerp(hL, mU, .08), K ? aus(hR, hL, .12) : lerp(hR, mU, .08), lerp(lerp(sR, hR, .72), mU, K ? -.05 : .1), lerp(sR, hR, .35), oR, lerp(N, oR, .4), N, lerp(N, oL, .4)]) + '" fill="url(#' + tv.id + ')" stroke="' + BT + '" stroke-width="' + lw + '"/>';
+    const jv = bVerlauf(lerp(N, sL, .5), lerp(mU, hR, .5), 16 * s, c1, c1d, c1h); defs += jv.def;
+    const aL = lerp(lerp(sL, hL, .34), mU, .08), aR = lerp(lerp(sR, hR, .34), mU, .08), stL = lerp(N, sL, .5), stR = lerp(N, sR, .5), hemL = aus(hL, hR, .1), hemR = aus(hR, hL, .1);
+    const unten = [0, 5 * s], hemL2 = [hemL[0] + unten[0], hemL[1] + unten[1]], hemR2 = [hemR[0] + unten[0], hemR[1] + unten[1]], ausschnitt = [N[0] + (o.flip ? -1 : 1) * 1.5 * s, N[1] + 7 * s];
+    const trikot = K ? "" : '<path d="' + poly([stL, ausschnitt, stR, aR, hemR2, hemL2, aL]) + '" fill="url(#' + jv.id + ')" stroke="' + BT + '" stroke-width="' + lw + '" stroke-linejoin="round"/>' +
+      '<path d="M' + bf(stL[0]) + " " + bf(stL[1]) + "L" + bf(ausschnitt[0]) + " " + bf(ausschnitt[1]) + "L" + bf(stR[0]) + " " + bf(stR[1]) + "M" + bf(aL[0]) + " " + bf(aL[1]) + "Q" + bf(lerp(stL, aL, .5)[0] + 2 * s) + " " + bf(lerp(stL, aL, .5)[1]) + " " + bf(stL[0]) + " " + bf(stL[1]) + '" fill="none" stroke="' + c2 + '" stroke-width="' + bf(1.6 * s) + '"/>' +
+      '<path d="M' + bf(lerp(aL, hemL2, .3)[0] + 3 * s) + " " + bf(lerp(aL, hemL2, .3)[1]) + "Q" + bf(lerp(aL, hemR2, .55)[0]) + " " + bf(lerp(aL, hemR2, .55)[1] + 3 * s) + " " + bf(lerp(aR, hemR2, .6)[0] - 2 * s) + " " + bf(lerp(aR, hemR2, .6)[1]) +
+      'M' + bf(lerp(aL, hemL2, .7)[0] + 2 * s) + " " + bf(lerp(aL, hemL2, .7)[1]) + "Q" + bf(lerp(hemL2, hemR2, .4)[0]) + " " + bf(lerp(hemL2, hemR2, .4)[1] - 4 * s) + " " + bf(lerp(aR, hemR2, .85)[0] - 3 * s) + " " + bf(lerp(aR, hemR2, .85)[1]) + '" fill="none" stroke="' + c1d + '" stroke-width="' + bf(1.1 * s) + '" opacity=".8"/>';
+    const mO = lerp(N, mU, .38), winkel = Math.atan2(mU[0] - N[0], N[1] - mU[1]) * -180 / Math.PI;
+    const nummer = !K && o.nr != null ? '<text x="' + bf(mO[0]) + '" y="' + bf(mO[1] + 6 * s) + '" transform="rotate(' + bf(winkel) + " " + bf(mO[0]) + " " + bf(mO[1]) + ") scale(" + (P.front ? 1 : .86) + ' 1)" transform-origin="' + bf(mO[0]) + " " + bf(mO[1]) + '" text-anchor="middle" class="b-nr" font-size="' + bf(14 * s) + '" fill="' + c2 + '" stroke="' + BT + '" stroke-width="' + bf(.8 * s) + '" paint-order="stroke">' + esc(String(o.nr)) + "</text>" : "";
+    // Shorts: bis kurz über die Knie, weit geschnitten
+    const kL = J("knL"), kR = J("knR"), oeL = lerp(hL, kL, .78), oeR = lerp(hR, kR, .78), schritt = [mU[0], mU[1] + 13 * s];
+    const shv = bVerlauf(hL, oeR, 16 * s, K ? K.unten : c1, K ? bMix(K.unten, "#000000", .5) : c1d, K ? bMix(K.unten, "#FFFFFF", .3) : c1h); defs += shv.def;
+    const bundL = aus(hL, hR, .18), bundR = aus(hR, hL, .18), au = (q, r, f) => [q[0] + (q[0] - r[0]) * f, q[1] + (q[1] - r[1]) * f];
+    const shorts = '<path d="' + glatt([bundL, bundR, [oeR[0] + (oeR[0] - schritt[0]) * .35, oeR[1] + 2 * s], [oeR[0] - (oeR[0] - schritt[0]) * .45, oeR[1] + 3 * s], schritt, [oeL[0] - (oeL[0] - schritt[0]) * .45, oeL[1] + 3 * s], [oeL[0] + (oeL[0] - schritt[0]) * .35, oeL[1] + 2 * s]]) + '" fill="url(#' + shv.id + ')" stroke="' + BT + '" stroke-width="' + lw + '"/>' +
+      (K ? "" : '<path d="M' + bf(bundR[0]) + " " + bf(bundR[1] + 2 * s) + "L" + bf(au(oeR, schritt, .3)[0]) + " " + bf(oeR[1]) + '" stroke="' + c2 + '" stroke-width="' + bf(1.8 * s) + '"/><path d="M' + bf(bundL[0]) + " " + bf(bundL[1] + 1.5 * s) + "L" + bf(bundR[0]) + " " + bf(bundR[1] + 1.5 * s) + '" stroke="' + c1d + '" stroke-width="' + bf(2.4 * s) + '"/>');
+    // Kopf: Schädel, Kiefer, Ohr, Haare, Nase im Profil; Gesicht im Schatten, Streiflicht am Hinterkopf
+    const k = J("kopf"), r = 6.6 * s, dir = P.front ? 0 : (o.flip ? -1 : 1);
+    const kv = bVerlauf([k[0] - r, k[1]], [k[0] + r, k[1]], r, HAUT, HAUT_D, RAND); defs += kv.def;
+    const hals = glied([N, lerp(N, k, .55)], [3.6 * s, 3.3 * s], HAUT, HAUT_D, RAND);
+    const schaedel = "M" + bf(k[0] - r * .8) + " " + bf(k[1] - r * .15) + "Q" + bf(k[0] - r * .85) + " " + bf(k[1] - r * 1.05) + " " + bf(k[0]) + " " + bf(k[1] - r * 1.02) + "Q" + bf(k[0] + r * .88) + " " + bf(k[1] - r * 1.02) + " " + bf(k[0] + r * .8) + " " + bf(k[1] - r * .1) +
+      (dir ? "L" + bf(k[0] + dir * r * .98) + " " + bf(k[1] + r * .12) + "L" + bf(k[0] + dir * r * .8) + " " + bf(k[1] + r * .3) : "") +
+      "Q" + bf(k[0] + r * .62) + " " + bf(k[1] + r * .95) + " " + bf(k[0] + dir * r * .15) + " " + bf(k[1] + r * 1.08) + "Q" + bf(k[0] - r * .62) + " " + bf(k[1] + r * .95) + " " + bf(k[0] - r * .8) + " " + bf(k[1] - r * .15) + "Z";
+    const kapuze = K ? '<path d="M' + bf(N[0] - 9 * s) + " " + bf(N[1] + 3 * s) + "Q" + bf(N[0]) + " " + bf(N[1] - 4 * s) + " " + bf(N[0] + 9 * s) + " " + bf(N[1] + 3 * s) + "Q" + bf(N[0]) + " " + bf(N[1] + 9 * s) + " " + bf(N[0] - 9 * s) + " " + bf(N[1] + 3 * s) + 'Z" fill="' + bMix(K.oben, "#FFFFFF", .12) + '" stroke="' + BT + '" stroke-width="' + lw + '"/>' +
+      '<path d="M' + bf(lerp(hL, hR, .2)[0]) + " " + bf(lerp(N, mU, .68)[1]) + "H" + bf(lerp(hL, hR, .8)[0]) + "L" + bf(lerp(hL, hR, .88)[0]) + " " + bf(mU[1] - 2 * s) + "H" + bf(lerp(hL, hR, .12)[0]) + 'Z" fill="none" stroke="' + BT + '" stroke-width="' + lw + '" opacity=".8"/>' +
+      '<path d="M' + bf(N[0] - 2 * s) + " " + bf(N[1] + 6 * s) + "v" + bf(9 * s) + "M" + bf(N[0] + 2 * s) + " " + bf(N[1] + 6 * s) + "v" + bf(9 * s) + '" stroke="#DADADA" stroke-width="' + bf(.9 * s) + '"/>' : "";
+    const kopf = hals + kapuze + '<path d="' + schaedel + '" fill="url(#' + kv.id + ')" stroke="' + BT + '" stroke-width="' + lw + '"/>' +
+      '<path d="M' + bf(k[0] - r * .84) + " " + bf(k[1] - r * .2) + "Q" + bf(k[0] - r * .86) + " " + bf(k[1] - r * 1.08) + " " + bf(k[0]) + " " + bf(k[1] - r * 1.06) + "Q" + bf(k[0] + r * .9) + " " + bf(k[1] - r * 1.06) + " " + bf(k[0] + r * .84) + " " + bf(k[1] - r * .25) + "Q" + bf(k[0]) + " " + bf(k[1] - r * .62) + " " + bf(k[0] - r * .84) + " " + bf(k[1] - r * .2) + 'Z" fill="#120D0C"/>' +
+      (dir ? '<ellipse cx="' + bf(k[0] - dir * r * .12) + '" cy="' + bf(k[1] + r * .05) + '" rx="' + bf(r * .16) + '" ry="' + bf(r * .26) + '" fill="' + HAUT_D + '" stroke="' + BT + '" stroke-width="' + bf(.9 * s) + '"/>' :
+        '<ellipse cx="' + bf(k[0] - r * .86) + '" cy="' + bf(k[1] + r * .05) + '" rx="' + bf(r * .14) + '" ry="' + bf(r * .24) + '" fill="' + HAUT_D + '"/><ellipse cx="' + bf(k[0] + r * .86) + '" cy="' + bf(k[1] + r * .05) + '" rx="' + bf(r * .14) + '" ry="' + bf(r * .24) + '" fill="' + HAUT_D + '"/>') +
+      '<path d="M' + bf(k[0] + r * .2) + " " + bf(k[1] - r * 1.02) + "Q" + bf(k[0] + r * .95) + " " + bf(k[1] - r * .8) + " " + bf(k[0] + r * .86) + " " + bf(k[1] + r * .1) + '" fill="none" stroke="' + RAND + '" stroke-width="' + bf(1.3 * s) + '" stroke-linecap="round"/>';
+    let tasche = "";
+    if (o.tasche) {
+      const h = J("haR"), w = 30 * s, t = 17 * s, x0 = h[0] - w * .55, y0 = h[1] + 6 * s;
+      let karo = ""; for (let i = 1; i < 6; i++) karo += "M" + bf(x0 + w * i / 6) + " " + bf(y0) + "V" + bf(y0 + t);
+      for (let j = 1; j < 3; j++) karo += "M" + bf(x0) + " " + bf(y0 + t * j / 3) + "H" + bf(x0 + w);
+      tasche = '<path d="M' + bf(h[0] - 7 * s) + " " + bf(y0 + 1) + "Q" + bf(h[0]) + " " + bf(h[1] - 4 * s) + " " + bf(h[0] + 7 * s) + " " + bf(y0 + 1) + '" fill="none" stroke="' + BT + '" stroke-width="' + bf(2.4 * s) + '"/>' +
+        '<rect x="' + bf(x0) + '" y="' + bf(y0) + '" width="' + bf(w) + '" height="' + bf(t) + '" rx="' + bf(6 * s) + '" fill="#4E3626" stroke="' + BT + '" stroke-width="' + lw + '"/>' +
+        '<path d="' + karo + '" stroke="#B08A52" stroke-width="' + bf(.8 * s) + '" opacity=".6"/><path d="M' + bf(x0 + 3 * s) + " " + bf(y0 + 2.5 * s) + "H" + bf(x0 + w - 3 * s) + '" stroke="#E8C98F" stroke-width="' + bf(1.2 * s) + '"/>';
+    }
+    const schatten = '<ellipse cx="' + bf(o.x) + '" cy="' + bf(o.y + 1) + '" rx="' + bf(24 * s) + '" ry="' + bf(4 * s) + '" fill="#000" opacity=".28"/>';
+    const body = schatten + arm("L", false) + bein("L", false) + bein("R", true) + rumpf + (K ? "" : shorts) + trikot + nummer + kopf + arm("R", true) + tasche +
+      (o.ball && P.ball ? bBall(J("ball")[0], J("ball")[1], 8.5 * s, o.id) : "");
+    return '<g class="b-figur"><defs>' + defs + "</defs>" + body + "</g>";
   }
   function bKorb(x, y, s, id) { // (x, y) = Mitte des Rings; Brett steht rechts dahinter
     const S = v => bf(v * s);
@@ -1406,7 +1513,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     return '<g transform="rotate(-3 ' + x + " " + y + ')"><rect x="' + bf(x - w / 2 + 3) + '" y="' + (y + 3) + '" width="' + bf(w) + '" height="20" fill="' + BT + '"/><rect x="' + bf(x - w / 2) + '" y="' + y + '" width="' + bf(w) + '" height="20" fill="#fff" stroke="' + BT + '" stroke-width="2.2"/>' +
       '<text x="' + x + '" y="' + (y + 14.5) + '" text-anchor="middle" class="b-schild">' + esc(t) + "</text></g>";
   }
-  function bildSvg(b, id) {
+  function bildSvg(b, id, hell) {
     const T = k => team(k), sp = b.spieler || {}, st = T(sp.team || b.heim), gg = T(b.gegner || (sp.team === b.heim ? b.gast : b.heim));
     const rgb = h => [1, 3, 5].map(i => parseInt(String(h).slice(i, i + 2), 16) || 0), nah = (a, c) => { const x = rgb(a), y = rgb(c); return Math.hypot(x[0] - y[0], x[1] - y[1], x[2] - y[2]) < 140; };
     const ich = { c1: st.c1, c2: st.c2, nr: sp.nr, id }, er = nah(st.c1, gg.c1) ? { c1: gg.c2, c2: gg.c1, id } : { c1: gg.c1, c2: gg.c2, id };
@@ -1423,6 +1530,10 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
           '<path d="M205 62L212 80L230 76L216 90L228 104L210 98L204 116L198 98L180 104L192 90L178 76L196 80Z" fill="#FFFBE6" stroke="' + BT + '" stroke-width="2"/>';
         szene += bSfx(b.sfx || "ZACK!", 92, 92, 58, -14) + bSchild(sp.name, sp.nr, 275, 262);
         break;
+      case "halle": szene = cFans(ich, gg, b, id); break;
+      case "anzeige": szene = cTafelGross(b, ich, er); break;
+      case "zahl": szene = cZahl(b, ich, 400, 300, id); break;
+      case "lauf": case "dribbel":
       case "duell":
         fx = '<g opacity=".6">' + Array.from({ length: 12 }, (_, i) => '<path d="M' + (20 + (i * 37) % 60) + " " + (150 + i * 10) + "H" + (110 + (i * 29) % 40) + '" stroke="#FFFBE6" stroke-width="2.4" stroke-linecap="round"/>').join("") + "</g>";
         szene = bKorb(362, 92, .9, id) + bFigur("verteidigen", Object.assign({ x: 292, y: 280, s: 1.45, flip: true }, er)) + bFigur("drive", Object.assign({ x: 180, y: 284, s: 1.6, ball: true }, ich));
@@ -1449,9 +1560,130 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
       '<radialGradient id="bg-ball' + id + '" cx=".35" cy=".3" r=".8"><stop offset="0" stop-color="#FFB15C"/><stop offset=".6" stop-color="#F06A10"/><stop offset="1" stop-color="#B8460A"/></radialGradient>' +
       '<linearGradient id="bg-sfx" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF27A"/><stop offset="1" stop-color="#FF8A1A"/></linearGradient>' +
       '<pattern id="bg-raster' + id + '" width="5" height="5" patternUnits="userSpaceOnUse"><circle cx="2.5" cy="2.5" r="1.1" fill="#000" opacity=".35"/></pattern></defs>';
-    const tafel = b.tafel ? '<g><rect x="262" y="8" width="130" height="30" rx="4" fill="' + BT + '" stroke="#555" stroke-width="2"/><text x="327" y="28" text-anchor="middle" class="b-tafel">' + esc(b.tafel) + "</text></g>" : "";
-    return '<svg viewBox="0 0 400 300" role="img" aria-label="' + esc(b.titel || "Bild des Tages") + '">' + defs + bHalle(id, st.c1) + fx + szene + '<rect width="400" height="300" fill="url(#bg-raster' + id + ')" opacity=".18"/>' +
+    const tafel = b.tafel && !hell ? '<g><rect x="262" y="8" width="130" height="30" rx="4" fill="' + BT + '" stroke="#555" stroke-width="2"/><text x="327" y="28" text-anchor="middle" class="b-tafel">' + esc(b.tafel) + "</text></g>" : "";
+    return '<svg viewBox="0 0 400 300"' + (hell ? ' preserveAspectRatio="xMidYMid slice"' : "") + ' role="img" aria-label="' + esc(b.titel || b.text || "Comic") + '">' + defs + cDefs(id) + (b.szene === "zahl" ? "" : hell ? cHalle(id, st.c1) : bHalle(id, st.c1)) + fx + szene + '<rect width="400" height="300" fill="url(#bg-raster' + id + ')" opacity=".18"/>' +
       (b.text ? bText(b.text, 10, 10, 30) : "") + tafel + '<rect x="2" y="2" width="396" height="296" fill="none" stroke="' + BT + '" stroke-width="4"/></svg>';
+  }
+  /* ---------- Comic des Tages ----------
+     Eine ganze Comic-Seite (5–6 Bilder) zu EINER Situation aus den News des Vortags, im Stil einer Basketball-Magazin-Seite:
+     ein hohes Bild links (Ankunft im Kabinengang oder große Zahl), daneben und darunter Spielszenen in heller, voller Halle.
+     comic = { datum, liga, heim, gast, newsId, titel, untertitel, erklaerung?,
+               bilder: [ { szene, text?, sfx?, spieler?: { name, team, nr? }, gegner?, tafel?, zahl?, label? } ] } */
+  function cDefs(id) {
+    return '<defs><linearGradient id="c-luft' + id + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2B1C14"/><stop offset=".5" stop-color="#6E4126"/><stop offset="1" stop-color="#A8673A"/></linearGradient>' +
+      '<linearGradient id="c-parkett' + id + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C98540"/><stop offset="1" stop-color="#F0BE78"/></linearGradient>' +
+      '<linearGradient id="c-licht' + id + '" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFF4C8" stop-opacity=".55"/><stop offset="1" stop-color="#FFF4C8" stop-opacity="0"/></linearGradient>' +
+      '<pattern id="c-punkte' + id + '" width="4" height="4" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r=".9" fill="#000" opacity=".4"/></pattern>' +
+      '<filter id="c-weich' + id + '" x="-5%" y="-5%" width="110%" height="110%"><feGaussianBlur stdDeviation="1.1"/></filter>' +
+      '<radialGradient id="c-glanz' + id + '" cx=".5" cy=".3" r=".7"><stop offset="0" stop-color="#FFF4C8" stop-opacity=".35"/><stop offset="1" stop-color="#FFF4C8" stop-opacity="0"/></radialGradient></defs>';
+  }
+  const C_HAUT = ["#F1CBA8", "#E0AC84", "#C68B5E", "#9A6440", "#6E452B", "#4E3020"];
+  const C_SHIRT = ["#E23B3B", "#F4F4F4", "#2D6FD8", "#FFD54F", "#1F2433", "#7A3FE0", "#3DD07E", "#FF8A1A"];
+  function cMenge(y0, y1, reihen, akzent, seed) { // Publikum: Reihen aus Köpfen und Oberkörpern, vorne größer
+    let m = "";
+    for (let r = 0; r < reihen; r++) {
+      const t = r / Math.max(1, reihen - 1), kr = 3.2 + t * 3.4, y = y0 + (y1 - y0) * t, n = Math.ceil(420 / (kr * 2.9));
+      for (let i = 0; i < n; i++) {
+        const k = (i * 7 + r * 13 + (seed || 0)) % 97, x = i * kr * 2.9 + (r % 2) * kr * 1.4 - 6, haut = C_HAUT[k % 6], hemd = k % 5 === 0 ? akzent : C_SHIRT[(k * 3) % 8];
+        const hoch = k % 9 === 0;
+        if (hoch) m += '<path d="M' + bf(x - kr) + " " + bf(y + kr) + "L" + bf(x - kr * 1.8) + " " + bf(y - kr * 2.2) + "M" + bf(x + kr) + " " + bf(y + kr) + "L" + bf(x + kr * 1.8) + " " + bf(y - kr * 2.2) + '" stroke="' + haut + '" stroke-width="' + bf(kr * .7) + '" stroke-linecap="round"/>';
+        m += '<rect x="' + bf(x - kr * 1.25) + '" y="' + bf(y + kr * .8) + '" width="' + bf(kr * 2.5) + '" height="' + bf(kr * 2.6) + '" rx="' + bf(kr * .8) + '" fill="' + hemd + '" stroke="#14161F" stroke-width=".6"/>' +
+          '<circle cx="' + bf(x) + '" cy="' + bf(y) + '" r="' + bf(kr) + '" fill="' + haut + '" stroke="#14161F" stroke-width=".6"/>' +
+          '<path d="M' + bf(x - kr) + " " + bf(y - kr * .1) + "A" + bf(kr) + " " + bf(kr) + " 0 0 1 " + bf(x + kr) + " " + bf(y - kr * .1) + 'Z" fill="' + ["#2A1A10", "#5A3A1E", "#14161F", "#C9A56B"][k % 4] + '"/>';
+      }
+      m += '<rect y="' + bf(y0 - 8) + '" width="400" height="' + bf(Math.max(0, y - y0 + 8)) + '" fill="#2B1C14" opacity="' + bf((1 - t) * .05) + '"/>';
+    }
+    return m;
+  }
+  function cHalle(id, akzent) { // helle, volle Halle: warme Scheinwerfer, buntes Publikum, Bande, Parkett
+    let dielen = ""; for (let i = -8; i <= 24; i++) dielen += "M" + bf(200 + (i * 25 - 200) * .35) + " 172L" + bf(i * 25) + " 300";
+    return '<rect width="400" height="300" fill="url(#c-luft' + id + ')"/>' +
+      '<path d="M50 0L0 150H120Z M200 0L140 150H270Z M350 0L280 150H400Z" fill="url(#c-licht' + id + ')"/>' +
+      '<g filter="url(#c-weich' + id + ')">' + cMenge(52, 150, 7, akzent, 3) + "</g>" + '<rect width="400" height="150" fill="url(#c-glanz' + id + ')"/>' +
+      '<rect y="154" width="400" height="18" fill="' + akzent + '" stroke="#14161F" stroke-width="2"/><rect y="154" width="400" height="18" fill="url(#c-punkte' + id + ')" opacity=".35"/>' +
+      '<path d="M0 172H400V300H0Z" fill="url(#c-parkett' + id + ')"/><path d="' + dielen + '" stroke="#9A5A26" stroke-width=".8" opacity=".35"/>' +
+      '<path d="M-40 300Q200 200 440 300" fill="none" stroke="#fff" stroke-width="3" opacity=".85"/><path d="M0 212H400" stroke="#fff" stroke-width="2" opacity=".5"/>' +
+      '<ellipse cx="200" cy="236" rx="190" ry="26" fill="#FFF4C8" opacity=".18"/>';
+  }
+  function cFans(ich, gg, b, id) { // Nahaufnahme jubelnder Fans mit Schaumstoff-Finger und Plakat
+    let f = "";
+    for (let i = 0; i < 7; i++) {
+      const x = 24 + i * 59, y = 248 + (i % 2) * 14, k = (i * 5 + 2) % 6, hemd = i % 2 ? ich.c1 : C_SHIRT[(i * 3) % 8], haut = C_HAUT[k];
+      f += '<path d="M' + (x - 14) + " " + (y + 6) + "L" + (x - 26) + " " + (y - 34) + "M" + (x + 14) + " " + (y + 6) + "L" + (x + 26) + " " + (y - 34) + '" stroke="#14161F" stroke-width="11" stroke-linecap="round"/>' +
+        '<path d="M' + (x - 14) + " " + (y + 6) + "L" + (x - 26) + " " + (y - 34) + "M" + (x + 14) + " " + (y + 6) + "L" + (x + 26) + " " + (y - 34) + '" stroke="' + haut + '" stroke-width="7.5" stroke-linecap="round"/>' +
+        '<rect x="' + (x - 21) + '" y="' + (y + 2) + '" width="42" height="60" rx="14" fill="' + hemd + '" stroke="#14161F" stroke-width="2.4"/>' +
+        '<circle cx="' + x + '" cy="' + (y - 12) + '" r="15" fill="' + haut + '" stroke="#14161F" stroke-width="2.4"/>' +
+        '<path d="M' + (x - 15) + " " + (y - 13) + "A15 15 0 0 1 " + (x + 15) + " " + (y - 13) + 'Z" fill="' + ["#2A1A10", "#14161F", "#5A3A1E", "#C9A56B"][i % 4] + '"/>' +
+        '<path d="M' + (x - 13) + " " + (y - 4) + "Q" + x + " " + (y + 8) + " " + (x + 13) + " " + (y - 4) + '" fill="none" stroke="#000" stroke-width="5" opacity=".18"/>';
+    }
+    const plakat = String(b.label || (team(b.spieler && b.spieler.team || b.heim).name || "").toUpperCase()).slice(0, 22);
+    f += '<g transform="rotate(-6 200 120)"><rect x="96" y="96" width="208" height="44" fill="#fff" stroke="#14161F" stroke-width="3"/><text x="200" y="127" text-anchor="middle" class="b-sfx" font-size="26" fill="' + ich.c1 + '" stroke="#14161F" stroke-width="1">' + esc(plakat) + "</text></g>" +
+      '<g transform="rotate(14 330 170)"><path d="M318 230V150q0-10 10-10h4q10 0 10 10v80Z" fill="#FFD54F" stroke="#14161F" stroke-width="2.6"/><rect x="306" y="190" width="48" height="52" rx="12" fill="#FFD54F" stroke="#14161F" stroke-width="2.6"/></g>';
+    return f + (b.sfx ? bSfx(b.sfx, 90, 70, 48, -10) : "");
+  }
+  function cTafelGross(b, ich, er) { // Anzeigetafel über dem Spielfeld
+    const t = String(b.tafel || "").slice(0, 24), l = String(b.label || "").slice(0, 26);
+    return '<path d="M200 0V26" stroke="#14161F" stroke-width="4"/><rect x="70" y="24" width="260" height="104" rx="8" fill="#14161F" stroke="#3B4256" stroke-width="4"/>' +
+      '<rect x="80" y="34" width="240" height="84" rx="4" fill="#06070C"/><rect x="80" y="34" width="240" height="84" rx="4" fill="url(#bg-rasterg)" opacity=".25"/>' +
+      '<text x="200" y="88" text-anchor="middle" class="b-tafel" font-size="' + (t.length > 16 ? 26 : 32) + '">' + esc(t) + "</text>" +
+      (l ? '<text x="200" y="110" text-anchor="middle" class="b-tafel" font-size="14" style="fill:#FFF27A">' + esc(l) + "</text>" : "") +
+      '<rect x="76" y="30" width="248" height="4" fill="' + ich.c1 + '"/><rect x="76" y="118" width="248" height="4" fill="' + er.c1 + '"/>' +
+      bFigur("verteidigen", Object.assign({ x: 120, y: 292, s: 1.15 }, er)) + bFigur("drive", Object.assign({ x: 270, y: 296, s: 1.2, ball: true, flip: true }, ich)) +
+      (b.sfx ? bSfx(b.sfx, 340, 196, 40, 8) : "");
+  }
+  function cZahl(b, ich, w, h, id) { // große Zahl im Strahlenkranz
+    let st = ""; for (let i = 0; i < 28; i++) { const a = i / 28 * Math.PI * 2, a2 = a + Math.PI / 28; st += "M" + w / 2 + " " + h / 2 + "L" + bf(w / 2 + Math.cos(a) * w) + " " + bf(h / 2 + Math.sin(a) * w) + "L" + bf(w / 2 + Math.cos(a2) * w) + " " + bf(h / 2 + Math.sin(a2) * w) + "Z"; }
+    const z = String(b.zahl == null ? "" : b.zahl).slice(0, 5), gr = Math.min(h * .5, w * 1.5 / Math.max(2, z.length));
+    return '<rect width="' + w + '" height="' + h + '" fill="' + ich.c1 + '"/><path d="' + st + '" fill="#FFFFFF" opacity=".22"/><rect width="' + w + '" height="' + h + '" fill="url(#c-punkte' + id + ')" opacity=".3"/>' +
+      '<text x="' + (w / 2 + 6) + '" y="' + bf(h * .56 + 6) + '" text-anchor="middle" class="b-sfx" font-size="' + bf(gr) + '" fill="#14161F">' + esc(z) + "</text>" +
+      '<text x="' + w / 2 + '" y="' + bf(h * .56) + '" text-anchor="middle" class="b-sfx" font-size="' + bf(gr) + '" fill="#fff" stroke="#14161F" stroke-width="5" paint-order="stroke">' + esc(z) + "</text>" +
+      (b.label ? '<g transform="rotate(-4 ' + w / 2 + " " + bf(h * .74) + ')"><rect x="' + bf(w * .12) + '" y="' + bf(h * .68) + '" width="' + bf(w * .76) + '" height="' + bf(h * .13) + '" fill="#14161F"/><text x="' + w / 2 + '" y="' + bf(h * .68 + h * .095) + '" text-anchor="middle" class="b-sfx" font-size="' + bf(h * .085) + '" fill="#FFD54F">' + esc(String(b.label).toUpperCase().slice(0, 18)) + "</text></g>" : "");
+  }
+  function cAnkunft(p, id) { // hohes Bild: Spieler kommt mit Tasche durch den Kabinengang, Teamname an der Wand
+    const sp = p.spieler || {}, t = team(sp.team), W = 300, H = 460;
+    let decke = ""; for (let k = 0; k < 7; k++) { const f = Math.pow(.72, k), y = 170 - 170 * f, y2 = 170 - 170 * Math.pow(.72, k + .45), x1 = 150 - 150 * f, x2 = 150 - 150 * Math.pow(.72, k + .45);
+      decke += '<path d="M' + bf(x1 + 18 * f) + " " + bf(y) + "H" + bf(W - x1 - 18 * f) + "L" + bf(W - x2 - 18 * f) + " " + bf(y2) + "H" + bf(x2 + 18 * f) + 'Z" fill="#FFE08A" stroke="#14161F" stroke-width="1.2"/>'; }
+    const name = String(t.name || "").toUpperCase();
+    const body = '<rect width="300" height="460" fill="#3B2A22"/>' +
+      '<path d="M0 0H300L190 170H110Z" fill="#2A1E19"/>' + decke +
+      '<path d="M0 0L110 170V330L0 460Z" fill="#6E5A4E"/><path d="M300 0L190 170V330L300 460Z" fill="#5A4840"/>' +
+      '<path d="M0 460L110 330H190L300 460Z" fill="#8C7A6C"/><path d="M110 170H190V330H110Z" fill="#FFF4C8"/><path d="M110 170H190V330H110Z" fill="url(#c-licht' + id + ')"/>' +
+      '<path d="M150 330L30 460M150 330L270 460" stroke="#14161F" stroke-width="1" opacity=".25"/>' +
+      '<g transform="translate(64 430) rotate(-90)"><text x="0" y="0" class="b-sfx" font-size="44" textLength="400" lengthAdjust="spacingAndGlyphs" fill="' + t.c1 + '" stroke="#14161F" stroke-width="2" paint-order="stroke">' + esc(name) + "</text></g>" +
+      '<g transform="translate(290 30) rotate(90)"><text x="0" y="0" class="b-sfx" font-size="22" fill="' + (t.c2 === "#FFFFFF" ? "#E8DCCB" : t.c2) + '" opacity=".75">' + esc(t.kurz || "") + "</text></g>" +
+      '<ellipse cx="160" cy="444" rx="70" ry="10" fill="#000" opacity=".35"/>' +
+      bFigur("gehen", { x: 168, y: 446, s: 2.5, c1: "#24252D", c2: "#3A3C48", nr: null, kleid: { oben: "#2B2C35", oben2: "#1E1F26", unten: "#2B2C35", unten2: "#1E1F26" }, tasche: true, id }) +
+      '<rect width="300" height="460" fill="url(#c-punkte' + id + ')" opacity=".16"/>' + (sp.name ? bSchild(sp.name, sp.nr, 150, 20) : "");
+    return '<svg viewBox="0 0 ' + W + " " + H + '" preserveAspectRatio="xMidYMid slice" role="img" aria-label="' + esc(p.text || "Ankunft") + '">' + cDefs(id) + body + "</svg>";
+  }
+  function comicPanel(p, c, i, hoch) {
+    const id = "c" + i + (hoch ? "h" : "");
+    let svg;
+    if (hoch && (p.szene === "ankunft" || !p.szene)) svg = cAnkunft(p, id);
+    else if (hoch && p.szene === "zahl") { const sp = p.spieler || {}, t = team(sp.team || c.heim); svg = '<svg viewBox="0 0 300 460" preserveAspectRatio="xMidYMid slice" role="img" aria-label="' + esc(p.label || "Zahl") + '">' + cDefs(id) + cZahl(p, { c1: t.c1 }, 300, 460, id) + "</svg>"; }
+    else svg = bildSvg(Object.assign({ heim: c.heim, gast: c.gast }, p, { text: "", szene: p.szene === "ankunft" ? "jubel" : p.szene }), id, true);
+    return '<div class="cpanel cp' + i + '"><div class="cbild">' + svg + "</div>" + (p.text ? '<span class="cap">' + esc(p.text) + "</span>" : "") + "</div>";
+  }
+  function comicSeite(c) {
+    const b = (c.bilder || []).slice(0, 6);
+    return '<div class="comic-seite"><div class="comic-raster' + (b.length > 5 ? " sechs" : "") + '">' + b.map((p, i) => comicPanel(p, c, i, i === 0)).join("") + "</div></div>";
+  }
+  function comicKachel() {
+    const c = D.comic; if (!c || !c.bilder || !c.bilder.length) return "";
+    return '<section class="sec"><button class="card comic-kachel" data-comic><span class="comic-mini">' + comicSeite(c) + '</span><span class="bild-info"><span class="bild-marke">Comic des Tages</span><b>' + esc(c.titel) + "</b>" + (c.untertitel ? "<span>" + esc(c.untertitel) + "</span>" : "") + "<em>Tippen zum Lesen</em></span></button></section>";
+  }
+  function openComic(modus) {
+    const c = D.comic; if (!c || !c.bilder) return;
+    if (modus !== "zurueck") merken({ ov: { comic: 1 } });
+    const n = c.newsId && allNews().find(x => x.id === c.newsId);
+    $("#overlay").innerHTML = '<div class="reader bild-leser" role="dialog" aria-modal="true" aria-label="Comic des Tages"><div class="reader-bar"><button data-close><svg width="20" height="20" viewBox="0 0 20 20" aria-hidden="true"><path d="M13 4l-6 6 6 6" stroke="currentColor" stroke-width="2.6" fill="none" stroke-linecap="round"/></svg>Zurück</button></div><article>' +
+      '<div class="meta"><span class="pill bild-pill">Comic des Tages</span>' + (c.liga ? ligaPill(c.liga) : "") + (c.datum ? "<span>" + fmtDate(c.datum + "T12:00:00") + "</span>" : "") + "</div><h1>" + esc(c.titel) + "</h1>" + (c.untertitel ? '<p class="comic-unter">' + esc(c.untertitel) + "</p>" : "") +
+      '<figure class="comic-gross">' + comicSeite(c) + "</figure>" + (c.erklaerung ? '<div class="body"><p>' + linkTerms(c.erklaerung) + "</p></div>" : "") +
+      (n ? '<button class="btn" data-news="' + esc(n.id) + '">Den Artikel dazu lesen</button>' : "") +
+      '<p class="src">Gezeichnet im Korbjäger-Comic-Stil nach einer echten Situation aus den News. Die Figuren sind Comic-Figuren im Gegenlicht, keine Porträts der Spieler.</p></article></div>';
+    document.body.style.overflow = "hidden";
+    const r = $(".reader"); if (r) r.scrollTop = 0;
+    $("[data-close]").focus();
   }
   function bildKachel() {
     const b = D.bild; if (!b || !b.szene) return "";
@@ -1499,6 +1731,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     else if (b.dataset.news) openNews(b.dataset.news);
     else if (b.hasAttribute("data-potw")) openPotw();
     else if (b.hasAttribute("data-bild")) openBild();
+    else if (b.hasAttribute("data-comic")) openComic();
     else if (b.dataset.pos != null) openPos(Number(b.dataset.pos), b.hasAttribute("data-pos-ersetzen") ? "ersetzen" : undefined);
     else if (b.dataset.game != null) openGame(Number(b.dataset.game));
     else if (b.hasAttribute("data-gstart")) gameStart(b.dataset.gstart);
@@ -1554,7 +1787,7 @@ button.potw { width: 100%; border: 0; text-align: left; font: inherit; cursor: p
     const s = $(".sheet"); if (s) s.remove();
     if (!st.ov) overlayZu();
     if (st.tab !== current || st.liga !== ligaSel) { ligaSel = st.liga || ligaSel; go(st.tab, "zurueck"); }
-    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); else if (st.ov.bild) openBild("zurueck"); }
+    if (st.ov && D) { if (st.ov.n) openNews(st.ov.n, "zurueck"); else if (st.ov.g != null) openGame(st.ov.g, "zurueck"); else if (st.ov.p) openPotw("zurueck"); else if (st.ov.pos != null) openPos(st.ov.pos, "zurueck"); else if (st.ov.comic) openComic("zurueck"); else if (st.ov.bild) openBild("zurueck"); }
     else window.scrollTo(0, st.y || 0);
   });
   if ("scrollRestoration" in history) history.scrollRestoration = "manual";
