@@ -2,6 +2,242 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-20-vorschau-wagner-duell-alba-bayern",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "Bruder gegen Bruder und das Top-Spiel in Berlin: Das bringt das Wochenende",
+      "teaser": "In der Nacht treffen Franz und Moritz Wagner im NBA Cup aufeinander. Am Sonntag empfängt ALBA den FC Bayern.",
+      "text": [
+        "In der Nacht auf Samstag wird es im NBA Cup spannend für deutsche Fans. Um 1:30 Uhr spielen die Brooklyn Nets mit Moritz Wagner gegen die Orlando Magic mit seinem Bruder Franz Wagner und Tristan da Silva.",
+        "Schon um 1 Uhr sind Dennis Schröder und Rookie Hannes Steinbach mit den Charlotte Hornets bei den Atlanta Hawks gefordert. Um 2 Uhr spielt Isaiah Hartenstein mit Oklahoma City gegen die New Orleans Pelicans.",
+        "Am Sonntag um 18 Uhr steigt dann das Top-Spiel der Bundesliga: ALBA Berlin empfängt den FC Bayern. Bayern ist Tabellenführer und hat erst ein Spiel verloren. ALBA hat 5 Siege und 4 Niederlagen. Das Spiel läuft bei DYN.",
+        "Nach diesem Wochenende macht die Bundesliga eine Pause, denn dann spielt die Nationalmannschaft: Am 27. November in Riga gegen Lettland und am 30. November in Frankfurt gegen Polen."
+      ],
+      "fakten": [
+        "Fr./Sa., 1:30 Uhr: Brooklyn Nets – Orlando Magic (NBA Cup)",
+        "Fr./Sa., 1:00 Uhr: Atlanta Hawks – Charlotte Hornets (NBA Cup)",
+        "Fr./Sa., 2:00 Uhr: Oklahoma City Thunder – New Orleans Pelicans (NBA Cup)",
+        "So., 18:00 Uhr: ALBA Berlin – FC Bayern München (BBL)",
+        "27.11.: Lettland – Deutschland (WM-Quali)",
+        "30.11.: Deutschland – Polen (WM-Quali)"
+      ],
+      "quellen": [
+        "NBA",
+        "ESPN",
+        "easyCredit BBL",
+        "DBB"
+      ],
+      "teams": [
+        "BKN",
+        "ORL",
+        "CHA",
+        "ATL",
+        "OKC",
+        "NOP",
+        "ALBA",
+        "FCB",
+        "GER",
+        "LAT",
+        "POL"
+      ],
+      "spieler": [
+        "Moritz Wagner",
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Dennis Schröder",
+        "Hannes Steinbach",
+        "Isaiah Hartenstein"
+      ]
+    },
+    {
+      "id": "2026-11-20-wembanyama-castle-spurs",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "Wembanyama und Castle bringen die Spurs zurück an die Spitze",
+      "teaser": "San Antonio schlägt die Clippers 124:112. Wembanyama macht 32 Punkte, Castle verteilt 12 Assists.",
+      "text": [
+        "Zwei Tage nach dem Ende ihrer Serie von 12 Siegen haben die San Antonio Spurs wieder gewonnen. Gegen die Los Angeles Clippers hieß es 124:112.",
+        "Victor Wembanyama machte 32 Punkte und holte 11 Rebounds. Schon zum siebten Mal in dieser Saison kam er auf mindestens 30 Punkte.",
+        "Stark war auch Stephon Castle: 21 Punkte, 12 Assists und 4 Steals. Ein Steal von ihm brachte im letzten Viertel die wichtige 105:97-Führung, als Julian Champagnie danach einen Dreier traf. Champagnie kam insgesamt auf 20 Punkte.",
+        "Mit 13 Siegen und 3 Niederlagen stehen die Spurs jetzt auf Platz 1 im Westen – knapp vor den Lakers."
+      ],
+      "fakten": [
+        "Endstand: San Antonio Spurs – Los Angeles Clippers 124:112",
+        "Victor Wembanyama: 32 Punkte, 11 Rebounds",
+        "Stephon Castle: 21 Punkte, 12 Assists, 4 Steals",
+        "Julian Champagnie: 20 Punkte",
+        "Darius Garland und Brook Lopez (LAC): je 23 Punkte",
+        "Spurs: 13 Siege, 3 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "SAS",
+        "LAC",
+        "LAL"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Stephon Castle",
+        "Julian Champagnie",
+        "Darius Garland",
+        "Brook Lopez",
+        "Max Strus"
+      ]
+    },
+    {
+      "id": "2026-11-20-lillard-bucks-serie",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "dreier",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "Lillard scores 33 in Milwaukee – the Bucks lose again",
+      "teaser": "Portland won 124-114. Milwaukee has now lost 12 games in a row.",
+      "text": [
+        "Damian Lillard came back to Milwaukee, where he played for two seasons. This time he wore the jersey of the Portland Trail Blazers. He scored 33 points, his best game this season.",
+        "The game was close for a long time. The lead changed 20 times. With about three minutes left, Milwaukee was only one point behind. Then Portland scored the last nine points of the game.",
+        "Scoot Henderson also played very well. He scored 27 points and made 5 of his 6 three-pointers. Jrue Holiday added 22 points.",
+        "For the Bucks, it was the 12th loss in a row. They have won only one of their 16 games. That is the worst start in the team's history."
+      ],
+      "vokabeln": [
+        {
+          "en": "jersey",
+          "de": "Trikot"
+        },
+        {
+          "en": "lead",
+          "de": "Führung"
+        },
+        {
+          "en": "behind",
+          "de": "hinten, im Rückstand"
+        },
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        }
+      ],
+      "fakten": [
+        "Final score: Milwaukee Bucks 114, Portland Trail Blazers 124",
+        "Damian Lillard: 33 points (season high)",
+        "Scoot Henderson: 27 points, 5 of 6 three-pointers",
+        "Jrue Holiday: 22 points",
+        "Milwaukee: 12 losses in a row, 1 win and 15 losses",
+        "Portland scored the last 9 points"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "POR",
+        "MIL"
+      ],
+      "spieler": [
+        "Damian Lillard",
+        "Scoot Henderson",
+        "Jrue Holiday",
+        "Toumani Camara",
+        "Tyler Herro",
+        "Nate Ament",
+        "Kasparas Jakučionis"
+      ]
+    },
+    {
+      "id": "2026-11-20-grizzlies-warriors",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "Fünf Spiele, fünf Niederlagen: Warriors-Reise endet in Memphis",
+      "teaser": "Ohne Stephen Curry verliert Golden State 98:126 bei den Grizzlies. Memphis gewinnt zum fünften Mal hintereinander.",
+      "text": [
+        "Für die Golden State Warriors war es eine Reise zum Vergessen. Fünf Auswärtsspiele hatten sie – und alle fünf gingen verloren. Zum Abschluss gab es in Memphis ein 98:126.",
+        "Stephen Curry fiel zum vierten Mal hintereinander verletzt aus, auch Draymond Green fehlte. Ohne ihre Stars trafen die Warriors nur 5 von 29 Dreiern. Memphis lag das ganze Spiel vorne und führte im letzten Viertel sogar mit 34 Punkten.",
+        "Bei den Grizzlies traf Jaylen Wells 8 von 10 Würfen und machte 22 Punkte. Cedric Coward kam auf 19 Punkte. Rookie Cameron Boozer verwandelte alle 6 Würfe und alle 4 Freiwürfe – 16 Punkte ohne einen einzigen Fehlwurf!",
+        "Für Golden State holte Charles Bassey 16 Punkte und 13 Rebounds. Die Warriors haben jetzt 8 Siege und 8 Niederlagen. Am Sonntag spielen sie endlich wieder zu Hause, gegen die Boston Celtics."
+      ],
+      "fakten": [
+        "Endstand: Memphis Grizzlies – Golden State Warriors 126:98",
+        "Golden State: 0 Siege auf der Reise mit 5 Auswärtsspielen",
+        "Warriors-Dreier: 5 von 29",
+        "Jaylen Wells (MEM): 22 Punkte, 8 von 10 Würfen",
+        "Cameron Boozer (MEM): 16 Punkte, 6 von 6 Würfen",
+        "Charles Bassey (GSW): 16 Punkte, 13 Rebounds",
+        "Memphis: 5 Siege in Folge"
+      ],
+      "quellen": [
+        "ESPN",
+        "AP"
+      ],
+      "teams": [
+        "GSW",
+        "MEM",
+        "BOS"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Draymond Green",
+        "Jaylen Wells",
+        "Cedric Coward",
+        "Cameron Boozer",
+        "Charles Bassey",
+        "Brandin Podziemski",
+        "Will Richard"
+      ]
+    },
+    {
+      "id": "2026-11-20-paris-hifi-siegdreier",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "Siegtreffer 16 Sekunden vor Schluss: Hifi rettet Paris",
+      "teaser": "Paris gewinnt 97:96 gegen Hapoel Tel Aviv. Valencia bleibt Tabellenführer der Euroleague.",
+      "text": [
+        "Den spannendsten Schluss des Euroleague-Abends gab es in Paris. Hapoel Tel Aviv führte 25 Sekunden vor dem Ende mit 96:94. Antonio Blakeney hatte gerade getroffen und auch noch seinen Freiwurf verwandelt.",
+        "Dann bekam Nadir Hifi den Ball. Der Franzose traf 16 Sekunden vor Schluss einen Dreier zum 97:96. Hapoel verlor danach den Ball, und Paris verwarf zwar noch zwei Freiwürfe – doch der letzte Dreier von Hapoel ging daneben.",
+        "Blakeney war mit 28 Punkten der beste Werfer des Spiels. Hifi kam auf 18 Punkte.",
+        "In den anderen Spielen gewann Tabellenführer Valencia 92:87 gegen Virtus Bologna. Olimpia Mailand schlug Fenerbahçe 78:70, Moses Wright holte dabei 22 Punkte und 11 Rebounds. Panathinaikos gewann 87:72 in Kaunas, Dubai siegte 80:74 bei Maccabi Tel Aviv."
+      ],
+      "fakten": [
+        "Paris Basketball – Hapoel Tel Aviv 97:96",
+        "Nadir Hifi: Siegdreier 16 Sekunden vor Schluss, 18 Punkte",
+        "Antonio Blakeney (Hapoel): 28 Punkte",
+        "Valencia – Virtus Bologna 92:87",
+        "Olimpia Mailand – Fenerbahçe 78:70",
+        "Žalgiris Kaunas – Panathinaikos 72:87",
+        "Maccabi Tel Aviv – Dubai 74:80"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "PBB",
+        "HTA",
+        "VAL",
+        "VIR",
+        "EA7",
+        "FEN",
+        "ZAL",
+        "PAO",
+        "MTA",
+        "DUB"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-20-towns-knicks-wolves",
       "liga": "NBA",
       "lang": "de",
@@ -40,6 +276,46 @@
         "Ayo Dosunmu",
         "Jaden McDaniels"
       ]
+    },
+    {
+      "id": "2026-11-19-bcl-aek-krimi-cibona",
+      "liga": "BCL",
+      "lang": "de",
+      "motiv": "ball",
+      "datum": "2026-11-19",
+      "tags": [],
+      "titel": "Champions League: AEK gewinnt mit einem Punkt – in Gruppe B haben alle gleich viele Siege",
+      "teaser": "AEK Athen schlägt Falco Szombathely 90:89. Cibona, Galatasaray und Unicaja gewinnen ebenfalls. ALBA und Bonn haben eine Pause.",
+      "text": [
+        "Am Mittwoch ging die Champions League weiter. Das knappste Spiel gab es in Athen: AEK gewann gegen Falco Szombathely mit 90:89. AEK führt damit die Gruppe C mit 3 Siegen an.",
+        "Spannend ist auch Gruppe B. Cibona Zagreb schlug SIG Strasbourg mit 101:79, und Galatasaray gewann 88:81 gegen Legia Warschau. Jetzt haben alle vier Teams der Gruppe 2 Siege und 2 Niederlagen.",
+        "Unicaja Málaga bleibt in Gruppe E ohne Niederlage. Gegen Pardubice gab es einen klaren 94:66-Sieg – der vierte Sieg im vierten Spiel.",
+        "Die deutschen Teams sind gut dabei: ALBA Berlin steht in Gruppe G mit 3 Siegen und 1 Niederlage auf Platz 2. Die Telekom Baskets Bonn haben in Gruppe H auch 3 Siege. Weiter geht es in der Champions League erst am 8. Dezember, vorher spielen die Nationalteams."
+      ],
+      "fakten": [
+        "AEK Athen – Falco Szombathely 90:89",
+        "Cibona Zagreb – SIG Strasbourg 101:79",
+        "Galatasaray – Legia Warschau 88:81",
+        "Unicaja Málaga – Pardubice 94:66",
+        "Gruppe B: alle vier Teams mit 2 Siegen und 2 Niederlagen",
+        "ALBA (Gruppe G) und Bonn (Gruppe H): je 3 Siege, 1 Niederlage"
+      ],
+      "quellen": [
+        "Basketball Champions League"
+      ],
+      "teams": [
+        "AEK",
+        "FAL",
+        "CIB",
+        "SIG",
+        "GSM",
+        "LEG",
+        "UNI",
+        "PCE",
+        "ALBA",
+        "BON"
+      ],
+      "spieler": []
     },
     {
       "id": "2026-11-19-jazz-stoppen-lakers-serie",
