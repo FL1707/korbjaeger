@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-22T06:30:00+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-22",
-  "gruss": "Guten Morgen und schönen Sonntag! Was für eine Nacht: Victor Wembanyama und Tyler Herro machten beide 50 Punkte, und Mikal Bridges gewann das Spiel der New York Knicks mit der Schlusssirene. Heute um 18 Uhr spielt ALBA BERLIN gegen den FC Bayern. Ein neues Quiz, neue Rätsel und ein neuer Comic warten auf dich!",
+  "aktualisiert": "2026-11-22T16:16:16+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-22",
+  "gruss": "Hallo und einen schönen Sonntagnachmittag! In der Nacht gab es noch einen Krimi: Keegan Murray tippte den Ball 5 Sekunden vor Schluss in den Korb, und die Sacramento Kings schlugen die Boston Celtics mit 97:96. Gleich um 18 Uhr steigt das Top-Spiel ALBA BERLIN gegen den FC Bayern – das Ergebnis gibt es morgen früh. Quiz, Rätsel und Comic von heute Morgen warten weiter auf dich!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-22",
   "zahlDesTages": {
-    "zahl": "50",
-    "text": "So viele Punkte machten in der Nacht gleich zwei Spieler: Victor Wembanyama für San Antonio und Tyler Herro für Milwaukee."
+    "zahl": "0 von 13",
+    "text": "So viele Dreier trafen die Boston Celtics im dritten Viertel gegen Sacramento – keinen einzigen! Die Kings drehten das Spiel und gewannen 97:96."
   },
   "spielerDerWoche": {
     "name": "Luka Dončić",
@@ -340,6 +340,50 @@
     "Shaquille O'Neal"
   ],
   "news": [
+    {
+      "id": "2026-11-22-kings-murray-tip-celtics",
+      "liga": "NBA",
+      "motiv": "korb",
+      "datum": "2026-11-22",
+      "tags": [],
+      "titel": "Tipp-Korb 5 Sekunden vor Schluss: Kings stoppen ihre Pleitenserie",
+      "teaser": "Sacramento schlägt Boston mit 97:96. Keegan Murray tippt den Ball in letzter Sekunde in den Korb – das Ende von acht Niederlagen in Folge.",
+      "text": [
+        "Die Sacramento Kings hatten zuletzt achtmal hintereinander verloren. Und zu Hause hatten sie in dieser Saison noch gar nicht gewonnen. Gegen die Boston Celtics sah es zuerst wieder schlecht aus: Boston führte schnell mit 10:0 und zur Halbzeit mit 54:41.",
+        "Dann kam das dritte Viertel. Die Kings verteidigten richtig stark. Boston warf in diesem Viertel 13 Dreier – und keiner ging rein! Sacramento gewann das Viertel mit 35:13 und lag plötzlich vorne.",
+        "Im letzten Viertel kämpfte Boston sich zurück. 11,8 Sekunden vor Schluss traf Payton Pritchard zum 96:95 für die Celtics. Dann zog Darius Acuff Jr. zum Korb, doch sein Korbleger fiel nicht. Keegan Murray sprang zwischen drei Gegnern hoch und tippte den Ball 5 Sekunden vor Schluss in den Korb – 97:96!",
+        "Pritchard hatte noch eine letzte Chance, aber sein Wurf mit der Schlusssirene ging daneben. Bester Werfer der Kings war der junge Acuff mit 21 Punkten und 8 Vorlagen. Bei Boston fehlten Jayson Tatum und Derrick White."
+      ],
+      "fakten": [
+        "Endstand: Sacramento Kings – Boston Celtics 97:96",
+        "Keegan Murray: 15 Punkte, 12 Rebounds, Siegkorb 5 Sekunden vor Schluss",
+        "Darius Acuff Jr.: 21 Punkte, 8 Assists",
+        "Paul George (Boston): 19 Punkte",
+        "Drittes Viertel: 35:13 für Sacramento, Boston traf 0 von 13 Dreiern",
+        "Erster Heimsieg der Kings in dieser Saison"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "SAC",
+        "BOS"
+      ],
+      "spieler": [
+        "Keegan Murray",
+        "Darius Acuff Jr.",
+        "Domantas Sabonis",
+        "De'Andre Hunter",
+        "Zach LaVine",
+        "Payton Pritchard",
+        "Paul George",
+        "Mike Conley",
+        "Neemias Queta",
+        "Jayson Tatum",
+        "Derrick White"
+      ]
+    },
     {
       "id": "2026-11-22-wembanyama-50-punkte",
       "liga": "NBA",
@@ -908,6 +952,27 @@
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-21",
+      "runde": "NBA",
+      "heim": "SAC",
+      "gast": "BOS",
+      "heimPkt": 97,
+      "gastPkt": 96,
+      "newsId": "2026-11-22-kings-murray-tip-celtics",
+      "bericht": {
+        "text": [
+          "Boston führte zur Halbzeit mit 54:41. Im dritten Viertel traf Boston keinen einzigen von 13 Dreiern, und Sacramento drehte das Spiel. Am Ende tippte Keegan Murray den Ball 5 Sekunden vor Schluss zum 97:96 in den Korb."
+        ],
+        "highlights": [
+          "Keegan Murray (SAC): Siegkorb, 15 Punkte, 12 Rebounds",
+          "Darius Acuff Jr. (SAC): 21 Punkte, 8 Assists",
+          "Paul George (BOS): 19 Punkte",
+          "Kings beenden eine Serie von 8 Niederlagen"
+        ]
+      }
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-21",
@@ -1610,12 +1675,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-22T04:00:00+01:00",
-      "heim": "SAC",
-      "gast": "BOS"
-    },
-    {
       "liga": "BBL",
       "zeit": "2026-11-22T16:30:00+01:00",
       "heim": "HAM",
@@ -2096,7 +2155,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 22.11., 6:30 Uhr · nach den Spielen vom 21.11. (US-Zeit), ohne Sacramento – Boston (lief noch)",
+      "stand": "Stand: 22.11., 16:15 Uhr · nach allen Spielen vom 21.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2185,14 +2244,14 @@
         },
         {
           "team": "SAC",
-          "s": 1,
+          "s": 2,
           "n": 14
         }
       ]
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 22.11., 6:30 Uhr · nach den Spielen vom 21.11. (US-Zeit), ohne Sacramento – Boston (lief noch)",
+      "stand": "Stand: 22.11., 16:15 Uhr · nach allen Spielen vom 21.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2217,7 +2276,7 @@
         {
           "team": "BOS",
           "s": 11,
-          "n": 4
+          "n": 5
         },
         {
           "team": "DET",
@@ -2288,7 +2347,7 @@
     },
     "bbl": {
       "name": "BBL",
-      "stand": "Stand: 10. Spieltag, nach den Spielen vom 21.11. · vier Spiele folgen am 22.11.",
+      "stand": "Stand: 10. Spieltag, nach den Spielen vom 21.11. · ALBA gegen Bayern und drei weitere Spiele laufen heute (22.11.)",
       "zonen": [
         {
           "von": 1,
@@ -2910,8 +2969,8 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 12,
-        "pkt": 15.7,
+        "spiele": 13,
+        "pkt": 16.1,
         "reb": 6.8,
         "ast": 6.8
       },
@@ -2923,9 +2982,9 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 15,
-        "pkt": 26.6,
-        "reb": 2.9,
+        "spiele": 16,
+        "pkt": 26.8,
+        "reb": 3.1,
         "ast": 5.9
       },
       "notiz": "In Minnesota machte er 21 Punkte und 7 Assists. Die Knicks gewannen zum dritten Mal in Folge."
@@ -2975,10 +3034,10 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 16,
-        "pkt": 28.6,
-        "reb": 11.9,
-        "ast": 3.3
+        "spiele": 17,
+        "pkt": 29.9,
+        "reb": 12.3,
+        "ast": 3.2
       },
       "notiz": "Gegen New Orleans machte er 50 Punkte, 19 Rebounds, 5 Blocks und 4 Steals. Die Spurs gewannen 114:91."
     },
@@ -2988,10 +3047,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 15,
-        "pkt": 20.9,
+        "spiele": 16,
+        "pkt": 20.6,
         "reb": 3.2,
-        "ast": 4.1
+        "ast": 4.0
       },
       "notiz": "Bei seiner Rückkehr nach Milwaukee machte er 33 Punkte, so viele wie noch nie in dieser Saison."
     }
@@ -3466,6 +3525,11 @@
       "begriff": "Schlusssirene",
       "en": "buzzer",
       "erklaerung": "Das laute Signal, wenn die Zeit abgelaufen ist. Ein Wurf zählt nur, wenn der Ball vorher die Hand verlassen hat."
+    },
+    {
+      "begriff": "Tip-in",
+      "en": "tip-in",
+      "erklaerung": "Wenn ein Spieler einen danebengegangenen Wurf in der Luft nicht fängt, sondern direkt mit der Hand in den Korb tippt."
     }
   ],
   "teams": {
@@ -4127,6 +4191,16 @@
     },
     {
       "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-21",
+      "heim": "SAC",
+      "gast": "BOS",
+      "wert": "0 von 13 Dreiern",
+      "grund": "Boston traf im dritten Viertel keinen einzigen Dreier. Sacramento holte 13 Punkte Rückstand auf und gewann 97:96 durch einen Tipp-Korb 5 Sekunden vor Schluss.",
+      "newsId": "2026-11-22-kings-murray-tip-celtics"
+    },
+    {
+      "art": "spiel",
       "liga": "BBL",
       "datum": "2026-11-21",
       "heim": "BRA",
@@ -4134,16 +4208,6 @@
       "wert": "29:14 im Schlussviertel",
       "grund": "Bamberg lag nach drei Vierteln mit 8 Punkten hinten. Mit einem starken letzten Viertel drehten die Baskets das Spiel und gewannen 82:75.",
       "newsId": "2026-11-22-bbl-samstag-auswaertssiege"
-    },
-    {
-      "art": "spieler",
-      "liga": "EL",
-      "datum": "2026-11-20",
-      "titel": "Tyson Carter",
-      "team": "CZV",
-      "wert": "7 von 10 Dreiern",
-      "grund": "Mit 31 Punkten führte er Roter Stern Belgrad zum Sieg in Barcelona – nach Verlängerung.",
-      "newsId": "2026-11-21-euroleague-zwei-krimis"
     }
   ],
   "legacyGestellt": [
