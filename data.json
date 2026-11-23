@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-23T06:25:23+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-23",
-  "gruss": "Guten Morgen und einen guten Start in die Woche! Das Top-Spiel in Berlin ging leider an den FC Bayern: ALBA BERLIN verlor 79:90. In der NBA gab es eine verrückte Nacht: Jamal Murray machte 45 Punkte beim 151:145 von Denver nach Verlängerung, und Cooper Flagg rettete Dallas mit zwei Freiwürfen. OKC verlor ohne Shai Gilgeous-Alexander in Miami. Neuer Spieler der Woche ist Victor Wembanyama!",
+  "aktualisiert": "2026-11-23T16:18:13+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-23",
+  "gruss": "Hallo und schönen Nachmittag! Die Nationalmannschaft trifft sich heute in Frankfurt – zum ersten Mal mit den Zwillingen Brandon und Nicholas Tischler. Am Dienstag spielt der FC Bayern in der Euroleague gegen Maccabi Tel Aviv. Und in der NBA ist OKC heute Nacht in Indiana zu Gast.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-23",
   "zahlDesTages": {
-    "zahl": "202",
-    "text": "So viele Triple-Doubles hat Nikola Jokić jetzt. Nur Russell Westbrook hat mehr: 209. Jokić fehlen also noch 7 bis zum Gleichstand."
+    "zahl": "50",
+    "text": "So viele Punkte machten am selben Abend gleich zwei Spieler: Victor Wembanyama für San Antonio und Tyler Herro für Milwaukee."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -353,6 +353,75 @@
     "Shaquille O'Neal"
   ],
   "news": [
+    {
+      "id": "2026-11-23-bayern-maccabi-vorschau",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Nach dem Sieg in Berlin: Bayern empfängt Maccabi Tel Aviv",
+      "teaser": "In der BBL ist der FC Bayern ganz oben. In der Euroleague läuft es noch nicht so gut. Am Dienstag kommt Maccabi nach München.",
+      "text": [
+        "Zwei Gesichter einer Saison: In der Bundesliga hat der FC Bayern 9 von 10 Spielen gewonnen. Am Sonntag siegten die Münchner sogar 90:79 bei ALBA BERLIN.",
+        "In der Euroleague sieht es anders aus. Dort haben die Bayern erst 4 Siege und 9 Niederlagen. Sie stehen auf Platz 16 von 20 Teams.",
+        "Am Dienstag um 20 Uhr spielen sie in der 14. Runde zu Hause gegen Maccabi Tel Aviv. Maccabi hat noch weniger gewonnen: 3 Siege und 10 Niederlagen, Platz 19. Für beide Teams ist das also ein wichtiges Spiel, um in der Tabelle nach oben zu klettern.",
+        "Danach haben die Bayern eine Pause in der Bundesliga, denn am Wochenende spielen die Nationalteams. Weiter geht es in der BBL am 3. Dezember."
+      ],
+      "fakten": [
+        "FC Bayern – Maccabi Tel Aviv: Dienstag, 24.11., 20 Uhr (Euroleague, 14. Runde)",
+        "Bayern in der Euroleague: 4 Siege, 9 Niederlagen (Platz 16)",
+        "Maccabi: 3 Siege, 10 Niederlagen (Platz 19)",
+        "Bayern in der BBL: 9 Siege, 1 Niederlage (Platz 1)"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net",
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "FCB",
+        "MTA",
+        "ALBA"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-23-dbb-tischler-zwillinge",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Zwillinge im Nationalteam: Die Tischlers sind zum ersten Mal zusammen dabei",
+      "teaser": "Heute trifft sich die Nationalmannschaft in Frankfurt. Mit dabei: Brandon und Nicholas Tischler. Für Brandon ist es die erste Einladung.",
+      "text": [
+        "Seit heute bereitet sich die deutsche Nationalmannschaft in Frankfurt auf zwei wichtige Spiele in der WM-Qualifikation vor.",
+        "Im Kader stehen auch zwei Brüder, die Zwillinge sind: Brandon und Nicholas Tischler. Nicholas spielt in Oldenburg und war schon vor zwei Jahren das erste Mal im Nationalteam. Brandon spielt in Würzburg und ist zum ersten Mal eingeladen. Es ist das erste Mal, dass die beiden zusammen dabei sind.",
+        "Auch Zachary Ensminger aus Oldenburg könnte sein erstes Länderspiel machen. Am Freitag um 18:30 Uhr geht es in Riga gegen Lettland, am Montag, 30. November, um 19:30 Uhr in Frankfurt gegen Polen.",
+        "In der Gruppe K haben Deutschland, Kroatien und Polen je 7 Siege und 1 Niederlage. Die besten drei Teams fahren 2027 zur WM nach Katar."
+      ],
+      "fakten": [
+        "Kader: 16 Spieler, Bundestrainer Álex Mumbrú",
+        "Brandon Tischler (Würzburg): erste Nominierung",
+        "Nicholas Tischler (Oldenburg): erstes Länderspiel vor zwei Jahren",
+        "Lettland – Deutschland: Fr., 27.11., 18:30 Uhr",
+        "Deutschland – Polen: Mo., 30.11., 19:30 Uhr"
+      ],
+      "quellen": [
+        "Flashscore",
+        "SID",
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "POL",
+        "CRO",
+        "OLD",
+        "WUE"
+      ],
+      "spieler": []
+    },
     {
       "id": "2026-11-23-bayern-siegt-bei-alba",
       "liga": "BBL",
@@ -873,48 +942,6 @@
         "Jalen Suggs",
         "Wendell Carter Jr.",
         "Danny Wolf"
-      ]
-    },
-    {
-      "id": "2026-11-21-sga-40-okc-aufholjagd",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-21",
-      "tags": [],
-      "titel": "16 Punkte zurück: OKC dreht das Spiel gegen New Orleans",
-      "teaser": "Shai Gilgeous-Alexander macht 40 Punkte, Rookie Aday Mara holt 22 Punkte und 16 Rebounds. OKC gewinnt 126:120.",
-      "text": [
-        "Die Oklahoma City Thunder haben im NBA Cup eine tolle Aufholjagd gezeigt. Gegen die New Orleans Pelicans lagen sie im dritten Viertel schon mit 16 Punkten hinten. Am Ende gewannen sie trotzdem 126:120.",
-        "Der Anfang war super: OKC führte schnell 11:0. Danach spielte New Orleans stark und führte zur Pause 64:56. Nach dem Seitenwechsel kam OKC Punkt für Punkt zurück. Jared McCain glich mit einem weiten Wurf zum 102:102 aus, kurz danach brachte Isaiah Hartenstein OKC mit einem Korb zum 108:102 in Führung.",
-        "Shai Gilgeous-Alexander war wieder der Star: 40 Punkte und 8 Assists. 35 Sekunden vor Schluss machte er einen Korb, wurde gefoult und traf den Freiwurf zum 124:116. Damit war das Spiel entschieden.",
-        "Stark war auch der Rookie Aday Mara mit 22 Punkten und 16 Rebounds. Er traf 11 von 15 Würfen. Hartenstein kam auf 5 Punkte, 8 Rebounds, 4 Assists und 2 Blocks."
-      ],
-      "fakten": [
-        "Endstand: Oklahoma City Thunder – New Orleans Pelicans 126:120",
-        "Shai Gilgeous-Alexander: 40 Punkte, 8 Assists",
-        "Aday Mara: 22 Punkte, 16 Rebounds",
-        "Isaiah Hartenstein: 5 Punkte, 8 Rebounds, 2 Blocks",
-        "Größter Rückstand: 16 Punkte im dritten Viertel",
-        "Nächstes Spiel OKC: in Miami, Nacht auf Montag, 0 Uhr"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "OKC",
-        "NOP"
-      ],
-      "spieler": [
-        "Shai Gilgeous-Alexander",
-        "Aday Mara",
-        "Jared McCain",
-        "Bennett Stirtz",
-        "Isaiah Hartenstein",
-        "Zion Williamson",
-        "Jeremiah Fears",
-        "Herbert Jones"
       ]
     }
   ],
@@ -4087,12 +4114,42 @@
     {
       "art": "spieler",
       "liga": "NBA",
+      "datum": "2026-11-21",
+      "titel": "Victor Wembanyama",
+      "team": "SAS",
+      "wert": "50 Punkte",
+      "grund": "Dazu holte er 19 Rebounds, 5 Blocks und 4 Steals. So ein Gesamtpaket schafft fast niemand in einem einzigen Spiel.",
+      "newsId": "2026-11-22-wembanyama-50-punkte"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
       "datum": "2026-11-22",
       "titel": "Jamal Murray",
       "team": "DEN",
       "wert": "45 Punkte",
       "grund": "So viele wie noch nie in dieser Saison – acht davon in der Verlängerung. Denver gewann in Chicago 151:145.",
       "newsId": "2026-11-23-murray-jokic-nuggets-bulls"
+    },
+    {
+      "art": "spiel",
+      "liga": "BBL",
+      "datum": "2026-11-21",
+      "heim": "BRA",
+      "gast": "BAM",
+      "wert": "29:14 im Schlussviertel",
+      "grund": "Bamberg lag zur Pause mit 13 Punkten hinten. Mit einem starken letzten Viertel drehten die Bamberger das Spiel noch und gewannen 82:75.",
+      "newsId": "2026-11-22-bbl-samstag-auswaertssiege"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-21",
+      "titel": "Tyler Herro",
+      "team": "MIL",
+      "wert": "50 Punkte",
+      "grund": "So viele Punkte hatte er noch nie in einem NBA-Spiel. Trotzdem verlor Milwaukee knapp mit 129:132 in Philadelphia.",
+      "newsId": "2026-11-22-herro-50-sixers-siegen"
     },
     {
       "art": "spieler",
@@ -4105,16 +4162,6 @@
       "newsId": "2026-11-23-murray-jokic-nuggets-bulls"
     },
     {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-22",
-      "titel": "Svi Mykhailiuk",
-      "team": "UTA",
-      "wert": "10 Dreier",
-      "grund": "Er traf 10 von 15 Dreiern und machte 39 Punkte – Karrierebestwert. 23 Punkte gelangen ihm allein im letzten Viertel.",
-      "newsId": "2026-11-23-flagg-mavs-jazz"
-    },
-    {
       "art": "spiel",
       "liga": "NBA",
       "datum": "2026-11-22",
@@ -4123,25 +4170,6 @@
       "wert": "Nur 1 Punkt!",
       "grund": "Die Warriors gewannen ohne Stephen Curry mit 88:87. Boston machte im letzten Viertel nur 12 Punkte.",
       "newsId": "2026-11-23-warriors-celtics-magic"
-    },
-    {
-      "art": "spiel",
-      "liga": "BBL",
-      "datum": "2026-11-22",
-      "heim": "ALBA",
-      "gast": "FCB",
-      "wert": "16 Dreier",
-      "grund": "Der FC Bayern traf im Top-Spiel in Berlin seine ersten sechs Dreier alle und gewann am Ende 90:79.",
-      "newsId": "2026-11-23-bayern-siegt-bei-alba"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-22",
-      "heim": "ATL",
-      "gast": "DET",
-      "wert": "18:0-Lauf",
-      "grund": "Atlanta lag nach drei Vierteln mit 11 Punkten hinten. Dann trafen die Hawks 18 Punkte am Stück und gewannen 107:97."
     }
   ],
   "legacyGestellt": [
