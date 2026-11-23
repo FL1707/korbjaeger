@@ -2,6 +2,305 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-22-vorschau-alba-bayern",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-22",
+      "tags": [],
+      "titel": "Top-Spiel in Berlin: ALBA empfängt den Tabellenführer",
+      "teaser": "Heute um 18 Uhr spielt ALBA BERLIN gegen den FC Bayern. In der Nacht ist OKC in Miami gefordert – danach kommt die Länderspielpause.",
+      "text": [
+        "Heute Abend um 18 Uhr steigt in Berlin das Top-Spiel des 10. Spieltags: ALBA BERLIN gegen den FC Bayern München. Die Bayern sind Tabellenführer der Bundesliga und haben 8 von 9 Spielen gewonnen. ALBA steht mit 5 Siegen und 4 Niederlagen auf Platz 8.",
+        "Für die Bayern ist es eine volle Woche: Am Donnerstag schlugen sie in der Euroleague Baskonia mit 100:81. Am Dienstag geht es in München gegen Maccabi Tel Aviv weiter. Am Sonntag spielen außerdem Hamburg gegen Hagen, Ludwigsburg gegen den MBC und Bonn gegen Ulm.",
+        "In der NBA spielt Oklahoma City mit Isaiah Hartenstein in der Nacht auf Montag um 0 Uhr in Miami. Franz Wagner und Tristan da Silva sind mit Orlando um 1 Uhr in Washington zu Gast. Um 2:30 Uhr empfangen die Golden State Warriors die Boston Celtics.",
+        "Danach macht die Bundesliga Pause, denn die Nationalmannschaft ist dran: In der WM-Qualifikation spielt Deutschland am Freitag (27.11.) in Riga gegen Lettland und am Montag (30.11.) in Frankfurt gegen Polen."
+      ],
+      "fakten": [
+        "ALBA BERLIN – FC Bayern München: heute, 18 Uhr (DYN)",
+        "Bayern: Tabellenführer mit 8 Siegen und 1 Niederlage",
+        "ALBA: Platz 8 mit 5 Siegen und 4 Niederlagen",
+        "Miami – Oklahoma City: Nacht auf Montag, 0 Uhr",
+        "WM-Quali: Lettland – Deutschland am 27.11., Deutschland – Polen am 30.11."
+      ],
+      "quellen": [
+        "easyCredit BBL",
+        "ESPN",
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "ALBA",
+        "FCB",
+        "HAM",
+        "HAG",
+        "LUD",
+        "MBC",
+        "BON",
+        "ULM",
+        "OKC",
+        "MIA",
+        "ORL",
+        "WAS",
+        "GSW",
+        "BOS",
+        "GER",
+        "LAT",
+        "POL"
+      ],
+      "spieler": [
+        "Isaiah Hartenstein",
+        "Franz Wagner",
+        "Tristan da Silva"
+      ]
+    },
+    {
+      "id": "2026-11-21-lakers-kings-nuggets-rockets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-21",
+      "tags": [],
+      "titel": "Lakers gewinnen Krimi gegen Sacramento – Denver dreht das Spiel gegen Houston",
+      "teaser": "Quentin Grimes trifft 57 Sekunden vor Schluss einen wichtigen Dreier. Die Lakers haben jetzt 14 Siege – mehr als jedes andere Team.",
+      "text": [
+        "In der Nacht auf Samstag gab es im Westen der USA noch zwei spannende Spiele im NBA Cup.",
+        "Die Los Angeles Lakers gewannen gegen die Sacramento Kings nur knapp mit 106:104. Lange war das Spiel ausgeglichen. 1:56 Minuten vor dem Ende stand es 103:103. Dann traf Quentin Grimes mit einem Step-back-Dreier zum 106:103. Die Kings hatten am Ende noch eine Chance, doch Zach LaVine verfehlte kurz vor der Schlusssirene einen weiten Dreier.",
+        "Bester Werfer war De'Andre Hunter von den Kings mit 30 Punkten. Er traf 12 von 16 Würfen. Für die Lakers machte Luka Dončić 25 Punkte und 8 Assists. Die Lakers haben jetzt 14 Siege und nur 3 Niederlagen – das ist die beste Bilanz der ganzen NBA. Sacramento hat erst ein Spiel gewonnen.",
+        "Auch Denver feierte einen Sieg. Die Nuggets lagen gegen die Houston Rockets nach drei Vierteln noch mit 99:102 hinten. Im letzten Viertel drehten sie auf und gewannen es 34:22. Am Ende hieß es 133:124. Nikola Jokić kam auf 26 Punkte und 11 Assists. Bei Houston schaffte Alperen Sengun ein Triple-Double: 28 Punkte, 11 Rebounds und 10 Assists."
+      ],
+      "fakten": [
+        "Endstand: Los Angeles Lakers – Sacramento Kings 106:104",
+        "De'Andre Hunter (Kings): 30 Punkte, 12 von 16 Würfen",
+        "Luka Dončić (Lakers): 25 Punkte, 8 Assists",
+        "Endstand: Denver Nuggets – Houston Rockets 133:124",
+        "Nikola Jokić (Nuggets): 26 Punkte, 11 Assists, 7 Rebounds",
+        "Alperen Sengun (Rockets): 28 Punkte, 11 Rebounds, 10 Assists"
+      ],
+      "quellen": [
+        "ESPN"
+      ],
+      "teams": [
+        "LAL",
+        "SAC",
+        "DEN",
+        "HOU"
+      ],
+      "spieler": [
+        "Quentin Grimes",
+        "Zach LaVine",
+        "De'Andre Hunter",
+        "Luka Dončić",
+        "Domantas Sabonis",
+        "Nikola Jokić",
+        "Alperen Sengun",
+        "Amen Thompson",
+        "Fred VanVleet",
+        "Kevin Durant",
+        "Christian Braun",
+        "Aaron Gordon"
+      ]
+    },
+    {
+      "id": "2026-11-21-euroleague-zwei-krimis",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-21",
+      "tags": [],
+      "titel": "Zwei Spiele mit Verlängerung: Roter Stern siegt in Barcelona",
+      "teaser": "Tyson Carter trifft 7 Dreier, Roter Stern Belgrad gewinnt 103:100 in Barcelona. Auch Partizan braucht eine Verlängerung.",
+      "text": [
+        "Am Freitagabend gingen gleich zwei Euroleague-Spiele in die Verlängerung. In Barcelona gewann Roter Stern Belgrad mit 103:100. Der Star war Tyson Carter: Er machte 31 Punkte und traf 7 von 10 Dreiern.",
+        "Bei Barcelona trafen Joel Parra 6 Dreier und Darío Brizuela 22 Punkte. Doch in der Verlängerung holte Roter Stern 18 Punkte, Barcelona nur 15.",
+        "Auch in Belgrad ging es in die Verlängerung. Partizan schlug Beşiktaş Istanbul mit 91:87. Carlik Jones war mit 21 Punkten der beste Werfer von Partizan.",
+        "Außerdem gewann Olympiakos Piräus klar mit 92:76 gegen Real Madrid. Olympiakos steht jetzt mit 10 Siegen punktgleich mit Valencia ganz oben. Anadolu Efes besiegte ASVEL Villeurbanne mit 107:81. Am Dienstag geht es weiter: Dann spielt der FC Bayern zu Hause gegen Maccabi Tel Aviv."
+      ],
+      "fakten": [
+        "FC Barcelona – Roter Stern Belgrad 100:103 nach Verlängerung",
+        "Tyson Carter (Roter Stern): 31 Punkte, 7 von 10 Dreiern",
+        "Partizan Belgrad – Beşiktaş 91:87 nach Verlängerung",
+        "Olympiakos – Real Madrid 92:76",
+        "Anadolu Efes – ASVEL 107:81",
+        "Spitze: Valencia und Olympiakos mit je 10 Siegen und 3 Niederlagen"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "CZV",
+        "BAR",
+        "PAR",
+        "BES",
+        "OLY",
+        "RMA",
+        "EFS",
+        "ASV",
+        "VAL",
+        "FCB"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-21-vechta-siegt-in-wuerzburg",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-21",
+      "tags": [],
+      "titel": "Verlängerung in Würzburg: Vechta gewinnt 97:91",
+      "teaser": "Würzburg führte zur Pause deutlich. Doch Vechta kam zurück und gewann nach Verlängerung. Tommy Kuhse war der Mann des Abends.",
+      "text": [
+        "Zum Start des 10. Spieltags gab es in Würzburg gleich ein spannendes Spiel. Die Würzburg Baskets spielten in der ersten Halbzeit sehr gut und führten zur Pause 46:35.",
+        "Im dritten Viertel drehte RASTA Vechta auf. Mit einer starken Verteidigung holte Vechta 31:12 Punkte in diesem Viertel und lag danach vorne. Würzburg kämpfte sich im letzten Viertel zurück. Nach 40 Minuten stand es 78:78 – Verlängerung!",
+        "In den fünf Extra-Minuten war Vechta besser. Würzburg verfehlte einige offene Würfe. Vechta gewann am Ende 97:91.",
+        "Bester Werfer des Spiels war Sam Griffin von Würzburg mit 23 Punkten. Bei Vechta war Tommy Kuhse mit 22 Punkten und 8 Assists der wichtigste Spieler. Würzburgs Trainer sagte nach dem Spiel, dass Kuhse nach der Pause das Spiel übernommen habe."
+      ],
+      "fakten": [
+        "Endstand: Würzburg Baskets – RASTA Vechta 91:97 nach Verlängerung",
+        "Halbzeit: 46:35 für Würzburg",
+        "Nach 40 Minuten: 78:78",
+        "Sam Griffin (Würzburg): 23 Punkte",
+        "Tommy Kuhse (Vechta): 22 Punkte, 8 Assists",
+        "Vechta-Bilanz: 4 Siege, 6 Niederlagen"
+      ],
+      "quellen": [
+        "easyCredit BBL"
+      ],
+      "teams": [
+        "WUE",
+        "VEC"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-21-dybantsa-davis-wizards",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "dunk",
+      "datum": "2026-11-21",
+      "tags": [],
+      "titel": "Big win in Chicago: Davis and rookie Dybantsa lead Washington",
+      "teaser": "Anthony Davis scores 36 points. The Wizards win 98:94 against the Bulls in the NBA Cup.",
+      "text": [
+        "The Washington Wizards won 98:94 in Chicago. It was their second win in a row.",
+        "Anthony Davis was the best player on the court. He scored 36 points and had 11 rebounds.",
+        "AJ Dybantsa is a rookie. He was the number one pick in this year's draft. He had 20 points, 10 rebounds and 6 assists. In the fourth quarter he made a great reverse dunk on a fast break.",
+        "Chicago came back to 96:94. But Norman Powell missed a shot at the end, and Trae Young made two free throws. Washington won."
+      ],
+      "fakten": [
+        "Final score: Chicago Bulls – Washington Wizards 94:98",
+        "Anthony Davis: 36 points, 11 rebounds",
+        "AJ Dybantsa: 20 points, 10 rebounds, 6 assists",
+        "Trae Young: 16 points"
+      ],
+      "vokabeln": [
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        },
+        {
+          "en": "pick",
+          "de": "Auswahl (im Draft)"
+        },
+        {
+          "en": "fast break",
+          "de": "Schnellangriff"
+        },
+        {
+          "en": "to miss",
+          "de": "verfehlen, danebenwerfen"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "WAS",
+        "CHI"
+      ],
+      "spieler": [
+        "Anthony Davis",
+        "AJ Dybantsa",
+        "Trae Young",
+        "Norman Powell",
+        "Buddy Hield",
+        "Nic Claxton"
+      ]
+    },
+    {
+      "id": "2026-11-21-harden-51-punkte",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-21",
+      "tags": [],
+      "titel": "51 Punkte! James Harden überholt Kobe Bryant",
+      "teaser": "Mit 37 Jahren zeigt James Harden ein Riesenspiel. Cleveland schlägt Indiana 128:119 – und Harden schreibt Geschichte.",
+      "text": [
+        "James Harden spielt schon seit 18 Jahren in der NBA. Gegen die Indiana Pacers zeigte er, dass er immer noch ganz viele Punkte machen kann: Er erzielte 51 Punkte.",
+        "Harden traf 15 von 26 Würfen, darunter 7 Dreier. Von der Freiwurflinie verwarf er keinen einzigen Wurf: 14 von 14! Dazu kamen 6 Rebounds und 6 Assists.",
+        "Es war sein 26. Spiel mit mindestens 50 Punkten. Damit hat er die Legende Kobe Bryant überholt. Nur zwei Spieler in der Geschichte der NBA haben öfter 50 Punkte oder mehr gemacht. Für Cleveland war es sein bestes Spiel, seit er im Februar zu den Cavaliers gekommen ist.",
+        "Im dritten Viertel machte Cleveland einen 21:4-Lauf, Harden erzielte dabei 13 Punkte. Am Ende gewann Cleveland 128:119. Donovan Mitchell kam auf 20 Punkte."
+      ],
+      "fakten": [
+        "Endstand: Cleveland Cavaliers – Indiana Pacers 128:119",
+        "James Harden: 51 Punkte, 7 Dreier, 14 von 14 Freiwürfen",
+        "26 Spiele mit 50+ Punkten – Platz 3 in der NBA-Geschichte",
+        "Donovan Mitchell: 20 Punkte",
+        "Ivica Zubac (Pacers): 21 Punkte, 10 Rebounds"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "CLE",
+        "IND"
+      ],
+      "spieler": [
+        "James Harden",
+        "Donovan Mitchell",
+        "Peyton Watson",
+        "Ivica Zubac",
+        "Pascal Siakam"
+      ]
+    },
+    {
+      "id": "2026-11-20-bayern-schlaegt-baskonia",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-20",
+      "tags": [],
+      "titel": "100 Punkte! Der FC Bayern schlägt Baskonia deutlich",
+      "teaser": "Nach der bitteren Niederlage in Kaunas gewinnt Bayern zu Hause 100:81. Duane Washington ist der Topscorer.",
+      "text": [
+        "Zwei Tage nach der Niederlage in der Verlängerung in Kaunas hat der FC Bayern eine starke Antwort gegeben. Im eigenen Heimspiel in München schlug er Baskonia aus Spanien mit 100:81.",
+        "Bayern legte gleich los: Nach dem ersten Viertel stand es 29:24, zur Pause schon 55:41. Danach ließen die Münchner nichts mehr anbrennen und knackten am Ende sogar die 100-Punkte-Marke.",
+        "Bester Werfer war Duane Washington mit 23 Punkten. Er traf 4 Dreier und holte 7 Rebounds. Johannes Thiemann kam auf 15 Punkte, Marjon Beauchamp auf 14 und Justinian Jessup auf 13. Bei Baskonia holte Kenan Kamenjas 16 Punkte und 13 Rebounds.",
+        "Für Bayern war es der vierte Sieg in der Euroleague. Baskonia hat erst einmal gewonnen und ist Letzter. Schon am Sonntag wartet das nächste große Spiel: Um 18 Uhr spielt Bayern in der Bundesliga bei ALBA Berlin."
+      ],
+      "fakten": [
+        "Endstand: FC Bayern München – Baskonia 100:81",
+        "Halbzeit: 55:41",
+        "Duane Washington: 23 Punkte, 4 Dreier, 7 Rebounds",
+        "Johannes Thiemann: 15 Punkte",
+        "Bayern-Bilanz in der Euroleague: 4 Siege, 9 Niederlagen",
+        "Nächstes Spiel: ALBA Berlin – FC Bayern, Sonntag, 18 Uhr (BBL)"
+      ],
+      "quellen": [
+        "Euroleague",
+        "FC Bayern Basketball"
+      ],
+      "teams": [
+        "FCB",
+        "BAS",
+        "ALBA"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-20-vorschau-wagner-duell-alba-bayern",
       "liga": "NBA",
       "lang": "de",
@@ -7225,55 +7524,6 @@
         "CZV"
       ],
       "spieler": []
-    },
-    {
-      "id": "hagen",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "pokal",
-      "datum": "2026-10-25",
-      "tags": [],
-      "titel": "Hagen feiert nach über zehn Jahren",
-      "teaser": "Aufsteiger Phoenix Hagen gewinnt endlich wieder ein Heimspiel in der Bundesliga.",
-      "text": [
-        "Phoenix Hagen ist in dieser Saison neu in der Bundesliga. Gegen die Basketball Löwen Braunschweig gab es einen 88:73-Sieg.",
-        "Das war für Hagen etwas ganz Besonderes: Es war der erste Heimsieg in der Bundesliga seit über zehn Jahren.",
-        "Hagen ist übrigens auch der Gegner von ALBA im Pokal-Viertelfinale im Dezember. Und am 6. November kommt Hagen zum Bundesliga-Spiel nach Berlin."
-      ],
-      "fakten": [
-        "Hagen 88, Braunschweig 73",
-        "Erster BBL-Heimsieg seit über 10 Jahren"
-      ],
-      "quellen": [
-        "easycredit-bbl.de"
-      ]
-    },
-    {
-      "id": "alba-form",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-25",
-      "tags": [
-        "fav"
-      ],
-      "titel": "ALBA ist in Form",
-      "teaser": "Sieg gegen Ulm in der Bundesliga und vorher den Pokalsieger Bamberg rausgeworfen.",
-      "text": [
-        "Nach einem holprigen Start kommt ALBA Berlin immer besser in Fahrt. Am Sonntag gewannen die Berliner in der Bundesliga mit 98:82 gegen ratiopharm ulm. Es war der dritte Sieg in Folge.",
-        "Bester Werfer war Griesel mit 19 Punkten. Neuzugang Yankuba Sima, ein großer Center, machte 18 Punkte.",
-        "Schon eine Woche vorher gab es einen großen Erfolg im Pokal. ALBA schlug den Titelverteidiger Bamberg mit 83:71, obwohl es zur Halbzeit noch 33:41 stand. 8.615 Fans waren in der Halle.",
-        "Im Pokal-Viertelfinale spielt ALBA im Dezember in Hagen. In der Bundesliga steht ALBA mit 3 Siegen und 3 Niederlagen auf Platz 12. Nächster Gegner sind am Sonntag die Telekom Baskets Bonn."
-      ],
-      "fakten": [
-        "BBL: ALBA 98, Ulm 82",
-        "Pokal: ALBA 83, Bamberg 71",
-        "Trainer: Pedro Calles"
-      ],
-      "quellen": [
-        "albaberlin.de",
-        "dpa"
-      ]
     }
   ]
 }

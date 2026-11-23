@@ -1,15 +1,4 @@
-{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-22T16:14:44+01:00", "bis": "2027-02-22","spiele":[
-{"liga": "BBL", "zeit": "2026-11-22T16:30:00+01:00", "heim": "HAM", "gast": "HAG", "tv": "DYN"},
-{"liga": "BBL", "zeit": "2026-11-22T16:30:00+01:00", "heim": "LUD", "gast": "MBC", "tv": "DYN"},
-{"liga": "BBL", "zeit": "2026-11-22T18:00:00+01:00", "heim": "ALBA", "gast": "FCB", "tv": "DYN"},
-{"liga": "BBL", "zeit": "2026-11-22T18:30:00+01:00", "heim": "BON", "gast": "ULM", "tv": "DYN"},
-{"liga": "NBA", "zeit": "2026-11-22T21:30:00+01:00", "heim": "ATL", "gast": "DET"},
-{"liga": "NBA", "zeit": "2026-11-23T00:00:00+01:00", "heim": "MIA", "gast": "OKC"},
-{"liga": "NBA", "zeit": "2026-11-23T01:00:00+01:00", "heim": "CHI", "gast": "DEN"},
-{"liga": "NBA", "zeit": "2026-11-23T01:00:00+01:00", "heim": "UTA", "gast": "DAL"},
-{"liga": "NBA", "zeit": "2026-11-23T01:00:00+01:00", "heim": "WAS", "gast": "ORL"},
-{"liga": "NBA", "zeit": "2026-11-23T02:00:00+01:00", "heim": "NYK", "gast": "IND"},
-{"liga": "NBA", "zeit": "2026-11-23T02:30:00+01:00", "heim": "GSW", "gast": "BOS"},
+{"hinweis": "Kommende Spiele der nächsten 3 Monate für den Tab Upcoming. NBA und EL schreibt werkzeuge/spielplan.py, BBL, BCL und DBB die Update-Routine. Die nahen Spiele mit TV/Info stehen in data.json → spielplan.", "stand": "2026-11-23T06:25:42+01:00", "bis": "2027-02-23","spiele":[
 {"liga": "NBA", "zeit": "2026-11-24T01:00:00+01:00", "heim": "CHA", "gast": "MEM"},
 {"liga": "NBA", "zeit": "2026-11-24T01:00:00+01:00", "heim": "PHI", "gast": "POR"},
 {"liga": "NBA", "zeit": "2026-11-24T01:30:00+01:00", "heim": "IND", "gast": "OKC"},

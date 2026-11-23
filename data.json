@@ -1,81 +1,86 @@
 {
-  "aktualisiert": "2026-11-22T16:16:16+01:00",
-  "ausgabe": "Nachmittagsausgabe 2026-11-22",
-  "gruss": "Hallo und einen schönen Sonntagnachmittag! In der Nacht gab es noch einen Krimi: Keegan Murray tippte den Ball 5 Sekunden vor Schluss in den Korb, und die Sacramento Kings schlugen die Boston Celtics mit 97:96. Gleich um 18 Uhr steigt das Top-Spiel ALBA BERLIN gegen den FC Bayern – das Ergebnis gibt es morgen früh. Quiz, Rätsel und Comic von heute Morgen warten weiter auf dich!",
+  "aktualisiert": "2026-11-23T06:25:23+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-23",
+  "gruss": "Guten Morgen und einen guten Start in die Woche! Das Top-Spiel in Berlin ging leider an den FC Bayern: ALBA BERLIN verlor 79:90. In der NBA gab es eine verrückte Nacht: Jamal Murray machte 45 Punkte beim 151:145 von Denver nach Verlängerung, und Cooper Flagg rettete Dallas mit zwei Freiwürfen. OKC verlor ohne Shai Gilgeous-Alexander in Miami. Neuer Spieler der Woche ist Victor Wembanyama!",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
-  "quizId": "2026-11-22",
+  "quizId": "2026-11-23",
   "zahlDesTages": {
-    "zahl": "0 von 13",
-    "text": "So viele Dreier trafen die Boston Celtics im dritten Viertel gegen Sacramento – keinen einzigen! Die Kings drehten das Spiel und gewannen 97:96."
+    "zahl": "202",
+    "text": "So viele Triple-Doubles hat Nikola Jokić jetzt. Nur Russell Westbrook hat mehr: 209. Jokić fehlen also noch 7 bis zum Gleichstand."
   },
   "spielerDerWoche": {
-    "name": "Luka Dončić",
-    "team": "LAL",
-    "text": "Er ist der beste Punktesammler der Saison. Gegen Phoenix machte er 43 Punkte, und mit ihm gewannen die Lakers achtmal hintereinander.",
+    "name": "Victor Wembanyama",
+    "team": "SAS",
+    "text": "Gegen New Orleans machte er 50 Punkte und holte 19 Rebounds. Mit ihm stehen die San Antonio Spurs ganz oben im Westen.",
     "profil": {
-      "geboren": "1999-02-28",
-      "geburtsort": "Ljubljana (Slowenien)",
-      "nation": "Slowenien",
-      "groesse": "1,98 m",
-      "position": "Aufbau- und Flügelspieler (Guard/Forward)",
-      "nummer": 77,
+      "geboren": "2004-01-04",
+      "geburtsort": "Le Chesnay (Frankreich)",
+      "nation": "Frankreich",
+      "groesse": "2,24 m",
+      "position": "Center",
+      "nummer": 1,
       "stationen": [
         {
-          "zeit": "2012–2018",
-          "team": "Real Madrid",
-          "info": "Jugend und Profi in Spanien, Euroleague-Sieger 2018"
+          "zeit": "bis 2021",
+          "team": "Nanterre 92",
+          "info": "Jugend und erste Profi-Spiele in Frankreich"
         },
         {
-          "zeit": "2018–2025",
-          "team": "Dallas Mavericks",
-          "info": "NBA, Rookie des Jahres 2019"
+          "zeit": "2021–2022",
+          "team": "ASVEL Villeurbanne",
+          "info": "Profi in Frankreich und Euroleague"
         },
         {
-          "zeit": "seit 2025",
-          "team": "Los Angeles Lakers",
-          "info": "NBA"
+          "zeit": "2022–2023",
+          "team": "Metropolitans 92",
+          "info": "Profi in Frankreich, bester Spieler der Liga"
+        },
+        {
+          "zeit": "seit 2023",
+          "team": "San Antonio Spurs",
+          "info": "NBA, Nummer 1 im Draft 2023"
         }
       ],
       "saisons": [
         {
           "saison": "2026/27",
-          "team": "Los Angeles Lakers",
+          "team": "San Antonio Spurs",
           "liga": "NBA",
           "live": "nba",
-          "sp": 11,
-          "pkt": 38.6,
-          "fgp": 48.9,
-          "tpp": 40.8,
-          "reb": 7.6,
-          "ast": 7.5
+          "sp": 17,
+          "pkt": 29.9,
+          "fgp": 54.1,
+          "tpp": 31.5,
+          "reb": 12.3,
+          "ast": 3.2
         },
         {
           "saison": "2025/26",
-          "team": "Los Angeles Lakers",
+          "team": "San Antonio Spurs",
           "liga": "NBA",
           "sp": 64,
-          "pkt": 33.5,
-          "fgp": 47.6,
-          "tpp": 36.6,
-          "reb": 7.7,
-          "ast": 8.3
+          "pkt": 25.0,
+          "fgp": 51.2,
+          "tpp": 34.9,
+          "reb": 11.5,
+          "ast": 3.1
         }
       ],
       "fakten": [
-        "Schon mit 16 Jahren spielte er bei den Profis von Real Madrid.",
-        "2017 wurde er mit Slowenien Europameister – da war er erst 18 Jahre alt.",
-        "2018 gewann er mit Real Madrid die Euroleague und wurde zum besten Spieler der Saison gewählt.",
-        "2019 wurde er in der NBA Rookie des Jahres."
+        "2023 wählten ihn die San Antonio Spurs im Draft als Nummer 1 aus.",
+        "2024 wurde er einstimmig zum Rookie des Jahres gewählt.",
+        "Bei den Olympischen Spielen 2024 in Paris gewann er mit Frankreich die Silbermedaille.",
+        "2026 stand er mit den Spurs zum ersten Mal in den NBA-Finals."
       ],
       "bild": {
-        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Luka_Doncic_2021_%28cropped%29.jpg/500px-Luka_Doncic_2021_%28cropped%29.jpg",
-        "seite": "https://commons.wikimedia.org/wiki/File:Luka_Doncic_2021_(cropped).jpg",
-        "autor": "Erik Drost",
-        "lizenz": "CC BY 2.0",
-        "lizenzUrl": "https://creativecommons.org/licenses/by/2.0"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Victor_Wembanyama_San_Antonio_Spurs_2025_NBA_Cup_%28cropped%29.jpg/500px-Victor_Wembanyama_San_Antonio_Spurs_2025_NBA_Cup_%28cropped%29.jpg",
+        "seite": "https://commons.wikimedia.org/wiki/File:Victor_Wembanyama_San_Antonio_Spurs_2025_NBA_Cup_(cropped).jpg",
+        "autor": "Daiei Onoguchi",
+        "lizenz": "CC BY 4.0",
+        "lizenzUrl": "https://creativecommons.org/licenses/by/4.0"
       },
       "quellen": [
         "ESPN",
@@ -86,131 +91,139 @@
     }
   },
   "werIst": {
-    "id": "2026-11-22",
+    "id": "2026-11-23",
     "fragen": [
       {
         "liga": "NBA",
         "hinweise": [
-          "Mit der Villanova University gewann er zweimal die College-Meisterschaft.",
-          "Er war 2023 mit den USA bei der WM und spielt auf dem Flügel.",
-          "Am Samstag traf er für die New York Knicks mit der Schlusssirene den Siegdreier gegen Portland."
+          "Er kommt aus Kanada und spielte im College für Virginia Tech.",
+          "Sein Cousin ist ein zweifacher MVP der NBA aus Oklahoma City.",
+          "Am Sonntag machte er für Atlanta 27 Punkte gegen Detroit."
         ],
         "antworten": [
-          "OG Anunoby",
-          "Mikal Bridges",
-          "Cameron Johnson"
+          "Jalen Johnson",
+          "Nickeil Alexander-Walker",
+          "Dyson Daniels"
         ],
         "richtig": 1,
-        "erklaerung": "Mikal Bridges spielt seit 2024 für die Knicks."
+        "erklaerung": "Nickeil Alexander-Walker ist der Cousin von Shai Gilgeous-Alexander."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er ist Schweizer Nationalspieler.",
+          "Im College spielte er für die University of Miami.",
+          "Gegen Orlando war er mit 24 Punkten bester Werfer der Washington Wizards."
+        ],
+        "antworten": [
+          "Bilal Coulibaly",
+          "Tre Johnson",
+          "Kyshawn George"
+        ],
+        "richtig": 2,
+        "erklaerung": "Kyshawn George spielt seit 2024 für die Wizards."
       },
       {
         "liga": "NBA-Legende",
         "hinweise": [
-          "Niemand in der NBA-Geschichte hat mehr Assists und mehr Steals.",
-          "Mit Karl Malone bildete er ein berühmtes Duo.",
-          "Er spielte seine ganze Karriere – 19 Saisons – für die Utah Jazz."
+          "Er trug beim Spielen eine dicke Brille.",
+          "Nach ihm ist eine berühmte Korbleger-Übung benannt, die Kinder auf der ganzen Welt trainieren.",
+          "Er war der erste große Star der Minneapolis Lakers."
         ],
         "antworten": [
-          "Gary Payton",
-          "Mark Price",
-          "John Stockton"
+          "George Mikan",
+          "Bob Pettit",
+          "Dolph Schayes"
         ],
-        "richtig": 2,
-        "erklaerung": "John Stockton ist der Assist-König der NBA."
+        "richtig": 0,
+        "erklaerung": "George Mikan gewann mit den Lakers mehrere Titel. Der „Mikan Drill“ ist bis heute eine bekannte Übung."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er kommt von den Bahamas.",
+          "2020 gewann er den Dreier-Wettbewerb beim All-Star-Wochenende.",
+          "Am Sonntag machte er 33 Punkte für Chicago gegen Denver."
+        ],
+        "antworten": [
+          "Duncan Robinson",
+          "Buddy Hield",
+          "Kevin Huerter"
+        ],
+        "richtig": 1,
+        "erklaerung": "Buddy Hield ist einer der besten Dreierschützen der NBA."
       },
       {
         "liga": "Deutschland",
         "hinweise": [
-          "Er ist Center und spielte viele Jahre für die Los Angeles Clippers.",
-          "2010 war er beim All-Star-Spiel dabei.",
-          "Obwohl er in den USA geboren wurde, spielte er 2008 bei Olympia für Deutschland."
+          "Er spielt für die Würzburg Baskets.",
+          "Sein Zwillingsbruder spielt in Oldenburg.",
+          "Im November wurde er zusammen mit seinem Bruder zum ersten Mal für die Nationalmannschaft nominiert."
         ],
         "antworten": [
-          "Chris Kaman",
-          "Tibor Pleiß",
-          "Shawn Bradley"
+          "Zachary Ensminger",
+          "Nicholas Tischler",
+          "Brandon Tischler"
         ],
-        "richtig": 0,
-        "erklaerung": "Chris Kaman hat deutsche Vorfahren und spielte mit Dirk Nowitzki in Peking."
-      },
-      {
-        "liga": "NBA",
-        "hinweise": [
-          "2020 stand er schon als Rookie mit Miami in den NBA-Finals.",
-          "2022 wurde er als bester Bankspieler der NBA ausgezeichnet.",
-          "Am Samstag machte er für Milwaukee 50 Punkte – sein Karrierebestwert."
-        ],
-        "antworten": [
-          "Jordan Poole",
-          "Tyler Herro",
-          "Anfernee Simons"
-        ],
-        "richtig": 1,
-        "erklaerung": "Tyler Herro spielt in dieser Saison für die Milwaukee Bucks."
+        "richtig": 2,
+        "erklaerung": "Brandon Tischler könnte gegen Lettland sein erstes Länderspiel machen. Sein Zwillingsbruder Nicholas spielt in Oldenburg."
       },
       {
         "liga": "NBA-Legende",
         "hinweise": [
-          "2004 machte er für Houston 13 Punkte in nur 35 Sekunden.",
-          "Er ist ein Cousin von Vince Carter.",
-          "Sein Spitzname war „T-Mac“."
+          "Sein Spitzname war „The Big O“.",
+          "In der Saison 1961/62 schaffte er im Durchschnitt ein Triple-Double.",
+          "1971 wurde er mit Milwaukee und Kareem Abdul-Jabbar Meister."
         ],
         "antworten": [
-          "Grant Hill",
-          "Vince Carter",
-          "Tracy McGrady"
+          "Jerry West",
+          "Elgin Baylor",
+          "Oscar Robertson"
         ],
         "richtig": 2,
-        "erklaerung": "Tracy McGrady spielte unter anderem für Toronto, Orlando und Houston."
+        "erklaerung": "Oscar Robertson hielt lange den Rekord für die meisten Triple-Doubles."
       },
       {
         "liga": "NBA",
         "hinweise": [
-          "Er kam von der Michigan State University in die NBA.",
-          "2017 wurde er zum besten Verteidiger der NBA gewählt.",
-          "Mit Golden State und Stephen Curry gewann er viermal den Titel."
+          "Er kommt aus der Ukraine.",
+          "Im College spielte er für die Kansas Jayhawks.",
+          "Gegen Dallas traf er 10 Dreier und machte 39 Punkte."
         ],
         "antworten": [
-          "Draymond Green",
-          "Andre Iguodala",
-          "Kevon Looney"
+          "Svi Mykhailiuk",
+          "Kyle Filipowski",
+          "Brice Sensabaugh"
         ],
         "richtig": 0,
-        "erklaerung": "Draymond Green ist der Verteidigungs-Chef der Warriors."
+        "erklaerung": "Svi Mykhailiuk spielt für die Utah Jazz und kam gegen Dallas von der Bank."
       },
       {
-        "liga": "Europa-Legende",
+        "liga": "NBA-Legende",
         "hinweise": [
-          "Er war 2,21 Meter groß und passte trotzdem wie ein Spielmacher.",
-          "1988 gewann er mit der Sowjetunion Olympia-Gold.",
-          "Der Litauer spielte später für die Portland Trail Blazers – sein Sohn spielt heute auch in der NBA."
+          "Er war der Spielmacher und Kapitän der „Bad Boys“.",
+          "1989 und 1990 wurde er mit Detroit Meister.",
+          "1990 wurde er zum besten Spieler der Finals gewählt."
         ],
         "antworten": [
-          "Šarūnas Marčiulionis",
-          "Arvydas Sabonis",
-          "Žydrūnas Ilgauskas"
+          "Joe Dumars",
+          "Isiah Thomas",
+          "Kevin Johnson"
         ],
         "richtig": 1,
-        "erklaerung": "Arvydas Sabonis gilt als einer der besten europäischen Center aller Zeiten."
-      },
-      {
-        "liga": "BBL-Legende",
-        "hinweise": [
-          "Bevor er nach Berlin kam, spielte er für Bayer Leverkusen.",
-          "1993 wurde er mit Deutschland in München Europameister.",
-          "Mit ALBA BERLIN gewann er 1995 den Korać-Cup."
-        ],
-        "antworten": [
-          "Henrik Rödl",
-          "Henning Harnisch",
-          "Mike Koch"
-        ],
-        "richtig": 1,
-        "erklaerung": "Henning Harnisch war einer der wichtigsten Spieler in ALBAs ersten großen Jahren."
+        "erklaerung": "Isiah Thomas spielte seine ganze NBA-Karriere für die Detroit Pistons."
       }
     ]
   },
   "werGestellt": [
+    "Nickeil Alexander-Walker",
+    "Kyshawn George",
+    "George Mikan",
+    "Buddy Hield",
+    "Brandon Tischler",
+    "Oscar Robertson",
+    "Svi Mykhailiuk",
+    "Isiah Thomas",
     "Mikal Bridges",
     "John Stockton",
     "Chris Kaman",
@@ -340,6 +353,259 @@
     "Shaquille O'Neal"
   ],
   "news": [
+    {
+      "id": "2026-11-23-bayern-siegt-bei-alba",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "16 Dreier! Der FC Bayern gewinnt das Top-Spiel bei ALBA",
+      "teaser": "ALBA BERLIN verliert zu Hause mit 79:90 gegen den Tabellenführer. Die Münchner treffen fast jeden zweiten Dreier.",
+      "text": [
+        "Das große Duell der Basketball-Bundesliga ging an den FC Bayern. In Berlin gewannen die Münchner mit 90:79 gegen ALBA BERLIN.",
+        "Die Bayern starteten wie die Feuerwehr: Ihre ersten sechs Dreier gingen alle rein. Im zweiten Viertel führten sie schon mit 36:23. ALBA kämpfte sich aber zurück. Zur Halbzeit stand es nur noch 43:46.",
+        "Nach der Pause trafen die Bayern wieder besser. Nach dem dritten Viertel führten sie mit 73:59. Näher als acht Punkte kam ALBA danach nicht mehr heran. Am Ende hatte München 16 Dreier getroffen, ALBA nur 9.",
+        "Bester Werfer war Johannes Voigtmann mit 19 Punkten. Bei ALBA machte Jordan Ford 16 Punkte, Sam Griesel kam auf 14. Die Bayern haben jetzt 9 Siege und nur 1 Niederlage. ALBA steht mit 5 Siegen und 5 Niederlagen auf Platz 9."
+      ],
+      "fakten": [
+        "Endstand: ALBA BERLIN – FC Bayern München 79:90 (Halbzeit 43:46)",
+        "Johannes Voigtmann (Bayern): 19 Punkte",
+        "Jordan Ford (ALBA): 16 Punkte",
+        "Sam Griesel (ALBA): 14 Punkte",
+        "Dreier: ALBA 9, Bayern 16",
+        "Nächstes Spiel der Bayern: Dienstag, 20 Uhr, Euroleague gegen Maccabi Tel Aviv"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "sportschau.de",
+        "fcbayern.com"
+      ],
+      "teams": [
+        "ALBA",
+        "FCB"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-23-bbl-sonntag-hamburg-bonn",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Hamburg zittert sich zum Sieg – Bonn gewinnt zum vierten Mal in Folge",
+      "teaser": "Am Sonntag gab es drei Heimsiege: Hamburg schlägt Hagen knapp, Ludwigsburg dreht das Spiel gegen den MBC und Bonn ist gegen Ulm klar besser.",
+      "text": [
+        "In Hamburg ging es richtig eng zu. Zur Halbzeit stand es 44:44 gegen Phoenix Hagen. Am Ende gewannen die Veolia Towers mit 97:94. Bester Werfer war Hamburgs Jahvon Henry-Blair mit 27 Punkten.",
+        "Die MHP RIESEN Ludwigsburg lagen gegen den SYNTAINICS MBC nach dem ersten Viertel mit 13:20 hinten. Danach drehten sie auf und gewannen 96:87. Spencer Reaves vom MBC war mit 25 Punkten der beste Werfer des Spiels.",
+        "Die Telekom Baskets Bonn waren gegen ratiopharm ulm von Anfang an stark. Zur Pause führten sie schon mit 55:35. Am Ende hieß es 89:72. Für Bonn war es der vierte Sieg hintereinander. Jaylen Sims machte für Ulm 24 Punkte."
+      ],
+      "fakten": [
+        "Veolia Towers Hamburg – Phoenix Hagen 97:94",
+        "MHP RIESEN Ludwigsburg – SYNTAINICS MBC 96:87",
+        "Telekom Baskets Bonn – ratiopharm ulm 89:72",
+        "Jahvon Henry-Blair (Hamburg): 27 Punkte",
+        "Spencer Reaves (MBC): 25 Punkte",
+        "Jaylen Sims (Ulm): 24 Punkte"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "HAM",
+        "HAG",
+        "LUD",
+        "MBC",
+        "BON",
+        "ULM"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-23-murray-jokic-nuggets-bulls",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "151 Punkte! Murray und Jokić gewinnen ein Spektakel in Chicago",
+      "teaser": "Denver schlägt Chicago mit 151:145 nach Verlängerung. Jamal Murray macht 45 Punkte, Nikola Jokić schafft sein 202. Triple-Double.",
+      "text": [
+        "Was für ein Spiel! Die Denver Nuggets haben bei den Chicago Bulls mit 151:145 gewonnen – nach Verlängerung.",
+        "Eigentlich sah Denver schon wie der Sieger aus. 40 Sekunden vor Schluss führten die Nuggets mit sieben Punkten. Doch Chicago kam zurück. Buddy Hield klaute Nikola Jokić den Ball, und Josh Giddey traf 2 Sekunden vor dem Ende zum 131:131.",
+        "In der Verlängerung drehte Jamal Murray auf. Denver machte die ersten acht Punkte. Murray kam am Ende auf 45 Punkte, so viele wie noch nie in dieser Saison. Jokić hatte 37 Punkte, 18 Rebounds und 11 Assists. Es war sein 202. Triple-Double. Den Rekord hält Russell Westbrook mit 209.",
+        "Auch Chicago hatte einen Helden: Josh Giddey spielte 22 Assists – so viele wie nie zuvor in seiner Karriere. Dazu machte er 23 Punkte und 14 Rebounds."
+      ],
+      "fakten": [
+        "Endstand: Chicago Bulls – Denver Nuggets 145:151 nach Verlängerung",
+        "Jamal Murray: 45 Punkte (Saisonbestwert), 13 von 14 Freiwürfen",
+        "Nikola Jokić: 37 Punkte, 18 Rebounds, 11 Assists",
+        "Josh Giddey: 23 Punkte, 14 Rebounds, 22 Assists (Karrierebestwert)",
+        "Buddy Hield: 33 Punkte, 7 Dreier",
+        "Chicago traf 25 Dreier – Saisonbestwert"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "DEN",
+        "CHI"
+      ],
+      "spieler": [
+        "Jamal Murray",
+        "Nikola Jokić",
+        "Josh Giddey",
+        "Buddy Hield",
+        "Jalen Smith",
+        "Matas Buzelis"
+      ]
+    },
+    {
+      "id": "2026-11-23-flagg-mavs-jazz",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "korb",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "16 points in a row! Utah comes back – but Flagg wins it for Dallas",
+      "teaser": "Dallas beats Utah 116:114. Svi Mykhailiuk makes 10 three-pointers, but Cooper Flagg makes two free throws at the end.",
+      "text": [
+        "The Dallas Mavericks played in Utah. With two minutes left, Dallas was far ahead: 114:98. The game looked over.",
+        "But then the Jazz scored 16 points in a row! Svi Mykhailiuk made three after three. With 4.7 seconds left, Isaiah Collier made a layup. The score was 114:114.",
+        "Then Cooper Flagg was fouled. He went to the free-throw line and made both shots. Utah missed the last three-pointer. Dallas won 116:114.",
+        "Mykhailiuk scored 39 points. That is a career high. He made 10 of 15 three-pointers. Flagg scored 28 points for Dallas."
+      ],
+      "fakten": [
+        "Final score: Utah Jazz – Dallas Mavericks 114:116",
+        "Cooper Flagg: 28 points, two winning free throws",
+        "Svi Mykhailiuk (Utah): 39 points (career high), 10 three-pointers",
+        "Utah scored 16 points in a row at the end",
+        "Third win in a row for Dallas"
+      ],
+      "vokabeln": [
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        },
+        {
+          "en": "far ahead",
+          "de": "weit vorne"
+        },
+        {
+          "en": "to be fouled",
+          "de": "gefoult werden"
+        },
+        {
+          "en": "career high",
+          "de": "Karrierebestwert"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "DAL",
+        "UTA"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "Svi Mykhailiuk",
+        "Isaiah Collier",
+        "Kyrie Irving",
+        "Kyle Filipowski"
+      ]
+    },
+    {
+      "id": "2026-11-23-okc-ohne-sga-heat",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Ohne Shai: OKC verliert in Miami",
+      "teaser": "Die Thunder spielen ohne Shai Gilgeous-Alexander und verlieren 113:123. Bam Adebayo schafft ein Triple-Double.",
+      "text": [
+        "Zum ersten Mal in dieser Saison fehlte Shai Gilgeous-Alexander. Der Star von Oklahoma City fiel verletzt aus. Auch Alex Caruso und drei weitere Spieler konnten nicht mitspielen. OKC hatte nur neun Spieler dabei.",
+        "Miami führte das ganze Spiel über. Im letzten Viertel lag OKC schon mit 20 Punkten hinten. Die Thunder gaben aber nicht auf und kamen noch auf 113:123 heran.",
+        "Bester Werfer bei OKC war Bennett Stirtz mit 21 Punkten, er traf 5 Dreier. Jared McCain machte 20 Punkte. Isaiah Hartenstein holte 8 Rebounds.",
+        "Bei Miami glänzte Bam Adebayo: 24 Punkte, 15 Rebounds und 12 Assists – ein Triple-Double. Die Heat gewannen zum siebten Mal hintereinander. Auch bei ihnen fehlte ein Star: Giannis Antetokounmpo."
+      ],
+      "fakten": [
+        "Endstand: Miami Heat – Oklahoma City Thunder 123:113",
+        "Bam Adebayo: 24 Punkte, 15 Rebounds, 12 Assists",
+        "Bennett Stirtz (OKC): 21 Punkte, 5 Dreier",
+        "Jared McCain (OKC): 20 Punkte",
+        "Isaiah Hartenstein: 2 Punkte, 8 Rebounds, 4 Assists",
+        "Nächstes Spiel von OKC: in Indiana, Nacht auf Dienstag, 1:30 Uhr"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "OKC",
+        "MIA"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Bam Adebayo",
+        "Bennett Stirtz",
+        "Jared McCain",
+        "Isaiah Hartenstein",
+        "Alex Caruso",
+        "Giannis Antetokounmpo",
+        "Pelle Larsson",
+        "Ajay Mitchell"
+      ]
+    },
+    {
+      "id": "2026-11-23-warriors-celtics-magic",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Ohne Curry: Warriors gewinnen mit einem Punkt – da Silva bester Magic-Werfer",
+      "teaser": "Golden State schlägt Boston 88:87. Orlando verliert in Washington, Tristan da Silva und Franz Wagner treffen am meisten.",
+      "text": [
+        "Die Golden State Warriors mussten gegen die Boston Celtics ohne Stephen Curry, Jimmy Butler und Kristaps Porziņģis auskommen. Trotzdem gewannen sie mit 88:87.",
+        "Im letzten Viertel machte Boston nur 12 Punkte. 2 Minuten 38 Sekunden vor Schluss traf Brandin Podziemski einen Dreier zum 88:86. Danach gelang Boston nur noch ein Freiwurf. Jayson Tatum verfehlte kurz vor der Sirene seinen letzten Wurf. Podziemski war mit 18 Punkten der beste Werfer der Warriors.",
+        "Die Orlando Magic verloren in Washington mit 96:116. Die Wizards trafen 22 Dreier und gewannen zum dritten Mal hintereinander. Orlando musste ohne Paolo Banchero spielen, er fiel verletzt aus.",
+        "Bester Werfer der Magic war Tristan da Silva mit 18 Punkten und 4 Dreiern. Franz Wagner kam auf 16 Punkte, 8 Rebounds und 6 Assists."
+      ],
+      "fakten": [
+        "Golden State Warriors – Boston Celtics 88:87",
+        "Brandin Podziemski: 18 Punkte, Dreier zum 88:86",
+        "Jayson Tatum (Boston): 27 Punkte, 10 Rebounds",
+        "Washington Wizards – Orlando Magic 116:96",
+        "Tristan da Silva: 18 Punkte, Franz Wagner: 16 Punkte, 8 Rebounds, 6 Assists",
+        "Kyshawn George (Washington): 24 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "GSW",
+        "BOS",
+        "ORL",
+        "WAS"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Brandin Podziemski",
+        "Jayson Tatum",
+        "Tristan da Silva",
+        "Franz Wagner",
+        "Paolo Banchero",
+        "Kyshawn George",
+        "Anthony Davis",
+        "AJ Dybantsa"
+      ]
+    },
     {
       "id": "2026-11-22-kings-murray-tip-celtics",
       "liga": "NBA",
@@ -567,58 +833,6 @@
       "spieler": []
     },
     {
-      "id": "2026-11-22-vorschau-alba-bayern",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-22",
-      "tags": [],
-      "titel": "Top-Spiel in Berlin: ALBA empfängt den Tabellenführer",
-      "teaser": "Heute um 18 Uhr spielt ALBA BERLIN gegen den FC Bayern. In der Nacht ist OKC in Miami gefordert – danach kommt die Länderspielpause.",
-      "text": [
-        "Heute Abend um 18 Uhr steigt in Berlin das Top-Spiel des 10. Spieltags: ALBA BERLIN gegen den FC Bayern München. Die Bayern sind Tabellenführer der Bundesliga und haben 8 von 9 Spielen gewonnen. ALBA steht mit 5 Siegen und 4 Niederlagen auf Platz 8.",
-        "Für die Bayern ist es eine volle Woche: Am Donnerstag schlugen sie in der Euroleague Baskonia mit 100:81. Am Dienstag geht es in München gegen Maccabi Tel Aviv weiter. Am Sonntag spielen außerdem Hamburg gegen Hagen, Ludwigsburg gegen den MBC und Bonn gegen Ulm.",
-        "In der NBA spielt Oklahoma City mit Isaiah Hartenstein in der Nacht auf Montag um 0 Uhr in Miami. Franz Wagner und Tristan da Silva sind mit Orlando um 1 Uhr in Washington zu Gast. Um 2:30 Uhr empfangen die Golden State Warriors die Boston Celtics.",
-        "Danach macht die Bundesliga Pause, denn die Nationalmannschaft ist dran: In der WM-Qualifikation spielt Deutschland am Freitag (27.11.) in Riga gegen Lettland und am Montag (30.11.) in Frankfurt gegen Polen."
-      ],
-      "fakten": [
-        "ALBA BERLIN – FC Bayern München: heute, 18 Uhr (DYN)",
-        "Bayern: Tabellenführer mit 8 Siegen und 1 Niederlage",
-        "ALBA: Platz 8 mit 5 Siegen und 4 Niederlagen",
-        "Miami – Oklahoma City: Nacht auf Montag, 0 Uhr",
-        "WM-Quali: Lettland – Deutschland am 27.11., Deutschland – Polen am 30.11."
-      ],
-      "quellen": [
-        "easyCredit BBL",
-        "ESPN",
-        "Deutscher Basketball Bund"
-      ],
-      "teams": [
-        "ALBA",
-        "FCB",
-        "HAM",
-        "HAG",
-        "LUD",
-        "MBC",
-        "BON",
-        "ULM",
-        "OKC",
-        "MIA",
-        "ORL",
-        "WAS",
-        "GSW",
-        "BOS",
-        "GER",
-        "LAT",
-        "POL"
-      ],
-      "spieler": [
-        "Isaiah Hartenstein",
-        "Franz Wagner",
-        "Tristan da Silva"
-      ]
-    },
-    {
       "id": "2026-11-21-franz-wagner-siegwurf-gegen-moritz",
       "liga": "NBA",
       "lang": "de",
@@ -662,44 +876,6 @@
       ]
     },
     {
-      "id": "2026-11-21-harden-51-punkte",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "dreier",
-      "datum": "2026-11-21",
-      "tags": [],
-      "titel": "51 Punkte! James Harden überholt Kobe Bryant",
-      "teaser": "Mit 37 Jahren zeigt James Harden ein Riesenspiel. Cleveland schlägt Indiana 128:119 – und Harden schreibt Geschichte.",
-      "text": [
-        "James Harden spielt schon seit 18 Jahren in der NBA. Gegen die Indiana Pacers zeigte er, dass er immer noch ganz viele Punkte machen kann: Er erzielte 51 Punkte.",
-        "Harden traf 15 von 26 Würfen, darunter 7 Dreier. Von der Freiwurflinie verwarf er keinen einzigen Wurf: 14 von 14! Dazu kamen 6 Rebounds und 6 Assists.",
-        "Es war sein 26. Spiel mit mindestens 50 Punkten. Damit hat er die Legende Kobe Bryant überholt. Nur zwei Spieler in der Geschichte der NBA haben öfter 50 Punkte oder mehr gemacht. Für Cleveland war es sein bestes Spiel, seit er im Februar zu den Cavaliers gekommen ist.",
-        "Im dritten Viertel machte Cleveland einen 21:4-Lauf, Harden erzielte dabei 13 Punkte. Am Ende gewann Cleveland 128:119. Donovan Mitchell kam auf 20 Punkte."
-      ],
-      "fakten": [
-        "Endstand: Cleveland Cavaliers – Indiana Pacers 128:119",
-        "James Harden: 51 Punkte, 7 Dreier, 14 von 14 Freiwürfen",
-        "26 Spiele mit 50+ Punkten – Platz 3 in der NBA-Geschichte",
-        "Donovan Mitchell: 20 Punkte",
-        "Ivica Zubac (Pacers): 21 Punkte, 10 Rebounds"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "CLE",
-        "IND"
-      ],
-      "spieler": [
-        "James Harden",
-        "Donovan Mitchell",
-        "Peyton Watson",
-        "Ivica Zubac",
-        "Pascal Siakam"
-      ]
-    },
-    {
       "id": "2026-11-21-sga-40-okc-aufholjagd",
       "liga": "NBA",
       "lang": "de",
@@ -740,218 +916,237 @@
         "Jeremiah Fears",
         "Herbert Jones"
       ]
-    },
-    {
-      "id": "2026-11-21-dybantsa-davis-wizards",
-      "liga": "NBA",
-      "lang": "en",
-      "motiv": "dunk",
-      "datum": "2026-11-21",
-      "tags": [],
-      "titel": "Big win in Chicago: Davis and rookie Dybantsa lead Washington",
-      "teaser": "Anthony Davis scores 36 points. The Wizards win 98:94 against the Bulls in the NBA Cup.",
-      "text": [
-        "The Washington Wizards won 98:94 in Chicago. It was their second win in a row.",
-        "Anthony Davis was the best player on the court. He scored 36 points and had 11 rebounds.",
-        "AJ Dybantsa is a rookie. He was the number one pick in this year's draft. He had 20 points, 10 rebounds and 6 assists. In the fourth quarter he made a great reverse dunk on a fast break.",
-        "Chicago came back to 96:94. But Norman Powell missed a shot at the end, and Trae Young made two free throws. Washington won."
-      ],
-      "fakten": [
-        "Final score: Chicago Bulls – Washington Wizards 94:98",
-        "Anthony Davis: 36 points, 11 rebounds",
-        "AJ Dybantsa: 20 points, 10 rebounds, 6 assists",
-        "Trae Young: 16 points"
-      ],
-      "vokabeln": [
-        {
-          "en": "in a row",
-          "de": "hintereinander"
-        },
-        {
-          "en": "pick",
-          "de": "Auswahl (im Draft)"
-        },
-        {
-          "en": "fast break",
-          "de": "Schnellangriff"
-        },
-        {
-          "en": "to miss",
-          "de": "verfehlen, danebenwerfen"
-        }
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "WAS",
-        "CHI"
-      ],
-      "spieler": [
-        "Anthony Davis",
-        "AJ Dybantsa",
-        "Trae Young",
-        "Norman Powell",
-        "Buddy Hield",
-        "Nic Claxton"
-      ]
-    },
-    {
-      "id": "2026-11-21-vechta-siegt-in-wuerzburg",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "jubel",
-      "datum": "2026-11-21",
-      "tags": [],
-      "titel": "Verlängerung in Würzburg: Vechta gewinnt 97:91",
-      "teaser": "Würzburg führte zur Pause deutlich. Doch Vechta kam zurück und gewann nach Verlängerung. Tommy Kuhse war der Mann des Abends.",
-      "text": [
-        "Zum Start des 10. Spieltags gab es in Würzburg gleich ein spannendes Spiel. Die Würzburg Baskets spielten in der ersten Halbzeit sehr gut und führten zur Pause 46:35.",
-        "Im dritten Viertel drehte RASTA Vechta auf. Mit einer starken Verteidigung holte Vechta 31:12 Punkte in diesem Viertel und lag danach vorne. Würzburg kämpfte sich im letzten Viertel zurück. Nach 40 Minuten stand es 78:78 – Verlängerung!",
-        "In den fünf Extra-Minuten war Vechta besser. Würzburg verfehlte einige offene Würfe. Vechta gewann am Ende 97:91.",
-        "Bester Werfer des Spiels war Sam Griffin von Würzburg mit 23 Punkten. Bei Vechta war Tommy Kuhse mit 22 Punkten und 8 Assists der wichtigste Spieler. Würzburgs Trainer sagte nach dem Spiel, dass Kuhse nach der Pause das Spiel übernommen habe."
-      ],
-      "fakten": [
-        "Endstand: Würzburg Baskets – RASTA Vechta 91:97 nach Verlängerung",
-        "Halbzeit: 46:35 für Würzburg",
-        "Nach 40 Minuten: 78:78",
-        "Sam Griffin (Würzburg): 23 Punkte",
-        "Tommy Kuhse (Vechta): 22 Punkte, 8 Assists",
-        "Vechta-Bilanz: 4 Siege, 6 Niederlagen"
-      ],
-      "quellen": [
-        "easyCredit BBL"
-      ],
-      "teams": [
-        "WUE",
-        "VEC"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-21-euroleague-zwei-krimis",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "dreier",
-      "datum": "2026-11-21",
-      "tags": [],
-      "titel": "Zwei Spiele mit Verlängerung: Roter Stern siegt in Barcelona",
-      "teaser": "Tyson Carter trifft 7 Dreier, Roter Stern Belgrad gewinnt 103:100 in Barcelona. Auch Partizan braucht eine Verlängerung.",
-      "text": [
-        "Am Freitagabend gingen gleich zwei Euroleague-Spiele in die Verlängerung. In Barcelona gewann Roter Stern Belgrad mit 103:100. Der Star war Tyson Carter: Er machte 31 Punkte und traf 7 von 10 Dreiern.",
-        "Bei Barcelona trafen Joel Parra 6 Dreier und Darío Brizuela 22 Punkte. Doch in der Verlängerung holte Roter Stern 18 Punkte, Barcelona nur 15.",
-        "Auch in Belgrad ging es in die Verlängerung. Partizan schlug Beşiktaş Istanbul mit 91:87. Carlik Jones war mit 21 Punkten der beste Werfer von Partizan.",
-        "Außerdem gewann Olympiakos Piräus klar mit 92:76 gegen Real Madrid. Olympiakos steht jetzt mit 10 Siegen punktgleich mit Valencia ganz oben. Anadolu Efes besiegte ASVEL Villeurbanne mit 107:81. Am Dienstag geht es weiter: Dann spielt der FC Bayern zu Hause gegen Maccabi Tel Aviv."
-      ],
-      "fakten": [
-        "FC Barcelona – Roter Stern Belgrad 100:103 nach Verlängerung",
-        "Tyson Carter (Roter Stern): 31 Punkte, 7 von 10 Dreiern",
-        "Partizan Belgrad – Beşiktaş 91:87 nach Verlängerung",
-        "Olympiakos – Real Madrid 92:76",
-        "Anadolu Efes – ASVEL 107:81",
-        "Spitze: Valencia und Olympiakos mit je 10 Siegen und 3 Niederlagen"
-      ],
-      "quellen": [
-        "Euroleague"
-      ],
-      "teams": [
-        "CZV",
-        "BAR",
-        "PAR",
-        "BES",
-        "OLY",
-        "RMA",
-        "EFS",
-        "ASV",
-        "VAL",
-        "FCB"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-21-lakers-kings-nuggets-rockets",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "jubel",
-      "datum": "2026-11-21",
-      "tags": [],
-      "titel": "Lakers gewinnen Krimi gegen Sacramento – Denver dreht das Spiel gegen Houston",
-      "teaser": "Quentin Grimes trifft 57 Sekunden vor Schluss einen wichtigen Dreier. Die Lakers haben jetzt 14 Siege – mehr als jedes andere Team.",
-      "text": [
-        "In der Nacht auf Samstag gab es im Westen der USA noch zwei spannende Spiele im NBA Cup.",
-        "Die Los Angeles Lakers gewannen gegen die Sacramento Kings nur knapp mit 106:104. Lange war das Spiel ausgeglichen. 1:56 Minuten vor dem Ende stand es 103:103. Dann traf Quentin Grimes mit einem Step-back-Dreier zum 106:103. Die Kings hatten am Ende noch eine Chance, doch Zach LaVine verfehlte kurz vor der Schlusssirene einen weiten Dreier.",
-        "Bester Werfer war De'Andre Hunter von den Kings mit 30 Punkten. Er traf 12 von 16 Würfen. Für die Lakers machte Luka Dončić 25 Punkte und 8 Assists. Die Lakers haben jetzt 14 Siege und nur 3 Niederlagen – das ist die beste Bilanz der ganzen NBA. Sacramento hat erst ein Spiel gewonnen.",
-        "Auch Denver feierte einen Sieg. Die Nuggets lagen gegen die Houston Rockets nach drei Vierteln noch mit 99:102 hinten. Im letzten Viertel drehten sie auf und gewannen es 34:22. Am Ende hieß es 133:124. Nikola Jokić kam auf 26 Punkte und 11 Assists. Bei Houston schaffte Alperen Sengun ein Triple-Double: 28 Punkte, 11 Rebounds und 10 Assists."
-      ],
-      "fakten": [
-        "Endstand: Los Angeles Lakers – Sacramento Kings 106:104",
-        "De'Andre Hunter (Kings): 30 Punkte, 12 von 16 Würfen",
-        "Luka Dončić (Lakers): 25 Punkte, 8 Assists",
-        "Endstand: Denver Nuggets – Houston Rockets 133:124",
-        "Nikola Jokić (Nuggets): 26 Punkte, 11 Assists, 7 Rebounds",
-        "Alperen Sengun (Rockets): 28 Punkte, 11 Rebounds, 10 Assists"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "LAL",
-        "SAC",
-        "DEN",
-        "HOU"
-      ],
-      "spieler": [
-        "Quentin Grimes",
-        "Zach LaVine",
-        "De'Andre Hunter",
-        "Luka Dončić",
-        "Domantas Sabonis",
-        "Nikola Jokić",
-        "Alperen Sengun",
-        "Amen Thompson",
-        "Fred VanVleet",
-        "Kevin Durant",
-        "Christian Braun",
-        "Aaron Gordon"
-      ]
-    },
-    {
-      "id": "2026-11-20-bayern-schlaegt-baskonia",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "jubel",
-      "datum": "2026-11-20",
-      "tags": [],
-      "titel": "100 Punkte! Der FC Bayern schlägt Baskonia deutlich",
-      "teaser": "Nach der bitteren Niederlage in Kaunas gewinnt Bayern zu Hause 100:81. Duane Washington ist der Topscorer.",
-      "text": [
-        "Zwei Tage nach der Niederlage in der Verlängerung in Kaunas hat der FC Bayern eine starke Antwort gegeben. Im eigenen Heimspiel in München schlug er Baskonia aus Spanien mit 100:81.",
-        "Bayern legte gleich los: Nach dem ersten Viertel stand es 29:24, zur Pause schon 55:41. Danach ließen die Münchner nichts mehr anbrennen und knackten am Ende sogar die 100-Punkte-Marke.",
-        "Bester Werfer war Duane Washington mit 23 Punkten. Er traf 4 Dreier und holte 7 Rebounds. Johannes Thiemann kam auf 15 Punkte, Marjon Beauchamp auf 14 und Justinian Jessup auf 13. Bei Baskonia holte Kenan Kamenjas 16 Punkte und 13 Rebounds.",
-        "Für Bayern war es der vierte Sieg in der Euroleague. Baskonia hat erst einmal gewonnen und ist Letzter. Schon am Sonntag wartet das nächste große Spiel: Um 18 Uhr spielt Bayern in der Bundesliga bei ALBA Berlin."
-      ],
-      "fakten": [
-        "Endstand: FC Bayern München – Baskonia 100:81",
-        "Halbzeit: 55:41",
-        "Duane Washington: 23 Punkte, 4 Dreier, 7 Rebounds",
-        "Johannes Thiemann: 15 Punkte",
-        "Bayern-Bilanz in der Euroleague: 4 Siege, 9 Niederlagen",
-        "Nächstes Spiel: ALBA Berlin – FC Bayern, Sonntag, 18 Uhr (BBL)"
-      ],
-      "quellen": [
-        "Euroleague",
-        "FC Bayern Basketball"
-      ],
-      "teams": [
-        "FCB",
-        "BAS",
-        "ALBA"
-      ],
-      "spieler": []
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "GSW",
+      "gast": "BOS",
+      "heimPkt": 88,
+      "gastPkt": 87,
+      "newsId": "2026-11-23-warriors-celtics-magic",
+      "bericht": {
+        "text": [
+          "Golden State spielte ohne Stephen Curry, Jimmy Butler und Kristaps Porziņģis. Im letzten Viertel machte Boston nur 12 Punkte.",
+          "Brandin Podziemski traf 2:38 Minuten vor Schluss einen Dreier zum 88:86. Danach gelang Boston nur noch ein Freiwurf, und Jayson Tatums letzter Wurf ging daneben."
+        ],
+        "highlights": [
+          "Brandin Podziemski: 18 Punkte",
+          "Jayson Tatum (Boston): 27 Punkte, 10 Rebounds",
+          "Boston im letzten Viertel: nur 12 Punkte"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "MIA",
+      "gast": "OKC",
+      "heimPkt": 123,
+      "gastPkt": 113,
+      "newsId": "2026-11-23-okc-ohne-sga-heat",
+      "bericht": {
+        "text": [
+          "OKC fehlten Shai Gilgeous-Alexander, Alex Caruso und drei weitere Spieler. Nur neun Spieler waren dabei.",
+          "Miami führte das ganze Spiel. Im letzten Viertel lag OKC mit 20 Punkten hinten, kam aber noch auf zehn Punkte heran."
+        ],
+        "highlights": [
+          "Bam Adebayo: 24 Punkte, 15 Rebounds, 12 Assists",
+          "Bennett Stirtz (OKC): 21 Punkte",
+          "Siebter Sieg in Folge für Miami"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "WAS",
+      "gast": "ORL",
+      "heimPkt": 116,
+      "gastPkt": 96,
+      "newsId": "2026-11-23-warriors-celtics-magic",
+      "bericht": {
+        "text": [
+          "Washington startete mit einem 11:0-Lauf und lag das ganze Spiel vorne. Die Wizards trafen 22 von 39 Dreiern.",
+          "Orlando spielte ohne Paolo Banchero. Tristan da Silva war mit 18 Punkten bester Werfer der Magic."
+        ],
+        "highlights": [
+          "Kyshawn George: 24 Punkte",
+          "Anthony Davis: 22 Punkte",
+          "Tristan da Silva: 18 Punkte, 4 Dreier",
+          "Franz Wagner: 16 Punkte, 8 Rebounds, 6 Assists"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "CHI",
+      "gast": "DEN",
+      "heimPkt": 145,
+      "gastPkt": 151,
+      "info": "n. V.",
+      "newsId": "2026-11-23-murray-jokic-nuggets-bulls",
+      "bericht": {
+        "text": [
+          "Denver führte 40 Sekunden vor Schluss mit sieben Punkten. Chicago glich aus: Josh Giddey traf 2 Sekunden vor dem Ende zum 131:131.",
+          "In der Verlängerung machte Denver die ersten acht Punkte. Jamal Murray erzielte acht seiner 45 Punkte in der Verlängerung."
+        ],
+        "highlights": [
+          "Jamal Murray: 45 Punkte",
+          "Nikola Jokić: 37 Punkte, 18 Rebounds, 11 Assists",
+          "Josh Giddey: 23 Punkte, 14 Rebounds, 22 Assists"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "UTA",
+      "gast": "DAL",
+      "heimPkt": 114,
+      "gastPkt": 116,
+      "newsId": "2026-11-23-flagg-mavs-jazz",
+      "bericht": {
+        "text": [
+          "Dallas führte gut zwei Minuten vor Schluss mit 114:98. Dann machte Utah 16 Punkte hintereinander und glich 4,7 Sekunden vor dem Ende aus.",
+          "Cooper Flagg wurde gefoult und traf beide Freiwürfe. Utahs letzter Dreier ging daneben."
+        ],
+        "highlights": [
+          "Svi Mykhailiuk (Utah): 39 Punkte, 10 von 15 Dreiern",
+          "Cooper Flagg: 28 Punkte und die Sieg-Freiwürfe",
+          "16:0-Lauf der Jazz am Ende"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "NYK",
+      "gast": "IND",
+      "heimPkt": 113,
+      "gastPkt": 106,
+      "bericht": {
+        "text": [
+          "Karl-Anthony Towns war zurück und traf alle seine vier Dreier. Die Knicks führten zwischendurch mit 15 Punkten.",
+          "Indiana kam noch auf 106:112 heran, aber New York brachte den Sieg nach Hause. Es war der fünfte Sieg in Folge für die Knicks."
+        ],
+        "highlights": [
+          "Karl-Anthony Towns: 30 Punkte, 13 Rebounds",
+          "Jalen Brunson: 22 Punkte",
+          "Josh Hart: Triple-Double mit 10 Punkten, 10 Rebounds, 11 Assists"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "runde": "NBA",
+      "heim": "ATL",
+      "gast": "DET",
+      "heimPkt": 107,
+      "gastPkt": 97,
+      "bericht": {
+        "text": [
+          "Detroit führte nach drei Vierteln mit 85:74. Dann startete Atlanta das letzte Viertel mit 18 Punkten hintereinander.",
+          "Pistons-Star Cade Cunningham machte nur 5 Punkte, verteilte aber 15 Assists."
+        ],
+        "highlights": [
+          "Nickeil Alexander-Walker: 27 Punkte, 6 Dreier",
+          "18:0-Lauf der Hawks im letzten Viertel",
+          "Vierter Sieg in Folge für Atlanta"
+        ]
+      }
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-22",
+      "runde": "BBL · 10. Spieltag",
+      "heim": "ALBA",
+      "gast": "FCB",
+      "heimPkt": 79,
+      "gastPkt": 90,
+      "newsId": "2026-11-23-bayern-siegt-bei-alba",
+      "bericht": {
+        "text": [
+          "Bayern traf die ersten sechs Dreier und führte im zweiten Viertel mit 36:23. ALBA kämpfte sich bis zur Halbzeit auf 43:46 heran.",
+          "Nach der Pause zogen die Münchner wieder davon. Nach drei Vierteln stand es 59:73, danach kam ALBA nicht näher als acht Punkte heran."
+        ],
+        "highlights": [
+          "Johannes Voigtmann (Bayern): 19 Punkte",
+          "Jordan Ford (ALBA): 16 Punkte",
+          "Dreier: Bayern 16, ALBA 9"
+        ]
+      }
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-22",
+      "runde": "BBL · 10. Spieltag",
+      "heim": "BON",
+      "gast": "ULM",
+      "heimPkt": 89,
+      "gastPkt": 72,
+      "newsId": "2026-11-23-bbl-sonntag-hamburg-bonn",
+      "bericht": {
+        "text": [
+          "Bonn war von Beginn an besser und führte zur Pause mit 55:35.",
+          "Ulm kam im letzten Viertel etwas heran, aber der Sieg war nie in Gefahr. Bonn gewann zum vierten Mal hintereinander."
+        ],
+        "highlights": [
+          "Jaylen Sims (Ulm): 24 Punkte",
+          "Halbzeit: 55:35 für Bonn"
+        ]
+      }
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-22",
+      "runde": "BBL · 10. Spieltag",
+      "heim": "HAM",
+      "gast": "HAG",
+      "heimPkt": 97,
+      "gastPkt": 94,
+      "newsId": "2026-11-23-bbl-sonntag-hamburg-bonn",
+      "bericht": {
+        "text": [
+          "Ein spannendes Spiel: Zur Halbzeit stand es 44:44, nach drei Vierteln führte Hamburg knapp mit 70:67.",
+          "Im letzten Viertel trafen beide Teams 27 Punkte. Hamburg rettete den Vorsprung ins Ziel."
+        ],
+        "highlights": [
+          "Jahvon Henry-Blair (Hamburg): 27 Punkte",
+          "Nur 3 Punkte Unterschied"
+        ]
+      }
+    },
+    {
+      "liga": "BBL",
+      "datum": "2026-11-22",
+      "runde": "BBL · 10. Spieltag",
+      "heim": "LUD",
+      "gast": "MBC",
+      "heimPkt": 96,
+      "gastPkt": 87,
+      "newsId": "2026-11-23-bbl-sonntag-hamburg-bonn",
+      "bericht": {
+        "text": [
+          "Der MBC führte nach dem ersten Viertel mit 20:13. Danach war Ludwigsburg klar stärker.",
+          "Im letzten Viertel machten die RIESEN 29 Punkte und gewannen sicher."
+        ],
+        "highlights": [
+          "Spencer Reaves (MBC): 25 Punkte",
+          "Ludwigsburg dreht einen 13:20-Rückstand"
+        ]
+      }
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-21",
@@ -1444,213 +1639,6 @@
       }
     },
     {
-      "liga": "NBA",
-      "datum": "2026-11-19",
-      "runde": "NBA",
-      "heim": "MEM",
-      "gast": "GSW",
-      "heimPkt": 126,
-      "gastPkt": 98,
-      "newsId": "2026-11-20-grizzlies-warriors",
-      "bericht": {
-        "text": [
-          "Memphis lag das ganze Spiel vorne und führte im letzten Viertel mit 34 Punkten. Golden State trat ohne Stephen Curry und Draymond Green an und traf nur 5 von 29 Dreiern.",
-          "Die Warriors verloren damit alle fünf Spiele ihrer Auswärtsreise. Memphis gewann zum fünften Mal in Folge."
-        ],
-        "highlights": [
-          "Jaylen Wells (MEM): 22 Punkte, 8 von 10 Würfen",
-          "Cameron Boozer (MEM): 16 Punkte, alle 6 Würfe getroffen",
-          "Charles Bassey (GSW): 16 Punkte, 13 Rebounds"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-19",
-      "runde": "NBA",
-      "heim": "MIL",
-      "gast": "POR",
-      "heimPkt": 114,
-      "gastPkt": 124,
-      "newsId": "2026-11-20-lillard-bucks-serie",
-      "bericht": {
-        "text": [
-          "Damian Lillard machte bei seiner Rückkehr nach Milwaukee 33 Punkte, so viele wie noch nie in dieser Saison. Die Führung wechselte 20 Mal.",
-          "Beim Stand von 115:114 machte Portland die letzten 9 Punkte. Für Milwaukee war es die 12. Niederlage in Folge."
-        ],
-        "highlights": [
-          "Damian Lillard: 33 Punkte",
-          "Scoot Henderson: 27 Punkte, 5 von 6 Dreiern",
-          "Tyler Herro (MIL): 19 Punkte",
-          "Bucks: schlechtester Saisonstart der Vereinsgeschichte (1:15)"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-19",
-      "runde": "NBA",
-      "heim": "MIN",
-      "gast": "NYK",
-      "heimPkt": 99,
-      "gastPkt": 102,
-      "newsId": "2026-11-20-towns-knicks-wolves",
-      "bericht": {
-        "text": [
-          "Die Knicks führten im dritten Viertel mit 19 Punkten, machten aber in den letzten 3:26 Minuten keinen Punkt mehr. Minnesota kam bis auf drei Punkte heran.",
-          "9,9 Sekunden vor Schluss verwarf LaMelo Ball den Dreier zum Ausgleich. Karl-Anthony Towns glänzte gegen sein altes Team."
-        ],
-        "highlights": [
-          "Karl-Anthony Towns: 22 Punkte, 12 Rebounds",
-          "Jalen Brunson: 21 Punkte, 7 Assists",
-          "Jonathan Kuminga (MIN): 23 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-19",
-      "runde": "NBA",
-      "heim": "SAS",
-      "gast": "LAC",
-      "heimPkt": 124,
-      "gastPkt": 112,
-      "newsId": "2026-11-20-wembanyama-castle-spurs",
-      "bericht": {
-        "text": [
-          "Die Spurs gewannen zwei Tage nach dem Ende ihrer 12-Spiele-Serie wieder. Stephon Castle sorgte mit einem Steal und einem Pass zum Dreier von Julian Champagnie für das 105:97.",
-          "Die Clippers trafen 17 Dreier, kamen aber nicht mehr heran."
-        ],
-        "highlights": [
-          "Victor Wembanyama: 32 Punkte, 11 Rebounds",
-          "Stephon Castle: 21 Punkte, 12 Assists, 4 Steals",
-          "Darius Garland und Brook Lopez (LAC): je 23 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-19",
-      "runde": "Euroleague · 13. Runde",
-      "heim": "FCB",
-      "gast": "BAS",
-      "heimPkt": 100,
-      "gastPkt": 81,
-      "newsId": "2026-11-20-bayern-schlaegt-baskonia",
-      "bericht": {
-        "text": [
-          "Bayern führte nach dem ersten Viertel 29:24 und zur Pause 55:41. Danach kam Baskonia nicht mehr heran.",
-          "Es war der vierte Euroleague-Sieg der Münchner. Baskonia ist mit nur einem Sieg Letzter."
-        ],
-        "highlights": [
-          "Duane Washington: 23 Punkte, 4 Dreier",
-          "Johannes Thiemann: 15 Punkte",
-          "Marjon Beauchamp: 14 Punkte, 7 Rebounds",
-          "Kenan Kamenjas (BAS): 16 Punkte, 13 Rebounds"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-19",
-      "runde": "Euroleague · 13. Runde",
-      "heim": "PBB",
-      "gast": "HTA",
-      "heimPkt": 97,
-      "gastPkt": 96,
-      "newsId": "2026-11-20-paris-hifi-siegdreier",
-      "bericht": {
-        "text": [
-          "Hapoel führte 25 Sekunden vor Schluss mit 96:94. Dann traf Nadir Hifi 16 Sekunden vor dem Ende den Dreier zum 97:96.",
-          "Der letzte Dreier von Hapoel ging daneben."
-        ],
-        "highlights": [
-          "Nadir Hifi: Siegdreier, 18 Punkte",
-          "Antonio Blakeney (HTA): 28 Punkte",
-          "Endstand mit nur 1 Punkt Unterschied"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-19",
-      "runde": "Euroleague · 13. Runde",
-      "heim": "VAL",
-      "gast": "VIR",
-      "heimPkt": 92,
-      "gastPkt": 87,
-      "newsId": "2026-11-20-paris-hifi-siegdreier",
-      "bericht": {
-        "text": [
-          "Valencia führte zur Pause 50:40 und hielt Virtus Bologna am Ende auf Abstand. Mit 10 Siegen bleibt Valencia Tabellenführer."
-        ],
-        "highlights": [
-          "Neal Sako: 20 Punkte, 11 Rebounds",
-          "TJ Shorts: 20 Punkte, 8 Assists",
-          "Rasheed Bello (VIR): 15 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-19",
-      "runde": "Euroleague · 13. Runde",
-      "heim": "EA7",
-      "gast": "FEN",
-      "heimPkt": 78,
-      "gastPkt": 70,
-      "newsId": "2026-11-20-paris-hifi-siegdreier",
-      "bericht": {
-        "text": [
-          "Mailand gewann das letzte Viertel 23:9 und drehte damit das Spiel gegen Fenerbahçe."
-        ],
-        "highlights": [
-          "Moses Wright: 22 Punkte, 11 Rebounds",
-          "Leandro Bolmaro: 19 Punkte",
-          "Talen Horton-Tucker (FEN): 17 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-19",
-      "runde": "Euroleague · 13. Runde",
-      "heim": "ZAL",
-      "gast": "PAO",
-      "heimPkt": 72,
-      "gastPkt": 87,
-      "newsId": "2026-11-20-paris-hifi-siegdreier",
-      "bericht": {
-        "text": [
-          "Panathinaikos startete mit einem 28:17 im ersten Viertel und gewann sicher in Kaunas – dort, wo Bayern zwei Tage vorher in der Verlängerung verloren hatte."
-        ],
-        "highlights": [
-          "Kendrick Nunn (PAO): 21 Punkte",
-          "Nigel Hayes-Davis (PAO): 20 Punkte",
-          "Azuolas Tubelis: 17 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-19",
-      "runde": "Euroleague · 13. Runde",
-      "heim": "MTA",
-      "gast": "DUB",
-      "heimPkt": 74,
-      "gastPkt": 80,
-      "newsId": "2026-11-20-paris-hifi-siegdreier",
-      "bericht": {
-        "text": [
-          "Maccabi führte nach dem ersten Viertel 26:14, doch Dubai holte auf und gewann das Schlussviertel 22:12."
-        ],
-        "highlights": [
-          "Dwayne Bacon (DUB): 18 Punkte",
-          "Yam Madar (MTA): 17 Punkte, 5 Assists"
-        ]
-      }
-    },
-    {
       "liga": "DBB",
       "datum": "2026-11-17",
       "runde": "EM-Quali · Damen",
@@ -1675,79 +1663,6 @@
   ],
   "spielplan": [
     {
-      "liga": "BBL",
-      "zeit": "2026-11-22T16:30:00+01:00",
-      "heim": "HAM",
-      "gast": "HAG",
-      "tv": "DYN"
-    },
-    {
-      "liga": "BBL",
-      "zeit": "2026-11-22T16:30:00+01:00",
-      "heim": "LUD",
-      "gast": "MBC",
-      "tv": "DYN"
-    },
-    {
-      "liga": "BBL",
-      "zeit": "2026-11-22T18:00:00+01:00",
-      "heim": "ALBA",
-      "gast": "FCB",
-      "tv": "DYN",
-      "info": "Top-Spiel"
-    },
-    {
-      "liga": "BBL",
-      "zeit": "2026-11-22T18:30:00+01:00",
-      "heim": "BON",
-      "gast": "ULM",
-      "tv": "DYN"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-22T21:30:00+01:00",
-      "heim": "ATL",
-      "gast": "DET"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-23T00:00:00+01:00",
-      "heim": "MIA",
-      "gast": "OKC",
-      "info": "mit Hartenstein"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-23T01:00:00+01:00",
-      "heim": "CHI",
-      "gast": "DEN"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-23T01:00:00+01:00",
-      "heim": "UTA",
-      "gast": "DAL"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-23T01:00:00+01:00",
-      "heim": "WAS",
-      "gast": "ORL",
-      "info": "mit F. Wagner und da Silva"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-23T02:00:00+01:00",
-      "heim": "NYK",
-      "gast": "IND"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-23T02:30:00+01:00",
-      "heim": "GSW",
-      "gast": "BOS"
-    },
-    {
       "liga": "NBA",
       "zeit": "2026-11-24T01:00:00+01:00",
       "heim": "CHA",
@@ -1770,15 +1685,15 @@
     {
       "liga": "NBA",
       "zeit": "2026-11-24T01:30:00+01:00",
-      "heim": "MIN",
-      "gast": "BKN",
-      "info": "mit M. Wagner"
+      "heim": "TOR",
+      "gast": "MIL"
     },
     {
       "liga": "NBA",
       "zeit": "2026-11-24T01:30:00+01:00",
-      "heim": "TOR",
-      "gast": "MIL"
+      "heim": "MIN",
+      "gast": "BKN",
+      "info": "mit M. Wagner"
     },
     {
       "liga": "NBA",
@@ -2024,20 +1939,6 @@
     {
       "liga": "NBA",
       "zeit": "2026-11-28T03:30:00+01:00",
-      "heim": "LAC",
-      "gast": "NOP",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:30:00+01:00",
-      "heim": "POR",
-      "gast": "GSW",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:30:00+01:00",
       "heim": "SAS",
       "gast": "LAL",
       "info": "NBA Cup",
@@ -2048,6 +1949,20 @@
       "zeit": "2026-11-28T03:30:00+01:00",
       "heim": "UTA",
       "gast": "DEN",
+      "info": "NBA Cup"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-28T03:30:00+01:00",
+      "heim": "LAC",
+      "gast": "NOP",
+      "info": "NBA Cup"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-11-28T03:30:00+01:00",
+      "heim": "POR",
+      "gast": "GSW",
       "info": "NBA Cup"
     },
     {
@@ -2123,14 +2038,14 @@
     {
       "liga": "NBA",
       "zeit": "2026-11-30T00:00:00+01:00",
-      "heim": "POR",
-      "gast": "NOP"
+      "heim": "TOR",
+      "gast": "DEN"
     },
     {
       "liga": "NBA",
       "zeit": "2026-11-30T00:00:00+01:00",
-      "heim": "TOR",
-      "gast": "DEN"
+      "heim": "POR",
+      "gast": "NOP"
     },
     {
       "liga": "NBA",
@@ -2155,7 +2070,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 22.11., 16:15 Uhr · nach allen Spielen vom 21.11. (US-Zeit)",
+      "stand": "Stand: 23.11., 6:15 Uhr · nach allen Spielen vom 22.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2199,7 +2114,7 @@
         },
         {
           "team": "DEN",
-          "s": 9,
+          "s": 10,
           "n": 5
         },
         {
@@ -2208,13 +2123,13 @@
           "n": 6
         },
         {
-          "team": "OKC",
+          "team": "DAL",
           "s": 10,
-          "n": 6
+          "n": 7
         },
         {
-          "team": "DAL",
-          "s": 9,
+          "team": "OKC",
+          "s": 10,
           "n": 7
         },
         {
@@ -2224,7 +2139,7 @@
         },
         {
           "team": "GSW",
-          "s": 8,
+          "s": 9,
           "n": 8
         },
         {
@@ -2240,7 +2155,7 @@
         {
           "team": "UTA",
           "s": 3,
-          "n": 14
+          "n": 15
         },
         {
           "team": "SAC",
@@ -2251,7 +2166,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 22.11., 16:15 Uhr · nach allen Spielen vom 21.11. (US-Zeit)",
+      "stand": "Stand: 23.11., 6:15 Uhr · nach allen Spielen vom 22.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2274,28 +2189,28 @@
           "n": 3
         },
         {
+          "team": "ATL",
+          "s": 11,
+          "n": 6
+        },
+        {
           "team": "BOS",
           "s": 11,
-          "n": 5
-        },
-        {
-          "team": "DET",
-          "s": 10,
-          "n": 5
-        },
-        {
-          "team": "ATL",
-          "s": 10,
           "n": 6
         },
         {
           "team": "NYK",
+          "s": 11,
+          "n": 6
+        },
+        {
+          "team": "DET",
           "s": 10,
           "n": 6
         },
         {
           "team": "MIA",
-          "s": 9,
+          "s": 10,
           "n": 6
         },
         {
@@ -2306,7 +2221,12 @@
         {
           "team": "ORL",
           "s": 7,
-          "n": 8
+          "n": 9
+        },
+        {
+          "team": "WAS",
+          "s": 7,
+          "n": 11
         },
         {
           "team": "TOR",
@@ -2314,14 +2234,9 @@
           "n": 10
         },
         {
-          "team": "WAS",
-          "s": 6,
-          "n": 11
-        },
-        {
           "team": "IND",
           "s": 5,
-          "n": 11
+          "n": 12
         },
         {
           "team": "CHA",
@@ -2331,7 +2246,7 @@
         {
           "team": "CHI",
           "s": 4,
-          "n": 11
+          "n": 12
         },
         {
           "team": "BKN",
@@ -2347,7 +2262,7 @@
     },
     "bbl": {
       "name": "BBL",
-      "stand": "Stand: 10. Spieltag, nach den Spielen vom 21.11. · ALBA gegen Bayern und drei weitere Spiele laufen heute (22.11.)",
+      "stand": "Stand: nach dem 10. Spieltag (22.11.) · weiter am 03.12.",
       "zonen": [
         {
           "von": 1,
@@ -2372,7 +2287,7 @@
       "zeilen": [
         {
           "team": "FCB",
-          "s": 8,
+          "s": 9,
           "n": 1
         },
         {
@@ -2387,13 +2302,18 @@
         },
         {
           "team": "BON",
-          "s": 6,
+          "s": 7,
           "n": 3
+        },
+        {
+          "team": "LUD",
+          "s": 6,
+          "n": 4
         },
         {
           "team": "MBC",
           "s": 6,
-          "n": 3
+          "n": 4
         },
         {
           "team": "FRA",
@@ -2401,17 +2321,12 @@
           "n": 3
         },
         {
-          "team": "LUD",
+          "team": "BAM",
           "s": 5,
-          "n": 4
+          "n": 5
         },
         {
           "team": "ALBA",
-          "s": 5,
-          "n": 4
-        },
-        {
-          "team": "BAM",
           "s": 5,
           "n": 5
         },
@@ -2421,12 +2336,12 @@
           "n": 5
         },
         {
-          "team": "ULM",
+          "team": "VEC",
           "s": 4,
-          "n": 5
+          "n": 6
         },
         {
-          "team": "VEC",
+          "team": "ULM",
           "s": 4,
           "n": 6
         },
@@ -2436,13 +2351,13 @@
           "n": 6
         },
         {
-          "team": "CHE",
+          "team": "HAM",
           "s": 4,
           "n": 6
         },
         {
-          "team": "HAM",
-          "s": 3,
+          "team": "CHE",
+          "s": 4,
           "n": 6
         },
         {
@@ -2453,7 +2368,7 @@
         {
           "team": "HAG",
           "s": 2,
-          "n": 7
+          "n": 8
         },
         {
           "team": "JEN",
@@ -2863,7 +2778,7 @@
         "reb": 4.1,
         "ast": 4.5
       },
-      "notiz": "Gegen New Orleans machte er 40 Punkte. OKC holte dabei einen Rückstand von 16 Punkten auf und gewann 126:120."
+      "notiz": "In Miami fiel er zum ersten Mal in dieser Saison verletzt aus. Ohne ihn verlor OKC mit 113:123."
     },
     {
       "name": "Stephen Curry",
@@ -2948,7 +2863,7 @@
         "reb": 3.7,
         "ast": 1.7
       },
-      "notiz": "Beim 113:111 in Brooklyn machte er 6 Punkte und traf 2 Dreier."
+      "notiz": "In Washington war er mit 18 Punkten und 4 Dreiern bester Werfer der Orlando Magic."
     },
     {
       "name": "Hannes Steinbach",
@@ -3026,7 +2941,7 @@
         "reb": 10.4,
         "ast": 9.1
       },
-      "notiz": "Gegen Houston kam er auf 26 Punkte und 11 Assists. Denver drehte das Spiel im letzten Viertel."
+      "notiz": "In Chicago schaffte er sein 202. Triple-Double: 37 Punkte, 18 Rebounds, 11 Assists."
     },
     {
       "name": "Victor Wembanyama",
@@ -3080,131 +2995,131 @@
   "quiz": [
     {
       "liga": "NBA",
-      "frage": "Wie viele Punkte machte Victor Wembanyama beim Sieg der Spurs gegen New Orleans?",
+      "frage": "Wie viele Punkte machte Jamal Murray beim 151:145 der Nuggets in Chicago?",
       "antworten": [
-        "38",
-        "44",
-        "50",
-        "52"
+        "37",
+        "41",
+        "45",
+        "51"
       ],
       "richtig": 2,
-      "erklaerung": "Wembanyama machte 50 Punkte – 32 davon schon in der ersten Halbzeit."
+      "erklaerung": "Murray machte 45 Punkte, acht davon in der Verlängerung."
     },
     {
       "liga": "BBL",
-      "frage": "Welches Team ist vor dem Top-Spiel in Berlin Tabellenführer der Bundesliga?",
+      "frage": "Wie ging das Top-Spiel ALBA BERLIN gegen den FC Bayern aus?",
       "antworten": [
-        "FC Bayern München",
-        "ALBA BERLIN",
-        "Gladiators Trier",
-        "Rostock Seawolves"
-      ],
-      "richtig": 0,
-      "erklaerung": "Die Bayern haben 8 von 9 Spielen gewonnen. Heute um 18 Uhr spielen sie bei ALBA."
-    },
-    {
-      "liga": "NBA",
-      "art": "legacy",
-      "jahr": "1980",
-      "frage": "1980 spielte ein Rookie im 6. Finalspiel als Center für Kareem Abdul-Jabbar und machte 42 Punkte. Wer war das?",
-      "antworten": [
-        "Larry Bird",
-        "Julius Erving",
-        "Magic Johnson",
-        "Moses Malone"
-      ],
-      "richtig": 2,
-      "erklaerung": "Magic Johnson war eigentlich Spielmacher. Trotzdem spielte er Center, machte 42 Punkte und die Lakers wurden Meister."
-    },
-    {
-      "liga": "BBL",
-      "art": "legacy",
-      "jahr": "2004",
-      "frage": "Der Mitteldeutsche BC aus Weißenfels gewann 2004 einen Europapokal. Welchen?",
-      "antworten": [
-        "Euroleague",
-        "Korać-Cup",
-        "FIBA EuroCup Challenge",
-        "Champions League"
-      ],
-      "richtig": 2,
-      "erklaerung": "Der MBC gewann 2004 die FIBA EuroCup Challenge. Nur wenige deutsche Klubs haben einen Europapokal geholt."
-    },
-    {
-      "liga": "NBA",
-      "frage": "Wer traf für die New York Knicks mit der Schlusssirene den Siegdreier gegen Portland?",
-      "antworten": [
-        "Jalen Brunson",
-        "Mikal Bridges",
-        "Josh Hart",
-        "Landry Shamet"
+        "ALBA gewann 90:79",
+        "Bayern gewann 90:79",
+        "Bayern gewann 85:79",
+        "ALBA gewann 82:80"
       ],
       "richtig": 1,
-      "erklaerung": "Josh Hart passte zu Mikal Bridges, und der traf genau mit der Sirene zum 97:96."
-    },
-    {
-      "liga": "BBL",
-      "frage": "Mit welchem Ergebnis gewannen die Rostock Seawolves am Samstag in Jena?",
-      "antworten": [
-        "93:80",
-        "97:91",
-        "82:75",
-        "86:67"
-      ],
-      "richtig": 3,
-      "erklaerung": "Rostock siegte 86:67 und ist jetzt Tabellendritter."
+      "erklaerung": "Der FC Bayern gewann in Berlin mit 90:79 und bleibt Tabellenführer."
     },
     {
       "liga": "NBA",
-      "frage": "Welches Team ist mit 14 Siegen und 3 Niederlagen gerade das beste im Osten der NBA?",
-      "antworten": [
-        "Boston Celtics",
-        "Detroit Pistons",
-        "Philadelphia 76ers",
-        "New York Knicks"
-      ],
-      "richtig": 2,
-      "erklaerung": "Die 76ers gewannen gegen Milwaukee ihr fünftes Spiel in Folge."
-    },
-    {
-      "liga": "BBL",
       "art": "legacy",
       "jahr": "2021",
-      "frage": "2021 erreichte der FC Bayern zum ersten Mal die Playoffs der Euroleague. Gegen wen schied er knapp aus?",
+      "frage": "2021 brach ein Spieler den alten Triple-Double-Rekord von Oscar Robertson. Wer war das?",
       "antworten": [
-        "Real Madrid",
-        "Olimpia Mailand",
-        "FC Barcelona",
-        "Fenerbahçe"
+        "LeBron James",
+        "Russell Westbrook",
+        "Jason Kidd",
+        "Magic Johnson"
       ],
       "richtig": 1,
-      "erklaerung": "Die Bayern verloren die Serie gegen Mailand ganz knapp mit 2:3 Siegen – im entscheidenden fünften Spiel."
+      "erklaerung": "Russell Westbrook überholte 2021 Oscar Robertson. Heute hat er 209 Triple-Doubles – Nikola Jokić kommt ihm immer näher."
+    },
+    {
+      "liga": "BBL",
+      "art": "legacy",
+      "jahr": "2008",
+      "frage": "Welcher Klub bekam 2008 als erster deutscher Profi-Basketballklub eine eigene Halle, die ihm selbst gehört?",
+      "antworten": [
+        "ALBA BERLIN",
+        "Brose Bamberg",
+        "ratiopharm ulm",
+        "Telekom Baskets Bonn"
+      ],
+      "richtig": 3,
+      "erklaerung": "Die Telekom Baskets Bonn bauten den Telekom Dome. Er wurde 2008 eröffnet und hat etwa 6.000 Plätze."
+    },
+    {
+      "liga": "NBA",
+      "frage": "Wer traf für Dallas in Utah die entscheidenden Freiwürfe zum 116:114?",
+      "antworten": [
+        "Cooper Flagg",
+        "Kyrie Irving",
+        "Daniel Gafford",
+        "Caleb Martin"
+      ],
+      "richtig": 0,
+      "erklaerung": "Cooper Flagg traf knapp 4 Sekunden vor Schluss beide Freiwürfe."
+    },
+    {
+      "liga": "BBL",
+      "frage": "Wer war im Top-Spiel in Berlin der beste Werfer des FC Bayern?",
+      "antworten": [
+        "Andreas Obst",
+        "Justus Hollatz",
+        "Oscar da Silva",
+        "Johannes Voigtmann"
+      ],
+      "richtig": 3,
+      "erklaerung": "Johannes Voigtmann machte 19 Punkte."
     },
     {
       "liga": "NBA",
       "art": "legacy",
-      "jahr": "2000",
-      "frage": "Vince Carter gewann im Jahr 2000 den berühmten Dunk-Wettbewerb. Für welches Team spielte er damals?",
+      "jahr": "1990er",
+      "frage": "Welcher Center wackelte nach seinen Blocks immer mit dem Zeigefinger – als ob er sagen wollte: „Nicht bei mir!“?",
       "antworten": [
-        "Toronto Raptors",
-        "New Jersey Nets",
-        "Orlando Magic",
-        "Atlanta Hawks"
+        "Shaquille O'Neal",
+        "Patrick Ewing",
+        "Alonzo Mourning",
+        "Dikembe Mutombo"
       ],
-      "richtig": 0,
-      "erklaerung": "Carter spielte für Toronto. Seine Dunks im Jahr 2000 gelten bis heute als einige der besten aller Zeiten."
+      "richtig": 3,
+      "erklaerung": "Dikembe Mutombo aus dem Kongo war einer der besten Blocker der NBA-Geschichte. Sein Finger-Wackeln war sein Markenzeichen."
     },
     {
       "liga": "BBL",
-      "frage": "Wie viele Punkte holte Bamberg im letzten Viertel beim Sieg in Braunschweig?",
+      "frage": "Welches Team gewann am Sonntag zu Hause mit 89:72 gegen ratiopharm ulm?",
+      "antworten": [
+        "Telekom Baskets Bonn",
+        "MHP RIESEN Ludwigsburg",
+        "Veolia Towers Hamburg",
+        "Bamberg Baskets"
+      ],
+      "richtig": 0,
+      "erklaerung": "Bonn führte schon zur Pause mit 55:35 und gewann zum vierten Mal hintereinander."
+    },
+    {
+      "liga": "NBA",
+      "frage": "Wie viele Assists spielte Josh Giddey von den Chicago Bulls gegen Denver?",
       "antworten": [
         "14",
         "22",
-        "29",
-        "35"
+        "18",
+        "26"
       ],
-      "richtig": 2,
-      "erklaerung": "Bamberg gewann das letzte Viertel 29:14 und drehte so das Spiel zum 82:75."
+      "richtig": 1,
+      "erklaerung": "22 Assists – so viele hatte Giddey noch nie in einem NBA-Spiel."
+    },
+    {
+      "liga": "BBL",
+      "art": "legacy",
+      "jahr": "2019",
+      "frage": "Welcher Klub stieg 2019 als Meister der 2. Liga ProA in die Bundesliga auf?",
+      "antworten": [
+        "Rostock Seawolves",
+        "Hamburg Towers",
+        "Niners Chemnitz",
+        "Phoenix Hagen"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die Hamburg Towers gewannen 2019 die ProA. Heute heißen sie Veolia Towers Hamburg."
     }
   ],
   "lexikon": [
@@ -3530,6 +3445,16 @@
       "begriff": "Tip-in",
       "en": "tip-in",
       "erklaerung": "Wenn ein Spieler einen danebengegangenen Wurf in der Luft nicht fängt, sondern direkt mit der Hand in den Korb tippt."
+    },
+    {
+      "begriff": "Ausboxen",
+      "en": "box out",
+      "erklaerung": "Nach einem Wurf stellt man sich mit dem Rücken vor den Gegner, damit er nicht an den Rebound kommt."
+    },
+    {
+      "begriff": "Schrittfehler",
+      "en": "travelling",
+      "erklaerung": "Wenn ein Spieler mit dem Ball in der Hand zu viele Schritte macht oder mit dem Ball hochspringt und wieder landet. Der Gegner bekommt den Ball."
     }
   ],
   "teams": {
@@ -4162,55 +4087,68 @@
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-21",
-      "titel": "Victor Wembanyama",
-      "team": "SAS",
-      "wert": "50 Punkte",
-      "grund": "Dazu 19 Rebounds, 5 Blocks und 4 Steals! 32 Punkte hatte er schon zur Halbzeit.",
-      "newsId": "2026-11-22-wembanyama-50-punkte"
+      "datum": "2026-11-22",
+      "titel": "Jamal Murray",
+      "team": "DEN",
+      "wert": "45 Punkte",
+      "grund": "So viele wie noch nie in dieser Saison – acht davon in der Verlängerung. Denver gewann in Chicago 151:145.",
+      "newsId": "2026-11-23-murray-jokic-nuggets-bulls"
     },
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-21",
-      "titel": "Tyler Herro",
-      "team": "MIL",
-      "wert": "50 Punkte",
-      "grund": "So viele Punkte hatte er in der NBA noch nie – sein alter Bestwert lag bei 41. Trotzdem verlor Milwaukee knapp mit 129:132.",
-      "newsId": "2026-11-22-herro-50-sixers-siegen"
+      "datum": "2026-11-22",
+      "titel": "Josh Giddey",
+      "team": "CHI",
+      "wert": "22 Assists",
+      "grund": "So viele Vorlagen hatte er noch nie in einem NBA-Spiel. Dazu kamen 23 Punkte und 14 Rebounds.",
+      "newsId": "2026-11-23-murray-jokic-nuggets-bulls"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "titel": "Svi Mykhailiuk",
+      "team": "UTA",
+      "wert": "10 Dreier",
+      "grund": "Er traf 10 von 15 Dreiern und machte 39 Punkte – Karrierebestwert. 23 Punkte gelangen ihm allein im letzten Viertel.",
+      "newsId": "2026-11-23-flagg-mavs-jazz"
     },
     {
       "art": "spiel",
       "liga": "NBA",
-      "datum": "2026-11-21",
-      "heim": "NYK",
-      "gast": "POR",
-      "wert": "Buzzer-Beater!",
-      "grund": "Portland holte einen Rückstand von 26 Punkten auf und führte kurz vor Schluss. Dann traf Mikal Bridges mit der Schlusssirene einen Dreier zum 97:96.",
-      "newsId": "2026-11-22-bridges-buzzer-knicks"
-    },
-    {
-      "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-21",
-      "heim": "SAC",
+      "datum": "2026-11-22",
+      "heim": "GSW",
       "gast": "BOS",
-      "wert": "0 von 13 Dreiern",
-      "grund": "Boston traf im dritten Viertel keinen einzigen Dreier. Sacramento holte 13 Punkte Rückstand auf und gewann 97:96 durch einen Tipp-Korb 5 Sekunden vor Schluss.",
-      "newsId": "2026-11-22-kings-murray-tip-celtics"
+      "wert": "Nur 1 Punkt!",
+      "grund": "Die Warriors gewannen ohne Stephen Curry mit 88:87. Boston machte im letzten Viertel nur 12 Punkte.",
+      "newsId": "2026-11-23-warriors-celtics-magic"
     },
     {
       "art": "spiel",
       "liga": "BBL",
-      "datum": "2026-11-21",
-      "heim": "BRA",
-      "gast": "BAM",
-      "wert": "29:14 im Schlussviertel",
-      "grund": "Bamberg lag nach drei Vierteln mit 8 Punkten hinten. Mit einem starken letzten Viertel drehten die Baskets das Spiel und gewannen 82:75.",
-      "newsId": "2026-11-22-bbl-samstag-auswaertssiege"
+      "datum": "2026-11-22",
+      "heim": "ALBA",
+      "gast": "FCB",
+      "wert": "16 Dreier",
+      "grund": "Der FC Bayern traf im Top-Spiel in Berlin seine ersten sechs Dreier alle und gewann am Ende 90:79.",
+      "newsId": "2026-11-23-bayern-siegt-bei-alba"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-22",
+      "heim": "ATL",
+      "gast": "DET",
+      "wert": "18:0-Lauf",
+      "grund": "Atlanta lag nach drei Vierteln mit 11 Punkten hinten. Dann trafen die Hawks 18 Punkte am Stück und gewannen 107:97."
     }
   ],
   "legacyGestellt": [
+    "Westbrook bricht Robertsons Triple-Double-Rekord (2021)",
+    "Telekom Dome Bonn eigene Halle (2008)",
+    "Dikembe Mutombo Finger-Wackeln (1990er)",
+    "Hamburg Towers ProA-Meister und Aufstieg (2019)",
     "Magic Johnson 42 Punkte als Center im Finale (1980)",
     "MBC FIBA EuroCup Challenge (2004)",
     "FC Bayern erste Euroleague-Playoffs gegen Mailand (2021)",
@@ -4316,6 +4254,85 @@
     "LeBron James überholt Kareem (2023)"
   ],
   "training": [
+    {
+      "id": "2026-11-23-ausboxen",
+      "titel": "Ausboxen – so sicherst du dir den Rebound",
+      "ziel": "Du lernst, deinen Gegenspieler nach einem Wurf mit dem Rücken vom Korb wegzuhalten. So kommst du als Erster an den Ball.",
+      "ort": "Freiplatz oder Halle",
+      "dauer": "15 Minuten",
+      "material": "Ball, Korb und ein Partner",
+      "schritte": [
+        "Stell dich zwischen deinen Partner und den Korb. Dein Partner steht etwa einen Schritt vor dir.",
+        "Sobald ein Wurf in der Luft ist, drehst du dich um und machst einen Schritt zu deinem Partner hin. Jetzt ist dein Rücken an seinem Bauch.",
+        "Geh tief in die Knie, stell die Füße breit und halte die Arme seitlich hoch. Schieb deinen Partner nicht weg, sondern bleib einfach fest stehen.",
+        "Schau zum Korb, wohin der Ball springt. Dann springst du hoch und fängst ihn mit beiden Händen.",
+        "Wechselt nach 5 Versuchen die Rollen."
+      ],
+      "stufen": {
+        "leicht": "Ohne Wurf: Ein Dritter ruft „Jetzt!“, und du übst nur das Umdrehen und Ausboxen.",
+        "mittel": "Dein Partner versucht, langsam an dir vorbeizukommen, während ein Dritter wirft.",
+        "schwer": "Dein Partner darf mit vollem Tempo um dich herumlaufen. Wer holt mehr Rebounds aus 10 Würfen?"
+      },
+      "fehler": [
+        "Nur zum Ball schauen und den Gegner vergessen: Erst ausboxen, dann zum Ball springen.",
+        "Mit den Händen schubsen: Das ist ein Foul. Halte den Gegner nur mit deinem Körper weg.",
+        "Zu aufrecht stehen: Geh tief in die Knie, dann stehst du viel stabiler."
+      ],
+      "profi": {
+        "text": "Bam Adebayo von den Miami Heat holte gegen OKC 15 Rebounds und schaffte dazu ein Triple-Double.",
+        "newsId": "2026-11-23-okc-ohne-sga-heat"
+      },
+      "skizze": {
+        "spieler": [
+          {
+            "x": 50,
+            "y": 30,
+            "team": "b",
+            "label": "Du"
+          },
+          {
+            "x": 50,
+            "y": 38,
+            "team": "a",
+            "label": "P"
+          },
+          {
+            "x": 50,
+            "y": 70,
+            "team": "a",
+            "label": "W"
+          }
+        ],
+        "ball": {
+          "x": 50,
+          "y": 68
+        },
+        "pfeile": [
+          {
+            "von": [
+              50,
+              68
+            ],
+            "nach": [
+              50,
+              13
+            ],
+            "art": "pass"
+          },
+          {
+            "von": [
+              50,
+              30
+            ],
+            "nach": [
+              50,
+              34
+            ],
+            "art": "lauf"
+          }
+        ]
+      }
+    },
     {
       "id": "2026-11-16-crossover",
       "titel": "Der Crossover – die Richtung blitzschnell wechseln",
@@ -4587,21 +4604,22 @@
     }
   ],
   "schiri": {
-    "id": "2026-11-22",
-    "titel": "Gefangen statt getippt",
+    "id": "2026-11-23",
+    "titel": "Hochgesprungen – und wieder gelandet",
     "regel": "beide",
-    "situation": "Das Spiel beginnt. Der Schiri wirft den Ball im Mittelkreis hoch. Die Nummer 10 von Team Blau springt am höchsten – und fängt den Ball einfach mit beiden Händen.",
+    "situation": "Die Nummer 4 von Team Gelb springt hoch, um den Ball zu passen. In der Luft merkt sie, dass alle Mitspieler gedeckt sind. Sie landet wieder auf dem Boden – den Ball noch in beiden Händen.",
     "frage": "Was pfeifst du?",
     "antworten": [
-      "Alles in Ordnung, Team Blau hat den Ball",
-      "Regelverstoß: Einwurf für Team Rot",
-      "Der Sprungball wird wiederholt",
-      "Technisches Foul gegen Nummer 10"
+      "Alles in Ordnung, sie darf jetzt passen",
+      "Schrittfehler: Einwurf für den Gegner",
+      "Doppeldribbling",
+      "Sprungball"
     ],
     "richtig": 1,
-    "erklaerung": "Beim Sprungball dürfen die beiden Springer den Ball nur antippen. Fangen dürfen sie ihn erst, wenn er den Boden oder einen anderen Spieler berührt hat. Weil Nummer 10 ihn sofort gefangen hat, bekommt Team Rot den Ball zum Einwurf."
+    "erklaerung": "Wer mit dem Ball in den Händen hochspringt, muss ihn in der Luft loswerden – also passen oder werfen. Landet man wieder mit dem Ball, ist das ein Schrittfehler. Der Gegner bekommt den Ball zum Einwurf."
   },
   "schiriGestellt": [
+    "Mit Ball hochspringen und wieder landen (Schrittfehler)",
     "Springer fängt den Ball beim Sprungball (Einwurf Gegner)",
     "Einwerfer betritt das Spielfeld (Ballverlust)",
     "Ball 5 Sekunden festhalten, eng bewacht (Ballverlust)",
@@ -4629,77 +4647,76 @@
     "Zwei Schritte nach dem Fangen (Schrittfehler)"
   ],
   "comic": {
-    "datum": "2026-11-21",
-    "liga": "NBA",
-    "heim": "SAS",
-    "gast": "NOP",
-    "newsId": "2026-11-22-wembanyama-50-punkte",
-    "titel": "Wembys 50er-Nacht",
-    "untertitel": "San Antonio Spurs – New Orleans Pelicans · NBA · Samstag, 21. November",
-    "erklaerung": "Victor Wembanyama machte beim 114:91 gegen New Orleans 50 Punkte, 32 davon schon in der ersten Halbzeit. Dazu holte er 19 Rebounds, 5 Blocks und 4 Steals. Nach seinem Dreier zum 108:82 durfte er sich auf die Bank setzen.",
+    "datum": "2026-11-22",
+    "liga": "BBL",
+    "heim": "ALBA",
+    "gast": "FCB",
+    "newsId": "2026-11-23-bayern-siegt-bei-alba",
+    "titel": "Dreier-Regen in Berlin",
+    "untertitel": "ALBA BERLIN – FC Bayern München · BBL · Sonntag, 22. November",
+    "erklaerung": "Der FC Bayern gewann das Top-Spiel bei ALBA BERLIN mit 90:79. Die Münchner trafen ihre ersten sechs Dreier und am Ende insgesamt 16. Johannes Voigtmann war mit 19 Punkten der beste Werfer.",
     "bilder": [
       {
         "szene": "ankunft",
-        "text": "San Antonio. Victor Wembanyama kommt in die Halle – heute geht es gegen New Orleans.",
+        "text": "Berlin, Top-Spiel! Johannes Voigtmann und der FC Bayern kommen zu ALBA.",
         "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": "1"
+          "name": "Johannes Voigtmann",
+          "team": "FCB",
+          "nr": "7"
         }
-      },
-      {
-        "szene": "halle",
-        "text": "Die Fans hoffen auf den nächsten Sieg. Die Spurs gewannen 13 der letzten 14 Spiele.",
-        "label": "GO SPURS GO",
-        "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": "1"
-        }
-      },
-      {
-        "szene": "dunk",
-        "text": "Er dreht sich um seinen Gegenspieler und stopft den Ball mit einer Hand.",
-        "sfx": "BAMM!",
-        "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": "1"
-        },
-        "gegner": "NOP"
-      },
-      {
-        "szene": "anzeige",
-        "text": "Halbzeit – und Wemby hat schon 32 Punkte!",
-        "tafel": "SPURS 61 : 45 PELICANS",
-        "label": "HALBZEIT",
-        "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": "1"
-        },
-        "gegner": "NOP"
       },
       {
         "szene": "wurf",
-        "text": "Im letzten Viertel trifft er einen Dreier zum 108:82.",
+        "text": "Bayern startet heiß: Die ersten sechs Dreier gehen alle rein!",
         "sfx": "SWISH!",
         "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": "1"
+          "name": "FC Bayern",
+          "team": "FCB"
         },
-        "gegner": "NOP"
+        "gegner": "ALBA"
+      },
+      {
+        "szene": "halle",
+        "text": "Doch ALBA kämpft sich zurück. Die Fans in Berlin stehen auf!",
+        "label": "WE ARE ALBA",
+        "spieler": {
+          "name": "ALBA BERLIN",
+          "team": "ALBA"
+        }
+      },
+      {
+        "szene": "anzeige",
+        "text": "Zur Halbzeit fehlen ALBA nur noch drei Punkte.",
+        "tafel": "ALBA 43 : 46 BAYERN",
+        "label": "HALBZEIT",
+        "spieler": {
+          "name": "Johannes Voigtmann",
+          "team": "FCB",
+          "nr": "7"
+        },
+        "gegner": "ALBA"
+      },
+      {
+        "szene": "anzeige",
+        "text": "Nach der Pause trifft Bayern wieder – nach drei Vierteln sind es 14 Punkte.",
+        "tafel": "ALBA 59 : 73 BAYERN",
+        "label": "NACH 3 VIERTELN",
+        "spieler": {
+          "name": "Johannes Voigtmann",
+          "team": "FCB",
+          "nr": "7"
+        },
+        "gegner": "ALBA"
       },
       {
         "szene": "zahl",
-        "zahl": "50",
-        "label": "Punkte für Wemby",
-        "text": "Dazu 19 Rebounds, 5 Blocks und 4 Steals. Die Spurs gewinnen 114:91!",
+        "zahl": "16",
+        "label": "Dreier für Bayern",
+        "text": "Voigtmann macht 19 Punkte. Bayern gewinnt 90:79 und bleibt Tabellenführer.",
         "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS",
-          "nr": "1"
+          "name": "Johannes Voigtmann",
+          "team": "FCB",
+          "nr": "7"
         }
       }
     ]
