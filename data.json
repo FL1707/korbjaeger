@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-24T06:22:25+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-24",
-  "gruss": "Guten Morgen! OKC hat in Indiana knapp verloren – trotz 38 Punkten von Shai Gilgeous-Alexander und 18 von Isaiah Hartenstein. Die Milwaukee Bucks haben nach 13 Niederlagen endlich wieder gewonnen. Heute Abend spielt der FC Bayern in der Euroleague gegen Maccabi Tel Aviv, und am Freitag startet die Nationalmannschaft in Lettland in die WM-Quali-Spiele.",
+  "aktualisiert": "2026-11-24T16:17:01+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-24",
+  "gruss": "Hallo und schönen Nachmittag! Die San Antonio Spurs haben auch ohne Victor Wembanyama in Sacramento gewonnen – Stephon Castle machte 28 Punkte. Die Lakers nahmen mit Luka Dončić Revanche an Utah. Heute Abend spielt der FC Bayern in der Euroleague gegen Maccabi Tel Aviv, und heute Nacht treffen Franz Wagner, Tristan da Silva und die Orlando Magic im NBA Cup auf Detroit.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-24",
   "zahlDesTages": {
-    "zahl": "13",
-    "text": "So viele Spiele hintereinander hatten die Milwaukee Bucks verloren. In Toronto ist die Serie endlich gerissen."
+    "zahl": "8:0",
+    "text": "So sieht die Auswärtsbilanz der San Antonio Spurs aus: 8 Spiele in fremden Hallen, 8 Siege. Zuletzt sogar ohne Victor Wembanyama in Sacramento."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -361,6 +361,103 @@
     "Shaquille O'Neal"
   ],
   "news": [
+    {
+      "id": "2026-11-24-lakers-revanche-jazz",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "duell",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Revenge! Luka and the Lakers beat the Jazz",
+      "teaser": "Last week Utah won in Los Angeles. This time the Lakers win 109:94. Luka Dončić scores 28 points.",
+      "text": [
+        "Five days ago the Utah Jazz surprised the Los Angeles Lakers. Utah won in Los Angeles. On Monday the two teams played again in the same arena.",
+        "Luka Dončić scored 14 points in the first quarter. Then he got his fourth foul and had to sit on the bench for a while. Utah came back and took the lead after halftime.",
+        "In the fourth quarter the Lakers woke up. They started with a 17:5 run and won 109:94. Dončić finished with 28 points and 8 assists. Jake LaRavia had 15 points and 10 rebounds.",
+        "For Utah, Kyle Filipowski scored 21 points and grabbed 12 rebounds. The Lakers have won 11 of their last 12 games. They are 15-3, just like the Spurs."
+      ],
+      "fakten": [
+        "Final score: Los Angeles Lakers – Utah Jazz 109:94",
+        "Luka Dončić: 28 points, 8 assists",
+        "Jake LaRavia: 15 points, 10 rebounds",
+        "Kyle Filipowski (Utah): 21 points, 12 rebounds",
+        "Lakers: 15 wins, 3 losses"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "LAL",
+        "UTA"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Jake LaRavia",
+        "Matisse Thybulle",
+        "Kyle Filipowski",
+        "Ace Bailey",
+        "Darryn Peterson"
+      ],
+      "vokabeln": [
+        {
+          "en": "revenge",
+          "de": "Revanche"
+        },
+        {
+          "en": "foul",
+          "de": "Foul, Regelverstoß"
+        },
+        {
+          "en": "to take the lead",
+          "de": "in Führung gehen"
+        },
+        {
+          "en": "to wake up",
+          "de": "aufwachen"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-spurs-ohne-wemby-kings",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Auch ohne Wembanyama: Die Spurs bleiben auswärts ungeschlagen",
+      "teaser": "San Antonio gewinnt 123:107 in Sacramento. Stephon Castle macht 28 Punkte und 11 Assists.",
+      "text": [
+        "Victor Wembanyama hatte am Samstag noch 50 Punkte gemacht. In Sacramento musste er wegen Rückenproblemen pausieren. Auch De’Aaron Fox und Dylan Harper fehlten. Trotzdem gewannen die San Antonio Spurs klar mit 123:107.",
+        "Am Anfang lagen die Kings sogar mit 12 Punkten vorne. Dann wurde Julian Champagnie heiß: Im zweiten Viertel machte er allein 17 Punkte und traf vier Dreier. Zur Pause führten die Spurs 60:51.",
+        "Im dritten Viertel zog San Antonio davon. Stephon Castle machte neun Punkte hintereinander. Am Ende hatte er 28 Punkte, 11 Assists und 8 Rebounds.",
+        "Auswärts haben die Spurs jetzt alle 8 Spiele gewonnen. Mit 15 Siegen und 3 Niederlagen stehen sie ganz oben im Westen. Bei den Kings traf Domantas Sabonis 8 von 9 Würfen und machte 20 Punkte."
+      ],
+      "fakten": [
+        "Endstand: Sacramento Kings – San Antonio Spurs 107:123",
+        "Stephon Castle: 28 Punkte, 11 Assists, 8 Rebounds",
+        "Julian Champagnie: 22 Punkte, 6 Dreier",
+        "Luke Kornet: 18 Punkte, 11 Rebounds",
+        "Spurs auswärts: 8 Siege, 0 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "SAS",
+        "SAC"
+      ],
+      "spieler": [
+        "Stephon Castle",
+        "Julian Champagnie",
+        "Luke Kornet",
+        "Devin Vassell",
+        "Victor Wembanyama",
+        "Domantas Sabonis",
+        "Zach LaVine"
+      ]
+    },
     {
       "id": "2026-11-24-okc-verliert-in-indiana",
       "liga": "NBA",
@@ -819,49 +916,6 @@
       ]
     },
     {
-      "id": "2026-11-23-okc-ohne-sga-heat",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-23",
-      "tags": [],
-      "titel": "Ohne Shai: OKC verliert in Miami",
-      "teaser": "Die Thunder spielen ohne Shai Gilgeous-Alexander und verlieren 113:123. Bam Adebayo schafft ein Triple-Double.",
-      "text": [
-        "Zum ersten Mal in dieser Saison fehlte Shai Gilgeous-Alexander. Der Star von Oklahoma City fiel verletzt aus. Auch Alex Caruso und drei weitere Spieler konnten nicht mitspielen. OKC hatte nur neun Spieler dabei.",
-        "Miami führte das ganze Spiel über. Im letzten Viertel lag OKC schon mit 20 Punkten hinten. Die Thunder gaben aber nicht auf und kamen noch auf 113:123 heran.",
-        "Bester Werfer bei OKC war Bennett Stirtz mit 21 Punkten, er traf 5 Dreier. Jared McCain machte 20 Punkte. Isaiah Hartenstein holte 8 Rebounds.",
-        "Bei Miami glänzte Bam Adebayo: 24 Punkte, 15 Rebounds und 12 Assists – ein Triple-Double. Die Heat gewannen zum siebten Mal hintereinander. Auch bei ihnen fehlte ein Star: Giannis Antetokounmpo."
-      ],
-      "fakten": [
-        "Endstand: Miami Heat – Oklahoma City Thunder 123:113",
-        "Bam Adebayo: 24 Punkte, 15 Rebounds, 12 Assists",
-        "Bennett Stirtz (OKC): 21 Punkte, 5 Dreier",
-        "Jared McCain (OKC): 20 Punkte",
-        "Isaiah Hartenstein: 2 Punkte, 8 Rebounds, 4 Assists",
-        "Nächstes Spiel von OKC: in Indiana, Nacht auf Dienstag, 1:30 Uhr"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "OKC",
-        "MIA"
-      ],
-      "spieler": [
-        "Shai Gilgeous-Alexander",
-        "Bam Adebayo",
-        "Bennett Stirtz",
-        "Jared McCain",
-        "Isaiah Hartenstein",
-        "Alex Caruso",
-        "Giannis Antetokounmpo",
-        "Pelle Larsson",
-        "Ajay Mitchell"
-      ]
-    },
-    {
       "id": "2026-11-23-warriors-celtics-magic",
       "liga": "NBA",
       "lang": "de",
@@ -1076,6 +1130,50 @@
           "Kevin Durant: 32 Punkte, 9 Rebounds",
           "Alperen Şengün und Amen Thompson: je 20 Punkte",
           "Darius Garland (LAC): 26 Punkte"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-23",
+      "runde": "NBA",
+      "heim": "LAL",
+      "gast": "UTA",
+      "heimPkt": 109,
+      "gastPkt": 94,
+      "newsId": "2026-11-24-lakers-revanche-jazz",
+      "bericht": {
+        "text": [
+          "Die Lakers führten in der ersten Hälfte schon mit 16 Punkten. Nach der Pause holte Utah auf und ging sogar in Führung.",
+          "Mit einem 17:5-Lauf zu Beginn des letzten Viertels entschieden die Lakers das Spiel. So nahmen sie Revanche für die Heimniederlage gegen Utah fünf Tage vorher."
+        ],
+        "highlights": [
+          "Luka Dončić: 28 Punkte, 8 Assists",
+          "Jake LaRavia: 15 Punkte, 10 Rebounds",
+          "Kyle Filipowski (UTA): 21 Punkte, 12 Rebounds",
+          "17:5-Lauf zu Beginn des 4. Viertels"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-23",
+      "runde": "NBA",
+      "heim": "SAC",
+      "gast": "SAS",
+      "heimPkt": 107,
+      "gastPkt": 123,
+      "newsId": "2026-11-24-spurs-ohne-wemby-kings",
+      "bericht": {
+        "text": [
+          "Ohne Victor Wembanyama, De’Aaron Fox und Dylan Harper lagen die Spurs zuerst mit 12 Punkten hinten. Im zweiten Viertel drehten sie das Spiel (41:23 im Viertel).",
+          "Im dritten Viertel zogen die Spurs auf 22 Punkte davon. Sie bleiben in dieser Saison auswärts ungeschlagen."
+        ],
+        "highlights": [
+          "Stephon Castle: 28 Punkte, 11 Assists, 8 Rebounds",
+          "Julian Champagnie: 22 Punkte, 6 Dreier",
+          "Domantas Sabonis (SAC): 20 Punkte, 8 von 9 Würfen",
+          "Spurs auswärts 8:0 Siege"
         ]
       }
     },
@@ -1535,18 +1633,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-24T04:00:00+01:00",
-      "heim": "LAL",
-      "gast": "UTA"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-24T04:00:00+01:00",
-      "heim": "SAC",
-      "gast": "SAS"
-    },
-    {
       "liga": "EL",
       "zeit": "2026-11-24T18:00:00+01:00",
       "heim": "BES",
@@ -1935,7 +2021,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 24.11., 6:25 Uhr · nach den Spielen vom 23.11. (US-Zeit), ohne Lakers–Jazz und Kings–Spurs",
+      "stand": "Stand: 24.11., 16:30 Uhr · nach allen Spielen vom 23.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -1954,12 +2040,12 @@
       "zeilen": [
         {
           "team": "SAS",
-          "s": 14,
+          "s": 15,
           "n": 3
         },
         {
           "team": "LAL",
-          "s": 14,
+          "s": 15,
           "n": 3
         },
         {
@@ -2020,18 +2106,18 @@
         {
           "team": "UTA",
           "s": 3,
-          "n": 15
+          "n": 16
         },
         {
           "team": "SAC",
           "s": 2,
-          "n": 14
+          "n": 15
         }
       ]
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 24.11., 6:25 Uhr · nach den Spielen vom 23.11. (US-Zeit), ohne Lakers–Jazz und Kings–Spurs",
+      "stand": "Stand: 24.11., 16:30 Uhr · nach allen Spielen vom 23.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2638,10 +2724,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 16,
-        "pkt": 31.7,
+        "spiele": 17,
+        "pkt": 32.1,
         "reb": 4.1,
-        "ast": 4.5
+        "ast": 4.6
       },
       "notiz": "Nach einem Spiel Pause machte er in Indiana 38 Punkte und 7 Assists. OKC verlor trotzdem 120:125."
     },
@@ -2681,9 +2767,9 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 15,
+        "spiele": 16,
         "pkt": 9.9,
-        "reb": 3.5,
+        "reb": 3.3,
         "ast": 1.6
       },
       "notiz": "In Minnesota traf er in 14 Minuten 4 von 5 Würfen, darunter 2 Dreier: 11 Punkte und 2 Steals. Brooklyn verlor trotzdem 116:142."
@@ -2709,10 +2795,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 17,
-        "pkt": 7.8,
+        "spiele": 18,
+        "pkt": 8.4,
         "reb": 10.6,
-        "ast": 3.9
+        "ast": 3.8
       },
       "notiz": "In Indiana war er mit 18 Punkten und 9 Rebounds einer der Besten bei OKC. Im letzten Viertel brachte er die Thunder bis auf einen Punkt heran."
     },
@@ -2736,10 +2822,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 5,
+        "spiele": 6,
         "pkt": 2.8,
-        "reb": 4.2,
-        "ast": 0.4
+        "reb": 3.7,
+        "ast": 0.3
       },
       "notiz": "Rookie aus Würzburg, im Draft an Nummer 14 ausgewählt. Gegen Memphis machte er in 4 Minuten 3 Punkte."
     },
@@ -2749,10 +2835,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 13,
-        "pkt": 16.1,
-        "reb": 6.8,
-        "ast": 6.8
+        "spiele": 14,
+        "pkt": 16.6,
+        "reb": 6.7,
+        "ast": 6.5
       },
       "notiz": "Der beste Punktesammler der NBA-Geschichte spielt jetzt für Philadelphia. Gegen Portland machte er 23 Punkte – so viele wie noch nie für die Sixers."
     },
@@ -2775,12 +2861,12 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 15,
-        "pkt": 37.2,
-        "reb": 6.8,
+        "spiele": 16,
+        "pkt": 36.6,
+        "reb": 6.6,
         "ast": 7.7
       },
-      "notiz": "Mit 25 Punkten und 8 Assists half er beim knappen 106:104 gegen Sacramento. Die Lakers haben die beste Bilanz der NBA."
+      "notiz": "Gegen Utah machte er 28 Punkte und 8 Assists. Die Lakers nahmen Revanche für die Niederlage aus der Vorwoche."
     },
     {
       "name": "Anthony Edwards",
@@ -2819,7 +2905,7 @@
         "reb": 12.3,
         "ast": 3.2
       },
-      "notiz": "Gegen New Orleans machte er 50 Punkte, 19 Rebounds, 5 Blocks und 4 Steals. Die Spurs gewannen 114:91."
+      "notiz": "Gegen New Orleans machte er 50 Punkte und 19 Rebounds. In Sacramento musste er wegen Rückenproblemen pausieren – die Spurs gewannen trotzdem."
     },
     {
       "name": "Damian Lillard",
@@ -2827,10 +2913,10 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 16,
-        "pkt": 20.6,
+        "spiele": 17,
+        "pkt": 20.4,
         "reb": 3.2,
-        "ast": 4.0
+        "ast": 4.1
       },
       "notiz": "Beim 128:111 in Philadelphia machte er 18 Punkte und 5 Assists."
     }
@@ -3958,6 +4044,16 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-23",
+      "titel": "Stephon Castle",
+      "team": "SAS",
+      "wert": "28 Punkte, 11 Assists",
+      "grund": "Ohne Wembanyama, Fox und Harper führte er die Spurs zum Sieg in Sacramento. So bleibt San Antonio auswärts ungeschlagen: 8 Spiele, 8 Siege.",
+      "newsId": "2026-11-24-spurs-ohne-wemby-kings"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-23",
       "titel": "Jaden McDaniels",
       "team": "MIN",
       "wert": "34 Punkte",
@@ -3983,16 +4079,6 @@
       "wert": "Verlängerung",
       "grund": "Ein Steal von Herbert Jones in den letzten Sekunden rettete New Orleans in die Verlängerung. Dort war Phoenix stärker und gewann zum vierten Mal in Folge.",
       "newsId": "2026-11-24-suns-verlaengerung"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-23",
-      "titel": "Christian Anderson",
-      "team": "CHA",
-      "wert": "6 von 8 Dreiern",
-      "grund": "Der Rookie aus Charlotte machte 25 Punkte – so viele wie noch nie in seiner jungen NBA-Karriere.",
-      "newsId": "2026-11-24-wagner-nets-hornets"
     },
     {
       "art": "spieler",

@@ -2,6 +2,49 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-23-okc-ohne-sga-heat",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Ohne Shai: OKC verliert in Miami",
+      "teaser": "Die Thunder spielen ohne Shai Gilgeous-Alexander und verlieren 113:123. Bam Adebayo schafft ein Triple-Double.",
+      "text": [
+        "Zum ersten Mal in dieser Saison fehlte Shai Gilgeous-Alexander. Der Star von Oklahoma City fiel verletzt aus. Auch Alex Caruso und drei weitere Spieler konnten nicht mitspielen. OKC hatte nur neun Spieler dabei.",
+        "Miami führte das ganze Spiel über. Im letzten Viertel lag OKC schon mit 20 Punkten hinten. Die Thunder gaben aber nicht auf und kamen noch auf 113:123 heran.",
+        "Bester Werfer bei OKC war Bennett Stirtz mit 21 Punkten, er traf 5 Dreier. Jared McCain machte 20 Punkte. Isaiah Hartenstein holte 8 Rebounds.",
+        "Bei Miami glänzte Bam Adebayo: 24 Punkte, 15 Rebounds und 12 Assists – ein Triple-Double. Die Heat gewannen zum siebten Mal hintereinander. Auch bei ihnen fehlte ein Star: Giannis Antetokounmpo."
+      ],
+      "fakten": [
+        "Endstand: Miami Heat – Oklahoma City Thunder 123:113",
+        "Bam Adebayo: 24 Punkte, 15 Rebounds, 12 Assists",
+        "Bennett Stirtz (OKC): 21 Punkte, 5 Dreier",
+        "Jared McCain (OKC): 20 Punkte",
+        "Isaiah Hartenstein: 2 Punkte, 8 Rebounds, 4 Assists",
+        "Nächstes Spiel von OKC: in Indiana, Nacht auf Dienstag, 1:30 Uhr"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "OKC",
+        "MIA"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Bam Adebayo",
+        "Bennett Stirtz",
+        "Jared McCain",
+        "Isaiah Hartenstein",
+        "Alex Caruso",
+        "Giannis Antetokounmpo",
+        "Pelle Larsson",
+        "Ajay Mitchell"
+      ]
+    },
+    {
       "id": "2026-11-22-vorschau-alba-bayern",
       "liga": "BBL",
       "lang": "de",
