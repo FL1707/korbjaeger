@@ -1,4 +1,4 @@
-{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-24T16:15:55+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
+{"quelle": "ESPN", "saison": "2026-27", "art": "Regular Season, Durchschnitt pro Spiel", "stand": "2026-11-25T06:14:51+01:00", "spalten": ["name", "team", "alter", "sp", "s", "n", "min", "pkt", "fgm", "fga", "fgp", "tpm", "tpa", "tpp", "ftm", "fta", "ftp", "oreb", "dreb", "reb", "ast", "tov", "stl", "blk", "pf", "dd2", "td3", "pm"],"spieler":[
 ["Luka Dončić", "LAL", 27, 16, null, null, 36.2, 36.6, 11.5, 25.0, 46.0, 4.8, 13.2, 36.5, 8.8, 10.2, 86.5, null, null, 6.6, 7.7, 5.1, 1.8, 0.6, 3.1, 4, 0, null],
 ["Anthony Edwards", "MIN", 25, 4, null, null, 33.8, 33.3, 12.5, 26.0, 48.1, 4.5, 11.3, 40.0, 3.8, 5.0, 75.0, null, null, 4.8, 3.5, 3.5, 2.0, 0.8, 2.0, 1, 0, null],
 ["Shai Gilgeous-Alexander", "OKC", 28, 17, null, null, 33.7, 32.1, 11.4, 23.7, 47.9, 2.5, 6.6, 37.5, 6.9, 8.4, 82.4, null, null, 4.1, 4.6, 2.2, 0.8, 0.9, 1.8, 0, 0, null],
@@ -448,7 +448,7 @@
 ["Julian Reese", "NOP", 23, 6, null, null, 5.3, 1.0, 0.3, 0.8, 40.0, 0.0, 0.0, 0.0, 0.3, 0.3, 100.0, null, null, 1.0, 0.2, 0.2, 0.2, 0.3, 1.2, 0, 0, null],
 ["Blake Wesley", "LAC", 23, 2, null, null, 4.5, 1.0, 0.0, 2.0, 0.0, 0.0, 1.0, 0.0, 1.0, 1.0, 100.0, null, null, 2.0, 0.0, 0.0, 0.0, 0.0, 0.5, 0, 0, null],
 ["Chris Mañon", "LAL", 24, 2, null, null, 3.5, 1.0, 0.5, 1.5, 33.3, 0.0, 0.5, 0.0, 0.0, 0.0, 0.0, null, null, 0.5, 0.0, 0.0, 0.0, 0.0, 0.5, 0, 0, null],
-["David Jones Garcia", "SAS", 24, 6, null, null, 3.3, 1.0, 0.3, 1.7, 20.0, 0.0, 0.5, 0.0, 0.3, 0.3, 100.0, null, null, 0.2, 0.0, 0.2, 0.3, 0.0, 0.3, 0, 0, null],
+["David Jones Garcia", "SAS", 25, 6, null, null, 3.3, 1.0, 0.3, 1.7, 20.0, 0.0, 0.5, 0.0, 0.3, 0.3, 100.0, null, null, 0.2, 0.0, 0.2, 0.3, 0.0, 0.3, 0, 0, null],
 ["Malevy Leons", "GSW", 27, 11, null, null, 5.8, 1.0, 0.3, 1.3, 21.4, 0.1, 0.4, 25.0, 0.4, 0.4, 100.0, null, null, 1.2, 0.1, 0.1, 0.2, 0.3, 0.5, 0, 0, null],
 ["Felix Okpara", "WAS", 22, 3, null, null, 1.7, 1.0, 0.3, 0.7, 50.0, 0.0, 0.0, 0.0, 0.3, 0.7, 50.0, null, null, 0.7, 0.0, 0.0, 0.0, 0.0, 0.3, 0, 0, null],
 ["AJ Johnson", "NOP", 21, 7, null, null, 6.1, 1.0, 0.4, 1.4, 30.0, 0.0, 0.3, 0.0, 0.1, 0.3, 50.0, null, null, 0.4, 0.6, 0.3, 0.1, 0.1, 0.3, 0, 0, null],

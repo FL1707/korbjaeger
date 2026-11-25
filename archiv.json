@@ -2,6 +2,285 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-23-warriors-celtics-magic",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Ohne Curry: Warriors gewinnen mit einem Punkt – da Silva bester Magic-Werfer",
+      "teaser": "Golden State schlägt Boston 88:87. Orlando verliert in Washington, Tristan da Silva und Franz Wagner treffen am meisten.",
+      "text": [
+        "Die Golden State Warriors mussten gegen die Boston Celtics ohne Stephen Curry, Jimmy Butler und Kristaps Porziņģis auskommen. Trotzdem gewannen sie mit 88:87.",
+        "Im letzten Viertel machte Boston nur 12 Punkte. 2 Minuten 38 Sekunden vor Schluss traf Brandin Podziemski einen Dreier zum 88:86. Danach gelang Boston nur noch ein Freiwurf. Jayson Tatum verfehlte kurz vor der Sirene seinen letzten Wurf. Podziemski war mit 18 Punkten der beste Werfer der Warriors.",
+        "Die Orlando Magic verloren in Washington mit 96:116. Die Wizards trafen 22 Dreier und gewannen zum dritten Mal hintereinander. Orlando musste ohne Paolo Banchero spielen, er fiel verletzt aus.",
+        "Bester Werfer der Magic war Tristan da Silva mit 18 Punkten und 4 Dreiern. Franz Wagner kam auf 16 Punkte, 8 Rebounds und 6 Assists."
+      ],
+      "fakten": [
+        "Golden State Warriors – Boston Celtics 88:87",
+        "Brandin Podziemski: 18 Punkte, Dreier zum 88:86",
+        "Jayson Tatum (Boston): 27 Punkte, 10 Rebounds",
+        "Washington Wizards – Orlando Magic 116:96",
+        "Tristan da Silva: 18 Punkte, Franz Wagner: 16 Punkte, 8 Rebounds, 6 Assists",
+        "Kyshawn George (Washington): 24 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "GSW",
+        "BOS",
+        "ORL",
+        "WAS"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Brandin Podziemski",
+        "Jayson Tatum",
+        "Tristan da Silva",
+        "Franz Wagner",
+        "Paolo Banchero",
+        "Kyshawn George",
+        "Anthony Davis",
+        "AJ Dybantsa"
+      ]
+    },
+    {
+      "id": "2026-11-23-flagg-mavs-jazz",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "korb",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "16 points in a row! Utah comes back – but Flagg wins it for Dallas",
+      "teaser": "Dallas beats Utah 116:114. Svi Mykhailiuk makes 10 three-pointers, but Cooper Flagg makes two free throws at the end.",
+      "text": [
+        "The Dallas Mavericks played in Utah. With two minutes left, Dallas was far ahead: 114:98. The game looked over.",
+        "But then the Jazz scored 16 points in a row! Svi Mykhailiuk made three after three. With 4.7 seconds left, Isaiah Collier made a layup. The score was 114:114.",
+        "Then Cooper Flagg was fouled. He went to the free-throw line and made both shots. Utah missed the last three-pointer. Dallas won 116:114.",
+        "Mykhailiuk scored 39 points. That is a career high. He made 10 of 15 three-pointers. Flagg scored 28 points for Dallas."
+      ],
+      "fakten": [
+        "Final score: Utah Jazz – Dallas Mavericks 114:116",
+        "Cooper Flagg: 28 points, two winning free throws",
+        "Svi Mykhailiuk (Utah): 39 points (career high), 10 three-pointers",
+        "Utah scored 16 points in a row at the end",
+        "Third win in a row for Dallas"
+      ],
+      "vokabeln": [
+        {
+          "en": "in a row",
+          "de": "hintereinander"
+        },
+        {
+          "en": "far ahead",
+          "de": "weit vorne"
+        },
+        {
+          "en": "to be fouled",
+          "de": "gefoult werden"
+        },
+        {
+          "en": "career high",
+          "de": "Karrierebestwert"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "DAL",
+        "UTA"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "Svi Mykhailiuk",
+        "Isaiah Collier",
+        "Kyrie Irving",
+        "Kyle Filipowski"
+      ]
+    },
+    {
+      "id": "2026-11-23-murray-jokic-nuggets-bulls",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "151 Punkte! Murray und Jokić gewinnen ein Spektakel in Chicago",
+      "teaser": "Denver schlägt Chicago mit 151:145 nach Verlängerung. Jamal Murray macht 45 Punkte, Nikola Jokić schafft sein 202. Triple-Double.",
+      "text": [
+        "Was für ein Spiel! Die Denver Nuggets haben bei den Chicago Bulls mit 151:145 gewonnen – nach Verlängerung.",
+        "Eigentlich sah Denver schon wie der Sieger aus. 40 Sekunden vor Schluss führten die Nuggets mit sieben Punkten. Doch Chicago kam zurück. Buddy Hield klaute Nikola Jokić den Ball, und Josh Giddey traf 2 Sekunden vor dem Ende zum 131:131.",
+        "In der Verlängerung drehte Jamal Murray auf. Denver machte die ersten acht Punkte. Murray kam am Ende auf 45 Punkte, so viele wie noch nie in dieser Saison. Jokić hatte 37 Punkte, 18 Rebounds und 11 Assists. Es war sein 202. Triple-Double. Den Rekord hält Russell Westbrook mit 209.",
+        "Auch Chicago hatte einen Helden: Josh Giddey spielte 22 Assists – so viele wie nie zuvor in seiner Karriere. Dazu machte er 23 Punkte und 14 Rebounds."
+      ],
+      "fakten": [
+        "Endstand: Chicago Bulls – Denver Nuggets 145:151 nach Verlängerung",
+        "Jamal Murray: 45 Punkte (Saisonbestwert), 13 von 14 Freiwürfen",
+        "Nikola Jokić: 37 Punkte, 18 Rebounds, 11 Assists",
+        "Josh Giddey: 23 Punkte, 14 Rebounds, 22 Assists (Karrierebestwert)",
+        "Buddy Hield: 33 Punkte, 7 Dreier",
+        "Chicago traf 25 Dreier – Saisonbestwert"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "DEN",
+        "CHI"
+      ],
+      "spieler": [
+        "Jamal Murray",
+        "Nikola Jokić",
+        "Josh Giddey",
+        "Buddy Hield",
+        "Jalen Smith",
+        "Matas Buzelis"
+      ]
+    },
+    {
+      "id": "2026-11-23-bbl-sonntag-hamburg-bonn",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Hamburg zittert sich zum Sieg – Bonn gewinnt zum vierten Mal in Folge",
+      "teaser": "Am Sonntag gab es drei Heimsiege: Hamburg schlägt Hagen knapp, Ludwigsburg dreht das Spiel gegen den MBC und Bonn ist gegen Ulm klar besser.",
+      "text": [
+        "In Hamburg ging es richtig eng zu. Zur Halbzeit stand es 44:44 gegen Phoenix Hagen. Am Ende gewannen die Veolia Towers mit 97:94. Bester Werfer war Hamburgs Jahvon Henry-Blair mit 27 Punkten.",
+        "Die MHP RIESEN Ludwigsburg lagen gegen den SYNTAINICS MBC nach dem ersten Viertel mit 13:20 hinten. Danach drehten sie auf und gewannen 96:87. Spencer Reaves vom MBC war mit 25 Punkten der beste Werfer des Spiels.",
+        "Die Telekom Baskets Bonn waren gegen ratiopharm ulm von Anfang an stark. Zur Pause führten sie schon mit 55:35. Am Ende hieß es 89:72. Für Bonn war es der vierte Sieg hintereinander. Jaylen Sims machte für Ulm 24 Punkte."
+      ],
+      "fakten": [
+        "Veolia Towers Hamburg – Phoenix Hagen 97:94",
+        "MHP RIESEN Ludwigsburg – SYNTAINICS MBC 96:87",
+        "Telekom Baskets Bonn – ratiopharm ulm 89:72",
+        "Jahvon Henry-Blair (Hamburg): 27 Punkte",
+        "Spencer Reaves (MBC): 25 Punkte",
+        "Jaylen Sims (Ulm): 24 Punkte"
+      ],
+      "quellen": [
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "HAM",
+        "HAG",
+        "LUD",
+        "MBC",
+        "BON",
+        "ULM"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-23-bayern-siegt-bei-alba",
+      "liga": "BBL",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "16 Dreier! Der FC Bayern gewinnt das Top-Spiel bei ALBA",
+      "teaser": "ALBA BERLIN verliert zu Hause mit 79:90 gegen den Tabellenführer. Die Münchner treffen fast jeden zweiten Dreier.",
+      "text": [
+        "Das große Duell der Basketball-Bundesliga ging an den FC Bayern. In Berlin gewannen die Münchner mit 90:79 gegen ALBA BERLIN.",
+        "Die Bayern starteten wie die Feuerwehr: Ihre ersten sechs Dreier gingen alle rein. Im zweiten Viertel führten sie schon mit 36:23. ALBA kämpfte sich aber zurück. Zur Halbzeit stand es nur noch 43:46.",
+        "Nach der Pause trafen die Bayern wieder besser. Nach dem dritten Viertel führten sie mit 73:59. Näher als acht Punkte kam ALBA danach nicht mehr heran. Am Ende hatte München 16 Dreier getroffen, ALBA nur 9.",
+        "Bester Werfer war Johannes Voigtmann mit 19 Punkten. Bei ALBA machte Jordan Ford 16 Punkte, Sam Griesel kam auf 14. Die Bayern haben jetzt 9 Siege und nur 1 Niederlage. ALBA steht mit 5 Siegen und 5 Niederlagen auf Platz 9."
+      ],
+      "fakten": [
+        "Endstand: ALBA BERLIN – FC Bayern München 79:90 (Halbzeit 43:46)",
+        "Johannes Voigtmann (Bayern): 19 Punkte",
+        "Jordan Ford (ALBA): 16 Punkte",
+        "Sam Griesel (ALBA): 14 Punkte",
+        "Dreier: ALBA 9, Bayern 16",
+        "Nächstes Spiel der Bayern: Dienstag, 20 Uhr, Euroleague gegen Maccabi Tel Aviv"
+      ],
+      "quellen": [
+        "easycredit-bbl.de",
+        "sportschau.de",
+        "fcbayern.com"
+      ],
+      "teams": [
+        "ALBA",
+        "FCB"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-23-dbb-tischler-zwillinge",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Zwillinge im Nationalteam: Die Tischlers sind zum ersten Mal zusammen dabei",
+      "teaser": "Heute trifft sich die Nationalmannschaft in Frankfurt. Mit dabei: Brandon und Nicholas Tischler. Für Brandon ist es die erste Einladung.",
+      "text": [
+        "Seit heute bereitet sich die deutsche Nationalmannschaft in Frankfurt auf zwei wichtige Spiele in der WM-Qualifikation vor.",
+        "Im Kader stehen auch zwei Brüder, die Zwillinge sind: Brandon und Nicholas Tischler. Nicholas spielt in Oldenburg und war schon vor zwei Jahren das erste Mal im Nationalteam. Brandon spielt in Würzburg und ist zum ersten Mal eingeladen. Es ist das erste Mal, dass die beiden zusammen dabei sind.",
+        "Auch Zachary Ensminger aus Oldenburg könnte sein erstes Länderspiel machen. Am Freitag um 18:30 Uhr geht es in Riga gegen Lettland, am Montag, 30. November, um 19:30 Uhr in Frankfurt gegen Polen.",
+        "In der Gruppe K haben Deutschland, Kroatien und Polen je 7 Siege und 1 Niederlage. Die besten drei Teams fahren 2027 zur WM nach Katar."
+      ],
+      "fakten": [
+        "Kader: 16 Spieler, Bundestrainer Álex Mumbrú",
+        "Brandon Tischler (Würzburg): erste Nominierung",
+        "Nicholas Tischler (Oldenburg): erstes Länderspiel vor zwei Jahren",
+        "Lettland – Deutschland: Fr., 27.11., 18:30 Uhr",
+        "Deutschland – Polen: Mo., 30.11., 19:30 Uhr"
+      ],
+      "quellen": [
+        "Flashscore",
+        "SID",
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "POL",
+        "CRO",
+        "OLD",
+        "WUE"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-23-bayern-maccabi-vorschau",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-23",
+      "tags": [],
+      "titel": "Nach dem Sieg in Berlin: Bayern empfängt Maccabi Tel Aviv",
+      "teaser": "In der BBL ist der FC Bayern ganz oben. In der Euroleague läuft es noch nicht so gut. Am Dienstag kommt Maccabi nach München.",
+      "text": [
+        "Zwei Gesichter einer Saison: In der Bundesliga hat der FC Bayern 9 von 10 Spielen gewonnen. Am Sonntag siegten die Münchner sogar 90:79 bei ALBA BERLIN.",
+        "In der Euroleague sieht es anders aus. Dort haben die Bayern erst 4 Siege und 9 Niederlagen. Sie stehen auf Platz 16 von 20 Teams.",
+        "Am Dienstag um 20 Uhr spielen sie in der 14. Runde zu Hause gegen Maccabi Tel Aviv. Maccabi hat noch weniger gewonnen: 3 Siege und 10 Niederlagen, Platz 19. Für beide Teams ist das also ein wichtiges Spiel, um in der Tabelle nach oben zu klettern.",
+        "Danach haben die Bayern eine Pause in der Bundesliga, denn am Wochenende spielen die Nationalteams. Weiter geht es in der BBL am 3. Dezember."
+      ],
+      "fakten": [
+        "FC Bayern – Maccabi Tel Aviv: Dienstag, 24.11., 20 Uhr (Euroleague, 14. Runde)",
+        "Bayern in der Euroleague: 4 Siege, 9 Niederlagen (Platz 16)",
+        "Maccabi: 3 Siege, 10 Niederlagen (Platz 19)",
+        "Bayern in der BBL: 9 Siege, 1 Niederlage (Platz 1)"
+      ],
+      "quellen": [
+        "euroleaguebasketball.net",
+        "easycredit-bbl.de"
+      ],
+      "teams": [
+        "FCB",
+        "MTA",
+        "ALBA"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-23-okc-ohne-sga-heat",
       "liga": "NBA",
       "lang": "de",
@@ -7846,38 +8125,6 @@
         "Brandon Angel",
         "Jordan Ford"
       ]
-    },
-    {
-      "id": "bayern",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-27",
-      "tags": [],
-      "titel": "Bayern: Daheim top, in Europa schwer",
-      "teaser": "In der Bundesliga hat der FC Bayern noch kein Spiel verloren. In der Euroleague hakt es.",
-      "text": [
-        "Der FC Bayern München ist Tabellenführer der Bundesliga. Fünf Spiele, fünf Siege! Zuletzt gab es ein 96:77 gegen die Veolia Towers Hamburg.",
-        "In der Euroleague, der stärksten Liga Europas, läuft es dagegen nicht gut. Gegen den FC Barcelona verloren die Bayern knapp mit 84:88. Die Entscheidung fiel erst bei den Freiwürfen am Ende.",
-        "Bester Münchner war Miles Norris mit 17 Punkten. In der Euroleague-Tabelle steht Bayern mit 2 Siegen und 6 Niederlagen weit hinten.",
-        "Heute Abend um 20 Uhr spielen die Bayern in Belgrad gegen Crvena zvezda."
-      ],
-      "fakten": [
-        "BBL: 5 Siege, 0 Niederlagen",
-        "Euroleague: 2 Siege, 6 Niederlagen",
-        "Trainer: Anton Gavel"
-      ],
-      "quellen": [
-        "easycredit-bbl.de",
-        "euroleaguebasketball.net"
-      ],
-      "teams": [
-        "FCB",
-        "HAM",
-        "BAR",
-        "CZV"
-      ],
-      "spieler": []
     }
   ]
 }
