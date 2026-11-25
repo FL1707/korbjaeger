@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-25T06:22:49+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-25",
-  "gruss": "Guten Morgen! Jayson Tatum hat mit 41 Punkten die Pleiteserie der Boston Celtics beendet. Franz Wagner und Tristan da Silva haben mit den Orlando Magic im NBA Cup gegen Detroit verloren, und der FC Bayern unterlag Maccabi Tel Aviv nach einem bitteren Schlussviertel. Heute kommen Bundestrainer Álex Mumbrú und drei Bayern-Spieler zum Nationalteam. Und heute Nacht spielt OKC mit Isaiah Hartenstein im NBA Cup gegen Minnesota.",
+  "aktualisiert": "2026-11-25T16:16:16+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-25",
+  "gruss": "Hallo am Nachmittag! Cooper Flagg hat die Dallas Mavericks mit 24 Punkten und 12 Assists zum Sieg in Denver geführt. Heute Abend geht die Euroleague mit vier Spielen weiter, zum Beispiel Real Madrid gegen Žalgiris. Und heute Nacht spielt OKC mit Isaiah Hartenstein im NBA Cup gegen Minnesota, Charlotte mit Dennis Schröder und Hannes Steinbach empfängt Chicago.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-25",
   "zahlDesTages": {
-    "zahl": "46",
-    "text": "So viele Punkte machten die Boston Celtics allein im zweiten Viertel in Washington – mit 10 Dreiern. Jayson Tatum kam am Ende auf 41 Punkte."
+    "zahl": "35",
+    "text": "So viele Punkte machten die Dallas Mavericks in Denver nach Schnellangriffen. Die Nuggets schafften nur 7 – Dallas gewann 120:101."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -571,6 +571,46 @@
       "spieler": []
     },
     {
+      "id": "2026-11-25-flagg-mavs-nuggets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "Flagg zaubert: Dallas gewinnt in Denver deutlich",
+      "teaser": "Cooper Flagg machte 24 Punkte und 12 Assists. Die Dallas Mavericks gewannen im NBA Cup bei den Denver Nuggets mit 120:101.",
+      "text": [
+        "Im NBA Cup ging es um viel: Dallas und Denver hatten in ihrer Gruppe beide schon zwei Spiele gewonnen. Gespielt wurde in Denver auf dem roten Cup-Boden.",
+        "Dallas startete kalt und verfehlte die ersten sechs Würfe. Dann trafen die Mavericks drei Dreier hintereinander. Am Ende der ersten Halbzeit gelang ihnen ein 15:0-Lauf. Zur Pause stand es 58:39 für Dallas.",
+        "Im dritten Viertel kam Denver noch einmal auf 77:80 heran. Doch die Mavericks zogen wieder davon. Sie waren beim Schnellangriff viel besser: 35 Punkte nach Fastbreaks, Denver schaffte nur 7.",
+        "Cooper Flagg kam auf 24 Punkte und 12 Assists. So viele Vorlagen hatte er bisher nur einmal in einem Spiel. Der 19-Jährige schaffte damit sein 11. Double-Double mit mindestens 20 Punkten. Als Teenager hatte nur LeBron James mehr davon. Bei Denver machte Jamal Murray 20 Punkte, Nikola Jokić kam auf 18 Punkte und 11 Rebounds.",
+        "Dallas hat jetzt vier Spiele in Folge gewonnen. Am Freitag spielen die Mavericks in Phoenix ihr letztes Gruppenspiel im NBA Cup."
+      ],
+      "fakten": [
+        "Endstand: Denver Nuggets – Dallas Mavericks 101:120",
+        "Cooper Flagg: 24 Punkte, 12 Assists",
+        "P.J. Washington: 14 Punkte, Naji Marshall: 14 Punkte",
+        "Jamal Murray (DEN): 20 Punkte, Nikola Jokić: 18 Punkte, 11 Rebounds",
+        "Punkte nach Fastbreaks: Dallas 35, Denver 7"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "DAL",
+        "DEN",
+        "PHX"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "P.J. Washington",
+        "Naji Marshall",
+        "Jamal Murray",
+        "Nikola Jokić"
+      ]
+    },
+    {
       "id": "2026-11-24-lakers-revanche-jazz",
       "liga": "NBA",
       "lang": "en",
@@ -933,6 +973,28 @@
           "Paul George: 28 Punkte, 9 Assists",
           "Neemias Queta: 21 Punkte",
           "Anthony Davis (WAS): 33 Punkte, 13 Rebounds"
+        ]
+      }
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-24",
+      "runde": "NBA Cup",
+      "heim": "DEN",
+      "gast": "DAL",
+      "heimPkt": 101,
+      "gastPkt": 120,
+      "newsId": "2026-11-25-flagg-mavs-nuggets",
+      "bericht": {
+        "text": [
+          "Dallas führte zur Pause schon 58:39, weil die Mavericks die erste Halbzeit mit einem 15:0-Lauf beendeten.",
+          "Denver kam im dritten Viertel bis auf 77:80 heran, doch Dallas zog wieder davon und gewann sein viertes Spiel in Folge."
+        ],
+        "highlights": [
+          "Cooper Flagg: 24 Punkte, 12 Assists",
+          "Jamal Murray (DEN): 20 Punkte",
+          "Nikola Jokić (DEN): 18 Punkte, 11 Rebounds",
+          "Fastbreak-Punkte: 35:7 für Dallas"
         ]
       }
     },
@@ -1526,13 +1588,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-25T04:00:00+01:00",
-      "heim": "DEN",
-      "gast": "DAL",
-      "info": "NBA Cup"
-    },
-    {
       "liga": "EL",
       "zeit": "2026-11-25T17:00:00+01:00",
       "heim": "DUB",
@@ -1905,7 +1960,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 25.11., 06:30 Uhr · nach den Spielen vom 24.11. (US-Zeit), Denver – Dallas lief noch",
+      "stand": "Stand: 25.11., 16:30 Uhr · nach allen Spielen vom 24.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -1948,18 +2003,18 @@
           "n": 5
         },
         {
-          "team": "DEN",
-          "s": 10,
-          "n": 5
-        },
-        {
           "team": "POR",
           "s": 11,
           "n": 6
         },
         {
-          "team": "DAL",
+          "team": "DEN",
           "s": 10,
+          "n": 6
+        },
+        {
+          "team": "DAL",
+          "s": 11,
           "n": 7
         },
         {
@@ -2001,7 +2056,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 25.11., 06:30 Uhr · nach den Spielen vom 24.11. (US-Zeit), Denver – Dallas lief noch",
+      "stand": "Stand: 25.11., 16:30 Uhr · nach allen Spielen vom 24.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2637,10 +2692,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 16,
-        "pkt": 24.5,
-        "reb": 6.9,
-        "ast": 8.3
+        "spiele": 17,
+        "pkt": 24.2,
+        "reb": 7.0,
+        "ast": 8.1
       },
       "notiz": "Gegen Detroit hatte er zur Pause nur 2 Punkte, am Ende aber 20 Punkte, 9 Rebounds und 6 Assists. Orlando verlor trotzdem 86:104."
     },
@@ -2693,10 +2748,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 14,
-        "pkt": 14.1,
+        "spiele": 15,
+        "pkt": 14.2,
         "reb": 3.6,
-        "ast": 1.6
+        "ast": 1.5
       },
       "notiz": "Gegen Detroit traf er 4 Dreier und machte 16 Punkte."
     },
@@ -2771,10 +2826,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 15,
-        "pkt": 25.1,
+        "spiele": 16,
+        "pkt": 24.6,
         "reb": 10.9,
-        "ast": 9.2
+        "ast": 8.9
       },
       "notiz": "In Chicago schaffte er sein 202. Triple-Double: 37 Punkte, 18 Rebounds, 11 Assists."
     },
@@ -3943,11 +3998,31 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-24",
+      "titel": "Cooper Flagg",
+      "team": "DAL",
+      "wert": "24 Punkte, 12 Assists",
+      "grund": "So viele Vorlagen hatte er bisher erst einmal. Es war sein 11. Double-Double mit 20 Punkten – als Teenager hatte nur LeBron James mehr.",
+      "newsId": "2026-11-25-flagg-mavs-nuggets"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-24",
       "titel": "Jayson Tatum",
       "team": "BOS",
       "wert": "41 Punkte",
       "grund": "28 davon machte er schon in der ersten Halbzeit. Damit beendete Boston eine Serie von vier Niederlagen.",
       "newsId": "2026-11-25-tatum-41-celtics"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-24",
+      "heim": "DEN",
+      "gast": "DAL",
+      "wert": "35:7 im Schnellangriff",
+      "grund": "Dallas rannte Denver davon: 35 Punkte nach Fastbreaks, die Nuggets nur 7. Außerdem beendete Dallas die erste Halbzeit mit einem 15:0-Lauf.",
+      "newsId": "2026-11-25-flagg-mavs-nuggets"
     },
     {
       "art": "spiel",
@@ -3970,16 +4045,6 @@
       "newsId": "2026-11-25-euroleague-dienstag"
     },
     {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-24",
-      "titel": "Isaiah Joe",
-      "team": "DET",
-      "wert": "21 Punkte",
-      "grund": "Es war sein erstes Spiel in der Startaufstellung der Pistons. Im letzten Viertel traf er drei Dreier hintereinander gegen Orlando.",
-      "newsId": "2026-11-25-pistons-stoppen-magic"
-    },
-    {
       "art": "spiel",
       "liga": "EL",
       "datum": "2026-11-24",
@@ -3987,16 +4052,6 @@
       "gast": "EA7",
       "wert": "33 Punkte im Schlussviertel",
       "grund": "Villeurbanne lag nach drei Vierteln mit 24 Punkten hinten. Im letzten Viertel holte ASVEL 20 Punkte auf – am Ende fehlten nur 4.",
-      "newsId": "2026-11-25-euroleague-dienstag"
-    },
-    {
-      "art": "spieler",
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "titel": "Moses Wright",
-      "team": "EA7",
-      "wert": "13 von 16",
-      "grund": "Mailands Center traf 13 seiner 16 Zweier und machte 29 Punkte. Kein Spieler machte am Dienstag in der Euroleague mehr.",
       "newsId": "2026-11-25-euroleague-dienstag"
     }
   ],
