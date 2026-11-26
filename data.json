@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-26T06:24:44+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-26",
-  "gruss": "Guten Morgen! Kevin Durant hat heute Nacht 33.000 Punkte erreicht – das haben vor ihm nur vier Spieler geschafft. LeBron James holte mit 41 Jahren ein Triple-Double für die 76ers, und OKC verlor gegen Minnesota trotz 16 Rebounds von Isaiah Hartenstein. Morgen um 18:30 Uhr kann sich Deutschland in Lettland das WM-Ticket sichern.",
+  "aktualisiert": "2026-11-26T16:15:44+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-26",
+  "gruss": "Hallo am Nachmittag! Victor Wembanyama machte in Portland 44 Punkte, doch Deni Avdija entschied das Spiel mit einem Dreier über das Brett. In den USA ist heute Thanksgiving, deshalb ruht die NBA – in der Nacht auf Samstag geht der NBA Cup weiter, unter anderem Toronto gegen Brooklyn mit Moritz Wagner. Und morgen um 18:30 Uhr kann sich Deutschland in Lettland das WM-Ticket sichern.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-26",
   "zahlDesTages": {
-    "zahl": "33.000",
-    "text": "So viele Punkte hat Kevin Durant jetzt in der NBA gesammelt. Das haben vor ihm nur vier Spieler geschafft."
+    "zahl": "44",
+    "text": "So viele Punkte machte Victor Wembanyama in Portland. Trotzdem gewannen die Trail Blazers 116:111."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -377,6 +377,45 @@
     "Shaquille O'Neal"
   ],
   "news": [
+    {
+      "id": "2026-11-26-avdija-stoppt-wembanyama",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "wurf",
+      "datum": "2026-11-26",
+      "tags": [],
+      "titel": "44 Punkte reichen nicht: Portland stoppt Wembanyama",
+      "teaser": "Victor Wembanyama machte 44 Punkte und 16 Rebounds. Doch Deni Avdija traf kurz vor Schluss einen Dreier über das Brett – Portland gewann 116:111.",
+      "text": [
+        "Victor Wembanyama war in Portland kaum zu stoppen. Der Center der San Antonio Spurs machte 44 Punkte und holte 16 Rebounds. Er traf 17 von 30 Würfen.",
+        "Trotzdem jubelten am Ende die Portland Trail Blazers. Zwei Minuten vor Schluss glich Wembanyama mit einem Alley-oop-Dunk zum 109:109 aus. Dann übernahm Deni Avdija: Erst traf er zwei Freiwürfe, und 38 Sekunden vor dem Ende warf er einen Dreier, der über das Brett in den Korb ging. Damit stand es 114:109.",
+        "Avdija kam auf 33 Punkte, 12 Rebounds und 7 Assists. Damian Lillard machte 29 Punkte und traf alle 10 Freiwürfe. Für San Antonio war es die erste Niederlage in dieser Saison bei einem Auswärtsspiel. Die Spurs bleiben trotzdem Zweiter im Westen."
+      ],
+      "fakten": [
+        "Endstand: Portland Trail Blazers – San Antonio Spurs 116:111",
+        "Victor Wembanyama: 44 Punkte, 16 Rebounds",
+        "Deni Avdija: 33 Punkte, 12 Rebounds, 7 Assists",
+        "Damian Lillard: 29 Punkte, 10 von 10 Freiwürfen",
+        "Stephon Castle (SAS): 20 Punkte, 9 Assists",
+        "Spiel im NBA Cup (Gruppenphase)"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "POR",
+        "SAS"
+      ],
+      "spieler": [
+        "Victor Wembanyama",
+        "Deni Avdija",
+        "Damian Lillard",
+        "Stephon Castle",
+        "Devin Vassell",
+        "Sidy Cissoko"
+      ]
+    },
     {
       "id": "2026-11-26-durant-33000",
       "liga": "NBA",
@@ -1192,6 +1231,28 @@
     },
     {
       "liga": "NBA",
+      "datum": "2026-11-25",
+      "runde": "NBA Cup",
+      "heim": "POR",
+      "gast": "SAS",
+      "heimPkt": 116,
+      "gastPkt": 111,
+      "bericht": {
+        "text": [
+          "Victor Wembanyama spielte stark und machte 44 Punkte. Zwei Minuten vor Schluss glich er mit einem Dunk zum 109:109 aus.",
+          "Doch Portland hatte das bessere Ende: Deni Avdija traf 38 Sekunden vor Schluss einen Dreier über das Brett zum 114:109. Es war die erste Auswärtsniederlage der Spurs in dieser Saison."
+        ],
+        "highlights": [
+          "Victor Wembanyama: 44 Punkte, 16 Rebounds",
+          "Deni Avdija: 33 Punkte, 12 Rebounds, 7 Assists",
+          "Damian Lillard: 29 Punkte, 10 von 10 Freiwürfen",
+          "Entscheidender Dreier über das Brett 38 Sekunden vor Schluss"
+        ]
+      },
+      "newsId": "2026-11-26-avdija-stoppt-wembanyama"
+    },
+    {
+      "liga": "NBA",
       "datum": "2026-11-24",
       "runde": "NBA Cup",
       "heim": "ORL",
@@ -1618,13 +1679,6 @@
   ],
   "spielplan": [
     {
-      "liga": "NBA",
-      "zeit": "2026-11-26T04:00:00+01:00",
-      "heim": "POR",
-      "gast": "SAS",
-      "info": "NBA Cup"
-    },
-    {
       "liga": "DBB",
       "zeit": "2026-11-27T18:30:00+01:00",
       "heim": "LAT",
@@ -2020,7 +2074,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 26.11., 06:30 Uhr · nach den Spielen vom 25.11. (US-Zeit), ohne SAS–POR (liefen noch)",
+      "stand": "Stand: 26.11., 16:15 Uhr · nach allen Spielen vom 25.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2038,14 +2092,14 @@
       "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
       "zeilen": [
         {
-          "team": "SAS",
+          "team": "LAL",
           "s": 15,
           "n": 3
         },
         {
-          "team": "LAL",
+          "team": "SAS",
           "s": 15,
-          "n": 3
+          "n": 4
         },
         {
           "team": "MIN",
@@ -2064,7 +2118,7 @@
         },
         {
           "team": "POR",
-          "s": 11,
+          "s": 12,
           "n": 6
         },
         {
@@ -2116,7 +2170,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 26.11., 06:30 Uhr · nach den Spielen vom 25.11. (US-Zeit), ohne SAS–POR (liefen noch)",
+      "stand": "Stand: 26.11., 16:15 Uhr · nach allen Spielen vom 25.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2723,10 +2777,10 @@
       "position": "Guard",
       "favorit": true,
       "stats": {
-        "spiele": 17,
+        "spiele": 18,
         "pkt": 32.1,
         "reb": 4.1,
-        "ast": 4.6
+        "ast": 4.7
       },
       "notiz": "32 Punkte gegen Minnesota – trotzdem verlor OKC 106:113. Es war die sechste Niederlage in neun Spielen."
     },
@@ -2766,10 +2820,10 @@
       "deutsch": true,
       "favorit": true,
       "stats": {
-        "spiele": 16,
-        "pkt": 9.9,
-        "reb": 3.3,
-        "ast": 1.6
+        "spiele": 17,
+        "pkt": 9.5,
+        "reb": 3.1,
+        "ast": 1.5
       },
       "notiz": "Beim 104:97-Sieg der Nets in Milwaukee spielte er nur vier Minuten und musste dann angeschlagen raus."
     },
@@ -2794,10 +2848,10 @@
       "position": "Center",
       "deutsch": true,
       "stats": {
-        "spiele": 18,
+        "spiele": 19,
         "pkt": 8.4,
-        "reb": 10.6,
-        "ast": 3.8
+        "reb": 10.8,
+        "ast": 3.9
       },
       "notiz": "Gegen Minnesota holte er 16 Rebounds und gab 6 Assists. OKC verlor trotzdem 106:113."
     },
@@ -2821,10 +2875,10 @@
       "position": "Forward",
       "deutsch": true,
       "stats": {
-        "spiele": 6,
-        "pkt": 2.8,
-        "reb": 3.7,
-        "ast": 0.3
+        "spiele": 7,
+        "pkt": 2.9,
+        "reb": 3.6,
+        "ast": 0.4
       },
       "notiz": "Gegen Chicago spielte er 8 Minuten: 3 Punkte und 3 Rebounds, seinen einzigen Wurf traf er."
     },
@@ -2834,10 +2888,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 14,
-        "pkt": 16.6,
-        "reb": 6.7,
-        "ast": 6.5
+        "spiele": 15,
+        "pkt": 17.1,
+        "reb": 6.9,
+        "ast": 6.9
       },
       "notiz": "Mit 41 Jahren schaffte er gegen Miami sein erstes Triple-Double für die 76ers: 25 Punkte, 12 Assists, 10 Rebounds."
     },
@@ -2847,8 +2901,8 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 17,
-        "pkt": 26.5,
+        "spiele": 18,
+        "pkt": 26.1,
         "reb": 3.1,
         "ast": 5.9
       },
@@ -2899,12 +2953,12 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 17,
-        "pkt": 29.9,
-        "reb": 12.3,
+        "spiele": 18,
+        "pkt": 30.7,
+        "reb": 12.5,
         "ast": 3.2
       },
-      "notiz": "Gegen New Orleans machte er 50 Punkte und 19 Rebounds. In Sacramento musste er wegen Rückenproblemen pausieren – die Spurs gewannen trotzdem."
+      "notiz": "44 Punkte und 16 Rebounds in Portland – trotzdem verloren die Spurs 111:116. Gegen New Orleans hatte er schon 50 Punkte gemacht."
     },
     {
       "name": "Damian Lillard",
@@ -2912,12 +2966,12 @@
       "nummer": "0",
       "position": "Guard",
       "stats": {
-        "spiele": 17,
-        "pkt": 20.4,
+        "spiele": 18,
+        "pkt": 20.9,
         "reb": 3.2,
-        "ast": 4.1
+        "ast": 4.2
       },
-      "notiz": "Beim 128:111 in Philadelphia machte er 18 Punkte und 5 Assists."
+      "notiz": "29 Punkte und 10 von 10 Freiwürfen beim 116:111 gegen San Antonio und Victor Wembanyama."
     }
   ],
   "rekorde": [
@@ -4073,6 +4127,16 @@
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-25",
+      "titel": "Victor Wembanyama",
+      "team": "SAS",
+      "wert": "44 Punkte, 16 Rebounds",
+      "grund": "So viele Punkte machte er in Portland – trotzdem verloren die Spurs knapp 111:116. Für San Antonio war es die erste Auswärtsniederlage der Saison.",
+      "newsId": "2026-11-26-avdija-stoppt-wembanyama"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-25",
       "titel": "Kevin Durant",
       "team": "HOU",
       "wert": "33.000 Punkte",
@@ -4100,23 +4164,14 @@
       "newsId": "2026-11-26-bulls-hornets-krimi"
     },
     {
-      "art": "spieler",
-      "liga": "EL",
-      "datum": "2026-11-25",
-      "titel": "Cory Joseph",
-      "team": "OLY",
-      "wert": "27 Punkte, 5 Dreier",
-      "grund": "Er war der beste Werfer beim 104:79 gegen Hapoel Tel Aviv. Olympiacos bleibt damit Tabellenführer der Euroleague.",
-      "newsId": "2026-11-26-euroleague-mittwoch"
-    },
-    {
-      "art": "spieler",
+      "art": "spiel",
       "liga": "NBA",
       "datum": "2026-11-25",
-      "titel": "De'Anthony Melton",
-      "team": "GSW",
-      "wert": "8 von 12 Dreiern",
-      "grund": "Ohne Stephen Curry war er der Topscorer der Warriors mit 24 Punkten. Golden State machte schon im ersten Viertel 44 Punkte und schlug Sacramento 129:110."
+      "heim": "POR",
+      "gast": "SAS",
+      "wert": "Dreier übers Brett",
+      "grund": "Beim Stand von 111:109 warf Deni Avdija 38 Sekunden vor Schluss einen Dreier, der vom Brett in den Korb ging. Das war die Entscheidung.",
+      "newsId": "2026-11-26-avdija-stoppt-wembanyama"
     },
     {
       "art": "spiel",
