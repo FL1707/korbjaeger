@@ -2,6 +2,368 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-25-dbb-trainingslager",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "Nationalteam: Lukosius kommt neu dazu – heute kommen Bundestrainer und Bayern-Spieler",
+      "teaser": "Die Weltmeister trainieren in Frankfurt für die WM-Quali gegen Lettland und Polen. Im Kader gibt es ein paar Änderungen.",
+      "text": [
+        "Die deutsche Nationalmannschaft ist Welt- und Europameister. Seit Montag trainiert sie in Frankfurt am Main. Am Freitag spielt sie in Riga gegen Lettland, am Montag in Frankfurt gegen Polen.",
+        "Louis Olinde und Kostja Mushidi sind nicht dabei. Neu nachnominiert wurde Simas Lukosius, der in Spanien für Unicaja Málaga spielt.",
+        "Drei Spieler des FC Bayern hatten am Dienstagabend noch ein Euroleague-Spiel. Sie kommen heute zum Team. Auch Bundestrainer Álex Mumbrú stößt heute dazu. Er ist gleichzeitig Trainer bei Virtus Bologna, das am Dienstag in Belgrad gewann. Bis dahin leitete Co-Trainer Alan Ibrahimagic das Training.",
+        "Aus der Bundesliga sind unter anderem Malte Delow, Jack Kayil und Jonas Mattisseck von ALBA Berlin dabei. In der Gruppe K haben Deutschland, Kroatien und Polen je 7 Siege und 1 Niederlage."
+      ],
+      "fakten": [
+        "Lettland – Deutschland: Freitag, 27.11., 18:30 Uhr in Riga",
+        "Deutschland – Polen: Montag, 30.11., 19:30 Uhr in Frankfurt",
+        "Nachnominiert: Simas Lukosius (Unicaja Málaga)",
+        "Bundestrainer: Álex Mumbrú",
+        "Beide Spiele bei MagentaSport"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "POL",
+        "ALBA",
+        "FCB",
+        "UNI",
+        "VIR",
+        "OLD",
+        "WUE",
+        "BON",
+        "ULM",
+        "FRA",
+        "RYT"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-24-lakers-revanche-jazz",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "duell",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Revenge! Luka and the Lakers beat the Jazz",
+      "teaser": "Last week Utah won in Los Angeles. This time the Lakers win 109:94. Luka Dončić scores 28 points.",
+      "text": [
+        "Five days ago the Utah Jazz surprised the Los Angeles Lakers. Utah won in Los Angeles. On Monday the two teams played again in the same arena.",
+        "Luka Dončić scored 14 points in the first quarter. Then he got his fourth foul and had to sit on the bench for a while. Utah came back and took the lead after halftime.",
+        "In the fourth quarter the Lakers woke up. They started with a 17:5 run and won 109:94. Dončić finished with 28 points and 8 assists. Jake LaRavia had 15 points and 10 rebounds.",
+        "For Utah, Kyle Filipowski scored 21 points and grabbed 12 rebounds. The Lakers have won 11 of their last 12 games. They are 15-3, just like the Spurs."
+      ],
+      "fakten": [
+        "Final score: Los Angeles Lakers – Utah Jazz 109:94",
+        "Luka Dončić: 28 points, 8 assists",
+        "Jake LaRavia: 15 points, 10 rebounds",
+        "Kyle Filipowski (Utah): 21 points, 12 rebounds",
+        "Lakers: 15 wins, 3 losses"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "LAL",
+        "UTA"
+      ],
+      "spieler": [
+        "Luka Dončić",
+        "Jake LaRavia",
+        "Matisse Thybulle",
+        "Kyle Filipowski",
+        "Ace Bailey",
+        "Darryn Peterson"
+      ],
+      "vokabeln": [
+        {
+          "en": "revenge",
+          "de": "Revanche"
+        },
+        {
+          "en": "foul",
+          "de": "Foul, Regelverstoß"
+        },
+        {
+          "en": "to take the lead",
+          "de": "in Führung gehen"
+        },
+        {
+          "en": "to wake up",
+          "de": "aufwachen"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-spurs-ohne-wemby-kings",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Auch ohne Wembanyama: Die Spurs bleiben auswärts ungeschlagen",
+      "teaser": "San Antonio gewinnt 123:107 in Sacramento. Stephon Castle macht 28 Punkte und 11 Assists.",
+      "text": [
+        "Victor Wembanyama hatte am Samstag noch 50 Punkte gemacht. In Sacramento musste er wegen Rückenproblemen pausieren. Auch De’Aaron Fox und Dylan Harper fehlten. Trotzdem gewannen die San Antonio Spurs klar mit 123:107.",
+        "Am Anfang lagen die Kings sogar mit 12 Punkten vorne. Dann wurde Julian Champagnie heiß: Im zweiten Viertel machte er allein 17 Punkte und traf vier Dreier. Zur Pause führten die Spurs 60:51.",
+        "Im dritten Viertel zog San Antonio davon. Stephon Castle machte neun Punkte hintereinander. Am Ende hatte er 28 Punkte, 11 Assists und 8 Rebounds.",
+        "Auswärts haben die Spurs jetzt alle 8 Spiele gewonnen. Mit 15 Siegen und 3 Niederlagen stehen sie ganz oben im Westen. Bei den Kings traf Domantas Sabonis 8 von 9 Würfen und machte 20 Punkte."
+      ],
+      "fakten": [
+        "Endstand: Sacramento Kings – San Antonio Spurs 107:123",
+        "Stephon Castle: 28 Punkte, 11 Assists, 8 Rebounds",
+        "Julian Champagnie: 22 Punkte, 6 Dreier",
+        "Luke Kornet: 18 Punkte, 11 Rebounds",
+        "Spurs auswärts: 8 Siege, 0 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "SAS",
+        "SAC"
+      ],
+      "spieler": [
+        "Stephon Castle",
+        "Julian Champagnie",
+        "Luke Kornet",
+        "Devin Vassell",
+        "Victor Wembanyama",
+        "Domantas Sabonis",
+        "Zach LaVine"
+      ]
+    },
+    {
+      "id": "2026-11-24-okc-verliert-in-indiana",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "38 Punkte von Shai reichen nicht: OKC verliert in Indiana",
+      "teaser": "Shai Gilgeous-Alexander ist zurück und trifft viel. Doch die Pacers gewinnen 125:120. Isaiah Hartenstein macht 18 Punkte.",
+      "text": [
+        "Nach einem Spiel Pause war Shai Gilgeous-Alexander wieder dabei. Der Star der Oklahoma City Thunder machte in Indiana 38 Punkte und 7 Assists. Trotzdem verlor OKC mit 120:125.",
+        "Die Pacers lagen fast das ganze Spiel vorne. Im letzten Viertel kam OKC noch einmal heran. Isaiah Hartenstein traf unter dem Korb immer wieder. Sechs Minuten vor Schluss führte Indiana nur noch 106:105.",
+        "Doch die Pacers hatten eine Antwort. Andrew Nembhard traf wichtige Würfe. 45 Sekunden vor Schluss versenkte Pascal Siakam einen Dreier zum 123:119. Das war die Entscheidung.",
+        "Hartenstein kam auf 18 Punkte und 9 Rebounds. Kenrich Williams traf 4 Dreier und machte 20 Punkte. Bei OKC fehlten weiter mehrere Spieler verletzt, zum Beispiel Jalen Williams und Alex Caruso. Es war die zweite Niederlage in Folge. Im Westen stehen die Thunder mit 10 Siegen und 8 Niederlagen auf Platz 10."
+      ],
+      "fakten": [
+        "Endstand: Indiana Pacers – Oklahoma City Thunder 125:120",
+        "Shai Gilgeous-Alexander: 38 Punkte, 7 Assists",
+        "Isaiah Hartenstein: 18 Punkte, 9 Rebounds",
+        "Kenrich Williams: 20 Punkte, 4 Dreier",
+        "Pascal Siakam (Indiana): 20 Punkte, Dreier 45 Sekunden vor Schluss",
+        "Nächstes Spiel von OKC: gegen Minnesota, Nacht auf Donnerstag, 1:30 Uhr (NBA Cup)"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "OKC",
+        "IND"
+      ],
+      "spieler": [
+        "Shai Gilgeous-Alexander",
+        "Isaiah Hartenstein",
+        "Kenrich Williams",
+        "Pascal Siakam",
+        "Andrew Nembhard",
+        "Jalen Williams",
+        "Alex Caruso"
+      ]
+    },
+    {
+      "id": "2026-11-24-bucks-serie-vorbei",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Endlich wieder ein Sieg! Die Bucks beenden ihre lange Serie",
+      "teaser": "13 Spiele hintereinander hatte Milwaukee verloren. In Toronto gewinnen die Bucks 116:111 – dank Tyler Herro und Myles Turner.",
+      "text": [
+        "Für die Milwaukee Bucks waren es schwere Wochen. Seit dem 26. Oktober hatten sie kein Spiel mehr gewonnen. 13 Niederlagen hintereinander – eine so lange Serie gab es bei den Bucks erst einmal.",
+        "Auch in Toronto lief es zuerst nicht gut. Zur Halbzeit lagen die Bucks mit 49:53 hinten. Tyler Herro hatte erst 3 Punkte. Zwei Tage vorher hatte er noch 50 Punkte gemacht.",
+        "Dann kam das dritte Viertel. Herro traf 6 von 7 Würfen und machte allein in diesem Viertel 15 Punkte. Nach drei Vierteln führte Milwaukee 85:80. Im letzten Viertel hielten die Bucks dagegen und gewannen 116:111.",
+        "Am Ende hatte Herro 32 Punkte und 8 Assists. Alle 8 Freiwürfe gingen rein. Center Myles Turner traf 5 von 6 Dreiern und machte 27 Punkte. Bei Toronto war Scottie Barnes mit 31 Punkten der beste Werfer."
+      ],
+      "fakten": [
+        "Endstand: Toronto Raptors – Milwaukee Bucks 111:116",
+        "Tyler Herro: 32 Punkte, 8 Assists, 8 von 8 Freiwürfen",
+        "Myles Turner: 27 Punkte, 11 Rebounds, 5 Dreier",
+        "13 Niederlagen in Folge – die zweitlängste Serie der Bucks-Geschichte",
+        "Scottie Barnes (Toronto): 31 Punkte, 8 Assists"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "MIL",
+        "TOR"
+      ],
+      "spieler": [
+        "Tyler Herro",
+        "Myles Turner",
+        "Scottie Barnes"
+      ]
+    },
+    {
+      "id": "2026-11-24-wagner-nets-hornets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Schwere Nacht für die Nets und die Hornets",
+      "teaser": "Brooklyn verliert in Minnesota 116:142, Moritz Wagner trifft fast alles. Charlotte unterliegt Memphis – ohne Dennis Schröder.",
+      "text": [
+        "Für die Brooklyn Nets lief in Minnesota wenig zusammen. Die Timberwolves gewannen 142:116. So viele Punkte hatte Brooklyn in dieser Saison noch nie zugelassen.",
+        "Moritz Wagner kam von der Bank und war einer der Lichtblicke. In 14 Minuten traf er 4 von 5 Würfen, darunter 2 Dreier. Er machte 11 Punkte und holte 2 Steals. Für die Nets war es trotzdem die fünfte Niederlage in Folge.",
+        "Der Star des Abends war Jaden McDaniels. Er machte 34 Punkte – so viele wie noch nie in seiner Karriere. Dazu kamen 10 Rebounds und 6 Assists.",
+        "Auch Charlotte verlor zum fünften Mal hintereinander, 111:117 gegen Memphis. Dennis Schröder fehlte verletzt. Rookie Hannes Steinbach spielte 4 Minuten und machte 3 Punkte. Ein anderer Rookie glänzte: Christian Anderson traf 6 von 8 Dreiern und kam auf 25 Punkte. Bei Memphis traf Ty Jerome 7 Dreier."
+      ],
+      "fakten": [
+        "Endstand: Minnesota Timberwolves – Brooklyn Nets 142:116",
+        "Moritz Wagner: 11 Punkte, 4 von 5 Würfen, 2 Steals",
+        "Jaden McDaniels (Minnesota): 34 Punkte – Karrierebestwert",
+        "Endstand: Charlotte Hornets – Memphis Grizzlies 111:117",
+        "Hannes Steinbach: 3 Punkte in 4 Minuten",
+        "Christian Anderson (Charlotte): 25 Punkte, 6 Dreier"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "BKN",
+        "MIN",
+        "CHA",
+        "MEM"
+      ],
+      "spieler": [
+        "Moritz Wagner",
+        "Jaden McDaniels",
+        "Dennis Schröder",
+        "Hannes Steinbach",
+        "Christian Anderson",
+        "Ty Jerome"
+      ]
+    },
+    {
+      "id": "2026-11-24-avdija-blazers-sixers",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "dreier",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "19 threes! Avdija and the Blazers beat the 76ers",
+      "teaser": "Portland wins 128:111 in Philadelphia. Deni Avdija scores 31 points. LeBron James has his best game for the Sixers.",
+      "text": [
+        "The Portland Trail Blazers played in Philadelphia. The 76ers are the best team in the East. But on Monday, Portland was much better.",
+        "Deni Avdija was on fire. He made his first four three-pointers. He finished with 31 points and 7 assists. Many fans in the arena sang his name.",
+        "Portland made 19 three-pointers in the game. Donovan Clingan grabbed 18 rebounds. Damian Lillard and Jrue Holiday scored 18 points each.",
+        "LeBron James scored 23 points. That is his most in one game for Philadelphia. But it did not help. It was only the fourth loss of the season for the Sixers."
+      ],
+      "fakten": [
+        "Final score: Philadelphia 76ers – Portland Trail Blazers 111:128",
+        "Deni Avdija: 31 points, 7 assists",
+        "Portland: 19 three-pointers",
+        "Donovan Clingan: 15 points, 18 rebounds",
+        "LeBron James: 23 points"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "POR",
+        "PHI"
+      ],
+      "spieler": [
+        "Deni Avdija",
+        "Donovan Clingan",
+        "Damian Lillard",
+        "Jrue Holiday",
+        "LeBron James"
+      ],
+      "vokabeln": [
+        {
+          "en": "on fire",
+          "de": "heiß gelaufen, trifft alles"
+        },
+        {
+          "en": "three-pointer",
+          "de": "Dreier"
+        },
+        {
+          "en": "to grab",
+          "de": "schnappen, holen"
+        },
+        {
+          "en": "loss",
+          "de": "Niederlage"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-24-suns-verlaengerung",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dunk",
+      "datum": "2026-11-24",
+      "tags": [],
+      "titel": "Krimi in New Orleans: Phoenix gewinnt in der Verlängerung",
+      "teaser": "Die Suns gewinnen 123:119 nach Verlängerung. Außerdem: Chicagos Bank glänzt gegen Cleveland, und Kevin Durant führt Houston zum Sieg.",
+      "text": [
+        "In New Orleans ging es bis zum Schluss hin und her. 31 Sekunden vor dem Ende brachte Devin Booker Phoenix mit 109:107 in Führung. Doch Jeremiah Fears glich mit einem Korbleger aus. Dann klaute Herbert Jones den Ball – es ging in die Verlängerung.",
+        "Dort war Phoenix stärker. Collin Gillespie machte 5 seiner 18 Punkte in der Verlängerung, Miles Bridges traf einen wichtigen Dreier. Jalen Green war mit 25 Punkten bester Werfer der Suns. Es war ihr vierter Sieg in Folge. Bei New Orleans machten Jordan Poole 28 und Zion Williamson 25 Punkte.",
+        "Die Chicago Bulls schlugen Cleveland mit 122:108. Ihre Bankspieler machten zusammen 63 Punkte! Jordan Hawkins war mit 19 Punkten bester Werfer. Bei den Cavaliers kam Donovan Mitchell auf 28 Punkte.",
+        "In Houston traf Kevin Durant kurz vor Schluss zwei Dreier hintereinander. Er machte 32 Punkte, die Rockets gewannen 116:104 gegen die LA Clippers. Brandon Ingram spielte zum ersten Mal für die Clippers und kam auf 16 Punkte."
+      ],
+      "fakten": [
+        "Endstand: New Orleans Pelicans – Phoenix Suns 119:123 nach Verlängerung",
+        "Jalen Green (Phoenix): 25 Punkte",
+        "Collin Gillespie (Phoenix): 18 Punkte, 5 davon in der Verlängerung",
+        "Endstand: Chicago Bulls – Cleveland Cavaliers 122:108 (63 Punkte von der Bank)",
+        "Endstand: Houston Rockets – LA Clippers 116:104, Kevin Durant 32 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "PHX",
+        "NOP",
+        "CHI",
+        "CLE",
+        "HOU",
+        "LAC"
+      ],
+      "spieler": [
+        "Devin Booker",
+        "Jeremiah Fears",
+        "Herbert Jones",
+        "Collin Gillespie",
+        "Miles Bridges",
+        "Jalen Green",
+        "Jordan Poole",
+        "Zion Williamson",
+        "Jordan Hawkins",
+        "Donovan Mitchell",
+        "Kevin Durant"
+      ]
+    },
+    {
       "id": "2026-11-23-warriors-celtics-magic",
       "liga": "NBA",
       "lang": "de",
@@ -8090,40 +8452,6 @@
       ],
       "spieler": [
         "AJ Dybantsa"
-      ]
-    },
-    {
-      "id": "alba-bilbao",
-      "liga": "BCL",
-      "lang": "de",
-      "motiv": "pokal",
-      "datum": "2026-10-28",
-      "tags": [
-        "fav"
-      ],
-      "titel": "ALBA bleibt ungeschlagen",
-      "teaser": "103:100 gegen Bilbao! In der Champions League hat ALBA alle drei Spiele gewonnen.",
-      "text": [
-        "ALBA Berlin spielt in dieser Saison nicht in der Euroleague, sondern in der Basketball Champions League. Dort läuft es richtig gut.",
-        "Gegen Surne Bilbao aus Spanien wurde es am Mittwochabend in der Uber Arena spannend bis zum Schluss. Am Ende gewann ALBA mit 103:100.",
-        "Der Held des Abends war Brandon Angel: Er traf alle 10 Würfe aus dem Feld und machte 24 Punkte. Jordan Ford kam auf 21 Punkte und 6 Assists.",
-        "Mit drei Siegen aus drei Spielen ist ALBA jetzt Erster der Gruppe G. Nur noch ein anderes Team in der ganzen Champions League hat auch noch nicht verloren: Peristeri aus Griechenland."
-      ],
-      "fakten": [
-        "Endstand: ALBA 103, Bilbao 100",
-        "Brandon Angel: 10 von 10 Würfen getroffen",
-        "ALBA: 3 Siege, 0 Niederlagen"
-      ],
-      "quellen": [
-        "albaberlin.de"
-      ],
-      "teams": [
-        "ALBA",
-        "BIL"
-      ],
-      "spieler": [
-        "Brandon Angel",
-        "Jordan Ford"
       ]
     }
   ]
