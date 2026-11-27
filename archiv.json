@@ -2,6 +2,46 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-25-flagg-mavs-nuggets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "Flagg zaubert: Dallas gewinnt in Denver deutlich",
+      "teaser": "Cooper Flagg machte 24 Punkte und 12 Assists. Die Dallas Mavericks gewannen im NBA Cup bei den Denver Nuggets mit 120:101.",
+      "text": [
+        "Im NBA Cup ging es um viel: Dallas und Denver hatten in ihrer Gruppe beide schon zwei Spiele gewonnen. Gespielt wurde in Denver auf dem roten Cup-Boden.",
+        "Dallas startete kalt und verfehlte die ersten sechs Würfe. Dann trafen die Mavericks drei Dreier hintereinander. Am Ende der ersten Halbzeit gelang ihnen ein 15:0-Lauf. Zur Pause stand es 58:39 für Dallas.",
+        "Im dritten Viertel kam Denver noch einmal auf 77:80 heran. Doch die Mavericks zogen wieder davon. Sie waren beim Schnellangriff viel besser: 35 Punkte nach Fastbreaks, Denver schaffte nur 7.",
+        "Cooper Flagg kam auf 24 Punkte und 12 Assists. So viele Vorlagen hatte er bisher nur einmal in einem Spiel. Der 19-Jährige schaffte damit sein 11. Double-Double mit mindestens 20 Punkten. Als Teenager hatte nur LeBron James mehr davon. Bei Denver machte Jamal Murray 20 Punkte, Nikola Jokić kam auf 18 Punkte und 11 Rebounds.",
+        "Dallas hat jetzt vier Spiele in Folge gewonnen. Am Freitag spielen die Mavericks in Phoenix ihr letztes Gruppenspiel im NBA Cup."
+      ],
+      "fakten": [
+        "Endstand: Denver Nuggets – Dallas Mavericks 101:120",
+        "Cooper Flagg: 24 Punkte, 12 Assists",
+        "P.J. Washington: 14 Punkte, Naji Marshall: 14 Punkte",
+        "Jamal Murray (DEN): 20 Punkte, Nikola Jokić: 18 Punkte, 11 Rebounds",
+        "Punkte nach Fastbreaks: Dallas 35, Denver 7"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "DAL",
+        "DEN",
+        "PHX"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "P.J. Washington",
+        "Naji Marshall",
+        "Jamal Murray",
+        "Nikola Jokić"
+      ]
+    },
+    {
       "id": "2026-11-25-dbb-trainingslager",
       "liga": "DBB",
       "lang": "de",
@@ -8014,444 +8054,6 @@
         "Stephen Curry",
         "Luka Dončić",
         "Austin Reaves"
-      ]
-    },
-    {
-      "id": "2026-10-29-damen-ungarn",
-      "liga": "DBB",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Die WM-Heldinnen sind zurück",
-      "teaser": "Am 11. November spielen die deutschen Basketballerinnen in Hamburg gegen Ungarn.",
-      "text": [
-        "Im Sommer fand die Basketball-WM der Frauen in Berlin statt. Die deutsche Mannschaft spielte richtig stark und wurde am Ende Vierte.",
-        "Ein Höhepunkt war das Viertelfinale: Deutschland schlug Europameister Belgien mit 93:74. Mehr als 10.000 Fans waren in der Halle. Leonie Fiebich wurde danach ins All-Star-Team der WM gewählt. Dort stehen die fünf besten Spielerinnen des Turniers.",
-        "Jetzt geht es um die Qualifikation für die Europameisterschaft 2027. Die Gegner heißen Ungarn, Portugal und Dänemark.",
-        "Los geht es am Mittwoch, 11. November, um 19 Uhr in Hamburg gegen Ungarn. Leicht wird das nicht: Auch Ungarn stand bei der WM im Viertelfinale. Bundestrainer der Damen ist Olaf Lange."
-      ],
-      "fakten": [
-        "11.11., 19 Uhr: Deutschland gegen Ungarn in Hamburg",
-        "Gruppengegner: Ungarn, Portugal, Dänemark",
-        "WM 2026 in Berlin: Platz 4"
-      ],
-      "quellen": [
-        "basketball-bund.de"
-      ],
-      "teams": [
-        "GER",
-        "HUN"
-      ],
-      "spieler": [
-        "Leonie Fiebich"
-      ]
-    },
-    {
-      "id": "dbb-november",
-      "liga": "DBB",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Weltmeister auf WM-Kurs",
-      "teaser": "Im November spielt die Nationalmannschaft in Riga und Frankfurt um das Ticket für die WM 2027.",
-      "text": [
-        "Deutschland ist amtierender Basketball-Weltmeister. Damit das Team die nächste WM 2027 in Katar spielen darf, muss es sich aber qualifizieren.",
-        "In der Gruppe K haben Deutschland, Kroatien und Polen alle 7 Siege und 1 Niederlage. Die besten drei Teams der Gruppe fahren zur WM.",
-        "Am 27. November spielt Deutschland in Riga gegen Lettland. Am 30. November kommt Polen nach Frankfurt. NBA-Spieler wie Franz Wagner oder Dennis Schröder sind diesmal nicht dabei, weil die NBA-Saison weiterläuft.",
-        "Bundestrainer ist Àlex Mumbrú aus Spanien. Kapitän der Mannschaft ist Dennis Schröder."
-      ],
-      "fakten": [
-        "27.11.: Lettland gegen Deutschland",
-        "30.11.: Deutschland gegen Polen in Frankfurt",
-        "Bundestrainer: Àlex Mumbrú"
-      ],
-      "quellen": [
-        "sport1.de",
-        "sportschau.de",
-        "basketball-bund.de"
-      ],
-      "teams": [
-        "GER",
-        "LAT",
-        "POL",
-        "CRO"
-      ],
-      "spieler": [
-        "Franz Wagner",
-        "Dennis Schröder"
-      ]
-    },
-    {
-      "id": "2026-10-29-alba-woche",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-29",
-      "tags": [
-        "fav"
-      ],
-      "titel": "ALBAs nächste Aufgaben",
-      "teaser": "In Europa läuft es super. Jetzt geht es in der Bundesliga weiter: erst in Bonn, dann zu Hause gegen Hagen.",
-      "text": [
-        "In der Champions League ist ALBA Berlin Erster der Gruppe G. Alle drei Spiele hat die Mannschaft von Trainer Pedro Calles gewonnen.",
-        "In der Bundesliga ist noch Luft nach oben. Mit 3 Siegen und 3 Niederlagen steht ALBA auf Platz 12. Die letzten drei Spiele in der Liga hat ALBA aber alle gewonnen.",
-        "Am Sonntag um 18 Uhr spielt ALBA bei den Telekom Baskets Bonn. Bonn hat genau die gleiche Bilanz wie ALBA. Es wird also ein Duell auf Augenhöhe.",
-        "Am Freitag, 6. November, kommt dann Hagen nach Berlin. Gegen Hagen spielt ALBA im Dezember auch im Pokal-Viertelfinale."
-      ],
-      "fakten": [
-        "Sonntag, 18 Uhr: Bonn gegen ALBA",
-        "Freitag, 6.11., 20 Uhr: ALBA gegen Hagen",
-        "BBL-Bilanz: 3 Siege, 3 Niederlagen"
-      ],
-      "quellen": [
-        "easycredit-bbl.de",
-        "albaberlin.de"
-      ],
-      "teams": [
-        "ALBA",
-        "BON",
-        "HAG"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-10-29-okc-houston",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "ball",
-      "datum": "2026-10-29",
-      "tags": [
-        "fav"
-      ],
-      "titel": "Spitzenspiel in Houston",
-      "teaser": "Am Wochenende trifft OKC auf das einzige NBA-Team, das noch ungeschlagen ist.",
-      "text": [
-        "Die Houston Rockets haben ihre ersten fünf Spiele alle gewonnen. Kein anderes NBA-Team hat das geschafft.",
-        "Oklahoma City steht mit 4 Siegen und 1 Niederlage auch weit oben. In der Nacht auf Sonntag treffen die beiden Teams in Houston aufeinander. Los geht es um 01:30 Uhr deutscher Zeit.",
-        "Leicht wird es für die Thunder nicht. Jalen Williams und Chet Holmgren fallen verletzt aus. Dafür ist Shai Gilgeous-Alexander dabei. Er macht im Schnitt 26 Punkte pro Spiel.",
-        "Auch auf Isaiah Hartenstein kommt es an. Der deutsche Center holt fast 10 Rebounds pro Spiel.",
-        "Danach geht es für OKC gleich weiter: Zweimal hintereinander heißt der Gegner Cleveland Cavaliers."
-      ],
-      "fakten": [
-        "Houston: 5 Siege, 0 Niederlagen",
-        "OKC: 4 Siege, 1 Niederlage",
-        "Spielbeginn: So 1.11., 01:30 Uhr"
-      ],
-      "quellen": [
-        "ESPN",
-        "CBS Sports"
-      ],
-      "teams": [
-        "OKC",
-        "HOU",
-        "CLE"
-      ],
-      "spieler": [
-        "Shai Gilgeous-Alexander",
-        "Isaiah Hartenstein",
-        "Jalen Williams",
-        "Chet Holmgren"
-      ]
-    },
-    {
-      "id": "okc-dallas",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-29",
-      "tags": [
-        "fav"
-      ],
-      "titel": "Erste Niederlage für OKC",
-      "teaser": "Nach vier Siegen hat es die Thunder in Dallas erwischt. Vier Stammspieler fehlten.",
-      "text": [
-        "Oklahoma City hatte die ersten vier Spiele der Saison alle gewonnen. In Dallas klappte es nun nicht: Die Thunder verloren mit 96:120.",
-        "OKC fehlten gleich vier wichtige Spieler, unter anderem Jalen Williams und Chet Holmgren. Die beiden waren verletzt und konnten nicht mitspielen.",
-        "Bester Werfer der Thunder war Ajay Mitchell mit 29 Punkten. Shai Gilgeous-Alexander kam auf 21 Punkte. Der Deutsche Isaiah Hartenstein schaffte 10 Punkte und 14 Rebounds, also ein Double-Double.",
-        "Das Problem war der Dreier: OKC traf nur 5 von 32 Versuchen. Dallas traf 16 Dreier. Bei den Mavericks glänzte Cooper Flagg mit 26 Punkten und 8 Assists.",
-        "Mit 4 Siegen und 1 Niederlage steht OKC trotzdem weit oben in der Tabelle. Am Sonntag geht es nach Houston, zum einzigen Team, das noch gar nicht verloren hat."
-      ],
-      "fakten": [
-        "Endstand: Dallas 120, OKC 96",
-        "Bilanz OKC: 4 Siege, 1 Niederlage",
-        "Nächstes Spiel: So 1.11., 01:30 Uhr in Houston"
-      ],
-      "quellen": [
-        "CBS Sports",
-        "ESPN"
-      ],
-      "teams": [
-        "OKC",
-        "DAL"
-      ],
-      "spieler": [
-        "Shai Gilgeous-Alexander",
-        "Isaiah Hartenstein",
-        "Ajay Mitchell",
-        "Cooper Flagg",
-        "Jalen Williams",
-        "Chet Holmgren"
-      ]
-    },
-    {
-      "id": "2026-10-29-bayern-belgrad",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Bayern geht in Belgrad unter",
-      "teaser": "73:103 bei Crvena zvezda: Der FC Bayern kassiert in der Euroleague eine deutliche Niederlage.",
-      "text": [
-        "Für den FC Bayern war der Abend in Belgrad sehr bitter. Bei Crvena zvezda verloren die Münchner mit 73:103.",
-        "Nach dem ersten Viertel stand es noch 19:15 für Belgrad, das war knapp. Doch dann zog Crvena zvezda davon. Zur Halbzeit lag Bayern schon mit 31:48 hinten, nach dem dritten Viertel mit 54:79.",
-        "Bester Münchner war Duane Washington mit 16 Punkten. Miles Norris kam auf 14 Punkte und 6 Rebounds, Vladimir Lucic auf 12. Bei Belgrad war Chima Moneke mit 15 Punkten der beste Werfer. Insgesamt trafen sieben Spieler von Crvena zvezda zweistellig.",
-        "In der Euroleague hat Bayern jetzt 2 Siege und 7 Niederlagen. In der Bundesliga läuft es viel besser: Dort sind die Münchner noch ohne Niederlage. Am Sonntag geht es in der BBL nach Rostock."
-      ],
-      "fakten": [
-        "Endstand: Crvena zvezda 103, FC Bayern 73",
-        "Bayern in der Euroleague: 2 Siege, 7 Niederlagen",
-        "Nächstes Euroleague-Spiel: Do 5.11., 20 Uhr in Villeurbanne"
-      ],
-      "quellen": [
-        "euroleaguebasketball.net"
-      ],
-      "teams": [
-        "FCB",
-        "CZV",
-        "ROS",
-        "ASV"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "curry-44",
-      "liga": "NBA",
-      "lang": "en",
-      "motiv": "zahlen",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Steph Curry scores 44 points",
-      "teaser": "Curry led the Golden State Warriors to a win in Minnesota. He did not miss a single free throw.",
-      "text": [
-        "Stephen Curry had a big night in Minnesota. He scored 44 points, and the Golden State Warriors won 119 to 114.",
-        "Curry made 6 three-pointers and all 16 of his free throws. He also had 8 rebounds and 6 assists.",
-        "This was his 46th game with 40 or more points since he turned 30 years old. No other player in NBA history has done that so often.",
-        "Rookie Yaxel Lendeborg helped with 26 points. The Warriors lost their first three games, but now they have won two in a row."
-      ],
-      "fakten": [
-        "Final score: Warriors 119, Timberwolves 114",
-        "Curry: 44 points, 16 of 16 free throws",
-        "Warriors record: 2 wins, 3 losses"
-      ],
-      "vokabeln": [
-        {
-          "en": "to score",
-          "de": "Punkte erzielen"
-        },
-        {
-          "en": "free throw",
-          "de": "Freiwurf"
-        },
-        {
-          "en": "three-pointer",
-          "de": "Dreier"
-        },
-        {
-          "en": "to miss",
-          "de": "verfehlen, danebenwerfen"
-        },
-        {
-          "en": "in a row",
-          "de": "hintereinander"
-        }
-      ],
-      "quellen": [
-        "ESPN",
-        "CBS Sports"
-      ],
-      "teams": [
-        "GSW",
-        "MIN"
-      ],
-      "spieler": [
-        "Stephen Curry",
-        "Yaxel Lendeborg"
-      ]
-    },
-    {
-      "id": "deutsche-nacht",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Schwere Nacht für die Deutschen",
-      "teaser": "Franz Wagner, Dennis Schröder und Isaiah Hartenstein spielten gut, verloren aber alle.",
-      "text": [
-        "In der Nacht auf Donnerstag waren gleich mehrere deutsche Spieler im Einsatz. Gewinnen konnte leider keiner von ihnen.",
-        "Franz Wagner verlor mit Orlando deutlich mit 99:129 in Toronto. Er machte 15 Punkte, 4 Rebounds und 5 Assists. Sein deutscher Teamkollege Tristan da Silva war sogar bester Werfer der Magic mit 20 Punkten.",
-        "Dennis Schröder spielt jetzt für die Charlotte Hornets. Es ist schon sein zwölftes NBA-Team! Bei der 89:97-Niederlage in Detroit kam er auf 14 Punkte und 5 Assists.",
-        "Isaiah Hartenstein holte für OKC 10 Punkte und 14 Rebounds. Das war sein zweites Double-Double hintereinander.",
-        "Ein Highlight gab es aber schon vor ein paar Tagen: Franz Wagner war beim Sieg in New York mit 23 Punkten, 13 Rebounds und 9 Assists ganz knapp an einem Triple-Double dran."
-      ],
-      "fakten": [
-        "Orlando verliert 99:129 in Toronto",
-        "Charlotte verliert 89:97 in Detroit",
-        "OKC verliert 96:120 in Dallas"
-      ],
-      "quellen": [
-        "sport1.de",
-        "ESPN"
-      ],
-      "teams": [
-        "ORL",
-        "TOR",
-        "CHA",
-        "DET",
-        "OKC",
-        "NYK"
-      ],
-      "spieler": [
-        "Franz Wagner",
-        "Tristan da Silva",
-        "Dennis Schröder",
-        "Isaiah Hartenstein"
-      ]
-    },
-    {
-      "id": "jokic-200",
-      "liga": "NBA",
-      "lang": "en",
-      "motiv": "pokal",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Jokić gets triple-double number 200",
-      "teaser": "The Denver star reached a number that only one other player in history has reached.",
-      "text": [
-        "Nikola Jokić from Serbia plays for the Denver Nuggets. Against New Orleans he had 21 points, 13 rebounds and 10 assists. That is a triple-double.",
-        "It was the 200th triple-double of his career. Only Russell Westbrook has more. Westbrook is just 10 ahead of Jokić.",
-        "Denver won the game 104 to 91."
-      ],
-      "fakten": [
-        "Jokić: 21 points, 13 rebounds, 10 assists",
-        "200 triple-doubles in 814 games",
-        "Nuggets 104, Pelicans 91"
-      ],
-      "vokabeln": [
-        {
-          "en": "career",
-          "de": "Karriere, Laufbahn"
-        },
-        {
-          "en": "ahead of",
-          "de": "vor (jemandem)"
-        },
-        {
-          "en": "to reach",
-          "de": "erreichen"
-        }
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "DEN",
-        "NOP"
-      ],
-      "spieler": [
-        "Nikola Jokić"
-      ]
-    },
-    {
-      "id": "giannis-miami",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "schuh",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Endlich jubelt Miami",
-      "teaser": "Erster Sieg für Giannis im Heat-Trikot und ein neuer Vereinsrekord für Bam Adebayo.",
-      "text": [
-        "Giannis Antetokounmpo spielt seit dieser Saison für die Miami Heat. Die ersten vier Spiele gingen alle verloren. In Atlanta klappte es nun mit dem ersten Sieg: 129:117.",
-        "Giannis machte 24 Punkte und holte 18 Rebounds.",
-        "Sein Teamkollege Bam Adebayo schrieb dabei Geschichte: Er hat jetzt die meisten Rebounds aller Heat-Spieler aller Zeiten, nämlich 5.794. Damit überholte er Udonis Haslem."
-      ],
-      "fakten": [
-        "Miami 129, Atlanta 117",
-        "Adebayo ist Miamis Rebound-Rekordhalter"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "MIA",
-        "ATL"
-      ],
-      "spieler": [
-        "Giannis Antetokounmpo",
-        "Bam Adebayo"
-      ]
-    },
-    {
-      "id": "wemby",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "ball",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Wembanyama zaubert doppelt",
-      "teaser": "Zwei Spiele in zwei Nächten, zwei Siege. Victor Wembanyama war beide Male der Beste.",
-      "text": [
-        "Victor Wembanyama aus Frankreich ist 2,24 Meter groß und spielt für die San Antonio Spurs. Diese Woche zeigte er wieder, was er kann.",
-        "Am Dienstag machte er 29 Punkte beim 130:103 gegen Sacramento. Am Mittwoch folgten 36 Punkte und 14 Rebounds in Utah. Das Spiel ging in die Verlängerung, und die Spurs gewannen 117:111.",
-        "Die Spurs haben jetzt 3 Siege und 2 Niederlagen."
-      ],
-      "fakten": [
-        "Spurs 130, Kings 103",
-        "Spurs 117, Jazz 111 (nach Verlängerung)"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "SAS",
-        "SAC",
-        "UTA"
-      ],
-      "spieler": [
-        "Victor Wembanyama"
-      ]
-    },
-    {
-      "id": "dybantsa",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "schuh",
-      "datum": "2026-10-29",
-      "tags": [],
-      "titel": "Starkes Debüt der Nummer 1",
-      "teaser": "AJ Dybantsa wurde als Erster im Draft ausgewählt. Bei seinem ersten Spiel machte er 19 Punkte.",
-      "text": [
-        "Im Draft suchen sich die NBA-Teams jeden Sommer die besten jungen Spieler aus. Die Washington Wizards durften zuerst wählen und nahmen AJ Dybantsa.",
-        "Weil er verletzt war, musste er die ersten vier Spiele zuschauen. In Cleveland durfte er nun endlich ran.",
-        "Dybantsa traf 8 von 12 Würfen und war mit 19 Punkten bester Werfer seines Teams. Gewonnen hat Washington trotzdem nicht: Cleveland siegte 121:111."
-      ],
-      "fakten": [
-        "Dybantsa: 19 Punkte, 8 von 12 Würfen",
-        "Cleveland 121, Washington 111"
-      ],
-      "quellen": [
-        "ESPN"
-      ],
-      "teams": [
-        "WAS",
-        "CLE"
-      ],
-      "spieler": [
-        "AJ Dybantsa"
       ]
     }
   ]
