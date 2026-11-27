@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-27T06:19:21+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-27",
-  "gruss": "Guten Morgen! An Thanksgiving hat die NBA Pause gemacht – dafür gibt es in der Nacht auf Samstag elf Spiele im NBA Cup, unter anderem Toronto gegen Brooklyn mit Moritz Wagner und die Lakers bei Victor Wembanyama in San Antonio. Vorher wird es spannend: Heute um 18:30 Uhr kann sich Deutschland in Riga gegen Lettland das WM-Ticket sichern. Drück die Daumen!",
+  "aktualisiert": "2026-11-27T16:45:00+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-27",
+  "gruss": "Hallo am Nachmittag! Gleich um 18:30 Uhr spielt Deutschland in Riga gegen Lettland. Mit einem Sieg haben die Weltmeister das WM-Ticket für Katar sicher. In der Nacht auf Samstag geht dann die Gruppenphase im NBA Cup zu Ende – mit elf Spielen, zum Beispiel Toronto gegen Brooklyn mit Moritz Wagner und San Antonio mit Victor Wembanyama gegen die Lakers.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-27",
   "zahlDesTages": {
-    "zahl": "11",
-    "text": "So viele NBA-Cup-Spiele gibt es in der Nacht auf Samstag – nach der Pause an Thanksgiving."
+    "zahl": "33.000",
+    "text": "So viele NBA-Punkte hat Kevin Durant jetzt geschafft. Vor ihm kamen nur vier Spieler so weit: LeBron James, Kareem Abdul-Jabbar, Karl Malone und Kobe Bryant."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -3972,62 +3972,61 @@
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-24",
-      "titel": "Jayson Tatum",
-      "team": "BOS",
-      "wert": "41 Punkte",
-      "grund": "Schon zur Halbzeit hatte er 28 Punkte. Damit beendete er die Serie von vier Niederlagen der Celtics.",
-      "newsId": "2026-11-25-tatum-41-celtics"
+      "datum": "2026-11-25",
+      "titel": "Kevin Durant",
+      "team": "HOU",
+      "wert": "33.000 Punkte",
+      "grund": "Mit einem Dreier kurz vor der Halbzeit knackte er die Marke. Das haben vor ihm erst vier Spieler in der NBA geschafft.",
+      "newsId": "2026-11-26-durant-33000"
     },
     {
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-25",
-      "titel": "Jaden McDaniels",
-      "team": "MIN",
-      "wert": "11 von 15 Würfen",
-      "grund": "Er machte 32 Punkte in Oklahoma City und traf mit der Sirene des dritten Viertels einen Dreier aus fast acht Metern.",
-      "newsId": "2026-11-26-okc-verliert-gegen-wolves"
+      "titel": "LeBron James",
+      "team": "PHI",
+      "wert": "Triple-Double mit 41",
+      "grund": "25 Punkte, 12 Assists und 10 Rebounds beim Sieg gegen Miami – sein erstes Triple-Double für die 76ers.",
+      "newsId": "2026-11-26-lebron-triple-double-sixers"
     },
     {
       "art": "spieler",
       "liga": "NBA",
       "datum": "2026-11-25",
-      "titel": "Jose Alvarado",
-      "team": "NYK",
-      "wert": "21 Punkte von der Bank",
-      "grund": "Sein bestes Spiel der Saison: 5 von 7 Dreiern. Mit ihm drehten die Knicks das Spiel gegen Cleveland und gewannen zum sechsten Mal in Folge.",
-      "newsId": "2026-11-26-knicks-alvarado"
+      "titel": "Deni Avdija",
+      "team": "POR",
+      "wert": "Dreier über das Brett",
+      "grund": "38 Sekunden vor Schluss traf er den wichtigsten Wurf. Mit 33 Punkten stoppte Portland die Spurs, obwohl Victor Wembanyama 44 Punkte machte.",
+      "newsId": "2026-11-26-avdija-stoppt-wembanyama"
     },
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-24",
-      "titel": "Cooper Flagg",
-      "team": "DAL",
-      "wert": "24 Punkte, 12 Assists",
-      "grund": "Es war sein 11. Double-Double mit mindestens 20 Punkten. Als Teenager hatte nur LeBron James mehr davon.",
-      "newsId": "2026-11-25-flagg-mavs-nuggets"
+      "datum": "2026-11-25",
+      "titel": "De'Anthony Melton",
+      "team": "GSW",
+      "wert": "8 Dreier",
+      "grund": "Er machte 24 Punkte gegen Sacramento. Golden State gewann schon das erste Viertel mit 44:19."
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-25",
+      "heim": "CHA",
+      "gast": "CHI",
+      "wert": "22 Führungswechsel",
+      "grund": "Mehr als die Hälfte davon im letzten Viertel! Der letzte Wurf von Charlotte sprang mit der Sirene vom Ring – Chicago gewann 107:105.",
+      "newsId": "2026-11-26-bulls-hornets-krimi"
     },
     {
       "art": "spiel",
       "liga": "EL",
-      "datum": "2026-11-24",
-      "heim": "FCB",
-      "gast": "MTA",
-      "wert": "17:2-Lauf",
-      "grund": "Bayern führte 72:66. Dann machte Maccabi 17 Punkte, München nur 2 – am Ende verlor Bayern noch 79:87.",
-      "newsId": "2026-11-25-bayern-verliert-maccabi"
-    },
-    {
-      "art": "spiel",
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "heim": "ASV",
-      "gast": "EA7",
-      "wert": "33 Punkte im Schlussviertel",
-      "grund": "Mailand führte in Villeurbanne nach drei Vierteln mit 24 Punkten. ASVEL kam fast noch zurück, Mailand rettete ein 95:91.",
-      "newsId": "2026-11-25-euroleague-dienstag"
+      "datum": "2026-11-25",
+      "heim": "DUB",
+      "gast": "PAR",
+      "wert": "26:9 im Schlussviertel",
+      "grund": "Partizan lag in Dubai nach drei Vierteln noch hinten. Dann drehte es das Spiel und gewann 84:71.",
+      "newsId": "2026-11-26-euroleague-mittwoch"
     }
   ],
   "legacyGestellt": [
