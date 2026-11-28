@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-27T16:45:00+01:00",
-  "ausgabe": "Nachmittagsausgabe 2026-11-27",
-  "gruss": "Hallo am Nachmittag! Gleich um 18:30 Uhr spielt Deutschland in Riga gegen Lettland. Mit einem Sieg haben die Weltmeister das WM-Ticket für Katar sicher. In der Nacht auf Samstag geht dann die Gruppenphase im NBA Cup zu Ende – mit elf Spielen, zum Beispiel Toronto gegen Brooklyn mit Moritz Wagner und San Antonio mit Victor Wembanyama gegen die Lakers.",
+  "aktualisiert": "2026-11-28T06:23:14+01:00",
+  "ausgabe": "Morgenausgabe 2026-11-28",
+  "gruss": "Guten Morgen! Deutschland fährt zur WM: In Riga gewannen die Weltmeister 78:76 gegen Lettland, Andreas Obst traf 25 Punkte. In der NBA ist die Gruppenphase im NBA Cup vorbei – die Spurs drehten das Spiel gegen die Lakers, und Cooper Flagg holte mit Dallas 17 Punkte Rückstand auf. Heute Nacht spielt OKC mit Isaiah Hartenstein in Milwaukee, und Brooklyn trifft in Charlotte auf Dennis Schröder.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
-  "quizId": "2026-11-27",
+  "quizId": "2026-11-28",
   "zahlDesTages": {
-    "zahl": "33.000",
-    "text": "So viele NBA-Punkte hat Kevin Durant jetzt geschafft. Vor ihm kamen nur vier Spieler so weit: LeBron James, Kareem Abdul-Jabbar, Karl Malone und Kobe Bryant."
+    "zahl": "23",
+    "text": "So viele Rebounds holte Giannis Antetokounmpo beim Sieg der Miami Heat in New York. So viele hatte er in seiner ganzen NBA-Karriere noch nie in einem Spiel."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -91,131 +91,139 @@
     }
   },
   "werIst": {
-    "id": "2026-11-27",
+    "id": "2026-11-28",
     "fragen": [
       {
         "liga": "NBA",
         "hinweise": [
-          "Er spielt für die Nationalmannschaft von Puerto Rico.",
-          "In New Orleans wurde er berühmt, weil er sich von hinten anschlich und Bälle klaute.",
-          "Am Mittwoch machte er 21 Punkte von der Bank für die Knicks."
+          "Er spielte im College für Florida State.",
+          "2022 wurde er zum besten Rookie der NBA gewählt.",
+          "Am Freitag machte er 34 Punkte für Toronto gegen Brooklyn."
         ],
         "antworten": [
-          "Miles McBride",
-          "T.J. McConnell",
-          "Jose Alvarado"
+          "Pascal Siakam",
+          "Scottie Barnes",
+          "RJ Barrett"
+        ],
+        "richtig": 1,
+        "erklaerung": "Scottie Barnes ist der Star der Toronto Raptors."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er spielte im College für Kentucky.",
+          "Er kam von den New York Knicks nach Toronto.",
+          "Gegen Brooklyn schaffte er ein Triple-Double mit 14 Assists."
+        ],
+        "antworten": [
+          "Immanuel Quickley",
+          "Jalen Brunson",
+          "Tyrese Maxey"
+        ],
+        "richtig": 0,
+        "erklaerung": "Immanuel Quickley ist Aufbauspieler bei den Toronto Raptors."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er spielte im College für Duke.",
+          "Er ist Forward bei den Atlanta Hawks.",
+          "Beim 87:86 in Boston machte er 24 Punkte und 12 Rebounds."
+        ],
+        "antworten": [
+          "Zaccharie Risacher",
+          "Onyeka Okongwu",
+          "Jalen Johnson"
         ],
         "richtig": 2,
-        "erklaerung": "Jose Alvarado ist ein kleiner, flinker Guard und spielt für die New York Knicks."
+        "erklaerung": "Jalen Johnson ist einer der besten Spieler der Hawks."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "2024 gewann er mit den USA Olympia-Gold in Paris.",
+          "Im selben Jahr wurde er mit Boston NBA-Meister.",
+          "Er ist ein Guard, der für einen kleinen Spieler sehr viele Würfe blockt."
+        ],
+        "antworten": [
+          "Jrue Holiday",
+          "Derrick White",
+          "Payton Pritchard"
+        ],
+        "richtig": 1,
+        "erklaerung": "Derrick White spielt bei den Boston Celtics."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er kommt aus Wien.",
+          "Er war der erste Österreicher in der NBA.",
+          "Er ist Center bei den Toronto Raptors."
+        ],
+        "antworten": [
+          "Walker Kessler",
+          "Jusuf Nurkić",
+          "Jakob Pöltl"
+        ],
+        "richtig": 2,
+        "erklaerung": "Jakob Pöltl wurde 2016 von Toronto gedraftet."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er kommt aus Montreal in Kanada.",
+          "Er gilt als einer der härtesten Verteidiger der NBA.",
+          "2025 wurde er mit Oklahoma City Meister, jetzt spielt er für Atlanta."
+        ],
+        "antworten": [
+          "Luguentz Dort",
+          "Alex Caruso",
+          "Jamal Murray"
+        ],
+        "richtig": 0,
+        "erklaerung": "Luguentz Dort spielte viele Jahre für OKC."
+      },
+      {
+        "liga": "NBA",
+        "hinweise": [
+          "Er spielte im College für Iowa State.",
+          "Er trägt bei den Indiana Pacers die Nummer 0.",
+          "2025 führte er Indiana mit mehreren Siegwürfen bis in die NBA-Finals."
+        ],
+        "antworten": [
+          "Andrew Nembhard",
+          "Tyrese Haliburton",
+          "Bennedict Mathurin"
+        ],
+        "richtig": 1,
+        "erklaerung": "Tyrese Haliburton ist ein Aufbauspieler, der besonders gut passen kann."
       },
       {
         "liga": "NBA-Legende",
         "hinweise": [
-          "Er hatte rote Haare und spielte am College für UCLA.",
-          "1977 wurde er mit Portland Meister.",
-          "1986 gewann er mit Boston noch einmal den Titel – als Spieler von der Bank."
+          "Er spielte in den 1950er- und 1960er-Jahren für die Syracuse Nationals.",
+          "1955 wurde er mit Syracuse NBA-Meister.",
+          "Aus seinem Team wurden später die Philadelphia 76ers."
         ],
         "antworten": [
-          "Bill Walton",
-          "Dave Cowens",
-          "Kevin McHale"
-        ],
-        "richtig": 0,
-        "erklaerung": "Bill Walton war ein Center, der besonders gut passen konnte."
-      },
-      {
-        "liga": "NBA",
-        "hinweise": [
-          "Vor der NBA spielte er bei G League Ignite statt am College.",
-          "Die Bulls wählten ihn 2024 im Draft an Position 11.",
-          "In Charlotte tippte er kurz vor Schluss einen wichtigen Rebound in den Korb."
-        ],
-        "antworten": [
-          "Ron Holland",
-          "Matas Buzelis",
-          "Tidjane Salaün"
-        ],
-        "richtig": 1,
-        "erklaerung": "Matas Buzelis ist ein großer Forward der Chicago Bulls."
-      },
-      {
-        "liga": "Deutschland",
-        "hinweise": [
-          "Er war 2,13 Meter groß und spielte als Center.",
-          "Ende der 1980er spielte er in der NBA für die Philadelphia 76ers.",
-          "Bei der EM 1993 traf er im Finale gegen Russland den entscheidenden Freiwurf."
-        ],
-        "antworten": [
-          "Uwe Blab",
-          "Hansi Gnad",
-          "Christian Welp"
+          "Bob Pettit",
+          "George Mikan",
+          "Dolph Schayes"
         ],
         "richtig": 2,
-        "erklaerung": "Christian Welp wurde 1993 mit Deutschland Europameister."
-      },
-      {
-        "liga": "NBA",
-        "hinweise": [
-          "Im Draft wurde er von keinem Team ausgewählt.",
-          "2019 wurde er mit den Toronto Raptors Meister.",
-          "Heute spielt er als Spielmacher für die Houston Rockets."
-        ],
-        "antworten": [
-          "Fred VanVleet",
-          "Kyle Lowry",
-          "Jalen Brunson"
-        ],
-        "richtig": 0,
-        "erklaerung": "Fred VanVleet schaffte es ohne Draft bis zum NBA-Meister."
-      },
-      {
-        "liga": "Euroleague",
-        "hinweise": [
-          "Er kommt von den Kapverdischen Inseln im Atlantik.",
-          "Er ist über 2,20 Meter groß und einer der besten Blocker Europas.",
-          "Er spielt seit vielen Jahren als Center für Real Madrid."
-        ],
-        "antworten": [
-          "Vincent Poirier",
-          "Walter Tavares",
-          "Alex Tyus"
-        ],
-        "richtig": 1,
-        "erklaerung": "Walter „Edy“ Tavares ist einer der größten Spieler der Euroleague."
-      },
-      {
-        "liga": "NBA-Legende",
-        "hinweise": [
-          "Sein Spitzname war „The Iceman“, weil er immer ganz cool blieb.",
-          "Sein Lieblingswurf war der Finger Roll – der Ball rollte ihm sanft von den Fingern.",
-          "Er war viermal bester Werfer der NBA, für die San Antonio Spurs."
-        ],
-        "antworten": [
-          "Bernard King",
-          "Julius Erving",
-          "George Gervin"
-        ],
-        "richtig": 2,
-        "erklaerung": "George Gervin ist eine Legende der San Antonio Spurs."
-      },
-      {
-        "liga": "NBA",
-        "hinweise": [
-          "Er kommt aus Belgien.",
-          "Er wurde 2024 erst in der zweiten Runde gedraftet.",
-          "Gegen Minnesota machte er 25 Punkte für Oklahoma City."
-        ],
-        "antworten": [
-          "Ajay Mitchell",
-          "Cason Wallace",
-          "Jalen Williams"
-        ],
-        "richtig": 0,
-        "erklaerung": "Ajay Mitchell ist ein Guard der Oklahoma City Thunder."
+        "erklaerung": "Dolph Schayes war einer der ersten großen Stars der NBA."
       }
     ]
   },
   "werGestellt": [
+    "Scottie Barnes",
+    "Immanuel Quickley",
+    "Jalen Johnson",
+    "Derrick White",
+    "Jakob Pöltl",
+    "Luguentz Dort",
+    "Tyrese Haliburton",
+    "Dolph Schayes",
     "Jose Alvarado",
     "Bill Walton",
     "Matas Buzelis",
@@ -386,27 +394,60 @@
   ],
   "news": [
     {
-      "id": "2026-11-27-cup-abend-nach-thanksgiving",
+      "id": "2026-11-28-dbb-wm-ticket",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "WM-Ticket gebucht! Obst rettet den Weltmeister in Riga",
+      "teaser": "Deutschland gewinnt in Lettland ganz knapp 78:76. Andreas Obst macht 25 Punkte – und die Weltmeister fahren 2027 zur WM nach Katar.",
+      "text": [
+        "Das war ein echter Krimi! Die deutschen Basketballer haben am Freitagabend in Riga gegen Lettland mit 78:76 gewonnen. Damit ist klar: Deutschland spielt im Sommer 2027 bei der Weltmeisterschaft in Katar. Dort will der Weltmeister von 2023 seinen Titel verteidigen.",
+        "Zur Pause führte Deutschland 34:28. Doch danach wurde es eng. Die Letten kämpften sich heran und glichen in der 33. Minute zum 61:61 aus. Deutschland verlor viele Bälle und ließ einige Freiwürfe liegen.",
+        "Dann kam die Crunchtime – und die gehörte Andreas Obst. Der Dreier-Spezialist vom FC Bayern traf in den letzten zwei Minuten immer wieder: erst zum 74:71, dann zum 76:71 und 14 Sekunden vor Schluss zum 78:73. Lettland kam per Freiwürfen noch auf 76:78 heran, aber der letzte Wurf der Gastgeber ging daneben.",
+        "Obst war mit 25 Punkten der beste Werfer. Kay Bruhnke machte 14 Punkte, Oscar da Silva 12. Schon am Montag geht es weiter: Um 19:30 Uhr spielt Deutschland in Frankfurt gegen Polen."
+      ],
+      "fakten": [
+        "Endstand: Lettland 76, Deutschland 78",
+        "Halbzeit: 28:34",
+        "Andreas Obst: 25 Punkte",
+        "Kay Bruhnke: 14 Punkte, Oscar da Silva: 12 Punkte",
+        "WM 2027 in Katar: 27. August bis 12. September",
+        "Nächstes Spiel: Montag, 30.11., 19:30 Uhr gegen Polen in Frankfurt"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund",
+        "FIBA"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "FCB"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-28-giannis-23-rebounds",
       "liga": "NBA",
       "lang": "de",
       "motiv": "korb",
-      "datum": "2026-11-27",
+      "datum": "2026-11-28",
       "tags": [],
-      "titel": "Nach der Thanksgiving-Pause: Großer Cup-Abend in der NBA",
-      "teaser": "Am Donnerstag war in den USA Thanksgiving, die NBA machte Pause. In der Nacht auf Samstag geht es mit elf Spielen im NBA Cup weiter – zwei davon live bei Prime Video.",
+      "titel": "23 Rebounds! Giannis stoppt die Siegesserie der Knicks",
+      "teaser": "Giannis Antetokounmpo holt so viele Rebounds wie noch nie in seiner Karriere. Miami gewinnt in New York 108:105.",
       "text": [
-        "Am Donnerstag gab es kein einziges NBA-Spiel. In den USA war Thanksgiving, ein großer Feiertag. Viele Familien sitzen an diesem Tag zusammen und essen Truthahn.",
-        "In der Nacht auf Samstag wird es dafür richtig voll: Elf Spiele stehen im NBA Cup auf dem Plan. Die Boston Celtics sind im Cup noch ungeschlagen und spielen gegen die Atlanta Hawks um den Gruppensieg. Minnesota hat im Cup drei Siege und keine Niederlage und empfängt Memphis.",
-        "Dallas mit Cooper Flagg spielt in Phoenix sein letztes Gruppenspiel. Die Suns sind schon ausgeschieden. Die New York Knicks haben sechs Spiele in Folge gewonnen und treffen um 1 Uhr deutscher Zeit auf Miami. Um 3:30 Uhr spielen die Lakers bei Victor Wembanyama und den Spurs. Beide Spiele zeigt Prime Video.",
-        "Brooklyn spielt um 1:30 Uhr in Toronto. Moritz Wagner hatte das letzte Spiel der Nets nach vier Minuten angeschlagen verlassen. Die Golden State Warriors sind in Portland zu Gast, wo Deni Avdija gerade die Spurs gestoppt hat."
+        "Die New York Knicks hatten sechs Spiele in Folge gewonnen. Im Madison Square Garden war am Freitag aber Schluss: Die Miami Heat siegten 108:105.",
+        "Der große Mann des Abends war Giannis Antetokounmpo. Er machte 22 Punkte und holte 23 Rebounds. So viele Rebounds hatte er in seiner ganzen NBA-Karriere noch nie in einem Spiel. Bam Adebayo war mit 25 Punkten Topscorer der Heat.",
+        "Bei den Knicks traf Jalen Brunson 27 Punkte. Neun Sekunden vor Schluss verwandelte er Freiwürfe zum 105:106. Doch dann spielte Davion Mitchell einen Pass zu Pelle Larsson, und der machte mit einem Dunk alles klar.",
+        "Für die Knicks war es auch das Aus im NBA Cup. Sie hatten den Cup im vergangenen Jahr gewonnen."
       ],
       "fakten": [
-        "Thanksgiving: Donnerstag, 26.11. – keine NBA-Spiele",
-        "11 Spiele in der Nacht auf Samstag (deutsche Zeit)",
-        "Knicks – Heat: 1:00 Uhr (Prime Video)",
-        "Spurs – Lakers: 3:30 Uhr (Prime Video)",
-        "Raptors – Nets mit Moritz Wagner: 1:30 Uhr",
-        "Celtics – Hawks: 2:00 Uhr, es geht um den Gruppensieg"
+        "Endstand: Knicks 105, Heat 108",
+        "Giannis Antetokounmpo: 22 Punkte, 23 Rebounds (Karrierebestwert)",
+        "Bam Adebayo: 25 Punkte",
+        "Jalen Brunson: 27 Punkte, 8 Assists",
+        "Die Knicks verlieren nach sechs Siegen in Folge"
       ],
       "quellen": [
         "ESPN",
@@ -414,33 +455,270 @@
       ],
       "teams": [
         "NYK",
-        "MIA",
-        "DET",
-        "MIL",
-        "IND",
-        "PHI",
-        "TOR",
-        "BKN",
+        "MIA"
+      ],
+      "spieler": [
+        "Giannis Antetokounmpo",
+        "Bam Adebayo",
+        "Jalen Brunson",
+        "Davion Mitchell",
+        "Pelle Larsson"
+      ]
+    },
+    {
+      "id": "2026-11-28-hawks-celtics-1-punkt",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "dreier",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "Only one point! The Hawks win in Boston",
+      "teaser": "Atlanta beats the Celtics 87:86. Derrick White hits a three at the buzzer – but it is not enough.",
+      "text": [
+        "What a close game! The Atlanta Hawks won 87:86 against the Boston Celtics in the NBA Cup on Friday.",
+        "Boston was ahead 51:39 at halftime. But Atlanta came back. Jalen Johnson scored 24 points and got 12 rebounds. Nickeil Alexander-Walker scored the last four points for the Hawks.",
+        "With 2.6 seconds left, Alexander-Walker made two free throws. Atlanta led 87:83. Then Derrick White shot a long three-pointer. It went in at the buzzer – but Boston still lost by one point.",
+        "Neemias Queta of the Celtics had a big night, too: he grabbed 22 rebounds."
+      ],
+      "fakten": [
+        "Final score: Celtics 86, Hawks 87",
+        "Jalen Johnson: 24 points, 12 rebounds",
+        "Nickeil Alexander-Walker: 20 points",
+        "Neemias Queta (BOS): 22 rebounds",
+        "Halftime: Boston led 51:39"
+      ],
+      "vokabeln": [
+        {
+          "en": "close",
+          "de": "knapp"
+        },
+        {
+          "en": "halftime",
+          "de": "Halbzeit"
+        },
+        {
+          "en": "to come back",
+          "de": "zurückkommen, aufholen"
+        },
+        {
+          "en": "still",
+          "de": "trotzdem"
+        }
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
         "BOS",
-        "ATL",
-        "MIN",
-        "MEM",
-        "PHX",
+        "ATL"
+      ],
+      "spieler": [
+        "Jalen Johnson",
+        "Nickeil Alexander-Walker",
+        "Derrick White",
+        "Neemias Queta",
+        "Jayson Tatum"
+      ]
+    },
+    {
+      "id": "2026-11-28-flagg-mavs-aufholjagd",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "17 Punkte hinten – Cooper Flagg führt Dallas zum Sieg",
+      "teaser": "Im letzten Viertel drehen die Mavericks das Spiel in Phoenix. Flagg macht 34 Punkte, Dallas bleibt im NBA Cup ohne Niederlage.",
+      "text": [
+        "Nach drei Vierteln sah es schlecht aus für Dallas: Die Phoenix Suns führten 95:78. Doch dann kam ein unglaubliches Schlussviertel. Die Mavericks gewannen es mit 35:14 und am Ende das ganze Spiel mit 113:109.",
+        "Der Anführer war Cooper Flagg. Der 19-Jährige machte 34 Punkte, gab 8 Assists, holte 7 Rebounds und blockte 4 Würfe. Devin Booker traf für Phoenix 31 Punkte, aber im letzten Viertel kamen die Suns kaum noch zum Korb.",
+        "Dallas hat damit alle vier Gruppenspiele im NBA Cup gewonnen."
+      ],
+      "fakten": [
+        "Endstand: Suns 109, Mavericks 113",
+        "Nach drei Vierteln: 95:78 für Phoenix",
+        "Letztes Viertel: 35:14 für Dallas",
+        "Cooper Flagg: 34 Punkte, 8 Assists, 7 Rebounds, 4 Blocks",
+        "Devin Booker: 31 Punkte",
+        "Dallas: 4 Siege, 0 Niederlagen in der Cup-Gruppe"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
         "DAL",
-        "SAS",
-        "LAL",
-        "UTA",
-        "DEN",
-        "LAC",
-        "NOP",
-        "POR",
-        "GSW"
+        "PHX"
       ],
       "spieler": [
         "Cooper Flagg",
+        "Devin Booker"
+      ]
+    },
+    {
+      "id": "2026-11-28-spurs-drehen-lakers",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "Aufholjagd in San Antonio: Spurs schlagen die Lakers",
+      "teaser": "Zur Pause lagen die Spurs 16 Punkte hinten. Dann drehten Stephon Castle und Victor Wembanyama das Spitzenspiel des Westens.",
+      "text": [
+        "Es war das Duell der beiden besten Teams im Westen. Und es fing für San Antonio gar nicht gut an: Zur Pause führten die Los Angeles Lakers 54:38.",
+        "In der zweiten Halbzeit wurden die Spurs immer stärker. Stephon Castle machte 26 Punkte und gab 9 Assists. Victor Wembanyama kam auf 25 Punkte und 16 Rebounds. Am Ende gewann San Antonio 99:96.",
+        "Luka Dončić machte für die Lakers 31 Punkte. Von 13 Dreiern traf er aber nur einen. Die Spurs stehen jetzt mit 16 Siegen und 4 Niederlagen ganz oben im Westen."
+      ],
+      "fakten": [
+        "Endstand: Spurs 99, Lakers 96",
+        "Halbzeit: 38:54",
+        "Stephon Castle: 26 Punkte, 9 Assists",
+        "Victor Wembanyama: 25 Punkte, 16 Rebounds",
+        "Luka Dončić: 31 Punkte, 1 von 13 Dreiern"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "SAS",
+        "LAL"
+      ],
+      "spieler": [
+        "Stephon Castle",
         "Victor Wembanyama",
+        "Luka Dončić",
+        "Austin Reaves",
+        "De'Aaron Fox"
+      ]
+    },
+    {
+      "id": "2026-11-28-warriors-in-portland",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "Ohne Curry chancenlos: Warriors verlieren in Portland",
+      "teaser": "Golden State fehlen gleich fünf Spieler. Nach dem ersten Viertel steht es schon 11:37 – am Ende gewinnt Portland 116:94.",
+      "text": [
+        "Für die Golden State Warriors war es ein schwerer Abend. Stephen Curry fiel verletzt aus, ebenso Jimmy Butler, Kristaps Porziņģis, Moses Moody und Gui Santos.",
+        "Portland nutzte das sofort aus. Das erste Viertel gewannen die Trail Blazers mit 37:11. Danach kämpften die Warriors zwar, aber der Rückstand war zu groß. Am Ende hieß es 116:94 für Portland.",
+        "Deni Avdija war wieder der beste Werfer der Blazers: 26 Punkte, 7 Rebounds und 7 Assists. Bei Golden State machte Yaxel Lendeborg 18 Punkte. Die Warriors haben jetzt 10 Siege und 9 Niederlagen."
+      ],
+      "fakten": [
+        "Endstand: Trail Blazers 116, Warriors 94",
+        "1. Viertel: 37:11 für Portland",
+        "Deni Avdija: 26 Punkte, 7 Rebounds, 7 Assists",
+        "Toumani Camara: 20 Punkte",
+        "Bester Warriors-Werfer: Yaxel Lendeborg mit 18 Punkten"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "GSW",
+        "POR"
+      ],
+      "spieler": [
+        "Stephen Curry",
+        "Deni Avdija",
+        "Toumani Camara",
+        "Yaxel Lendeborg"
+      ]
+    },
+    {
+      "id": "2026-11-28-quickley-triple-double-nets",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "wurf",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "Triple-Double von Quickley: Nets verlieren in Toronto",
+      "teaser": "Immanuel Quickley sammelt 24 Punkte, 14 Assists und 10 Rebounds. Brooklyn muss ohne Moritz Wagner auskommen.",
+      "text": [
+        "Die Brooklyn Nets haben ihr letztes Gruppenspiel im NBA Cup klar verloren. Bei den Toronto Raptors hieß es am Ende 100:124.",
+        "Moritz Wagner war nicht dabei. Er fiel aus, nachdem er im Spiel in Milwaukee angeschlagen rausmusste.",
+        "Bei Toronto glänzte Immanuel Quickley mit einem Triple-Double: 24 Punkte, 14 Assists und 10 Rebounds. Scottie Barnes war mit 34 Punkten der Topscorer. Für Brooklyn trafen Mikel Brown Jr. und Julius Randle je 21 Punkte.",
+        "Schon am Samstag geht es für die Nets weiter: Um Mitternacht deutscher Zeit spielen sie in Charlotte gegen Dennis Schröder und Hannes Steinbach."
+      ],
+      "fakten": [
+        "Endstand: Raptors 124, Nets 100",
+        "Immanuel Quickley: 24 Punkte, 14 Assists, 10 Rebounds",
+        "Scottie Barnes: 34 Punkte, 3 Blocks",
+        "Mikel Brown Jr. und Julius Randle: je 21 Punkte",
+        "Moritz Wagner fiel aus"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "TOR",
+        "BKN",
+        "CHA"
+      ],
+      "spieler": [
+        "Immanuel Quickley",
+        "Scottie Barnes",
         "Moritz Wagner",
-        "Deni Avdija"
+        "Mikel Brown Jr.",
+        "Julius Randle",
+        "Dennis Schröder",
+        "Hannes Steinbach"
+      ]
+    },
+    {
+      "id": "2026-11-28-cup-gruppenphase-ende",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "pokal",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "NBA Cup: Sixers und Grizzlies holen den Gruppensieg",
+      "teaser": "In der Nacht auf Samstag ging die Gruppenphase zu Ende. LeBron James und Philadelphia sind genauso weiter wie Memphis und Dallas.",
+      "text": [
+        "Elf Spiele, viele Entscheidungen: Die Gruppenphase im NBA Cup ist vorbei. Die Philadelphia 76ers gewannen 111:87 in Indiana und sind Erster ihrer Gruppe im Osten. LeBron James machte 21 Punkte, 7 Rebounds und 6 Assists.",
+        "Im Westen holten die Memphis Grizzlies den Gruppensieg. Sie gewannen das Endspiel um Platz eins gegen Minnesota mit 114:109. Cedric Coward war mit 22 Punkten bester Werfer. Auch Dallas ist nach vier Siegen in vier Spielen weiter.",
+        "In Denver machte Jamal Murray 36 Punkte beim 120:107 gegen Utah. Detroit gewann gegen Milwaukee 113:98, Isaiah Joe traf dabei fünf Dreier. Und New Orleans siegte 105:104 gegen die Clippers – deren letzter Dreier fiel erst mit der Schlusssirene.",
+        "Die Viertelfinals werden am 4. und 5. Dezember (US-Zeit) gespielt."
+      ],
+      "fakten": [
+        "76ers – Pacers: 111:87 (Philadelphia gewinnt die Gruppe B im Osten)",
+        "Grizzlies – Timberwolves: 114:109 (Memphis gewinnt die Gruppe B im Westen)",
+        "Nuggets – Jazz: 120:107, Jamal Murray 36 Punkte",
+        "Pistons – Bucks: 113:98",
+        "Pelicans – Clippers: 105:104",
+        "Viertelfinals: 4. und 5. Dezember (US-Zeit)"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "PHI",
+        "IND",
+        "MEM",
+        "MIN",
+        "DAL",
+        "DEN",
+        "UTA",
+        "DET",
+        "MIL",
+        "NOP",
+        "LAC"
+      ],
+      "spieler": [
+        "LeBron James",
+        "Cedric Coward",
+        "Jamal Murray",
+        "Nikola Jokić",
+        "Isaiah Joe",
+        "Zion Williamson",
+        "Trey Murphy III",
+        "Brook Lopez"
       ]
     },
     {
@@ -480,46 +758,6 @@
         "Stephon Castle",
         "Devin Vassell",
         "Sidy Cissoko"
-      ]
-    },
-    {
-      "id": "2026-11-26-durant-33000",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-11-26",
-      "tags": [],
-      "titel": "33.000 Punkte! Kevin Durant schafft eine Riesen-Marke",
-      "teaser": "Beim 116:104 der Houston Rockets gegen Phoenix knackte Kevin Durant die Marke von 33.000 Punkten. Vor ihm haben das nur vier Spieler geschafft.",
-      "text": [
-        "Kevin Durant gehört jetzt zu einem ganz kleinen Klub. Beim 116:104-Sieg der Houston Rockets gegen die Phoenix Suns erreichte er 33.000 Punkte in der NBA. Das haben vor ihm erst vier Spieler geschafft: LeBron James, Kareem Abdul-Jabbar, Karl Malone und Kobe Bryant.",
-        "Der große Moment kam kurz vor der Pause. 46 Sekunden vor der Halbzeit traf Durant einen Dreier – damit war die Marke geknackt. Am Ende hatte er 20 Punkte und 10 Rebounds.",
-        "Auch Alperen Sengun glänzte. Er kam auf 23 Punkte, 11 Rebounds und mindestens zehn Assists. Das war schon sein drittes Triple-Double in dieser Saison.",
-        "Spannend wurde es noch einmal im letzten Viertel. Phoenix startete mit einem 16:5-Lauf und kam bis auf zwei Punkte heran. Dann traf Fred VanVleet zwei Dreier, und Houston war wieder sicher vorne. Die Suns trafen von ihren letzten 24 Dreierversuchen nur einen und sind damit im NBA Cup ausgeschieden."
-      ],
-      "fakten": [
-        "Endstand: Houston Rockets – Phoenix Suns 116:104",
-        "Kevin Durant: 20 Punkte, 10 Rebounds",
-        "Durant ist der fünfte Spieler mit 33.000 NBA-Punkten",
-        "Alperen Sengun: 23 Punkte, 11 Rebounds – Triple-Double",
-        "Devin Booker (Phoenix): 25 Punkte"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "HOU",
-        "PHX"
-      ],
-      "spieler": [
-        "Kevin Durant",
-        "Alperen Sengun",
-        "Amen Thompson",
-        "Fred VanVleet",
-        "Devin Booker",
-        "Jalen Green",
-        "LeBron James"
       ]
     },
     {
@@ -627,154 +865,6 @@
       ]
     },
     {
-      "id": "2026-11-26-bulls-hornets-krimi",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-26",
-      "tags": [],
-      "titel": "22 Führungswechsel! Charlotte verliert den Krimi gegen Chicago",
-      "teaser": "Brandon Miller machte 35 Punkte, doch der letzte Wurf von Coby White sprang vom Ring. Die Bulls gewannen in Charlotte 107:105.",
-      "text": [
-        "Was für ein Krimi in Charlotte! Die Chicago Bulls gewannen bei den Charlotte Hornets 107:105. Die Führung wechselte 22-mal, mehr als die Hälfte davon im letzten Viertel.",
-        "In den letzten Sekunden ging es hin und her. Matas Buzelis tippte 23 Sekunden vor Schluss einen Rebound in den Korb. Brandon Miller antwortete mit einem Korbleger. Danach trafen Buzelis und Coby White je zwei Freiwürfe. Tre Jones traf für Chicago einen von zwei Freiwürfen zum 107:105.",
-        "Charlotte hatte keine Auszeit mehr. Coby White dribbelte über das ganze Feld und warf mit der Schlusssirene – der Ball sprang vom Ring. Brandon Miller machte 35 Punkte, schon sein viertes 30-Punkte-Spiel der Saison. Buzelis war mit 24 Punkten bester Werfer der Bulls.",
-        "Hannes Steinbach spielte 8 Minuten und kam auf 3 Punkte und 3 Rebounds. Dennis Schröder fehlte. Für Charlotte war es die siebte Niederlage hintereinander. In der Nacht auf Sonntag kommen die Brooklyn Nets mit Moritz Wagner."
-      ],
-      "fakten": [
-        "Endstand: Charlotte Hornets – Chicago Bulls 105:107",
-        "Brandon Miller: 35 Punkte",
-        "Matas Buzelis (Chicago): 24 Punkte",
-        "Josh Giddey (Chicago): 12 Punkte, 11 Rebounds, 7 Assists",
-        "Hannes Steinbach: 3 Punkte, 3 Rebounds in 8 Minuten",
-        "22 Führungswechsel im Spiel"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "CHA",
-        "CHI",
-        "BKN"
-      ],
-      "spieler": [
-        "Brandon Miller",
-        "Coby White",
-        "Naz Reid",
-        "Moussa Diabaté",
-        "Hannes Steinbach",
-        "Dennis Schröder",
-        "Matas Buzelis",
-        "Josh Giddey",
-        "Tre Jones",
-        "Moritz Wagner"
-      ]
-    },
-    {
-      "id": "2026-11-26-knicks-alvarado",
-      "liga": "NBA",
-      "lang": "en",
-      "motiv": "jubel",
-      "datum": "2026-11-26",
-      "tags": [],
-      "titel": "Hero from the bench: Alvarado helps the Knicks win again",
-      "teaser": "The Knicks were behind for a long time. Then Jose Alvarado made shot after shot. New York beat Cleveland 121:102.",
-      "text": [
-        "The New York Knicks have won six games in a row. On Wednesday they beat the Cleveland Cavaliers 121:102. But for a long time it did not look good. Cleveland was 11 points ahead more than once.",
-        "Then Jose Alvarado came off the bench. He scored 21 points, his best game this season. He made 5 of his 7 three-pointers. At the start of the fourth quarter he made two 3-pointers in a row, and New York took the lead.",
-        "The Knicks won the fourth quarter 39:17. Jalen Brunson was a little sick before the game, but he still scored 19 points. Karl-Anthony Towns had 12 points and 10 rebounds. He has a double-double in every game this season!",
-        "For Cleveland, Donovan Mitchell scored 30 points and James Harden 28. The Knicks are the champions from last season. With a loss they would be out of the NBA Cup."
-      ],
-      "fakten": [
-        "Final score: New York Knicks – Cleveland Cavaliers 121:102",
-        "Jose Alvarado: 21 points, 5 of 7 threes",
-        "Fourth quarter: 39:17 for New York",
-        "Karl-Anthony Towns: 12 points, 10 rebounds, 7 assists",
-        "Donovan Mitchell (Cleveland): 30 points"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "NYK",
-        "CLE"
-      ],
-      "spieler": [
-        "Jose Alvarado",
-        "Jalen Brunson",
-        "Mikal Bridges",
-        "Josh Hart",
-        "Karl-Anthony Towns",
-        "Landry Shamet",
-        "Donovan Mitchell",
-        "James Harden",
-        "Jarrett Allen"
-      ],
-      "vokabeln": [
-        {
-          "en": "bench",
-          "de": "Ersatzbank"
-        },
-        {
-          "en": "ahead",
-          "de": "vorne, in Führung"
-        },
-        {
-          "en": "to take the lead",
-          "de": "in Führung gehen"
-        },
-        {
-          "en": "sick",
-          "de": "krank"
-        }
-      ]
-    },
-    {
-      "id": "2026-11-26-nets-siegen-in-milwaukee",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-11-26",
-      "tags": [],
-      "titel": "Serie gestoppt: Randle führt die Nets zum Sieg in Milwaukee",
-      "teaser": "Die Brooklyn Nets hatten fünfmal hintereinander verloren. In Milwaukee gewannen sie 104:97 – Julius Randle machte 28 Punkte.",
-      "text": [
-        "Endlich wieder ein Sieg für die Brooklyn Nets! Nach fünf Niederlagen in Folge gewannen sie bei den Milwaukee Bucks 104:97. Julius Randle war mit 28 Punkten der beste Werfer.",
-        "Milwaukee startete besser und führte schnell 9:2. Dann drehten die Nets mit einem 16:2-Lauf das Spiel. Im zweiten Viertel lagen sie schon mit 13 Punkten vorne.",
-        "Im dritten Viertel ging Milwaukee nach einem Dreier von Tyler Herro kurz in Führung. Doch Brooklyn holte sich die Führung zurück und baute sie im letzten Viertel aus. Day'Ron Sharpe sammelte 14 Rebounds, Noah Clowney machte 17 Punkte von der Bank.",
-        "Moritz Wagner spielte nur vier Minuten und verließ das Spiel dann angeschlagen. Für die Bucks war es die 17. Niederlage im 19. Spiel. Herro machte für Milwaukee 28 Punkte."
-      ],
-      "fakten": [
-        "Endstand: Milwaukee Bucks – Brooklyn Nets 97:104",
-        "Julius Randle: 28 Punkte, 9 Rebounds",
-        "Noah Clowney: 17 Punkte",
-        "Day'Ron Sharpe: 11 Punkte, 14 Rebounds",
-        "Tyler Herro (Milwaukee): 28 Punkte"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "BKN",
-        "MIL"
-      ],
-      "spieler": [
-        "Julius Randle",
-        "Noah Clowney",
-        "Egor Dëmin",
-        "Michael Porter Jr.",
-        "Day'Ron Sharpe",
-        "Moritz Wagner",
-        "Tyler Herro",
-        "Jaime Jaquez Jr.",
-        "Kyle Kuzma",
-        "Kel'el Ware"
-      ]
-    },
-    {
       "id": "2026-11-26-euroleague-mittwoch",
       "liga": "EL",
       "lang": "de",
@@ -814,42 +904,6 @@
       "spieler": []
     },
     {
-      "id": "2026-11-26-dbb-vor-lettland",
-      "liga": "DBB",
-      "lang": "de",
-      "motiv": "flagge",
-      "datum": "2026-11-26",
-      "tags": [],
-      "titel": "Ein Sieg in Riga – und die Weltmeister fahren zur WM",
-      "teaser": "Am Freitag spielt Deutschland in Lettland. Gewinnt das Team, ist es sicher bei der WM 2027 in Katar dabei. Andreas Obst und Oscar da Silva sind jetzt auch da.",
-      "text": [
-        "Jetzt wird es ernst für die Weltmeister. Am Freitag um 18:30 Uhr spielt die deutsche Nationalmannschaft in Riga gegen Lettland. Gewinnt Deutschland, hat es das Ticket für die Weltmeisterschaft 2027 in Katar sicher.",
-        "Am Mittwoch kamen Andreas Obst und Oscar da Silva vom FC Bayern zum Team nach Frankfurt. Sie hatten am Dienstagabend noch in der Euroleague gespielt. Nicholas Tischler aus Oldenburg gehört nicht mehr zum Kader. Justus Hollatz fehlt verletzt.",
-        "Die NBA-Stars sind in diesem Länderspielfenster nicht dabei, und auch einige Euroleague-Spieler fehlen. Bei Bundestrainer Álex Mumbrú stehen deshalb viele Spieler aus der Bundesliga im Kader, zum Beispiel von ALBA Berlin.",
-        "In der Gruppe K haben Deutschland, Kroatien und Polen je 7 Siege und 1 Niederlage. Lettland ist mit 4 Siegen Vierter. Auch bei einer Niederlage hätte Deutschland die WM noch selbst in der Hand. Am Montag folgt das Heimspiel gegen Polen in Frankfurt."
-      ],
-      "fakten": [
-        "Lettland – Deutschland: Freitag, 27.11., 18:30 Uhr in Riga",
-        "Deutschland – Polen: Montag, 30.11., 19:30 Uhr in Frankfurt",
-        "Neu im Team: Andreas Obst und Oscar da Silva (FC Bayern)",
-        "WM 2027 in Katar: 27. August bis 12. September",
-        "Beide Spiele live bei MagentaSport"
-      ],
-      "quellen": [
-        "Deutscher Basketball Bund"
-      ],
-      "teams": [
-        "GER",
-        "LAT",
-        "POL",
-        "CRO",
-        "FCB",
-        "OLD",
-        "ALBA"
-      ],
-      "spieler": []
-    },
-    {
       "id": "2026-11-25-bayern-verliert-maccabi",
       "liga": "EL",
       "lang": "de",
@@ -881,135 +935,252 @@
         "PBB"
       ],
       "spieler": []
-    },
-    {
-      "id": "2026-11-25-pistons-stoppen-magic",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "dreier",
-      "datum": "2026-11-25",
-      "tags": [],
-      "titel": "NBA Cup: Detroit stoppt Franz Wagner und die Magic",
-      "teaser": "Orlando verliert sein erstes Spiel im NBA Cup – 86:104 gegen Detroit. Franz Wagner macht 20 Punkte, Tristan da Silva trifft 4 Dreier.",
-      "text": [
-        "Die Orlando Magic hatten im NBA Cup bisher jedes Spiel gewonnen. Mit einem Sieg gegen Detroit wären sie Gruppensieger gewesen. Doch die Pistons waren stärker und gewannen in Orlando 104:86.",
-        "Im zweiten Viertel machte Detroit 18 Punkte am Stück. Franz Wagner hatte zur Halbzeit nur 2 Punkte. In der zweiten Hälfte wurde er besser und kam am Ende auf 20 Punkte, 9 Rebounds und 6 Assists. Tristan da Silva traf 4 Dreier und machte 16 Punkte. Desmond Bane war mit 21 Punkten Orlandos Topscorer.",
-        "Bei Detroit fehlte Star Cade Cunningham verletzt. Dafür stand Isaiah Joe zum ersten Mal für die Pistons in der Startaufstellung. Er hatte vorher vier Saisons für Oklahoma City gespielt. Joe machte 21 Punkte und traf im letzten Viertel drei Dreier hintereinander.",
-        "Orlando muss jetzt warten, wie die anderen Spiele der Gruppe ausgehen. Erst dann steht fest, ob die Magic im NBA Cup weiterkommen. Am Samstag spielt Orlando in Washington."
-      ],
-      "fakten": [
-        "Endstand: Orlando Magic – Detroit Pistons 86:104",
-        "Franz Wagner: 20 Punkte, 9 Rebounds, 6 Assists",
-        "Tristan da Silva: 16 Punkte, 4 Dreier",
-        "Isaiah Joe (DET): 21 Punkte, 5 Dreier",
-        "Ausar Thompson (DET): 10 Rebounds, 7 Assists, 4 Blocks"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "ORL",
-        "DET",
-        "OKC",
-        "WAS"
-      ],
-      "spieler": [
-        "Franz Wagner",
-        "Tristan da Silva",
-        "Desmond Bane",
-        "Wendell Carter Jr.",
-        "Isaiah Joe",
-        "Daniss Jenkins",
-        "Ronald Holland II",
-        "Ausar Thompson",
-        "Cade Cunningham"
-      ]
-    },
-    {
-      "id": "2026-11-25-tatum-41-celtics",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-11-25",
-      "tags": [],
-      "titel": "41 Punkte! Jayson Tatum beendet die Pleiteserie der Celtics",
-      "teaser": "Boston hatte viermal hintereinander verloren. In Washington traf Jayson Tatum schon vor der Pause 28 Punkte – die Celtics gewannen 131:116.",
-      "text": [
-        "Für die Boston Celtics lief es zuletzt nicht gut: vier Niederlagen in Folge. In Washington wollte Jayson Tatum das ändern – und wie!",
-        "Schon zur Halbzeit hatte Tatum 28 Punkte. Im zweiten Viertel trafen die Celtics 10 Dreier und machten 46 Punkte. Zur Pause führte Boston 80:49.",
-        "Doch die Wizards gaben nicht auf. Anthony Davis (33 Punkte, 13 Rebounds) und Rookie AJ Dybantsa (20 Punkte, 11 Rebounds) brachten Washington bis auf 112:117 heran. Dann legte Tatum den Ball zum Korbleger rein, und Baylor Scheierman traf einen Dreier. Boston gewann 131:116.",
-        "Tatum beendete das Spiel mit 41 Punkten und 8 Assists. Paul George machte 28 Punkte, Center Neemias Queta 21. Im NBA Cup ist Boston noch ungeschlagen. Am Freitag spielen die Celtics gegen Atlanta um den Gruppensieg."
-      ],
-      "fakten": [
-        "Endstand: Washington Wizards – Boston Celtics 116:131",
-        "Jayson Tatum: 41 Punkte (28 in der ersten Halbzeit), 8 Assists",
-        "Paul George: 28 Punkte, 9 Assists",
-        "Boston im 2. Viertel: 46 Punkte, 10 Dreier",
-        "Anthony Davis (WAS): 33 Punkte, 13 Rebounds"
-      ],
-      "quellen": [
-        "ESPN",
-        "Associated Press"
-      ],
-      "teams": [
-        "BOS",
-        "WAS",
-        "ATL"
-      ],
-      "spieler": [
-        "Jayson Tatum",
-        "Paul George",
-        "Neemias Queta",
-        "Baylor Scheierman",
-        "Anthony Davis",
-        "AJ Dybantsa",
-        "Kyshawn George",
-        "Trae Young"
-      ]
-    },
-    {
-      "id": "2026-11-25-euroleague-dienstag",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "jubel",
-      "datum": "2026-11-25",
-      "tags": [],
-      "titel": "Euroleague-Dienstag: Fenerbahçe dreht das Spiel in Barcelona",
-      "teaser": "Sechs Spiele, sechs Auswärtssiege! Shavon Shields trifft 7 Dreier für Fenerbahçe, Mailand zittert in Villeurbanne, und Virtus Bologna macht 108 Punkte.",
-      "text": [
-        "Am Dienstag gab es in der Euroleague etwas Seltenes: Alle sechs Spiele gewann die Gastmannschaft.",
-        "Am spannendsten war es in Barcelona. Fenerbahçe lag nach drei Vierteln mit 8 Punkten hinten. Im letzten Viertel machte das Team aus Istanbul 30 Punkte und gewann 83:77. Shavon Shields traf 7 Dreier und kam auf 26 Punkte.",
-        "Olimpia Mailand führte in Villeurbanne nach drei Vierteln mit 82:58. Dann machte ASVEL im letzten Viertel 33 Punkte. Mailand rettete einen 95:91-Sieg. Moses Wright traf 13 seiner 16 Zweier und machte 29 Punkte.",
-        "Virtus Bologna gewann in Belgrad bei Roter Stern mit 108:84. Trainer von Virtus ist Álex Mumbrú – er ist auch Bundestrainer der deutschen Nationalmannschaft. Außerdem siegten Panathinaikos in Valencia (86:83) und Paris Basketball bei Beşiktaş (88:76)."
-      ],
-      "fakten": [
-        "Barcelona – Fenerbahçe 77:83 (Shields 26 Punkte, 7 Dreier)",
-        "Villeurbanne – Mailand 91:95 (Wright 29 Punkte)",
-        "Roter Stern – Virtus Bologna 84:108",
-        "Valencia – Panathinaikos 83:86",
-        "Beşiktaş – Paris Basketball 76:88"
-      ],
-      "quellen": [
-        "Euroleague"
-      ],
-      "teams": [
-        "FEN",
-        "BAR",
-        "EA7",
-        "ASV",
-        "VIR",
-        "CZV",
-        "PAO",
-        "VAL",
-        "PBB",
-        "BES",
-        "GER"
-      ],
-      "spieler": []
     }
   ],
   "ergebnisse": [
+    {
+      "liga": "DBB",
+      "datum": "2026-11-27",
+      "runde": "WM-Quali · Gruppe K",
+      "heim": "LAT",
+      "gast": "GER",
+      "heimPkt": 76,
+      "gastPkt": 78,
+      "info": "in Riga",
+      "bericht": {
+        "text": [
+          "Deutschland gewann in Riga ganz knapp und hat damit das Ticket für die WM 2027 in Katar sicher. Zur Pause stand es 34:28 für Deutschland, dann glich Lettland zum 61:61 aus.",
+          "In den letzten zwei Minuten traf Andreas Obst immer wieder. Lettland kam noch auf 76:78 heran, aber der letzte Wurf ging daneben."
+        ],
+        "highlights": [
+          "Andreas Obst: 25 Punkte",
+          "Kay Bruhnke: 14 Punkte",
+          "Oscar da Silva: 12 Punkte",
+          "WM-Ticket für Katar gesichert"
+        ]
+      },
+      "newsId": "2026-11-28-dbb-wm-ticket"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "NYK",
+      "gast": "MIA",
+      "heimPkt": 105,
+      "gastPkt": 108,
+      "bericht": {
+        "text": [
+          "Miami beendete die Serie der Knicks nach sechs Siegen. Giannis Antetokounmpo holte so viele Rebounds wie noch nie. Sieben Sekunden vor Schluss machte Pelle Larsson mit einem Dunk alles klar."
+        ],
+        "highlights": [
+          "Giannis Antetokounmpo: 22 Punkte, 23 Rebounds (Karrierebestwert)",
+          "Bam Adebayo: 25 Punkte",
+          "Jalen Brunson (NYK): 27 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-giannis-23-rebounds"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "DET",
+      "gast": "MIL",
+      "heimPkt": 113,
+      "gastPkt": 98,
+      "bericht": {
+        "text": [
+          "Detroit startete langsam und lag nach dem ersten Viertel hinten. Im dritten Viertel gewannen die Pistons 42:26 und zogen davon. Viele Punkte kamen von der Bank."
+        ],
+        "highlights": [
+          "Isaiah Joe: 22 Punkte, 5 Dreier",
+          "Brayden Burries (MIL): 23 Punkte",
+          "Drittes Viertel: 42:26 für Detroit"
+        ]
+      },
+      "newsId": "2026-11-28-cup-gruppenphase-ende"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "IND",
+      "gast": "PHI",
+      "heimPkt": 87,
+      "gastPkt": 111,
+      "bericht": {
+        "text": [
+          "Philadelphia lag von Anfang an vorne und gewann deutlich. Damit sind die 76ers Gruppensieger und stehen im Viertelfinale des NBA Cups."
+        ],
+        "highlights": [
+          "LeBron James: 21 Punkte, 7 Rebounds, 6 Assists",
+          "Anfernee Simons: 19 Punkte, 5 Dreier",
+          "Jay Huff (IND): 18 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-cup-gruppenphase-ende"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "TOR",
+      "gast": "BKN",
+      "heimPkt": 124,
+      "gastPkt": 100,
+      "bericht": {
+        "text": [
+          "Brooklyn spielte ohne Moritz Wagner und hatte in Toronto keine Chance. Die Raptors gewannen jedes Viertel."
+        ],
+        "highlights": [
+          "Scottie Barnes: 34 Punkte",
+          "Immanuel Quickley: Triple-Double mit 24 Punkten, 14 Assists, 10 Rebounds",
+          "Mikel Brown Jr. und Julius Randle (BKN): je 21 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-quickley-triple-double-nets"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "BOS",
+      "gast": "ATL",
+      "heimPkt": 86,
+      "gastPkt": 87,
+      "bericht": {
+        "text": [
+          "Boston führte zur Pause 51:39, doch Atlanta kam zurück. Nickeil Alexander-Walker machte die letzten vier Punkte der Hawks. Derrick Whites Dreier mit der Schlusssirene brachte Boston nur noch auf einen Punkt heran."
+        ],
+        "highlights": [
+          "Jalen Johnson: 24 Punkte, 12 Rebounds",
+          "Nickeil Alexander-Walker: 20 Punkte",
+          "Neemias Queta (BOS): 22 Rebounds"
+        ]
+      },
+      "newsId": "2026-11-28-hawks-celtics-1-punkt"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "MIN",
+      "gast": "MEM",
+      "heimPkt": 109,
+      "gastPkt": 114,
+      "bericht": {
+        "text": [
+          "Im Spiel um den Gruppensieg setzte sich Memphis in Minneapolis durch. Damit ist Memphis Gruppenerster im Westen und steht im Viertelfinale."
+        ],
+        "highlights": [
+          "Cedric Coward: 22 Punkte",
+          "Javon Small: 19 Punkte von der Bank",
+          "Ayo Dosunmu (MIN): 27 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-cup-gruppenphase-ende"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "PHX",
+      "gast": "DAL",
+      "heimPkt": 109,
+      "gastPkt": 113,
+      "bericht": {
+        "text": [
+          "Nach drei Vierteln lag Dallas 78:95 hinten. Dann gewannen die Mavericks das letzte Viertel 35:14 und drehten das Spiel."
+        ],
+        "highlights": [
+          "Cooper Flagg: 34 Punkte, 8 Assists, 7 Rebounds, 4 Blocks",
+          "Devin Booker (PHX): 31 Punkte",
+          "Dallas: 4 Siege in 4 Cup-Spielen"
+        ]
+      },
+      "newsId": "2026-11-28-flagg-mavs-aufholjagd"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "SAS",
+      "gast": "LAL",
+      "heimPkt": 99,
+      "gastPkt": 96,
+      "bericht": {
+        "text": [
+          "Die Lakers führten zur Pause 54:38. In der zweiten Halbzeit holten die Spurs auf und gewannen das Spitzenspiel im Westen knapp."
+        ],
+        "highlights": [
+          "Stephon Castle: 26 Punkte, 9 Assists",
+          "Victor Wembanyama: 25 Punkte, 16 Rebounds",
+          "Luka Dončić (LAL): 31 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-spurs-drehen-lakers"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "UTA",
+      "gast": "DEN",
+      "heimPkt": 107,
+      "gastPkt": 120,
+      "bericht": {
+        "text": [
+          "Utah hielt lange mit, doch im letzten Viertel zog Denver davon. Jamal Murray war nicht zu stoppen."
+        ],
+        "highlights": [
+          "Jamal Murray: 36 Punkte",
+          "Nikola Jokić: 17 Punkte, 15 Assists, 9 Rebounds",
+          "Keyonte George (UTA): 25 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-cup-gruppenphase-ende"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "LAC",
+      "gast": "NOP",
+      "heimPkt": 104,
+      "gastPkt": 105,
+      "bericht": {
+        "text": [
+          "New Orleans führte kurz vor Schluss mit 105:101. Brook Lopez traf mit der Schlusssirene noch einen Dreier – doch das reichte den Clippers nicht."
+        ],
+        "highlights": [
+          "Zion Williamson: 25 Punkte",
+          "Trey Murphy III: 25 Punkte",
+          "Darius Garland (LAC): 19 Punkte, 9 Assists"
+        ]
+      },
+      "newsId": "2026-11-28-cup-gruppenphase-ende"
+    },
+    {
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "runde": "NBA Cup",
+      "heim": "POR",
+      "gast": "GSW",
+      "heimPkt": 116,
+      "gastPkt": 94,
+      "bericht": {
+        "text": [
+          "Golden State fehlten Stephen Curry und vier weitere Spieler. Portland gewann das erste Viertel 37:11 und ließ sich den Sieg nicht mehr nehmen."
+        ],
+        "highlights": [
+          "Deni Avdija: 26 Punkte, 7 Rebounds, 7 Assists",
+          "Toumani Camara: 20 Punkte",
+          "Yaxel Lendeborg (GSW): 18 Punkte"
+        ]
+      },
+      "newsId": "2026-11-28-warriors-in-portland"
+    },
     {
       "liga": "NBA",
       "datum": "2026-11-25",
@@ -1278,194 +1449,6 @@
       "newsId": "2026-11-26-avdija-stoppt-wembanyama"
     },
     {
-      "liga": "NBA",
-      "datum": "2026-11-24",
-      "runde": "NBA Cup",
-      "heim": "ORL",
-      "gast": "DET",
-      "heimPkt": 86,
-      "gastPkt": 104,
-      "newsId": "2026-11-25-pistons-stoppen-magic",
-      "bericht": {
-        "text": [
-          "Detroit machte im zweiten Viertel 18 Punkte am Stück und führte danach immer deutlich. Für Orlando war es die erste Niederlage im NBA Cup.",
-          "Franz Wagner hatte zur Pause nur 2 Punkte, steigerte sich aber in der zweiten Hälfte. Isaiah Joe entschied das Spiel mit drei Dreiern hintereinander im letzten Viertel."
-        ],
-        "highlights": [
-          "Franz Wagner: 20 Punkte, 9 Rebounds, 6 Assists",
-          "Tristan da Silva: 16 Punkte, 4 Dreier",
-          "Isaiah Joe (DET): 21 Punkte im ersten Spiel in der Startaufstellung",
-          "Desmond Bane: 21 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-24",
-      "runde": "NBA Cup",
-      "heim": "WAS",
-      "gast": "BOS",
-      "heimPkt": 116,
-      "gastPkt": 131,
-      "newsId": "2026-11-25-tatum-41-celtics",
-      "bericht": {
-        "text": [
-          "Boston machte im zweiten Viertel 46 Punkte und führte zur Pause 80:49. Jayson Tatum hatte da schon 28 Punkte.",
-          "Washington kam noch bis auf 112:117 heran, doch Tatum und Baylor Scheierman sorgten für die Entscheidung. Damit endete Bostons Serie von vier Niederlagen."
-        ],
-        "highlights": [
-          "Jayson Tatum: 41 Punkte, 8 Assists",
-          "Paul George: 28 Punkte, 9 Assists",
-          "Neemias Queta: 21 Punkte",
-          "Anthony Davis (WAS): 33 Punkte, 13 Rebounds"
-        ]
-      }
-    },
-    {
-      "liga": "NBA",
-      "datum": "2026-11-24",
-      "runde": "NBA Cup",
-      "heim": "DEN",
-      "gast": "DAL",
-      "heimPkt": 101,
-      "gastPkt": 120,
-      "newsId": "2026-11-25-flagg-mavs-nuggets",
-      "bericht": {
-        "text": [
-          "Dallas führte zur Pause schon 58:39, weil die Mavericks die erste Halbzeit mit einem 15:0-Lauf beendeten.",
-          "Denver kam im dritten Viertel bis auf 77:80 heran, doch Dallas zog wieder davon und gewann sein viertes Spiel in Folge."
-        ],
-        "highlights": [
-          "Cooper Flagg: 24 Punkte, 12 Assists",
-          "Jamal Murray (DEN): 20 Punkte",
-          "Nikola Jokić (DEN): 18 Punkte, 11 Rebounds",
-          "Fastbreak-Punkte: 35:7 für Dallas"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "runde": "Euroleague · 14. Runde",
-      "heim": "FCB",
-      "gast": "MTA",
-      "heimPkt": 79,
-      "gastPkt": 87,
-      "newsId": "2026-11-25-bayern-verliert-maccabi",
-      "bericht": {
-        "text": [
-          "Bayern führte knapp acht Minuten vor Schluss noch mit 72:66. Dann gelang Maccabi ein 17:2-Lauf.",
-          "Roman Sorkin traf in der entscheidenden Phase einen Korbleger und zwei Dreier hintereinander. Bayern machte im letzten Viertel nur 11 Punkte."
-        ],
-        "highlights": [
-          "Marjon Beauchamp und Duane Washington: je 13 Punkte",
-          "Andreas Obst: 12 Punkte",
-          "Roman Sorkin (MTA): 17 Punkte",
-          "Letztes Viertel: 11:21"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "runde": "Euroleague · 14. Runde",
-      "heim": "BAR",
-      "gast": "FEN",
-      "heimPkt": 77,
-      "gastPkt": 83,
-      "newsId": "2026-11-25-euroleague-dienstag",
-      "bericht": {
-        "text": [
-          "Barcelona führte nach drei Vierteln mit 61:53. Im letzten Viertel machte Fenerbahçe 30 Punkte und drehte das Spiel."
-        ],
-        "highlights": [
-          "Shavon Shields (FEN): 26 Punkte, 7 Dreier",
-          "Shane Larkin (FEN): 19 Punkte",
-          "Stanley Umude (BAR): 18 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "runde": "Euroleague · 14. Runde",
-      "heim": "ASV",
-      "gast": "EA7",
-      "heimPkt": 91,
-      "gastPkt": 95,
-      "newsId": "2026-11-25-euroleague-dienstag",
-      "bericht": {
-        "text": [
-          "Mailand führte nach drei Vierteln mit 82:58. Villeurbanne machte im letzten Viertel 33 Punkte, doch am Ende fehlten 4 Punkte."
-        ],
-        "highlights": [
-          "Moses Wright (EA7): 29 Punkte, 13 von 16 Zweiern",
-          "RJ Cole (EA7): 17 Punkte",
-          "TyTy Washington Jr. (ASV): 19 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "runde": "Euroleague · 14. Runde",
-      "heim": "CZV",
-      "gast": "VIR",
-      "heimPkt": 84,
-      "gastPkt": 108,
-      "newsId": "2026-11-25-euroleague-dienstag",
-      "bericht": {
-        "text": [
-          "Virtus Bologna gewann jedes Viertel und machte in Belgrad 108 Punkte. Trainer von Virtus ist Bundestrainer Álex Mumbrú."
-        ],
-        "highlights": [
-          "Kessler Edwards (VIR): 15 Punkte, 4 von 4 Dreiern",
-          "Derrick Alston Jr. (VIR): 15 Punkte",
-          "Chima Moneke (CZV): 20 Punkte"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "runde": "Euroleague · 14. Runde",
-      "heim": "VAL",
-      "gast": "PAO",
-      "heimPkt": 83,
-      "gastPkt": 86,
-      "newsId": "2026-11-25-euroleague-dienstag",
-      "bericht": {
-        "text": [
-          "Panathinaikos führte nach drei Vierteln mit 64:59. Valencia kam im letzten Viertel noch einmal heran, verlor aber knapp mit 3 Punkten."
-        ],
-        "highlights": [
-          "Jerian Grant (PAO): 14 Punkte",
-          "Kendrick Nunn (PAO): 13 Punkte",
-          "TJ Shorts (VAL): 15 Punkte, 7 Assists"
-        ]
-      }
-    },
-    {
-      "liga": "EL",
-      "datum": "2026-11-24",
-      "runde": "Euroleague · 14. Runde",
-      "heim": "BES",
-      "gast": "PBB",
-      "heimPkt": 76,
-      "gastPkt": 88,
-      "newsId": "2026-11-25-euroleague-dienstag",
-      "bericht": {
-        "text": [
-          "Paris Basketball führte zur Pause 45:33 und gewann in Istanbul sicher. Alize Johnson holte 15 Rebounds."
-        ],
-        "highlights": [
-          "Jared Rhoden (PBB): 21 Punkte",
-          "Alize Johnson (PBB): 12 Punkte, 15 Rebounds",
-          "Lonnie Walker IV (BES): 24 Punkte"
-        ]
-      }
-    },
-    {
       "liga": "DBB",
       "datum": "2026-11-17",
       "runde": "EM-Quali · Damen",
@@ -1489,92 +1472,6 @@
     }
   ],
   "spielplan": [
-    {
-      "liga": "DBB",
-      "zeit": "2026-11-27T18:30:00+01:00",
-      "heim": "LAT",
-      "gast": "GER",
-      "info": "WM-Quali in Riga"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T01:00:00+01:00",
-      "heim": "NYK",
-      "gast": "MIA",
-      "info": "NBA Cup",
-      "tv": "PRIME"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T01:30:00+01:00",
-      "heim": "DET",
-      "gast": "MIL",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T01:30:00+01:00",
-      "heim": "IND",
-      "gast": "PHI",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T01:30:00+01:00",
-      "heim": "TOR",
-      "gast": "BKN",
-      "info": "mit M. Wagner · NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T02:00:00+01:00",
-      "heim": "BOS",
-      "gast": "ATL",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T02:30:00+01:00",
-      "heim": "MIN",
-      "gast": "MEM",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:00:00+01:00",
-      "heim": "PHX",
-      "gast": "DAL",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:30:00+01:00",
-      "heim": "SAS",
-      "gast": "LAL",
-      "info": "NBA Cup",
-      "tv": "PRIME"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:30:00+01:00",
-      "heim": "UTA",
-      "gast": "DEN",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:30:00+01:00",
-      "heim": "LAC",
-      "gast": "NOP",
-      "info": "NBA Cup"
-    },
-    {
-      "liga": "NBA",
-      "zeit": "2026-11-28T03:30:00+01:00",
-      "heim": "POR",
-      "gast": "GSW",
-      "info": "NBA Cup"
-    },
     {
       "liga": "NBA",
       "zeit": "2026-11-28T23:00:00+01:00",
@@ -1674,7 +1571,7 @@
       "zeit": "2026-11-30T19:30:00+01:00",
       "heim": "GER",
       "gast": "POL",
-      "info": "WM-Quali in Frankfurt"
+      "info": "WM-Quali in Frankfurt · WM-Ticket schon sicher"
     },
     {
       "liga": "NBA",
@@ -1910,12 +1807,54 @@
       "zeit": "2026-12-04T04:00:00+01:00",
       "heim": "POR",
       "gast": "UTA"
+    },
+    {
+      "liga": "EL",
+      "zeit": "2026-12-04T18:00:00+01:00",
+      "heim": "BES",
+      "gast": "PAO",
+      "info": "15. Runde"
+    },
+    {
+      "liga": "EL",
+      "zeit": "2026-12-04T19:00:00+01:00",
+      "heim": "ZAL",
+      "gast": "DUB",
+      "info": "15. Runde"
+    },
+    {
+      "liga": "EL",
+      "zeit": "2026-12-04T20:15:00+01:00",
+      "heim": "OLY",
+      "gast": "ASV",
+      "info": "15. Runde"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-12-05T16:00:00+01:00",
+      "heim": "CHE",
+      "gast": "ROS",
+      "tv": "DYN"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-12-05T18:30:00+01:00",
+      "heim": "LUD",
+      "gast": "WUE",
+      "tv": "DYN"
+    },
+    {
+      "liga": "BBL",
+      "zeit": "2026-12-05T20:00:00+01:00",
+      "heim": "VEC",
+      "gast": "HAM",
+      "tv": "DYN"
     }
   ],
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 27.11., 06:15 Uhr · nach allen Spielen vom 25.11. (US-Zeit), am 26.11. spielfrei (Thanksgiving)",
+      "stand": "Stand: 28.11., 06:15 Uhr · nach allen Spielen vom 27.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -1933,18 +1872,18 @@
       "erklaerung": "Die ersten 6 kommen direkt in die Playoffs. Platz 7 bis 10 spielen im Play-In-Turnier um die letzten Plätze.",
       "zeilen": [
         {
-          "team": "LAL",
-          "s": 15,
-          "n": 3
+          "team": "SAS",
+          "s": 16,
+          "n": 4
         },
         {
-          "team": "SAS",
+          "team": "LAL",
           "s": 15,
           "n": 4
         },
         {
-          "team": "MIN",
-          "s": 14,
+          "team": "MEM",
+          "s": 15,
           "n": 5
         },
         {
@@ -1953,34 +1892,24 @@
           "n": 5
         },
         {
-          "team": "MEM",
+          "team": "MIN",
           "s": 14,
-          "n": 5
+          "n": 6
         },
         {
           "team": "POR",
-          "s": 12,
+          "s": 13,
           "n": 6
         },
         {
           "team": "DEN",
-          "s": 10,
+          "s": 11,
           "n": 6
         },
         {
           "team": "DAL",
-          "s": 11,
+          "s": 12,
           "n": 7
-        },
-        {
-          "team": "GSW",
-          "s": 10,
-          "n": 8
-        },
-        {
-          "team": "PHX",
-          "s": 9,
-          "n": 8
         },
         {
           "team": "OKC",
@@ -1988,19 +1917,29 @@
           "n": 9
         },
         {
+          "team": "GSW",
+          "s": 10,
+          "n": 9
+        },
+        {
+          "team": "PHX",
+          "s": 9,
+          "n": 9
+        },
+        {
           "team": "NOP",
-          "s": 5,
+          "s": 6,
           "n": 14
         },
         {
           "team": "LAC",
           "s": 4,
-          "n": 13
+          "n": 14
         },
         {
           "team": "UTA",
           "s": 3,
-          "n": 16
+          "n": 17
         },
         {
           "team": "SAC",
@@ -2011,7 +1950,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 27.11., 06:15 Uhr · nach allen Spielen vom 25.11. (US-Zeit), am 26.11. spielfrei (Thanksgiving)",
+      "stand": "Stand: 28.11., 06:15 Uhr · nach allen Spielen vom 27.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2030,32 +1969,32 @@
       "zeilen": [
         {
           "team": "PHI",
-          "s": 15,
+          "s": 16,
           "n": 4
         },
         {
-          "team": "BOS",
-          "s": 12,
-          "n": 6
-        },
-        {
-          "team": "NYK",
-          "s": 12,
-          "n": 6
-        },
-        {
           "team": "ATL",
-          "s": 11,
+          "s": 12,
           "n": 6
         },
         {
           "team": "DET",
-          "s": 11,
+          "s": 12,
           "n": 6
         },
         {
+          "team": "BOS",
+          "s": 12,
+          "n": 7
+        },
+        {
+          "team": "NYK",
+          "s": 12,
+          "n": 7
+        },
+        {
           "team": "MIA",
-          "s": 10,
+          "s": 11,
           "n": 7
         },
         {
@@ -2069,14 +2008,14 @@
           "n": 10
         },
         {
+          "team": "TOR",
+          "s": 7,
+          "n": 11
+        },
+        {
           "team": "WAS",
           "s": 7,
           "n": 12
-        },
-        {
-          "team": "TOR",
-          "s": 6,
-          "n": 11
         },
         {
           "team": "CHI",
@@ -2086,7 +2025,7 @@
         {
           "team": "IND",
           "s": 6,
-          "n": 12
+          "n": 13
         },
         {
           "team": "CHA",
@@ -2096,18 +2035,18 @@
         {
           "team": "BKN",
           "s": 4,
-          "n": 13
+          "n": 14
         },
         {
           "team": "MIL",
           "s": 2,
-          "n": 17
+          "n": 18
         }
       ]
     },
     "bbl": {
       "name": "BBL",
-      "stand": "Stand: nach dem 10. Spieltag (22.11.) · weiter am 03.12.",
+      "stand": "Stand: nach dem 10. Spieltag (22.11.) · Länderspielpause, weiter am 03.12.",
       "zonen": [
         {
           "von": 1,
@@ -2566,7 +2505,7 @@
     },
     "wmquali": {
       "name": "WM-Quali",
-      "stand": "Gruppe K · Stand: vor den Spielen im November (laut DBB, 25.11.)",
+      "stand": "Gruppe K · Stand: nach den Spielen vom 27.11. (laut FIBA)",
       "zonen": [
         {
           "von": 1,
@@ -2575,37 +2514,37 @@
           "label": "WM-Ticket"
         }
       ],
-      "erklaerung": "Deutschland, Kroatien und Polen haben je 7 Siege. Laut DBB liegt Deutschland vorne. Die besten drei fahren zur WM 2027 nach Katar. Mit einem Sieg in Lettland ist Deutschland sicher dabei.",
+      "erklaerung": "Kroatien, Deutschland und Polen sind schon sicher bei der WM 2027 in Katar. Die besten drei der Gruppe fahren hin. Am Montag spielt Deutschland noch gegen Polen.",
       "zeilen": [
         {
-          "team": "GER",
-          "s": 7,
+          "team": "CRO",
+          "s": 8,
           "n": 1
         },
         {
-          "team": "CRO",
-          "s": 7,
+          "team": "GER",
+          "s": 8,
           "n": 1
         },
         {
           "team": "POL",
           "s": 7,
-          "n": 1
+          "n": 2
         },
         {
           "team": "LAT",
           "s": 4,
-          "n": 4
+          "n": 5
+        },
+        {
+          "team": "ISR",
+          "s": 3,
+          "n": 6
         },
         {
           "team": "NED",
           "s": 2,
-          "n": 6
-        },
-        {
-          "team": "ISR",
-          "s": 2,
-          "n": 6
+          "n": 7
         }
       ]
     }
@@ -2637,7 +2576,7 @@
         "reb": 3.7,
         "ast": 3.9
       },
-      "notiz": "Mit 38 Jahren noch ein Superstar. Er fällt verletzt aus – die Warriors verloren ohne ihn auch in Memphis."
+      "notiz": "Mit 38 Jahren noch ein Superstar. Er fällt verletzt aus – ohne ihn verloren die Warriors in Portland 94:116."
     },
     {
       "name": "Franz Wagner",
@@ -2666,7 +2605,7 @@
         "reb": 3.1,
         "ast": 1.5
       },
-      "notiz": "Beim 104:97-Sieg der Nets in Milwaukee spielte er nur vier Minuten und musste dann angeschlagen raus."
+      "notiz": "Beim 100:124 in Toronto fiel er aus. Im Spiel davor in Milwaukee musste er nach vier Minuten angeschlagen raus."
     },
     {
       "name": "Dennis Schröder",
@@ -2734,7 +2673,7 @@
         "reb": 6.9,
         "ast": 6.9
       },
-      "notiz": "Mit 41 Jahren schaffte er gegen Miami sein erstes Triple-Double für die 76ers: 25 Punkte, 12 Assists, 10 Rebounds."
+      "notiz": "21 Punkte, 7 Rebounds und 6 Assists beim 111:87 in Indiana. Mit den 76ers ist er Gruppensieger im NBA Cup."
     },
     {
       "name": "Jalen Brunson",
@@ -2747,7 +2686,7 @@
         "reb": 3.1,
         "ast": 5.9
       },
-      "notiz": "Obwohl er etwas krank war, machte er 19 Punkte gegen Cleveland – die Knicks gewannen zum sechsten Mal hintereinander."
+      "notiz": "27 Punkte gegen Miami – trotzdem verloren die Knicks 105:108. Ihre Serie von sechs Siegen ist vorbei."
     },
     {
       "name": "Luka Dončić",
@@ -2760,7 +2699,7 @@
         "reb": 6.6,
         "ast": 7.7
       },
-      "notiz": "Gegen Utah machte er 28 Punkte und 8 Assists. Die Lakers nahmen Revanche für die Niederlage aus der Vorwoche."
+      "notiz": "31 Punkte in San Antonio, aber nur 1 von 13 Dreiern traf. Die Lakers verloren 96:99."
     },
     {
       "name": "Anthony Edwards",
@@ -2786,7 +2725,7 @@
         "reb": 10.9,
         "ast": 8.9
       },
-      "notiz": "In Chicago schaffte er sein 202. Triple-Double: 37 Punkte, 18 Rebounds, 11 Assists."
+      "notiz": "Beim 120:107 in Utah gab er 15 Assists und machte 17 Punkte."
     },
     {
       "name": "Victor Wembanyama",
@@ -2799,7 +2738,7 @@
         "reb": 12.5,
         "ast": 3.2
       },
-      "notiz": "44 Punkte und 16 Rebounds in Portland – trotzdem verloren die Spurs 111:116. Gegen New Orleans hatte er schon 50 Punkte gemacht."
+      "notiz": "25 Punkte und 16 Rebounds beim 99:96 gegen die Lakers. Die Spurs sind jetzt Erster im Westen."
     },
     {
       "name": "Damian Lillard",
@@ -2812,7 +2751,7 @@
         "reb": 3.2,
         "ast": 4.2
       },
-      "notiz": "29 Punkte und 10 von 10 Freiwürfen beim 116:111 gegen San Antonio und Victor Wembanyama."
+      "notiz": "Beim 116:94 gegen Golden State fehlte er. Portland gewann trotzdem deutlich."
     }
   ],
   "rekorde": [
@@ -2840,131 +2779,131 @@
   "quiz": [
     {
       "liga": "NBA",
-      "frage": "Wer traf beim Sieg von Portland gegen San Antonio 38 Sekunden vor Schluss einen Dreier über das Brett?",
+      "frage": "Für welches Team holte Giannis Antetokounmpo am Freitag 23 Rebounds – so viele wie noch nie in seiner Karriere?",
       "antworten": [
-        "Damian Lillard",
-        "Deni Avdija",
-        "Stephon Castle",
-        "Victor Wembanyama"
+        "Milwaukee Bucks",
+        "Miami Heat",
+        "New York Knicks",
+        "Atlanta Hawks"
       ],
       "richtig": 1,
-      "erklaerung": "Deni Avdija traf den Dreier zum 114:109 und machte insgesamt 33 Punkte."
+      "erklaerung": "Giannis spielt jetzt für Miami. Die Heat gewannen in New York 108:105."
     },
     {
       "liga": "BBL",
-      "frage": "Mit welchem Lauf drehte Maccabi Tel Aviv das Spiel beim FC Bayern?",
+      "frage": "Welcher Spieler vom FC Bayern machte beim 78:76 in Lettland 25 Punkte für Deutschland?",
       "antworten": [
-        "10:0",
-        "17:2",
-        "20:5",
-        "12:12"
+        "Andreas Obst",
+        "Johannes Voigtmann",
+        "Oscar da Silva",
+        "Kay Bruhnke"
       ],
-      "richtig": 1,
-      "erklaerung": "Bayern führte 72:66, dann machte Maccabi 17 Punkte und Bayern nur 2. Bayern verlor 79:87."
+      "richtig": 0,
+      "erklaerung": "Andreas Obst traf in den letzten zwei Minuten mehrere wichtige Würfe. Oscar da Silva machte 12, Kay Bruhnke 14 Punkte."
     },
     {
       "liga": "NBA",
       "art": "legacy",
-      "jahr": "1972",
-      "frage": "Die Los Angeles Lakers stellten in der Saison 1971/72 einen Rekord auf. Wie viele Spiele gewannen sie hintereinander?",
+      "jahr": "2004",
+      "frage": "Tracy McGrady schaffte 2004 gegen die Spurs etwas Unglaubliches. Was?",
       "antworten": [
-        "18",
-        "25",
-        "33",
+        "100 Punkte in einem Spiel",
+        "13 Punkte in 35 Sekunden",
+        "20 Blocks in einem Spiel",
+        "Einen Dunk von der Mittellinie"
+      ],
+      "richtig": 1,
+      "erklaerung": "Kurz vor Schluss traf McGrady für Houston vier Dreier in 35 Sekunden und drehte das Spiel."
+    },
+    {
+      "liga": "BBL",
+      "art": "legacy",
+      "jahr": "2019",
+      "frage": "Gegen welches Team verlor ALBA Berlin 2019 die Finalserie im EuroCup?",
+      "antworten": [
+        "Valencia Basket",
+        "Real Madrid",
+        "Fenerbahçe",
+        "Olympiacos Piräus"
+      ],
+      "richtig": 0,
+      "erklaerung": "ALBA kam 2019 bis ins EuroCup-Finale und verlor die Serie knapp gegen Valencia Basket aus Spanien."
+    },
+    {
+      "liga": "NBA",
+      "frage": "Mit wie vielen Punkten Unterschied gewann Atlanta am Freitag in Boston?",
+      "antworten": [
+        "10",
+        "5",
+        "3",
+        "1"
+      ],
+      "richtig": 3,
+      "erklaerung": "Es stand 87:86 für die Hawks. Derrick White traf mit der Schlusssirene noch einen Dreier, aber das reichte nicht."
+    },
+    {
+      "liga": "BBL",
+      "frage": "Mit welchem Spiel geht die BBL nach der Länderspielpause am 3. Dezember weiter?",
+      "antworten": [
+        "ALBA Berlin – FC Bayern",
+        "Frankfurt – Würzburg",
+        "Ulm – Bonn",
+        "Chemnitz – Rostock"
+      ],
+      "richtig": 1,
+      "erklaerung": "Die SKYLINERS Frankfurt empfangen am Donnerstag, 3. Dezember, die Würzburg Baskets."
+    },
+    {
+      "liga": "NBA",
+      "frage": "Wie viele Punkte machte Cooper Flagg beim Sieg der Mavericks in Phoenix?",
+      "antworten": [
+        "21",
+        "28",
+        "34",
         "41"
       ],
       "richtig": 2,
-      "erklaerung": "Die Lakers gewannen 33 Spiele in Folge – bis heute Rekord in der NBA. Am Ende wurden sie auch Meister."
+      "erklaerung": "Flagg machte 34 Punkte und führte Dallas im letzten Viertel zu einer Aufholjagd."
     },
     {
       "liga": "BBL",
       "art": "legacy",
-      "jahr": "2011",
-      "frage": "Wie heißt die Halle, in der ratiopharm ulm seit 2011 spielt?",
+      "jahr": "2017",
+      "frage": "Mit welchem Klub wurde Daniel Theis deutscher Meister, bevor er 2017 in die NBA zu den Boston Celtics wechselte?",
       "antworten": [
-        "Telekom Dome",
-        "SAP Garden",
-        "ratiopharm arena",
-        "Uber Arena"
+        "ALBA Berlin",
+        "FC Bayern",
+        "Brose Bamberg",
+        "ratiopharm ulm"
       ],
       "richtig": 2,
-      "erklaerung": "Die ratiopharm arena steht in Neu-Ulm, direkt neben Ulm. Dort spielt der Klub seit 2011."
-    },
-    {
-      "liga": "NBA",
-      "frage": "Warum gab es am Donnerstag, 26. November, keine NBA-Spiele?",
-      "antworten": [
-        "Wegen Thanksgiving",
-        "Wegen des All-Star-Spiels",
-        "Wegen Länderspielen",
-        "Wegen eines Schneesturms"
-      ],
-      "richtig": 0,
-      "erklaerung": "Thanksgiving ist in den USA ein großer Feiertag. An diesem Tag hat die NBA spielfrei."
-    },
-    {
-      "liga": "BBL",
-      "frage": "Gegen welches Team spielt der FC Bayern am 3. Dezember in der Euroleague?",
-      "antworten": [
-        "Real Madrid",
-        "FC Barcelona",
-        "Olympiacos Piräus",
-        "Paris Basketball"
-      ],
-      "richtig": 3,
-      "erklaerung": "Nach der Länderspielpause empfängt Bayern zu Hause Paris Basketball."
-    },
-    {
-      "liga": "NBA",
-      "frage": "Wie viele Spiele in Folge haben die New York Knicks nach dem Sieg gegen Cleveland gewonnen?",
-      "antworten": [
-        "4",
-        "5",
-        "7",
-        "6"
-      ],
-      "richtig": 3,
-      "erklaerung": "Mit dem 121:102 gegen Cleveland gewannen die Knicks zum sechsten Mal hintereinander."
-    },
-    {
-      "liga": "BBL",
-      "art": "legacy",
-      "jahr": "2021",
-      "frage": "Gegen welches Team gewann ALBA Berlin 2021 die Finalserie um die deutsche Meisterschaft?",
-      "antworten": [
-        "MHP Riesen Ludwigsburg",
-        "FC Bayern München",
-        "Telekom Baskets Bonn",
-        "Brose Bamberg"
-      ],
-      "richtig": 0,
-      "erklaerung": "ALBA besiegte 2021 im Finale Ludwigsburg und wurde deutscher Meister."
+      "erklaerung": "Daniel Theis spielte für Brose Bamberg und wurde dort Meister. 2017 ging er nach Boston."
     },
     {
       "liga": "NBA",
       "art": "legacy",
-      "jahr": "1975",
-      "frage": "Welches Team wurde 1975 mit Rick Barry NBA-Meister?",
+      "jahr": "1987",
+      "frage": "Mit welchem Wurf gewann Magic Johnson 1987 im Finale ein wichtiges Spiel gegen Boston?",
       "antworten": [
-        "Washington Bullets",
-        "Boston Celtics",
-        "Golden State Warriors",
-        "Milwaukee Bucks"
+        "Mit einem Dunk",
+        "Mit einem Hakenwurf",
+        "Mit einem Freiwurf von unten",
+        "Mit einem Dreier von der Mittellinie"
       ],
-      "richtig": 2,
-      "erklaerung": "Die Golden State Warriors gewannen die Finals 1975 gegen Washington mit 4:0 Siegen."
+      "richtig": 1,
+      "erklaerung": "Magic nannte ihn seinen „Junior Skyhook“ – einen kleinen Hakenwurf wie bei seinem Mitspieler Kareem Abdul-Jabbar."
     },
     {
       "liga": "BBL",
-      "frage": "Auf welchem Platz steht der FC Bayern nach 14 Spielen in der Euroleague-Tabelle?",
+      "frage": "Gegen wen spielt Deutschland am Montag in Frankfurt in der WM-Quali?",
       "antworten": [
-        "Platz 3",
-        "Platz 9",
-        "Platz 17",
-        "Platz 20"
+        "Lettland",
+        "Kroatien",
+        "Polen",
+        "Israel"
       ],
       "richtig": 2,
-      "erklaerung": "Bayern hat 4 Siege und 10 Niederlagen und steht auf Platz 17."
+      "erklaerung": "Am 30. November um 19:30 Uhr geht es gegen Polen. Beide Teams haben das WM-Ticket schon sicher."
     }
   ],
   "lexikon": [
@@ -3340,6 +3279,21 @@
       "begriff": "Thanksgiving",
       "en": "Thanksgiving",
       "erklaerung": "Ein großer Feiertag in den USA am vierten Donnerstag im November. Viele Familien essen zusammen Truthahn."
+    },
+    {
+      "begriff": "Dreierlinie",
+      "en": "three-point line",
+      "erklaerung": "Der große Bogen um den Korb. Wer mit beiden Füßen dahinter wirft und trifft, bekommt 3 Punkte. Wer auf der Linie steht, nur 2."
+    },
+    {
+      "begriff": "Gruppensieger",
+      "en": "group winner",
+      "erklaerung": "Das Team, das in seiner Gruppe auf Platz eins landet. Im NBA Cup kommen die Gruppensieger ins Viertelfinale."
+    },
+    {
+      "begriff": "Viertelfinale",
+      "en": "quarterfinal",
+      "erklaerung": "Die Runde mit den letzten acht Teams. Wer gewinnt, kommt ins Halbfinale."
     }
   ],
   "teams": {
@@ -3971,65 +3925,70 @@
   "auffaellig": [
     {
       "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-25",
-      "titel": "Kevin Durant",
-      "team": "HOU",
-      "wert": "33.000 Punkte",
-      "grund": "Mit einem Dreier kurz vor der Halbzeit knackte er die Marke. Das haben vor ihm erst vier Spieler in der NBA geschafft.",
-      "newsId": "2026-11-26-durant-33000"
+      "liga": "DBB",
+      "datum": "2026-11-27",
+      "titel": "Andreas Obst",
+      "team": "GER",
+      "wert": "25 Punkte",
+      "grund": "In den letzten zwei Minuten traf er Wurf um Wurf. Damit sicherte er Deutschland das Ticket für die WM 2027.",
+      "newsId": "2026-11-28-dbb-wm-ticket"
     },
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-25",
-      "titel": "LeBron James",
-      "team": "PHI",
-      "wert": "Triple-Double mit 41",
-      "grund": "25 Punkte, 12 Assists und 10 Rebounds beim Sieg gegen Miami – sein erstes Triple-Double für die 76ers.",
-      "newsId": "2026-11-26-lebron-triple-double-sixers"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-25",
-      "titel": "Deni Avdija",
-      "team": "POR",
-      "wert": "Dreier über das Brett",
-      "grund": "38 Sekunden vor Schluss traf er den wichtigsten Wurf. Mit 33 Punkten stoppte Portland die Spurs, obwohl Victor Wembanyama 44 Punkte machte.",
-      "newsId": "2026-11-26-avdija-stoppt-wembanyama"
-    },
-    {
-      "art": "spieler",
-      "liga": "NBA",
-      "datum": "2026-11-25",
-      "titel": "De'Anthony Melton",
-      "team": "GSW",
-      "wert": "8 Dreier",
-      "grund": "Er machte 24 Punkte gegen Sacramento. Golden State gewann schon das erste Viertel mit 44:19."
+      "datum": "2026-11-27",
+      "titel": "Giannis Antetokounmpo",
+      "team": "MIA",
+      "wert": "23 Rebounds",
+      "grund": "So viele Rebounds hatte er in seiner ganzen NBA-Karriere noch nie in einem Spiel. Dazu kamen 22 Punkte beim Sieg in New York.",
+      "newsId": "2026-11-28-giannis-23-rebounds"
     },
     {
       "art": "spiel",
       "liga": "NBA",
-      "datum": "2026-11-25",
-      "heim": "CHA",
-      "gast": "CHI",
-      "wert": "22 Führungswechsel",
-      "grund": "Mehr als die Hälfte davon im letzten Viertel! Der letzte Wurf von Charlotte sprang mit der Sirene vom Ring – Chicago gewann 107:105.",
-      "newsId": "2026-11-26-bulls-hornets-krimi"
+      "datum": "2026-11-27",
+      "heim": "PHX",
+      "gast": "DAL",
+      "wert": "17 Punkte aufgeholt",
+      "grund": "Dallas lag nach drei Vierteln 78:95 hinten und gewann das letzte Viertel 35:14. Cooper Flagg machte 34 Punkte.",
+      "newsId": "2026-11-28-flagg-mavs-aufholjagd"
     },
     {
       "art": "spiel",
-      "liga": "EL",
-      "datum": "2026-11-25",
-      "heim": "DUB",
-      "gast": "PAR",
-      "wert": "26:9 im Schlussviertel",
-      "grund": "Partizan lag in Dubai nach drei Vierteln noch hinten. Dann drehte es das Spiel und gewann 84:71.",
-      "newsId": "2026-11-26-euroleague-mittwoch"
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "heim": "BOS",
+      "gast": "ATL",
+      "wert": "Nur 1 Punkt!",
+      "grund": "Atlanta gewann 87:86. Bostons Dreier mit der Schlusssirene kam einen Punkt zu kurz.",
+      "newsId": "2026-11-28-hawks-celtics-1-punkt"
+    },
+    {
+      "art": "spieler",
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "titel": "Immanuel Quickley",
+      "team": "TOR",
+      "wert": "Triple-Double",
+      "grund": "24 Punkte, 14 Assists und 10 Rebounds gegen Brooklyn – in drei Kategorien zweistellig.",
+      "newsId": "2026-11-28-quickley-triple-double-nets"
+    },
+    {
+      "art": "spiel",
+      "liga": "NBA",
+      "datum": "2026-11-27",
+      "heim": "SAS",
+      "gast": "LAL",
+      "wert": "16 Punkte zurück",
+      "grund": "Zur Pause lagen die Spurs 38:54 hinten. Am Ende gewannen sie das Spitzenspiel gegen die Lakers 99:96.",
+      "newsId": "2026-11-28-spurs-drehen-lakers"
     }
   ],
   "legacyGestellt": [
+    "Tracy McGrady 13 Punkte in 35 Sekunden (2004)",
+    "ALBA EuroCup-Finale gegen Valencia (2019)",
+    "Daniel Theis Meister mit Bamberg vor NBA (2017)",
+    "Magic Johnson Junior Skyhook (1987)",
     "Lakers 33 Siege in Folge (1971/72)",
     "Ulm ratiopharm arena (2011)",
     "ALBA Finale gegen Ludwigsburg (2021)",
@@ -4505,21 +4464,55 @@
     }
   ],
   "schiri": {
-    "id": "2026-11-27",
-    "titel": "Der Freiwurf ohne Ring",
+    "id": "2026-11-28",
+    "titel": "Der Fuß auf der Linie",
     "regel": "beide",
-    "situation": "Die Nummer 9 von Team Rot hat zwei Freiwürfe. Den ersten trifft sie. Beim zweiten Freiwurf fliegt der Ball zu kurz: Er berührt weder den Ring noch das Brett und fällt vor dem Korb auf den Boden.",
+    "situation": "Die Nummer 4 von Team Blau steht weit draußen und wirft. Ihre Fußspitze berührt dabei die Dreierlinie. Der Ball fliegt in hohem Bogen – und geht rein.",
     "frage": "Was pfeifst du?",
     "antworten": [
-      "Nichts – wer den Rebound holt, hat den Ball",
-      "Freiwurf-Verstoß – Team Blau bekommt den Ball",
-      "Die Nummer 9 darf den Freiwurf wiederholen",
-      "Sprungball"
+      "3 Punkte – sie stand ja fast hinter der Linie",
+      "2 Punkte – die Linie gehört zum Zweier-Bereich",
+      "Kein Korb – Fuß auf der Linie ist ein Verstoß",
+      "Der Wurf wird wiederholt"
     ],
     "richtig": 1,
-    "erklaerung": "Bei einem Freiwurf muss der Ball den Ring berühren oder in den Korb gehen. Tut er das nicht, ist das ein Verstoß. Weil es der letzte Freiwurf war, bekommt Team Blau den Ball zum Einwurf."
+    "erklaerung": "Die Dreierlinie selbst gehört noch zum Zweier-Bereich. Wer beim Wurf auf der Linie steht, bekommt nur 2 Punkte. Für einen Dreier müssen beide Füße hinter der Linie sein. Wichtig ist, wo der Fuß beim Absprung war – landen darf man danach auch davor.",
+    "skizze": {
+      "spieler": [
+        {
+          "x": 20,
+          "y": 44,
+          "team": "a",
+          "label": "4"
+        },
+        {
+          "x": 28,
+          "y": 38,
+          "team": "b",
+          "label": "8"
+        }
+      ],
+      "ball": {
+        "x": 22,
+        "y": 42
+      },
+      "pfeile": [
+        {
+          "von": [
+            22,
+            42
+          ],
+          "nach": [
+            50,
+            10.5
+          ],
+          "art": "pass"
+        }
+      ]
+    }
   },
   "schiriGestellt": [
+    "Fuß auf der Dreierlinie beim Wurf (2 Punkte)",
     "Freiwurf berührt den Ring nicht (Freiwurf-Verstoß)",
     "Ball von unten durch den Korb (Regelverstoß)",
     "Ball absichtlich mit dem Fuß gestoppt (Fußspiel)",
@@ -4552,72 +4545,74 @@
     "Zwei Schritte nach dem Fangen (Schrittfehler)"
   ],
   "comic": {
-    "datum": "2026-11-25",
-    "liga": "NBA",
-    "heim": "POR",
-    "gast": "SAS",
-    "newsId": "2026-11-26-avdija-stoppt-wembanyama",
-    "titel": "Der Dreier übers Brett",
-    "untertitel": "Portland Trail Blazers – San Antonio Spurs · NBA Cup · Mittwoch, 25. November",
-    "erklaerung": "Victor Wembanyama machte 44 Punkte, doch das Spiel entschied Deni Avdija. Erst traf er zwei Freiwürfe, dann 38 Sekunden vor Schluss einen Dreier, der vom Brett in den Korb ging. Portland gewann 116:111.",
+    "datum": "2026-11-27",
+    "liga": "DBB",
+    "heim": "LAT",
+    "gast": "GER",
+    "newsId": "2026-11-28-dbb-wm-ticket",
+    "titel": "Das WM-Ticket",
+    "untertitel": "Lettland – Deutschland · WM-Qualifikation · Freitag, 27. November",
+    "erklaerung": "Deutschland gewann in Riga 78:76 gegen Lettland. Andreas Obst traf in den letzten zwei Minuten entscheidende Würfe und machte insgesamt 25 Punkte. Damit spielt Deutschland bei der WM 2027 in Katar.",
     "bilder": [
       {
         "szene": "ankunft",
-        "text": "Portland, Mittwochabend: Deni Avdija und die Blazers erwarten die Spurs.",
+        "text": "Riga, Freitagabend: Andreas Obst und die Weltmeister wollen das WM-Ticket.",
         "spieler": {
-          "name": "Deni Avdija",
-          "team": "POR"
+          "name": "Andreas Obst",
+          "team": "GER"
         }
       },
       {
-        "szene": "dunk",
-        "text": "Victor Wembanyama ist kaum zu stoppen. Am Ende hat er 44 Punkte.",
-        "sfx": "BAMM!",
+        "szene": "halle",
+        "text": "Die Halle ist laut. Lettland kämpft sich heran und gleicht zum 61:61 aus.",
+        "label": "LET'S GO GERMANY",
         "spieler": {
-          "name": "Victor Wembanyama",
-          "team": "SAS"
+          "name": "Andreas Obst",
+          "team": "GER"
         },
-        "gegner": "POR"
+        "gegner": "LAT"
       },
       {
         "szene": "anzeige",
-        "text": "Zwei Minuten vor Schluss gleicht Wembanyama mit einem Dunk aus.",
-        "tafel": "BLAZERS 109 : 109 SPURS",
+        "text": "Zwei Minuten vor Schluss führt Deutschland nur mit einem Punkt.",
+        "tafel": "LAT 71 : 72 GER",
         "label": "NOCH ZWEI MINUTEN",
         "spieler": {
-          "name": "Deni Avdija",
-          "team": "POR"
+          "name": "Andreas Obst",
+          "team": "GER"
         },
-        "gegner": "SAS"
-      },
-      {
-        "szene": "halle",
-        "text": "Avdija trifft zwei Freiwürfe – Portland führt wieder.",
-        "label": "LET'S GO BLAZERS",
-        "spieler": {
-          "name": "Deni Avdija",
-          "team": "POR"
-        },
-        "gegner": "SAS"
+        "gegner": "LAT"
       },
       {
         "szene": "wurf",
-        "text": "Noch 38 Sekunden: Avdijas Dreier knallt ans Brett – und fällt rein!",
-        "sfx": "BANG!",
+        "text": "Obst trifft – und trifft wieder. 14 Sekunden vor Schluss steht es 78:73.",
+        "sfx": "SWISH!",
         "spieler": {
-          "name": "Deni Avdija",
-          "team": "POR"
+          "name": "Andreas Obst",
+          "team": "GER"
         },
-        "gegner": "SAS"
+        "gegner": "LAT"
+      },
+      {
+        "szene": "anzeige",
+        "text": "Lettland verkürzt noch einmal. Der letzte Wurf der Letten geht daneben!",
+        "tafel": "LAT 76 : 78 GER",
+        "label": "NOCH 5 SEKUNDEN",
+        "spieler": {
+          "name": "Andreas Obst",
+          "team": "GER"
+        },
+        "gegner": "LAT"
       },
       {
         "szene": "zahl",
-        "zahl": "116:111",
-        "label": "Sieg für Portland",
-        "text": "Avdija schafft 33 Punkte, 12 Rebounds und 7 Assists.",
+        "zahl": "25",
+        "label": "Punkte für Obst",
+        "text": "Geschafft! Deutschland fährt 2027 zur WM nach Katar.",
+        "sfx": "YES!",
         "spieler": {
-          "name": "Deni Avdija",
-          "team": "POR"
+          "name": "Andreas Obst",
+          "team": "GER"
         }
       }
     ]

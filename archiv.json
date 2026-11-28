@@ -2,6 +2,288 @@
   "hinweis": "Ältere Artikel, die aus data.json herausgefallen sind. Gleicher Aufbau wie data.json/news. Neueste zuerst; Artikel älter als 4 Wochen werden gelöscht.",
   "news": [
     {
+      "id": "2026-11-27-cup-abend-nach-thanksgiving",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-27",
+      "tags": [],
+      "titel": "Nach der Thanksgiving-Pause: Großer Cup-Abend in der NBA",
+      "teaser": "Am Donnerstag war in den USA Thanksgiving, die NBA machte Pause. In der Nacht auf Samstag geht es mit elf Spielen im NBA Cup weiter – zwei davon live bei Prime Video.",
+      "text": [
+        "Am Donnerstag gab es kein einziges NBA-Spiel. In den USA war Thanksgiving, ein großer Feiertag. Viele Familien sitzen an diesem Tag zusammen und essen Truthahn.",
+        "In der Nacht auf Samstag wird es dafür richtig voll: Elf Spiele stehen im NBA Cup auf dem Plan. Die Boston Celtics sind im Cup noch ungeschlagen und spielen gegen die Atlanta Hawks um den Gruppensieg. Minnesota hat im Cup drei Siege und keine Niederlage und empfängt Memphis.",
+        "Dallas mit Cooper Flagg spielt in Phoenix sein letztes Gruppenspiel. Die Suns sind schon ausgeschieden. Die New York Knicks haben sechs Spiele in Folge gewonnen und treffen um 1 Uhr deutscher Zeit auf Miami. Um 3:30 Uhr spielen die Lakers bei Victor Wembanyama und den Spurs. Beide Spiele zeigt Prime Video.",
+        "Brooklyn spielt um 1:30 Uhr in Toronto. Moritz Wagner hatte das letzte Spiel der Nets nach vier Minuten angeschlagen verlassen. Die Golden State Warriors sind in Portland zu Gast, wo Deni Avdija gerade die Spurs gestoppt hat."
+      ],
+      "fakten": [
+        "Thanksgiving: Donnerstag, 26.11. – keine NBA-Spiele",
+        "11 Spiele in der Nacht auf Samstag (deutsche Zeit)",
+        "Knicks – Heat: 1:00 Uhr (Prime Video)",
+        "Spurs – Lakers: 3:30 Uhr (Prime Video)",
+        "Raptors – Nets mit Moritz Wagner: 1:30 Uhr",
+        "Celtics – Hawks: 2:00 Uhr, es geht um den Gruppensieg"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "NYK",
+        "MIA",
+        "DET",
+        "MIL",
+        "IND",
+        "PHI",
+        "TOR",
+        "BKN",
+        "BOS",
+        "ATL",
+        "MIN",
+        "MEM",
+        "PHX",
+        "DAL",
+        "SAS",
+        "LAL",
+        "UTA",
+        "DEN",
+        "LAC",
+        "NOP",
+        "POR",
+        "GSW"
+      ],
+      "spieler": [
+        "Cooper Flagg",
+        "Victor Wembanyama",
+        "Moritz Wagner",
+        "Deni Avdija"
+      ]
+    },
+    {
+      "id": "2026-11-26-durant-33000",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-26",
+      "tags": [],
+      "titel": "33.000 Punkte! Kevin Durant schafft eine Riesen-Marke",
+      "teaser": "Beim 116:104 der Houston Rockets gegen Phoenix knackte Kevin Durant die Marke von 33.000 Punkten. Vor ihm haben das nur vier Spieler geschafft.",
+      "text": [
+        "Kevin Durant gehört jetzt zu einem ganz kleinen Klub. Beim 116:104-Sieg der Houston Rockets gegen die Phoenix Suns erreichte er 33.000 Punkte in der NBA. Das haben vor ihm erst vier Spieler geschafft: LeBron James, Kareem Abdul-Jabbar, Karl Malone und Kobe Bryant.",
+        "Der große Moment kam kurz vor der Pause. 46 Sekunden vor der Halbzeit traf Durant einen Dreier – damit war die Marke geknackt. Am Ende hatte er 20 Punkte und 10 Rebounds.",
+        "Auch Alperen Sengun glänzte. Er kam auf 23 Punkte, 11 Rebounds und mindestens zehn Assists. Das war schon sein drittes Triple-Double in dieser Saison.",
+        "Spannend wurde es noch einmal im letzten Viertel. Phoenix startete mit einem 16:5-Lauf und kam bis auf zwei Punkte heran. Dann traf Fred VanVleet zwei Dreier, und Houston war wieder sicher vorne. Die Suns trafen von ihren letzten 24 Dreierversuchen nur einen und sind damit im NBA Cup ausgeschieden."
+      ],
+      "fakten": [
+        "Endstand: Houston Rockets – Phoenix Suns 116:104",
+        "Kevin Durant: 20 Punkte, 10 Rebounds",
+        "Durant ist der fünfte Spieler mit 33.000 NBA-Punkten",
+        "Alperen Sengun: 23 Punkte, 11 Rebounds – Triple-Double",
+        "Devin Booker (Phoenix): 25 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "HOU",
+        "PHX"
+      ],
+      "spieler": [
+        "Kevin Durant",
+        "Alperen Sengun",
+        "Amen Thompson",
+        "Fred VanVleet",
+        "Devin Booker",
+        "Jalen Green",
+        "LeBron James"
+      ]
+    },
+    {
+      "id": "2026-11-26-bulls-hornets-krimi",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-26",
+      "tags": [],
+      "titel": "22 Führungswechsel! Charlotte verliert den Krimi gegen Chicago",
+      "teaser": "Brandon Miller machte 35 Punkte, doch der letzte Wurf von Coby White sprang vom Ring. Die Bulls gewannen in Charlotte 107:105.",
+      "text": [
+        "Was für ein Krimi in Charlotte! Die Chicago Bulls gewannen bei den Charlotte Hornets 107:105. Die Führung wechselte 22-mal, mehr als die Hälfte davon im letzten Viertel.",
+        "In den letzten Sekunden ging es hin und her. Matas Buzelis tippte 23 Sekunden vor Schluss einen Rebound in den Korb. Brandon Miller antwortete mit einem Korbleger. Danach trafen Buzelis und Coby White je zwei Freiwürfe. Tre Jones traf für Chicago einen von zwei Freiwürfen zum 107:105.",
+        "Charlotte hatte keine Auszeit mehr. Coby White dribbelte über das ganze Feld und warf mit der Schlusssirene – der Ball sprang vom Ring. Brandon Miller machte 35 Punkte, schon sein viertes 30-Punkte-Spiel der Saison. Buzelis war mit 24 Punkten bester Werfer der Bulls.",
+        "Hannes Steinbach spielte 8 Minuten und kam auf 3 Punkte und 3 Rebounds. Dennis Schröder fehlte. Für Charlotte war es die siebte Niederlage hintereinander. In der Nacht auf Sonntag kommen die Brooklyn Nets mit Moritz Wagner."
+      ],
+      "fakten": [
+        "Endstand: Charlotte Hornets – Chicago Bulls 105:107",
+        "Brandon Miller: 35 Punkte",
+        "Matas Buzelis (Chicago): 24 Punkte",
+        "Josh Giddey (Chicago): 12 Punkte, 11 Rebounds, 7 Assists",
+        "Hannes Steinbach: 3 Punkte, 3 Rebounds in 8 Minuten",
+        "22 Führungswechsel im Spiel"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "CHA",
+        "CHI",
+        "BKN"
+      ],
+      "spieler": [
+        "Brandon Miller",
+        "Coby White",
+        "Naz Reid",
+        "Moussa Diabaté",
+        "Hannes Steinbach",
+        "Dennis Schröder",
+        "Matas Buzelis",
+        "Josh Giddey",
+        "Tre Jones",
+        "Moritz Wagner"
+      ]
+    },
+    {
+      "id": "2026-11-26-knicks-alvarado",
+      "liga": "NBA",
+      "lang": "en",
+      "motiv": "jubel",
+      "datum": "2026-11-26",
+      "tags": [],
+      "titel": "Hero from the bench: Alvarado helps the Knicks win again",
+      "teaser": "The Knicks were behind for a long time. Then Jose Alvarado made shot after shot. New York beat Cleveland 121:102.",
+      "text": [
+        "The New York Knicks have won six games in a row. On Wednesday they beat the Cleveland Cavaliers 121:102. But for a long time it did not look good. Cleveland was 11 points ahead more than once.",
+        "Then Jose Alvarado came off the bench. He scored 21 points, his best game this season. He made 5 of his 7 three-pointers. At the start of the fourth quarter he made two 3-pointers in a row, and New York took the lead.",
+        "The Knicks won the fourth quarter 39:17. Jalen Brunson was a little sick before the game, but he still scored 19 points. Karl-Anthony Towns had 12 points and 10 rebounds. He has a double-double in every game this season!",
+        "For Cleveland, Donovan Mitchell scored 30 points and James Harden 28. The Knicks are the champions from last season. With a loss they would be out of the NBA Cup."
+      ],
+      "fakten": [
+        "Final score: New York Knicks – Cleveland Cavaliers 121:102",
+        "Jose Alvarado: 21 points, 5 of 7 threes",
+        "Fourth quarter: 39:17 for New York",
+        "Karl-Anthony Towns: 12 points, 10 rebounds, 7 assists",
+        "Donovan Mitchell (Cleveland): 30 points"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "NYK",
+        "CLE"
+      ],
+      "spieler": [
+        "Jose Alvarado",
+        "Jalen Brunson",
+        "Mikal Bridges",
+        "Josh Hart",
+        "Karl-Anthony Towns",
+        "Landry Shamet",
+        "Donovan Mitchell",
+        "James Harden",
+        "Jarrett Allen"
+      ],
+      "vokabeln": [
+        {
+          "en": "bench",
+          "de": "Ersatzbank"
+        },
+        {
+          "en": "ahead",
+          "de": "vorne, in Führung"
+        },
+        {
+          "en": "to take the lead",
+          "de": "in Führung gehen"
+        },
+        {
+          "en": "sick",
+          "de": "krank"
+        }
+      ]
+    },
+    {
+      "id": "2026-11-26-nets-siegen-in-milwaukee",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-26",
+      "tags": [],
+      "titel": "Serie gestoppt: Randle führt die Nets zum Sieg in Milwaukee",
+      "teaser": "Die Brooklyn Nets hatten fünfmal hintereinander verloren. In Milwaukee gewannen sie 104:97 – Julius Randle machte 28 Punkte.",
+      "text": [
+        "Endlich wieder ein Sieg für die Brooklyn Nets! Nach fünf Niederlagen in Folge gewannen sie bei den Milwaukee Bucks 104:97. Julius Randle war mit 28 Punkten der beste Werfer.",
+        "Milwaukee startete besser und führte schnell 9:2. Dann drehten die Nets mit einem 16:2-Lauf das Spiel. Im zweiten Viertel lagen sie schon mit 13 Punkten vorne.",
+        "Im dritten Viertel ging Milwaukee nach einem Dreier von Tyler Herro kurz in Führung. Doch Brooklyn holte sich die Führung zurück und baute sie im letzten Viertel aus. Day'Ron Sharpe sammelte 14 Rebounds, Noah Clowney machte 17 Punkte von der Bank.",
+        "Moritz Wagner spielte nur vier Minuten und verließ das Spiel dann angeschlagen. Für die Bucks war es die 17. Niederlage im 19. Spiel. Herro machte für Milwaukee 28 Punkte."
+      ],
+      "fakten": [
+        "Endstand: Milwaukee Bucks – Brooklyn Nets 97:104",
+        "Julius Randle: 28 Punkte, 9 Rebounds",
+        "Noah Clowney: 17 Punkte",
+        "Day'Ron Sharpe: 11 Punkte, 14 Rebounds",
+        "Tyler Herro (Milwaukee): 28 Punkte"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "BKN",
+        "MIL"
+      ],
+      "spieler": [
+        "Julius Randle",
+        "Noah Clowney",
+        "Egor Dëmin",
+        "Michael Porter Jr.",
+        "Day'Ron Sharpe",
+        "Moritz Wagner",
+        "Tyler Herro",
+        "Jaime Jaquez Jr.",
+        "Kyle Kuzma",
+        "Kel'el Ware"
+      ]
+    },
+    {
+      "id": "2026-11-26-dbb-vor-lettland",
+      "liga": "DBB",
+      "lang": "de",
+      "motiv": "flagge",
+      "datum": "2026-11-26",
+      "tags": [],
+      "titel": "Ein Sieg in Riga – und die Weltmeister fahren zur WM",
+      "teaser": "Am Freitag spielt Deutschland in Lettland. Gewinnt das Team, ist es sicher bei der WM 2027 in Katar dabei. Andreas Obst und Oscar da Silva sind jetzt auch da.",
+      "text": [
+        "Jetzt wird es ernst für die Weltmeister. Am Freitag um 18:30 Uhr spielt die deutsche Nationalmannschaft in Riga gegen Lettland. Gewinnt Deutschland, hat es das Ticket für die Weltmeisterschaft 2027 in Katar sicher.",
+        "Am Mittwoch kamen Andreas Obst und Oscar da Silva vom FC Bayern zum Team nach Frankfurt. Sie hatten am Dienstagabend noch in der Euroleague gespielt. Nicholas Tischler aus Oldenburg gehört nicht mehr zum Kader. Justus Hollatz fehlt verletzt.",
+        "Die NBA-Stars sind in diesem Länderspielfenster nicht dabei, und auch einige Euroleague-Spieler fehlen. Bei Bundestrainer Álex Mumbrú stehen deshalb viele Spieler aus der Bundesliga im Kader, zum Beispiel von ALBA Berlin.",
+        "In der Gruppe K haben Deutschland, Kroatien und Polen je 7 Siege und 1 Niederlage. Lettland ist mit 4 Siegen Vierter. Auch bei einer Niederlage hätte Deutschland die WM noch selbst in der Hand. Am Montag folgt das Heimspiel gegen Polen in Frankfurt."
+      ],
+      "fakten": [
+        "Lettland – Deutschland: Freitag, 27.11., 18:30 Uhr in Riga",
+        "Deutschland – Polen: Montag, 30.11., 19:30 Uhr in Frankfurt",
+        "Neu im Team: Andreas Obst und Oscar da Silva (FC Bayern)",
+        "WM 2027 in Katar: 27. August bis 12. September",
+        "Beide Spiele live bei MagentaSport"
+      ],
+      "quellen": [
+        "Deutscher Basketball Bund"
+      ],
+      "teams": [
+        "GER",
+        "LAT",
+        "POL",
+        "CRO",
+        "FCB",
+        "OLD",
+        "ALBA"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-25-flagg-mavs-nuggets",
       "liga": "NBA",
       "lang": "de",
@@ -80,6 +362,132 @@
         "ULM",
         "FRA",
         "RYT"
+      ],
+      "spieler": []
+    },
+    {
+      "id": "2026-11-25-pistons-stoppen-magic",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "dreier",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "NBA Cup: Detroit stoppt Franz Wagner und die Magic",
+      "teaser": "Orlando verliert sein erstes Spiel im NBA Cup – 86:104 gegen Detroit. Franz Wagner macht 20 Punkte, Tristan da Silva trifft 4 Dreier.",
+      "text": [
+        "Die Orlando Magic hatten im NBA Cup bisher jedes Spiel gewonnen. Mit einem Sieg gegen Detroit wären sie Gruppensieger gewesen. Doch die Pistons waren stärker und gewannen in Orlando 104:86.",
+        "Im zweiten Viertel machte Detroit 18 Punkte am Stück. Franz Wagner hatte zur Halbzeit nur 2 Punkte. In der zweiten Hälfte wurde er besser und kam am Ende auf 20 Punkte, 9 Rebounds und 6 Assists. Tristan da Silva traf 4 Dreier und machte 16 Punkte. Desmond Bane war mit 21 Punkten Orlandos Topscorer.",
+        "Bei Detroit fehlte Star Cade Cunningham verletzt. Dafür stand Isaiah Joe zum ersten Mal für die Pistons in der Startaufstellung. Er hatte vorher vier Saisons für Oklahoma City gespielt. Joe machte 21 Punkte und traf im letzten Viertel drei Dreier hintereinander.",
+        "Orlando muss jetzt warten, wie die anderen Spiele der Gruppe ausgehen. Erst dann steht fest, ob die Magic im NBA Cup weiterkommen. Am Samstag spielt Orlando in Washington."
+      ],
+      "fakten": [
+        "Endstand: Orlando Magic – Detroit Pistons 86:104",
+        "Franz Wagner: 20 Punkte, 9 Rebounds, 6 Assists",
+        "Tristan da Silva: 16 Punkte, 4 Dreier",
+        "Isaiah Joe (DET): 21 Punkte, 5 Dreier",
+        "Ausar Thompson (DET): 10 Rebounds, 7 Assists, 4 Blocks"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "ORL",
+        "DET",
+        "OKC",
+        "WAS"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Desmond Bane",
+        "Wendell Carter Jr.",
+        "Isaiah Joe",
+        "Daniss Jenkins",
+        "Ronald Holland II",
+        "Ausar Thompson",
+        "Cade Cunningham"
+      ]
+    },
+    {
+      "id": "2026-11-25-tatum-41-celtics",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "korb",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "41 Punkte! Jayson Tatum beendet die Pleiteserie der Celtics",
+      "teaser": "Boston hatte viermal hintereinander verloren. In Washington traf Jayson Tatum schon vor der Pause 28 Punkte – die Celtics gewannen 131:116.",
+      "text": [
+        "Für die Boston Celtics lief es zuletzt nicht gut: vier Niederlagen in Folge. In Washington wollte Jayson Tatum das ändern – und wie!",
+        "Schon zur Halbzeit hatte Tatum 28 Punkte. Im zweiten Viertel trafen die Celtics 10 Dreier und machten 46 Punkte. Zur Pause führte Boston 80:49.",
+        "Doch die Wizards gaben nicht auf. Anthony Davis (33 Punkte, 13 Rebounds) und Rookie AJ Dybantsa (20 Punkte, 11 Rebounds) brachten Washington bis auf 112:117 heran. Dann legte Tatum den Ball zum Korbleger rein, und Baylor Scheierman traf einen Dreier. Boston gewann 131:116.",
+        "Tatum beendete das Spiel mit 41 Punkten und 8 Assists. Paul George machte 28 Punkte, Center Neemias Queta 21. Im NBA Cup ist Boston noch ungeschlagen. Am Freitag spielen die Celtics gegen Atlanta um den Gruppensieg."
+      ],
+      "fakten": [
+        "Endstand: Washington Wizards – Boston Celtics 116:131",
+        "Jayson Tatum: 41 Punkte (28 in der ersten Halbzeit), 8 Assists",
+        "Paul George: 28 Punkte, 9 Assists",
+        "Boston im 2. Viertel: 46 Punkte, 10 Dreier",
+        "Anthony Davis (WAS): 33 Punkte, 13 Rebounds"
+      ],
+      "quellen": [
+        "ESPN",
+        "Associated Press"
+      ],
+      "teams": [
+        "BOS",
+        "WAS",
+        "ATL"
+      ],
+      "spieler": [
+        "Jayson Tatum",
+        "Paul George",
+        "Neemias Queta",
+        "Baylor Scheierman",
+        "Anthony Davis",
+        "AJ Dybantsa",
+        "Kyshawn George",
+        "Trae Young"
+      ]
+    },
+    {
+      "id": "2026-11-25-euroleague-dienstag",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "jubel",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "Euroleague-Dienstag: Fenerbahçe dreht das Spiel in Barcelona",
+      "teaser": "Sechs Spiele, sechs Auswärtssiege! Shavon Shields trifft 7 Dreier für Fenerbahçe, Mailand zittert in Villeurbanne, und Virtus Bologna macht 108 Punkte.",
+      "text": [
+        "Am Dienstag gab es in der Euroleague etwas Seltenes: Alle sechs Spiele gewann die Gastmannschaft.",
+        "Am spannendsten war es in Barcelona. Fenerbahçe lag nach drei Vierteln mit 8 Punkten hinten. Im letzten Viertel machte das Team aus Istanbul 30 Punkte und gewann 83:77. Shavon Shields traf 7 Dreier und kam auf 26 Punkte.",
+        "Olimpia Mailand führte in Villeurbanne nach drei Vierteln mit 82:58. Dann machte ASVEL im letzten Viertel 33 Punkte. Mailand rettete einen 95:91-Sieg. Moses Wright traf 13 seiner 16 Zweier und machte 29 Punkte.",
+        "Virtus Bologna gewann in Belgrad bei Roter Stern mit 108:84. Trainer von Virtus ist Álex Mumbrú – er ist auch Bundestrainer der deutschen Nationalmannschaft. Außerdem siegten Panathinaikos in Valencia (86:83) und Paris Basketball bei Beşiktaş (88:76)."
+      ],
+      "fakten": [
+        "Barcelona – Fenerbahçe 77:83 (Shields 26 Punkte, 7 Dreier)",
+        "Villeurbanne – Mailand 91:95 (Wright 29 Punkte)",
+        "Roter Stern – Virtus Bologna 84:108",
+        "Valencia – Panathinaikos 83:86",
+        "Beşiktaş – Paris Basketball 76:88"
+      ],
+      "quellen": [
+        "Euroleague"
+      ],
+      "teams": [
+        "FEN",
+        "BAR",
+        "EA7",
+        "ASV",
+        "VIR",
+        "CZV",
+        "PAO",
+        "VAL",
+        "PBB",
+        "BES",
+        "GER"
       ],
       "spieler": []
     },
@@ -7867,193 +8275,6 @@
         "Joel Embiid",
         "Shai Gilgeous-Alexander",
         "Isaiah Hartenstein"
-      ]
-    },
-    {
-      "id": "2026-10-30-bbl-wochenende",
-      "liga": "BBL",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-30",
-      "tags": [],
-      "titel": "Bundesliga-Wochenende: Bayern in Rostock, ALBA in Bonn",
-      "teaser": "Neun Spiele bis Sonntag. Tabellenführer FC Bayern ist noch ungeschlagen.",
-      "text": [
-        "In der Bundesliga geht es heute Abend weiter. Den Anfang macht Jena gegen die Skyliners aus Frankfurt (18:30 Uhr). Danach empfängt Hagen um 20 Uhr Vechta.",
-        "Der FC Bayern hat alle fünf Ligaspiele gewonnen und ist Tabellenführer. Am Sonntag um 15 Uhr müssen die Münchner in Rostock antreten. Nach der deutlichen Niederlage in Belgrad wollen sie schnell wieder gewinnen.",
-        "ALBA BERLIN spielt am Sonntag um 18 Uhr in Bonn. Beide Teams haben 3 Siege und 3 Niederlagen. Wer gewinnt, klettert in der Tabelle nach oben.",
-        "Am Samstag gibt es außerdem Ulm gegen Oldenburg, Braunschweig gegen Würzburg und Chemnitz gegen Ludwigsburg. Alle Spiele zeigt DYN."
-      ],
-      "fakten": [
-        "Heute, 18:30 Uhr: Jena gegen Frankfurt",
-        "So, 15 Uhr: Rostock gegen FC Bayern",
-        "So, 18 Uhr: Bonn gegen ALBA"
-      ],
-      "quellen": [
-        "easycredit-bbl.de"
-      ],
-      "teams": [
-        "JEN",
-        "FRA",
-        "HAG",
-        "VEC",
-        "ROS",
-        "FCB",
-        "BON",
-        "ALBA",
-        "ULM",
-        "OLD",
-        "BRA",
-        "WUE",
-        "CHE",
-        "LUD",
-        "BAM",
-        "HAM",
-        "MBC"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-10-30-boozer-triple-double",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-30",
-      "tags": [],
-      "titel": "Boozer schafft sein erstes Triple-Double",
-      "teaser": "Der Rookie aus Memphis sammelt Punkte, Rebounds und Assists. Die Grizzlies bleiben ungeschlagen.",
-      "text": [
-        "Cameron Boozer spielt seine allererste Saison in der NBA. In Portland gelang ihm nun etwas ganz Besonderes: sein erstes Triple-Double.",
-        "Boozer kam auf 18 Punkte, 12 Rebounds und 12 Assists. In allen drei Statistiken hatte er also mindestens 10. Dazu traf er 4 von 5 Dreiern.",
-        "Memphis gewann deutlich mit 124:103. Neben Boozer trafen sieben weitere Grizzlies zweistellig. Bester Einwechselspieler war Isaiah Stewart mit 18 Punkten.",
-        "Damit hat Memphis alle fünf Spiele der Saison gewonnen. Nur Houston ist im Westen genauso gut gestartet. Bei Portland war Deni Avdija mit 24 Punkten der beste Werfer."
-      ],
-      "fakten": [
-        "Endstand: Portland 103, Memphis 124",
-        "Boozer: 18 Punkte, 12 Rebounds, 12 Assists",
-        "Bilanz Memphis: 5 Siege, 0 Niederlagen"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "MEM",
-        "POR"
-      ],
-      "spieler": [
-        "Cameron Boozer",
-        "Isaiah Stewart",
-        "Deni Avdija",
-        "Zach Edey",
-        "Ja Morant"
-      ]
-    },
-    {
-      "id": "2026-10-30-hawks-cavs",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-30",
-      "tags": [],
-      "titel": "Atlanta dreht das Spiel gegen Cleveland",
-      "teaser": "Die Hawks lagen früh mit 15 Punkten hinten – und gewannen am Ende doch mit 114:111.",
-      "text": [
-        "Für Atlanta begann der Abend schlecht. Cleveland führte im ersten Viertel schon mit 15 Punkten Vorsprung.",
-        "Im zweiten Viertel kam die Wende: Mit einem 19:2-Lauf drehten die Hawks das Spiel. Aus einem 24:35 wurde ein 43:37.",
-        "Star des Abends war Onyeka Okongwu. Der Center machte 29 Punkte und holte 12 Rebounds, so viele Punkte wie noch nie in dieser Saison. Nickeil Alexander-Walker traf 25 Punkte, Aaron Wiggins kam von der Bank auf 20.",
-        "Ganz am Ende wurde es noch einmal eng. Clevelands Donovan Mitchell hatte im letzten Angriff zwei Chancen zum Ausgleich, traf aber beide Male nicht. So endeten für Atlanta drei Niederlagen in Folge."
-      ],
-      "fakten": [
-        "Endstand: Atlanta 114, Cleveland 111",
-        "Okongwu: 29 Punkte, 12 Rebounds",
-        "Bester Cavalier: James Harden mit 24 Punkten"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "ATL",
-        "CLE"
-      ],
-      "spieler": [
-        "Onyeka Okongwu",
-        "Nickeil Alexander-Walker",
-        "Aaron Wiggins",
-        "James Harden",
-        "Donovan Mitchell"
-      ]
-    },
-    {
-      "id": "2026-10-30-pelicans-erster-sieg",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-30",
-      "tags": [],
-      "titel": "Endlich ein Sieg für New Orleans",
-      "teaser": "Die Pelicans schlagen Sacramento 132:120. Die Kings warten weiter auf ihren ersten Sieg.",
-      "text": [
-        "Vier Spiele, vier Niederlagen – so war New Orleans in die Saison gestartet. Gegen die Sacramento Kings klappte es jetzt mit dem ersten Sieg: 132:120.",
-        "Wichtigster Mann war Jeremiah Fears. Er machte 22 Punkte und verteilte 13 Assists, so viele wie noch nie in seiner NBA-Karriere. Zion Williamson traf 10 von 12 Würfen und kam ebenfalls auf 22 Punkte.",
-        "Auch die Bank der Pelicans war stark: Die Einwechselspieler machten zusammen 41 Punkte, die der Kings nur 8.",
-        "Bei Sacramento glänzte Rookie Darius Acuff Jr. mit 34 Punkten, so vielen wie noch nie in seiner jungen Karriere. Doch die Kings verloren den Ball 25-mal. Sie haben nun 0 Siege und 5 Niederlagen."
-      ],
-      "fakten": [
-        "Endstand: New Orleans 132, Sacramento 120",
-        "Fears: 22 Punkte, 13 Assists",
-        "Acuff Jr.: 34 Punkte für Sacramento"
-      ],
-      "quellen": [
-        "ESPN",
-        "AP"
-      ],
-      "teams": [
-        "NOP",
-        "SAC"
-      ],
-      "spieler": [
-        "Jeremiah Fears",
-        "Zion Williamson",
-        "Darius Acuff Jr.",
-        "Domantas Sabonis",
-        "Trey Murphy III"
-      ]
-    },
-    {
-      "id": "2026-10-30-warriors-lakers-vorschau",
-      "liga": "NBA",
-      "lang": "de",
-      "motiv": "korb",
-      "datum": "2026-10-30",
-      "tags": [],
-      "titel": "Curry gegen Dončić: Warriors empfangen die Lakers",
-      "teaser": "In der Nacht treffen zwei der besten Werfer der NBA aufeinander. Golden State will den dritten Sieg in Folge.",
-      "text": [
-        "In der Nacht zum Samstag spielen die Golden State Warriors zu Hause gegen die Los Angeles Lakers. Anwurf ist um 3 Uhr deutscher Zeit. Prime Video zeigt das Spiel.",
-        "Bei den Warriors dreht sich alles um Stephen Curry. Er macht bisher 28,8 Punkte pro Spiel. Zuletzt holte er 44 Punkte in Minnesota und traf dabei alle 16 Freiwürfe.",
-        "Die Lakers haben Luka Dončić. Er ist mit 36,0 Punkten im Schnitt der beste Werfer der ganzen Liga. Dazu kommt Austin Reaves mit 24,4 Punkten.",
-        "Los Angeles ist mit 4 Siegen und 1 Niederlage gut gestartet. Golden State hat 2 Siege und 3 Niederlagen. Nach drei Pleiten zum Start haben die Warriors aber zweimal hintereinander gewonnen."
-      ],
-      "fakten": [
-        "Anwurf: Samstag, 3 Uhr deutscher Zeit",
-        "Bilanz Lakers: 4 Siege, 1 Niederlage",
-        "Bilanz Warriors: 2 Siege, 3 Niederlagen",
-        "Dončić: 36,0 Punkte pro Spiel"
-      ],
-      "quellen": [
-        "ESPN",
-        "NBA.com"
-      ],
-      "teams": [
-        "GSW",
-        "LAL"
-      ],
-      "spieler": [
-        "Stephen Curry",
-        "Luka Dončić",
-        "Austin Reaves"
       ]
     }
   ]
