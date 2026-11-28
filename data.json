@@ -1,15 +1,15 @@
 {
-  "aktualisiert": "2026-11-28T06:23:14+01:00",
-  "ausgabe": "Morgenausgabe 2026-11-28",
-  "gruss": "Guten Morgen! Deutschland fährt zur WM: In Riga gewannen die Weltmeister 78:76 gegen Lettland, Andreas Obst traf 25 Punkte. In der NBA ist die Gruppenphase im NBA Cup vorbei – die Spurs drehten das Spiel gegen die Lakers, und Cooper Flagg holte mit Dallas 17 Punkte Rückstand auf. Heute Nacht spielt OKC mit Isaiah Hartenstein in Milwaukee, und Brooklyn trifft in Charlotte auf Dennis Schröder.",
+  "aktualisiert": "2026-11-28T16:16:57+01:00",
+  "ausgabe": "Nachmittagsausgabe 2026-11-28",
+  "gruss": "Hallo am Samstagnachmittag! Deutschland hat das WM-Ticket schon sicher – am Montag um 19:30 Uhr geht es in Frankfurt gegen Polen. Heute Nacht wird es spannend für die deutschen NBA-Spieler: Franz Wagner und Tristan da Silva spielen mit Orlando in Washington, Dennis Schröder und Hannes Steinbach treffen mit Charlotte auf Moritz Wagner und Brooklyn, und Isaiah Hartenstein ist mit OKC in Milwaukee zu Gast.",
   "favoritenTeams": [
     "OKC",
     "ALBA"
   ],
   "quizId": "2026-11-28",
   "zahlDesTages": {
-    "zahl": "23",
-    "text": "So viele Rebounds holte Giannis Antetokounmpo beim Sieg der Miami Heat in New York. So viele hatte er in seiner ganzen NBA-Karriere noch nie in einem Spiel."
+    "zahl": "2",
+    "text": "Nur 2 Siege haben die Milwaukee Bucks in ihren ersten 20 Spielen geholt – so wenige wie kein anderes Team. Heute Nacht kommt Oklahoma City zu Besuch."
   },
   "spielerDerWoche": {
     "name": "Victor Wembanyama",
@@ -393,6 +393,48 @@
     "Shaquille O'Neal"
   ],
   "news": [
+    {
+      "id": "2026-11-28-deutsche-nba-nacht",
+      "liga": "NBA",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-28",
+      "tags": [],
+      "titel": "Deutsche NBA-Nacht: Schröder trifft auf Moritz Wagner",
+      "teaser": "In der Nacht auf Sonntag sind gleich sechs deutsche Profis mit ihren Teams im Einsatz. Ein Blick auf die drei Spiele mit deutscher Beteiligung.",
+      "text": [
+        "Für Fans der deutschen NBA-Spieler lohnt sich heute Nacht der Wecker. Gleich drei Spiele mit deutschen Profis stehen an – und sie beginnen schon früh am Abend.",
+        "Um 23 Uhr deutscher Zeit spielt Orlando in Washington. Franz Wagner ist der Chef bei den Magic: Er macht in dieser Saison im Schnitt mehr als 24 Punkte und verteilt über 8 Assists pro Spiel. Mit dabei ist auch Tristan da Silva. Beide Teams haben 7 Siege – wer gewinnt, kommt in der Tabelle ein Stück nach vorne.",
+        "Um Mitternacht kommt es in Charlotte zu einem deutschen Duell: Dennis Schröder und Hannes Steinbach spielen mit den Hornets gegen Moritz Wagner und die Brooklyn Nets. Beide Teams stehen im Osten weit unten und brauchen dringend Siege.",
+        "Um 2 Uhr nachts ist dann Isaiah Hartenstein mit Oklahoma City in Milwaukee zu Gast. OKC hat zuletzt mehrere Spiele verloren und will die Wende schaffen. Milwaukee hat erst 2 von 20 Spielen gewonnen. Für Hartenstein, der fast 11 Rebounds pro Spiel holt, ist das eine gute Chance auf viele Rebounds unter dem Korb."
+      ],
+      "fakten": [
+        "23:00 Uhr: Washington Wizards – Orlando Magic (mit F. Wagner und da Silva)",
+        "0:00 Uhr: Charlotte Hornets – Brooklyn Nets (Schröder und Steinbach gegen M. Wagner)",
+        "2:00 Uhr: Milwaukee Bucks – Oklahoma City Thunder (mit Hartenstein)",
+        "Milwaukee: 2 Siege, 18 Niederlagen"
+      ],
+      "quellen": [
+        "ESPN",
+        "NBA.com"
+      ],
+      "teams": [
+        "ORL",
+        "WAS",
+        "CHA",
+        "BKN",
+        "OKC",
+        "MIL"
+      ],
+      "spieler": [
+        "Franz Wagner",
+        "Tristan da Silva",
+        "Dennis Schröder",
+        "Hannes Steinbach",
+        "Moritz Wagner",
+        "Isaiah Hartenstein"
+      ]
+    },
     {
       "id": "2026-11-28-dbb-wm-ticket",
       "liga": "DBB",
@@ -899,39 +941,6 @@
         "BAS",
         "EFS",
         "FCB",
-        "PBB"
-      ],
-      "spieler": []
-    },
-    {
-      "id": "2026-11-25-bayern-verliert-maccabi",
-      "liga": "EL",
-      "lang": "de",
-      "motiv": "duell",
-      "datum": "2026-11-25",
-      "tags": [],
-      "titel": "Bitteres Ende: Bayern verliert gegen Maccabi nach einem 17:2-Lauf",
-      "teaser": "Knapp acht Minuten vor Schluss führte der FC Bayern noch mit 72:66. Dann drehte Maccabi Tel Aviv das Spiel und gewann in München 87:79.",
-      "text": [
-        "Der FC Bayern hatte gegen Maccabi Tel Aviv lange alles im Griff. Mit der Schlusssirene des dritten Viertels traf Duane Washington einen Dreier zum 68:66. Kurz danach stand es sogar 72:66 für München.",
-        "Doch dann ging bei Bayern fast nichts mehr. Maccabi machte 17 Punkte, Bayern nur 2. Roman Sorkin war der Held der Gäste: Er traf innerhalb von etwas mehr als einer Minute einen Korbleger und zwei Dreier hintereinander.",
-        "Im letzten Viertel gelangen dem FC Bayern nur 11 Punkte. Am Ende verlor München 79:87. Bester Werfer waren Marjon Beauchamp und Duane Washington mit je 13 Punkten. Andreas Obst kam auf 12 Punkte.",
-        "In der Euroleague-Tabelle steht Bayern nach 14 Spielen mit 4 Siegen auf Platz 17. Jetzt ist erst einmal Länderspielpause. Weiter geht es in der Euroleague am Donnerstag, 3. Dezember, zu Hause gegen Paris Basketball."
-      ],
-      "fakten": [
-        "Endstand: FC Bayern – Maccabi Tel Aviv 79:87",
-        "Viertel: 21:21, 22:29, 25:16, 11:21",
-        "Marjon Beauchamp und Duane Washington: je 13 Punkte",
-        "Roman Sorkin (Maccabi): 17 Punkte, 4 Dreier",
-        "Bayern-Bilanz in der Euroleague: 4 Siege, 10 Niederlagen"
-      ],
-      "quellen": [
-        "Euroleague",
-        "FC Bayern Basketball"
-      ],
-      "teams": [
-        "FCB",
-        "MTA",
         "PBB"
       ],
       "spieler": []
@@ -1830,6 +1839,18 @@
       "info": "15. Runde"
     },
     {
+      "liga": "NBA",
+      "zeit": "2026-12-05T01:00:00+01:00",
+      "heim": "ATL",
+      "gast": "PHI"
+    },
+    {
+      "liga": "NBA",
+      "zeit": "2026-12-05T03:30:00+01:00",
+      "heim": "DAL",
+      "gast": "SAS"
+    },
+    {
       "liga": "BBL",
       "zeit": "2026-12-05T16:00:00+01:00",
       "heim": "CHE",
@@ -1854,7 +1875,7 @@
   "tabellen": {
     "nbaWest": {
       "name": "NBA West",
-      "stand": "Stand: 28.11., 06:15 Uhr · nach allen Spielen vom 27.11. (US-Zeit)",
+      "stand": "Stand: 28.11., 16:15 Uhr · nach allen Spielen vom 27.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -1950,7 +1971,7 @@
     },
     "nbaOst": {
       "name": "NBA Ost",
-      "stand": "Stand: 28.11., 06:15 Uhr · nach allen Spielen vom 27.11. (US-Zeit)",
+      "stand": "Stand: 28.11., 16:15 Uhr · nach allen Spielen vom 27.11. (US-Zeit)",
       "zonen": [
         {
           "von": 1,
@@ -2668,10 +2689,10 @@
       "nummer": "23",
       "position": "Forward",
       "stats": {
-        "spiele": 15,
-        "pkt": 17.1,
+        "spiele": 16,
+        "pkt": 17.4,
         "reb": 6.9,
-        "ast": 6.9
+        "ast": 6.8
       },
       "notiz": "21 Punkte, 7 Rebounds und 6 Assists beim 111:87 in Indiana. Mit den 76ers ist er Gruppensieger im NBA Cup."
     },
@@ -2681,10 +2702,10 @@
       "nummer": "11",
       "position": "Guard",
       "stats": {
-        "spiele": 18,
-        "pkt": 26.1,
+        "spiele": 19,
+        "pkt": 26.2,
         "reb": 3.1,
-        "ast": 5.9
+        "ast": 6.0
       },
       "notiz": "27 Punkte gegen Miami – trotzdem verloren die Knicks 105:108. Ihre Serie von sechs Siegen ist vorbei."
     },
@@ -2694,8 +2715,8 @@
       "nummer": "77",
       "position": "Guard",
       "stats": {
-        "spiele": 16,
-        "pkt": 36.6,
+        "spiele": 17,
+        "pkt": 36.3,
         "reb": 6.6,
         "ast": 7.7
       },
@@ -2720,10 +2741,10 @@
       "nummer": "15",
       "position": "Center",
       "stats": {
-        "spiele": 16,
-        "pkt": 24.6,
-        "reb": 10.9,
-        "ast": 8.9
+        "spiele": 17,
+        "pkt": 24.2,
+        "reb": 10.8,
+        "ast": 9.3
       },
       "notiz": "Beim 120:107 in Utah gab er 15 Assists und machte 17 Punkte."
     },
@@ -2733,10 +2754,10 @@
       "nummer": "1",
       "position": "Center",
       "stats": {
-        "spiele": 18,
-        "pkt": 30.7,
-        "reb": 12.5,
-        "ast": 3.2
+        "spiele": 19,
+        "pkt": 30.4,
+        "reb": 12.7,
+        "ast": 3.1
       },
       "notiz": "25 Punkte und 16 Rebounds beim 99:96 gegen die Lakers. Die Spurs sind jetzt Erster im Westen."
     },
@@ -3966,22 +3987,22 @@
     {
       "art": "spieler",
       "liga": "NBA",
-      "datum": "2026-11-27",
-      "titel": "Immanuel Quickley",
-      "team": "TOR",
-      "wert": "Triple-Double",
-      "grund": "24 Punkte, 14 Assists und 10 Rebounds gegen Brooklyn – in drei Kategorien zweistellig.",
-      "newsId": "2026-11-28-quickley-triple-double-nets"
+      "datum": "2026-11-25",
+      "titel": "Victor Wembanyama",
+      "team": "SAS",
+      "wert": "44 Punkte",
+      "grund": "44 Punkte und 16 Rebounds in einem Spiel – das schaffen nur ganz wenige. Trotzdem verlor San Antonio knapp in Portland.",
+      "newsId": "2026-11-26-avdija-stoppt-wembanyama"
     },
     {
       "art": "spiel",
-      "liga": "NBA",
-      "datum": "2026-11-27",
-      "heim": "SAS",
-      "gast": "LAL",
-      "wert": "16 Punkte zurück",
-      "grund": "Zur Pause lagen die Spurs 38:54 hinten. Am Ende gewannen sie das Spitzenspiel gegen die Lakers 99:96.",
-      "newsId": "2026-11-28-spurs-drehen-lakers"
+      "liga": "EL",
+      "datum": "2026-11-25",
+      "heim": "OLY",
+      "gast": "HTA",
+      "wert": "25 Punkte Vorsprung",
+      "grund": "Olympiacos schlug Hapoel Tel Aviv deutlich mit 104:79. Mit 11 Siegen aus 14 Spielen bleibt Piräus an der Spitze der Euroleague.",
+      "newsId": "2026-11-26-euroleague-mittwoch"
     }
   ],
   "legacyGestellt": [

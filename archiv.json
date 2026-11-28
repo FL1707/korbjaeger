@@ -284,6 +284,39 @@
       "spieler": []
     },
     {
+      "id": "2026-11-25-bayern-verliert-maccabi",
+      "liga": "EL",
+      "lang": "de",
+      "motiv": "duell",
+      "datum": "2026-11-25",
+      "tags": [],
+      "titel": "Bitteres Ende: Bayern verliert gegen Maccabi nach einem 17:2-Lauf",
+      "teaser": "Knapp acht Minuten vor Schluss führte der FC Bayern noch mit 72:66. Dann drehte Maccabi Tel Aviv das Spiel und gewann in München 87:79.",
+      "text": [
+        "Der FC Bayern hatte gegen Maccabi Tel Aviv lange alles im Griff. Mit der Schlusssirene des dritten Viertels traf Duane Washington einen Dreier zum 68:66. Kurz danach stand es sogar 72:66 für München.",
+        "Doch dann ging bei Bayern fast nichts mehr. Maccabi machte 17 Punkte, Bayern nur 2. Roman Sorkin war der Held der Gäste: Er traf innerhalb von etwas mehr als einer Minute einen Korbleger und zwei Dreier hintereinander.",
+        "Im letzten Viertel gelangen dem FC Bayern nur 11 Punkte. Am Ende verlor München 79:87. Bester Werfer waren Marjon Beauchamp und Duane Washington mit je 13 Punkten. Andreas Obst kam auf 12 Punkte.",
+        "In der Euroleague-Tabelle steht Bayern nach 14 Spielen mit 4 Siegen auf Platz 17. Jetzt ist erst einmal Länderspielpause. Weiter geht es in der Euroleague am Donnerstag, 3. Dezember, zu Hause gegen Paris Basketball."
+      ],
+      "fakten": [
+        "Endstand: FC Bayern – Maccabi Tel Aviv 79:87",
+        "Viertel: 21:21, 22:29, 25:16, 11:21",
+        "Marjon Beauchamp und Duane Washington: je 13 Punkte",
+        "Roman Sorkin (Maccabi): 17 Punkte, 4 Dreier",
+        "Bayern-Bilanz in der Euroleague: 4 Siege, 10 Niederlagen"
+      ],
+      "quellen": [
+        "Euroleague",
+        "FC Bayern Basketball"
+      ],
+      "teams": [
+        "FCB",
+        "MTA",
+        "PBB"
+      ],
+      "spieler": []
+    },
+    {
       "id": "2026-11-25-flagg-mavs-nuggets",
       "liga": "NBA",
       "lang": "de",
